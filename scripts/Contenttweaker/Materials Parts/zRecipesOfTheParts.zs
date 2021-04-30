@@ -79,9 +79,6 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:tin_dense_plate>,
 //Electrum Dense Plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_dense_plate>, <ore:plateElectrum>, <immersiveengineering:mold>, 160, 9);
 
-//Aluminum Dense Plate
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminium_dense_plate>, <ore:plateAluminum>, <immersiveengineering:mold>, 160, 9);
-
 //Bismuth Bronze Dense Plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:bismuth_bronze_dense_plate>, <ore:plateBismuthBronze>, <immersiveengineering:mold>, 160, 9);
 

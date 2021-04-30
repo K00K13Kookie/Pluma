@@ -75,7 +75,6 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
-        "gregtech:meta_item_1:9001",
         "immersiveengineering:metal:21",
         "thermalfoundation:material:196"
       ]

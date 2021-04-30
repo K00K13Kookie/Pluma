@@ -13,10 +13,10 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "30fd229f",
+		uid: "306a8a6b",
 		type: "item",
 		items: [{
-			item: "contenttweaker:biotitedust"
+			item: "gregtech:meta_item_1 1 2250"
 		}],
 		count: 16L
 	}],
