@@ -1,5 +1,6 @@
 {
   "materialMappings": {
+    "aluminium_casing": 106,
     "bismuth_bronze_casing": 57,
     "enhanced_aluminum_rod": 80,
     "copper_casing": 37,
@@ -20,7 +21,6 @@
     "iron_casing": 24,
     "enhanced_aluminum_block": 86,
     "obsidian_ingot": 2,
-    "aluminum_casing": 103,
     "black_steel_dense_plate": 95,
     "black_steel_casing": 93,
     "black_bronze_dense_plate": 44,
@@ -31,7 +31,6 @@
     "bismuth_bronze_dense_plate": 59,
     "wood_bolt": 12,
     "enhanced_aluminum_gear": 79,
-    "aluminum_dense_plate": 102,
     "enhanced_aluminum_dense_plate": 85,
     "enhanced_aluminum_bolt": 82,
     "h_o_p_graphite_block": 0,
