@@ -43,6 +43,10 @@ var toRemove = [
 , <gregtech:machine:3>
 , <gregtech:machine:826>
 , <gregtech:machine:825>
+, <gregtech:machine:80>
+, <gregtech:machine:81>
+, <gregtech:machine:82>
+, <gregtech:machine:83>
 ] as IItemStack[];
 
 for item in toRemove {
