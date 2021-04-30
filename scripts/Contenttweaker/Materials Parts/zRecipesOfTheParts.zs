@@ -88,6 +88,9 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:black_steel_dense
 //Silver Dense Plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:silver_dense_plate>, <ore:plateSilver>, <immersiveengineering:mold>, 160, 9);
 
+//Aluminium Dense Plate
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminium_dense_plate>, <ore:plateAluminium>, <immersiveengineering:mold>, 160, 9);
+
 # Rotor Recipes on the Press ================================
 
 //Steel Rotor
