@@ -1,0 +1,46 @@
+{
+	title: "Black Bronze?",
+	icon: "contenttweaker:material_part 1 32",
+	x: 0.0d,
+	y: -9.5d,
+	shape: "square",
+	text: [
+		"By Mixing Black Quartz and Biotite, you've managed to get an Obscure Compound. And as you can see, It can be used to make a Strong Material Called ",
+		"Black Bronze! just mix the Dust with a Bronze ingot to Enhance it!"
+	],
+	dependencies: [
+		"d41f1d7e"
+	],
+	tasks: [{
+		uid: "821871b7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obscurecompound"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0481959c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBlackBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBlackBronze"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3a486285",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

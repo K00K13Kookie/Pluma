@@ -1,0 +1,31 @@
+{
+	title: "Stone",
+	icon: "minecraft:stone_pickaxe",
+	x: 1.4778911564625759d,
+	y: -1.5095238095238024d,
+	shape: "hexagon",
+	description: "Tier 2",
+	text: [
+		"Now You'll have acess to Stone Tools but also, be prepared! Zombies will start Rising!"
+	],
+	dependencies: [
+		"6dd634eb",
+		"87623e84"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea5fdd1c",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 10 16"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee185ed0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "StoneManipulationResearch"
+	}]
+}

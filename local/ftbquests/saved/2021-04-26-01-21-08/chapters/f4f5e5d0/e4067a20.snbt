@@ -1,0 +1,29 @@
+{
+	title: "A Brief Explanation About Researches",
+	icon: "ftbquests:book",
+	x: -9.0d,
+	y: -4.0d,
+	shape: "pentagon",
+	description: "Learn about how they work",
+	text: [
+		"First of all, by completing a Research you'll imediatly unlock content related to it but there's a little bit more into it as:",
+		"",
+		"- §9Blue Researches§f are §9Unique§f.",
+		"",
+		"- §aOther Colors§f mean that it is a §aProgression Line§f containing more than 1 Research on the Subject",
+		"",
+		"Also keep in mind that the First Research of each line is probally easier since it is meant to be done as early as possible, but, the other ones after that may require you to start producing §c\"Research Crystals\"§f you'll be more informed about it",
+		"when the time comes, but keep in min that §aresearches§f will become more and more complicated as time passes and they're §aVERY IMPORTANT to unlock improvements§f for your Factory/Base."
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "4d14fcfc",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e23da9c8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

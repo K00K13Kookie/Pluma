@@ -1,0 +1,27 @@
+{
+	title: "An Important Reminder",
+	icon: "minecraft:lit_pumpkin",
+	x: -14.976190476190482d,
+	y: -2.9166666666666643d,
+	shape: "rsquare",
+	description: "Seriously, read this",
+	text: [
+		"This will be probally the last time that I will do that for you in the Main Questline, but, always take a look at the Research Tab upon a Quest completion.",
+		"",
+		"Right now for example, you've Unlocked Storage II! go check it out and always remember to check."
+	],
+	dependencies: [
+		"742ce34d"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "9945ce49",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fbccc1b7",
+		type: "item",
+		item: "integrateddynamics:menril_sapling"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "A Much resistent Variation of Steel!",
+	x: -19.0d,
+	y: -6.0d,
+	shape: "square",
+	description: "Black Steel!",
+	text: [
+		"Just as Enhanced Aluminum, you can Enhance Steel into Black Steel now that you have a Primitive Blast Furnace!",
+		"",
+		"Black Steel is a very Resistent variation of Steel, it will be used specially to make some Blocks that require that Resistent Aspect!"
+	],
+	dependencies: [
+		"4f69a897"
+	],
+	tasks: [{
+		uid: "fd619c60",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10231"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "92da1bce",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "fb42cd47",
+		type: "gamestage",
+		title: "Unlocks More Knowladge!",
+		auto: "invisible",
+		stage: "ThermalUpgradeKits"
+	}]
+}

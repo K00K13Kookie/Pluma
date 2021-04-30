@@ -1,0 +1,89 @@
+{
+	title: "Starting to get Toasty",
+	icon: "immersivetech:metal_multiblock 1 1",
+	x: -3.0d,
+	y: -14.25d,
+	shape: "square",
+	text: [
+		"Now you will advance even more in Heavy Machinery, but for that, you'll need A LOT of Power!",
+		"",
+		"And for that, lets work on an Automatic Steam Setup! First, The Solar Tower!",
+		"",
+		"Just remember that for the Solar Tower you'll need at least one Solar Reflector, and they can be placed 5-10 blocks away from the Tower Itself."
+	],
+	dependencies: [
+		"c1fed370",
+		"f40aafd0",
+		"999516ee"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "078c18c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "scaffoldingSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any scaffoldingSteel"
+				}
+			}
+		}],
+		count: 14L
+	},
+	{
+		uid: "a113dce4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d08402f9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "d79c5b2c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "9f279d11",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 20L
+	},
+	{
+		uid: "f46dcb2f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d04ac6bf",
+		type: "fluid",
+		fluid: "steam"
+	}],
+	rewards: [{
+		uid: "b087fb63",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

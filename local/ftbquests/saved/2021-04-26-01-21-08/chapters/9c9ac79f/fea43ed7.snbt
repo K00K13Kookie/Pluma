@@ -1,0 +1,30 @@
+{
+	title: "Projecting your Structures as you go",
+	x: 1.5d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"The Projector is a VERY usefull device in immersive engineering, as it shows exactly how certain multiblock structures are build.",
+		"",
+		"Simply combine it in a crafting grid with an engineers manual that is on the page that contains a multiblock structure and voilá!"
+	],
+	dependencies: [
+		"75575132",
+		"2827e6ad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0c0c7e44",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6786f24b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

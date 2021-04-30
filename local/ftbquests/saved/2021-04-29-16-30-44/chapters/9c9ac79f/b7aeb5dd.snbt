@@ -1,0 +1,37 @@
+{
+	title: "Interacting with Fluids!",
+	icon: "actuallyadditions:block_fluid_collector",
+	x: 5.0d,
+	y: -13.0d,
+	shape: "rsquare",
+	text: [
+		"These \"Special\" Machines are capable of Placing and Collecting Fluids! Maybe they can be used in your Automations.",
+		"",
+		"And no, the Fluid Collector Cannot be used as a Pump! ;P"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "562a10c5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_fluid_placer"
+		}]
+	},
+	{
+		uid: "8cb30ee4",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_fluid_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "cb157b91",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

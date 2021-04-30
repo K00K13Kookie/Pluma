@@ -1,0 +1,56 @@
+{
+	title: "Getting your hands Sticky!",
+	icon: "techreborn:treetap",
+	x: 3.5d,
+	y: -17.0d,
+	shape: "square",
+	description: "Time to get Rubber!",
+	text: [
+		"To get yourself rubber, simply find a Rubber Tree (More frequent in Swamps) and extract Sap from the Dots on the Logs.",
+		"",
+		"Once you have Sap, simply smelt it to get Rubber!"
+	],
+	dependencies: [
+		"1d17fa74"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df71a6fe",
+		type: "item",
+		items: [{
+			item: "techreborn:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ecd43e52",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 31"
+		}]
+	},
+	{
+		uid: "210d3515",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "d4850d2f",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "a6df1dc3",
+		type: "item",
+		item: "techreborn:rubber_sapling",
+		random_bonus: 4
+	},
+	{
+		uid: "86e18cc5",
+		type: "item",
+		item: "techreborn:treetap"
+	}]
+}

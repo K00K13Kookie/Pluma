@@ -1,0 +1,27 @@
+{
+	title: "Automatic Breeding",
+	x: 7.0d,
+	y: -13.0d,
+	shape: "rsquare",
+	text: [
+		"The Animal Feeder is exaclty what you're thinking about. Simply Provide it with Food for Animals and it will breed them automatically for you."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ceecd0c7",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_feeder"
+		}]
+	}],
+	rewards: [{
+		uid: "3d0d7ab2",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

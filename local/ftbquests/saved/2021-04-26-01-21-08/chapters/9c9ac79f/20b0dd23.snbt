@@ -1,0 +1,29 @@
+{
+	title: "Storing your Experience for later use",
+	x: 7.0d,
+	y: -11.0d,
+	shape: "rsquare",
+	text: [
+		"Now you can craft a Tome of Knowladge! this special Item offers you a way to store XP inside of it! right click to store and shift+right click to extract from it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c3a02f6",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:tome_experience",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e958b29",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

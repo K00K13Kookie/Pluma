@@ -1,0 +1,126 @@
+tile.contenttweaker.andesiteSmooth.name=Smooth Andesite
+
+tile.contenttweaker.basaltSmooth.name=Smooth Basalt
+
+tile.contenttweaker.chalkSmooth.name=Smooth Chalk
+
+tile.contenttweaker.chertSmooth.name=Smooth Chert
+
+tile.contenttweaker.daciteSmooth.name=Smooth Dacite
+
+tile.contenttweaker.dolomiteSmooth.name=Smooth Dolomite
+
+tile.contenttweaker.eclogiteSmooth.name=Smooth Eclogite
+
+tile.contenttweaker.gabbroSmooth.name=Smooth Gabbro
+
+tile.contenttweaker.gneissSmooth.name=Smooth Gneiss
+
+tile.contenttweaker.graniteSmooth.name=Smooth Granite
+
+tile.contenttweaker.greenchistSmooth.name=Smooth Green Chist
+
+tile.contenttweaker.limestoneSmooth.name=Smooth Limestone
+
+tile.contenttweaker.marbleSmooth.name=Smooth Marble
+
+tile.contenttweaker.quartziteSmooth.name=Smooth Quartzite
+
+tile.contenttweaker.rhyoliteSmooth.name=Smooth Rhyolite
+
+tile.contenttweaker.shaleSmooth.name=Smooth Shale
+
+
+
+
+tile.contenttweaker.AndesiteRoad.name=Andesite Road
+
+tile.contenttweaker.BasaltRoad.name=Basalt Road
+
+tile.contenttweaker.ChalkRoad.name=Chalk Road
+
+tile.contenttweaker.ChertRoad.name=Chert Road
+
+tile.contenttweaker.DaciteRoad.name=Dacite Road
+
+tile.contenttweaker.DolomiteRoad.name=Dolomite Road
+
+tile.contenttweaker.EclogiteRoad.name=Eclogite Road
+
+tile.contenttweaker.GabbroRoad.name=Gabbro Road
+
+tile.contenttweaker.GneissRoad.name=Gneiss Road
+
+tile.contenttweaker.GraniteRoad.name=Granite Road
+
+tile.contenttweaker.GreenChistRoad.name=Green Chist Road 
+
+tile.contenttweaker.LimestoneRoad.name=Limestone Road
+
+tile.contenttweaker.MarbleRoad.name=Marble Road
+
+tile.contenttweaker.QuartziteRoad.name=Quartzite Road
+
+tile.contenttweaker.RhyoliteRoad.name=Rhyolite Road
+
+tile.contenttweaker.ShaleRoad.name=Shale Road
+
+
+fluid.liquid_rubber=Rubber
+
+
+item.contenttweaker.trtoken.name=Transportation Research Token
+
+item.contenttweaker.ERToken.name=Enchanter Research Token
+
+item.contenttweaker.ARToken.name=Alchemical Research Token
+
+item.contenttweaker.SRToken.name=Storage Research Token
+item.contenttweaker.SRTokenII.name=Storage II Research Token
+
+item.contenttweaker.LGRToken.name=Logistics Research Token
+item.contenttweaker.LGRTokenII.name=Logistics II Research Token
+
+item.contenttweaker.ETRToken.name=Energy Transportation Research Token
+item.contenttweaker.ETRTokenII.name=Energy Transportation II Research Token
+
+item.contenttweaker.LRToken.name=Liquid Transportation Research Token
+item.contenttweaker.LRTokenII.name=Liquid Transportation II Research Token
+
+item.contenttweaker.magnesiumPlate.name=Magnesium Plate
+
+item.contenttweaker.bronzeMechanicalComponent.name=Bronze Mechanical Component
+item.contenttweaker.silverMechanicalComponent.name=Silver Mechanical Component
+
+item.contenttweaker.obscureCompound.name=Obscure Compound
+
+item.contenttweaker.blackBronzePlate.name=Black Bronze Plate
+item.contenttweaker.blackBronzeGear.name=Black Bronze Gear
+item.contenttweaker.blackBronzeRod.name=Black Bronze Rod
+item.contenttweaker.blackBronzeBolt.name=Black Bronze Bolt
+
+item.contenttweaker.boltMold.name=Metal Press Mold: Bolt
+item.contenttweaker.casingMold.name=Metal Press Mold: Casing
+item.contenttweaker.tubeMold.name=Metal Press Mold: Tube
+item.contenttweaker.rotorMold.name=Metal Press Mold: Rotor
+
+item.contenttweaker.cowleather.name=Raw Cow hide
+item.contenttweaker.horseleather.name=Raw Horse hide
+item.contenttweaker.mooshroomleather.name=Raw Mooshroom hide
+item.contenttweaker.pigleather.name=Raw Pig hide
+item.contenttweaker.saltedHide.name=Salted hide
+item.contenttweaker.driedHide.name=Dried hide
+item.contenttweaker.tannedHide.name=Tanned hide
+
+item.contenttweaker.parchment.name=Parchment
+
+item.contenttweaker.steelRotor.name=Steel Rotor
+item.contenttweaker.blacksteelRotor.name=Black Steel Rotor  
+
+item.contenttweaker.redCrystal.name=Red Crystal
+item.contenttweaker.greenCrystal.name=Green Crystal
+item.contenttweaker.blueCrystal.name=Blue Crystal
+item.contenttweaker.yellowCrystal.name=Yellow Crystal
+item.contenttweaker.violetCrystal.name=Violet Crystal
+
+item.contenttweaker.menrilSheet.name=Menril Sheet

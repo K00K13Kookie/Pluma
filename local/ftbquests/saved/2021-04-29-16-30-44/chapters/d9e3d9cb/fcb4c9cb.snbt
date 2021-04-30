@@ -1,0 +1,42 @@
+{
+	title: "Iron",
+	icon: "minecraft:iron_pickaxe",
+	x: 3.6802721088435177d,
+	y: -1.4986394557822962d,
+	shape: "hexagon",
+	description: "Tier 5",
+	text: [
+		"Now You'll have acess to Iron Tools but also, be prepared! Creepers will start Rising!"
+	],
+	dependencies: [
+		"c93a5957",
+		"aadf065c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4f127bda",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIron"
+				}
+			}
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "432cf03a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "IronManipulationResearch"
+	}]
+}

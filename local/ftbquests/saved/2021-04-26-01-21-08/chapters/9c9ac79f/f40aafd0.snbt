@@ -1,0 +1,26 @@
+{
+	title: "An Effiecient Way to carry Fluids",
+	x: -3.0d,
+	y: -17.0d,
+	shape: "square",
+	text: [
+		"The Cells from Tech Reborn can store 1 Bucket of a Fluid and also can be Stacked Together! that is a Real Improvement from Buckets! "
+	],
+	dependencies: [
+		"f1522e19",
+		"999516ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "adf2dbf1",
+		type: "item",
+		items: [{
+			item: "techreborn:dynamiccell"
+		}]
+	}],
+	rewards: [{
+		uid: "becc9583",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Bronze",
+	icon: "thermalfoundation:tool.pickaxe_bronze",
+	x: 2.945578231292508d,
+	y: -1.4986394557822962d,
+	shape: "hexagon",
+	description: "Tier 4",
+	text: [
+		"Bronze level Tools and Materials are going to be available!"
+	],
+	dependencies: [
+		"66ab332e",
+		"7323d690"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3737cf2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7898e44f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "BronzeManipulationResearch"
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Collecting... Bees?",
+	icon: "forestry:scoop",
+	x: 12.0d,
+	y: -9.0d,
+	shape: "square",
+	text: [
+		"The Scoop can be used to harvest Bee hives! they'll drop some special bee related stuff, most importantly, try to collect at least a Princess, a drone and some Combs."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"13615611"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0ad4edda",
+		type: "item",
+		items: [{
+			item: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe0b2de0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "beeComb",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any beeComb"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "25f0ef92",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

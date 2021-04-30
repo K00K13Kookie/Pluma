@@ -1,0 +1,24 @@
+{
+	title: "Energy for days!",
+	icon: "immersiveengineering:metal_device0 1 2",
+	x: -7.5d,
+	y: -11.0d,
+	shape: "gear",
+	description: "Lets make more Machines!",
+	text: [
+		"Now that you finally have a good supply of energy, the Next few quests will be about making machines that improve and help your gameplay!"
+	],
+	dependencies: [
+		"c9f242d9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aa112d11",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e6f857fc",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

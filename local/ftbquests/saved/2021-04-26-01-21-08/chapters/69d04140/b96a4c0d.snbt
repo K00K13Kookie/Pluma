@@ -1,0 +1,23 @@
+{
+	title: "Coal Byproducts!",
+	icon: "pyrotech:fluid.coal_tar",
+	x: 13.0d,
+	y: -6.0d,
+	text: [
+		"By burning coal blocks inside of your Refractory, besides making Coal Coke in bulk, you'll gonna be producing Coal Tar as a Byproduct! collect it as it is important."
+	],
+	dependencies: [
+		"35c2fd51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3013edac",
+		type: "fluid",
+		fluid: "coal_tar"
+	}],
+	rewards: [{
+		uid: "b4dcb1a8",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

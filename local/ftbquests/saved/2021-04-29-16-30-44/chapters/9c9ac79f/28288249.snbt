@@ -1,0 +1,46 @@
+{
+	title: "Dark Areas, Be Gonne!",
+	icon: "actuallyadditions:block_lamp_powerer",
+	x: 7.0d,
+	y: -12.0d,
+	shape: "rsquare",
+	text: [
+		"Now you can Craft (using different dyes to make different colors) Lamps! Right clicking them will light them up, but, if you apply a redstone signal into a lamp controller it will turn on adjacent lamps to it and to the lamps themselves!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "0279a3a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "actuallyLamp",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any actuallyLamp"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ef0ea5ce",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_lamp_powerer"
+		}]
+	}],
+	rewards: [{
+		uid: "ba27cb37",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

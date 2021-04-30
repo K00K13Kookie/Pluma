@@ -1,0 +1,56 @@
+{
+	title: "Storage II",
+	icon: "contenttweaker:srtokenii",
+	x: -6.5d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "Simplistic Storage System, Caches, Strongboxes and More!",
+	text: [
+		"This Research will grant you Acess to",
+		"",
+		"- Better Storage solutions such as Strongboxes, Easier Caches and Even a Simple Storage System!"
+	],
+	dependencies: [
+		"6fc1dbe8",
+		"742ce34d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5cc67a52",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 89"
+		}],
+		count: 10L
+	},
+	{
+		uid: "49728832",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 81"
+		}],
+		count: 12L
+	},
+	{
+		uid: "a4dd115c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 31"
+		}],
+		count: 24L
+	},
+	{
+		uid: "3e044a12",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_menril_block"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b4294ddb",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "StorageResearchII"
+	}]
+}

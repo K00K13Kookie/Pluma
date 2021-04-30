@@ -1,0 +1,69 @@
+{
+	title: "Arborealis Extraction",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		},
+		Damage: 3s
+	},
+	x: 5.0d,
+	y: -17.0d,
+	shape: "square",
+	text: [
+		"You've got yourself some Sap out of Tree's using a Tree tap right? why not actually \"Automate\" de Process? by using an Arboreal Extractor, you'll get Liquid Sap! right now you can't solidify it into Rubber, but further on You'll be capable of it!",
+		"",
+		"And there's also some recipes that require the Liquid one ;P"
+	],
+	dependencies: [
+		"678d07ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f13715f7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "d652291a",
+		type: "fluid",
+		fluid: "sap"
+	}],
+	rewards: [{
+		uid: "6541a176",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "2611cf71",
+		type: "item",
+		item: "techreborn:part 1 32",
+		count: 4
+	}]
+}

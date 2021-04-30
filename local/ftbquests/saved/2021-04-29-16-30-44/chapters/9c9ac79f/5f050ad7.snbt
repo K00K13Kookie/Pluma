@@ -1,0 +1,52 @@
+{
+	title: "Working towards your first Circuit I",
+	icon: "immersiveengineering:material 1 26",
+	x: -7.5d,
+	y: -7.5d,
+	shape: "square",
+	description: "Vacuum Tubes!",
+	text: [
+		"Congratulations, now that you have a solid base with some machines, it is time to start working towards some Circuits! in this Pack, you'll be making Different circuits for different tiers and in this case, Lets make a Primitive Circuit!",
+		"",
+		"And the first thing you'll need is a Vaacum Tube!"
+	],
+	dependencies: [
+		"e75f5dc5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "593e44ec",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 8"
+		}]
+	},
+	{
+		uid: "5c0d7723",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tubemold"
+		}]
+	},
+	{
+		uid: "0e07c62a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:glasstube"
+		}],
+		count: 2L
+	},
+	{
+		uid: "aa8f88f1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 26"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "66180a57",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Working towards your first Circuit II",
+	icon: "contenttweaker:coatedboard",
+	x: -7.5d,
+	y: -6.0d,
+	shape: "square",
+	description: "Circuit Boards, Resistors and Red Alloy Cables!",
+	text: [
+		"If you haven't completed the Rubber quest yet, I really advice you to do so as it its totally related with the Progression to make the Circuit Boards!",
+		"",
+		"Also, All of these components will be used to make your first Circuit! nothing that special about them, just keep in mind the Boards require Liquid Rubber."
+	],
+	dependencies: [
+		"5f050ad7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "349356e9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coatedboard"
+		}]
+	},
+	{
+		uid: "6287769f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:resistor"
+		}],
+		count: 2L
+	},
+	{
+		uid: "34d1b776",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "projredInsulatedWire",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any projredInsulatedWire"
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "99ac0df2",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

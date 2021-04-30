@@ -1,0 +1,41 @@
+{
+	title: "Interacting with Blocks!",
+	icon: "actuallyadditions:block_breaker",
+	x: 5.0d,
+	y: -14.0d,
+	shape: "rsquare",
+	text: [
+		"These \"Special\" Machines are capable of Breaking and actually Placing blocks! Maybe they can be used in your Automations."
+	],
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "5186c8c1",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_breaker"
+		}]
+	},
+	{
+		uid: "cbb59bc0",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_placer"
+		}]
+	},
+	{
+		uid: "85b9b842",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_directional_breaker"
+		}]
+	}],
+	rewards: [{
+		uid: "a3314723",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,108 @@
+{
+	title: "Random Bronze Enchanted CraftingTool!",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			ench: [{
+				lvl: 2s,
+				id: 34s
+			}],
+			GT.ToolStats: {
+				Material: "bronze"
+			}
+		},
+		Damage: 6s
+	},
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 13s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 12s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 6s
+		}
+	}]
+}

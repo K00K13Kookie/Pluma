@@ -1,0 +1,67 @@
+{
+	title: "Lets Cook Something!",
+	icon: "pyrotech:campfire",
+	x: -4.974829931972813d,
+	y: -7.247959183673494d,
+	shape: "rsquare",
+	text: [
+		"The Campfire is very important in the Early game, it is going to be your way to Cook the Meat and/or Other foods to also increase the Saturation that you'll get from them.",
+		"",
+		"Steps to make a Campfire:",
+		"",
+		"1- Craft and Place a Tinder on the Ground",
+		"",
+		"2- Add logs to the Tinder (Right Click) More Logs = More Burn time.",
+		"",
+		"3- Place your Food and Light it up! ",
+		"",
+		"",
+		"And also, PAY ATTENTION! your food can actually burn if you don't collect it on the Right time."
+	],
+	dependencies: [
+		"04bde3fc",
+		"1a9ebb00"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "820093ab",
+		type: "item",
+		items: [{
+			item: "pyrotech:tinder"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6016f4e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2070c77d",
+		type: "item",
+		items: [{
+			item: "pyrotech:apple_baked"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e93aab7",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

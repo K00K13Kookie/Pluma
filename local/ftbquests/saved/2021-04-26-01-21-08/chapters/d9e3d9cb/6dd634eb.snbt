@@ -1,0 +1,31 @@
+{
+	title: "Flint",
+	icon: "pyrotech:flint_pickaxe",
+	x: 0.743197278911552d,
+	y: -1.509523809523806d,
+	shape: "hexagon",
+	description: "Tier 1",
+	text: [
+		"Now You'll have acess to Flint Tools but also, be prepared! Spiders and Witches will start Rising!"
+	],
+	dependencies: [
+		"e264c940",
+		"ffc624bf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "16122caa",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 10 10"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cf34ae2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "FlintManipulationResearch"
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "A Better way to Process Wood!",
+	icon: "pyrotech:stone_sawmill",
+	x: -8.0d,
+	y: -10.0d,
+	shape: "gear",
+	text: [
+		"Now that You've adquired Masonry Bricks, time to start making some Improvements to our Infrastructure! First of All, An \"Automatic\" Way to Process Wood!",
+		"",
+		"- You'll need the Blade to cut wood, Better Blades can be made in the Future.",
+		"",
+		"- Just to help you out, all of Pyrotech Machines are Interactive and Don't have a GUI so you'll need to place your wood above, and the Fuel (A Burnable Product) on the designated spot bellow.",
+		"",
+		"and Don't forget to use your Tinder to Start the Fire!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87623e84"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "4f922889",
+		type: "item",
+		items: [{
+			item: "pyrotech:sawmill_blade_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e5d5f31",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8c1c32a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

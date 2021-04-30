@@ -1,0 +1,31 @@
+{
+	title: "Having trouble when building Multiblocks?",
+	x: -17.0d,
+	y: -8.0d,
+	shape: "rsquare",
+	description: "Blueprints are not required but they're Usefull!",
+	text: [
+		"As it was said, you don't need a Blueprint in order for the Machine to function, but, they're handy so if you need them, simply craft one empty and it can be Chiseled into any of them!"
+	],
+	dependencies: [
+		"4f69a897"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bf1febb8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemblueprint"
+		}]
+	}],
+	rewards: [{
+		uid: "5b13aca3",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "2ee13368",
+		type: "item",
+		item: "chisel:chisel_iron"
+	}]
+}
