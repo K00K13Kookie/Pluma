@@ -65,14 +65,3 @@ for item in toRemove {
     mods.jei.JEI.removeAndHide(item);
 }
 
-
-######### Removing 2 Specific Circuits from the Assembler Aswell
-
-// 1-ULV 2-LV 3-MV 4-HV 5-EV 6-IV 7-LUV 8-ZPM 9-UV 10-MAX
-
-
-	// findRecipe(long voltage, IItemHandlerModifiable inputs, IMultipleTankHandler/List<FluidStack> fluidInputs)
-	assembler.findRecipe(1, [<gregtech:meta_item_2:32488>], null).remove();
-
-	assembler.findRecipe(3, [<gregtech:meta_item_2:32507>], null).remove();
-	assembler.findRecipe(5, [<gregtech:meta_item_2:32507>], null).remove();
