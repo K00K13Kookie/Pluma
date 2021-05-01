@@ -41,7 +41,31 @@ var MachineryGates as IItemStack[] = [
 <gregtech:meta_item_1:32318>,
 <gregtech:meta_item_1:32762>,
 <gregtech:meta_item_2:32443>,
-<gregtech:meta_item_2:32451>
+<gregtech:meta_item_2:32451>,
+<gregtech:boiler_casing>,
+<gregtech:boiler_casing:1>,
+<gregtech:boiler_firebox_casing>,
+<gregtech:boiler_firebox_casing:1>,
+<gregtech:metal_casing>,
+<gregtech:metal_casing:1>,
+<gregtech:metal_casing:2>,
+<gregtech:metal_casing:8>,
+<gregtech:turbine_casing>,
+<gregtech:turbine_casing:1>,
+<gregtech:machine_casing:10>,
+<gregtech:machine_casing:11>,
+<gregtech:machine_casing:12>,
+<gregtech:machine_casing:13>,
+<gregtech:warning_sign>,
+<gregtech:warning_sign:1>,
+<gregtech:warning_sign:2>,
+<gregtech:warning_sign:3>,
+<gregtech:warning_sign:4>,
+<gregtech:warning_sign:5>,
+<gregtech:warning_sign:6>,
+<gregtech:warning_sign:7>,
+<gregtech:warning_sign:8>,
+<gregtech:warning_sign:9>
 
     ];
 

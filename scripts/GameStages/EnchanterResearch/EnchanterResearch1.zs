@@ -142,7 +142,8 @@ var EnchantGates as IItemStack[] = [
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 31 as short}]}),
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 31 as short}]}),
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 31 as short}]}),
-<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 31 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 31 as short}]}),
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 23 as short}]})
 ];
 
 for i in EnchantGates {

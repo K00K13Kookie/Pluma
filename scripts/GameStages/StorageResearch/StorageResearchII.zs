@@ -7,7 +7,14 @@ var StorageGatesII as IItemStack[] = [
 <integratedterminals:part_terminal_storage_item>,
 <integratedtunnels:part_interface_item_item>,
 <integrateddynamics:facade>,
-<thermalexpansion:strongbox>
+<thermalexpansion:strongbox>,
+<gregtech:machine:802>,
+<gregtech:machine:803>,
+<gregtech:machine:804>,
+<gregtech:machine:805>,
+<gregtech:machine:806>,
+<gregtech:machine:807>,
+<gregtech:machine:808>
 ];
 
 for i in StorageGatesII {
