@@ -1,21 +1,26 @@
 {
-  "weight": 140,
-  "density": 0.5,
-  "max_height": 60,
+  "weight": 80,
+  "density": 0.3,
+  "max_height": 150,
   "min_height": 30,
+  "dimension_filter": [
+    "is_nether"
+  ],
   "vein_populator": {
     "type": "surface_block",
     "block": {
-      "block": "plants2:cosmetic_4",
-      "type": "viola_c"
+      "block": "plants2:nether_harvest",
+      "type": "magma"
     },
     "min_amount": 3,
     "max_amount": 5
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
-    "radius": [13, 16]
+    "radius": [
+      16,
+      17
+    ]
   },
   "filler": {
     "type": "simple",
@@ -23,16 +28,16 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 50,
-          "value": "ore:galena"
+          "weight": 40,
+          "value": "ore:sulfur"
+        },
+        {
+          "weight": 35,
+          "value": "ore:stibnite"
         },
         {
           "weight": 25,
-          "value": "ore:silver"
-        },
-		{
-          "weight": 25,
-          "value": "ore:lead"
+          "value": "ore_dict:oreArdite"
         }
       ]
     }
