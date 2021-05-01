@@ -508,8 +508,8 @@ RecipeBuilder.get("engineer")
   .addOutput(<gregtech:meta_item_2:32443>)
   .create();
 
-//Primitive Circuit Board
-mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
+//Primitive Circuit
+mods.immersiveengineering.Blueprint.removeRecipe(<gregtech:meta_item_2:32487>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<gregtech:meta_item_2:32455>, <ore:casingCopper>, <gregtech:meta_item_2:32455>],
@@ -519,7 +519,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansLens>, 2)
   .addTool(<ore:artisansSolderer>, 8)
   .addTool(<ore:artisansBurner>, 5)
-  .addOutput(<immersiveengineering:material:27>)
+  .addOutput(<gregtech:meta_item_2:32487>)
   .create();  
 
 //Drill Component

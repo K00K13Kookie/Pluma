@@ -3,21 +3,6 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
 
-# Circuit Rework into Primitive Circuit ===================================
-
-//Vacuum Tube mini-rework ==================
-
-//Insulating Glass
-recipes.remove(<immersiveengineering:stone_decoration:8>);
-recipes.addShaped(<immersiveengineering:stone_decoration:8> * 4, [[<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>], [<ore:strengthenedGlass>, <ore:dustBismuthBronze>, <ore:strengthenedGlass>],[<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>]]);
-
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_2:32454>, <immersiveengineering:stone_decoration:8>, <contenttweaker:tubemold>, 80);
-mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:26>);
-mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineering:material:26> * 2, [<gregtech:meta_item_2:32454>, <ore:plateNickel>, <ore:wireCopper>, <ore:dustElectrotine>]);
-
-<immersiveengineering:material:27>.displayName = "Primitive Circuit";
-
-<immersiveengineering:material:27>.addTooltip(format.gold("Tier 1 Circuit"));
 
 // Adding Immersive Tools to Artisan's OreDicts
 
