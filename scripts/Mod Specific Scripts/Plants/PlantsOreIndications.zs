@@ -14,3 +14,9 @@
 <plants2:cosmetic_4:15>.addTooltip(format.green("This Plant Indicates an Galena Vein underground!")); //Cry Violet -> Galena Vein
 <plants2:cosmetic_3>.addTooltip(format.green("This Plant Indicates an Heavy Oil agglomeration underground!")); //Cephalophyllum Parvulum -> Heavy Oil Sphere
 <plants2:cosmetic_0:3>.addTooltip(format.green("This Plant Indicates an Iron Vein underground!")); //South American Rose -> Iron Vein
+<plants2:cosmetic_5:1>.addTooltip(format.green("This Plant Indicates an Lapis Vein underground!")); //Bachelor's Button -> Lapis Vein
+<plants2:cosmetic_2:7>.addTooltip(format.green("This Plant Indicates an Light Oil agglomeration underground!")); //Argocoffeeopsis -> Light Oil Sphere
+<plants2:cosmetic_4:9>.addTooltip(format.green("This Plant Indicates an Lignite Coal Vein underground!")); //Streblorrhiza Speciosa -> Lignite Coal Vein
+<plants2:cosmetic_6>.addTooltip(format.green("This Plant Indicates an Magnetite Vein underground!")); //Weldenia Candida -> Magnetite Vein
+<plants2:cosmetic_0:12>.addTooltip(format.green("This Plant Indicates an Manganese Vein underground!")); //March Lily -> Manganese Vein
+<plants2:cosmetic_0:5>.addTooltip(format.green("This Plant Indicates an Raw Oil agglomeration underground!")); //stringwood -> Raw Oil Sphere
