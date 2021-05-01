@@ -5,4 +5,12 @@
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-<plants2:cosmetic_1>.addTooltip(format.green("This Plant Indicates an Apatite Vein underground")); //African Lily -> Apatite Vein
+<plants2:cosmetic_1>.addTooltip(format.green("This Plant Indicates an Apatite Vein underground!")); //African Lily -> Apatite Vein
+<plants2:cosmetic_2:6>.addTooltip(format.green("This Plant Indicates an Bauxite Vein underground!")); //Italian Bugloss -> Bauxite Vein
+<plants2:harvest_0:2>.addTooltip(format.green("This Plant Indicates an Beryllium Vein underground!")); //Annual Ragweed -> Beryllium Vein
+<plants2:cosmetic_4:4>.addTooltip(format.green("This Plant Indicates an Coal Vein underground!")); //Psoralea Macrophylla -> Coal Vein
+<plants2:cosmetic_2:9>.addTooltip(format.green("This Plant Indicates an Copper Vein underground!")); //Orange Milkweed -> Copper Vein
+<plants2:cosmetic_6:4>.addTooltip(format.green("This Plant Indicates an Diamond Vein underground!")); //Cambridge Blue -> Diamond Vein
+<plants2:cosmetic_4:15>.addTooltip(format.green("This Plant Indicates an Galena Vein underground!")); //Cry Violet -> Galena Vein
+<plants2:cosmetic_3>.addTooltip(format.green("This Plant Indicates an Heavy Oil agglomeration underground!")); //Cephalophyllum Parvulum -> Heavy Oil Sphere
+<plants2:cosmetic_0:3>.addTooltip(format.green("This Plant Indicates an Iron Vein underground!")); //South American Rose -> Iron Vein
