@@ -3,6 +3,12 @@ import crafttweaker.item.IItemStack;
 
 var MachineryGates as IItemStack[] = [
 
+//Contenttweaker
+<contenttweaker:casingmold>,
+<contenttweaker:rotormold>,
+<contenttweaker:tubemold>,
+<contenttweaker:boltmold>,
+
 //Trash Cans
 <trashcans:item_trash_can>,
 <trashcans:liquid_trash_can>,
@@ -516,7 +522,8 @@ var MachineryGates as IItemStack[] = [
 //NuclearCraft
 <nuclearcraft:cobblestone_generator>,
 <nuclearcraft:cobblestone_generator_compact>,
-<nuclearcraft:cobblestone_generator_dense>
+<nuclearcraft:cobblestone_generator_dense>,
+<nuclearcraft:part:4>
     ];
 
 for i in MachineryGates {
