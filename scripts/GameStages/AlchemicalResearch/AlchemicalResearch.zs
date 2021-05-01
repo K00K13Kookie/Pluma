@@ -450,7 +450,22 @@ var AlchemyGates as IItemStack[] = [
 <minecraft:lingering_potion>.withTag({Potion: "railcraft:strong_creosote"}),
 <minecraft:tipped_arrow>.withTag({Potion: "railcraft:creosote"}),
 <minecraft:tipped_arrow>.withTag({Potion: "railcraft:long_creosote"}),
-<minecraft:tipped_arrow>.withTag({Potion: "railcraft:strong_creosote"})
+<minecraft:tipped_arrow>.withTag({Potion: "railcraft:strong_creosote"}),
+<minecraft:potion>.withTag({Potion: "plants2:wither"}),
+<minecraft:potion>.withTag({Potion: "plants2:regen_heal"}),
+<minecraft:potion>.withTag({Potion: "plants2:cauldron_brew"}),
+<minecraft:potion>.withTag({Potion: "plants2:levitation"}),
+<minecraft:splash_potion>.withTag({Potion: "plants2:wither"}),
+<minecraft:splash_potion>.withTag({Potion: "plants2:regen_heal"}),
+<minecraft:splash_potion>.withTag({Potion: "plants2:cauldron_brew"}),
+<minecraft:splash_potion>.withTag({Potion: "plants2:levitation"}),
+<minecraft:tipped_arrow>.withTag({Potion: "plants2:wither"}),
+<minecraft:tipped_arrow>.withTag({Potion: "plants2:regen_heal"}),
+<minecraft:tipped_arrow>.withTag({Potion: "plants2:levitation"}),
+<minecraft:lingering_potion>.withTag({Potion: "plants2:wither"}),
+<minecraft:lingering_potion>.withTag({Potion: "plants2:regen_heal"}),
+<minecraft:lingering_potion>.withTag({Potion: "plants2:cauldron_brew"}),
+<minecraft:lingering_potion>.withTag({Potion: "plants2:levitation"})
 
 ];
 
