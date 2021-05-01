@@ -1,6 +1,13 @@
 #priority 999999
 
 import mods.immersiveengineering.Blueprint;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.gregtech.recipe.RecipeMaps;
+import mods.gregtech.recipe.RecipeMap;
 
 ###############################################################################################################################################
 ##			         																														 ##
@@ -10,9 +17,6 @@ import mods.immersiveengineering.Blueprint;
 
 # OreDicts Removals #
 
-<ore:circuitBasic>.remove(<gregtech:meta_item_2:32487>);
-<ore:circuitSuperconductor>.remove(<gregtech:meta_item_2:32500>);
-
 # OreDicts #
 
 //                          Primitive Circuit               Immersive Circuit 
@@ -20,6 +24,7 @@ import mods.immersiveengineering.Blueprint;
 
 //                          Immersive Circuit               Good Electronic Circuit     Integrated Processor
 <ore:circuitGood>.add(<immersiveengineering:material:27>, <gregtech:meta_item_2:32489>, <gregtech:meta_item_2:32490>);
+<ore:circuitBasic>.add(<immersiveengineering:material:27>, <gregtech:meta_item_2:32489>, <gregtech:meta_item_2:32490>);
 
 //                          Integrated Processor            Processor Assembly          Nano Processor
 <ore:circuitAdvanced>.add(<gregtech:meta_item_2:32490>, <gregtech:meta_item_2:32491>, <gregtech:meta_item_2:32492>);
@@ -35,6 +40,7 @@ import mods.immersiveengineering.Blueprint;
 
 //                          Wetware Processor            Wetware Assembly               Wetware SuperComputer
 <ore:circuitUltimate>.add(<gregtech:meta_item_2:32498>, <gregtech:meta_item_2:32499>, <gregtech:meta_item_2:32500>);
+<ore:circuitSuperconductor>.add(<gregtech:meta_item_2:32498>, <gregtech:meta_item_2:32499>, <gregtech:meta_item_2:32500>);
 
 //                          Wetware Mainframe
 <ore:circuitInfinite>.add(<gregtech:meta_item_2:32501>);
@@ -69,7 +75,7 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineerin
 
 //Removing Immersive Circuit Recipe and Adding a New one
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
-mods.immersiveengineering.Blueprint.addRecipe("circuits", <immersiveengineering:material:27>, [<ore:electronTube>, <ore:electronTube>, <gregtech:meta_item_2:32443>, <gregtech:meta_item_2:32455>, <gregtech:meta_item_2:32455>, <ore:wireGtSingleRedAlloy>, <ore:wireGtSingleRedAlloy>, <ore:wireGtSingleRedAlloy>]);
+mods.immersiveengineering.Blueprint.addRecipe("Circuits", <immersiveengineering:material:27>, [<ore:electronTube>, <ore:electronTube>, <gregtech:meta_item_2:32443>, <gregtech:meta_item_2:32455>, <gregtech:meta_item_2:32455>, <ore:wireGtSingleRedAlloy>, <ore:wireGtSingleRedAlloy>, <ore:wireGtSingleRedAlloy>]);
 
 # Circuit Names and Tooltips ===================================
 
