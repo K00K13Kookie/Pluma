@@ -3,10 +3,19 @@
   "density": 0.7,
   "max_height": 90,
   "min_height": 40,
+  "vein_populator": {
+    "type": "surface_block",
+    "block": {
+      "block": "plants2:cosmetic_1",
+      "type": "aira_c"
+    },
+    "min_amount": 3,
+    "max_amount": 5
+  },
   "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
-    "radius": [14, 17]
+    "radius": [15, 25]
   },
   "filler": {
     "type": "simple",
@@ -27,7 +36,7 @@
         },
 		{
           "weight": 10,
-          "value": "ore:tin"
+          "value": "ore:saltpeter"
         },
 		{
           "weight": 10,
