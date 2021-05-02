@@ -66,5 +66,4 @@ for item in toRemove {
     mods.jei.JEI.removeAndHide(item);
 }
 
-//Removing Hot Black Bronze recipe
-blast_furnace.findRecipe(128, [<gregtech:meta_item_1:2229>], null).remove();
+
