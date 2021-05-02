@@ -9,7 +9,6 @@ var ChiselUnlock as IItemStack[] = [
     <chisel:offsettool>,
     <chisel:auto_chisel>
 ];
-
 for i in ChiselUnlock {
 mods.recipestages.Recipes.setRecipeStage("ChiselUnlock", i);    
 mods.ItemStages.addItemStage("ChiselUnlock", i);
