@@ -1,0 +1,19 @@
+{
+	title: "Tier 5.5 Circuit",
+	x: 11.0d,
+	y: -4.0d,
+	description: "Energy Flow Circuit",
+	text: [
+		""
+	],
+	dependencies: [
+		"5b0b67dc"
+	],
+	tasks: [{
+		uid: "fac99830",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32497"
+		}]
+	}]
+}

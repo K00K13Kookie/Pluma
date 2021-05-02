@@ -65,7 +65,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13033>, <or
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13184>, <ore:plateSteel>, <immersiveengineering:mold>, 160, 9);
 
 //Black Bronze Dense Plate
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:black_steel_dense_plate>, <ore:plateBlackBronze>, <immersiveengineering:mold>, 160, 9);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:black_bronze_dense_plate>, <ore:plateBlackBronze>, <immersiveengineering:mold>, 160, 9);
 
 //Bronze Dense Plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:bronze_dense_plate>, <ore:plateBronze>, <immersiveengineering:mold>, 160, 9);

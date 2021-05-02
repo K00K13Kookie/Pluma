@@ -1,0 +1,41 @@
+{
+	title: "Diamond",
+	icon: "minecraft:diamond_pickaxe",
+	x: 5.884353741496589d,
+	y: -1.4986394557822962d,
+	shape: "hexagon",
+	description: "Tier 8",
+	text: [
+		"Bronze level Tools and Materials are going to be available!"
+	],
+	dependencies: [
+		"43f6f9c3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51e511b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemDiamond",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemDiamond"
+				}
+			}
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f8f3a72",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "DiamondManipulationResearch"
+	}]
+}

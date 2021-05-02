@@ -1,0 +1,42 @@
+{
+	title: "Steel",
+	icon: "immersiveengineering:pickaxe_steel",
+	x: 4.414965986394542d,
+	y: -1.498639455782289d,
+	shape: "hexagon",
+	description: "Tier 6",
+	text: [
+		"Steel level Tools and Materials are going to be available!"
+	],
+	dependencies: [
+		"ea2586e2",
+		"fcb4c9cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cab78bf0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSteel"
+				}
+			}
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "538af518",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "SteelManipulationResearch"
+	}]
+}

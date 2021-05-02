@@ -1,0 +1,24 @@
+{
+	title: "Understanding The Circuit Progression",
+	icon: "ftbquests:book",
+	x: -1.5d,
+	y: -3.0d,
+	description: "Information about how the Progressive Circuit System",
+	text: [
+		"In this Pack you'll gonna be making a LOT of circuits, but, you'll need to know that each stage of machinery has its specific Circuit tier tied to it.",
+		"",
+		"Each stage of machinery have 2 circuits on it and it is retrocompatible with the previous final circuit of the respective previous stage.",
+		"",
+		"And that means that, on MV for example (since it is where it beggins to get confusing) you'll start on it with tier 1.5 circuits, but at the end of it you'll be probally",
+		"using tier 2.5 circuits, that will also be used to start HV and that will go on.",
+		"",
+		"So at the end, Keep on eye for those Circuit recipes, since each stage will have a \"final circuit\" that it is the easiest to automate from that specific stage."
+	],
+	dependencies: [
+		"69a279ab"
+	],
+	tasks: [{
+		uid: "f54f43cc",
+		type: "checkmark"
+	}]
+}

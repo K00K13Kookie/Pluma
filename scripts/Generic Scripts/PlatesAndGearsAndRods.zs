@@ -451,9 +451,7 @@ recipes.addShaped(<gregtech:meta_item_1:12229>, [[<gregtech:meta_tool:6>], [<ore
 recipes.addShaped(<gregtech:meta_item_1:12230>, [[<gregtech:meta_tool:6>], [<ore:ingotBismuthBronze>], [<ore:ingotBismuthBronze>]]);
 
 // Rubber Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12152>, [[<gregtech:meta_tool:6>], [<ore:materialRubber>], [<ore:materialRubber>]]);
-mods.immersiveengineering.MetalPress.removeRecipe(<gregtech:meta_item_1:12152>);
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12152>, <ore:materialRubber>, <immersiveengineering:mold>, 80);
+recipes.addShaped(<gregtech:meta_item_1:12152>, [[<gregtech:meta_tool:6>], [<gregtech:meta_item_1:32627>], [<gregtech:meta_item_1:32627>]]);
 
 // Menril Sheet =======================================================================================================================================
 recipes.addShaped(<contenttweaker:menrilsheet> * 2, [[<gregtech:meta_tool:6>], [<integrateddynamics:crystalized_menril_block>], [<integrateddynamics:crystalized_menril_block>]]);
