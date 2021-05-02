@@ -50,6 +50,7 @@ var toRemove = [
 , <gregtech:meta_item_2:32450>
 , <gregtech:meta_item_2:32507>
 , <gregtech:meta_item_2:32488>
+, <gregtech:meta_item_1:11229>
 ] as IItemStack[];
 
 for item in toRemove {
@@ -65,3 +66,5 @@ for item in toRemove {
     mods.jei.JEI.removeAndHide(item);
 }
 
+//Removing Hot Black Bronze recipe
+blast_furnace.findRecipe(128, [<gregtech:meta_item_1:2229>], null).remove();
