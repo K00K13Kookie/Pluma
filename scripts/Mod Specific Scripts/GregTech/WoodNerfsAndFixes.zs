@@ -23,8 +23,91 @@ recipes.remove(i);
 
 ## Adding Wood recipes to the Cutting Machine =========
 
+//////////////// GregTech Planks ////////////////
 
+//Rubber Wood -> Jungle Planks
+saw.recipeBuilder()
+    .inputs([<gregtech:log>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks:3> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
 
+//////////////// Vanilla Planks ////////////////
+
+//Oak Planks
+saw.recipeBuilder()
+    .inputs([<minecraft:log>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+//Spruce Planks
+saw.recipeBuilder()
+    .inputs([<minecraft:log:1>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks:1> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+//Birch Planks
+saw.recipeBuilder()
+    .inputs([<minecraft:log:2>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks:2> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+//Jungle Planks
+saw.recipeBuilder()
+    .inputs([<minecraft:log:3>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks:3> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+//Acacia Planks
+saw.recipeBuilder()
+    .inputs([<minecraft:log2>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks:4> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+//Dark Oak Planks
+saw.recipeBuilder()
+    .inputs([<minecraft:log2:1>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<minecraft:planks:5> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+//////////////// Integrated Dynamics Planks ////////////////
+
+//Menril Planks
+saw.recipeBuilder()
+    .inputs([<integrateddynamics:menril_log>])
+    .fluidInputs(<liquid:lubricant> * 10)
+    .outputs(<integrateddynamics:menril_planks> * 6)
+    .outputs(<thermalfoundation:material:800> * 2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
 
 //////////////// Plants Planks ////////////////
 
