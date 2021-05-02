@@ -57,6 +57,17 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<f0-resources:item_drill_head.f0r.blacksteel>)
   .create();
 
+//Empty Fluid Cell (Basic)
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:boltTin>, <ore:plateTin>, <ore:boltTin>],
+    [<ore:plateTin>, <ore:paneGlass>, <ore:plateTin>],
+    [<ore:boltTin>, <ore:plateTin>, <ore:boltTin>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansFile>, 5)
+  .addTool(<ore:artisansCutters>, 5)
+  .addOutput(<gregtech:meta_item_1:32762> * 4)
+  .create();
 
 #### Old Scraped idea to Make all armor complicated to Craft.
 

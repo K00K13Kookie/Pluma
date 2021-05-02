@@ -9,8 +9,7 @@
 		"(this info is related to this specific type of cell, GregTech adds more Types of them!)"
 	],
 	dependencies: [
-		"f1522e19",
-		"999516ee"
+		"f1522e19"
 	],
 	hide: true,
 	tasks: [{

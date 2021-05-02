@@ -544,7 +544,6 @@ mods.ItemStages.stageRecipeCategory("MachineryEra", "ie.bottlingMachine");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "ie.mixer");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "it.distiller");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "it.boiler");
-mods.ItemStages.stageRecipeCategory("MachineryEra", "it.solarTower");
 
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.extruder");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.extruder_sedimentary");

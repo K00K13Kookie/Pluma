@@ -1,24 +1,36 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
-//			Distiller Fixes                                                                                                                  //
+//			Boiler Fixes                                                                                                                     //
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Removing Distilled Water Recipe
-mods.immersivetech.Distiller.removeRecipe(<liquid:water>);
+//Steam out of Water and Distilled Water
+mods.immersivetechnology.Boiler.addRecipe(<liquid:steam> * 450, <liquid:water> * 250, 100);
+mods.immersivetechnology.Boiler.addRecipe(<liquid:steam> * 550, <liquid:distilled_water> * 250, 100);
 
-//Readding it with the Correct Output of Distilled Water
-mods.immersivetechnology.Distiller.addRecipe(<liquid:distilled_water> * 500, <liquid:water> * 1000, <gregtech:meta_item_1:2156>, 2048, 80, 1);
+//Adding Creosote Oil as a possible Fuel Source to the Boiler
+mods.immersivetechnology.Boiler.addFuel(<liquid:creosote> * 10, 5, 5);
+
+//Adding Bio Diesel as a possible Fuel Source to the Boiler
+mods.immersivetechnology.Boiler.addFuel(<liquid:bio_diesel> * 10, 10, 10);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																														 //
+//			Steam Turbine Fixes                                                                                                              //
+//			         																														 //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Removing Steam as a Fuel
+mods.immersivetechnology.SteamTurbine.removeFuel(<liquid:steam>);
+
+//Readding it so the Output can be Changed
+mods.immersivetechnology.SteamTurbine.addFuel(<liquid:exhaust_steam> * 100, <liquid:steam> * 100, 50);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Cooling Tower Fixes                                                                                                              //
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//Removing Original Recipes
-mods.immersivetechnology.CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
-mods.immersivetechnology.CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:distwater>);
 
 //Readding Fixed Versions
 mods.immersivetechnology.CoolingTower.addRecipe(<liquid:water> * 750, <liquid:water> * 750, <liquid:exhaust_steam> * 900, <liquid:water> * 1000, 100);
