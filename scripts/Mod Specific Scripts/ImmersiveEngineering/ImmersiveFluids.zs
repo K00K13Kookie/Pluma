@@ -1,6 +1,7 @@
 import mods.immersiveengineering.Fermenter;
 import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.Refinery;
+import mods.immersiveengineering.Mixer;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -66,3 +67,29 @@ mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 //Readding with a Corrected Recipe and a Bonus with Fish Oil
 mods.immersiveengineering.Refinery.addRecipe(<liquid:bio_diesel> * 16, <liquid:seed.oil> * 8, <liquid:bio.ethanol> * 8, 2048);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:bio_diesel> * 32, <liquid:fish_oil> * 8, <liquid:bio.ethanol> * 8, 2148);
+
+
+//Making Hidrated Lubricant
+mods.immersiveengineering.Refinery.addRecipe(<liquid:hidratedlubricant> * 5000, <liquid:water> * 4900, <liquid:lubricant> * 100, 2048);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																														 //
+//			Mixer Recipes                                                                                                                    //
+//			         																														 //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Lubricant Recipes on the Mixer ======
+
+//Talc and Creosote
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lubricant> * 750, <liquid:creosote> * 750, [<ore:dustTalc>], 2048);
+//Talc and Seed Oil
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lubricant> * 750, <liquid:seed.oil> * 750, [<ore:dustTalc>], 2048);
+
+//Soapstone and Creosote
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lubricant> * 750, <liquid:creosote> * 750, [<ore:dustSoapstone>], 2048);
+//Soapstone and Seed Oil
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lubricant> * 750, <liquid:seed.oil> * 750, [<ore:dustSoapstone>], 2048);
+
+
+// Mixer Making Drilling Fluid with Hidrated Lubricant
+mods.immersiveengineering.Mixer.addRecipe(<liquid:drilling_fluid> * 5000, <liquid:hidratedlubricant> * 5000, [<ore:dustStone>], 3048);

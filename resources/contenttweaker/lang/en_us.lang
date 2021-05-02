@@ -66,7 +66,7 @@ tile.contenttweaker.RhyoliteRoad.name=Rhyolite Road
 tile.contenttweaker.ShaleRoad.name=Shale Road
 
 
-fluid.liquid_rubber=Rubber
+fluid.hidratedlubricant=Hidrated Lubricant
 
 
 item.contenttweaker.trtoken.name=Transportation Research Token
