@@ -178,7 +178,6 @@ var MachineryGates as IItemStack[] = [
 <immersiveengineering:wooden_device0:2>,
 <immersiveengineering:material:26>,
 <immersiveengineering:material:27>,
-<immersivetech:metal_device>,
 <immersivetech:connectors>,
 
 //Railcraft Stuff
@@ -554,4 +553,6 @@ mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.magmatic")
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.compression");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.coolant");
 
+# Stagging the Whole Immersive Tech Mod
+mods.ItemStages.stageModItems("MachineryEra", "immersivetech");
 

@@ -9,7 +9,6 @@
 		"- Get some Limestone Underground, and if you find ones from other Mods, just convert them, there's a recipe for it!"
 	],
 	dependencies: [
-		"66ab332e",
 		"41c0aaaf"
 	],
 	hide: true,

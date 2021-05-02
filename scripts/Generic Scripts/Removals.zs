@@ -287,6 +287,9 @@ var ItensRemovidos as IItemStack[] = [
 
 //Immersive Engineering
 <immersiveengineering:metal_multiblock:4>,
+<immersivetech:metal_trash>,
+<immersivetech:metal_trash:1>,
+<immersivetech:metal_trash:2>,
 
 //Factorio Resources
 <f0-resources:pump_component>,

@@ -10,7 +10,6 @@
 	hide_dependency_lines: true,
 	dependencies: [
 		"61a51574",
-		"4860aedb",
 		"3183afcf",
 		"e5a1f3f7",
 		"87623e84"
