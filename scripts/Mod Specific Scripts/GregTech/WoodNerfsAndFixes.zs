@@ -7,6 +7,9 @@ import mods.gregtech.recipe.RecipeMap;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Removing Log do Oak Planks in the Macerator
+macerator.findRecipe(8, [<forestry:logs.5>], null).remove();
+
 var WoodRecipeRemovals as IItemStack[] = [
 <minecraft:planks:3>,
 <integrateddynamics:menril_planks>,

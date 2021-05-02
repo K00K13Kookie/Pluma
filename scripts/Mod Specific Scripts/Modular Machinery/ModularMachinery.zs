@@ -54,9 +54,9 @@ RecipeBuilder.get("engineer")
 recipes.remove(<modularmachinery:blockcasing:5>); 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltBlackBronze>, <immersiveengineering:material:27>, <ore:boltBlackBronze>],
-    [<immersiveengineering:material:27>, <modularmachinery:blockcasing:4>, <immersiveengineering:material:27>],
-    [<ore:boltBlackBronze>, <immersiveengineering:material:27>, <ore:boltBlackBronze>]])
+    [<ore:boltBlackBronze>, <ore:circuitPrimitive>, <ore:boltBlackBronze>],
+    [<ore:circuitPrimitive>, <modularmachinery:blockcasing:4>, <ore:circuitPrimitive>],
+    [<ore:boltBlackBronze>, <ore:circuitPrimitive>, <ore:boltBlackBronze>]])
   .addTool(<ore:artisansSpanner>, 2)
   .addTool(<ore:artisansLens>, 2)
   .addTool(<ore:artisansSolderer>, 5)
@@ -120,9 +120,9 @@ recipes.remove(<modularmachinery:blockcasing:1>);
 recipes.remove(<modularmachinery:blockcasing:4>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:densePlateEnhancedAluminum>, <ore:plateObsidian>, <ore:densePlateEnhancedAluminum>],
-    [<ore:plateObsidian>, <modularmachinery:blockcasing>, <ore:plateObsidian>],
-    [<ore:densePlateEnhancedAluminum>, <ore:plateObsidian>, <ore:densePlateEnhancedAluminum>]])
+    [<ore:densePlateEnhancedAluminum>, <ore:plateBlackSteel>, <ore:densePlateEnhancedAluminum>],
+    [<ore:plateBlackSteel>, <modularmachinery:blockcasing>, <ore:plateBlackSteel>],
+    [<ore:densePlateEnhancedAluminum>, <ore:plateBlackSteel>, <ore:densePlateEnhancedAluminum>]])
   .addTool(<ore:artisansHammer>, 10)
   .addTool(<ore:artisansBurner>, 10)
   .addTool(<ore:artisansSolderer>, 10)
