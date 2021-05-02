@@ -83,7 +83,7 @@ mods.immersiveengineering.Blueprint.addRecipe("Circuits", <immersiveengineering:
 
 //ULV - LV Circuits ===================================
 recipes.remove(<gregtech:meta_item_2:32487>);
-<gregtech:meta_item_2:32487>.displayName = "Primitive Electronic Circuit";
+<gregtech:meta_item_2:32487>.displayName = "Primitive Circuit";
 <gregtech:meta_item_2:32487>.addTooltip(format.gold("Tier 0 Circuit"));
 
 //ULV - LV Circuits ===================================

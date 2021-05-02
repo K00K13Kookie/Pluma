@@ -1,0 +1,46 @@
+{
+	title: "Charcoal Burning!",
+	icon: "pyrotech:log_pile",
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		"Right now the only way that you can obtain a good amount of coal is trough Charcoal Burning! and for that, simply craft some log piles, place them together on a hole in the Ground and light it up! and also, don't forget to cover your Burning logs! the smoke will stop when the process finishes."
+	],
+	dependencies: [
+		"d82ac50a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "724821d1",
+		type: "item",
+		items: [{
+			item: "pyrotech:log_pile 9"
+		}],
+		count: 9L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "561469d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "charcoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any charcoal"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bab61bf0",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

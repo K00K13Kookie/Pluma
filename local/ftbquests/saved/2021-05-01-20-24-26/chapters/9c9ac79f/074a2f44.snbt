@@ -1,0 +1,41 @@
+{
+	title: "Squeezing things!",
+	icon: "forestry:squeezer",
+	x: -1.5d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"The Squeezer is a Machine that make possible for you to Squeeze special Oil's and other liquids out of certain Items."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1958e56c",
+		"3b24df78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34a426c8",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	},
+	{
+		uid: "0360993e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "canolaoil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4edfd0c6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

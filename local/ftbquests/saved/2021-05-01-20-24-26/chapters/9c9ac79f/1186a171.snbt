@@ -1,0 +1,34 @@
+{
+	title: "Your First Circuits!",
+	x: -12.0d,
+	y: -6.0d,
+	shape: "hexagon",
+	description: "More Complex Machines are waiting for ya!",
+	text: [
+		"As it was said on previous quests, you're going to be using more and more circuits as time goes on, and actually you'll be unlocking new ones on each stage of the Game, but these are your first ones, Congratulations!"
+	],
+	dependencies: [
+		"79ddcbad"
+	],
+	hide: true,
+	size: 4.0d,
+	tasks: [{
+		uid: "11c811e3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "22b2e16b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "47ad6254",
+		type: "gamestage",
+		title: "More Knowladge!",
+		auto: "invisible",
+		stage: "ModularMachineryUnlock"
+	}]
+}

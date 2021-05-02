@@ -1,0 +1,19 @@
+{
+	title: "EV Era",
+	x: 9.0d,
+	y: -1.0d,
+	description: "Extreme Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"fd452cce"
+	],
+	tasks: [{
+		uid: "61065de7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 504"
+		}]
+	}]
+}

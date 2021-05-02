@@ -1,0 +1,21 @@
+{
+	title: "Energy Transportation Research I",
+	x: -8.0d,
+	y: -6.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e4067a20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4192e509",
+		type: "item",
+		items: [{
+			item: "contenttweaker:etrtoken"
+		}]
+	}]
+}

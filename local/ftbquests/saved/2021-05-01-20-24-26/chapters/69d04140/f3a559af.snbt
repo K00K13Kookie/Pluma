@@ -1,0 +1,33 @@
+{
+	title: "The Engineer's Workshop!",
+	icon: "artisanworktables:workshop 1 6",
+	x: 16.0d,
+	y: -13.0d,
+	shape: "square",
+	text: [
+		"This Table will basically be the one for your Technological Needs. you gonna be crafting Redstone related here aswell."
+	],
+	dependencies: [
+		"c93a5957"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "f9015b00",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "6bef774c",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "df13ccb2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "EngineersGates"
+	}]
+}

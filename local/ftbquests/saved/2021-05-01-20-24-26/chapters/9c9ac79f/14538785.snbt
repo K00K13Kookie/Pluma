@@ -1,0 +1,25 @@
+{
+	title: "Rolling up the Metal!",
+	x: 0.0d,
+	y: -2.5d,
+	shape: "square",
+	text: [
+		"Now that you're in the Machinery Era, it is time to make some upgrades! with the Rolling machine you'll be able to craft plates and other technological materials at a cheaper cost!"
+	],
+	dependencies: [
+		"2e922af6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35d830e2",
+		type: "item",
+		items: [{
+			item: "railcraft:equipment"
+		}]
+	}],
+	rewards: [{
+		uid: "1dd76caa",
+		type: "loot",
+		table: 0
+	}]
+}

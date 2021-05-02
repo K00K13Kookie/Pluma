@@ -1,0 +1,91 @@
+{
+	title: "Punching your First Wood!",
+	icon: "minecraft:log",
+	x: -8.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	text: [
+		"This is Minecraft of Course! everything here starts by punching a little bit of Wood!",
+		"",
+		"but this pack also has some special custom progression on it! so you might need to look out for some of these special Initial resources!",
+		"",
+		"- Break Leaves to get Sticks",
+		"- Break Grass to get Plant Fibers",
+		"- Break Rocks on the Ground to get.. Rocks!",
+		"- Break Wood to.... Get Wood of course!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "18fc9d71",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "80ad3500",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			}
+		}]
+	},
+	{
+		uid: "15e38816",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 16 12"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b4217523",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "212493a7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1495ff1c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "WorktableJEI"
+	}]
+}

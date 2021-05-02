@@ -1,0 +1,36 @@
+{
+	title: "Logistics II",
+	icon: "contenttweaker:lgrtokenii",
+	x: -6.0d,
+	y: -5.5d,
+	shape: "diamond",
+	description: "Advanced Filtering and Item Logistics",
+	text: [
+		"Your Crystals will be Consumed!",
+		"",
+		"This Research will grant you Acess to",
+		"",
+		"- Better Logistical Options provided by Integrated Dynamics and Thermal Dynamics",
+		"",
+		"- And will also provide you with easier recipes for Logistical related content"
+	],
+	dependencies: [
+		"dd470acb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce79643a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:redcrystal"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "176aee50",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "LogisticResearchII"
+	}]
+}

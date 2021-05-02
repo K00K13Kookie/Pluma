@@ -1,0 +1,19 @@
+{
+	title: "Tier 4.5 Circuit",
+	x: 9.0d,
+	y: -4.0d,
+	description: "Data Control Circuit",
+	text: [
+		""
+	],
+	dependencies: [
+		"07044a9b"
+	],
+	tasks: [{
+		uid: "7d7da788",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32495"
+		}]
+	}]
+}
