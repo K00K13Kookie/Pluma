@@ -380,7 +380,7 @@ mods.nuclearcraft.pressurizer.addRecipe([<actuallyadditions:item_crystal:5>, <mo
 */
 
 // Red Alloy Plate =======================================================================================================================================
-recipes.addShaped(<moreplates:red_alloy_plate>, [[<gregtech:meta_tool:6>], [<projectred-core:resource_item:103>], [<projectred-core:resource_item:103>]]);
+recipes.addShaped(<gregtech:meta_item_1:12237>, [[<gregtech:meta_tool:6>], [<ore:ingotRedAlloy>], [<ore:ingotRedAlloy>]]);
 
 // Eletrotin Plate =======================================================================================================================================
 recipes.addShaped(<moreplates:electrotine_alloy_plate>, [[<gregtech:meta_tool:6>], [<projectred-core:resource_item:104>], [<projectred-core:resource_item:104>]]);
