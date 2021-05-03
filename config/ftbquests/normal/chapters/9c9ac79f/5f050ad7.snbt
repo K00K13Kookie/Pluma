@@ -1,8 +1,8 @@
 {
 	title: "Working towards your first Circuit I",
 	icon: "immersiveengineering:material 1 26",
-	x: -7.5d,
-	y: -9.0d,
+	x: -16.0d,
+	y: -15.0d,
 	shape: "square",
 	description: "Vacuum Tubes!",
 	text: [

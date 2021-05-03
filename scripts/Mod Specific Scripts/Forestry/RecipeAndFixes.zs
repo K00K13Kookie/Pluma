@@ -193,3 +193,79 @@ recipes.addShaped(<forestry:sturdy_machine>, [[<ore:blockSheetmetalConstantan>, 
 
 //Hardened Chassis
 mods.forestry.Carpenter.addRecipe(<forestry:hardened_machine>, [[<ore:plateDiamond>, <ore:plateElectrotineAlloy>, <ore:plateDiamond>], [<ore:plateElectrotineAlloy>, <forestry:sturdy_machine>, <ore:plateElectrotineAlloy>], [<ore:plateDiamond>, <ore:plateElectrotineAlloy>, <ore:plateDiamond>]], 120, <liquid:canolaoil> * 500);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																								 //						 //
+//			MultiBlock Farm  Fixes                                                                                                        //
+//			         																								 //						 //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+## Adding tooltips to the Blocks in order to Help
+
+var FarmGearboxes as IItemStack[] = [
+<forestry:ffarm:2>.withTag({FarmBlock: 0}),
+<forestry:ffarm:2>.withTag({FarmBlock: 1}),
+<forestry:ffarm:2>.withTag({FarmBlock: 2}),
+<forestry:ffarm:2>.withTag({FarmBlock: 3}),
+<forestry:ffarm:2>.withTag({FarmBlock: 4}),
+<forestry:ffarm:2>.withTag({FarmBlock: 5}),
+<forestry:ffarm:2>.withTag({FarmBlock: 6}),
+<forestry:ffarm:2>.withTag({FarmBlock: 7}),
+<forestry:ffarm:2>.withTag({FarmBlock: 8}),
+<forestry:ffarm:2>.withTag({FarmBlock: 9}),
+<forestry:ffarm:2>.withTag({FarmBlock: 10})
+];
+for i in FarmGearboxes {     
+i.addTooltip(format.aqua("Energy Input for the Multiblock Farm"));
+}
+
+var FarmHatches as IItemStack[] = [
+<forestry:ffarm:3>.withTag({FarmBlock: 0}),
+<forestry:ffarm:3>.withTag({FarmBlock: 1}),
+<forestry:ffarm:3>.withTag({FarmBlock: 2}),
+<forestry:ffarm:3>.withTag({FarmBlock: 3}),
+<forestry:ffarm:3>.withTag({FarmBlock: 4}),
+<forestry:ffarm:3>.withTag({FarmBlock: 5}),
+<forestry:ffarm:3>.withTag({FarmBlock: 6}),
+<forestry:ffarm:3>.withTag({FarmBlock: 7}),
+<forestry:ffarm:3>.withTag({FarmBlock: 8}),
+<forestry:ffarm:3>.withTag({FarmBlock: 9}),
+<forestry:ffarm:3>.withTag({FarmBlock: 10})
+];
+for i in FarmHatches {     
+i.addTooltip(format.aqua("Item In/Out for the Multiblock Farm"));
+}
+
+var FarmValves as IItemStack[] = [
+<forestry:ffarm:4>.withTag({FarmBlock: 0}),
+<forestry:ffarm:4>.withTag({FarmBlock: 1}),
+<forestry:ffarm:4>.withTag({FarmBlock: 2}),
+<forestry:ffarm:4>.withTag({FarmBlock: 3}),
+<forestry:ffarm:4>.withTag({FarmBlock: 4}),
+<forestry:ffarm:4>.withTag({FarmBlock: 5}),
+<forestry:ffarm:4>.withTag({FarmBlock: 6}),
+<forestry:ffarm:4>.withTag({FarmBlock: 7}),
+<forestry:ffarm:4>.withTag({FarmBlock: 8}),
+<forestry:ffarm:4>.withTag({FarmBlock: 9}),
+<forestry:ffarm:4>.withTag({FarmBlock: 10})
+];
+for i in FarmValves {     
+i.addTooltip(format.aqua("Fluid Input for the Multiblock Farm"));
+}
+
+var FarmControls as IItemStack[] = [
+<forestry:ffarm:5>.withTag({FarmBlock: 0}),
+<forestry:ffarm:5>.withTag({FarmBlock: 1}),
+<forestry:ffarm:5>.withTag({FarmBlock: 2}),
+<forestry:ffarm:5>.withTag({FarmBlock: 3}),
+<forestry:ffarm:5>.withTag({FarmBlock: 4}),
+<forestry:ffarm:5>.withTag({FarmBlock: 5}),
+<forestry:ffarm:5>.withTag({FarmBlock: 6}),
+<forestry:ffarm:5>.withTag({FarmBlock: 7}),
+<forestry:ffarm:5>.withTag({FarmBlock: 8}),
+<forestry:ffarm:5>.withTag({FarmBlock: 9}),
+<forestry:ffarm:5>.withTag({FarmBlock: 10})
+];
+for i in FarmControls {     
+i.addTooltip(format.aqua("Redstone Control for the Multiblock Farm"));
+}

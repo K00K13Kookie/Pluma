@@ -1,7 +1,7 @@
 {
 	title: "Steam Machines!",
-	x: -10.5d,
-	y: -17.0d,
+	x: -10.0d,
+	y: -15.0d,
 	shape: "square",
 	description: "High Pressure = More Steam Used and Faster processing",
 	text: [
@@ -15,7 +15,7 @@
 		"Oh and one last tip, with an GT wrench you can click on a side of them to set the \"Air Output\", this is important beacuse they §4CANNOT WORK WITH AN OBSTRUCTED \"AIR OUTPUT\"§f."
 	],
 	dependencies: [
-		"04df815b"
+		"d9aecb97"
 	],
 	tasks: [{
 		uid: "5f996125",

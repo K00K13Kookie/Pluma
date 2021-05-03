@@ -1,6 +1,6 @@
 {
 	title: "An Effiecient Way to carry Fluids",
-	x: -3.0d,
+	x: -2.5d,
 	y: -17.0d,
 	shape: "square",
 	text: [

@@ -1,8 +1,8 @@
 {
 	title: "Finally, A Storage System?",
 	icon: "integratedterminals:part_terminal_storage_item",
-	x: -15.503571428571433d,
-	y: -2.24880952380952d,
+	x: -24.8d,
+	y: -19.2d,
 	shape: "square",
 	description: "A Basic one for your Basic Needs!",
 	text: [

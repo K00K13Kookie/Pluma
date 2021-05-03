@@ -1,8 +1,8 @@
 {
 	title: "Have you Seen this Tree?",
 	icon: "integrateddynamics:menril_sapling",
-	x: -13.5d,
-	y: -4.0d,
+	x: -23.248129251700703d,
+	y: -17.798639455782343d,
 	shape: "square",
 	description: "Is is a Menril one!",
 	text: [

@@ -2,11 +2,14 @@
 	title: "Generating Energy with Steam I",
 	icon: "thermalexpansion:augment 1 640",
 	x: -11.25d,
-	y: -14.25d,
+	y: -15.0d,
 	shape: "square",
 	description: "Lets make a Turbine!",
 	text: [
 		"In order to generate a Bunch of Energy with Steam you'll need a 2 step process to do so. In this First Quest, Make a Steam Turbine! It will take all of your Steam and convert it into \"Movement\" after that you'll need to build Another multiblock structure (in the next quest) right on a specific side."
+	],
+	dependencies: [
+		"d9aecb97"
 	],
 	hide: true,
 	size: 1.5d,

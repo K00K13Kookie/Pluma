@@ -1,8 +1,8 @@
 {
 	title: "Energy for days!",
 	icon: "immersiveengineering:metal_device0 1 2",
-	x: -7.5d,
-	y: -11.0d,
+	x: -14.5d,
+	y: -15.0d,
 	shape: "gear",
 	description: "Lets make more Machines!",
 	text: [

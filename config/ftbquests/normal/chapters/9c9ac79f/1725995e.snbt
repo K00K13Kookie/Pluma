@@ -1,7 +1,7 @@
 {
 	title: "A Special Alloy made with Aluminum!",
-	x: -11.00357142857144d,
-	y: -4.373809523809506d,
+	x: -23.2d,
+	y: -15.1d,
 	shape: "square",
 	description: "Enhanced Aluminum!",
 	text: [

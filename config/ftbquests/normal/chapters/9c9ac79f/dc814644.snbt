@@ -1,8 +1,8 @@
 {
 	title: "An Important Reminder",
 	icon: "minecraft:lit_pumpkin",
-	x: -12.105952380952388d,
-	y: -2.278571428571425d,
+	x: -23.3d,
+	y: -20.6d,
 	shape: "rsquare",
 	description: "Seriously, read this",
 	text: [
