@@ -291,14 +291,6 @@ var ItensRemovidos as IItemStack[] = [
 <immersivetech:metal_trash:1>,
 <immersivetech:metal_trash:2>,
 
-//Factorio Resources
-<f0-resources:pump_component>,
-<f0-resources:item_prospectors_pick>,
-<f0-resources:item_advanced_prospectors_pick>,
-<f0-resources:item_dowsing_rod>,
-<f0-resources:item_scanner>,
-<f0-resources:burner_drill_component>,
-
 //NuclearCraft
 <nuclearcraft:bin>,
 
