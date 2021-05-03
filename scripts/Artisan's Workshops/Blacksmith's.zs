@@ -42,21 +42,6 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<actuallyadditions:block_feeder>)
   .create();
 
-//Black Steel Drill Head
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [<ore:boltBlackSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:boltBlackSteel>],
-    [<ore:plateSteel>, <ore:casingBlackSteel>, <ore:plateDenseSteel>, <ore:casingBlackSteel>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:plateDenseSteel>, <contenttweaker:blacksteelrotor>, <ore:plateDenseSteel>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:casingBlackSteel>, <ore:plateDenseSteel>, <ore:casingBlackSteel>, <ore:plateSteel>],
-    [<ore:boltBlackSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:boltBlackSteel>]])
-  .setFluid(<liquid:resin> * 2000)
-  .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansCutters>, 6)
-  .addTool(<ore:artisansDriver>, 10)
-  .addOutput(<f0-resources:item_drill_head.f0r.blacksteel>)
-  .create();
-
 //Empty Fluid Cell (Basic)
 RecipeBuilder.get("blacksmith")
   .setShaped([

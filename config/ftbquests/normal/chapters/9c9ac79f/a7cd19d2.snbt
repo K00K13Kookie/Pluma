@@ -1,8 +1,8 @@
 {
 	title: "Ores too far from your Base?",
 	icon: "railcraft:tool_crowbar_steel",
-	x: -24.8d,
-	y: -15.0d,
+	x: -20.6d,
+	y: -18.1d,
 	shape: "rsquare",
 	description: "Consider Researching for Transportation!",
 	text: [

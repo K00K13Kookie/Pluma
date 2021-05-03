@@ -522,22 +522,6 @@ RecipeBuilder.get("engineer")
   .addOutput(<gregtech:meta_item_2:32487>)
   .create();  
 
-//Drill Component
-recipes.remove(<f0-resources:drill_component>);
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:boltBlackSteel>, <ore:plateBlackBronze>, <ore:plateDenseBlackSteel>, <ore:plateBlackBronze>, <ore:boltBlackSteel>],
-    [<ore:plateBlackBronze>, <ore:casingBlackSteel>, <ore:plateDenseSteel>, <ore:casingBlackSteel>, <ore:plateBlackBronze>],
-    [<ore:plateDenseBlackSteel>, <ore:circuitPrimitive>, <actuallyadditions:block_misc:7>, <ore:circuitPrimitive>, <ore:plateDenseBlackSteel>],
-    [<ore:plateBlackBronze>, <ore:casingBlackSteel>, <ore:plateDenseSteel>, <ore:casingBlackSteel>, <ore:plateBlackBronze>],
-    [<ore:boltBlackSteel>, <ore:plateBlackBronze>, <ore:plateDenseBlackSteel>, <ore:plateBlackBronze>, <ore:boltBlackSteel>]])
-  .setFluid(<liquid:resin> * 3000)
-  .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansBurner>, 10)
-  .addTool(<ore:artisansSpanner>, 10)
-  .addOutput(<f0-resources:drill_component> * 3)
-  .create();
-
 //Logic Cable from Integrated Dynamics
 recipes.remove(<integrateddynamics:cable>);
 RecipeBuilder.get("engineer")
