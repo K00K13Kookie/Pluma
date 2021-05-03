@@ -1,0 +1,64 @@
+{
+	title: "Automating Crops!",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		},
+		Damage: 2s
+	},
+	x: -3.061734693877547d,
+	y: -14.273809523809511d,
+	shape: "square",
+	description: "Let's build a Forestry Farm!",
+	text: [
+		"That's Right! Forestry offers you an Automatic Multiblock Farm! And it is actually not that complicated, for this quest, the resources required will be for the tiniest one possible.",
+		"",
+		"To build one you'll first need some Farm Blocks, Holding Shift with them you'll be able to see the possible sizes, as it was mentioned, with the resources asked on this quest you'll be able to build the tiniest.",
+		"",
+		" You'll need Also a Farm Gearbox as it is the Block that you'll be using to provide Energy to the Structure, and a Valve to provide Water to it. (To be actually sure, the valve is not exactly needed, but would you like to provide buckets of water manually?)",
+		"",
+		"And as as Final Step, simply place some Blocks, the same ones used to make Recipes of the original structure (In these particular Quest, Stone Bricks), in order to build a viable Farm Plataform Above it!"
+	],
+	dependencies: [
+		"c1fed370"
+	],
+	tasks: [{
+		uid: "aae5fdd7",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "e6aee570",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "fe25776a",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		}],
+		count: 34L
+	}],
+	rewards: [{
+		uid: "b51aef7c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

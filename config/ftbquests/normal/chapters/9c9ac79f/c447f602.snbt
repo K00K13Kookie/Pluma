@@ -1,6 +1,6 @@
 {
 	title: "Steam Machines!",
-	x: -4.5d,
+	x: -10.5d,
 	y: -17.0d,
 	shape: "square",
 	description: "High Pressure = More Steam Used and Faster processing",

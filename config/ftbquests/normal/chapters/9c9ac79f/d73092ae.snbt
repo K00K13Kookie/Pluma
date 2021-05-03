@@ -1,6 +1,6 @@
 {
 	title: "Do you have some Steam left?",
-	x: -6.0d,
+	x: -11.5d,
 	y: -17.0d,
 	shape: "rsquare",
 	description: "You can use it to Smelt a ton of itens at once!",
