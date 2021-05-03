@@ -6,6 +6,7 @@ import crafttweaker.item.IItemStack;
 
 // Staging the Whole Mod
 mods.ItemStages.stageModItems("ModularMachineryUnlock", "modularmachinery");
+mods.ItemStages.stageModItems("ModularMachineryUnlock", "modulardiversity");
 
 <modularmachinery:itemmodularium>.displayName = "Enhanced Aluminum";
 <modularmachinery:blockcasing>.displayName = "Enhanced Aluminum Casing";

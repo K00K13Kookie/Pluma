@@ -3,10 +3,14 @@ var machineName = "modular_drill_mk1";
 
 
 //Plains Mining
-var PlainsMining = mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "Plains_Mining", machineName, 3200);
+var PlainsMining = mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "Plains_MiningMK1", machineName, 6000);
 
-	PlainsMining.addItemInput(<ore:fuelCoke>);
 	PlainsMining.addBiomeRequirement(["Plains"]);
-	PlainsMining.addItemOutput(<gregtech:ore_coal_0> * 64);
+	PlainsMining.addEnergyPerTickInput(100);
+	PlainsMining.addFluidInput(<liquid:drilling_fluid> * 2000);
+	PlainsMining.addItemOutput(<gregtech:ore_iron_0> * 64);
+	PlainsMining.addItemOutput(<gregtech:ore_iron_0> * 64);
+	PlainsMining.addItemOutput(<gregtech:ore_copper_0> * 64);
+	PlainsMining.addItemOutput(<gregtech:ore_tin_0> * 64);
 	PlainsMining.build();
 

@@ -24,7 +24,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "gregtech:boiler_casing@1"
+                "modulardiversity:blockbiomedetector"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "casings_fluid_in"
             ]
         },
         {
