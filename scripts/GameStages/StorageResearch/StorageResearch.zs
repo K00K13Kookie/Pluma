@@ -68,6 +68,7 @@ var StorageGates as IItemStack[] = [
 <chesttransporter:chesttransporter_diamond>,
 <chesttransporter:chesttransporter_obsidian>,
 <immersiveengineering:toolbox>,
+<engineersdecor:labeled_crate>
 
 ];
 
