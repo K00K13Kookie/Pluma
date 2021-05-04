@@ -386,7 +386,8 @@ recipes.addShaped(<gregtech:meta_item_1:12237>, [[<gregtech:meta_tool:6>], [<ore
 recipes.addShaped(<moreplates:electrotine_alloy_plate>, [[<gregtech:meta_tool:6>], [<projectred-core:resource_item:104>], [<projectred-core:resource_item:104>]]);
 
 // Quartz Plates =======================================================================================================================================
-recipes.addShaped(<moreplates:nether_quartz_plate>, [[<gregtech:meta_tool:6>], [<ore:gemQuartz>], [<ore:gemQuartz>]]);
+recipes.addShaped(<gregtech:meta_item_1:12201>, [[<gregtech:meta_tool:6>], [<ore:gemQuartz>], [<ore:gemQuartz>]]);
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12201>, <ore:gemQuartz>, <immersiveengineering:mold>, 80);
 
 // Black Quartz Plates =======================================================================================================================================
 recipes.addShaped(<moreplates:black_quartz_plate>, [[<gregtech:meta_tool:6>], [<ore:gemQuartzBlack>], [<ore:gemQuartzBlack>]]);

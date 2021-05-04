@@ -103,3 +103,16 @@ RecipeBuilder.get("engineer")
   .addOutput(<f0-resources:drill_component> * 3)
   .create();
 
+//Advanced Ore Scanner
+recipes.remove(<f0-resources:item_advanced_scanner>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:gemFlawedQuartzite>, null, <ore:gemFlawedQuartzite>],
+    [<ore:plateEmerald>, <scannable:scanner>, <ore:plateEmerald>],
+    [<ore:screwBlackSteel>, <ore:plateEmerald>, <ore:screwBlackSteel>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<ore:artisansSpanner>, 1)
+  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansCutters>, 1)
+  .addOutput(<f0-resources:item_advanced_scanner>)
+  .create();
