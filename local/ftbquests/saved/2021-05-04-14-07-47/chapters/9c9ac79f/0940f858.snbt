@@ -1,0 +1,49 @@
+{
+	title: "Moar Power!",
+	icon: "immersiveengineering:wirecoil 1 1",
+	x: 1.5d,
+	y: -5.5d,
+	shape: "square",
+	description: "When LV isn't enough!",
+	text: [
+		"Do you need more power transfer? or maybe more Space in a Capacitor to Store more energy? Go Ahead and make some MV!"
+	],
+	dependencies: [
+		"3b24df78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae4eb419",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 1"
+		}]
+	},
+	{
+		uid: "0693d905",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 3"
+		}]
+	},
+	{
+		uid: "64848392",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}]
+	},
+	{
+		uid: "40279d7b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e4ccd75c",
+		type: "item",
+		item: "immersiveengineering:wirecoil 1 7",
+		random_bonus: 15
+	}]
+}

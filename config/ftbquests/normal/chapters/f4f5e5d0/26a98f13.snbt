@@ -1,5 +1,6 @@
 {
 	title: "Energy Transportation Research II",
+	icon: "contenttweaker:etrtokenii",
 	x: -7.5d,
 	y: -7.0d,
 	shape: "diamond",
@@ -14,10 +15,11 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "e07b9fbc",
+		uid: "43e2995b",
 		type: "item",
 		items: [{
-			item: "contenttweaker:etrtokenii"
-		}]
+			item: "contenttweaker:redcrystal"
+		}],
+		count: 8L
 	}]
 }

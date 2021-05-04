@@ -1,0 +1,19 @@
+{
+	title: "MV Era",
+	x: 5.0d,
+	y: -1.0d,
+	description: "Medium Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"6c2c0718"
+	],
+	tasks: [{
+		uid: "6ebeb625",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 502"
+		}]
+	}]
+}

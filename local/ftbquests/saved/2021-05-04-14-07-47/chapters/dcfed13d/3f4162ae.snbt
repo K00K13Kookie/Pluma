@@ -1,0 +1,19 @@
+{
+	title: "Tier 1.5 Circuit",
+	x: 3.0d,
+	y: -4.0d,
+	description: "Good Electronic Circuit",
+	text: [
+		""
+	],
+	dependencies: [
+		"3f242503"
+	],
+	tasks: [{
+		uid: "8dfba539",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32489"
+		}]
+	}]
+}

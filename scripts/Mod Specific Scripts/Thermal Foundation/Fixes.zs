@@ -165,174 +165,166 @@ mods.forestry.Still.addRecipe(<liquid:tree_oil> * 10, <liquid:resin> * 10, 180);
 //			         																														                                                                 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+### Removing all Recipes from the Hardened Glasses 
+
+var HardenedGlassesRecipeRemoval as IItemStack[] = [
+<thermalfoundation:glass>,
+<thermalfoundation:glass:2>,
+<thermalfoundation:glass:1>,
+<thermalfoundation:glass:3>,
+<thermalfoundation:glass:4>,
+<thermalfoundation:glass:5>,
+<thermalfoundation:glass:6>,
+<thermalfoundation:glass:7>,
+<thermalfoundation:glass:8>,
+<thermalfoundation:glass_alloy>,
+<thermalfoundation:glass_alloy:1>,
+<thermalfoundation:glass_alloy:2>,
+<thermalfoundation:glass_alloy:3>,
+<thermalfoundation:glass_alloy:4>,
+<thermalfoundation:glass_alloy:5>,
+<thermalfoundation:glass_alloy:6>,
+<thermalfoundation:glass_alloy:7>
+];
+for i in HardenedGlassesRecipeRemoval {
+recipes.remove(i);
+}
+
 ### Adding Recipes to All Hardened Glasses to the GT Alloy Smelter 
 
 //Standart Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustObsidian>)
     .outputs(<thermalfoundation:glass:3>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Copper Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustCopper>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustCopper>)
     .outputs(<thermalfoundation:glass>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Tin Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustTin>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustTin>)
     .outputs(<thermalfoundation:glass:1>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister(); 
 
 //Silver Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustSilver>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustSilver>)
     .outputs(<thermalfoundation:glass:2>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister(); 
 
 //Aluminum Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustAluminum>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustAluminum>)
     .outputs(<thermalfoundation:glass:4>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Nickel Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustNickel>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustNickel>)
     .outputs(<thermalfoundation:glass:5>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 
 //Platinum Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustPlatinum>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustPlatinum>)
     .outputs(<thermalfoundation:glass:6>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Iridium Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustIridium>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustIridium>)
     .outputs(<thermalfoundation:glass:7>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Mana Infused Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustMithril>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustMithril>)
     .outputs(<thermalfoundation:glass:8>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Steel Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustSteel>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustSteel>)
     .outputs(<thermalfoundation:glass_alloy>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Electrum Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustElectrum>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustElectrum>)
     .outputs(<thermalfoundation:glass_alloy:1>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Invar Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustInvar>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustInvar>)
     .outputs(<thermalfoundation:glass_alloy:2>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Bronze Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustBronze>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustBronze>)
     .outputs(<thermalfoundation:glass_alloy:3>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Constantan Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustConstantan>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustConstantan>)
     .outputs(<thermalfoundation:glass_alloy:4>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Signalum Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustSignalum>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustSignalum>)
     .outputs(<thermalfoundation:glass_alloy:5>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Lumium Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustLumium>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustLumium>)
     .outputs(<thermalfoundation:glass_alloy:6>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();
 
 //Enderium Hardened Glass
 alloy.recipeBuilder()
-    .inputs(<ore:strengthenedGlass>)
-    .inputs(<ore:dustEnderium>)
-    .inputs(<ore:dustObsidian>)
+    .inputs(<ore:strengthenedGlass>, <ore:dustEnderium>)
     .outputs(<thermalfoundation:glass_alloy:7>)
-    .duration(40)
-    .EUt(16)
+    .duration(80)
+    .EUt(20)
     .buildAndRegister();

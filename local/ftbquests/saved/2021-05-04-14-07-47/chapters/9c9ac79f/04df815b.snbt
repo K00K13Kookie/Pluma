@@ -1,0 +1,109 @@
+{
+	title: "Generating Energy with Steam I",
+	icon: "thermalexpansion:augment 1 640",
+	x: -11.25d,
+	y: -15.0d,
+	shape: "square",
+	description: "Lets make a Turbine!",
+	text: [
+		"In order to generate a Bunch of Energy with Steam you'll need a 2 step process to do so. In this First Quest, Make a Steam Turbine! It will take all of your Steam and convert it into \"Movement\" after that you'll need to build Another multiblock structure (in the next quest) right on a specific side."
+	],
+	dependencies: [
+		"d9aecb97"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "4a6e3061",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "scaffoldingSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any scaffoldingSteel"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "865ed344",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 6L
+	},
+	{
+		uid: "f04d75be",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "a866f3a4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 24L
+	},
+	{
+		uid: "b2fe06c1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 7"
+		}],
+		count: 4L
+	},
+	{
+		uid: "62a475c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockSheetmetalSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSheetmetalSteel"
+				}
+			}
+		}],
+		count: 27L
+	},
+	{
+		uid: "f93133b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSteel"
+				}
+			}
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "163f7787",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

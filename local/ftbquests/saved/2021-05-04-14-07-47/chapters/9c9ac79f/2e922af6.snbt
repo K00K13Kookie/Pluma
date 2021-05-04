@@ -1,0 +1,25 @@
+{
+	title: "A Much better Crafting table",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"With your brand new mechanical components, you can now assemble a much better crafting table! it has an internal storage and even a way to store recipes for you when you need them again later!"
+	],
+	dependencies: [
+		"7cf59bee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "abd7c3ad",
+		type: "item",
+		items: [{
+			item: "forestry:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "6d884c3b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

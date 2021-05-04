@@ -1,0 +1,27 @@
+{
+	title: "Sand in your Pockets!",
+	icon: "quark:sandy_bricks",
+	x: 6.0d,
+	y: -6.0d,
+	text: [
+		"Sandy Bricks are a Special type of brick, Often used to make Multi Block brick structures!",
+		"",
+		"- It is a required resource to make Coke Bricks!"
+	],
+	dependencies: [
+		"d30e5cf2"
+	],
+	tasks: [{
+		uid: "d5d3bac7",
+		type: "item",
+		items: [{
+			item: "quark:sandy_bricks 9"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "df9b2027",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

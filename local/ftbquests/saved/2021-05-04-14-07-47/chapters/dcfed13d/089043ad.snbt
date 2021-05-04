@@ -1,0 +1,19 @@
+{
+	title: "Tier 2.5 Circuit",
+	x: 5.0d,
+	y: -4.0d,
+	description: "Processor Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"57364c04"
+	],
+	tasks: [{
+		uid: "8920d74f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32491"
+		}]
+	}]
+}

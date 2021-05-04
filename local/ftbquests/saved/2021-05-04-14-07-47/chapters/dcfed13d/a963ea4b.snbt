@@ -1,0 +1,19 @@
+{
+	title: "Tier 3 Circuit",
+	x: 7.0d,
+	y: -3.0d,
+	description: "Nanoprocessor",
+	text: [
+		""
+	],
+	dependencies: [
+		"089043ad"
+	],
+	tasks: [{
+		uid: "f6bc52c0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32492"
+		}]
+	}]
+}

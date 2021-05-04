@@ -1,0 +1,48 @@
+{
+	title: "Transfering all of that Power!",
+	icon: "immersiveengineering:wirecoil",
+	x: 1.5d,
+	y: -4.0d,
+	shape: "square",
+	text: [
+		"You're currently generating power in your dynamo, but how you're going to transfer that you may ask? well, lets use LV Connectors, Relays and Wires! and its also good to store all of it in a capacitor."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1958e56c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db2ddcb7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}]
+	},
+	{
+		uid: "8f0888d4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
+		}]
+	},
+	{
+		uid: "b8aa447d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	},
+	{
+		uid: "b909353b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		}]
+	}],
+	rewards: [{
+		uid: "812feb68",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

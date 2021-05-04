@@ -1,0 +1,23 @@
+{
+	title: "Energy Transportation Research II",
+	x: -7.5d,
+	y: -7.0d,
+	shape: "diamond",
+	description: "Better Energy Transportation, Storage and Generation Methods",
+	text: [
+		"This Research will grant you acess to a variety of ways to transport your fluids! such as:",
+		"",
+		"- Better FluxDucts"
+	],
+	dependencies: [
+		"232f21d9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e07b9fbc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:etrtokenii"
+		}]
+	}]
+}
