@@ -1,13 +1,17 @@
 {
 	title: "Ores too far from your Base?",
 	icon: "railcraft:tool_crowbar_steel",
-	x: -20.6d,
-	y: -18.1d,
+	x: -26.2d,
+	y: -17.7d,
 	shape: "rsquare",
 	description: "Consider Researching for Transportation!",
 	text: [
 		"Railcraft has a Complete system of mass transportation of items, Fluids and Even Mobs using Carts and Trains! Consider it as a valid way to bring Ores from distant nodes close to your Base!"
 	],
+	dependencies: [
+		"904c02a0"
+	],
+	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "987ac6e1",

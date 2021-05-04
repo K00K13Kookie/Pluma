@@ -65,7 +65,9 @@ var MachineryGates as IItemStack[] = [
 <gregtech:warning_sign:6>,
 <gregtech:warning_sign:7>,
 <gregtech:warning_sign:8>,
-<gregtech:warning_sign:9>
+<gregtech:warning_sign:9>,
+<gregtech:machine:501>,
+<gregtech:machine_casing:1>
 
     ];
 
@@ -513,7 +515,6 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:machine:496>,
 <gregtech:machine:497>,
 <gregtech:machine:500>,
-<gregtech:machine:501>,
 <gregtech:machine:502>,
 <gregtech:machine:503>,
 <gregtech:machine:504>,
@@ -739,7 +740,6 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:turbine_casing:5>,
 <gregtech:turbine_casing:6>,
 <gregtech:machine_casing>,
-<gregtech:machine_casing:1>,
 <gregtech:machine_casing:2>,
 <gregtech:machine_casing:3>,
 <gregtech:machine_casing:4>,

@@ -217,7 +217,6 @@ var PlatesRemovidas as IItemStack[] = [
 
 // More Plates Mod ===================================================================================
 <moreplates:black_quartz_gear>,
-<moreplates:nether_quartz_plate>,
 <moreplates:diamatine_plate>,
 <moreplates:enori_plate>,
 <moreplates:black_quartz_plate>,

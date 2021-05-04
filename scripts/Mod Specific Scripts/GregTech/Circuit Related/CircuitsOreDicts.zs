@@ -73,9 +73,8 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineerin
 <immersiveengineering:material:26>.displayName = "Primitive Vacuum Tube";
 <ore:electronTube>.add(<gregtech:meta_item_2:32450>);
 
-//Removing Immersive Circuit Recipe and Adding a New one
+//Removing Immersive Circuit Recipe
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
-mods.immersiveengineering.Blueprint.addRecipe("Circuits", <immersiveengineering:material:27>, [<ore:electronTube>, <ore:electronTube>, <gregtech:meta_item_2:32443>, <gregtech:meta_item_2:32455>, <gregtech:meta_item_2:32455>, <ore:wireGtSingleRedAlloy>, <ore:wireGtSingleRedAlloy>, <ore:wireGtSingleRedAlloy>]);
 
 # Circuit Names and Tooltips ===================================
 
