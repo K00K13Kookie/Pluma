@@ -215,7 +215,6 @@ var ItensRemovidos as IItemStack[] = [
 <thermalfoundation:material:894>,
 <thermalfoundation:material:893>,
 <thermalfoundation:security>,
-<thermalfoundation:diagram_redprint>,
 <thermalfoundation:dye:1>,
 <thermalfoundation:dye:2>,
 <thermalfoundation:dye>,
