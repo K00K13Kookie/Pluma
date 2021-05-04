@@ -9,6 +9,7 @@
 	dependencies: [
 		"45243bf5"
 	],
+	hide: true,
 	tasks: [{
 		uid: "c6434de8",
 		type: "item",
@@ -20,5 +21,21 @@
 		uid: "dde502e7",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "36605781",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"Thank you for Playing the Open Beta!\\n\\nYes Yes, more content will be out pretty soon! but I hope you\\u0027ve liked it so far! feel free to come to my discord and actually write some thoughts in the \\\"Pluma\\\" Chat :)\\nAlso, Found a Bug? Report at Github! -\\u003e\"}",
+					"{\"text\":\"That can be acessed trough the Main Menu!\"}"
+				],
+				author: "Artpoke_",
+				title: "Thank you!",
+				resolved: 1b
+			}
+		}
 	}]
 }
