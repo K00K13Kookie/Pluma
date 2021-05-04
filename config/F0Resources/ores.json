@@ -236,5 +236,73 @@
     "isBlacklistWhitelist": false,
     "tierReq": 3,
     "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 2.5,
+    "stretchZ": 2.5,
+    "seed": 1207510918,
+    "valueModifier": 1.0,
+    "oreMaximum": 1300,
+    "oreMinimum": 0.3,
+    "oreID": "gregtech:ore_talc_0",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 1,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 1.0,
+    "stretchZ": 1.0,
+    "seed": 23652533,
+    "valueModifier": 1.0,
+    "oreMaximum": 5500,
+    "oreMinimum": 0.2,
+    "oreID": "gregtech:ore_apatite_0",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 1,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 2.0,
+    "stretchZ": 2.0,
+    "seed": 31231214,
+    "valueModifier": 1.0,
+    "oreMaximum": 2500,
+    "oreMinimum": 0.3,
+    "oreID": "gregtech:ore_sapphire_0",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 2,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 2.0,
+    "stretchZ": 2.0,
+    "seed": 31231214,
+    "valueModifier": 1.0,
+    "oreMaximum": 2300,
+    "oreMinimum": 0.3,
+    "oreID": "gregtech:ore_ruby_0",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 2,
+    "progressMultiplier": 1.0
   }
 ]

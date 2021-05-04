@@ -2,6 +2,14 @@ import crafttweaker.item.IItemStack;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																								 					     //
+//			Drill Adjustments                                                                                                                //
+//			         																								 				         //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<f0-resources:item_drill_head.blacksteel>.displayName = "Black Steel Drilling Component";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																								 					     //
 //			Ore Tooltips                                                                                                                     //
 //			         																								 				         //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -13,7 +21,9 @@ var Tier1Ore as IItemStack[] = [
 <gregtech:ore_iron_0>,
 <gregtech:ore_redstone_0>,
 <gregtech:ore_copper_0>,
-<gregtech:ore_tin_0>
+<gregtech:ore_tin_0>,
+<gregtech:ore_talc_0>,
+<gregtech:ore_apatite_0>
     ];
 for i in Tier1Ore {     
 i.addTooltip(format.aqua("This Ore can be mined with a Tier 1 Miner"));
@@ -25,7 +35,9 @@ var Tier2Ore as IItemStack[] = [
 <gregtech:ore_nether_quartz_0>,
 <gregtech:ore_silver_0>,
 <gregtech:ore_lead_0>,
-<gregtech:ore_nickel_0>
+<gregtech:ore_nickel_0>,
+<gregtech:ore_sapphire_0>,
+<gregtech:ore_ruby_0>
     ];
 for i in Tier2Ore {     
 i.addTooltip(format.aqua("This Ore can be mined with a Tier 2 Miner"));
