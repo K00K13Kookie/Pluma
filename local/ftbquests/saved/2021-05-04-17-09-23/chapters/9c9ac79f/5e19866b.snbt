@@ -1,0 +1,44 @@
+{
+	title: "AutoCrafting?",
+	x: 14.0d,
+	y: -18.0d,
+	shape: "rsquare",
+	description: "Extremely usefull for Batch Crafting!",
+	text: [
+		"The Sequential Fabricator will be an Extremely Usefull machine to have by your factory, since it will be your way to keep in stock some items and materials!",
+		"",
+		"And can even be upgraded with some augments and upgrade kits!"
+	],
+	dependencies: [
+		"9cecd35d"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "06d5051b",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "60e9f5f3",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

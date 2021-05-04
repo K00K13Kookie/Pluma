@@ -1,0 +1,39 @@
+{
+	title: "Making Bronze",
+	icon: "thermalfoundation:material 1 163",
+	x: 16.054761904761904d,
+	y: -10.877380952380946d,
+	text: [
+		"With your brand new Alloy Kiln, lets make some Bronze!"
+	],
+	dependencies: [
+		"7323d690"
+	],
+	hide: true,
+	tasks: [{
+		uid: "44a3e960",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1ee3e162",
+		type: "gamestage",
+		title: "Unlocks Chisel!",
+		auto: "no_toast",
+		stage: "ChiselUnlock"
+	}]
+}

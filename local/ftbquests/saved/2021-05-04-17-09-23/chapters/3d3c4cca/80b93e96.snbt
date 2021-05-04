@@ -1,0 +1,56 @@
+{
+	title: "Building Gadgets!",
+	x: -7.5d,
+	y: -3.5d,
+	description: "When a Simple Builder's Wand Isn't enough!",
+	text: [
+		"Building Gadgets is a Mod that offers a BUNCH of very awesome gadgets to help you build and even decorate your base! there's one for each task!",
+		"And you can even copy buildings from other worlds and paste them into your world!",
+		"",
+		"- A Tip is do Bind a key for the Menu of the Gadgets, in that way you'll be able to use them with no problems."
+	],
+	dependencies: [
+		"a69e1bca",
+		"e75f5dc5"
+	],
+	tasks: [{
+		uid: "6a59616e",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		{
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		},
+		{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8fb5e54b",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

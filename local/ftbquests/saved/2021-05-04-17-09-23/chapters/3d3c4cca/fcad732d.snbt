@@ -1,0 +1,37 @@
+{
+	title: "Builder Wands!",
+	x: -4.5d,
+	y: -3.5d,
+	description: "Tired of placing 1 block at the time?",
+	text: [
+		"With Builder Wands you'll be able to Place Multiple Blocks at once! and thats really usefull for building!"
+	],
+	dependencies: [
+		"a69e1bca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "631d9a11",
+		type: "item",
+		title: "Make a Builder's Wand!",
+		items: [{
+			item: "betterbuilderswands:wandstone"
+		},
+		{
+			item: "betterbuilderswands:wandiron"
+		},
+		{
+			item: "betterbuilderswands:wanddiamond"
+		},
+		{
+			item: "betterbuilderswands:wandunbreakable"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51391d78",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

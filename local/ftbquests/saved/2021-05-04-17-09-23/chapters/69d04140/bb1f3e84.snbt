@@ -1,0 +1,36 @@
+{
+	title: "Even Better Machines!",
+	x: 13.0d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Now that you have Refractory Bricks, maybe making these Upgraded Machines will help you along your Journey!"
+	],
+	dependencies: [
+		"e116ff07"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "a4127356",
+		type: "item",
+		title: "You can make any of theses!",
+		items: [{
+			item: "pyrotech:brick_kiln"
+		},
+		{
+			item: "pyrotech:brick_oven"
+		},
+		{
+			item: "pyrotech:brick_sawmill"
+		},
+		{
+			item: "pyrotech:brick_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "12f7ebe8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

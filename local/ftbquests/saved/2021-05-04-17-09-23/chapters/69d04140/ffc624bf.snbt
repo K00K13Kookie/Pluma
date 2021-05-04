@@ -1,0 +1,59 @@
+{
+	title: "Making use of Gravel!",
+	icon: "minecraft:gravel",
+	x: -5.0d,
+	y: -5.0d,
+	shape: "rsquare",
+	text: [
+		"Now lets get some Gravel! you can use it to get flint! 3 gravels = 1 flint",
+		"after that, simply place 1 flint in your Chopping Block and lets get Flint Shards!",
+		"",
+		"- This Quest also Unlocks New flint tools in the Tool Progression Chapter!"
+	],
+	dependencies: [
+		"c741fe6c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ff29551",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gravel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gravel"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1bd75c49",
+		type: "item",
+		items: [{
+			item: "minecraft:flint 10"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70c1665c",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 3 10"
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f361012",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

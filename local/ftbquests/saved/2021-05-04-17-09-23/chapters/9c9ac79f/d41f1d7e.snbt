@@ -1,0 +1,28 @@
+{
+	title: "Getting some Crazy Dusts!",
+	x: 0.0d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"Using the Rock Crusher can be very rewarding! it can be used to produce and maybe in the future can be used to automate some resources aswell! ",
+		"",
+		"- Try to find some Gneiss in your world, as it can be Crushed to get Biotite Dust!"
+	],
+	dependencies: [
+		"c652f0d5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "306a8a6b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2250"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2b2190c0",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

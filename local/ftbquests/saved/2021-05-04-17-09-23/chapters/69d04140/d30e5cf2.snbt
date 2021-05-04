@@ -1,0 +1,31 @@
+{
+	title: "The Mason's Workshop!",
+	icon: "artisanworktables:workshop 1 2",
+	x: 4.5d,
+	y: -6.0d,
+	shape: "rsquare",
+	text: [
+		"The Mason's Workshop is going to be very useful when crafting any type of Bricks! from normal vanilla minecraft ones to even Immersive Engineering Coke bricks!",
+		"",
+		"- It uses some tools and also Liquid clay to operate, So be prepared!"
+	],
+	dependencies: [
+		"e9101e6c",
+		"ff9ac789"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "16b153ba",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0704c988",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}
