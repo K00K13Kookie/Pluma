@@ -84,7 +84,6 @@ var MachineryGates as IItemStack[] = [
 <immersiveengineering:metal_device1:5>,
 <immersiveengineering:tool:1>,
 <immersiveengineering:tool:2>,
-<immersiveengineering:toolbox>,
 <immersiveengineering:wirecoil>,
 <immersiveengineering:wirecoil:1>,
 <immersiveengineering:wirecoil:2>,

@@ -66,7 +66,8 @@ var StorageGates as IItemStack[] = [
 <chesttransporter:chesttransporter_copper>,
 <chesttransporter:chesttransporter_iron>,
 <chesttransporter:chesttransporter_diamond>,
-<chesttransporter:chesttransporter_obsidian>
+<chesttransporter:chesttransporter_obsidian>,
+<immersiveengineering:toolbox>,
 
 ];
 
