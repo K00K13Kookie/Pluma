@@ -45,4 +45,5 @@ var GTMolds as IItemStack[] = [
 ];
 for i in GTMolds {
 mods.chisel.Carving.addVariation("GregTech Molds", i);
+i.addTooltip(format.red("Can be Chiseled to Other Molds!"));
 }

@@ -1,0 +1,84 @@
+{
+	title: "Fermenting Crops!",
+	icon: "immersiveengineering:metal_multiblock 1 8",
+	x: -5.5d,
+	y: -15.0d,
+	shape: "square",
+	description: "Lets Make Ethanol!",
+	text: [
+		"Further on the Pack you'll have acess to more Compact and reliable ways to Make Ethanol, but for now, lets make a Fermenter! it will take some specific",
+		"crops and ferment them into Ethanol!"
+	],
+	dependencies: [
+		"ad036ebc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad12ac02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "scaffoldingSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any scaffoldingSteel"
+				}
+			}
+		}],
+		count: 6L
+	},
+	{
+		uid: "286c11e2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "84b1c5c1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "6d621a29",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b4c9f557",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}],
+		count: 4L
+	},
+	{
+		uid: "efb05e31",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 4L
+	},
+	{
+		uid: "bf22f165",
+		type: "fluid",
+		fluid: "bio.ethanol"
+	}],
+	rewards: [{
+		uid: "da2989ad",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

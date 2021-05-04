@@ -1,0 +1,19 @@
+{
+	title: "HV Era",
+	x: 7.0d,
+	y: -1.0d,
+	description: "High Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"a7aca72c"
+	],
+	tasks: [{
+		uid: "5d1f9dba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 503"
+		}]
+	}]
+}

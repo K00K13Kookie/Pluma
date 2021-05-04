@@ -1,0 +1,33 @@
+{
+	title: "ChiselReward",
+	icon: "chisel:futura 1 5",
+	loot_size: 1,
+	rewards: [{
+		item: "chisel:antiblock 1 15",
+		count: 64
+	},
+	{
+		item: "chisel:brownstone",
+		count: 64
+	},
+	{
+		item: "chisel:cloud",
+		count: 64
+	},
+	{
+		item: "chisel:futura",
+		count: 64
+	},
+	{
+		item: "chisel:factory",
+		count: 64
+	},
+	{
+		item: "chisel:laboratory",
+		count: 64
+	},
+	{
+		item: "chisel:voidstone",
+		count: 64
+	}]
+}

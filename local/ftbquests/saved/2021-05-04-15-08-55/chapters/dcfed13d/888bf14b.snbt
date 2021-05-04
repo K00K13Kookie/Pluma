@@ -1,0 +1,19 @@
+{
+	title: "Tier 7 Circuit",
+	x: 15.0d,
+	y: -3.5d,
+	description: "Wetware Supercomputer",
+	text: [
+		""
+	],
+	dependencies: [
+		"7273922f"
+	],
+	tasks: [{
+		uid: "cda42988",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32500"
+		}]
+	}]
+}

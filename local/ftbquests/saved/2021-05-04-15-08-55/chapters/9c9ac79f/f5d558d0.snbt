@@ -1,0 +1,59 @@
+{
+	title: "Ore Doubling! Finally!",
+	icon: "immersiveengineering:metal_multiblock 1 1",
+	x: -14.5d,
+	y: -16.5d,
+	shape: "square",
+	description: "The Crusher is usefull for other task too tho",
+	text: [
+		"With the Crusher you'll finally be able to Double the Amount of ingots that you get from an Ore! and it is also very important since it is a way to crush items into dusts and other powders."
+	],
+	dependencies: [
+		"e75f5dc5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61a63cb3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "3a62093e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "7a308e84",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "9284f966",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "87422897",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "10d4cb6c",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}
