@@ -128,10 +128,9 @@
     "oreID": "gregtech:ore_nether_quartz_0",
     "oreMeta": 0,
     "dimensionBlacklist": [
-      1,
       -1
     ],
-    "isBlacklistWhitelist": false,
+    "isBlacklistWhitelist": true,
     "tierReq": 2,
     "progressMultiplier": 1.0
   },
