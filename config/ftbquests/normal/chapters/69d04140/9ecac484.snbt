@@ -24,5 +24,12 @@
 		uid: "0bc7b361",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "7d2566aa",
+		type: "gamestage",
+		title: "Unlocks More Knowladge!",
+		auto: "invisible",
+		stage: "CreeperSpawnUnlock"
 	}]
 }

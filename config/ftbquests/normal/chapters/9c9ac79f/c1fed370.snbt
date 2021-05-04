@@ -131,5 +131,12 @@
 		uid: "6a37481e",
 		type: "ftbmoney:money",
 		ftb_money: 20L
+	},
+	{
+		uid: "616b2c0c",
+		type: "gamestage",
+		title: "Unlocks More Knowladge",
+		auto: "invisible",
+		stage: "EndermanSpawnUnlock"
 	}]
 }

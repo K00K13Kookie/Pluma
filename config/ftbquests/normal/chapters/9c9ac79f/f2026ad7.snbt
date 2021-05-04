@@ -11,6 +11,7 @@
 	dependencies: [
 		"2827e6ad"
 	],
+	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "a978548d",
@@ -31,5 +32,12 @@
 		}],
 		count: 10L,
 		consume_items: false
+	}],
+	rewards: [{
+		uid: "3aae7fd1",
+		type: "gamestage",
+		title: "Unlocks Nether and Other Stuff...",
+		auto: "enabled",
+		stage: "NetherDimensionUnlock"
 	}]
 }
