@@ -12,6 +12,8 @@ var toRemove = [
 ,   <f0-resources:item_prospectors_pick>
 ,   <f0-resources:item_advanced_prospectors_pick>
 ,   <f0-resources:item_dowsing_rod>
+, <f0-resources:item_scanner>
+, <f0-resources:item_ore_visualizer>
 ] as IItemStack[];
 
 for item in toRemove {

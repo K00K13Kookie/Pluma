@@ -456,3 +456,7 @@ recipes.addShaped(<gregtech:meta_item_1:12152>, [[<gregtech:meta_tool:6>], [<gre
 // Menril Sheet =======================================================================================================================================
 recipes.addShaped(<contenttweaker:menrilsheet> * 2, [[<gregtech:meta_tool:6>], [<integrateddynamics:crystalized_menril_block>], [<integrateddynamics:crystalized_menril_block>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:menrilsheet> * 4, <integrateddynamics:crystalized_menril_block>, <immersiveengineering:mold>, 80);
+
+// Green Sapphire Plates =======================================================================================================================================
+recipes.addShaped(<gregtech:meta_item_1:12117>, [[<gregtech:meta_tool:6>], [<ore:gemGreenSapphire>], [<ore:gemGreenSapphire>]]);
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12117>, <ore:gemGreenSapphire>, <immersiveengineering:mold>, 80);
