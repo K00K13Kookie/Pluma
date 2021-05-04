@@ -11,6 +11,8 @@
 		"- Better FluxDucts"
 	],
 	dependencies: [
+		"e1c53741",
+		"45243bf5",
 		"232f21d9"
 	],
 	hide: true,

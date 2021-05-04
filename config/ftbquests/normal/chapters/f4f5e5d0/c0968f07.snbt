@@ -15,7 +15,8 @@
 		"- And will also provide you with easier recipes for Logistical related content"
 	],
 	dependencies: [
-		"dd470acb"
+		"dd470acb",
+		"e1c53741"
 	],
 	hide: true,
 	tasks: [{
