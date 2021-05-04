@@ -1,0 +1,10 @@
+[
+  {
+    "name": "BlackSteel",
+    "isUnlocalized": true,
+    "durability": 1000,
+    "color": 5921370,
+    "tier": 1,
+    "speed": 1.0
+  }
+]
