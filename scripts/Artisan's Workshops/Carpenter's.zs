@@ -51,31 +51,6 @@ RecipeBuilder.get("carpenter")
   .addOutput(<minecraft:crafting_table>)
   .create();
 
-//Ladder
-recipes.remove(<minecraft:ladder>);
-RecipeBuilder.get("carpenter")
-  .setShaped([
-    [<ore:stickWood>, null, <ore:stickWood>],
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
-    [<ore:stickWood>, null, <ore:stickWood>]])
-  .addTool(<ore:artisansCarver>, 5)
-  .addTool(<ore:artisansHandsaw>, 10)
-  .addTool(<ore:artisansFramingHammer>, 5)
-  .addOutput(<minecraft:ladder> * 6)
-  .create();
-
-//Treated Ladder
-RecipeBuilder.get("carpenter")
-  .setShaped([
-    [<ore:stickTreatedWood>, null, <ore:stickTreatedWood>],
-    [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>],
-    [<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]])
-  .addTool(<ore:artisansCarver>, 5)
-  .addTool(<ore:artisansHandsaw>, 10)
-  .addTool(<ore:artisansFramingHammer>, 5)
-  .addOutput(<minecraft:ladder> * 12)
-  .create();
-
 //Waterwheel Segment
 recipes.remove(<immersiveengineering:material:10>);
 RecipeBuilder.get("carpenter")

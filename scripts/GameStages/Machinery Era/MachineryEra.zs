@@ -521,7 +521,12 @@ var MachineryGates as IItemStack[] = [
 <nuclearcraft:cobblestone_generator>,
 <nuclearcraft:cobblestone_generator_compact>,
 <nuclearcraft:cobblestone_generator_dense>,
-<nuclearcraft:part:4>
+<nuclearcraft:part:4>,
+
+//Factorio Resources
+<f0-resources:drill_component>,
+<f0-resources:item_drill_head.blacksteel>,
+<f0-resources:item_advanced_scanner>
     ];
 
 for i in MachineryGates {

@@ -1,5 +1,37 @@
 import mods.pyrotech.Worktable;
 
+//Replacing all String recipes with Twine OreDict
+<ore:string>.add(<pyrotech:material:14>);
+recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+
+//Clay block to Clay Balls
+recipes.addShapeless("ClayBlocksToBalls", <minecraft:clay_ball> * 4, [<ore:blockClay>]);
+
+//Polished stone from Quark to Stone OreDict
+<ore:stone>.add(<quark:polished_stone>);
+
+//Compressed 1x Cobblestone OreDicting Recipe
+recipes.remove(<overloaded:compressed_cobblestone:0>);
+recipes.addShaped(<overloaded:compressed_cobblestone:0> * 1, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+//Torch Recipe Fix
+recipes.remove(<minecraft:torch>);
+recipes.addShapeless("TorchWithBeewax", <minecraft:torch> * 4, [<ore:stickWood>, <ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]);
+recipes.addShapeless("TorchWithLigniteCoal", <minecraft:torch> * 4, [<ore:stickWood>, <gregtech:meta_item_1:8211>]);
+recipes.addShapeless("TorchWithSulfur", <minecraft:torch> * 2, [<ore:stickWood>, <ore:dustSulfur>]);
+
+//Tiny Coal e Tiny Charcoal Recipe Directly
+recipes.addShapeless("TinyCoal", <pyrotech:material:21> * 8, [<ore:coal>]);
+recipes.addShapeless("TinyCharcoal", <pyrotech:material:15> * 8, [<ore:charcoal>]);
+
+### Brick Fixes ####
+//Removing the one from GregTech
+furnace.remove(<minecraft:brick>, <gregtech:meta_item_2:32013>);
+
+//Charcoal Furnace Fix
+furnace.remove(<minecraft:coal:1>);
+furnace.addRecipe(<minecraft:coal:1>, <thermalfoundation:material:801>);
+
 # Tooltips
 <pyrotech:material>.addTooltip(format.green("Directly from Pallet town!"));
 

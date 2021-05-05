@@ -51,6 +51,10 @@ var toRemove = [
 , <gregtech:meta_item_2:32507>
 , <gregtech:meta_item_2:32488>
 , <gregtech:meta_item_1:11229>
+, <gregtech:metal_casing:8>
+, <gtadditions:ga_meta_item:32032>
+, <gregtech:meta_item_2:32013>
+, <gregtech:meta_item_2:32012>
 ] as IItemStack[];
 
 for item in toRemove {
@@ -63,7 +67,6 @@ for item in toRemove {
 	}
 
 	recipes.remove(item);
-    mods.jei.JEI.removeAndHide(item);
 }
 
 

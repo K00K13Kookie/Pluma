@@ -1,19 +1,6 @@
 {
   "list": [
     {
-      "name": "stone",
-      "harvestLevel": 1,
-      "maxUses": 131,
-      "efficiency": 4.0,
-      "damage": 1.0,
-      "enchantability": 5,
-      "color": "969696",
-      "shiny": false,
-      "ingredient": "ore:stone",
-      "langKey": "material.athenaeum.stone",
-      "oreDictKey": "artisansToolStone"
-    },
-    {
       "name": "iron",
       "harvestLevel": 2,
       "maxUses": 250,

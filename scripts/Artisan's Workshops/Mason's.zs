@@ -28,16 +28,23 @@ recipes.remove(<quark:sandy_bricks>);
   .addOutput(<quark:sandy_bricks> * 3)
   .create();
 
+//Coke Brick
+recipes.remove(<gregtech:meta_item_2:32016>);
+RecipeBuilder.get("mason")
+  .setShapeless([<ore:ingotBrick>, <ore:dustAsh>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansFile>, 2)
+  .addOutput(<gregtech:meta_item_2:32016>)
+  .create();
+
 //CokeBricks
 recipes.remove(<immersiveengineering:stone_decoration>);
 RecipeBuilder.get("mason")
-  .setShaped([
-    [null, <pyrotech:material>, null],
-    [<pyrotech:material>, <quark:sandy_bricks>, <pyrotech:material>],
-    [null, <pyrotech:material>, null]])
+  .setShapeless([<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>])
   .setFluid(<liquid:liquid_clay> * 1000)
-  .addTool(<ore:artisansBurner>, 5)
-  .addTool(<ore:artisansFile>, 4)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansFile>, 5)
+  .addTool(<ore:artisansPunch>, 5)
   .addOutput(<immersiveengineering:stone_decoration> * 3)
   .create();
 

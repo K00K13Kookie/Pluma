@@ -6,9 +6,7 @@
 	shape: "rsquare",
 	text: [
 		"Now lets get some Gravel! you can use it to get flint! 3 gravels = 1 flint",
-		"after that, simply place 1 flint in your Chopping Block and lets get Flint Shards!",
-		"",
-		"- This Quest also Unlocks New flint tools in the Tool Progression Chapter!"
+		"after that, simply place 1 flint in your Chopping Block and lets get Flint Shards!"
 	],
 	dependencies: [
 		"c741fe6c"
