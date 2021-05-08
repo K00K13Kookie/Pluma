@@ -1,7 +1,0 @@
-{
-	title: "Tool Progression",
-	icon: "forestry:bronze_pickaxe",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
