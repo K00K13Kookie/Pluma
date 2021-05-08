@@ -61,10 +61,5 @@
 				}]
 			}
 		}
-	},
-	{
-		uid: "18f6eb46",
-		type: "random",
-		table: 5
 	}]
 }

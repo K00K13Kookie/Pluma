@@ -12,7 +12,8 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"e4067a20"
+		"e4067a20",
+		"bf158ec7"
 	],
 	hide: true,
 	tasks: [{

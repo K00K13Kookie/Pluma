@@ -2,7 +2,7 @@
 	title: "Early game Crop Acceleration!",
 	icon: "rustic:bee",
 	x: 9.5d,
-	y: -8.5d,
+	y: -4.0d,
 	shape: "rsquare",
 	description: "Lets accelerate our crops with some Rustic Bees!",
 	text: [
@@ -12,7 +12,6 @@
 		"",
 		"(Bees Multiply themselves inside the Rustic Apiary Also)"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"13615611"
 	],
