@@ -1,0 +1,19 @@
+{
+	title: "IV Era",
+	x: 11.0d,
+	y: -1.0d,
+	description: "Insane Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"efa8cc27"
+	],
+	tasks: [{
+		uid: "c5c14b27",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 505"
+		}]
+	}]
+}

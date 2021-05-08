@@ -1,0 +1,46 @@
+{
+	title: "Early game Crop Acceleration!",
+	icon: "rustic:bee",
+	x: 9.5d,
+	y: -8.5d,
+	shape: "rsquare",
+	description: "Lets accelerate our crops with some Rustic Bees!",
+	text: [
+		"With a Rustic Apiary containing Rustic Bee's Inside, you'll be able to Accelerate the Crops nearby!",
+		"",
+		"- In order to get them you'll need to break Rustic Hives in the World. ",
+		"",
+		"(Bees Multiply themselves inside the Rustic Apiary Also)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"13615611"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2607878d",
+		type: "item",
+		items: [{
+			item: "rustic:bee"
+		}]
+	},
+	{
+		uid: "ee3bf4fc",
+		type: "item",
+		items: [{
+			item: "rustic:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "825862b0",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "e63fb758",
+		type: "random",
+		title: "Random Rustic Plant",
+		icon: "rustic:wind_thistle",
+		table: 5
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "MAX Era",
+	x: 19.0d,
+	y: -1.0d,
+	description: "Maximum Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"7be650c6"
+	],
+	tasks: [{
+		uid: "0b968abc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 509"
+		}]
+	}]
+}

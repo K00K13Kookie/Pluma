@@ -1,0 +1,20 @@
+{
+	title: "Steam and Early Game",
+	icon: "gregtech:machine_casing 1 11",
+	x: 1.0d,
+	y: -1.0d,
+	description: "Non Existent Voltage - Steam Era",
+	text: [
+		"Right Now, you're handling only with Basic RF and some Steam Powered Machines"
+	],
+	dependencies: [
+		"69a279ab"
+	],
+	tasks: [{
+		uid: "92ed6ed6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 11"
+		}]
+	}]
+}

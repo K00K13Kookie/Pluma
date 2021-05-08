@@ -1,0 +1,22 @@
+{
+	title: "Welcome to the Progression Tab!",
+	icon: "ftbquests:book",
+	x: -1.5d,
+	y: -1.0d,
+	description: "Quick info about this tab",
+	text: [
+		"Here you'll be able to track all of your Progression in the Pack, All of the Machine Frames, Chassis and Even Circuits will be listed here for you to track",
+		"where exactly you are and such.",
+		"",
+		"and of course, beacuse there's GregTech on the Pack, this tab is extremely important to track the Voltages."
+	],
+	dependencies: [
+		"1186a171"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "6b0c689c",
+		type: "checkmark"
+	}]
+}

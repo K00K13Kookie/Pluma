@@ -1,0 +1,78 @@
+{
+	title: "Storage II",
+	icon: "contenttweaker:srtokenii",
+	x: -6.5d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "Simplistic Storage System, Caches, Strongboxes and More!",
+	text: [
+		"This Research will grant you Acess to",
+		"",
+		"- Better Storage solutions such as Strongboxes, Easier Caches and Even a Simple Storage System!"
+	],
+	dependencies: [
+		"6fc1dbe8",
+		"742ce34d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e044a12",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_menril_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b121636d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gearSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearSteel"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "4ea22594",
+		type: "item",
+		items: [{
+			item: "contenttweaker:menrilsheet"
+		}],
+		count: 32L
+	},
+	{
+		uid: "6a6044c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plateGlowstone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateGlowstone"
+				}
+			}
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "b4294ddb",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "StorageResearchII"
+	}]
+}

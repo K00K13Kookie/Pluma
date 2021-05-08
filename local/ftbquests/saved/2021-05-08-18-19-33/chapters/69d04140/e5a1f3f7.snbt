@@ -1,0 +1,60 @@
+{
+	title: "Stone Tools!",
+	x: -2.0d,
+	y: -7.0d,
+	description: "Finally some decent Mining!",
+	text: [
+		"Now that you have Masonry Bricks, it is time to make some Stone Tools! they're much better than the ones that you currently have."
+	],
+	dependencies: [
+		"87623e84"
+	],
+	tasks: [{
+		uid: "fb7d4185",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8479532a",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ebdb16f7",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a768f34a",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "c3d71344",
+		type: "item",
+		item: {
+			id: "forestry:bronze_shovel",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 34s
+				}],
+				display: {
+					Name: "If it breaks, there's no Repair"
+				}
+			}
+		}
+	}]
+}

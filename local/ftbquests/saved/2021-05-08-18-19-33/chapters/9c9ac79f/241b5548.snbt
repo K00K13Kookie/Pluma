@@ -1,0 +1,80 @@
+{
+	title: "Automating Crops!",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		},
+		Damage: 2s
+	},
+	x: -2.4613945578231267d,
+	y: -14.277891156462594d,
+	shape: "square",
+	description: "Let's build a Forestry Farm!",
+	text: [
+		"To Build a Farm you'll need a couple of blocks listed in this Quest, and to be exact it is requesting the Minimum for a §6Forestry Farm (3x3x4)§f Also keep note of some important info:",
+		"",
+		"- §9Gearboxes are needed for Energy Input§f",
+		"",
+		"- §9Valves§f aren't exactly needed but they are recommended since it allows you §9to insert Water automatically§f",
+		"",
+		"After you build the initial structure, use your §672 Stone Bricks§f ",
+		"(or wathever block style you've choosen, keep in mind that §call of them need to be of the same block Style§f) ",
+		"and Build a Platform right on the level of the Last Farm block layer of the structure.",
+		"",
+		"A Special tip in order to build the platform is to start off with the §6Cardinal Points!§f count and §6place 4 blocks from each one of them§f and them §6connect them diagonally§f and filling the interior.",
+		"",
+		"",
+		" "
+	],
+	dependencies: [
+		"c1fed370"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aae5fdd7",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "e6aee570",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "fe25776a",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		}],
+		count: 34L
+	},
+	{
+		uid: "f3479c6a",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 72L
+	}],
+	rewards: [{
+		uid: "b51aef7c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

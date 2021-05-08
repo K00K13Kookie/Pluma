@@ -1,7 +1,0 @@
-{
-	title: "Overall Progression",
-	icon: "gregtech:meta_item_2 1 32488",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,0 +1,25 @@
+{
+	title: "A Better Rolling device!",
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"Now that you can make Charge and move it using wires, why not to Upgrade your Manual Rolling machine to an Automatic One?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"999c1b7c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "277a9d79",
+		type: "item",
+		items: [{
+			item: "railcraft:equipment 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "14688cfd",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

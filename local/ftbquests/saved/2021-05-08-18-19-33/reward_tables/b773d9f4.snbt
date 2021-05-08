@@ -1,0 +1,28 @@
+{
+	title: "RusticPlants",
+	loot_size: 1,
+	rewards: [{
+		item: "rustic:chamomile"
+	},
+	{
+		item: "rustic:wind_thistle"
+	},
+	{
+		item: "rustic:blood_orchid"
+	},
+	{
+		item: "rustic:cohosh"
+	},
+	{
+		item: "rustic:deathstalk_mushroom"
+	},
+	{
+		item: "rustic:horsetail"
+	},
+	{
+		item: "rustic:mooncap_mushroom"
+	},
+	{
+		item: "rustic:cloudsbluff"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Iluminating your base!",
+	x: 0.5d,
+	y: -4.0d,
+	description: "Now that you have Charcoal lets make some Candles!",
+	text: [
+		"You can make some Candles by simply using Tallow and Strings! or, if you wish for a more decorated candle, mix a candle with some gold, Silver or Iron to make a Fancy Rustic Candle!",
+		"",
+		"- Also Remember that in order to get Tallows, you'll need to kill Pigs."
+	],
+	dependencies: [
+		"3183afcf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0bc513b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCandle",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCandle"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d1f904bf",
+		type: "item",
+		item: "immersiveengineering:metal_decoration2 1 4",
+		count: 4
+	}]
+}

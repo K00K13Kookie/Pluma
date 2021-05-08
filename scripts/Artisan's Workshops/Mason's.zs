@@ -29,6 +29,7 @@ recipes.remove(<quark:sandy_bricks>);
   .create();
 
 //Coke Brick
+furnace.remove(<gregtech:meta_item_2:32016>, <gtadditions:ga_meta_item:32032>);
 recipes.remove(<gregtech:meta_item_2:32016>);
 RecipeBuilder.get("mason")
   .setShapeless([<ore:ingotBrick>, <ore:dustAsh>])

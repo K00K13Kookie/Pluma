@@ -1,0 +1,62 @@
+{
+	title: "Producing Charcoal",
+	icon: "minecraft:coal 1 1",
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		"Lets make some Charcoal! in order to do so, get some Sawdust and make a compressed version of it. After that, simply smelt it to get Charcoal!"
+	],
+	dependencies: [
+		"d82ac50a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "604304e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustWood"
+				}
+			}
+		}],
+		count: 9L
+	},
+	{
+		uid: "0d23eabc",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 801"
+		}]
+	},
+	{
+		uid: "8715cf59",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "charcoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any charcoal"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bab61bf0",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

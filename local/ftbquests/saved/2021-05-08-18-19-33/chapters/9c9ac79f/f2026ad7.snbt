@@ -1,0 +1,43 @@
+{
+	title: "Tired of Crafting Glowstone by Hand?",
+	x: 2.5d,
+	y: -11.0d,
+	shape: "rsquare",
+	description: "Why not challenge yourself in the Nether!",
+	text: [
+		"The Nether have been tweaked to be a dificult dimension, you can get glowstone and other resources easily there, but there's a Risk.",
+		"No Pain no Gain"
+	],
+	dependencies: [
+		"2827e6ad"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a978548d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "obsidian",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any obsidian"
+				}
+			}
+		}],
+		count: 10L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "3aae7fd1",
+		type: "gamestage",
+		title: "Unlocks Nether and Other Stuff...",
+		auto: "enabled",
+		stage: "NetherDimensionUnlock"
+	}]
+}

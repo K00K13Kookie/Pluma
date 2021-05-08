@@ -1,0 +1,70 @@
+{
+	title: "Elixir of Speed",
+	icon: {
+		id: "rustic:elixir",
+		tag: {
+			ElixirEffects: [{
+				Effect: "minecraft:speed",
+				Duration: 3600,
+				Amplifier: 0
+			}]
+		}
+	},
+	x: 19.0d,
+	y: -8.25d,
+	text: [
+		"A Cheap way to give Speed to yourself"
+	],
+	dependencies: [
+		"bf158ec7"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "a6d2a6dd",
+		type: "item",
+		items: [{
+			item: "minecraft:sugar"
+		}]
+	},
+	{
+		uid: "f89d79c7",
+		type: "item",
+		items: [{
+			item: "rustic:wind_thistle"
+		}]
+	},
+	{
+		uid: "a7d06a51",
+		type: "item",
+		items: [{
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:speed",
+					Duration: 3600,
+					Amplifier: 0
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "745d28af",
+		type: "item",
+		item: {
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:speed",
+					Duration: 3600,
+					Amplifier: 0
+				}]
+			}
+		}
+	},
+	{
+		uid: "18f6eb46",
+		type: "random",
+		table: 5
+	}]
+}

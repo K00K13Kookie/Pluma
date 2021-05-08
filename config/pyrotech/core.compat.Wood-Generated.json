@@ -165,6 +165,10 @@
     "plants2:planks:2": "plants2:black_kauri_slab:0",
     "plants2:planks:3": "plants2:brazillian_pine_slab:0",
     "plants2:planks:4": "plants2:incense_cedar_slab:0",
-    "plants2:planks:5": "plants2:murray_pine_slab:0"
+    "plants2:planks:5": "plants2:murray_pine_slab:0",
+    "rustic:log:0": "rustic:planks:0",
+    "rustic:log:1": "rustic:planks:1",
+    "rustic:planks:0": "rustic:olive_slab_item:0",
+    "rustic:planks:1": "rustic:ironwood_slab_item:0"
   }
 }

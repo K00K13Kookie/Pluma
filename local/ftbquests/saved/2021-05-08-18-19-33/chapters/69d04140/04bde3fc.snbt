@@ -1,0 +1,36 @@
+{
+	title: "Finally you can Fight Against Monsters!",
+	icon: "pyrotech:flint_sword",
+	x: -4.5d,
+	y: -6.0d,
+	shape: "rsquare",
+	description: "Have you checked the \"Tool Progression\" Tab before going for this Quest?",
+	text: [
+		"The flint sword is your first proper Weapon! no more running and hoping to not get killed by a Creeper!"
+	],
+	dependencies: [
+		"ffc624bf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5b37d3f",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afe98c7b",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "a5fece85",
+		type: "gamestage",
+		title: "Unlocks more Knowladge!",
+		auto: "invisible",
+		stage: "ZombieSpawnUnlock"
+	}]
+}

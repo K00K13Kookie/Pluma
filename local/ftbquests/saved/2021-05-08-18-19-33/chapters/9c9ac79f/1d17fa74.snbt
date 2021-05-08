@@ -1,0 +1,31 @@
+{
+	title: "A Basic Fluid Refiner!",
+	icon: "forestry:still",
+	x: 1.8333333333333357d,
+	y: -16.98588435374151d,
+	shape: "square",
+	text: [
+		"The Still can be used to refine some fluids that you might have in stock, such as Canola Oil! It cannot be used to refine more complex fluids later on, but it is very handy for the moment."
+	],
+	dependencies: [
+		"f1522e19"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dca64838",
+		type: "item",
+		items: [{
+			item: "forestry:still"
+		}]
+	},
+	{
+		uid: "12791a65",
+		type: "fluid",
+		fluid: "refinedcanolaoil"
+	}],
+	rewards: [{
+		uid: "ccc0a645",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

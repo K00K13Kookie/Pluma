@@ -12,7 +12,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 2)
-  .addOutput(<immersiveengineering:metal_decoration2:4> * 4)
+  .addOutput(<immersiveengineering:metal_decoration2:4> * 6)
   .create();
 
 //Coffe Machine

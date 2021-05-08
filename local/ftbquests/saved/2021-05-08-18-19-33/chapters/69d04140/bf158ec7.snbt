@@ -1,0 +1,36 @@
+{
+	title: "Early game Alchemy",
+	icon: "rustic:condenser",
+	x: 18.0d,
+	y: -9.0d,
+	shape: "square",
+	description: "A Way to heal yourself and improved your life!",
+	text: [
+		"You Currently don't have acess to normal Minecraft Potion Brewery, but, Rustic Offers an Early game alternative! Simply make an Alchemical Condenser and 2 Retors (they need to be connected with the Condenser)."
+	],
+	dependencies: [
+		"7323d690"
+	],
+	tasks: [{
+		uid: "38d2c8c5",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "eef9cbe1",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3e8feb35",
+		type: "random",
+		title: "Random Rustic Plant",
+		icon: "rustic:wind_thistle",
+		table: 5
+	}]
+}
