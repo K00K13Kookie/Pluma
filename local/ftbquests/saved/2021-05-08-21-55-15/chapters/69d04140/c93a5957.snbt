@@ -35,5 +35,11 @@
 		title: "Unlocks Chisel!",
 		auto: "no_toast",
 		stage: "ChiselUnlock"
+	},
+	{
+		uid: "781d18a0",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "ZombieSpawnUnlock"
 	}]
 }

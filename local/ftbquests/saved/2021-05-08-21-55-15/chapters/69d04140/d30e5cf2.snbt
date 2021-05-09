@@ -27,12 +27,5 @@
 		uid: "0704c988",
 		type: "ftbmoney:money",
 		ftb_money: 5L
-	},
-	{
-		uid: "fdd4e848",
-		type: "gamestage",
-		title: "Unlocks More Knowladge!",
-		auto: "invisible",
-		stage: "SkeletonSpawnUnlock"
 	}]
 }

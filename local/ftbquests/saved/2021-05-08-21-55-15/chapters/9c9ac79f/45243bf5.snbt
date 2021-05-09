@@ -31,5 +31,11 @@
 		title: "Unlocks More Knowladge!",
 		auto: "invisible",
 		stage: "ThermalUpgradeKits"
+	},
+	{
+		uid: "d83ab825",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EndermanSpawnUnlock"
 	}]
 }

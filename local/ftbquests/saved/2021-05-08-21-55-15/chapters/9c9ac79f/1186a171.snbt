@@ -30,5 +30,11 @@
 		title: "More Knowladge!",
 		auto: "invisible",
 		stage: "ModularMachineryUnlock"
+	},
+	{
+		uid: "b8f3cb9c",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "roughmobsabils"
 	}]
 }

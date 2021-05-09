@@ -1,62 +1,63 @@
 {
-	title: "Elixir of Night Vision",
+	title: "Elixir of Healing",
 	icon: {
 		id: "rustic:elixir",
 		tag: {
 			ElixirEffects: [{
-				Effect: "minecraft:night_vision",
-				Duration: 3600,
+				Effect: "minecraft:instant_health",
+				Duration: 1,
 				Amplifier: 0
 			}]
 		}
 	},
-	x: 19.25d,
-	y: -8.75d,
+	x: 19.0d,
+	y: -9.75d,
 	text: [
-		"A Cheap way to give nightvision to yourself"
+		"A Cheap way to heal yourself"
 	],
 	dependencies: [
 		"bf158ec7"
 	],
+	hide: true,
 	size: 0.5d,
 	optional: true,
 	tasks: [{
-		uid: "d9d8597a",
+		uid: "493195aa",
 		type: "item",
 		items: [{
-			item: "minecraft:spider_eye"
+			item: "rustic:chamomile"
 		}]
 	},
 	{
-		uid: "8782d520",
+		uid: "7161fb94",
 		type: "item",
 		items: [{
-			item: "rustic:mooncap_mushroom"
+			item: "minecraft:beef"
 		}]
 	},
 	{
-		uid: "35fa3e38",
+		uid: "40f7530c",
 		type: "item",
 		items: [{
 			id: "rustic:elixir",
 			tag: {
 				ElixirEffects: [{
-					Effect: "minecraft:night_vision",
-					Duration: 3600,
+					Effect: "minecraft:instant_health",
+					Duration: 1,
 					Amplifier: 0
 				}]
 			}
 		}]
 	}],
 	rewards: [{
-		uid: "6526398c",
+		uid: "b641510e",
 		type: "item",
 		item: {
 			id: "rustic:elixir",
 			tag: {
 				ElixirEffects: [{
-					Effect: "minecraft:night_vision",
-					Duration: 3600,
+					Effect: "minecraft:instant_health",
+					Duration: 1,
 					Amplifier: 0
 				}]
 			}

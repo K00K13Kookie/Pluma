@@ -1,25 +1,30 @@
+
+##Rough Mob Buffs being Unlocked (Being noted here just for organization Purposes)
+
+//Mobs will start to spawn with Armor (with enchantments aswell) when the "Arc Furnace" Quest is Completed
+//Mobs Special AI and Atributes will Start Spawning upon the Completion of the "First Circuit" Quest.
+
 # Mobs Spawning in Specific Stages 
 
-//Spider (Start Spawning when Different Ways to Store your Items Quest is Completed)
+//Spider (Start Spawning when "Finally you can Fight Against Monsters!" Quest is Completed)
 mods.MobStages.addStage("SpiderSpawnUnlock", "minecraft:spider");
 
-//Zombie
+//Zombie (Start Spawning when "Making Bronze" Quest is Completed)
 mods.MobStages.addStage("ZombieSpawnUnlock", "minecraft:zombie");
 mods.MobStages.addStage("ZombieSpawnUnlock", "minecraft:zombie_horse");
 mods.MobStages.addStage("ZombieSpawnUnlock", "minecraft:zombie_villager");
 mods.MobStages.addStage("ZombieSpawnUnlock", "minecraft:husk");
 
-//Skeleton (Start Spawning when the Mason Workshop Quest is Completed)
+//Skeletons and Witches (Start Spawning when "The Metal Press!" Quest is Completed) 
+mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:witch");
 mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:skeleton");
 mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:skeleton_horse");
 
-//Creeper (Start Spawning when the BlackSmith Workshop Quest is Completed)
+//Creeper (Start Spawning when "Refining it all together!" Quest is Completed)
 mods.MobStages.addStage("CreeperSpawnUnlock", "minecraft:creeper");
 
-//Enderman and Witches (Start Spawning when the Arc Furnace Quest is Completed)
+//Enderman (Start Spawning when "A Much resistent Variation of Steel!" Quest is Completed)
 mods.MobStages.addStage("EndermanSpawnUnlock", "minecraft:enderman");
-mods.MobStages.addStage("EndermanSpawnUnlock", "minecraft:witch");
-
 
 #### Nether Dimension Unlock ###
 

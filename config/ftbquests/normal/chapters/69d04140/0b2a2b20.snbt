@@ -1,0 +1,48 @@
+{
+	title: "Some info about Mobs",
+	icon: "minecraft:writable_book",
+	x: -9.5d,
+	y: -2.0d,
+	description: "Not all of them will Spawn at the Beggining of your Journey!",
+	text: [
+		"First of all, In this Modpack §cAlmost All Mobs received a Rework/New Abilities§f! and also, §dMobs§f will §dstart spawning and getting buffed as you progress§f, so right now, You'll not",
+		"Find Endermans for example.",
+		"",
+		"Take a look at these notes about the Buffs and Reworks that the Mobs will receive as you progress:",
+		"",
+		"- Overall mob stats have been slightly buffed and as Far as you go from the Spawn of the Map, Harder the Mobs get.",
+		"",
+		"- §6Zombies§f and §6Skeletons§f have a chance to §cspawn with Armor§f",
+		"",
+		"- §6Blazes§f set you in §cflames with the simple touch§f",
+		"",
+		"- §6Creepers§f burn in the Sun, but the §cExplosion is bigger§f, the fuse time is lower and it also §cgets invisible§f if it is in a 6 block radius around you.",
+		"",
+		"- §6Endermans§f have a chance to §cmake you blind§f for 10 seconds",
+		"",
+		"- §6Ghasts§f §cexplosions§f are §cbigger§f and they are §cimmune to projectiles§f §7(exept their own)§f ",
+		"",
+		"- §6Magma Cubes§f have §cRegeneration§f when they are §cinside lava§f",
+		"",
+		"- §6Silverfishes§f have a chance to §cmultiply themselves§f when attacked",
+		"",
+		"- §6Skeletons§f will shoot a little bit faster than normal and have a chance to spawn with a close range weapon",
+		"",
+		"- §6Spiders§f §cdon't receive fall damage§f and have a change to §cgive§f the target §cslowness§f also creating a §cWeb on them§f",
+		"",
+		"- §6Witches§f §cwhen killed will spawn bats§f and also they will give §cMobs around it§f some §cbuffs§f §7(Such as Strength, resistence and Speed)§f ",
+		"",
+		"- §6Zombies§f have a chance to §cgive you Hunger§f when they hit you, they also have a §cchance to Leap§f into their targets.",
+		"",
+		"- §6Zombie Pigmans§f have a chance to §cget agressive if you break a block too close to them§f."
+	],
+	dependencies: [
+		"b6398f5b"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "fa62437c",
+		type: "checkmark"
+	}]
+}

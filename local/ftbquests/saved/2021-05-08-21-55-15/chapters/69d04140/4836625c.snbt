@@ -11,6 +11,7 @@
 	dependencies: [
 		"3183afcf"
 	],
+	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "0bc513b8",

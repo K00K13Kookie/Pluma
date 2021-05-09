@@ -27,10 +27,10 @@
 		ftb_money: 1L
 	},
 	{
-		uid: "a5fece85",
+		uid: "baedcb4e",
 		type: "gamestage",
-		title: "Unlocks more Knowladge!",
+		title: "SpiderSpawnUnlock",
 		auto: "invisible",
-		stage: "ZombieSpawnUnlock"
+		stage: "SpiderSpawnUnlock"
 	}]
 }

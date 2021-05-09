@@ -71,5 +71,11 @@
 		uid: "89b66b0f",
 		type: "ftbmoney:money",
 		ftb_money: 2L
+	},
+	{
+		uid: "7230a792",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "SkeletonSpawnUnlock"
 	}]
 }

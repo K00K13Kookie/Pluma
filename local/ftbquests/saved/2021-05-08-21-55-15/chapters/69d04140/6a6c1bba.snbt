@@ -53,12 +53,5 @@
 		uid: "df87f990",
 		type: "ftbmoney:money",
 		ftb_money: 5L
-	},
-	{
-		uid: "d8bf17e0",
-		type: "gamestage",
-		title: "Unlocks More knowladge!",
-		auto: "invisible",
-		stage: "SpiderSpawnUnlock"
 	}]
 }

@@ -80,5 +80,11 @@
 		uid: "35639ff1",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "bd1c89f6",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "CreeperSpawnUnlock"
 	}]
 }

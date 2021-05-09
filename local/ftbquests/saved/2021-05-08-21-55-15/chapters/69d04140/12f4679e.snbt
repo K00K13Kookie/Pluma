@@ -1,62 +1,63 @@
 {
-	title: "Elixir of Regeneration",
+	title: "Elixir of Speed",
 	icon: {
 		id: "rustic:elixir",
 		tag: {
 			ElixirEffects: [{
-				Effect: "minecraft:regeneration",
-				Duration: 900,
+				Effect: "minecraft:speed",
+				Duration: 3600,
 				Amplifier: 0
 			}]
 		}
 	},
-	x: 19.25d,
-	y: -9.25d,
+	x: 19.0d,
+	y: -8.25d,
 	text: [
-		"A Cheap way to give regeneration to yourself"
+		"A Cheap way to give Speed to yourself"
 	],
 	dependencies: [
 		"bf158ec7"
 	],
+	hide: true,
 	size: 0.5d,
 	optional: true,
 	tasks: [{
-		uid: "642bf687",
+		uid: "a6d2a6dd",
 		type: "item",
 		items: [{
-			item: "rustic:honeycomb"
+			item: "minecraft:sugar"
 		}]
 	},
 	{
-		uid: "a3524263",
+		uid: "f89d79c7",
 		type: "item",
 		items: [{
-			item: "rustic:cohosh"
+			item: "rustic:wind_thistle"
 		}]
 	},
 	{
-		uid: "8d6c9f8f",
+		uid: "a7d06a51",
 		type: "item",
 		items: [{
 			id: "rustic:elixir",
 			tag: {
 				ElixirEffects: [{
-					Effect: "minecraft:regeneration",
-					Duration: 900,
+					Effect: "minecraft:speed",
+					Duration: 3600,
 					Amplifier: 0
 				}]
 			}
 		}]
 	}],
 	rewards: [{
-		uid: "37cb3f92",
+		uid: "745d28af",
 		type: "item",
 		item: {
 			id: "rustic:elixir",
 			tag: {
 				ElixirEffects: [{
-					Effect: "minecraft:regeneration",
-					Duration: 900,
+					Effect: "minecraft:speed",
+					Duration: 3600,
 					Amplifier: 0
 				}]
 			}

@@ -133,10 +133,15 @@
 		ftb_money: 20L
 	},
 	{
-		uid: "616b2c0c",
+		uid: "11ccb19d",
 		type: "gamestage",
-		title: "Unlocks More Knowladge",
 		auto: "invisible",
-		stage: "EndermanSpawnUnlock"
+		stage: "roughmobsequip"
+	},
+	{
+		uid: "a524062e",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "roughmobsenchant"
 	}]
 }
