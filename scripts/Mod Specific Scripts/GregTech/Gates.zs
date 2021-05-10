@@ -256,7 +256,6 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:meta_item_2:32572>,
 <gregtech:meta_item_2:32213>,
 <gregtech:meta_item_2:32212>,
-<gregtech:meta_item_2:32579>,
 <gregtech:meta_item_2:32578>,
 <gregtech:meta_item_2:32508>,
 <gregtech:meta_item_2:32506>,

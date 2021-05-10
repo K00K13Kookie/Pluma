@@ -204,6 +204,8 @@
     "plants2:planks:2": "plants2:black_kauri_slab:0",
     "plants2:planks:3": "plants2:brazillian_pine_slab:0",
     "plants2:planks:4": "plants2:incense_cedar_slab:0",
-    "plants2:planks:5": "plants2:murray_pine_slab:0"
+    "plants2:planks:5": "plants2:murray_pine_slab:0",
+    "traverse:fir_log:0": "traverse:fir_planks:0",
+    "traverse:fir_planks:0": "traverse:fir_slab:0"
   }
 }

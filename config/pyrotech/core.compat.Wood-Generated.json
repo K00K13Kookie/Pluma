@@ -169,6 +169,8 @@
     "rustic:log:0": "rustic:planks:0",
     "rustic:log:1": "rustic:planks:1",
     "rustic:planks:0": "rustic:olive_slab_item:0",
-    "rustic:planks:1": "rustic:ironwood_slab_item:0"
+    "rustic:planks:1": "rustic:ironwood_slab_item:0",
+    "traverse:fir_log:0": "traverse:fir_planks:0",
+    "traverse:fir_planks:0": "traverse:fir_slab:0"
   }
 }
