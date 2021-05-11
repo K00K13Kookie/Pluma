@@ -20,11 +20,7 @@ var RodsRemovidas as IItemStack[] = [
 <immersiveengineering:material:2>,
 <immersiveengineering:material:3>,
 <moreplates:constantan_stick>,
-<moreplates:enderium_stick>,
-<moreplates:lumium_stick>,
-<moreplates:mana_infused_stick>,
-<moreplates:nickel_stick>,
-<moreplates:signalum_stick>
+<moreplates:nickel_stick>
     ];
 for i in RodsRemovidas {     
 recipes.remove(i);
