@@ -320,7 +320,6 @@ var MachineryGates as IItemStack[] = [
 <forestry:peat_bog:1>,
 <forestry:habitat_former>,
 <forestry:apiary>,
-<forestry:candle>,
 <forestry:stump>,
 <forestry:rainmaker>,
 <forestry:alveary.plain>,
