@@ -2,7 +2,7 @@
 	title: "HOP Graphite",
 	icon: "immersiveengineering:material 1 19",
 	x: 13.0d,
-	y: -6.5d,
+	y: -6.0d,
 	text: [
 		"HOP Graphite is a Special Graphite bar that can be used to make special materials and even a Blacksmith table!"
 	],

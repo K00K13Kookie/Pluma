@@ -34,6 +34,29 @@ mods.pyrotech.SoakingPot.addRecipe(
   3200
 );
 
+#### Treated, Durable and Enhanced Stuff from Pyrotech ###
+
+//Durable Twine
+mods.pyrotech.SoakingPot.addRecipe(
+  "DurableTwineRecipe",     
+  <pyrotech:material:26>,
+  <liquid:creosote> * 100,
+  <ore:string>,
+  false,
+  1600
+);
+
+
+//Tarred Planks
+mods.pyrotech.SoakingPot.addRecipe(
+  "TarredPlanksRecipe",     
+  <pyrotech:planks_tarred> * 4,
+  <liquid:creosote> * 1000,
+  <pyrotech:log_pile>,
+  false,
+  1600
+);
+
 //Treated Wood
 mods.pyrotech.SoakingPot.addRecipe(
   "TreatedWoodEarlyGame",     

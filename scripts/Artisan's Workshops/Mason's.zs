@@ -41,8 +41,10 @@ RecipeBuilder.get("mason")
 //CokeBricks
 recipes.remove(<immersiveengineering:stone_decoration>);
 RecipeBuilder.get("mason")
-  .setShapeless([<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>])
-  .setFluid(<liquid:liquid_clay> * 1000)
+  .setShaped([
+    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>],
+    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]])
+  .setFluid(<liquid:liquid_clay> * 500)
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansFile>, 5)
   .addTool(<ore:artisansPunch>, 5)

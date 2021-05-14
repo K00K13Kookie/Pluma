@@ -120,7 +120,7 @@ Worktable.buildShaped(<pyrotech:flint_sword>, [
 recipes.addShapeless("NsandToPile", <pyrotech:rock:5> * 4, [<ore:artisansSifter>.reuse().transformDamage(2), <ore:sand>]);
 
 # Sand Pile into Nitrate
-recipes.addShapeless("SandPileToNitrate", <immersiveengineering:material:24>, [<gregtech:meta_tool:12>, <pyrotech:rock:5>, <pyrotech:rock:5>]);
+recipes.addShapeless("SandPileToNitrate", <thermalfoundation:material:772>, [<gregtech:meta_tool:12>, <pyrotech:rock:5>, <pyrotech:rock:5>]);
 
 # Pile of WoodChips to SawDust OreDict
 <ore:itemSawdust>.add(<pyrotech:rock:7>);

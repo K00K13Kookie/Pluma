@@ -1,6 +1,6 @@
 {
 	title: "Iluminating your base!",
-	x: 0.5d,
+	x: -0.5d,
 	y: -4.0d,
 	description: "Now that you have Charcoal lets make some Candles!",
 	text: [

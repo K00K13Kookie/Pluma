@@ -20,7 +20,9 @@ mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:enhanced_aluminum_du
 
 //Enhanced Aluminum Block and Nugget
 recipes.addShapeless("EnhancedAluminumNugget", <contenttweaker:enhanced_aluminum_nugget> * 9, [<modularmachinery:itemmodularium>]);
-recipes.addShaped(<contenttweaker:sub_block_holder_0:4> * 1, [[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);
+recipes.addShaped(<contenttweaker:sub_block_holder_0>, [[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);
+recipes.addShapeless("EnhancedAluminumBlockToIngot", <modularmachinery:itemmodularium> * 9, [<contenttweaker:sub_block_holder_0>]);
+
 
 //Enhanced Aluminum Bolt
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_bolt> * 4, <ore:stickEnhancedAluminum>, <contenttweaker:boltmold>, 20);

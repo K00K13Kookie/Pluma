@@ -3,6 +3,11 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
 
+### Coal Coke OreDict Issues ###
+
+recipes.replaceAllOccurences(<gregtech:meta_item_1:8357>, <ore:fuelCoke>);
+recipes.replaceAllOccurences(<thermalfoundation:material:802>, <ore:fuelCoke>);
+recipes.replaceAllOccurences(<immersiveengineering:material:6>, <ore:fuelCoke>);
 
 // Adding Immersive Tools to Artisan's OreDicts
 
@@ -30,7 +35,8 @@ recipes.addShapeless("Engineer's HammerRecipe", <immersiveengineering:tool>, [<o
 <immersiveengineering:tool>.addTooltip(format.green("A Special Hammer used to Form MultiBlock Structures!"));
 
 # HOP Graphite block Recipe ===================================
-recipes.addShapeless("HOPGraphiteBlock", <contenttweaker:sub_block_holder_0>, [<immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>]);
+recipes.addShapeless("HOPGraphiteBlock", <contenttweaker:sub_block_holder_0:1>, [<immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>]);
+recipes.addShapeless("HOPGraphiteBlockToIngot", <immersiveengineering:material:19> * 9, [<contenttweaker:sub_block_holder_0:1>]);
 
 # ConveyorBelts and Pipes ========================================
 
