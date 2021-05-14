@@ -9,8 +9,8 @@
       "block": "plants2:cosmetic_6",
       "type": "weldenia_candida"
     },
-    "min_amount": 3,
-    "max_amount": 5
+    "min_amount": 1,
+    "max_amount": 3
   },
   "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
