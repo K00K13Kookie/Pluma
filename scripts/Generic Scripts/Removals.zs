@@ -37,6 +37,9 @@ var ItensRemovidos as IItemStack[] = [
 <pyrotech:quartz_axe>,
 <pyrotech:quartz_shovel>,
 <pyrotech:quartz_hoe>,
+<pyrotech:mulch>,
+<pyrotech:compost_bin>,
+<pyrotech:mechanical_mulch_spreader>,
 
 //MorePlates
 <moreplates:hammer>,
@@ -341,6 +344,14 @@ var ItensRemovidos as IItemStack[] = [
 <plants2:generic:9>
 
     ];
-for i in ItensRemovidos {     
-mods.jei.JEI.removeAndHide(i);
+for item in ItensRemovidos {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
+	furnace.remove(item);
+	var ores = item.ores;
+	if (!isNull(ores)) {
+		for entry in ores {
+			entry.remove(item);
+		}
+	}
 }

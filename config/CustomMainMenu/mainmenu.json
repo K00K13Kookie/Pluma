@@ -5,8 +5,8 @@
             "gear":
         {
             "image" : "mainmenu:gears.png",
-            "posX" : -10,
-            "posY" : -277,
+            "posX" : -5,
+            "posY" : -257,
             "width" : 125,
             "height" : 375,
             "alignment" : "left_center"
@@ -15,7 +15,7 @@
         "gear2":
         {
             "image" : "mainmenu:gears2.png",
-            "posX" : 500,
+            "posX" : 520,
             "posY" : 10,
             "width" : 125,
             "height" : 375,

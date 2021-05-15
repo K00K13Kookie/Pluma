@@ -66,15 +66,15 @@ var toRemove = [
 ] as IItemStack[];
 
 for item in toRemove {
-	mods.jei.JEI.removeAndHide(item);
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
+	furnace.remove(item);
 	var ores = item.ores;
 	if (!isNull(ores)) {
 		for entry in ores {
 			entry.remove(item);
 		}
 	}
-
-	recipes.remove(item);
 }
 
 
