@@ -22,6 +22,16 @@ RecipeBuilder.get("tailor")
   .addOutput(<minecraft:string>)
   .create();
 
+//Cotton into String
+RecipeBuilder.get("tailor")
+  .setShaped([
+    [<ore:cropCotton>, <ore:cropCotton>],
+    [<ore:cropCotton>, null]])
+  .addTool(<ore:artisansShears>, 5)
+  .addTool(<ore:artisansKnife>, 2)
+  .addOutput(<minecraft:string>)
+  .create();  
+
 //Wool
 recipes.remove(<minecraft:wool>);
 RecipeBuilder.get("tailor")

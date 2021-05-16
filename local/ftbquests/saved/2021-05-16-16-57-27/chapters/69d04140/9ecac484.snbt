@@ -8,6 +8,7 @@
 		"The Blacksmith's table is a very important way to craft in the Pack, you'll gonna be making almost all of your Armor Sets here in this table, also, in the Early game you'll gonna be making Iron/Metal Stuff here."
 	],
 	dependencies: [
+		"13615611",
 		"e116ff07",
 		"86a49b56"
 	],

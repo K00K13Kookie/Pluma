@@ -1,7 +1,7 @@
 {
 	title: "Even Better Machines!",
-	x: 13.0d,
-	y: -4.0d,
+	x: 13.017006802721085d,
+	y: -3.514455782312929d,
 	shape: "gear",
 	text: [
 		"Now that you have Refractory Bricks, maybe making these Upgraded Machines will help you along your Journey!"

@@ -51,3 +51,72 @@ mods.pyrotech.CompactingBin.addRecipe(
   8,                 // number of input items required
   true // true if the recipe should be inherited
 );
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																								 					                                                                   //
+//			1X Compressed Blocks                                                                                                                 //
+//			         																								 				                                                                     //                  
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Cobblestone
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedCobble",                // unique recipe name
+  <overloaded:compressed_cobblestone>,          // recipe output
+  <ore:cobblestone>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
+//Sand
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedSand",                // unique recipe name
+  <overloaded:compressed_sand>,          // recipe output
+  <ore:sand>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
+//Stone
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedStone",                // unique recipe name
+  <overloaded:compressed_stone>,          // recipe output
+  <ore:stone>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
+//Obsidian
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedObsidian",                // unique recipe name
+  <overloaded:compressed_obsidian>,          // recipe output
+  <ore:obsidian>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
+//Netherrack
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedNetherrack",                // unique recipe name
+  <overloaded:compressed_netherrack>,          // recipe output
+  <ore:netherrack>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
+//Dirt
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedDirt",                // unique recipe name
+  <overloaded:compressed_dirt>,          // recipe output
+  <ore:dirt>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
+//Gravel
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedGravel",                // unique recipe name
+  <overloaded:compressed_gravel>,          // recipe output
+  <ore:gravel>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);

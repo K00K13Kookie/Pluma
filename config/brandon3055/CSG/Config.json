@@ -1,8 +1,8 @@
 {
   "inventory": {
-    "0:1": "nuclearcraft:smore,5",
-    "1:3": "quark:archaeologist_hat",
     "0:0": "ftbquests:book",
-    "0:2": "minecraft:torch"
+    "0:2": "minecraft:torch",
+    "1:3": "quark:archaeologist_hat",
+    "0:1": "spiceoflife:lunchbag,1,0,{UUID:\"e44525a1-cfd9-4024-8a8c-0f6f493a8056\",Inventory:{Items:[{Slot:0b,id:\"harvestcraft:hamburgeritem\",Count:2b,Damage:0s},{Slot:1b,id:\"harvestcraft:colasodaitem\",Count:2b,Damage:0s},{Slot:2b,id:\"harvestcraft:strawberryyogurtitem\",Count:2b,Damage:0s}]},Open:0b}"
   }
 }

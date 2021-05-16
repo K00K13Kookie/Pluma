@@ -1,5 +1,9 @@
 import mods.pyrotech.Worktable;
 
+// Mechanical Hopper
+recipes.remove(<pyrotech:mechanical_hopper>);
+recipes.addShaped(<pyrotech:mechanical_hopper> * 1, [[<pyrotech:material:16>, null, <pyrotech:material:16>], [<ore:plankWood>, <pyrotech:material:27>, <ore:plankWood>],[null, <pyrotech:stone_bricks>, null]]);
+
 //Replacing all String recipes with Twine OreDict
 <ore:string>.add(<pyrotech:material:14>);
 recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);

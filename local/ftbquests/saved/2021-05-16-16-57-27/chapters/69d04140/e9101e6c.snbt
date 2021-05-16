@@ -5,8 +5,7 @@
 	y: -2.25d,
 	shape: "hexagon",
 	text: [
-		"In this Pack, you'll need some Special tables to craft certain things troughout your journey! and the Basic Workshop is going to be your friend when crafting these Special Tables!",
-		"Also, THIS Worktable can be used as a Normal Crafting table!"
+		"In this Pack, you'll need some Special tables to craft certain things troughout your journey! and the Basic Workshop is going to be your friend when crafting these Special Tables!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

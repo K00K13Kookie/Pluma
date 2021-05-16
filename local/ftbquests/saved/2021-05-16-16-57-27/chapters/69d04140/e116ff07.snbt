@@ -1,7 +1,7 @@
 {
 	title: "Refractory Bricks!",
 	x: 13.0d,
-	y: -5.5d,
+	y: -5.0d,
 	text: [
 		"Refractory Bricks are a Resistent type of Brick that can handle high temperature recipes and beacuse of it it will be used to make special devices and such!"
 	],
@@ -36,5 +36,11 @@
 		uid: "ac16d9f9",
 		type: "ftbmoney:money",
 		ftb_money: 2L
+	},
+	{
+		uid: "10a3ad20",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierCokeBricks"
 	}]
 }

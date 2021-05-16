@@ -7,7 +7,6 @@
 		"The Soaking pot is a special \"Machine\" from Pyrotech often used to soak items in order to refined or enhance them! you'll gonna be using it to get some materials."
 	],
 	dependencies: [
-		"13615611",
 		"dcf210b5"
 	],
 	hide: true,

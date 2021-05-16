@@ -1,8 +1,8 @@
 {
 	title: "Early game Crop Acceleration!",
 	icon: "rustic:bee",
-	x: 9.5d,
-	y: -4.0d,
+	x: 13.0d,
+	y: -8.5d,
 	shape: "rsquare",
 	description: "Lets accelerate our crops with some Rustic Bees!",
 	text: [

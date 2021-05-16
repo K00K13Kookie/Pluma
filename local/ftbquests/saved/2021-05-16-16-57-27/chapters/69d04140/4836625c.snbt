@@ -1,15 +1,15 @@
 {
 	title: "Iluminating your base!",
-	x: 0.5d,
+	x: -0.5d,
 	y: -4.0d,
 	description: "Now that you have Charcoal lets make some Candles!",
 	text: [
 		"You can make some Candles by simply using Tallow and Strings! or, if you wish for a more decorated candle, mix a candle with some gold, Silver or Iron to make a Fancy Rustic Candle!",
 		"",
-		"- Also Remember that in order to get Tallows, you'll need to kill Pigs."
+		"- Also Remember that in order to get Tallows, you'll need to kill some Animals."
 	],
 	dependencies: [
-		"3183afcf"
+		"d82ac50a"
 	],
 	hide: true,
 	optional: true,
