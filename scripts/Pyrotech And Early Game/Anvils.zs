@@ -3,6 +3,12 @@ import mods.pyrotech.IroncladAnvil;
 
 # Removing Recipes
 
+//Charcoal and Coal Tiny versions removal
+mods.pyrotech.GraniteAnvil.removeRecipes(<pyrotech:material:15>);
+mods.pyrotech.IroncladAnvil.removeRecipes(<pyrotech:material:15>);
+mods.pyrotech.GraniteAnvil.removeRecipes(<pyrotech:material:21>);
+mods.pyrotech.IroncladAnvil.removeRecipes(<pyrotech:material:21>);
+
 //Coal Coke removal
 mods.pyrotech.GraniteAnvil.removeRecipes(<pyrotech:material:1>);
 mods.pyrotech.IroncladAnvil.removeRecipes(<pyrotech:material:1>);

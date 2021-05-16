@@ -4,18 +4,9 @@
 	y: -10.877380952380932d,
 	shape: "gear",
 	text: [
-		"At this point you might have noticed that in this Pack, most places don't have Infinite Water sources! and that's correct! in this Pack only a few types of biomes have Infinite water and those are:",
+		"At this point you might have noticed that in this Pack, most places don't have Infinite Water sources! and that's correct! ",
 		"",
-		"- §9ocean§f",
-		"- §9deep_ocean§f",
-		"- §9beach§f",
-		"- §9stone_beach§f",
-		"- §9cold_beach§f",
-		"- §9beaches§f",
-		"- §9river§f",
-		"- §9swampland§f",
-		"",
-		"If you encounter yourself in any other Biome outside this list, you should probally make a \"Water Generator\" right now at the Early stages you can make this Water tank! it will Slowly collect water for you!"
+		"If you want Infinite Water, you should probally make a \"Water Generator\". right now at the Early stages you can make this Water tank! it will Slowly collect water for you!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

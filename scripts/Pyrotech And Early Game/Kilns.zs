@@ -1,9 +1,46 @@
 import mods.pyrotech.StoneKiln as StoneKiln;
+import mods.pyrotech.PitKiln as PitKiln;
+import mods.pyrotech.BrickKiln as BrickKiln;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//			         																								 					     //
-//			Recipes of ores being added                                                                                                      //
-//			         																								 				         //                  
+//			         																								 					                                                                   //
+//			Kiln Fixes and Compatiblity                                                                                                          //
+//			         																								 				                                                                     //                  
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Charcoal Early Game (Compressed Sawdust)
+PitKiln.addRecipe(
+  "CompressedSawdustCharcoalEarly",
+  <minecraft:coal:1>,
+  <thermalfoundation:material:801>,
+  120000,
+  0.33,
+  [<pyrotech:material>],
+  true
+);
+
+//Charcoal Early Game (Wood Chips Block)
+furnace.addRecipe(<minecraft:coal:1>, <pyrotech:pile_wood_chips>);
+PitKiln.addRecipe(
+  "WoodChipsCharcoalEarly",
+  <minecraft:coal:1>,
+  <pyrotech:pile_wood_chips>,
+  120000,
+  0.33,
+  [<pyrotech:material>],
+  true
+);
+
+//Removing Charcoal Flakes Recipe
+furnace.remove(<pyrotech:material:15>);
+PitKiln.removeRecipes(<pyrotech:material:15>);
+StoneKiln.removeRecipes(<pyrotech:material:15>);
+BrickKiln.removeRecipes(<pyrotech:material:15>);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																								 					                                                                   //
+//			Recipes of ores being added                                                                                                          //
+//			         																								 				                                                                     //                  
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ### Diamond Ores ####

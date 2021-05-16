@@ -1,6 +1,19 @@
 import mods.pyrotech.MechanicalCompactor;
 import mods.pyrotech.CompactingBin;
 
+########### Fixing Wood Chips block #########
+
+mods.pyrotech.CompactingBin.removeRecipes(<pyrotech:pile_wood_chips>);
+mods.pyrotech.MechanicalCompactor.removeRecipes(<pyrotech:pile_wood_chips>);
+
+mods.pyrotech.CompactingBin.addRecipe(
+  "PileOfWoodChips",
+  <pyrotech:pile_wood_chips>,
+  <pyrotech:rock:7>,
+  9,
+  true
+);
+
 # Removals
 
 //Removing Coal coke Block from pyrotech

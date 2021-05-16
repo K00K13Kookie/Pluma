@@ -24,6 +24,10 @@ recipes.addShapeless("TorchWithSulfur", <minecraft:torch> * 2, [<ore:stickWood>,
 recipes.addShapeless("TinyCoal", <pyrotech:material:21> * 8, [<ore:coal>]);
 recipes.addShapeless("TinyCharcoal", <pyrotech:material:15> * 8, [<ore:charcoal>]);
 
+//Charcoal and Coal out of their Tiny Versions
+recipes.addShaped(<minecraft:coal:0> * 1, [[<pyrotech:material:21>, <pyrotech:material:21>, <pyrotech:material:21>], [<pyrotech:material:21>, null, <pyrotech:material:21>],[<pyrotech:material:21>, <pyrotech:material:21>, <pyrotech:material:21>]]);
+recipes.addShaped(<minecraft:coal:1> * 1, [[<pyrotech:material:15>, <pyrotech:material:15>, <pyrotech:material:15>], [<pyrotech:material:15>, null, <pyrotech:material:15>],[<pyrotech:material:15>, <pyrotech:material:15>, <pyrotech:material:15>]]);
+
 ### Brick Fixes ####
 //Removing the one from GregTech
 furnace.remove(<minecraft:brick>, <gregtech:meta_item_2:32013>);

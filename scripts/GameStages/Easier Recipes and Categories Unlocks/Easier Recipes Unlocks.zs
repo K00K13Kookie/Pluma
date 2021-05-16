@@ -5,4 +5,4 @@ mods.recipestages.Recipes.addShapeless("EasierCraftingTable", "EasierCraftingTab
 
 
 //Unlocking a easier alternative of Coke Bricks by using Refractory Bricks
-mods.recipestages.Recipes.addShaped("EasierCokeBricks", <immersiveengineering:stone_decoration>,[[<pyrotech:material:5>, <pyrotech:material:5>, null],[<pyrotech:material:5>, <pyrotech:material:5>, null],[null, null, null]]);
+mods.recipestages.Recipes.addShaped("EasierCokeBricks", <immersiveengineering:stone_decoration> * 3,[[<pyrotech:material:5>, <pyrotech:material:5>, null],[<pyrotech:material:5>, <pyrotech:material:5>, null],[null, null, null]]);

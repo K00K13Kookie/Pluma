@@ -85,7 +85,7 @@
 	{
 		uid: "1495ff1c",
 		type: "gamestage",
-		auto: "no_toast",
+		auto: "invisible",
 		stage: "WorktableJEI"
 	}]
 }
