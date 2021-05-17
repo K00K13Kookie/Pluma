@@ -100,3 +100,94 @@ for input in fertilizers {
     .requireItem("item_in", input)
   );
 }
+
+
+// -----------------------------------------------------------------------//
+// Miner Ores                                                             //
+// -----------------------------------------------------------------------//
+
+### Adding GT Ores to a special OreDict ####
+
+<ore:oreGTCopper>.add(<gregtech:ore_copper_0>);
+<ore:oreGTTin>.add(<gregtech:ore_tin_0>);
+<ore:oreGTIron>.add(<gregtech:ore_iron_0>);
+<ore:oreGTApatite>.add(<gregtech:ore_apatite_0>);
+<ore:oreGTCoal>.add(<gregtech:ore_coal_0>);
+<ore:oreGTRedstone>.add(<gregtech:ore_redstone_0>);
+<ore:oreGTTalc>.add(<gregtech:ore_talc_0>);
+
+<ore:oreGTSapphire>.add(<gregtech:ore_sapphire_0>);
+<ore:oreGTGold>.add(<gregtech:ore_gold_0>);
+<ore:oreGTRuby>.add(<gregtech:ore_ruby_0>);
+<ore:oreGTNickel>.add(<gregtech:ore_nickel_0>);
+<ore:oreGTSilver>.add(<gregtech:ore_silver_0>);
+<ore:oreGTLead>.add(<gregtech:ore_lead_0>);
+<ore:oreGTNetherQuartz>.add(<gregtech:ore_nether_quartz_0>);
+<ore:oreGTLapis>.add(<gregtech:ore_lapis_0>);
+
+<ore:oreGTEmerald>.add(<gregtech:ore_emerald_0>);
+<ore:oreGTDiamond>.add(<gregtech:ore_diamond_0>);
+<ore:oreGTPlatinum>.add(<gregtech:ore_platinum_0>);
+
+# ////////////// #
+
+<assembly:factorio_miner>.addJEICatalyst(<f0-resources:drill_component>);
+<assembly:factorio_miner>.addJEICatalyst(<f0-resources:item_drill_head.blacksteel>);
+<assembly:factorio_miner>.addJEICatalyst(<f0-resources:item_drill_head.stainlesssteel>);
+<assembly:factorio_miner>.addJEICatalyst(<f0-resources:item_drill_head.osmium>);
+<assembly:factorio_miner>.setJEIDurationSlot(1,0,"duration", SlotVisual.arrowRight());
+addInsOuts(<assembly:factorio_miner>, [[0,0]], [[2,0]]);
+
+function addMiningLensOre1(base as IIngredient, oreDictName as string, weight as int) as void {
+  val ore = oreDict[oreDictName];
+  if(ore.items.length == 0) return;
+  val output = ore.firstItem.withLore(["§a§lTier Required: " ~ weight]);
+  add(<assembly:factorio_miner>, {[base] as IIngredient[] : [output]});
+}
+
+function addMiningLensOre2(base as IIngredient, oreDictName as string, weight as int) as void {
+  val ore = oreDict[oreDictName];
+  if(ore.items.length == 0) return;
+  val output = ore.firstItem.withLore(["§e§lTier Required: " ~ weight]);
+  add(<assembly:factorio_miner>, {[base] as IIngredient[] : [output]});
+}
+
+function addMiningLensOre3(base as IIngredient, oreDictName as string, weight as int) as void {
+  val ore = oreDict[oreDictName];
+  if(ore.items.length == 0) return;
+  val output = ore.firstItem.withLore(["§e§lTier Required: " ~ weight]);
+  add(<assembly:factorio_miner>, {[base] as IIngredient[] : [output]});
+}
+
+function addMiningTier1(oreDictName as string, weight as int) {
+  addMiningLensOre1(<f0-resources:item_drill_head.blacksteel>, oreDictName, weight);
+}
+
+function addMiningTier2(oreDictName as string, weight as int) {
+  addMiningLensOre2(<f0-resources:item_drill_head.stainlesssteel>, oreDictName, weight);
+}
+
+function addMiningTier3(oreDictName as string, weight as int) {
+  addMiningLensOre2(<f0-resources:item_drill_head.osmium>, oreDictName, weight);
+}
+
+addMiningTier1("oreGTCopper", 1);
+addMiningTier1("oreGTTin", 1);
+addMiningTier1("oreGTIron", 1);
+addMiningTier1("oreGTApatite", 1);
+addMiningTier1("oreGTCoal", 1);
+addMiningTier1("oreGTRedstone", 1);
+addMiningTier1("oreGTTalc", 1);
+
+addMiningTier2("oreGTSapphire", 2);
+addMiningTier2("oreGTGold", 2);
+addMiningTier2("oreGTRuby", 2);
+addMiningTier2("oreGTNickel", 2);
+addMiningTier2("oreGTSilver", 2);
+addMiningTier2("oreGTLead", 2);
+addMiningTier2("oreGTNetherQuartz", 2);
+addMiningTier2("oreGTLapis", 2);
+
+addMiningTier3("oreGTEmerald", 3);
+addMiningTier3("oreGTDiamond", 3);
+addMiningTier3("oreGTPlatinum", 3);

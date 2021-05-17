@@ -63,6 +63,49 @@ var toRemove = [
 , <gregtech:meta_tool:2>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})
 , <gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})
 
+//BlueSteel Stuff
+, <gregtech:meta_item_1:2828>
+, <gregtech:meta_item_1:9828>
+, <gregtech:meta_item_1:10828>
+, <gregtech:meta_item_1:828>
+, <gregtech:meta_item_1:1828>
+, <gregtech:meta_item_2:828>
+, <gregtech:meta_item_2:1828>
+, <gregtech:meta_item_2:2828>
+, <gregtech:meta_item_2:3828>
+, <gregtech:meta_item_2:4828>
+, <gregtech:meta_item_2:6828>
+, <gregtech:meta_item_2:5828>
+, <gregtech:meta_item_2:7828>
+, <gregtech:meta_item_2:8828>
+, <gregtech:meta_item_2:9828>
+, <gregtech:meta_item_2:10828>
+, <gregtech:meta_item_2:11828>
+, <gregtech:meta_item_2:12828>
+, <gregtech:meta_item_2:14828>
+, <gregtech:meta_item_2:15828>
+, <gregtech:compressed_17:4>
+
+//Signalum Stuff
+, <gregtech:meta_item_1:2801>
+, <gregtech:meta_item_1:9801>
+, <gregtech:meta_item_1:10801>
+, <gregtech:compressed_17:1>
+
+//Enderium Stuff
+, <gregtech:meta_item_1:2803>
+, <gregtech:meta_item_1:9803>
+, <gregtech:meta_item_1:10803>
+, <gregtech:meta_item_1:12803>
+, <gregtech:compressed_17:2>
+
+//Lumium Stuff
+, <gregtech:meta_item_1:10811>
+, <gregtech:meta_item_1:12811>
+, <gregtech:meta_item_1:9811>
+, <gregtech:meta_item_1:2811>
+, <gregtech:compressed_17:3>
+
 ] as IItemStack[];
 
 for item in toRemove {

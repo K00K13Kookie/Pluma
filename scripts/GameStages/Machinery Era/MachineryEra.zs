@@ -525,7 +525,9 @@ var MachineryGates as IItemStack[] = [
 //Factorio Resources
 <f0-resources:drill_component>,
 <f0-resources:item_drill_head.blacksteel>,
-<f0-resources:item_advanced_scanner>
+<f0-resources:item_advanced_scanner>,
+<f0-resources:item_drill_head.stainlesssteel>,
+<f0-resources:item_drill_head.osmium>
     ];
 
 for i in MachineryGates {

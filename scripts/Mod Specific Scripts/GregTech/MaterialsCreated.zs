@@ -48,7 +48,7 @@ materialEnderium.setCableProperties(8192, 4, 0);
     #Lumium (LuV)
 val materialLumium = MaterialRegistry.createIngotMaterial(811, "lumium", 0xEAD489, "SHINY", 2);
 materialLumium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_ROTOR"]);
-materialEnderium.setCableProperties(32762, 4, 0);
+materialLumium.setCableProperties(32768, 4, 0);
 
 //////////////////////////
       #Misc Flags

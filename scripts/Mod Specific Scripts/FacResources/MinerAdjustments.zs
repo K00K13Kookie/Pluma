@@ -7,7 +7,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 //			         																								 				         //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-<f0-resources:item_drill_head.blacksteel>.displayName = "Black Steel Drilling Component";
+<f0-resources:item_drill_head.blacksteel>.displayName = "Black Steel Drilling Head";
 
 //Black Steel Drilling Component
 RecipeBuilder.get("blacksmith")
@@ -24,10 +24,14 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<f0-resources:item_drill_head.blacksteel>)
   .create();
 
+<f0-resources:item_drill_head.stainlesssteel>.displayName = "Stainless Steel Drilling Head";
+
+<f0-resources:item_drill_head.osmium>.displayName = "Osmium Drilling Head";
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//			         																								 					     //
-//			Ore and Other Items Tooltips                                                                                                     //
-//			         																								 				         //
+//			         																								 					                                                                   //
+//			Ore and Other Items Tooltips                                                                                                         //
+//			         																								 				                                                                     //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ## Adding a Tooltip for the Scanner to Indicate its use
@@ -36,6 +40,7 @@ RecipeBuilder.get("blacksmith")
 
 ## Adding tooltips to Indicate the Level needed for the Drill to Mine them
 
+/*
 var Tier1Ore as IItemStack[] = [
 <gregtech:ore_coal_0>,
 <gregtech:ore_iron_0>,
@@ -60,9 +65,15 @@ var Tier2Ore as IItemStack[] = [
 <gregtech:ore_ruby_0>
     ];
 for i in Tier2Ore {     
-i.addTooltip(format.yellow("This Ore can be mined with a Tier 2 Miner"));
+i.addTooltip(format.bold(format.yellow("This Ore can be mined with a Tier 2 Miner")));
 }
 
+*/
+
+//Quartz Tooltip to indicate its Location being only in the Nether
+<gregtech:ore_nether_quartz_0>.addTooltip(format.red("Only Nether"));
+
+/*
 var Tier3Ore as IItemStack[] = [
 <gregtech:ore_diamond_0>,
 <gregtech:ore_emerald_0>,
@@ -71,6 +82,7 @@ var Tier3Ore as IItemStack[] = [
 for i in Tier3Ore {     
 i.addTooltip(format.red("This Ore can be mined with a Tier 3 Miner"));
 }
+*/
 
 ## Adding tooltips to Indicate the Level of the Drills
 
@@ -78,7 +90,21 @@ var Tier1Drills as IItemStack[] = [
 <f0-resources:item_drill_head.blacksteel>
     ];
 for i in Tier1Drills {     
-i.addTooltip(format.aqua("A Tier 1 Drilling Component"));
+i.addTooltip(format.green("A Tier 1 Drilling Head"));
+}
+
+var Tier2Drills as IItemStack[] = [
+<f0-resources:item_drill_head.stainlesssteel>
+    ];
+for i in Tier2Drills {     
+i.addTooltip(format.yellow("A Tier 2 Drilling Head"));
+}
+
+var Tier3Drills as IItemStack[] = [
+<f0-resources:item_drill_head.osmium>
+    ];
+for i in Tier3Drills {     
+i.addTooltip(format.red("A Tier 3 Drilling Head"));
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
