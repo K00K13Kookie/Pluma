@@ -548,19 +548,6 @@ RecipeBuilder.get("engineer")
   .addOutput(<integrateddynamics:part_display_panel_item>)
   .create();
 
-//Storage Terminal
-recipes.remove(<integratedterminals:part_terminal_storage_item>);
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:plateGlowstone>, <ore:circuitPrimitive>, <ore:plateGlowstone>],
-    [<contenttweaker:menrilsheet>, <integrateddynamics:part_display_panel_item>, <contenttweaker:menrilsheet>],
-    [<ore:plateGlowstone>, <ore:circuitPrimitive>, <ore:plateGlowstone>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 5)
-  .addOutput(<integratedterminals:part_terminal_storage_item>)
-  .create();
-
 //Item Interface
 recipes.remove(<integratedtunnels:part_interface_item_item>);
 RecipeBuilder.get("engineer")

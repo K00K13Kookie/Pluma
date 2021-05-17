@@ -190,6 +190,16 @@ for i in HardenedGlassesRecipeRemoval {
 recipes.remove(i);
 }
 
+### Thermal Logistics Balance
+
+// Network Manager
+recipes.remove(<thermallogistics:manager>);
+recipes.addShaped(<thermallogistics:manager> * 1, [[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>], [<contenttweaker:menrilsheet>, <ore:circuitBasic>, <contenttweaker:menrilsheet>],[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>]]);
+
+// Terminal
+recipes.remove(<thermallogistics:terminal_item>);
+recipes.addShaped(<thermallogistics:terminal_item> * 1, [[<ore:blockSheetmetalIron>, <thermallogistics:manager>, <ore:blockSheetmetalIron>], [<thermaldynamics:duct_32:0>, <thermalexpansion:frame:0>, <thermaldynamics:duct_32:0>],[<ore:gearBrass>, <thermalfoundation:material:513>, <ore:gearBrass>]]);
+
 ### Adding Recipes to All Hardened Glasses to the GT Alloy Smelter 
 
 //Standart Hardened Glass

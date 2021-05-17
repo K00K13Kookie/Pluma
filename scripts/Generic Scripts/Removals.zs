@@ -300,7 +300,6 @@ var ItensRemovidos as IItemStack[] = [
 <integrateddynamics:squeezer>,
 <integrateddynamics:drying_basin>,
 <integrateddynamics:energy_battery>,
-<integratedterminals:part_terminal_crafting_job_item>,
 <integrateddynamics:mechanical_squeezer>,
 <integrateddynamics:mechanical_drying_basin>,
 

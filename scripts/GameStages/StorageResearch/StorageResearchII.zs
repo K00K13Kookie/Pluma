@@ -4,7 +4,6 @@ import crafttweaker.item.IItemStack;
 var StorageGatesII as IItemStack[] = [
 <integrateddynamics:cable>,
 <integrateddynamics:part_display_panel_item>,
-<integratedterminals:part_terminal_storage_item>,
 <integratedtunnels:part_interface_item_item>,
 <integrateddynamics:facade>,
 <thermalexpansion:strongbox>,
@@ -22,6 +21,8 @@ mods.recipestages.Recipes.setRecipeStage("StorageResearchII", i);
 mods.ItemStages.addItemStage("StorageResearchII", i);
 }
 
+//StagginThermal Logistics
+mods.ItemStages.stageModItems("StorageResearchII", "thermallogistics");
 
 # Now some Recipes related to Storage are Unlocked to the Player! 
 
