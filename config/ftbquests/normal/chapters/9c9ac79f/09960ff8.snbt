@@ -1,0 +1,68 @@
+{
+	title: "Early game Storage Solution",
+	icon: "thermallogistics:terminal_item",
+	x: -24.75d,
+	y: -19.25d,
+	shape: "rsquare",
+	description: "Thermal Logistics!",
+	text: [
+		"Simply connect all of your storage with some Itemducts and them put a terminal attached to it!",
+		"",
+		"- The Terminal will show all Items inside of those chests, but remember to insert a requester inside of the Terminal.",
+		"",
+		"Depending on the tier of the Requester that you've inserted, items will be requested faster to the Terminal.",
+		"",
+		"Additionally the mod offers some ways to Autocraft stuff on demmand, but to be sure, Applied Energistics isn't that far, so I recommend that you wait for it."
+	],
+	dependencies: [
+		"742ce34d",
+		"b2746fde",
+		"dd470acb",
+		"0b98523e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "74604868",
+		type: "item",
+		items: [{
+			item: "thermallogistics:terminal_item"
+		}]
+	},
+	{
+		uid: "9d3bcb88",
+		type: "item",
+		title: "Any Requester!",
+		items: [{
+			item: "thermallogistics:requester"
+		},
+		{
+			item: "thermallogistics:requester 1 1"
+		},
+		{
+			item: "thermallogistics:requester 1 2"
+		},
+		{
+			item: "thermallogistics:requester 1 3"
+		},
+		{
+			item: "thermallogistics:requester 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "be75431a",
+		type: "item",
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 2b
+			}
+		},
+		random_bonus: 15
+	},
+	{
+		uid: "54eb3ae7",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}
