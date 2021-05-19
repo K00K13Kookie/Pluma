@@ -84,27 +84,27 @@ var toRemove = [
 , <gregtech:meta_item_2:12828>
 , <gregtech:meta_item_2:14828>
 , <gregtech:meta_item_2:15828>
-, <gregtech:compressed_17:4>
+, <gregtech:meta_block_compressed_51:12>
 
 //Signalum Stuff
 , <gregtech:meta_item_1:2801>
 , <gregtech:meta_item_1:9801>
 , <gregtech:meta_item_1:10801>
-, <gregtech:compressed_17:1>
+, <gregtech:meta_block_compressed_50:1>
 
 //Enderium Stuff
 , <gregtech:meta_item_1:2803>
 , <gregtech:meta_item_1:9803>
 , <gregtech:meta_item_1:10803>
 , <gregtech:meta_item_1:12803>
-, <gregtech:compressed_17:2>
+, <gregtech:meta_block_compressed_50:3>
 
 //Lumium Stuff
 , <gregtech:meta_item_1:10811>
 , <gregtech:meta_item_1:12811>
 , <gregtech:meta_item_1:9811>
 , <gregtech:meta_item_1:2811>
-, <gregtech:compressed_17:3>
+, <gregtech:meta_block_compressed_50:11>
 
 ] as IItemStack[];
 

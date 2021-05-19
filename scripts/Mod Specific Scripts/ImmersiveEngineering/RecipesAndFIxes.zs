@@ -52,19 +52,21 @@ recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateBismut
 
 //Copper Wire
 recipes.remove(<immersiveengineering:material:20>);
-recipes.addShapeless("CopperWireImmersive", <immersiveengineering:material:20>, [<thermalfoundation:material:320>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("CopperWireImmersive", <immersiveengineering:material:20>, [<ore:plateCopper>, <ore:artisansCutters>.reuse().transformDamage(4)]);
 
 //Electrum Wire
 recipes.remove(<immersiveengineering:material:21>);
-recipes.addShapeless("ElectrumWireImmersive", <immersiveengineering:material:21>, [<thermalfoundation:material:353>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("ElectrumWireImmersive", <immersiveengineering:material:21>, [<ore:plateElectrum>, <ore:artisansCutters>.reuse().transformDamage(4)]);
 
 //Aluminum Wire
 recipes.remove(<immersiveengineering:material:22>);
-recipes.addShapeless("AluminumWireImmersive", <immersiveengineering:material:22>, [<thermalfoundation:material:324>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("AluminumWireImmersive", <immersiveengineering:material:22>, [<ore:plateAluminium>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotAluminium>, <immersiveengineering:mold:4>, 80);
 
 //Steel Wire
 recipes.remove(<immersiveengineering:material:23>);
-recipes.addShapeless("SteelWireImmersive", <immersiveengineering:material:23>, [<thermalfoundation:material:352>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("SteelWireImmersive", <immersiveengineering:material:23>, [<ore:plateSteel>, <ore:artisansCutters>.reuse().transformDamage(4)]);
 
 # Engineer's Workbench ===================================
 
@@ -76,7 +78,6 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <contenttweaker:silv
 
 //Adding Redstone Servo to the Engineer's Workbench
 mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:512>, [<projectred-core:resource_item:12> * 4, <projectred-core:resource_item:401>, <projectred-core:resource_item:2> * 2, <projectred-core:resource_item:410>]);
-
 
 ########################## Metal Press Molds ########################
 
