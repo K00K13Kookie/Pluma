@@ -333,7 +333,6 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:meta_item_2:32453>,
 <gregtech:meta_item_2:32449>,
 <gregtech:meta_item_2:32448>,
-<gregtech:meta_item_2:32447>,
 <gregtech:meta_item_2:32446>,
 <gregtech:meta_item_2:32445>,
 <gregtech:meta_item_2:32444>,
@@ -900,7 +899,8 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:machine:2504>,
 <gregtech:machine:2505>,
 <gregtech:machine:2506>,
-<gregtech:machine:2507>
+<gregtech:machine:2507>,
+<gregtech:meta_item_2:32447>
     ];
 
 for i in AdvancedMachinery {

@@ -121,9 +121,9 @@ RollingMachine.addShaped(<immersiveengineering:metal_decoration1:1> * 6, [
 //Aluminum Scaffolding
 recipes.remove(<immersiveengineering:metal_decoration1:5>);
 RollingMachine.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [
-    [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], 
-    [null, <ore:stickAluminum>, null], 
-    [<ore:stickAluminum>, null, <ore:stickAluminum>]
+    [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], 
+    [null, <ore:stickAluminium>, null], 
+    [<ore:stickAluminium>, null, <ore:stickAluminium>]
     ], 50);
 
 

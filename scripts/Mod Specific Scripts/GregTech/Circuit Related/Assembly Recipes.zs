@@ -61,17 +61,71 @@ recipes.addShaped(<gregtech:machine:2039>, [
 	[<ore:wireGtQuadrupleNaquadahAlloy>, <gregtech:meta_item_2:32501>, <ore:wireGtQuadrupleNaquadahAlloy>]]);
 
 
-/////////////////   Tier One Circuits | Basic Tier   ///////////////////////
-
-//Recipes are on CircuitsOreDicts since it is too basic
-
-/////////////////   Tier Two Circuits | Good Tier   ///////////////////////	
+/////////////////   Removed |  Unused Circuits   ///////////////////////	
 
 //Removals and Fixes for the Tier
 mods.jei.JEI.removeAndHide(<gregtech:meta_item_2:32489>);
 mods.jei.JEI.removeAndHide(<gregtech:meta_item_2:32490>);
 mods.jei.JEI.removeAndHide(<gregtech:meta_item_2:32507>);
 
+//Basic Electronic Circuit Recipe Removal
+assembler.findRecipe(16, [<metaitem:component.resistor> * 2, <gregtech:meta_item_2:32447>, <gregtech:meta_item_2:32477>, <ore:wireFineCopper>.firstItem * 8], [<liquid:tin> * 144]).remove();
+assembler.findRecipe(16, [<metaitem:component.resistor> * 2, <gregtech:meta_item_2:32447>, <gregtech:meta_item_2:32477>, <ore:wireFineCopper>.firstItem * 8], [<liquid:soldering_alloy> * 72]).remove();
+assembler.findRecipe(16, [<metaitem:component.smd.resistor> * 2, <gregtech:meta_item_2:32447>, <gregtech:meta_item_2:32477>, <ore:wireFineCopper>.firstItem * 8], [<liquid:tin> * 144]).remove();
+assembler.findRecipe(16, [<metaitem:component.smd.resistor> * 2, <gregtech:meta_item_2:32447>, <gregtech:meta_item_2:32477>, <ore:wireFineCopper>.firstItem * 8], [<liquid:soldering_alloy> * 72]).remove();
+
+//Advanced Circuit Parts Recipe Removal
+assembler.findRecipe(128, [<metaitem:component.resistor> * 4, <gregtech:meta_item_2:32478> * 4, <metaitem:component.capacitor> * 4, <metaitem:component.transistor> * 4, <gregtech:meta_item_2:32448>, <ore:wireFineCopper>.firstItem * 2], [<liquid:tin> * 144]).remove();
+assembler.findRecipe(128, [<metaitem:component.resistor> * 4, <gregtech:meta_item_2:32478> * 4, <metaitem:component.capacitor> * 4, <metaitem:component.transistor> * 4, <gregtech:meta_item_2:32448>, <ore:wireFineCopper>.firstItem * 2], [<liquid:soldering_alloy> * 72]).remove();
+assembler.findRecipe(128, [<metaitem:component.smd.resistor> * 4, <gregtech:meta_item_2:32478> * 4, <metaitem:component.smd.capacitor> * 4, <metaitem:component.smd.transistor> * 4, <gregtech:meta_item_2:32448>, <ore:wireFineCopper>.firstItem * 2], [<liquid:tin> * 144]).remove();
+assembler.findRecipe(128, [<metaitem:component.smd.resistor> * 4, <gregtech:meta_item_2:32478> * 4, <metaitem:component.smd.capacitor> * 4, <metaitem:component.smd.transistor> * 4, <gregtech:meta_item_2:32448>, <ore:wireFineCopper>.firstItem * 2], [<liquid:soldering_alloy> * 72]).remove();
+
+assembler.findRecipe(2048, [<gregtech:meta_item_2:32486>, <gregtech:meta_item_2:32448>, <ore:wireFineCopper>.firstItem * 2], [<liquid:tin> * 144]).remove();
+assembler.findRecipe(2048, [<gregtech:meta_item_2:32486>, <gregtech:meta_item_2:32448>, <ore:wireFineCopper>.firstItem * 2], [<liquid:soldering_alloy> * 72]).remove();
+
+/////////////////   Tier One Circuits | Basic Tier   ///////////////////////
+
+//Phenolic Circuit Board Recipe Fixes
+## Removing Original Recipes ##
+assembler.findRecipe(16, [<gregtech:meta_item_1:32301>, <ore:dustWood>.firstItem], [<liquid:glue> * 100]).remove();
+assembler.findRecipe(16, [<gregtech:meta_item_1:32301>, <ore:dustWood>.firstItem], [<liquid:bisphenol_a> * 100]).remove();
+
+## Readding a Fixed Version
+chemreactor.recipeBuilder()
+.inputs([<gregtech:meta_item_2:32443>])
+.fluidInputs([<liquid:glue> * 100])
+.outputs([<gregtech:meta_item_2:32447> * 1])
+.EUt(8)
+.duration(100)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.inputs([<gregtech:meta_item_2:32443>])
+.fluidInputs([<liquid:phenol> * 100])
+.outputs([<gregtech:meta_item_2:32447> * 2])
+.EUt(10)
+.duration(110)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.inputs([<gregtech:meta_item_2:32443>])
+.fluidInputs([<liquid:bisphenol_a> * 100])
+.outputs([<gregtech:meta_item_2:32447> * 4])
+.EUt(15)
+.duration(120)
+.buildAndRegister();
+
+//Immersive Engineering Circuit Recipe in the Assembler
+assembler.recipeBuilder().inputs([<metaitem:component.resistor> * 2, <ore:wireFineCopper> * 2, <gregtech:meta_item_2:32477>,<gregtech:meta_item_2:32447>]).fluidInputs(<liquid:tin> * 144).outputs([<immersiveengineering:material:27>]).duration(250).EUt(20).buildAndRegister();
+assembler.recipeBuilder().inputs([<metaitem:component.resistor> * 2, <ore:wireFineCopper> * 2, <gregtech:meta_item_2:32477>,<gregtech:meta_item_2:32447>]).fluidInputs(<liquid:soldering_alloy> * 72).outputs([<immersiveengineering:material:27>]).duration(250).EUt(20).buildAndRegister();
+assembler.recipeBuilder().inputs([<metaitem:component.smd.resistor> * 2, <ore:wireFineCopper> * 2, <gregtech:meta_item_2:32477>,<gregtech:meta_item_2:32447>]).fluidInputs(<liquid:tin> * 144).outputs([<immersiveengineering:material:27>]).duration(250).EUt(20).buildAndRegister();
+assembler.recipeBuilder().inputs([<metaitem:component.smd.resistor> * 2, <ore:wireFineCopper> * 2, <gregtech:meta_item_2:32477>,<gregtech:meta_item_2:32447>]).fluidInputs(<liquid:soldering_alloy> * 72).outputs([<immersiveengineering:material:27>]).duration(250).EUt(20).buildAndRegister();
+
+//Recipes are on CircuitsOreDicts since it is too basic
+
+/////////////////   Tier Two Circuits | Good Tier   ///////////////////////	
+
+//Good Electronic Circuit Recipe Removal
 assembler.findRecipe(16, [<metaitem:component.resistor> * 4, <metaitem:circuit.basic_electronic> * 3, <metaitem:board.phenolic>, <ore:wireFineElectrum>.firstItem * 8], [<liquid:tin> * 144]).remove();
 assembler.findRecipe(16, [<metaitem:component.resistor> * 4, <metaitem:circuit.basic_electronic> * 3, <metaitem:board.phenolic>, <ore:wireFineElectrum>.firstItem * 8], [<liquid:soldering_alloy> * 72]).remove();
 assembler.findRecipe(16, [<metaitem:component.smd.resistor> * 4, <metaitem:circuit.basic_electronic> * 3, <metaitem:board.phenolic>, <ore:wireFineElectrum>.firstItem * 8], [<liquid:tin> * 144]).remove();
