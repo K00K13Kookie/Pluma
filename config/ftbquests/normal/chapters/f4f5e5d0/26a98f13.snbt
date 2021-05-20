@@ -23,5 +23,11 @@
 			item: "contenttweaker:redcrystal"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "13038ca0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "EnergyResearchII"
 	}]
 }

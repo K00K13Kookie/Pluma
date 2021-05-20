@@ -41,5 +41,11 @@
 		items: [{
 			item: "immersiveengineering:metal_device0 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "079e9041",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "EnergyResearch"
 	}]
 }
