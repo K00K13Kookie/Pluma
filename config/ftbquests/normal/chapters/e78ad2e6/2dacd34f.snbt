@@ -1,0 +1,22 @@
+{
+	title: "Collecting the Most Basic Bees",
+	icon: "forestry:beehives",
+	x: 1.9d,
+	y: -0.5d,
+	shape: "hexagon",
+	description: "These you can find in your World!",
+	text: [
+		"The Next few Bees after this Quest can be found in the World! Simply search for their respective Hives and Collect them!",
+		"",
+		"- Please, be Honest with yourself since I can't actually make the Correct Requirements for the Quest Completion.",
+		"(Also beacuse of that they'll have no Reward)"
+	],
+	dependencies: [
+		"34074d78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "795ae9c1",
+		type: "checkmark"
+	}]
+}

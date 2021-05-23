@@ -1,0 +1,40 @@
+{
+	title: "Apiarist's Preparation I",
+	x: -3.0d,
+	y: -0.5d,
+	description: "Now that we will become an Apiarist, lets get some tools!",
+	text: [
+		"The First and most important tool to an Apiarist is the Scoop! and thanks to GregTech for offering us an \"Metal\" Scoop! you can make it with any metal rods that you desire."
+	],
+	dependencies: [
+		"9974309b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75584df1",
+		type: "item",
+		title: "Craft Any Scoop",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScoop",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScoop"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97b031f6",
+		type: "item",
+		item: "harvestcraft:blueberrysmoothieitem",
+		count: 2
+	}]
+}

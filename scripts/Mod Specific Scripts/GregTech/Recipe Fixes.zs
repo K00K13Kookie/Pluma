@@ -11,6 +11,30 @@ import mods.nuclearcraft.ingot_former;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+### HoneComb Fixes ###
+
+<ore:ingotHoneycomb>.add(<careerbees:ingredients:10>);
+
+// Bee Armor Chestplate
+recipes.remove(<careerbees:bee.armor.chest>);
+recipes.addShaped(<careerbees:bee.armor.chest> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>]]);
+
+// Bee Armor Helmet
+recipes.remove(<careerbees:bee.armor.head>);
+recipes.addShaped(<careerbees:bee.armor.head> * 1, [[<gregtech:meta_item_1:14829>, null, <gregtech:meta_item_1:14829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>]]);
+
+// Bee Armor Leggings
+recipes.remove(<careerbees:bee.armor.legs>);
+recipes.addShaped(<careerbees:bee.armor.legs> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
+
+// Bee Armor Boots
+recipes.remove(<careerbees:bee.armor.feet>);
+recipes.addShaped(<careerbees:bee.armor.feet> * 1, [[<gregtech:meta_item_1:17829>, null, <gregtech:meta_item_1:17829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
+
+// Bee-Bee Gun
+recipes.remove(<careerbees:beegun>);
+recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <gregtech:meta_tool:11>, <gregtech:meta_item_1:17829>], [<careerbees:ingredients:10>, <gregtech:meta_item_2:26829>, <gregtech:meta_item_1:12829>],[<careerbees:ingredients:10>, <gregtech:meta_tool:8>, <gregtech:meta_tool:6>]]);
+
 ##### Aluminium/Aluminum Fixes #####
 
 <ore:ingotAluminium>.add(<thermalfoundation:material:132>);

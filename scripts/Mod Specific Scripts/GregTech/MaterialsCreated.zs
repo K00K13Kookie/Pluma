@@ -26,6 +26,11 @@ MaterialRegistry.createIngotMaterial(
 	@Optional int toolDurability, 
 	@Optional int blastFurnaceTemperature);
 */
+
+	#HoneyComb
+val materialHoneyComb = MaterialRegistry.createIngotMaterial(829, "honeycomb", 0xebc334, "SHINY", 2); 
+materialHoneyComb.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
+
 	#Bluesteel (MV Cable)
 val materialBluesteel = MaterialRegistry.createIngotMaterial(828, "bluesteel", 0x263ADC, "SHINY", 6, null, 12.0f, 6, 1560);
 materialBluesteel.setCableProperties(128, 4, 0);

@@ -1,0 +1,52 @@
+{
+	title: "Improving your Backpacks!",
+	x: 1.4727891156462576d,
+	y: -2.628231292516997d,
+	shape: "hexagon",
+	description: "When Simple Backpacks aren't Enough",
+	text: [
+		"Now that you Have acess to Woven Silk, Why not Upgrade your current Backpacks to better ones?"
+	],
+	dependencies: [
+		"d9b1b409"
+	],
+	tasks: [{
+		uid: "3748589f",
+		type: "item",
+		title: "Any Woven Backpack",
+		items: [{
+			item: "forestry:miner_bag_t2"
+		},
+		{
+			item: "forestry:digger_bag_t2"
+		},
+		{
+			item: "forestry:forester_bag_t2"
+		},
+		{
+			item: "forestry:hunter_bag_t2"
+		},
+		{
+			item: "forestry:adventurer_bag_t2"
+		},
+		{
+			item: "forestry:builder_bag_t2"
+		},
+		{
+			item: "railcraft:backpack_apothecary_t2"
+		},
+		{
+			item: "railcraft:backpack_iceman_t2"
+		},
+		{
+			item: "railcraft:backpack_trackman_t2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73b9a4cf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

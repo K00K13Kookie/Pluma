@@ -1,0 +1,21 @@
+{
+	title: "Temperature and Humidity",
+	icon: "forestry:habitat_former",
+	x: 4.1d,
+	y: 0.7d,
+	shape: "rsquare",
+	description: "An Important thing to Know",
+	text: [
+		"Inside of the Bee House, and Actually all Blocks that care About bee's, you'll be able to see the Current Temperature and Humidity, that my friend is Important.",
+		"Different Bee's have different requirements to live, For Example, A Wintry Bee will require an Cold Habitat to survive. For now, keep that in Mind for all of your Basic Bee's,",
+		"Keep them in a Biome that has Similar Temperature and Humidity Conditions based on the Original one that you've collected them."
+	],
+	dependencies: [
+		"e38ce5bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "490855ef",
+		type: "checkmark"
+	}]
+}

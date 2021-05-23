@@ -70,6 +70,9 @@ recipes.addShapeless(<forestry:ash>, [<ore:artisansLens>.reuse().transformDamage
 //to pyrotech
 recipes.addShapeless(<pyrotech:material>, [<ore:artisansLens>.reuse().transformDamage(2), <forestry:ash>]);
 
+//Ash OreDicting
+<ore:dustAsh>.add(<pyrotech:material>);
+
 # Readding Bone and Flint tools Recipes so them Appear on the Worktable 
 
 // Bone Axe

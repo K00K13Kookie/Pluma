@@ -13,7 +13,7 @@ PitKiln.addRecipe(
   "CompressedSawdustCharcoalEarly",
   <minecraft:coal:1>,
   <thermalfoundation:material:801>,
-  120000,
+  1200,
   0.33,
   [<pyrotech:material>],
   true
@@ -25,7 +25,7 @@ PitKiln.addRecipe(
   "WoodChipsCharcoalEarly",
   <minecraft:coal:1>,
   <pyrotech:pile_wood_chips>,
-  120000,
+  1200,
   0.33,
   [<pyrotech:material>],
   true
@@ -36,6 +36,24 @@ furnace.remove(<pyrotech:material:15>);
 PitKiln.removeRecipes(<pyrotech:material:15>);
 StoneKiln.removeRecipes(<pyrotech:material:15>);
 BrickKiln.removeRecipes(<pyrotech:material:15>);
+
+//Recipe to Convert Straw into Ashes
+PitKiln.addRecipe(
+  "DirectAshRecipe",
+  <gregtech:meta_item_1:2089> * 2,
+  <pyrotech:material:2>,
+  10000,
+  true
+);
+
+//Recipe to Convert Dry Fiber into Ashes
+PitKiln.addRecipe(
+  "DirectAshRecipe2",
+  <gregtech:meta_item_1:2089>,
+  <pyrotech:material:13>,
+  8000,
+  true
+);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																								 					                                                                   //

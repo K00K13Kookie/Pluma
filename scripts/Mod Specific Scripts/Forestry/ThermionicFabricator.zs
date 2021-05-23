@@ -12,7 +12,7 @@ mods.forestry.ThermionicFabricator.removeCast(<forestry:flexible_casing>);
 //Readding it fixed
 mods.forestry.ThermionicFabricator.addCast(<forestry:flexible_casing>, 
 [[<ore:plateDenseBismuthBronze>,<ore:plateEmerald>,<ore:plateDenseBismuthBronze>],
-[<ore:plateRubber>,<ore:gearElectrotineAlloy>,<ore:plateRubber>],
+[<ore:plateRubber>,<ore:gearHoneycomb>,<ore:plateRubber>],
 [<ore:plateDenseBismuthBronze>,<ore:plateEmerald>,<ore:plateDenseBismuthBronze>]], 
 <liquid: glass> * 500);
 

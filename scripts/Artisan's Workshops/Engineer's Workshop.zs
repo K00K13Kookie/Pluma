@@ -329,7 +329,7 @@ RecipeBuilder.get("engineer")
 recipes.remove(<forestry:fabricator>);
  RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:platebrass>, <ore:platebrass>, <ore:platebrass>],
+    [<ore:plateSteel>, <ore:gearSmallSteel>, <ore:plateSteel>],
     [<ore:strengthenedGlass>, <ore:gearElectrum>, <ore:strengthenedGlass>],
     [<ore:plateGold>, <forestry:hardened_machine>, <ore:plateGold>]])
   .addTool(<ore:artisansSolderer>, 5)

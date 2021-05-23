@@ -8,20 +8,36 @@
 		"A Coke oven is a 3x3x3 Multi Block \"Machine\" that will make you a Special Type of Oil called Creosote and will also Convert normal Coal into a Better version of it called Coke Coal!"
 	],
 	dependencies: [
-		"cbb73f20"
+		"d30e5cf2"
 	],
 	hide: true,
 	size: 2.0d,
 	tasks: [{
-		uid: "4a092468",
+		uid: "a4915381",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:stone_decoration 27"
+			item: "gregtech:meta_item_2 1 32016"
+		}],
+		count: 36L
+	},
+	{
+		uid: "2b3b0cf0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
 		}],
 		count: 27L
 	},
 	{
-		uid: "874083a2",
+		uid: "af67ae45",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c0b733a",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -41,6 +57,6 @@
 	rewards: [{
 		uid: "af9460c3",
 		type: "ftbmoney:money",
-		ftb_money: 15L
+		ftb_money: 10L
 	}]
 }
