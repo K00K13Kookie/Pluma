@@ -14,6 +14,7 @@
 		"e38ce5bc"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "490855ef",
 		type: "checkmark"

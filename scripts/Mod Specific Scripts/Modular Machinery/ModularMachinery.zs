@@ -7,35 +7,20 @@ import crafttweaker.item.IItemStack;
 // Staging the Whole Mod
 mods.ItemStages.stageModItems("ModularMachineryUnlock", "modularmachinery");
 
-<modularmachinery:itemmodularium>.displayName = "Enhanced Aluminum";
-<modularmachinery:blockcasing>.displayName = "Enhanced Aluminum Casing";
+//Modularium
+recipes.remove(<gregtech:meta_item_1:10830>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10830> * 3, <ore:ingotNickel>, null, 80, 1000, [<ore:ingotLead>, <ore:ingotSilver>], "Alloying");
 
-
-//Enhanced Aluminum
-recipes.remove(<modularmachinery:itemmodularium>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 2, <ore:ingotAluminum>, null, 80, 1000, [<ore:ingotLead>, <ore:ingotSilver>], "Alloying");
-
-//Enhanced Aluminum Dust
-mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:enhanced_aluminum_dust>, <modularmachinery:itemmodularium>, 80);
-
-//Enhanced Aluminum Block and Nugget
-recipes.addShapeless("EnhancedAluminumNugget", <contenttweaker:enhanced_aluminum_nugget> * 9, [<modularmachinery:itemmodularium>]);
-recipes.addShaped(<contenttweaker:sub_block_holder_0>, [[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);
-recipes.addShapeless("EnhancedAluminumBlockToIngot", <modularmachinery:itemmodularium> * 9, [<contenttweaker:sub_block_holder_0>]);
-
-
-//Enhanced Aluminum Bolt
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_bolt> * 4, <ore:stickEnhancedAluminum>, <contenttweaker:boltmold>, 20);
-//Enhanced Aluminum Dense Plate
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_dense_plate>, <ore:plateEnhancedAluminum>, <immersiveengineering:mold>, 160, 9);
-//Enhanced Aluminum Casing
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_casing> * 2, <ore:plateEnhancedAluminum>, <contenttweaker:casingmold>, 80, 1);
-//Enhanced Aluminum Gear
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_gear>, <modularmachinery:itemmodularium>, <immersiveengineering:mold:1>, 80, 4);
-//Enhanced Aluminum-Plate
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_plate>, <modularmachinery:itemmodularium>, <immersiveengineering:mold>, 80);
-//Enhanced Aluminum-Rod
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum_rod> * 2, <modularmachinery:itemmodularium>, <immersiveengineering:mold:2>, 80);
+//Modularium Bolt
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16830> * 4, <ore:stickModularium>, <contenttweaker:boltmold>, 20);
+//Modularium Dense Plate
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13830>, <ore:plateModularium>, <immersiveengineering:mold>, 160, 9);
+//Modularium Gear
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_2:26830>, <gregtech:meta_item_1:10830>, <immersiveengineering:mold:1>, 80, 4);
+//Modularium-Plate
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12830>, <gregtech:meta_item_1:10830>, <immersiveengineering:mold>, 80);
+//Modularium-Rod
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:14830> * 2, <gregtech:meta_item_1:10830>, <immersiveengineering:mold:2>, 80);
 
 #################### Block Craftings ####################
 
@@ -43,9 +28,9 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:enhanced_aluminum
 recipes.remove(<modularmachinery:blockcontroller>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateDiamond>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:plateDiamond>, <ore:screwModularium>],
     [<ore:plateDiamond>, <modularmachinery:blockcasing>, <ore:plateDiamond>],
-    [<ore:boltEnhancedAluminum>, <immersiveengineering:material:27>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <immersiveengineering:material:27>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSolderer>, 2)
@@ -65,13 +50,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<modularmachinery:blockcasing:5>)
   .create();
 
-//Enhanced Aluminum Casing
+//Modularium Casing
 recipes.remove(<modularmachinery:blockcasing>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:plateEnhancedAluminum>, <ore:plateSapphire>, <ore:plateEnhancedAluminum>],
-    [<ore:plateSapphire>, <ore:gearEnhancedAluminum>, <ore:plateSapphire>],
-    [<ore:plateEnhancedAluminum>, <ore:plateSapphire>, <ore:plateEnhancedAluminum>]])
+    [<ore:plateModularium>, <ore:plateSapphire>, <ore:plateModularium>],
+    [<ore:plateSapphire>, <ore:gearModularium>, <ore:plateSapphire>],
+    [<ore:plateModularium>, <ore:plateSapphire>, <ore:plateModularium>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 4)
@@ -83,9 +68,9 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<modularmachinery:blockcasing:3>); 
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:gearInvar>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:gearInvar>, <ore:screwModularium>],
     [<ore:gearInvar>, <modularmachinery:blockcasing>, <ore:gearInvar>],
-    [<ore:boltEnhancedAluminum>, <ore:gearInvar>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:gearInvar>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansDriver>, 10)
   .addTool(<ore:artisansSolderer>, 5)
@@ -96,9 +81,9 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<modularmachinery:blockcasing:2>);  
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <minecraft:flint>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <minecraft:flint>, <ore:screwModularium>],
     [<ore:plateRedstone>, <modularmachinery:blockcasing>, <ore:plateRedstone>],
-    [<ore:boltEnhancedAluminum>, <ore:plateRuby>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateRuby>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSolderer>, 4)
@@ -109,22 +94,22 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<modularmachinery:blockcasing:1>);
   RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateEnhancedAluminum>, <ore:boltEnhancedAluminum>],
-    [<ore:plateEnhancedAluminum>, <ore:rotorSteel>, <ore:plateEnhancedAluminum>],
-    [<ore:boltEnhancedAluminum>, <ore:plateEnhancedAluminum>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateModularium>, <ore:screwModularium>],
+    [<ore:plateModularium>, <ore:rotorSteel>, <ore:plateModularium>],
+    [<ore:screwModularium>, <ore:plateModularium>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSolderer>, 4)
   .addOutput(<modularmachinery:blockcasing:1>)
   .create();
 
-//Dense Enhanced Aluminum Casing
+//Dense Modularium Casing
 recipes.remove(<modularmachinery:blockcasing:4>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:densePlateEnhancedAluminum>, <ore:plateBlackSteel>, <ore:densePlateEnhancedAluminum>],
+    [<ore:plateDenseModularium>, <ore:plateBlackSteel>, <ore:plateDenseModularium>],
     [<ore:plateBlackSteel>, <modularmachinery:blockcasing>, <ore:plateBlackSteel>],
-    [<ore:densePlateEnhancedAluminum>, <ore:plateBlackSteel>, <ore:densePlateEnhancedAluminum>]])
+    [<ore:plateDenseModularium>, <ore:plateBlackSteel>, <ore:plateDenseModularium>]])
   .addTool(<ore:artisansHammer>, 10)
   .addTool(<ore:artisansBurner>, 10)
   .addTool(<ore:artisansSolderer>, 10)
@@ -151,8 +136,8 @@ recipes.remove(<modularmachinery:blockinputbus:1>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <minecraft:hopper>, null],
-    [<ore:plateEnhancedAluminum>, <modularmachinery:blockinputbus>, <ore:plateEnhancedAluminum>],
-    [<immersiveengineering:wooden_device0>, <ore:plateEnhancedAluminum>, <immersiveengineering:wooden_device0>]])
+    [<ore:plateModularium>, <modularmachinery:blockinputbus>, <ore:plateModularium>],
+    [<immersiveengineering:wooden_device0>, <ore:plateModularium>, <immersiveengineering:wooden_device0>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -163,8 +148,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateEnhancedAluminum>, <modularmachinery:blockinputbus:1>, <ore:plateEnhancedAluminum>],
-    [<immersiveengineering:wooden_device0>, <ore:plateEnhancedAluminum>, <immersiveengineering:wooden_device0>]])
+    [<ore:plateModularium>, <modularmachinery:blockinputbus:1>, <ore:plateModularium>],
+    [<immersiveengineering:wooden_device0>, <ore:plateModularium>, <immersiveengineering:wooden_device0>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -175,8 +160,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockinputbus:2>, <ore:plateDenseEnhancedAluminum>],
-    [<immersiveengineering:wooden_device0>, <ore:plateDenseEnhancedAluminum>, <immersiveengineering:wooden_device0>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:2>, <ore:plateDenseModularium>],
+    [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -187,8 +172,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockinputbus:3>, <ore:plateDenseEnhancedAluminum>],
-    [<immersiveengineering:wooden_device0>, <ore:plateDenseEnhancedAluminum>, <immersiveengineering:wooden_device0>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:3>, <ore:plateDenseModularium>],
+    [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -199,8 +184,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockinputbus:4>, <ore:plateDenseEnhancedAluminum>],
-    [<immersiveengineering:wooden_device0>, <ore:plateDenseEnhancedAluminum>, <immersiveengineering:wooden_device0>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:4>, <ore:plateDenseModularium>],
+    [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -211,8 +196,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockinputbus:5>, <ore:plateDenseEnhancedAluminum>],
-    [<immersiveengineering:wooden_device0>, <ore:plateDenseEnhancedAluminum>, <immersiveengineering:wooden_device0>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:5>, <ore:plateDenseModularium>],
+    [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -242,8 +227,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateEnhancedAluminum>, <modularmachinery:blockfluidinputhatch>, <ore:plateEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch>, <ore:plateModularium>],
+    [<minecraft:bucket>, <ore:plateModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -254,8 +239,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateEnhancedAluminum>, <modularmachinery:blockfluidinputhatch:1>, <ore:plateEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:1>, <ore:plateModularium>],
+    [<minecraft:bucket>, <ore:plateModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -266,8 +251,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockfluidinputhatch:2>, <ore:plateDenseEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateDenseEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:2>, <ore:plateDenseModularium>],
+    [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -278,8 +263,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateDenseEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateDenseEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateDenseModularium>],
+    [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -290,8 +275,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockfluidinputhatch:4>, <ore:plateDenseEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateDenseEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:4>, <ore:plateDenseModularium>],
+    [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -302,8 +287,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockfluidinputhatch:5>, <ore:plateDenseEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateDenseEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:5>, <ore:plateDenseModularium>],
+    [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -314,8 +299,8 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:hopper>, null],
-    [<ore:plateDenseEnhancedAluminum>, <modularmachinery:blockfluidinputhatch:6>, <ore:plateDenseEnhancedAluminum>],
-    [<minecraft:bucket>, <ore:plateDenseEnhancedAluminum>, <minecraft:bucket>]])
+    [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:6>, <ore:plateDenseModularium>],
+    [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -368,9 +353,9 @@ RecipeBuilder.get("blacksmith")
 //Reinforced Energy In
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:2>, <ore:plateDenseElectrum>],
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -380,9 +365,9 @@ RecipeBuilder.get("blacksmith")
 //Big Energy In
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:3>, <ore:plateDenseElectrum>],
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -392,9 +377,9 @@ RecipeBuilder.get("blacksmith")
 //Huge Energy In
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:4>, <ore:plateDenseElectrum>],
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -404,9 +389,9 @@ RecipeBuilder.get("blacksmith")
 //Ludicrous
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:5>, <ore:plateDenseElectrum>],
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -416,9 +401,9 @@ RecipeBuilder.get("blacksmith")
 //Ultimate
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>],
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:6>, <ore:plateDenseElectrum>],
-    [<ore:boltEnhancedAluminum>, <ore:plateDenseElectrum>, <ore:boltEnhancedAluminum>]])
+    [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSpanner>, 1)
   .addTool(<ore:artisansCutters>, 2)
@@ -451,6 +436,7 @@ recipes.addShapeless("LudicrousOutput", <modularmachinery:blockoutputbus:6>, [<m
 //Tiny Fluid Output
 recipes.addShapeless("TinyFluidOutput", <modularmachinery:blockfluidoutputhatch>, [<modularmachinery:blockfluidinputhatch>]);
 //Small Fluid Output
+recipes.remove(<modularmachinery:blockfluidoutputhatch:1>);
 recipes.addShapeless("SmallFluidOutput", <modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidinputhatch:1>]);
 //Normal Fluid Output
 recipes.addShapeless("NormalFluidOutput", <modularmachinery:blockfluidoutputhatch:2>, [<modularmachinery:blockfluidinputhatch:2>]);

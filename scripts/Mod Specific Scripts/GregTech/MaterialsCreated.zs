@@ -27,6 +27,10 @@ MaterialRegistry.createIngotMaterial(
 	@Optional int blastFurnaceTemperature);
 */
 
+	#Modularium
+val materialModularium = MaterialRegistry.createIngotMaterial(830, "modularium", 0x8BA6CB, "METALLIC", 2); 
+materialModularium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
+
 	#HoneyComb
 val materialHoneyComb = MaterialRegistry.createIngotMaterial(829, "honeycomb", 0xebc334, "SHINY", 2); 
 materialHoneyComb.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);

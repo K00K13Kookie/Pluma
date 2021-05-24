@@ -1,0 +1,25 @@
+{
+	title: "Honey-Comb Ingot!",
+	x: 10.0d,
+	y: -2.8d,
+	shape: "rsquare",
+	description: "A Special Ingot made by Bees!",
+	text: [
+		"This Resource has actually 2 Recipes, the One that you can see in JEI is by Alloy Smelting Honey Dews, but you can actually Obtain this Ingot by using a Honey Smelter Bee and some Iron."
+	],
+	dependencies: [
+		"9617c417"
+	],
+	tasks: [{
+		uid: "bcd14255",
+		type: "item",
+		items: [{
+			item: "careerbees:ingredients 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "d7ba0580",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

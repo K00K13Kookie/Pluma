@@ -191,3 +191,61 @@ addMiningTier2("oreGTLapis", 2);
 addMiningTier3("oreGTEmerald", 3);
 addMiningTier3("oreGTDiamond", 3);
 addMiningTier3("oreGTPlatinum", 3);
+
+// -----------------------------------------------------------------------//
+// Mutagen Producer                                                       //
+// -----------------------------------------------------------------------//
+
+<assembly:mutagen_producer>.setJEIDurationSlot(0,0,"duration", SlotVisual.energySlot());
+<assembly:mutagen_producer>.setJEIItemSlot(1, 0, 'item_in');
+<assembly:mutagen_producer>.setJEIDurationSlot(2,0,"duration", SlotVisual.arrowRight());
+<assembly:mutagen_producer>.setJEIFluidSlot(3, 0, 'liquid_output');
+<assembly:mutagen_producer>.addJEICatalyst(<gendustry:mutagen_producer>);
+
+//100mB
+static Mutagenics1 as IItemStack[] = [
+  <minecraft:redstone>,
+/**/
+];
+for input in Mutagenics1 {
+  <assembly:mutagen_producer>.addJEIRecipe(AssemblyRecipe.create(function(container) {})
+    .requireItem("item_in", input)
+    .requireFluid("liquid_output", <liquid:mutagen> * 100)
+  );
+}
+
+//200mB
+static Mutagenics2 as IItemStack[] = [
+  <minecraft:glowstone_dust>,
+/**/
+];
+for input in Mutagenics2 {
+  <assembly:mutagen_producer>.addJEIRecipe(AssemblyRecipe.create(function(container) {})
+    .requireItem("item_in", input)
+    .requireFluid("liquid_output", <liquid:mutagen> * 200)
+  );
+}
+
+//800mB
+static Mutagenics3 as IItemStack[] = [
+  <minecraft:glowstone>,
+/**/
+];
+for input in Mutagenics3 {
+  <assembly:mutagen_producer>.addJEIRecipe(AssemblyRecipe.create(function(container) {})
+    .requireItem("item_in", input)
+    .requireFluid("liquid_output", <liquid:mutagen> * 800)
+  );
+}
+
+//900mB
+static Mutagenics4 as IItemStack[] = [
+  <minecraft:redstone_block>,
+/**/
+];
+for input in Mutagenics4 {
+  <assembly:mutagen_producer>.addJEIRecipe(AssemblyRecipe.create(function(container) {})
+    .requireItem("item_in", input)
+    .requireFluid("liquid_output", <liquid:mutagen> * 900)
+  );
+}

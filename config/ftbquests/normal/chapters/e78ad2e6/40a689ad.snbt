@@ -1,0 +1,50 @@
+{
+	title: "Bee Ready for Combat",
+	x: 9.0d,
+	y: -3.7d,
+	shape: "rsquare",
+	description: "Lets make a Bee Armor Set!",
+	text: [
+		"With Honey-Comb Plates you can make yourself a Bee Armor! witch is very good actually. it offers a decent protection and toughness."
+	],
+	dependencies: [
+		"b6f3208b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "179a875d",
+		type: "item",
+		items: [{
+			item: "careerbees:bee.armor.head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc3a5a27",
+		type: "item",
+		items: [{
+			item: "careerbees:bee.armor.chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b45e24c",
+		type: "item",
+		items: [{
+			item: "careerbees:bee.armor.legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e5fa073",
+		type: "item",
+		items: [{
+			item: "careerbees:bee.armor.feet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

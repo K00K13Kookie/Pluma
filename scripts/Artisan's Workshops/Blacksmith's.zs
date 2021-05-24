@@ -54,6 +54,20 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<gregtech:meta_item_1:32762> * 4)
   .create();
 
+//Mutagen Tank
+recipes.remove(<gendustry:mutagen_tank>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:screwHoneycomb>, <ore:casingTin>, <ore:screwHoneycomb>],
+    [<ore:plateSilver>, <gregtech:meta_item_1:32762>, <ore:plateSilver>],
+    [<ore:screwHoneycomb>, <ore:casingTin>, <ore:screwHoneycomb>]])
+  .setFluid(<liquid:canolaoil> * 1000)
+  .addTool(<ore:artisansCutters>, 5)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gendustry:mutagen_tank> * 2)
+  .create();
+
 #### Old Scraped idea to Make all armor complicated to Craft.
 
 /*
