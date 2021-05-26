@@ -1,28 +1,28 @@
 {
-	title: "The Cultivated Lady",
+	title: "The Majestic Lady",
 	icon: {
 		id: "forestry:bee_queen_ge",
 		tag: {
-			MaxH: 10,
+			MaxH: 35,
 			Mate: {
 				Chromosomes: [{
-					UID1: "forestry.speciesCultivated",
-					UID0: "forestry.speciesCultivated",
+					UID1: "forestry.speciesMajestic",
+					UID0: "forestry.speciesMajestic",
 					Slot: 0b
 				},
 				{
-					UID1: "forestry.speedFast",
-					UID0: "forestry.speedFast",
+					UID1: "forestry.speedNormal",
+					UID0: "forestry.speedNormal",
 					Slot: 1b
 				},
 				{
-					UID1: "forestry.lifespanShortest",
-					UID0: "forestry.lifespanShortest",
+					UID1: "forestry.lifespanShortened",
+					UID0: "forestry.lifespanShortened",
 					Slot: 2b
 				},
 				{
-					UID1: "forestry.fertilityNormal",
-					UID0: "forestry.fertilityNormal",
+					UID1: "forestry.fertilityMaximum",
+					UID0: "forestry.fertilityMaximum",
 					Slot: 3b
 				},
 				{
@@ -71,27 +71,27 @@
 					Slot: 12b
 				}]
 			},
-			Health: 10,
+			Health: 35,
 			IsAnalyzed: 0b,
 			Genome: {
 				Chromosomes: [{
-					UID1: "forestry.speciesCultivated",
-					UID0: "forestry.speciesCultivated",
+					UID1: "forestry.speciesMajestic",
+					UID0: "forestry.speciesMajestic",
 					Slot: 0b
 				},
 				{
-					UID1: "forestry.speedFast",
-					UID0: "forestry.speedFast",
+					UID1: "forestry.speedNormal",
+					UID0: "forestry.speedNormal",
 					Slot: 1b
 				},
 				{
-					UID1: "forestry.lifespanShortest",
-					UID0: "forestry.lifespanShortest",
+					UID1: "forestry.lifespanShortened",
+					UID0: "forestry.lifespanShortened",
 					Slot: 2b
 				},
 				{
-					UID1: "forestry.fertilityNormal",
-					UID0: "forestry.fertilityNormal",
+					UID1: "forestry.fertilityMaximum",
+					UID0: "forestry.fertilityMaximum",
 					Slot: 3b
 				},
 				{
@@ -142,112 +142,48 @@
 			}
 		}
 	},
-	x: 8.741496598639472d,
-	y: -0.4821428571428541d,
+	x: 9.108843537414977d,
+	y: 0.19132653061225113d,
 	shape: "hexagon",
-	description: "Obtaining The Cultivated Species",
+	description: "Obtaining The Majestic Species",
 	text: [
-		"The Cultivated Bee can also be Obtained by Breeding those \"Basic Bees\" that you find in the World, but now, You need to breed them with a Common Species One."
+		"If you breed a Cultivated and a Noble Bee, the result will be a Majestic Bee!",
+		"",
+		"- Also, remember that this bee has a fertility 4x gene."
 	],
 	dependencies: [
-		"17536e49"
+		"3ae21efe",
+		"e1f44678"
 	],
 	hide: true,
 	tasks: [{
-		uid: "1cde95c1",
+		uid: "6c882642",
 		type: "item",
 		items: [{
 			id: "forestry:bee_princess_ge",
 			tag: {
-				MaxH: 10,
-				Mate: {
-					Chromosomes: [{
-						UID1: "forestry.speciesCultivated",
-						UID0: "forestry.speciesCultivated",
-						Slot: 0b
-					},
-					{
-						UID1: "forestry.speedFast",
-						UID0: "forestry.speedFast",
-						Slot: 1b
-					},
-					{
-						UID1: "forestry.lifespanShortest",
-						UID0: "forestry.lifespanShortest",
-						Slot: 2b
-					},
-					{
-						UID1: "forestry.fertilityNormal",
-						UID0: "forestry.fertilityNormal",
-						Slot: 3b
-					},
-					{
-						UID1: "forestry.toleranceNone",
-						UID0: "forestry.toleranceNone",
-						Slot: 4b
-					},
-					{
-						UID1: "forestry.boolFalse",
-						UID0: "forestry.boolFalse",
-						Slot: 5b
-					},
-					{
-						UID1: "forestry.toleranceNone",
-						UID0: "forestry.toleranceNone",
-						Slot: 6b
-					},
-					{
-						UID1: "forestry.boolFalse",
-						UID0: "forestry.boolFalse",
-						Slot: 7b
-					},
-					{
-						UID1: "forestry.boolFalse",
-						UID0: "forestry.boolFalse",
-						Slot: 8b
-					},
-					{
-						UID1: "forestry.flowersVanilla",
-						UID0: "forestry.flowersVanilla",
-						Slot: 9b
-					},
-					{
-						UID1: "forestry.floweringSlowest",
-						UID0: "forestry.floweringSlowest",
-						Slot: 10b
-					},
-					{
-						UID1: "forestry.territoryAverage",
-						UID0: "forestry.territoryAverage",
-						Slot: 11b
-					},
-					{
-						UID1: "forestry.effectNone",
-						UID0: "forestry.effectNone",
-						Slot: 12b
-					}]
-				},
-				Health: 10,
-				IsAnalyzed: 0b,
+				MaxH: 35,
+				Health: 35,
+				IsAnalyzed: 1b,
 				Genome: {
 					Chromosomes: [{
-						UID1: "forestry.speciesCultivated",
-						UID0: "forestry.speciesCultivated",
+						UID1: "forestry.speciesMajestic",
+						UID0: "forestry.speciesMajestic",
 						Slot: 0b
 					},
 					{
-						UID1: "forestry.speedFast",
-						UID0: "forestry.speedFast",
+						UID1: "forestry.speedNormal",
+						UID0: "forestry.speedNormal",
 						Slot: 1b
 					},
 					{
-						UID1: "forestry.lifespanShortest",
-						UID0: "forestry.lifespanShortest",
+						UID1: "forestry.lifespanShortened",
+						UID0: "forestry.lifespanShortened",
 						Slot: 2b
 					},
 					{
-						UID1: "forestry.fertilityNormal",
-						UID0: "forestry.fertilityNormal",
+						UID1: "forestry.fertilityMaximum",
+						UID0: "forestry.fertilityMaximum",
 						Slot: 3b
 					},
 					{
@@ -301,100 +237,33 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "f27b5c0d",
+		uid: "f848923a",
 		type: "item",
 		items: [{
 			id: "forestry:bee_drone_ge",
 			tag: {
-				MaxH: 10,
-				Mate: {
-					Chromosomes: [{
-						UID1: "forestry.speciesCultivated",
-						UID0: "forestry.speciesCultivated",
-						Slot: 0b
-					},
-					{
-						UID1: "forestry.speedFast",
-						UID0: "forestry.speedFast",
-						Slot: 1b
-					},
-					{
-						UID1: "forestry.lifespanShortest",
-						UID0: "forestry.lifespanShortest",
-						Slot: 2b
-					},
-					{
-						UID1: "forestry.fertilityNormal",
-						UID0: "forestry.fertilityNormal",
-						Slot: 3b
-					},
-					{
-						UID1: "forestry.toleranceNone",
-						UID0: "forestry.toleranceNone",
-						Slot: 4b
-					},
-					{
-						UID1: "forestry.boolFalse",
-						UID0: "forestry.boolFalse",
-						Slot: 5b
-					},
-					{
-						UID1: "forestry.toleranceNone",
-						UID0: "forestry.toleranceNone",
-						Slot: 6b
-					},
-					{
-						UID1: "forestry.boolFalse",
-						UID0: "forestry.boolFalse",
-						Slot: 7b
-					},
-					{
-						UID1: "forestry.boolFalse",
-						UID0: "forestry.boolFalse",
-						Slot: 8b
-					},
-					{
-						UID1: "forestry.flowersVanilla",
-						UID0: "forestry.flowersVanilla",
-						Slot: 9b
-					},
-					{
-						UID1: "forestry.floweringSlowest",
-						UID0: "forestry.floweringSlowest",
-						Slot: 10b
-					},
-					{
-						UID1: "forestry.territoryAverage",
-						UID0: "forestry.territoryAverage",
-						Slot: 11b
-					},
-					{
-						UID1: "forestry.effectNone",
-						UID0: "forestry.effectNone",
-						Slot: 12b
-					}]
-				},
-				Health: 10,
-				IsAnalyzed: 0b,
+				MaxH: 35,
+				Health: 35,
+				IsAnalyzed: 1b,
 				Genome: {
 					Chromosomes: [{
-						UID1: "forestry.speciesCultivated",
-						UID0: "forestry.speciesCultivated",
+						UID1: "forestry.speciesMajestic",
+						UID0: "forestry.speciesMajestic",
 						Slot: 0b
 					},
 					{
-						UID1: "forestry.speedFast",
-						UID0: "forestry.speedFast",
+						UID1: "forestry.speedNormal",
+						UID0: "forestry.speedNormal",
 						Slot: 1b
 					},
 					{
-						UID1: "forestry.lifespanShortest",
-						UID0: "forestry.lifespanShortest",
+						UID1: "forestry.lifespanShortened",
+						UID0: "forestry.lifespanShortened",
 						Slot: 2b
 					},
 					{
-						UID1: "forestry.fertilityNormal",
-						UID0: "forestry.fertilityNormal",
+						UID1: "forestry.fertilityMaximum",
+						UID0: "forestry.fertilityMaximum",
 						Slot: 3b
 					},
 					{
@@ -448,7 +317,7 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "cb537190",
+		uid: "a848e8a7",
 		type: "checkmark"
 	}]
 }

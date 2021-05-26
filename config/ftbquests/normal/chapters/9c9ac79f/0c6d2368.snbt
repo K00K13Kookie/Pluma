@@ -34,5 +34,11 @@
 				resolved: 1b
 			}
 		}
+	},
+	{
+		uid: "79d9a1db",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "AdvancedMachinery"
 	}]
 }

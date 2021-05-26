@@ -1,0 +1,45 @@
+{
+	title: "Understanding about Cables",
+	x: 1.0d,
+	y: -0.8d,
+	shape: "square",
+	description: "How does GT Electricity works?",
+	text: [
+		"I Will give you a brief explanation about what you'll need to worry about when using GT Machines and its wires.",
+		"",
+		"- First of all, GT uses a Voltage system, and that means that certain recipes for example will require certain amounts of energy that only a certain Voltage and Above",
+		"will be able to handle, for example: a Recipe that requires 32EU is a LV Recipe but it can be made in a MV Machine since the MV Machine can handle up to 128EU.",
+		"",
+		"- Second, this complements what I've said above, but there will be different Tiers of each machine, one for each Voltage.",
+		"",
+		"- Third, RESPECT the Voltages! If you connect a LV Wire into a MV Generator, the Wire will be set on Fire! and LV Machines that receive a MV Voltage energy will Explode!",
+		"You can provide LV Energy to an MV Machine (it will struggle to complete the craft since it isn't enough energy) but it will work. BUT NEVER the other way.",
+		"",
+		"- Forth, there's also an Amperage Mechanic, where, a Cable that has 4 Amperage can support up to 4 machines. But be more exact, Machines request \"Energy Packages\" to a cable,",
+		"and if you have 4 machines and only a cable where 1 \"Package\" can travel, only 1 machine will be able to work at a time. ",
+		"",
+		"A Good tip is to always have a little bit more of amperage, that way, if you're specially overclocking, your machines will have 100% enough power."
+	],
+	dependencies: [
+		"6b204553"
+	],
+	tasks: [{
+		uid: "dea1501d",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 5237"
+		}]
+	},
+	{
+		uid: "168b6dd8",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 237"
+		}]
+	}],
+	rewards: [{
+		uid: "69befd8f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

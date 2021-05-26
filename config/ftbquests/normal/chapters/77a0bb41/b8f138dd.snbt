@@ -1,0 +1,26 @@
+{
+	title: "Welcome to the Chemistry Era!",
+	icon: "gregtech:machine 1 501",
+	x: -2.0d,
+	y: -0.9d,
+	shape: "gear",
+	description: "Now the Fun part of the Pack Beggins...",
+	text: [
+		"Now you'll finally have the requirements to start automating stuff and actually utilizing more complex and Advanced Machines."
+	],
+	dependencies: [
+		"0c6d2368"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "04529af2",
+		type: "gamestage",
+		stage: "AdvancedMachinery"
+	}],
+	rewards: [{
+		uid: "aa7e6213",
+		type: "item",
+		item: "harvestcraft:mintchocolatechipicecreamitem"
+	}]
+}

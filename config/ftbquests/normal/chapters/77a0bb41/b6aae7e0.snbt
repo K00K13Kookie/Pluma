@@ -1,0 +1,40 @@
+{
+	title: "Converting your RF's to EU's",
+	x: 2.4d,
+	y: -0.8d,
+	shape: "square",
+	description: "There's a Simple way to convert RF to EU and Vice Versa!",
+	text: [
+		"As the Subtitle said, you can easily convert EU to RF and Vice Versa, Simply make a CEU or a CEF depending on your necessity.",
+		"",
+		"",
+		"- CEF's Convert RF to EU",
+		"",
+		"- CEU's Convert EU to RF"
+	],
+	dependencies: [
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "e02c88ee",
+		type: "item",
+		title: "Any CEF",
+		items: [{
+			item: "gregtech:machine 1 10659"
+		},
+		{
+			item: "gregtech:machine 1 10661"
+		},
+		{
+			item: "gregtech:machine 1 10663"
+		},
+		{
+			item: "gregtech:machine 1 10665"
+		}]
+	}],
+	rewards: [{
+		uid: "abb64dd5",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}
