@@ -9,11 +9,11 @@ import mods.gregtech.recipe.RecipeMap;
 ### Fixing Ethanol Recipes ####
 
 //Removing all Ethanol Recipes
-reactor.findRecipe(32, null, [<liquid:water> * 1000, <liquid:sugar> * 144]).remove();
-reactor.findRecipe(32, null, [<liquid:sulfuric_acid> * 1000, <liquid:ethene> * 1000]).remove();
+chemreactor.findRecipe(32, null, [<liquid:water> * 1000, <liquid:sugar> * 144]).remove();
+chemreactor.findRecipe(32, null, [<liquid:sulfuric_acid> * 1000, <liquid:ethene> * 1000]).remove();
 
 //Readding them with the Correct Ethanol
-reactor.recipeBuilder()
+chemreactor.recipeBuilder()
     .fluidInputs([<liquid:water> * 1000])
     .fluidInputs([<liquid:sugar> * 144])
     .fluidOutputs(<liquid:bio.ethanol> * 4000)
@@ -21,7 +21,7 @@ reactor.recipeBuilder()
     .EUt(15)
     .buildAndRegister();
 
-reactor.recipeBuilder()
+chemreactor.recipeBuilder()
     .fluidInputs([<liquid:sulfuric_acid> * 1000])
     .fluidInputs([<liquid:ethene> * 1000])
     .fluidOutputs(<liquid:bio.ethanol> * 1000)
@@ -29,3 +29,5 @@ reactor.recipeBuilder()
     .duration(600)
     .EUt(30)
     .buildAndRegister();
+
+    
