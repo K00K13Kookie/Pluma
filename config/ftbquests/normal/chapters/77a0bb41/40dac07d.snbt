@@ -1,0 +1,33 @@
+{
+	title: "Crafting Components I [Motors and Pistons]",
+	x: 4.2d,
+	y: -0.8d,
+	shape: "square",
+	description: "A Much Used Crafting Component",
+	text: [
+		"There will be different Motors and Rotos for Each Voltage and you'll be using them a lot troughout craftings."
+	],
+	dependencies: [
+		"b6aae7e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "706ffebc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32640"
+		}]
+	},
+	{
+		uid: "41f787b3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32600"
+		}]
+	}],
+	rewards: [{
+		uid: "52b3f36d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

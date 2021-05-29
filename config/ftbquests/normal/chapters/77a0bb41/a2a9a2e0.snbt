@@ -1,0 +1,31 @@
+{
+	title: "Extracting...",
+	x: 5.9d,
+	y: -3.4d,
+	shape: "square",
+	description: "Time to Extract Rubber!",
+	text: [
+		"With an Extractor you'll be specially capable of extracting Dyes from flowers and a lot of Rubber out of Resin!"
+	],
+	dependencies: [
+		"934f786b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d56e93eb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 260"
+		}]
+	}],
+	rewards: [{
+		uid: "f616dc74",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "c88afd99",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Smelting...",
+	x: 2.4d,
+	y: 0.6d,
+	shape: "square",
+	description: "No more Direct Coal Burning!",
+	text: [
+		"Simple as that, a way to smelt items using EU, much more efficient than using Coal or Steam."
+	],
+	dependencies: [
+		"b6aae7e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea0d51e1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "82aeba1a",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	},
+	{
+		uid: "c8c5b660",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

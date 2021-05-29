@@ -1,0 +1,30 @@
+{
+	title: "Solidifying...",
+	x: 5.9d,
+	y: 1.9d,
+	shape: "square",
+	description: "Let it Dry with Energy!",
+	text: [
+		"Using Molds and some Fluids, You can Solidify them on Demmand!"
+	],
+	dependencies: [
+		"d7bd90dc"
+	],
+	tasks: [{
+		uid: "1c20fe58",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 320"
+		}]
+	}],
+	rewards: [{
+		uid: "fa1bf65e",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	},
+	{
+		uid: "e59dd575",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

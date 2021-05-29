@@ -1,0 +1,31 @@
+{
+	title: "Lathing...",
+	x: 4.2d,
+	y: 1.9d,
+	shape: "square",
+	description: "Improving Rod Production...",
+	text: [
+		"With a Lathe you'll be able to produce Rods, Bolts and Screws easily!"
+	],
+	dependencies: [
+		"1eb874bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fbb9198e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 350"
+		}]
+	}],
+	rewards: [{
+		uid: "6b517954",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	},
+	{
+		uid: "201d938b",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

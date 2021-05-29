@@ -8,9 +8,8 @@ var ItensComReceitasRemovidas as IItemStack[] = [
     ];
 for i in ItensComReceitasRemovidas {     
 recipes.remove(i);
-i.addTooltip(format.red("Cannot be Crafted, Only found in the World or bought in the Shop."));
+i.addTooltip(format.red("Cannot be Crafted with Bare Hands. Can Only found in the World, bought in the Shop or Manufactured."));
 }
-
 
 var ItensRemovidos as IItemStack[] = [
 
@@ -68,8 +67,6 @@ var ItensRemovidos as IItemStack[] = [
 <actuallyadditions:block_furnace_double>,
 <actuallyadditions:block_grinder_double>,
 <actuallyadditions:block_grinder>,
-<actuallyadditions:block_giant_chest_medium>,
-<actuallyadditions:block_giant_chest_large>,
 <actuallyadditions:item_crate_keeper>,
 <actuallyadditions:item_chest_to_crate_upgrade>,
 <actuallyadditions:item_small_to_medium_crate_upgrade>,

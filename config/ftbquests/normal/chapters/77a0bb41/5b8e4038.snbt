@@ -1,0 +1,31 @@
+{
+	title: "Cutting...",
+	x: 5.9d,
+	y: -2.2d,
+	shape: "square",
+	description: "Time to Cutt down some Trees!",
+	text: [
+		"With a Cutting Machine, besides improving your output of wood, you'll be able to cut down many other materials."
+	],
+	dependencies: [
+		"934f786b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3077364",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 220"
+		}]
+	}],
+	rewards: [{
+		uid: "59395c63",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	},
+	{
+		uid: "1f666b04",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

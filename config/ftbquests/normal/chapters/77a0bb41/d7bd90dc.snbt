@@ -1,0 +1,31 @@
+{
+	title: "Sterilize...",
+	x: 5.9d,
+	y: 0.6d,
+	shape: "square",
+	description: "Gimme Gemstones!",
+	text: [
+		"Autoclaves will be used specially to Sterilize Dusts in order to make Gems, but they can be usefull with other Materials too."
+	],
+	dependencies: [
+		"934f786b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02bd1db2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 110"
+		}]
+	}],
+	rewards: [{
+		uid: "6a5ab0ba",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	},
+	{
+		uid: "e9d1a60c",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

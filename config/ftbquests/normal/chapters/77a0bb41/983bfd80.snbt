@@ -1,0 +1,23 @@
+{
+	title: "Alloying...",
+	x: 2.4d,
+	y: -2.1d,
+	shape: "square",
+	description: "Ez Red Alloy?",
+	text: [
+		"With an Alloy Smelter you'll be able to Alloy together Metals and Even some other Materials.",
+		"",
+		"Also, with it you'll be able to use Molds to Casts some Components."
+	],
+	dependencies: [
+		"b6aae7e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3565d79e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 70"
+		}]
+	}]
+}

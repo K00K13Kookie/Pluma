@@ -1,0 +1,101 @@
+{
+	title: "Usefull Tools",
+	x: 7.7d,
+	y: -0.8d,
+	shape: "square",
+	description: "Usefull to Control Machines and Interact with Covers!",
+	text: [
+		"Wrench = Rotate Blocks/Machines and Select where the Output side will be at.",
+		"",
+		"Screwdriver = Used to Configure all Covers, such as Pumps, Conveyors and Arms.",
+		"",
+		"Crowbar = Placed a Pump in the Wrong side? Crowbars can remove them without breaking the Machine/Block.",
+		"",
+		"Soft Hammer = Used to Shut off a Machine Completly."
+	],
+	dependencies: [
+		"934f786b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0cf51a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a910bffa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWrench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWrench"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0beb5aa5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolCrowbar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolCrowbar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d265b4e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSoftHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSoftHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b59d538",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Macerating...",
+	x: 4.2d,
+	y: 0.6d,
+	shape: "square",
+	description: "Time to get Dusty!",
+	text: [
+		"With a Macerator you'll be able to 2x Ores and actually produce some dusts out of some resources and materials."
+	],
+	dependencies: [
+		"40dac07d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5d1b209",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 60"
+		}]
+	}],
+	rewards: [{
+		uid: "343dd9d2",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "d991820b",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	}]
+}
