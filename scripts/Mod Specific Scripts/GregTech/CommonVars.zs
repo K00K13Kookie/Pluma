@@ -51,3 +51,4 @@ global solidifier       as RecipeMap = RecipeMap.getByName("fluid_solidifier");
 global thermal_sep      as RecipeMap = RecipeMap.getByName("thermal_centrifuge");
 global tower            as RecipeMap = RecipeMap.getByName("distillation_tower");
 global wiremill         as RecipeMap = RecipeMap.getByName("wiremill");
+global MetalBender      as RecipeMap = RecipeMap.getByName("metal_bender");

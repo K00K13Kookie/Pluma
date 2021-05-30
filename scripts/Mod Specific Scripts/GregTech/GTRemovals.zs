@@ -57,6 +57,7 @@ var toRemove = [
 , <gregtech:meta_item_2:32012>
 , <gregtech:meta_item_1:10829>
 , <modularmachinery:itemmodularium>
+, <gregtech:metal_casing:1>
 
 //Flint Tools
 , <gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})

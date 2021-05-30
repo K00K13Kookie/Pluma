@@ -1,0 +1,38 @@
+{
+	title: "So Tired... Must Sleep...",
+	x: 8.0d,
+	y: -8.5d,
+	shape: "square",
+	description: "A Decent way to take a Nap",
+	text: [
+		"With your brand new Tailor's Workshop, lets make a Bed! finally you can skip the Night!"
+	],
+	dependencies: [
+		"1e5f03f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d46f8152",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bed"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bcd66426",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

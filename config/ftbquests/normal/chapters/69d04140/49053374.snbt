@@ -1,0 +1,43 @@
+{
+	title: "Early game Automations",
+	icon: "pyrotech:mechanical_hopper",
+	x: -0.5d,
+	y: -6.0d,
+	description: "A Mechanical Hopper!",
+	text: [
+		"Normal Hoppers are kinda Expensive on the Early game, by why not make an Mechanical Hopper? it can be made easily with Masonry Bricks and some Wood",
+		"",
+		"- Also keep in mind the the Hopper works by using a cog attached to its side, the transfer rate and velocity is based on the Cog. but a flint one will do the job."
+	],
+	dependencies: [
+		"87623e84"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "82eac56e",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	},
+	{
+		uid: "7d37155a",
+		type: "item",
+		items: [{
+			item: "pyrotech:cog_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b12987e",
+		type: "item",
+		item: "pyrotech:mechanical_hopper"
+	},
+	{
+		uid: "74e0c9b9",
+		type: "item",
+		item: "pyrotech:cog_flint"
+	}]
+}

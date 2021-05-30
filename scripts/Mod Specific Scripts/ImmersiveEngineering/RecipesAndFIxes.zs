@@ -9,6 +9,9 @@ recipes.replaceAllOccurences(<gregtech:meta_item_1:8357>, <ore:fuelCoke>);
 recipes.replaceAllOccurences(<thermalfoundation:material:802>, <ore:fuelCoke>);
 recipes.replaceAllOccurences(<immersiveengineering:material:6>, <ore:fuelCoke>);
 
+recipes.remove(<immersiveengineering:material:17>);
+recipes.addShapeless("CokeDustRecipe", <immersiveengineering:material:17>, [<ore:fuelCoke>, <gregtech:meta_tool:12>]);
+
 // Adding Immersive Tools to Artisan's OreDicts
 
 <ore:artisansCutters>.add(<immersiveengineering:tool:1>);

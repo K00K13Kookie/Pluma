@@ -64,6 +64,8 @@ var ItensRemovidos as IItemStack[] = [
 <forestry:farm_nether:1>,
 
 //Actually Additions
+<actuallyadditions:block_giant_chest_medium>,
+<actuallyadditions:block_giant_chest_large>,
 <actuallyadditions:block_furnace_double>,
 <actuallyadditions:block_grinder_double>,
 <actuallyadditions:block_grinder>,

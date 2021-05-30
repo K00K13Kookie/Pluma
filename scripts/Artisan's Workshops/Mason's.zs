@@ -72,7 +72,7 @@ RecipeBuilder.get("mason")
     [<ore:plateBronze>, <pyrotech:material:5>, <ore:plateBronze>],
     [<pyrotech:material:5>, <ore:dustFireclay>, <pyrotech:material:5>],
     [<ore:plateBronze>, <pyrotech:material:5>, <ore:plateBronze>]])
-  .setFluid(<liquid:liquid_clay> * 4000)
+  .setFluid(<liquid:liquid_clay> * 1000)
   .addTool(<ore:artisansFile>, 1)
   .addTool(<ore:artisansTSquare>, 1)
   .addTool(<ore:artisansBurner>, 1)

@@ -27,7 +27,7 @@
 	{
 		uid: "df13ccb2",
 		type: "gamestage",
-		auto: "no_toast",
+		auto: "invisible",
 		stage: "EngineersGates"
 	}]
 }

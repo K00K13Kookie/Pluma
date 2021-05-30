@@ -13,13 +13,18 @@
 		uid: "13d74952",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSaw",
+					id: "ore"
 				}
 			},
-			Damage: 5s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSaw"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -27,13 +32,18 @@
 		uid: "d7633edf",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolMortar",
+					id: "ore"
 				}
 			},
-			Damage: 12s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolMortar"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -41,13 +51,18 @@
 		uid: "cf2d6796",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
 				}
 			},
-			Damage: 6s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -55,13 +70,18 @@
 		uid: "0782976f",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
 				}
 			},
-			Damage: 11s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -69,13 +89,18 @@
 		uid: "8fbed753",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWireCutter",
+					id: "ore"
 				}
 			},
-			Damage: 13s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -83,13 +108,18 @@
 		uid: "d5391a81",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
 				}
 			},
-			Damage: 9s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	}],

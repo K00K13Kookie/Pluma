@@ -38,7 +38,7 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<ore:twine>, <ore:twine>],
     [<ore:twine>, <ore:twine>]])
-  .addTool(<artisanworktables:artisans_needle_flint>, 8)
+  .addTool(<ore:artisansNeedle>, 8)
   .addTool(<ore:artisansShears>, 4)
   .addOutput(<minecraft:wool>)
   .create();

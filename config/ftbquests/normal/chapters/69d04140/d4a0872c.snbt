@@ -23,7 +23,7 @@
 	rewards: [{
 		uid: "0c96cf75",
 		type: "gamestage",
-		auto: "no_toast",
+		auto: "invisible",
 		stage: "EasierCraftingTable"
 	},
 	{

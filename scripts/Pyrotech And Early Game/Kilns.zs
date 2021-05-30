@@ -40,7 +40,7 @@ BrickKiln.removeRecipes(<pyrotech:material:15>);
 //Recipe to Convert Straw into Ashes
 PitKiln.addRecipe(
   "DirectAshRecipe",
-  <gregtech:meta_item_1:2089> * 2,
+  <gregtech:meta_item_1:2089>,
   <pyrotech:material:2>,
   10000,
   true

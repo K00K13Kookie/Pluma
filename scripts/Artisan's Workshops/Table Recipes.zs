@@ -45,7 +45,7 @@ RecipeBuilder.get("basic")
 //Blacksmith Workshop
 RecipeBuilder.get("basic")
   .setShaped([
-    [<ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>, <ore:slabSheetmetalCopper>],
+    [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
     [<ore:plateHOPGraphite>, <ore:blockHOPGraphite>, <ore:plateHOPGraphite>],
     [<ore:plankTreatedWood>, <pyrotech:refractory_brick_block>, <ore:plankTreatedWood>]])
   .setFluid(<liquid:creosote> * 5000)
@@ -58,7 +58,7 @@ RecipeBuilder.get("basic")
 //Engineer's Workshop
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:slabSheetmetalIron>, <ore:slabSheetmetalConstantan>, <ore:slabSheetmetalIron>],
+    [<ore:plateIron>, <ore:plateConstantan>, <ore:plateIron>],
     [<ore:plateInvar>, <ore:blockBronze>, <ore:plateInvar>],
     [<ore:plankTreatedWood>, <pyrotech:refractory_brick_block>, <ore:plankTreatedWood>]])
   .setFluid(<liquid:creosote> * 4000)

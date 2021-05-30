@@ -5,8 +5,6 @@ var StorageGates as IItemStack[] = [
 
 <immersiveengineering:wooden_device0>,
 <immersiveengineering:wooden_device0:5>,
-<minecraft:chest>,
-<minecraft:trapped_chest>,
 <projectred-exploration:backpack:15>,
 <projectred-exploration:backpack:14>,
 <projectred-exploration:backpack:13>,

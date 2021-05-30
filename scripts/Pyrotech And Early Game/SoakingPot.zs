@@ -27,11 +27,11 @@ mods.pyrotech.SoakingPot.addRecipe(
 //HOP Graphite with Graphite Ingot
 mods.pyrotech.SoakingPot.addRecipe(
   "HOPgraphitewithGraphite",     
-  <immersiveengineering:material:19>,
+  <immersiveengineering:material:18>,
   <liquid:creosote> * 500,
-  <ore:dustCoke> * 8,
+  <ore:dustCoke>,
   false,
-  3200
+  6200
 );
 
 #### Treated, Durable and Enhanced Stuff from Pyrotech ###

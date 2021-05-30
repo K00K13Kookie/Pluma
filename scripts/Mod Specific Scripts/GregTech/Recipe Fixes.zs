@@ -11,6 +11,9 @@ import mods.nuclearcraft.ingot_former;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Clay Dust with a Mortar
+recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:ingotClay>, <gregtech:meta_tool:12>]);
+
 ### HoneComb Fixes ###
 
 <ore:ingotHoneycomb>.add(<careerbees:ingredients:10>);

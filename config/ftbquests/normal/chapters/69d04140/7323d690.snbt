@@ -24,5 +24,11 @@
 		uid: "96d17f5b",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "6d033f69",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierBricks"
 	}]
 }

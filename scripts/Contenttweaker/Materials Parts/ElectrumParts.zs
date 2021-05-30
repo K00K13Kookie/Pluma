@@ -10,5 +10,5 @@ var ElectrumColor = Color.fromHex("F0E767") as Color;
 
 var Electrum = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(ElectrumColor).build();
 
-Electrum.registerParts(["Bolt", "dense_plate", "Casing"] as string[]);
+Electrum.registerParts(["dense_plate", "Casing"] as string[]);
 

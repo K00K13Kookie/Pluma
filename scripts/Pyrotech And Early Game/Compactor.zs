@@ -52,6 +52,15 @@ mods.pyrotech.CompactingBin.addRecipe(
   true // true if the recipe should be inherited
 );
 
+//CompressedFireClay
+mods.pyrotech.CompactingBin.addRecipe(
+  "CompressedFireClay",                // unique recipe name
+  <gregtech:meta_item_2:32014>,          // recipe output
+  <ore:dustFireclay>,          // recipe input
+  9,                 // number of input items required
+  true // true if the recipe should be inherited
+);
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																								 					                                                                   //
 //			1X Compressed Blocks                                                                                                                 //
