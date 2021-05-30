@@ -21,17 +21,9 @@
 		}]
 	},
 	{
-		uid: "0360993e",
-		type: "item",
-		items: [{
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "canolaoil",
-				Amount: 1000
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		uid: "bfa7a413",
+		type: "fluid",
+		fluid: "canolaoil"
 	}],
 	rewards: [{
 		uid: "4edfd0c6",

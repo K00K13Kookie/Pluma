@@ -126,7 +126,6 @@ RollingMachine.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [
     [<ore:stickAluminium>, null, <ore:stickAluminium>]
     ], 50);
 
-
 # Immersive Sheetmetals 
 
 //Copper

@@ -20,9 +20,9 @@ RecipeBuilder.get("engineer")
 recipes.remove(<contenttweaker:bronzemechanicalcomponent>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
-    [<ore:plateBronze>, <ore:gearBronze>, <ore:plateBronze>],
-    [<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>]])
+    [<ore:boltBronze>, <ore:casingBronze>, <ore:boltBronze>],
+    [<ore:casingBronze>, <ore:gearBronze>, <ore:casingBronze>],
+    [<ore:boltBronze>, <ore:casingBronze>, <ore:boltBronze>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansSpanner>, 5)
   .addTool(<ore:artisansSolderer>, 3)
