@@ -35,7 +35,8 @@
 				}
 			}
 		}],
-		count: 4L
+		count: 4L,
+		consume_items: true
 	},
 	{
 		uid: "31d6b01a",
@@ -54,7 +55,8 @@
 				}
 			}
 		}],
-		count: 12L
+		count: 12L,
+		consume_items: true
 	},
 	{
 		uid: "4adea0eb",
@@ -72,7 +74,8 @@
 					Name: "Any gearBismuthBronze"
 				}
 			}
-		}]
+		}],
+		consume_items: true
 	},
 	{
 		uid: "d1b2d098",

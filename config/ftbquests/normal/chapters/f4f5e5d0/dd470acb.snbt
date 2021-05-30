@@ -24,7 +24,8 @@
 		items: [{
 			item: "thermalfoundation:material 1 512"
 		}],
-		count: 16L
+		count: 16L,
+		consume_items: true
 	},
 	{
 		uid: "44b2409e",
@@ -35,14 +36,27 @@
 				conveyorType: "immersiveengineering:conveyor"
 			}
 		}],
-		count: 32L
+		count: 32L,
+		consume_items: true
 	},
 	{
 		uid: "26feca40",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:material 1 27"
-		}]
+			ForgeCaps: {
+				Parent: {
+					data: "circuitPrimitive",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any circuitPrimitive"
+				}
+			}
+		}],
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "18b0eff4",

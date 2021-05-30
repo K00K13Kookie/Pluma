@@ -58,7 +58,7 @@ RecipeBuilder.get("carpenter")
     [<ore:boltBronze>, <ore:stickTreatedWood>, <ore:boltBronze>],
     [<ore:stickTreatedWood>, <ore:plateTreated>, <ore:stickTreatedWood>],
     [<ore:plateTreated>, <ore:stickTreatedWood>, <ore:plateTreated>]])
-  .setFluid(<liquid:creosote> * 1000)
+  .setFluid(<liquid:creosote> * 250)
   .addTool(<ore:artisansHandsaw>, 5)
   .addTool(<ore:artisansTSquare>, 3)
   .addTool(<ore:artisansSpanner>, 2)
@@ -72,7 +72,7 @@ RecipeBuilder.get("carpenter")
     [<ore:plateTreated>, <ore:plateTreated>, <ore:boltBronze>],
     [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:plateTreated>],
     [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:boltBronze>]])
-  .setFluid(<liquid:creosote> * 1000)
+  .setFluid(<liquid:creosote> * 125)
   .addTool(<ore:artisansHandsaw>, 5)
   .addTool(<ore:artisansTSquare>, 3)
   .addTool(<ore:artisansSpanner>, 2)

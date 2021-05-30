@@ -21,7 +21,8 @@
 		items: [{
 			item: "integrateddynamics:crystalized_menril_block"
 		}],
-		count: 4L
+		count: 4L,
+		consume_items: true
 	},
 	{
 		uid: "b121636d",
@@ -40,7 +41,8 @@
 				}
 			}
 		}],
-		count: 16L
+		count: 16L,
+		consume_items: true
 	},
 	{
 		uid: "4ea22594",
@@ -48,7 +50,8 @@
 		items: [{
 			item: "contenttweaker:menrilsheet"
 		}],
-		count: 32L
+		count: 32L,
+		consume_items: true
 	},
 	{
 		uid: "6a6044c4",
@@ -67,7 +70,8 @@
 				}
 			}
 		}],
-		count: 12L
+		count: 12L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "b4294ddb",

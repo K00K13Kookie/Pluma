@@ -24,7 +24,8 @@
 		items: [{
 			item: "actuallyadditions:block_misc 1 4"
 		}],
-		count: 10L
+		count: 10L,
+		consume_items: true
 	},
 	{
 		uid: "ea7391c6",
@@ -43,7 +44,8 @@
 				}
 			}
 		}],
-		count: 16L
+		count: 16L,
+		consume_items: true
 	},
 	{
 		uid: "39eb9c21",
@@ -51,7 +53,8 @@
 		items: [{
 			item: "immersiveengineering:material 1 8"
 		}],
-		count: 4L
+		count: 4L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "28d81dfa",

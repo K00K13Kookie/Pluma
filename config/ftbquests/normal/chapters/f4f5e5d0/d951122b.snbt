@@ -22,6 +22,7 @@
 		items: [{
 			item: "contenttweaker:redcrystal"
 		}],
-		count: 4L
+		count: 4L,
+		consume_items: true
 	}]
 }

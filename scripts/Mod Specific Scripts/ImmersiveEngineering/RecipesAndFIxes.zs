@@ -55,21 +55,21 @@ recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateBismut
 
 //Copper Wire
 recipes.remove(<immersiveengineering:material:20>);
-recipes.addShapeless("CopperWireImmersive", <immersiveengineering:material:20>, [<ore:plateCopper>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("CopperWireImmersive", <immersiveengineering:material:20>, [<ore:plateCopper>, <immersiveengineering:tool:1>]);
 
 //Electrum Wire
 recipes.remove(<immersiveengineering:material:21>);
-recipes.addShapeless("ElectrumWireImmersive", <immersiveengineering:material:21>, [<ore:plateElectrum>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("ElectrumWireImmersive", <immersiveengineering:material:21>, [<ore:plateElectrum>, <immersiveengineering:tool:1>]);
 
 //Aluminum Wire
 recipes.remove(<immersiveengineering:material:22>);
-recipes.addShapeless("AluminumWireImmersive", <immersiveengineering:material:22>, [<ore:plateAluminium>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("AluminumWireImmersive", <immersiveengineering:material:22>, [<ore:plateAluminium>, <immersiveengineering:tool:1>]);
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotAluminium>, <immersiveengineering:mold:4>, 80);
 
 //Steel Wire
 recipes.remove(<immersiveengineering:material:23>);
-recipes.addShapeless("SteelWireImmersive", <immersiveengineering:material:23>, [<ore:plateSteel>, <ore:artisansCutters>.reuse().transformDamage(4)]);
+recipes.addShapeless("SteelWireImmersive", <immersiveengineering:material:23>, [<ore:plateSteel>, <immersiveengineering:tool:1>]);
 
 # Engineer's Workbench ===================================
 

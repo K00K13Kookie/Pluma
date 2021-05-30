@@ -22,7 +22,8 @@
 		items: [{
 			item: "contenttweaker:redcrystal"
 		}],
-		count: 8L
+		count: 8L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "13038ca0",

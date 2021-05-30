@@ -26,21 +26,35 @@
 		items: [{
 			item: "thermalfoundation:material 1 513"
 		}],
-		count: 10L
+		count: 10L,
+		consume_items: true
 	},
 	{
 		uid: "8b0c9ebf",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32487"
-		}]
+			ForgeCaps: {
+				Parent: {
+					data: "circuitPrimitive",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any circuitPrimitive"
+				}
+			}
+		}],
+		consume_items: true
 	},
 	{
 		uid: "5582ea34",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:metal_device0 1 2"
-		}]
+		}],
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "079e9041",

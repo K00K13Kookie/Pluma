@@ -33,8 +33,7 @@
 				}
 			}
 		}],
-		count: 30L,
-		consume_items: true
+		count: 30L
 	},
 	{
 		uid: "9be2aa7e",

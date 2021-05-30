@@ -35,7 +35,8 @@
 				}
 			}
 		}],
-		count: 15L
+		count: 15L,
+		consume_items: true
 	},
 	{
 		uid: "c17436d4",
@@ -54,7 +55,8 @@
 				}
 			}
 		}],
-		count: 10L
+		count: 10L,
+		consume_items: true
 	},
 	{
 		uid: "d6cee5e4",
@@ -73,7 +75,8 @@
 				}
 			}
 		}],
-		count: 16L
+		count: 16L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "63f848de",

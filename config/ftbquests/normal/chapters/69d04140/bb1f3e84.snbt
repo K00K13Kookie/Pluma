@@ -4,7 +4,11 @@
 	y: -3.514455782312929d,
 	shape: "gear",
 	text: [
-		"Now that you have Refractory Bricks, maybe making these Upgraded Machines will help you along your Journey!"
+		"Now that you have Refractory Bricks, maybe making these Upgraded Machines will help you along your Journey!",
+		"",
+		"- Refractory Machines will self extinguish themselves upon crafting completion.",
+		"",
+		"- Fuel and Item Inputs are REALLY buffed compared to the Normal Stone Versions. (32x item input and 64x Fuel Input)."
 	],
 	dependencies: [
 		"e116ff07"
