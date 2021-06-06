@@ -1,5 +1,5 @@
 {
-	title: "Fluid Handling I",
+	title: "Fluid Handling II",
 	icon: "contenttweaker:lrtokenii",
 	x: -7.0d,
 	y: -6.5d,
@@ -24,5 +24,11 @@
 		}],
 		count: 4L,
 		consume_items: true
+	}],
+	rewards: [{
+		uid: "a30c9988",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "FluidTransportationII"
 	}]
 }

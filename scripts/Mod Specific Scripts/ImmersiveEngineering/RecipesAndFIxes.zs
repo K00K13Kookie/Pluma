@@ -49,7 +49,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 
 // Fluid Pipe
 recipes.remove(<immersiveengineering:metal_device1:6>);
-recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateBismuthBronze>, <ore:plateBismuthBronze>, <ore:plateBismuthBronze>], [<ore:artisansFile>, null, <ore:artisansHammer>],[<ore:plateBismuthBronze>, <ore:plateBismuthBronze>, <ore:plateBismuthBronze>]]);
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<gregtech:meta_tool:9>, null, <gregtech:meta_tool:6>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 # Immersive Wires using different Cutter ===================================
 

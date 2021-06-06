@@ -4,6 +4,11 @@
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+## Fresh Water being Infinite Fix ##
+
+recipes.remove(<harvestcraft:freshwateritem>);
+recipes.addShapeless("FreshWaterRecipe", <harvestcraft:freshwateritem> * 8, [<minecraft:water_bucket>]);
+
 ### Flour Fix ###
 
 recipes.remove(<harvestcraft:flouritem>);

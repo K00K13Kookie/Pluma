@@ -47,7 +47,7 @@ RollingMachine.addShaped(<railcraft:charge:10>, [
 RollingMachine.remove(<railcraft:charge:4>);
 RollingMachine.addShaped(<railcraft:charge:4>, [
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0>, <ore:plateSteel>], 
-    [<immersiveengineering:metal_decoration0>, <ore:ingotAluminum>, <immersiveengineering:metal_decoration0>], 
+    [<immersiveengineering:metal_decoration0>, <ore:ingotCobalt>, <immersiveengineering:metal_decoration0>], 
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0>, <ore:plateSteel>]
     ], 80);
 
@@ -56,7 +56,7 @@ recipes.remove(<railcraft:charge:3>);
 RollingMachine.remove(<railcraft:charge:3>);
 RollingMachine.addShaped(<railcraft:charge:3>, [
     [<ore:plateIron>, <immersiveengineering:wirecoil>, <ore:plateIron>], 
-    [<immersiveengineering:wirecoil>, <ore:stickAluminum>, <immersiveengineering:wirecoil>], 
+    [<immersiveengineering:wirecoil>, <ore:stickConstantan>, <immersiveengineering:wirecoil>], 
     [<ore:plateIron>, <immersiveengineering:wirecoil>, <ore:plateIron>]
     ], 60);
 

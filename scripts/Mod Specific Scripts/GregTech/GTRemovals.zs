@@ -38,8 +38,6 @@ var toRemove = [
 , <gregtech:machine:811>
 , <gregtech:machine:6>
 , <gregtech:machine:5>
-, <gregtech:machine:2>
-, <gregtech:machine:1>
 , <gregtech:machine:3>
 , <gregtech:machine:826>
 , <gregtech:machine:825>

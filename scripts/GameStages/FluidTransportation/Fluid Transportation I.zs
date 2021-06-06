@@ -2,7 +2,6 @@ import crafttweaker.item.IItemStack;
 # Unlocks Fluid Tanks and Fluid Transportation I Related
 
 var FluidGatesI as IItemStack[] = [
-    <immersiveengineering:metal_device1:6>,
     <immersiveengineering:wooden_device0:7>,
     <immersiveengineering:metal_device0:5>,
     <thermalexpansion:tank>,

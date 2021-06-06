@@ -30,9 +30,6 @@ tile.contenttweaker.rhyoliteSmooth.name=Smooth Rhyolite
 
 tile.contenttweaker.shaleSmooth.name=Smooth Shale
 
-
-
-
 tile.contenttweaker.AndesiteRoad.name=Andesite Road
 
 tile.contenttweaker.BasaltRoad.name=Basalt Road
@@ -64,6 +61,9 @@ tile.contenttweaker.QuartziteRoad.name=Quartzite Road
 tile.contenttweaker.RhyoliteRoad.name=Rhyolite Road
 
 tile.contenttweaker.ShaleRoad.name=Shale Road
+
+
+tile.contenttweaker.uninspectedmineral.name=Uninspected Mineral
 
 
 fluid.hidratedlubricant=Hidrated Lubricant

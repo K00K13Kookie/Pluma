@@ -847,3 +847,31 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansBurner>, 1)
   .addOutput(<gregtech:machine:18>)
   .create();
+
+//Steam Boiler
+recipes.remove(<gregtech:machine:1>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+    [<ore:plateBronze>, null, <ore:plateBronze>],
+    [<ore:blockBrick>, <pyrotech:stone_kiln>, <ore:blockBrick>]])
+  .setFluid(<liquid:canolaoil> * 1000)
+  .addTool(<ore:artisansSolderer>, 3)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gregtech:machine:1>)
+  .create();
+
+//High Pressure Steam Boiler
+recipes.remove(<gregtech:machine:2>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:plateSteel>, null, <ore:plateSteel>],
+    [<ore:blockBrick>, <pyrotech:brick_kiln>, <ore:blockBrick>]])
+  .setFluid(<liquid:canolaoil> * 2000)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<gregtech:machine:2>)
+  .create();

@@ -152,4 +152,4 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<gregtech:meta_item_1:10229>, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10229>, <thermalfoundation:material:163>, null, 200, 512, [<contenttweaker:obscurecompound>], "Alloying");
 
 // Bismuth Bronze Ingot Recipe
-mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10230>, <gregtech:meta_item_1:10008>, null, 150, 612, [<railcraft:ingot:8>, <thermalfoundation:material:128>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10230>, <gregtech:meta_item_1:10008>, null, 150, 612, [<gregtech:meta_item_1:10079>, <thermalfoundation:material:128>], "Alloying");

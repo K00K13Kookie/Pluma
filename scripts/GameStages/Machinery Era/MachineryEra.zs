@@ -15,6 +15,7 @@ var MachineryGates as IItemStack[] = [
 <trashcans:energy_trash_can>,
 <trashcans:ultimate_trash_can>,
 
+<immersiveengineering:metal_device1:6>,
 <immersiveengineering:metal_decoration1_slab:7>,
 <immersiveengineering:steel_scaffolding_stairs0>,
 <immersiveengineering:steel_scaffolding_stairs1>,
