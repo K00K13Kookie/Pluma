@@ -9,8 +9,7 @@
 		"- Use your Flux Transformer to convert RF into charge! I recommend that you place your Rock Crusher close to the Converter, since the Power loss in the Wires from Railcraft is Huge!"
 	],
 	dependencies: [
-		"999c1b7c",
-		"d19ef77a"
+		"999c1b7c"
 	],
 	hide: true,
 	size: 2.0d,

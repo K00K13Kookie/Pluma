@@ -62,8 +62,8 @@ RollingMachine.addShaped(<railcraft:charge:3> * 4, [
 
 //Small Spool
 recipes.remove(<railcraft:charge:2>);
-RollingMachine.remove(<railcraft:charge:2> * 6);
-RollingMachine.addShaped(<railcraft:charge:2>, [
+RollingMachine.remove(<railcraft:charge:2>);
+RollingMachine.addShaped(<railcraft:charge:2> * 6, [
     [<ore:plateTin>, <immersiveengineering:wirecoil>, <ore:plateTin>], 
     [<immersiveengineering:wirecoil>, <ore:stickCopper>, <immersiveengineering:wirecoil>], 
     [<ore:plateTin>, <immersiveengineering:wirecoil>, <ore:plateTin>]

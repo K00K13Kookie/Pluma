@@ -12,6 +12,7 @@
 		"3b24df78"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "ae4eb419",
 		type: "item",

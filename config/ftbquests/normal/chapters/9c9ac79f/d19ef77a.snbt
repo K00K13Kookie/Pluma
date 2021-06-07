@@ -13,6 +13,7 @@
 		"0940f858"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "36213e7d",
 		type: "item",

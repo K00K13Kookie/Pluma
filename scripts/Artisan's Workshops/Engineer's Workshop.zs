@@ -270,7 +270,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansSpanner>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addOutput(<railcraft:rock_crusher> * 4)
+  .addOutput(<railcraft:rock_crusher> * 6)
   .create();
 
 //Kinetic Dynamo  
