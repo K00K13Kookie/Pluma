@@ -104,7 +104,7 @@ RollingMachine.addShaped(<immersiveengineering:metal_decoration0:2>, [
 
 //Shunting Wire
 RollingMachine.remove(<railcraft:wire>);
-RollingMachine.addShaped(<railcraft:wire>, [
+RollingMachine.addShaped(<railcraft:wire> * 8, [
     [<ore:plateLead>, <ore:paper>, <ore:plateLead>], 
     [<ore:paper>, <railcraft:charge:4>, <ore:paper>], 
     [<ore:plateLead>, <ore:paper>, <ore:plateLead>]
