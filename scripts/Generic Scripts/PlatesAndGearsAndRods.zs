@@ -29,6 +29,7 @@ recipes.remove(i);
 //Iron, Steel and Aluminium Rods
 recipes.addShapeless("IronRod", <immersiveengineering:material:1>, [<ore:ingotIron>, <gregtech:meta_tool:9>]);
 recipes.addShapeless("SteelRod", <immersiveengineering:material:2>, [<ore:ingotSteel>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("ConstantanRod", <moreplates:constantan_stick>, [<ore:ingotConstantan>, <gregtech:meta_tool:9>]);
 
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:3>);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:14001> * 2, <ore:ingotAluminium>, <immersiveengineering:mold:2>, 80, 1);
