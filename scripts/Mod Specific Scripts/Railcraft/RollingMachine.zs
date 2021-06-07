@@ -45,7 +45,7 @@ RollingMachine.addShaped(<railcraft:charge:10>, [
 
 //Large Spool
 RollingMachine.remove(<railcraft:charge:4>);
-RollingMachine.addShaped(<railcraft:charge:4>, [
+RollingMachine.addShaped(<railcraft:charge:4> * 2, [
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0>, <ore:plateSteel>], 
     [<immersiveengineering:metal_decoration0>, <ore:ingotCobalt>, <immersiveengineering:metal_decoration0>], 
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0>, <ore:plateSteel>]
@@ -54,7 +54,7 @@ RollingMachine.addShaped(<railcraft:charge:4>, [
 //Medium Spool
 recipes.remove(<railcraft:charge:3>);
 RollingMachine.remove(<railcraft:charge:3>);
-RollingMachine.addShaped(<railcraft:charge:3>, [
+RollingMachine.addShaped(<railcraft:charge:3> * 4, [
     [<ore:plateIron>, <immersiveengineering:wirecoil>, <ore:plateIron>], 
     [<immersiveengineering:wirecoil>, <ore:stickConstantan>, <immersiveengineering:wirecoil>], 
     [<ore:plateIron>, <immersiveengineering:wirecoil>, <ore:plateIron>]
@@ -62,7 +62,7 @@ RollingMachine.addShaped(<railcraft:charge:3>, [
 
 //Small Spool
 recipes.remove(<railcraft:charge:2>);
-RollingMachine.remove(<railcraft:charge:2>);
+RollingMachine.remove(<railcraft:charge:2> * 6);
 RollingMachine.addShaped(<railcraft:charge:2>, [
     [<ore:plateTin>, <immersiveengineering:wirecoil>, <ore:plateTin>], 
     [<immersiveengineering:wirecoil>, <ore:stickCopper>, <immersiveengineering:wirecoil>], 
@@ -77,6 +77,22 @@ RollingMachine.addShaped(<immersiveengineering:wirecoil> * 4, [
     [<ore:wireCopper>, <ore:stickTreatedWood>, <ore:wireCopper>], 
                 [null, <ore:wireCopper>, null]
     ], 40);
+
+//MV Wire
+recipes.remove(<immersiveengineering:wirecoil:1>);
+RollingMachine.addShaped(<immersiveengineering:wirecoil:1> * 4, [
+                [null, <ore:wireElectrum>, null], 
+    [<ore:wireElectrum>, <ore:stickTreatedWood>, <ore:wireElectrum>], 
+                [null, <ore:wireElectrum>, null]
+    ], 50);  
+
+//HV Wire
+recipes.remove(<immersiveengineering:wirecoil:2>);
+RollingMachine.addShaped(<immersiveengineering:wirecoil:2> * 4, [
+                [null, <ore:wireAluminum>, null], 
+    [<ore:wireSteel>, <ore:stickTreatedWood>, <ore:wireSteel>], 
+                [null, <ore:wireAluminum>, null]
+    ], 60);  
 
 //Copper Coil Block
 recipes.remove(<immersiveengineering:metal_decoration0>);

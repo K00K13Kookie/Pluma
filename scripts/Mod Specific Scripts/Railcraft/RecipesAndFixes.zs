@@ -57,7 +57,7 @@ recipes.addShaped(<railcraft:charge:1> * 1, [[<ore:plateBrass>, <ore:plateBrass>
 
 // Flux Transformer
 recipes.remove(<railcraft:flux_transformer:0>);
-recipes.addShaped(<railcraft:flux_transformer:0> * 2, [[<railcraft:charge:3>, <railcraft:charge:6>, <railcraft:charge:3>], [<forestry:thermionic_tubes:4>, <immersiveengineering:metal_decoration0:1>, <forestry:thermionic_tubes:4>],[<railcraft:charge:3>, <railcraft:charge:1>, <railcraft:charge:3>]]);
+recipes.addShaped(<railcraft:flux_transformer:0> * 4, [[<railcraft:charge:3>, <railcraft:charge:6>, <railcraft:charge:3>], [<forestry:thermionic_tubes:4>, <immersiveengineering:metal_decoration0:1>, <forestry:thermionic_tubes:4>],[<railcraft:charge:3>, <railcraft:charge:1>, <railcraft:charge:3>]]);
 
 # OreDicts =================================
 

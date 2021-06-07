@@ -180,7 +180,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:3> * 2, [[<ore:blockSh
 
 // Light Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:4>);
-recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<immersiveengineering:sheetmetal:9>, <immersiveengineering:material:8>, <immersiveengineering:sheetmetal:9>], [<ore:plateBlackBronze>, <railcraft:gear:0>, <ore:plateBlackBronze>],[<immersiveengineering:sheetmetal:9>, <immersiveengineering:material:8>, <immersiveengineering:sheetmetal:9>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<immersiveengineering:sheetmetal:9>, <immersiveengineering:material:8>, <immersiveengineering:sheetmetal:9>], [<ore:plateBlackBronze>, <ore:gearBrass>, <ore:plateBlackBronze>],[<immersiveengineering:sheetmetal:9>, <immersiveengineering:material:8>, <immersiveengineering:sheetmetal:9>]]);
 
 // Heavy Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
