@@ -53,7 +53,7 @@ furnace.addRecipe(<railcraft:glass>, <overloaded:compressed_sand>);
 
 // Charge Terminal
 recipes.remove(<railcraft:charge:1>);
-recipes.addShaped(<railcraft:charge:1> * 1, [[<railcraft:plate:11>, <railcraft:plate:11>, <railcraft:plate:11>], [<railcraft:plate:11>, null, <railcraft:plate:11>],[<thermalfoundation:material:164>, <railcraft:gear:0>, <thermalfoundation:material:164>]]);
+recipes.addShaped(<railcraft:charge:1> * 1, [[<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>], [<ore:plateBrass>, null, <ore:plateBrass>],[<ore:ingotConstantan>, <ore:gearBrass>, <ore:ingotConstantan>]]);
 
 // Flux Transformer
 recipes.remove(<railcraft:flux_transformer:0>);

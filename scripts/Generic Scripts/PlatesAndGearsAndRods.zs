@@ -120,7 +120,7 @@ recipes.addShaped(<moreplates:electrotine_alloy_gear>, [[<gregtech:meta_tool:6>,
 recipes.addShaped(<moreplates:red_alloy_gear>, [[<gregtech:meta_tool:6>, <ore:ingotRedAlloy>, <gregtech:meta_tool:11>], [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],[<gregtech:meta_tool:13>, <ore:ingotRedAlloy>, <gregtech:meta_tool:9>]]);
 
 // Brass Gear
-recipes.addShaped(<railcraft:gear>, [[<gregtech:meta_tool:6>, <ore:ingotBrass>, <gregtech:meta_tool:11>], [<ore:ingotBrass>, <railcraft:gear:3>, <ore:ingotBrass>],[<gregtech:meta_tool:13>, <ore:ingotBrass>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<gregtech:meta_item_2:26094>, [[<gregtech:meta_tool:6>, <ore:ingotBrass>, <gregtech:meta_tool:11>], [<ore:ingotBrass>, <railcraft:gear:3>, <ore:ingotBrass>],[<gregtech:meta_tool:13>, <ore:ingotBrass>, <gregtech:meta_tool:9>]]);
 
 // Iron Gear
 recipes.addShaped(<thermalfoundation:material:24>, [[<gregtech:meta_tool:6>, <ore:ingotIron>, <gregtech:meta_tool:11>], [<ore:ingotIron>, null, <ore:ingotIron>],[<gregtech:meta_tool:13>, <ore:ingotIron>, <gregtech:meta_tool:9>]]);
@@ -422,10 +422,10 @@ recipes.addShaped(<contenttweaker:magnesiumplate>, [[<gregtech:meta_tool:6>], [<
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:magnesiumplate>, <nuclearcraft:ingot:7>, <immersiveengineering:mold>, 80);
 
 // Zinc Plates =======================================================================================================================================
-recipes.addShaped(<railcraft:plate:10>, [[<gregtech:meta_tool:6>], [<railcraft:ingot:8>], [<railcraft:ingot:8>]]);
+recipes.addShaped(<gregtech:meta_item_1:12079>, [[<gregtech:meta_tool:6>], [<ore:ingotZinc>], [<ore:ingotZinc>]]);
 
 // Brass Plates =======================================================================================================================================
-recipes.addShaped(<railcraft:plate:11>, [[<gregtech:meta_tool:6>], [<railcraft:ingot:9>], [<railcraft:ingot:9>]]);
+recipes.addShaped(<gregtech:meta_item_1:12094>, [[<gregtech:meta_tool:6>], [<ore:ingotBrass>], [<ore:ingotBrass>]]);
 
 // Red Garnet Plates =======================================================================================================================================
 recipes.addShaped(<gregtech:meta_item_1:12243>, [[<gregtech:meta_tool:6>], [<gregtech:meta_item_1:8243>], [<gregtech:meta_item_1:8243>]]);
