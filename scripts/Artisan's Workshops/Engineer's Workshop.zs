@@ -58,14 +58,14 @@ RecipeBuilder.get("engineer")
 recipes.remove(<thermalfoundation:material:512>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<projectred-core:resource_item:11>, <projectred-core:resource_item:401>, <projectred-core:resource_item:11>],
+    [<projectred-core:resource_item:11>, <ore:stickSilver>, <projectred-core:resource_item:11>],
     [<projectred-core:resource_item:2>, <projectred-core:resource_item:410>, <projectred-core:resource_item:2>],
-    [<projectred-core:resource_item:12>, <projectred-core:resource_item:401>, <projectred-core:resource_item:12>]])
-  .setFluid(<liquid:creosote> * 250)
-  .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addOutput(<thermalfoundation:material:512>)
+    [<projectred-core:resource_item:11>, <ore:stickSilver>, <projectred-core:resource_item:11>]])
+  .setFluid(<liquid:redstone> * 400)
+  .addTool(<ore:artisansDriver>, 7)
+  .addTool(<ore:artisansSolderer>, 9)
+  .addTool(<ore:artisansSpanner>, 8)
+  .addOutput(<thermalfoundation:material:512> * 2)
   .create();
 
 //Conductive Plate 

@@ -11,6 +11,12 @@ import mods.nuclearcraft.ingot_former;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Biotite Dust to Gem
+furnace.addRecipe(<quark:biotite>, <gregtech:meta_item_1:2250>);
+
+//Biotite Dust with a Mortar
+recipes.addShapeless("BiotiteDustWithMortar", <gregtech:meta_item_1:2250>, [<ore:gemEnderBiotite>, <gregtech:meta_tool:12>]);
+
 //Clay Dust with a Mortar
 recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:ingotClay>, <gregtech:meta_tool:12>]);
 
