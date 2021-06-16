@@ -4,7 +4,6 @@
 	x: -4.5d,
 	y: -6.0d,
 	shape: "rsquare",
-	description: "Have you checked the \"Tool Progression\" Tab before going for this Quest?",
 	text: [
 		"The flint sword is your first proper Weapon! no more running and hoping to not get killed by a Creeper!"
 	],

@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			item: "contenttweaker:obscurecompound"
-		}],
-		count: 16L
+		}]
 	},
 	{
 		uid: "0481959c",
@@ -35,8 +34,7 @@
 					Name: "Any ingotBlackBronze"
 				}
 			}
-		}],
-		count: 16L
+		}]
 	}],
 	rewards: [{
 		uid: "3a486285",

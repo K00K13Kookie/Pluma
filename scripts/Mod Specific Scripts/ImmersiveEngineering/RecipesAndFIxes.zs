@@ -45,7 +45,7 @@ recipes.addShapeless("HOPGraphiteBlockToIngot", <immersiveengineering:material:1
 
 // Conveyor Belt
 recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
-recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[null, null, null], [<ore:plateRubber>, <ore:leather>, <ore:plateRubber>],[<ore:plateBismuthBronze>, <ore:gearRedstone>, <ore:plateBismuthBronze>]]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[null, null, null], [<ore:plateRubber>, <ore:leather>, <ore:plateRubber>],[<ore:plateSteel>, <ore:gearRedstone>, <ore:plateSteel>]]);
 
 // Fluid Pipe
 recipes.remove(<immersiveengineering:metal_device1:6>);
@@ -80,7 +80,7 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <contenttweaker:bron
 mods.immersiveengineering.Blueprint.addRecipe("components", <contenttweaker:silvermechanicalcomponent>, [<ore:plateSilver>, <ore:plateSilver>, <ore:ingotSilver>]);
 
 //Adding Redstone Servo to the Engineer's Workbench
-mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:512> * 4, [<projectred-core:resource_item:12> * 4, <ore:stickLongSilver>, <projectred-core:resource_item:2> * 2, <projectred-core:resource_item:410>]);
+mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:512> * 4, [<projectred-core:resource_item:11> * 4, <ore:stickLongSilver>, <projectred-core:resource_item:2> * 2, <projectred-core:resource_item:410>]);
 
 ########################## Metal Press Molds ########################
 

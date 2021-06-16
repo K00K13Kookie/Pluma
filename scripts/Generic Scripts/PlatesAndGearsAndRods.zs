@@ -418,8 +418,7 @@ recipes.addShaped(<contenttweaker:treated_plate>, [[<gregtech:meta_tool:6>], [<o
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:treated_plate>, <ore:plankTreatedWood>, <immersiveengineering:mold>, 80);
 
 // Magnesium Plates =======================================================================================================================================
-recipes.addShaped(<contenttweaker:magnesiumplate>, [[<gregtech:meta_tool:6>], [<nuclearcraft:ingot:7>], [<nuclearcraft:ingot:7>]]);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:magnesiumplate>, <nuclearcraft:ingot:7>, <immersiveengineering:mold>, 80);
+recipes.addShaped(<jaopca:item_platemagnesium>, [[<gregtech:meta_tool:6>], [<nuclearcraft:ingot:7>], [<nuclearcraft:ingot:7>]]);
 
 // Zinc Plates =======================================================================================================================================
 recipes.addShaped(<gregtech:meta_item_1:12079>, [[<gregtech:meta_tool:6>], [<ore:ingotZinc>], [<ore:ingotZinc>]]);

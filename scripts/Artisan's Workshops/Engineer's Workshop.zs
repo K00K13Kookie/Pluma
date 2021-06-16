@@ -249,13 +249,13 @@ RecipeBuilder.get("engineer")
 recipes.remove(<railcraft:equipment:1>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltSteel>, <projectred-core:resource_item:402>, <ore:boltSteel>],
+    [<ore:plateInvar>, <railcraft:charge:5>, <ore:plateInvar>],
     [<immersiveengineering:material:9>, <railcraft:equipment>, <immersiveengineering:material:9>],
-    [<ore:boltSteel>, <railcraft:charge:5>, <ore:boltSteel>]])
-  .setFluid(<liquid:creosote> * 1000)
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSolderer>, 4)
-  .addTool(<ore:artisansDriver>, 5)
+    [<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSolderer>, 3)
+  .addTool(<ore:artisansDriver>, 6)
   .addOutput(<railcraft:equipment:1>)
   .create();
 

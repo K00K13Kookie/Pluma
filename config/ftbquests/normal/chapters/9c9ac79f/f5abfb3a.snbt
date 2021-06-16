@@ -3,7 +3,11 @@
 	x: 0.0d,
 	y: -5.5d,
 	text: [
-		"Now that you can make Charge and move it using wires, why not to Upgrade your Manual Rolling machine to an Automatic One?"
+		"Now that you can make Charge and move it using wires, why not to Upgrade your Manual Rolling machine to an Automatic One?",
+		"",
+		"- Remember also that the Rock Crusher consumes a lot of Power, so the chances are that you don't have enough RF right now to Power a Rock crusher and a Powered Rolling machine at the same time. ",
+		"",
+		"That's why the Reward is a Simple Rolling Machine!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -21,5 +25,10 @@
 		uid: "14688cfd",
 		type: "ftbmoney:money",
 		ftb_money: 5L
+	},
+	{
+		uid: "2e61ac83",
+		type: "item",
+		item: "railcraft:equipment"
 	}]
 }

@@ -5,6 +5,7 @@ settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
+debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 minimap:true
 caveMaps:1

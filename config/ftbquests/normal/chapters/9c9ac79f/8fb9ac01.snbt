@@ -35,8 +35,7 @@
 				blueprint: "components"
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	},
 	{
 		uid: "1bd4a323",
@@ -48,8 +47,7 @@
 				blueprint: "molds"
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "90df041b",

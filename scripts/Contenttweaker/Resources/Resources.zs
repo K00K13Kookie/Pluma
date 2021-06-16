@@ -8,11 +8,6 @@ import mods.contenttweaker.MaterialSystem;
 
 print("--------------- Custom Resources Start------------------");
 
-// Magnesium ================================================================================
-
-var magnesiumPlate = VanillaFactory.createItem("magnesiumPlate");
-magnesiumPlate.register();
-
 //Mechanical Components ================================================================================
 var bronzeMechanicalComponent = VanillaFactory.createItem("bronzeMechanicalComponent");
 bronzeMechanicalComponent.register();

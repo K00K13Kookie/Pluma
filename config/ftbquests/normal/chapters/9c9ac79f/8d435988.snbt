@@ -8,9 +8,6 @@
 		"you'll just need the blueprints!"
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"f5abfb3a"
-	],
 	hide: true,
 	tasks: [{
 		uid: "7951c792",
@@ -23,5 +20,11 @@
 		uid: "c1f63983",
 		type: "ftbmoney:money",
 		ftb_money: 2L
+	},
+	{
+		uid: "a7e56289",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierBasicWorkshop"
 	}]
 }

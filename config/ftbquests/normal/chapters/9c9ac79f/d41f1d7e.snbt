@@ -19,9 +19,19 @@
 		uid: "306a8a6b",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2250"
-		}],
-		count: 16L
+			ForgeCaps: {
+				Parent: {
+					data: "dustBiotite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBiotite"
+				}
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "2b2190c0",

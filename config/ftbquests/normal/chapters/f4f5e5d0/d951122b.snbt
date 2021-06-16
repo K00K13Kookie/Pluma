@@ -12,8 +12,7 @@
 	],
 	dependencies: [
 		"e1c53741",
-		"45243bf5",
-		"999516ee"
+		"45243bf5"
 	],
 	hide: true,
 	tasks: [{

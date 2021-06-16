@@ -60,7 +60,7 @@ RockCrusher.add(<undergroundbiomes:igneous_stone:6>, [<undergroundbiomes:igneous
 RockCrusher.add(<undergroundbiomes:igneous_stone:7>, [<undergroundbiomes:igneous_cobble:7>, <nuclearcraft:gem_dust:2>], [1, 0.10], 200);
 
 //Gneiss producing Biotite
-RockCrusher.add(<undergroundbiomes:metamorphic_stone>, [<undergroundbiomes:metamorphic_cobble>, <gregtech:meta_item_1:2250>], [1, 0.25], 200);
+RockCrusher.add(<undergroundbiomes:metamorphic_stone>, [<undergroundbiomes:metamorphic_cobble>, <jaopca:item_dustenderbiotite>], [1, 0.25], 200);
 
 //Eclogite producing Diamond
 RockCrusher.add(<undergroundbiomes:metamorphic_stone:1>, [<undergroundbiomes:metamorphic_cobble:1>, <nuclearcraft:gem_dust>], [1, 0.03], 400);
