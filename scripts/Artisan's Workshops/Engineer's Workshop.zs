@@ -487,9 +487,9 @@ RecipeBuilder.get("engineer")
 recipes.remove(<thermalexpansion:cache>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltAluminium>, <ore:densePlateTin>, <ore:boltAluminium>],
-    [<ore:densePlateTin>, <immersiveengineering:wooden_device0>, <ore:densePlateTin>],
-    [<ore:boltAluminium>, <thermalfoundation:material:512>, <ore:boltAluminium>]])
+    [<ore:boltTin>, <ore:densePlateTin>, <ore:boltTin>],
+    [<ore:plateBismuth>, <immersiveengineering:wooden_device0>, <ore:plateBismuth>],
+    [<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]])
   .setFluid(<liquid:canolaoil> * 500)
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansSpanner>, 3)

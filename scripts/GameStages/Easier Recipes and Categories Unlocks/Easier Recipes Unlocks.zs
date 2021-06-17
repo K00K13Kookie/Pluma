@@ -45,7 +45,7 @@ mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resourc
 mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resource_item:410> * 1, [[null, <ore:gearInvar>, null], [<ore:plateBlackSteel>, <projectred-core:resource_item:400>, <ore:plateBlackSteel>],[<ore:plateRedAlloy>, <projectred-core:resource_item:400>, <ore:plateRedAlloy>]]);
 
 // Cache (Basic)
-mods.recipestages.Recipes.addShaped("EasierStorage", <thermalexpansion:cache:0> * 1, [[<ore:boltTin>, <ore:plateDenseTin>, <ore:boltTin>], [<ore:plateDenseAluminium>, <immersiveengineering:wooden_device0:0>, <ore:plateDenseAluminium>],[<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]]);
+mods.recipestages.Recipes.addShaped("EasierStorage", <thermalexpansion:cache:0> * 1, [[<ore:boltTin>, <ore:plateDenseTin>, <ore:boltTin>], [<ore:plateBismuth>, <immersiveengineering:wooden_device0:0>, <ore:plateBismuth>],[<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]]);
 
 // Chest
 mods.recipestages.Recipes.addShaped("EasierStorage", <minecraft:chest> * 1, [[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>], [<ore:plankTreatedWood>, <minecraft:stone_button>, <ore:plankTreatedWood>],[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>]]);

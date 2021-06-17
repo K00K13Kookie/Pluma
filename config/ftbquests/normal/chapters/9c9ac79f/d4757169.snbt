@@ -15,11 +15,6 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "4ea2e70b",
-		type: "gamestage",
-		stage: "FluidTransportationI"
-	},
-	{
 		uid: "ef597951",
 		type: "item",
 		items: [{
