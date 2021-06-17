@@ -28,7 +28,6 @@
 	{
 		uid: "fb42cd47",
 		type: "gamestage",
-		title: "Unlocks More Knowladge!",
 		auto: "invisible",
 		stage: "ThermalUpgradeKits"
 	},
@@ -37,5 +36,11 @@
 		type: "gamestage",
 		auto: "invisible",
 		stage: "EndermanSpawnUnlock"
+	},
+	{
+		uid: "89d914e3",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierProjectRed"
 	}]
 }

@@ -59,6 +59,31 @@ recipes.addShaped(<railcraft:charge:1> * 1, [[<ore:plateBrass>, <ore:plateBrass>
 recipes.remove(<railcraft:flux_transformer:0>);
 recipes.addShaped(<railcraft:flux_transformer:0> * 4, [[<railcraft:charge:3>, <railcraft:charge:6>, <railcraft:charge:3>], [<forestry:thermionic_tubes:4>, <immersiveengineering:metal_decoration0:1>, <forestry:thermionic_tubes:4>],[<railcraft:charge:3>, <railcraft:charge:1>, <railcraft:charge:3>]]);
 
+// Iron Tank Gauge
+recipes.remove(<railcraft:tank_iron_gauge:0>);
+recipes.addShaped(<railcraft:tank_iron_gauge:0> * 4, [[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>], [<ore:plateIron>, <ore:paneGlassColorless>, <ore:plateIron>],[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>]]);
+
+// Iron Tank Valve
+recipes.remove(<railcraft:tank_iron_valve:0>);
+recipes.addShaped(<railcraft:tank_iron_valve:0> * 1, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]]);
+
+// Iron Tank Wall
+recipes.remove(<railcraft:tank_iron_wall:0>);
+recipes.addShaped(<railcraft:tank_iron_wall:0> * 4, [[null, <ore:blockSheetmetalIron>, null], [<ore:blockSheetmetalIron>, null, <ore:blockSheetmetalIron>],[null, <ore:blockSheetmetalIron>, null]]);
+
+// Steel Tank Gauge
+recipes.remove(<railcraft:tank_steel_gauge>);
+recipes.addShaped(<railcraft:tank_steel_gauge> * 4, [[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>],[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>]]);
+
+// Steel Tank Valve
+recipes.remove(<railcraft:tank_steel_valve>);
+recipes.addShaped(<railcraft:tank_steel_valve> * 1, [[<engineersdecor:steel_mesh_fence>, <ore:plateSteel>, <engineersdecor:steel_mesh_fence>], [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>],[<engineersdecor:steel_mesh_fence>, <ore:plateSteel>, <engineersdecor:steel_mesh_fence>]]);
+
+// Steel Tank Wall
+recipes.remove(<railcraft:tank_steel_wall>);
+recipes.addShaped(<railcraft:tank_steel_wall> * 4, [[null, <ore:blockSheetmetalSteel>, null], [<ore:blockSheetmetalSteel>, null, <ore:blockSheetmetalSteel>],[null, <ore:blockSheetmetalSteel>, null]]);
+
+
 # OreDicts =================================
 
 <ore:strengthenedGlass>.add(

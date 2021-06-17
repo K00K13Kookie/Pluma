@@ -338,3 +338,10 @@ alloy.recipeBuilder()
     .duration(80)
     .EUt(20)
     .buildAndRegister();
+
+##### Portable Tank Recipe ####
+
+// Portable Tank (Basic)
+recipes.remove(<thermalexpansion:tank:0>);
+recipes.addShaped(<thermalexpansion:tank:0> * 1, [[<ore:plateDenseCopper>, <ore:plateCopper>, <ore:plateDenseCopper>], [<ore:plateCopper>, <ore:blockGlassHardened>, <ore:plateCopper>],[<ore:plateCopper>, <thermalfoundation:material:512>, <ore:plateCopper>]]);
+

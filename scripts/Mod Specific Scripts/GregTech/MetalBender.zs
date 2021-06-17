@@ -6,6 +6,8 @@ import mods.gregtech.recipe.RecipeMap;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*
+
 //Magnesium Plate
 MetalBender.recipeBuilder()
     .inputs(<ore:ingotMagnesium>)
@@ -14,3 +16,5 @@ MetalBender.recipeBuilder()
     .duration(140)
     .EUt(24)
 .buildAndRegister();
+
+*/

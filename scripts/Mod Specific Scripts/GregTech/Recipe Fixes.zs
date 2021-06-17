@@ -14,9 +14,6 @@ import mods.nuclearcraft.ingot_former;
 //Biotite Dust to Gem
 furnace.addRecipe(<quark:biotite>, <jaopca:item_dustenderbiotite>);
 
-//Biotite Dust block name correction
-<gregtech:meta_block_compressed_15:10>.displayName = "Block of Biotite Dust";
-
 //Biotite Correct OreDicting
 <ore:dustBiotite>.add(<jaopca:item_dustenderbiotite>);
 <ore:dustRegularBiotite>.add(<jaopca:item_dustenderbiotite>);
@@ -58,6 +55,7 @@ recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <greg
 
 ##### Aluminium/Aluminum Fixes #####
 
+
 <ore:ingotAluminium>.add(<thermalfoundation:material:132>);
 <ore:blockAluminium>.add(<thermalfoundation:storage:4>);
 <ore:dustAluminium>.add(<thermalfoundation:material:68>);
@@ -66,7 +64,7 @@ recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <greg
 <ore:stickAluminium>.add(<immersiveengineering:material:3>);
 <ore:plateAluminium>.add(<thermalfoundation:material:324>);
 
-/*
+
 <ore:ingotAluminum>.add(<gregtech:meta_item_1:10001>);
 <ore:blockAluminum>.add(<gregtech:meta_block_compressed_0:1>);
 <ore:dustAluminum>.add(<gregtech:meta_item_1:2001>);
@@ -74,17 +72,16 @@ recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <greg
 <ore:nuggetAluminum>.add(<gregtech:meta_item_1:9001>);
 <ore:stickAluminum>.add(<gregtech:meta_item_1:14001>);
 <ore:plateAluminum>.add(<gregtech:meta_item_1:12001>);
-*/
+
 
 var toRemoveAluminum = [
-    <thermalfoundation:ore:4>
-,   <immersiveengineering:material:3>
-,   <thermalfoundation:storage:4>
-,   <thermalfoundation:material:68>
-,   <thermalfoundation:material:132>
-,   <thermalfoundation:material:196>
-,   <thermalfoundation:material:260>
-,   <thermalfoundation:material:324>
+	<gregtech:meta_item_1:10001>
+,   <gregtech:meta_item_1:12001>
+,   <gregtech:meta_item_1:14001>
+,   <gregtech:meta_item_1:2001>
+,   <gregtech:meta_item_2:26001>
+,   <gregtech:meta_item_1:9001>
+,   <gregtech:meta_block_compressed_0:1>
 ,   <nuclearcraft:ingot:12>
 ,   <nuclearcraft:dust:12>
 ,   <nuclearcraft:ingot_block:12>
@@ -106,6 +103,8 @@ for item in toRemoveAluminum {
 	}
 }
 
+/*
+
 //Replacing all ocurrences of Aluminum to Aluminium
 recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:ingotAluminium>);
 recipes.replaceAllOccurences(<ore:blockAluminum>, <ore:blockAluminium>);
@@ -115,8 +114,13 @@ recipes.replaceAllOccurences(<ore:nuggetAluminum>, <ore:nuggetAluminium>);
 recipes.replaceAllOccurences(<ore:stickAluminum>, <ore:stickAluminium>);
 recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:plateAluminium>);
 
+*/
+
 //Shapeless to Convert Aluminum into Aluminium
 recipes.addShapeless("Aluminum to Aluminium", <gregtech:meta_item_1:10001>, [<thermalfoundation:material:132>]);
+
+//Removing Aluminum Ingot furnace Recipe
+furnace.remove(<thermalfoundation:material:132>);
 
 ## ULV Casing Fix 
 recipes.remove(<gregtech:machine_casing>);

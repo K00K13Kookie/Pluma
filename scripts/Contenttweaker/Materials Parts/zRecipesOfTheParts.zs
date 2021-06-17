@@ -146,6 +146,9 @@ mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16062> * 4,
 //Obscure Compound
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:obscurecompound>, <gregtech:meta_item_1:2250>, <actuallyadditions:item_dust:7>, 400);
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:obscurecompound>, <gregtech:meta_item_1:2250>, null, 200, 128, [<actuallyadditions:item_dust:7>], "Alloying");
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:obscurecompound>, <jaopca:item_dustenderbiotite>, <actuallyadditions:item_dust:7>, 400);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:obscurecompound>, <jaopca:item_dustenderbiotite>, null, 200, 128, [<actuallyadditions:item_dust:7>], "Alloying");
+
 
 // Black Bronze Ingot Recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<gregtech:meta_item_1:10229>, <thermalfoundation:material:163>, <contenttweaker:obscurecompound>, 400);

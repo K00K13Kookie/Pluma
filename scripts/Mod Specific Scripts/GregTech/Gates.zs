@@ -67,7 +67,14 @@ var MachineryGates as IItemStack[] = [
 <gregtech:machine:501>,
 <gregtech:machine_casing:1>,
 <gregtech:machine:1>,
-<gregtech:machine:2>
+<gregtech:machine:2>,
+<gregtech:machine:802>,
+<gregtech:machine:803>,
+<gregtech:machine:804>,
+<gregtech:machine:805>,
+<gregtech:machine:806>,
+<gregtech:machine:807>,
+<gregtech:machine:808>
 
     ];
 
