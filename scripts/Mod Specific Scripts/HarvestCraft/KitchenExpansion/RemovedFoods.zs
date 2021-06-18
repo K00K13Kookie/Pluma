@@ -7,8 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 //Food Removals
 var toRemove = [
-    <actuallyadditions:item_food:13>
-,   <actuallyadditions:item_misc:4>
+   <actuallyadditions:item_misc:4>
 ] as IItemStack[];
 
 for item in toRemove {

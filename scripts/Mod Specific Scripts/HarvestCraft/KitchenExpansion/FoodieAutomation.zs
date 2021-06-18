@@ -55,14 +55,6 @@ saw.recipeBuilder()
     .EUt(4)
     .buildAndRegister();
 
-//Tortilla    
-saw.recipeBuilder()
-    .inputs([<harvestcraft:cornmealitem>])
-    .fluidInputs(<liquid:water> * 500)
-    .outputs(<harvestcraft:tortillaitem> * 2)
-    .duration(128)
-    .EUt(12)
-    .buildAndRegister();
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -103,6 +95,15 @@ chemical_bath.recipeBuilder()
     .duration(80)
     .EUt(8)
     .buildAndRegister(); 
+
+//Tortilla    
+chemical_bath.recipeBuilder()
+    .inputs([<harvestcraft:cornmealitem>])
+    .fluidInputs(<liquid:water> * 500)
+    .outputs(<harvestcraft:tortillaitem> * 2)
+    .duration(128)
+    .EUt(12)
+    .buildAndRegister();
 
 //Cheese Wheel
 recipes.remove(<actuallyadditions:item_food>);
