@@ -8,9 +8,6 @@
 		"Without doubt, The Arc furnace will be as usefull as the Metal Press in this Stage! you're going to be using it to Alloy Metals and make other Components that require a high temperature."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"58375146"
-	],
 	hide: true,
 	size: 4.0d,
 	tasks: [{
@@ -143,5 +140,34 @@
 		type: "gamestage",
 		auto: "invisible",
 		stage: "roughmobsenchant"
+	},
+	{
+		uid: "516f2284",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 32s
+				},
+				{
+					lvl: 1s,
+					id: 29s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				}],
+				display: {
+					Name: "The Ception"
+				},
+				GT.ToolStats: {
+					Material: "steel",
+					Dmg: 0
+				}
+			},
+			Damage: 1s
+		}
 	}]
 }

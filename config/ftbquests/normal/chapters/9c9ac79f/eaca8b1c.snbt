@@ -17,7 +17,7 @@
 		},
 		Damage: 3s
 	},
-	x: 5.0d,
+	x: 4.0d,
 	y: -17.0d,
 	shape: "square",
 	text: [
@@ -34,9 +34,8 @@
 		"So Keep that in mind while using this device."
 	],
 	dependencies: [
-		"678d07ac"
+		"1d17fa74"
 	],
-	hide: true,
 	tasks: [{
 		uid: "f13715f7",
 		type: "item",

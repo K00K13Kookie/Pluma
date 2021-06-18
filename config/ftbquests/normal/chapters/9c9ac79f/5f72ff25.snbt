@@ -1,8 +1,8 @@
 {
 	title: "Moving Items Around!",
-	x: 3.5d,
-	y: -18.5d,
-	shape: "rsquare",
+	x: 1.1d,
+	y: -9.5d,
+	shape: "square",
 	description: "Finally some sort of Automation!",
 	text: [
 		"Immersive Engineering offers an Item transportation trough Conveyor Belts! they have a bunch of variations to acommodate your personal needs! It is Strongly advised that you make some for basic automations."

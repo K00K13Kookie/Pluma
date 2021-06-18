@@ -9,7 +9,8 @@
 	],
 	dependencies: [
 		"8fb9ac01",
-		"b32d3383"
+		"b32d3383",
+		"5f72ff25"
 	],
 	hide: true,
 	size: 2.0d,

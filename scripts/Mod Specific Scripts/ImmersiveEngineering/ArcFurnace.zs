@@ -3,6 +3,15 @@ import mods.immersiveengineering.ArcFurnace;
 
 ###############################################################
 #                                                             #
+#    Adding ArcFurnace Recipes                                #
+#                                                             #
+###############################################################
+
+//Early Black Bronze
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10229>, <ore:ingotBronze>, null, 300, 64, [<contenttweaker:obscurecompound>], "Alloying");
+
+###############################################################
+#                                                             #
 #    Removing Unwanted ArcFurnace Recipes                     #
 #                                                             #
 ###############################################################

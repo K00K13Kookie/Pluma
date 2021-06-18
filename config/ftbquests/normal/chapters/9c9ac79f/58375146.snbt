@@ -3,7 +3,7 @@
 	icon: "immersiveengineering:stone_device 1 2",
 	x: 1.533163265306115d,
 	y: -12.127551020408156d,
-	shape: "square",
+	shape: "rsquare",
 	description: "Yeah, you're going to need a LOT of steel as you progress",
 	text: [
 		"The Blast Furnace has an Upgraded version! you'll need pre heaters and also improved blast bricks."
@@ -13,6 +13,7 @@
 	],
 	hide: true,
 	size: 1.5d,
+	optional: true,
 	tasks: [{
 		uid: "f78e50d0",
 		type: "item",

@@ -1,8 +1,8 @@
 {
 	title: "Getting your hands Sticky!",
 	icon: "gregtech:meta_item_1 1 32627",
-	x: 3.5d,
-	y: -17.0d,
+	x: 1.1d,
+	y: -8.5d,
 	shape: "square",
 	description: "Time to get Rubber!",
 	text: [
@@ -11,7 +11,7 @@
 		"Oh and don't worry, later on this Stage you'll have a way to process the logs and saplings to get even more Sticky Resin!"
 	],
 	dependencies: [
-		"1d17fa74"
+		"c652f0d5"
 	],
 	hide: true,
 	tasks: [{
