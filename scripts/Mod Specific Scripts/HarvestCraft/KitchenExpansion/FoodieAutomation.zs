@@ -1,5 +1,7 @@
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
+import mods.artisanworktables.builder.RecipeBuilder;
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Thermal Insolator Recipes  (Food Alloy Smelter)                                                                                  //
@@ -126,7 +128,16 @@ chemical_bath.recipeBuilder()
     .EUt(8)
     .buildAndRegister(); 
 
-// Dough 
+// Dough
+recipes.remove(<harvestcraft:doughitem>);
+RecipeBuilder.get("chef")
+  .setShapeless([<ore:foodFlour>, <ore:foodSalt>])
+  .setFluid(<liquid:water> * 1000)
+  .addOutput(<harvestcraft:doughitem>)
+  .addTool(<ore:artisansMortar>, 4)
+  .addTool(<ore:artisansBeaker>, 4)
+  .create(); 
+
 mixer.recipeBuilder()
     .inputs([<ore:foodFlour>, <ore:foodSalt>])
     .fluidInputs(<liquid:water> * 500)
@@ -232,10 +243,21 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-// Raw Bread
-recipes.addShapeless("RawBread", <contenttweaker:rawbread>, [<ore:foodDough>, <ore:foodDough>]);
-recipes.addShapeless("RawBaguette", <contenttweaker:rawbaguette>, [<ore:foodDough>, <ore:foodDough>, <ore:foodDough>]);
-recipes.addShapeless("RawRiceBread", <contenttweaker:rawricebread>, [<actuallyadditions:item_misc:9>, <actuallyadditions:item_misc:9>]);
+// Raw Bread, Baguette and Raw Rice Bread
+RecipeBuilder.get("chef")
+  .setShapeless([<harvestcraft:doughitem>, <harvestcraft:doughitem>])
+  .addOutput(<contenttweaker:rawbread>)
+  .create();
+  
+RecipeBuilder.get("chef")
+  .setShapeless([<harvestcraft:doughitem>, <harvestcraft:doughitem>, <harvestcraft:doughitem>])
+  .addOutput(<contenttweaker:rawbaguette>)
+  .create();
+
+RecipeBuilder.get("chef")
+  .setShapeless([<actuallyadditions:item_misc:9>, <actuallyadditions:item_misc:9>])
+  .addOutput(<contenttweaker:rawricebread>)
+  .create();  
 
 mods.forestry.Carpenter.addRecipe(<contenttweaker:rawbread>, [[<ore:foodDough>, <ore:foodDough>, null],[null, null, null],[null, null, null]], 50);
 mods.forestry.Carpenter.addRecipe(<contenttweaker:rawbaguette>, [[<ore:foodDough>, <ore:foodDough>, <ore:foodDough>],[null, null, null],[null, null, null]], 50);
