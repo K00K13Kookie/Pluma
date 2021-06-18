@@ -67,7 +67,21 @@ tile.contenttweaker.uninspectedmineral.name=Uninspected Mineral
 
 
 fluid.hidratedlubricant=Hidrated Lubricant
+fluid.liquidTomato=Tomato Sauce
 
+item.contenttweaker.emptybag.name=Empty Bag
+item.contenttweaker.emptypot.name=Empty Pot
+item.contenttweaker.dmgpotclay.name=Clay Pot
+item.contenttweaker.dmgpotiron.name=Iron Pot
+item.contenttweaker.dmgpotdiamond.name=Diamond Pot
+item.contenttweaker.dmgjuicerclay.name=Clay Juicer
+item.contenttweaker.dmgjuiceriron.name=Iron Juicer
+item.contenttweaker.dmgjuicerdiamond.name=Diamond Juicer
+item.contenttweaker.pieplate.name=Pie Plate
+item.contenttweaker.drinkglass.name=Drinking Glass
+item.contenttweaker.rawbread.name=Raw Bread Dough
+item.contenttweaker.rawbaguette.name=Raw Baguette Dough
+item.contenttweaker.rawricebread.name=Raw Rice Bread
 
 item.contenttweaker.trtoken.name=Transportation Research Token
 

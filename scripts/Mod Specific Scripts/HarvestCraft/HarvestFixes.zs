@@ -4,11 +4,6 @@
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-## Fresh Water being Infinite Fix ##
-
-recipes.remove(<harvestcraft:freshwateritem>);
-recipes.addShapeless("FreshWaterRecipe", <harvestcraft:freshwateritem> * 8, [<minecraft:water_bucket>]);
-
 ### Flour Fix ###
 
 recipes.remove(<harvestcraft:flouritem>);
@@ -20,6 +15,12 @@ recipes.remove(<harvestcraft:flouritem>);
 <ore:flourEqualswheat>.add(<nuclearcraft:flour>);
 
 recipes.replaceAllOccurences(<harvestcraft:flouritem>, <ore:dustWheat>);
+
+#### Cocoa Powder Fixes ###
+
+<ore:foodCocoapowder>.add(<nuclearcraft:cocoa_solids>);
+<ore:dustCocoa>.add(<harvestcraft:cocoapowderitem>);
+recipes.replaceAllOccurences(<harvestcraft:cocoapowderitem>, <ore:foodCocoapowder>);
 
 ### OreDicts and Replaces with Artisan's ####
 

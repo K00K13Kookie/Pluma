@@ -39,7 +39,7 @@ recipes.remove(<thermaldynamics:duct_16:2>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],
-    [<ore:plateInvar>, <ore:gearConstantan>, <ore:plateInvar>],
+    [<ore:plateDenseInvar>, <ore:gearConstantan>, <ore:plateDenseInvar>],
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
@@ -52,7 +52,7 @@ recipes.remove(<thermaldynamics:duct_16:3>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>],
-    [<ore:plateInvar>, <ore:gearConstantan>, <ore:plateInvar>],
+    [<ore:plateDenseInvar>, <ore:gearConstantan>, <ore:plateDenseInvar>],
     [<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)

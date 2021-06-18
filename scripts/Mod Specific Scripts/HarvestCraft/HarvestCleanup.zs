@@ -47,6 +47,7 @@ var toRemove = [
 , <harvestcraft:presser>
 , <harvestcraft:grinder>
 , <harvestcraft:beehive>
+, <harvestcraft:waterfilter>
 ] as IItemStack[];
 
 for item in toRemove {

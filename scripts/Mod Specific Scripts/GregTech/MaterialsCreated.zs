@@ -76,7 +76,7 @@ materialLumium.setCableProperties(32768, 4, 0);
 <material:nitro_fuel>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:bio_diesel>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:cupronickel>.addFlags(["GENERATE_GEAR"]);
-<material:invar>.addFlags(["GENERATE_GEAR"]);
+<material:invar>.addFlags(["GENERATE_GEAR", "GENERATE_DENSE"]);
 <material:rose_gold>.addFlags(["GENERATE_RING"]);
 
 print("-------------GT Materials Initialized------------");
