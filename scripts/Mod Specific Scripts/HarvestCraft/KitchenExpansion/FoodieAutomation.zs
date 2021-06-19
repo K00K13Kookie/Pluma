@@ -320,12 +320,15 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 // Cake ================================================================================
-mods.forestry.Carpenter.addRecipe(<minecraft:cake> * 2, [[<ore:cropStrawberry>, <ore:cropStrawberry>, <ore:cropStrawberry>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
-mods.forestry.Carpenter.addRecipe(<minecraft:cake> * 2, [[<ore:cropStrawberry>, <ore:cropStrawberry>, <ore:cropStrawberry>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+recipes.remove(<minecraft:cake>);
+recipes.addShaped(<minecraft:cake>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:cropStrawberry>, <ore:cropStrawberry>, <ore:cropStrawberry>],[<ore:foodFlour>, <ore:listAllegg>, <ore:foodFlour>]]);
+
+mods.forestry.Carpenter.addRecipe(<minecraft:cake>, [[<ore:cropStrawberry>, <ore:cropStrawberry>, <ore:cropStrawberry>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 750);
+mods.forestry.Carpenter.addRecipe(<minecraft:cake>, [[<ore:cropStrawberry>, <ore:cropStrawberry>, <ore:cropStrawberry>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 750);
 
 assembler.recipeBuilder()
     .inputs([<ore:foodFlour> * 3, <minecraft:sugar> * 2, <ore:listAllegg>, <ore:cropStrawberry> * 3])
-    .fluidInputs(<liquid:milk> * 250)
+    .fluidInputs(<liquid:milk> * 750)
     .outputs(<minecraft:cake> * 2)
     .duration(80)
     .EUt(8)
@@ -333,7 +336,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs([<ore:foodFlour> * 3, <ore:dropHoney> * 2, <ore:listAllegg>, <ore:cropStrawberry> * 3])
-    .fluidInputs(<liquid:milk> * 250)
+    .fluidInputs(<liquid:milk> * 750)
     .outputs(<minecraft:cake> * 2)
     .duration(80)
     .EUt(8)
@@ -343,8 +346,8 @@ assembler.recipeBuilder()
 recipes.remove(<actuallyadditions:item_food:8>);
 recipes.addShaped(<actuallyadditions:item_food:8>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:dustCocoa>, <ore:dustCocoa>, <ore:dustCocoa>],[<ore:foodFlour>, <ore:listAllegg>, <ore:foodFlour>]]);
 
-mods.forestry.Carpenter.addRecipe(<actuallyadditions:item_food:8> * 2, [[<ore:dustCocoa>, <ore:dustCocoa>, <ore:dustCocoa>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
-mods.forestry.Carpenter.addRecipe(<actuallyadditions:item_food:8> * 2, [[<ore:dustCocoa>, <ore:dustCocoa>, <ore:dustCocoa>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<actuallyadditions:item_food:8>, [[<ore:dustCocoa>, <ore:dustCocoa>, <ore:dustCocoa>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<actuallyadditions:item_food:8>, [[<ore:dustCocoa>, <ore:dustCocoa>, <ore:dustCocoa>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
 
 assembler.recipeBuilder()
     .inputs([<ore:foodFlour> * 3, <minecraft:sugar> * 2, <ore:listAllegg>, <ore:dustCocoa> * 3])
@@ -361,3 +364,164 @@ assembler.recipeBuilder()
     .duration(75)
     .EUt(8)
     .buildAndRegister();
+
+//Carrot Cake ================================================================================
+recipes.remove(<harvestcraft:carrotcakeitem>);
+recipes.addShaped(<harvestcraft:carrotcakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:cropCarrot>, <ore:cropCarrot>, <ore:cropCarrot>],[<ore:foodFlour>, <ore:listAllegg>, <ore:foodFlour>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:carrotcakeitem>, [[<ore:cropCarrot>, <ore:cropCarrot>, <ore:cropCarrot>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:carrotcakeitem>, [[<ore:cropCarrot>, <ore:cropCarrot>, <ore:cropCarrot>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <minecraft:sugar> * 2, <ore:listAllegg>, <ore:cropCarrot> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:carrotcakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <ore:dropHoney> * 2, <ore:listAllegg>, <ore:cropCarrot> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:carrotcakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+//Cheese Cake ================================================================================
+recipes.remove(<harvestcraft:cheesecakeitem>);
+recipes.addShaped(<harvestcraft:cheesecakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:foodGroundcinnamon>, <ore:foodGroundcinnamon>, <ore:foodGroundcinnamon>],[<ore:foodBatter>, <ore:listAllheavycream>, <ore:foodBatter>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:cheesecakeitem>, [[<ore:foodGroundcinnamon>, <ore:foodGroundcinnamon>, <ore:foodGroundcinnamon>],[<minecraft:sugar>, <ore:listAllheavycream>, <minecraft:sugar>],[<ore:foodBatter>, <ore:foodBatter>, <ore:foodBatter>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:cheesecakeitem>, [[<ore:foodGroundcinnamon>, <ore:foodGroundcinnamon>, <ore:foodGroundcinnamon>],[<ore:dropHoney>, <ore:listAllheavycream>, <ore:dropHoney>],[<ore:foodBatter>, <ore:foodBatter>, <ore:foodBatter>]], 40, <liquid:milk> * 500);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodBatter> * 3, <minecraft:sugar> * 2, <ore:listAllheavycream>, <ore:foodGroundcinnamon> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:cheesecakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodBatter> * 3, <ore:dropHoney> * 2, <ore:listAllheavycream>, <ore:foodGroundcinnamon> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:cheesecakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+//Cherry Cheese Cake ================================================================================
+recipes.remove(<harvestcraft:cherrycheesecakeitem>);
+recipes.addShaped(<harvestcraft:cherrycheesecakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:cropCherry>, <ore:cropCherry>, <ore:cropCherry>],[<ore:foodBatter>, <ore:listAllheavycream>, <ore:foodBatter>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:cherrycheesecakeitem>, [[<ore:cropCherry>, <ore:cropCherry>, <ore:cropCherry>],[<minecraft:sugar>, <ore:listAllheavycream>, <minecraft:sugar>],[<ore:foodBatter>, <ore:foodBatter>, <ore:foodBatter>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:cherrycheesecakeitem>, [[<ore:cropCherry>, <ore:cropCherry>, <ore:cropCherry>],[<ore:dropHoney>, <ore:listAllheavycream>, <ore:dropHoney>],[<ore:foodBatter>, <ore:foodBatter>, <ore:foodBatter>]], 40, <liquid:milk> * 500);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodBatter> * 3, <minecraft:sugar> * 2, <ore:listAllheavycream>, <ore:cropCherry> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:cherrycheesecakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodBatter> * 3, <ore:dropHoney> * 2, <ore:listAllheavycream>, <ore:cropCherry> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:cherrycheesecakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+// Holiday Cake ================================================================================
+recipes.remove(<harvestcraft:holidaycakeitem>);
+recipes.addShaped(<harvestcraft:holidaycakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:cropCherry>, <ore:listAllheavycream>, <ore:cropSpiceleaf>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:holidaycakeitem>, [[<ore:cropCherry>, <ore:listAllheavycream>, <ore:cropSpiceleaf>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 750);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:holidaycakeitem>, [[<ore:cropCherry>, <ore:listAllheavycream>, <ore:cropSpiceleaf>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 750);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <minecraft:sugar> * 2, <ore:listAllegg>, <ore:cropCherry>, <ore:listAllheavycream>, <ore:cropSpiceleaf>])
+    .fluidInputs(<liquid:milk> * 750)
+    .outputs(<harvestcraft:holidaycakeitem> * 2)
+    .duration(80)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <ore:dropHoney> * 2, <ore:listAllegg>, <ore:cropCherry>, <ore:listAllheavycream>, <ore:cropSpiceleaf>])
+    .fluidInputs(<liquid:milk> * 750)
+    .outputs(<harvestcraft:holidaycakeitem> * 2)
+    .duration(80)
+    .EUt(8)
+    .buildAndRegister();
+
+//Pineapple Cake ================================================================================
+recipes.remove(<harvestcraft:pineappleupsidedowncakeitem>);
+recipes.addShaped(<harvestcraft:pineappleupsidedowncakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:cropPineapple>, <ore:cropPineapple>, <ore:cropPineapple>],[<ore:foodFlour>, <ore:listAllegg>, <ore:foodFlour>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:pineappleupsidedowncakeitem>, [[<ore:cropPineapple>, <ore:cropPineapple>, <ore:cropPineapple>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:pineappleupsidedowncakeitem>, [[<ore:cropPineapple>, <ore:cropPineapple>, <ore:cropPineapple>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 500);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <minecraft:sugar> * 2, <ore:listAllegg>, <ore:cropPineapple> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:pineappleupsidedowncakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <ore:dropHoney> * 2, <ore:listAllegg>, <ore:cropPineapple> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:pineappleupsidedowncakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+//Pumpkin Cheese Cake ================================================================================
+recipes.remove(<harvestcraft:pumpkincheesecakeitem>);
+recipes.addShaped(<harvestcraft:pumpkincheesecakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:cropPumpkin>, <ore:cropPumpkin>, <ore:cropPumpkin>],[<ore:foodBatter>, <ore:listAllheavycream>, <ore:foodBatter>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:pumpkincheesecakeitem>, [[<ore:cropPumpkin>, <ore:cropPumpkin>, <ore:cropPumpkin>],[<minecraft:sugar>, <ore:listAllheavycream>, <minecraft:sugar>],[<ore:foodBatter>, <ore:foodBatter>, <ore:foodBatter>]], 40, <liquid:milk> * 500);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:pumpkincheesecakeitem>, [[<ore:cropPumpkin>, <ore:cropPumpkin>, <ore:cropPumpkin>],[<ore:dropHoney>, <ore:listAllheavycream>, <ore:dropHoney>],[<ore:foodBatter>, <ore:foodBatter>, <ore:foodBatter>]], 40, <liquid:milk> * 500);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodBatter> * 3, <minecraft:sugar> * 2, <ore:listAllheavycream>, <ore:cropPumpkin> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:pumpkincheesecakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodBatter> * 3, <ore:dropHoney> * 2, <ore:listAllheavycream>, <ore:cropPumpkin> * 3])
+    .fluidInputs(<liquid:milk> * 250)
+    .outputs(<harvestcraft:pumpkincheesecakeitem> * 2)
+    .duration(75)
+    .EUt(8)
+    .buildAndRegister();
+
+// Red Velvet Cake ================================================================================
+recipes.remove(<harvestcraft:redvelvetcakeitem>);
+recipes.addShaped(<harvestcraft:redvelvetcakeitem>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<ore:dyeRed>, <ore:listAllheavycream>, <ore:dustCocoa>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+
+mods.forestry.Carpenter.addRecipe(<harvestcraft:redvelvetcakeitem>, [[<ore:dyeRed>, <ore:listAllheavycream>, <ore:dustCocoa>],[<minecraft:sugar>, <ore:listAllegg>, <minecraft:sugar>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 750);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:redvelvetcakeitem>, [[<ore:dyeRed>, <ore:listAllheavycream>, <ore:dustCocoa>],[<ore:dropHoney>, <ore:listAllegg>, <ore:dropHoney>],[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]], 40, <liquid:milk> * 750);
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <minecraft:sugar> * 2, <ore:listAllegg>, <ore:dyeRed>, <ore:listAllheavycream>, <ore:dustCocoa>])
+    .fluidInputs(<liquid:milk> * 750)
+    .outputs(<harvestcraft:redvelvetcakeitem> * 2)
+    .duration(80)
+    .EUt(8)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foodFlour> * 3, <ore:dropHoney> * 2, <ore:listAllegg>, <ore:dyeRed>, <ore:listAllheavycream>, <ore:dustCocoa>])
+    .fluidInputs(<liquid:milk> * 750)
+    .outputs(<harvestcraft:redvelvetcakeitem> * 2)
+    .duration(80)
+    .EUt(8)
+    .buildAndRegister();            

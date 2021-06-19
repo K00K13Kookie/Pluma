@@ -49,7 +49,18 @@ fluid_extractor.recipeBuilder()
     [null, null, <ore:ingotBrick>, null, null]])
   .addOutput(<contenttweaker:emptypot> * 5)
   .create();
-  
+
+// Cup ============================================================================================================
+RecipeBuilder.get("chef")
+  .setShaped([
+    [null, null, null, null, null],
+    [null, null, null, null, null],
+	[null, <minecraft:cobblestone>, null, <minecraft:cobblestone>, null],
+	[null, <minecraft:cobblestone>, null, <minecraft:cobblestone>, null],
+    [null, <minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>, null]])
+  .addOutput(<actuallyadditions:item_misc:14> * 5)
+  .create();
+
 // Clay Pot =====================================================================================================================================================================
 recipes.addShaped(<contenttweaker:dmgpotclay>, [[null, null, null],[<minecraft:brick>, null, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
 
@@ -73,3 +84,13 @@ recipes.addShaped(<contenttweaker:emptybag> * 5, [[null, null, null],[<minecraft
 
 // Empty Pot =====================================================================================================================================================================
 recipes.addShaped(<contenttweaker:emptypot> * 5, [[null, null, null],[<minecraft:brick>, null, <minecraft:brick>], [null, <minecraft:brick>, null]]);
+
+// Drinking Glass =====================================================================================================================================================================
+recipes.remove(<contenttweaker:drinkglass>);
+recipes.addShaped(<contenttweaker:drinkglass> * 3, [[null, null, null], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>],[null, <ore:blockGlassColorless>, null]]);
+recipes.addShaped(<contenttweaker:drinkglass> * 9, [[null, null, null], [<ore:strengthenedGlass>, null, <ore:strengthenedGlass>],[null, <ore:strengthenedGlass>, null]]);
+
+// Pie Plate
+recipes.remove(<contenttweaker:pieplate>);
+recipes.addShaped(<contenttweaker:pieplate> * 1, [[null, null, null], [<ore:ingotBrick>, <ore:paper>, <ore:ingotBrick>],[null, <ore:ingotBrick>, null]]);
+

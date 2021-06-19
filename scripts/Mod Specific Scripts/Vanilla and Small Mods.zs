@@ -57,6 +57,12 @@ recipes.addShaped(<minecraft:bucket> * 1, [[null, null, null], [<thermalfoundati
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket> * 2, [[null, null, null], [<thermalfoundation:material:352>, null, <thermalfoundation:material:352>],[null, <thermalfoundation:material:352>, null]]);
 
+// Glass Bottle
+recipes.remove(<minecraft:glass_bottle>);
+recipes.addShaped(<minecraft:glass_bottle> * 3, [[null, <ore:slabWood>, null], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>],[null, <ore:blockGlassColorless>, null]]);
+recipes.addShaped(<minecraft:glass_bottle> * 9, [[null, <ore:slabWood>, null], [<ore:strengthenedGlass>, null, <ore:strengthenedGlass>],[null, <ore:strengthenedGlass>, null]]);
+
+
 # Terracota OreDict =============
 <ore:Terracota>.add(
 <minecraft:purple_glazed_terracotta>,
