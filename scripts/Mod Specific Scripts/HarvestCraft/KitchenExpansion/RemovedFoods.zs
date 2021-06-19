@@ -71,8 +71,6 @@ var toRemove = [
 ,	<harvestcraft:raspberrytrifleitem> // Raspberry Triffle
 ,	<harvestcraft:froglegstirfryitem> // Frog Stirfy
 ,	<harvestcraft:meatystirfryitem> // Meat Stirfy
-,	<harvestcraft:holidaycakeitem> // Holiday Cake
-,	<harvestcraft:redvelvetcakeitem> // Red Valvet Cake
 ,	<harvestcraft:peppermintitem> // Peppermint
 ,	<harvestcraft:sweetandsourchickenitem> // Sweet and Sour Chicken
 ,	<harvestcraft:saltedsunflowerseedsitem> // Salted Seeds

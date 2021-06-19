@@ -92,3 +92,16 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansSolderer>, 10)
   .addOutput(<artisanworktables:workshop:9>)
   .create();
+
+//Chef's Workshop
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<minecraft:heavy_weighted_pressure_plate>, <ore:pressurePlateWood>, <minecraft:heavy_weighted_pressure_plate>],
+    [<ore:logWood>, <actuallyadditions:block_misc:4>, <ore:logWood>],
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addTool(<ore:artisansHandsaw>, 3)
+  .addTool(<ore:artisansCarver>, 2)
+  .addOutput(<artisanworktables:workshop:11>)
+  .create();
