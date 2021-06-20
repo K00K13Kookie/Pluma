@@ -1,20 +1,6 @@
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
-//Immersive Lantern
-recipes.remove(<immersiveengineering:metal_decoration2:4>);
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [null, <ore:plateIron>, null],
-    [<quark:framed_glass_pane>, <ore:blockGlowstone>, <quark:framed_glass_pane>],
-    [null, <ore:plateIron>, null]])
-  .setFluid(<liquid:canolaoil> * 250)
-  .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansDriver>, 2)
-  .addOutput(<immersiveengineering:metal_decoration2:4> * 6)
-  .create();
-
 //Coffe Machine
 recipes.remove(<actuallyadditions:block_coffee_machine>);
 RecipeBuilder.get("blacksmith")

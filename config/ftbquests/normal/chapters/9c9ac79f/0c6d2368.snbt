@@ -40,5 +40,11 @@
 		type: "gamestage",
 		auto: "invisible",
 		stage: "AdvancedMachinery"
+	},
+	{
+		uid: "7510fe95",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "LateChapter2"
 	}]
 }

@@ -1,0 +1,78 @@
+window {
+    size(180,152)
+    panel('','positional') {
+        bg1('rftools:textures/gui/remotestorage.png')
+        energybar {
+            hint(10,7,8,54)
+            showtext(false)
+        }
+        imagechoicelabel {
+            hint(25,9,16,16)
+            image('rftools:textures/gui/guielements.png')
+            dim(0,32,256,256)
+            choices {
+                choice('off0') {
+                    uv(0,32)
+                    tooltips('Cross-dimension access disabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+                choice('on0') {
+                    uv(16,32)
+                    tooltips('Cross-dimension access enabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+            }
+        }
+        imagechoicelabel {
+            hint(25,36,16,16)
+            image('rftools:textures/gui/guielements.png')
+            dim(16,32,256,256)
+            choices {
+                choice('off1') {
+                    uv(0,32)
+                    tooltips('Cross-dimension access disabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+                choice('on1') {
+                    uv(16,32)
+                    tooltips('Cross-dimension access enabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+            }
+        }
+        imagechoicelabel {
+            hint(102,9,16,16)
+            image('rftools:textures/gui/guielements.png')
+            dim(0,32,256,256)
+            choices {
+                choice('off2') {
+                    uv(0,32)
+                    tooltips('Cross-dimension access disabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+                choice('on2') {
+                    uv(16,32)
+                    tooltips('Cross-dimension access enabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+            }
+        }
+        imagechoicelabel {
+            hint(102,36,16,16)
+            image('rftools:textures/gui/guielements.png')
+            dim(0,32,256,256)
+            choices {
+                choice('off3') {
+                    uv(0,32)
+                    tooltips('Cross-dimension access disabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+                choice('on3') {
+                    uv(16,32)
+                    tooltips('Cross-dimension access enabled')
+                    image('rftools:textures/gui/guielements.png')
+                }
+            }
+        }
+    }
+}

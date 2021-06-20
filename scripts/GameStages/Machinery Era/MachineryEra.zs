@@ -703,3 +703,6 @@ mods.ItemStages.stageModItems("MachineryEra", "immersivetech");
 
 # StagginThermal Logistics
 mods.ItemStages.stageModItems("MachineryEra", "thermallogistics");
+
+# Staggin RFTools
+mods.ItemStages.stageModItems("MachineryEra", "rftools");

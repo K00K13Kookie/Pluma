@@ -1,6 +1,17 @@
-# Adding a Crafting Table Recipe that gets unlocked after crafting a table for the first time!
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																														 //
+//			Recipes being Unlocked with GameStages                                                                                           //
+//			         																														 //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//mods.recipestages.Recipes.addShapeless(String name, String stage, IItemStack output, IIngredient[] ingredients, @Optional IRecipeFunction function, @Optional IRecipeAction action);
+
+#######################################################
+##			         								 ##
+##	General Recipe Unlocks                           ##
+##			         								 ##
+#######################################################
+
+//Unlocking an Easier Craft for the Crafting Table
 mods.recipestages.Recipes.addShapeless("EasierCraftingTable", "EasierCraftingTable", <minecraft:crafting_table>, [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]);
 
 //Unlocking a easier alternative of Bricks
@@ -14,6 +25,12 @@ mods.recipestages.Recipes.addShapeless("EasierBlastBricks", <immersiveengineerin
 
 //Unlocking a easier alternative of Basic Workshop by using a Crafting Station and an Artisan's Hammer
 mods.recipestages.Recipes.addShapeless("EasierBasicWorkshop", <artisanworktables:workshop:5>, [<ore:craftingTableWood>, <ore:artisansHammer>.reuse().transformDamage(5), <ore:artisansHandsaw>.reuse().transformDamage(5)]);
+
+#######################################################
+##			         								 ##
+##	ProjectRed Recipe Unlocks                        ##
+##			         								 ##
+#######################################################
 
 // Conductive Plate
 mods.recipestages.Recipes.addShapeless("EasierProjectRed", <projectred-core:resource_item:1> * 2, [<projectred-core:resource_item>, <ore:dustRedstone>]);
@@ -34,7 +51,6 @@ mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resourc
 // Energized Silicon Chip
 mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resource_item:21> * 1, [[null, null, null], [null, <projectred-core:resource_item:341>, null],[<projectred-core:resource_item:0>, <projectred-core:resource_item:0>, <projectred-core:resource_item:0>]]);
 
-
 // Copper Coil
 mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resource_item:400> * 2, [[<ore:boltCopper>, <ore:stickSteel>, <ore:boltCopper>], [<ore:plateCopper>, <ore:stickSteel>, <ore:plateCopper>],[<ore:boltCopper>, <ore:stickSteel>, <ore:boltCopper>]]);
 // Iron Coil
@@ -44,9 +60,23 @@ mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resourc
 // Motor
 mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resource_item:410> * 1, [[null, <ore:gearInvar>, null], [<ore:plateBlackSteel>, <projectred-core:resource_item:400>, <ore:plateBlackSteel>],[<ore:plateRedAlloy>, <projectred-core:resource_item:400>, <ore:plateRedAlloy>]]);
 
+#######################################################
+##			         								 ##
+##	Storage Recipe Unlocks                           ##
+##			         								 ##
+#######################################################
+
 // Cache (Basic)
 mods.recipestages.Recipes.addShaped("EasierStorage", <thermalexpansion:cache:0> * 1, [[<ore:boltTin>, <ore:plateDenseTin>, <ore:boltTin>], [<ore:plateBismuth>, <immersiveengineering:wooden_device0:0>, <ore:plateBismuth>],[<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]]);
 
 // Chest
 mods.recipestages.Recipes.addShaped("EasierStorage", <minecraft:chest> * 1, [[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>], [<ore:plankTreatedWood>, <minecraft:stone_button>, <ore:plankTreatedWood>],[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>]]);
 
+#####################################################################################
+##			         								                               ##
+##	Late Chapter 2 Recipe Unlocks (Upon Completion of Chapter 2)                   ##
+##			         								                               ##
+#####################################################################################
+
+// Machine Base
+mods.recipestages.Recipes.addShaped("LateChapter2", <rftools:machine_base> * 2, [[null, null, null], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],[<ore:stone>, <ore:stone>, <ore:stone>]]);
