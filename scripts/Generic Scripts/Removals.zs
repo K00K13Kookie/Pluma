@@ -115,7 +115,6 @@ var ItensRemovidos as IItemStack[] = [
 <actuallyadditions:block_phantom_breaker>,
 <actuallyadditions:block_phantom_redstoneface>,
 <actuallyadditions:block_phantom_energyface>,
-<actuallyadditions:block_farmer>,
 <actuallyadditions:item_drill_upgrade_speed>,
 <actuallyadditions:item_drill_upgrade_speed_ii>,
 <actuallyadditions:item_drill_upgrade_speed_iii>,
@@ -205,6 +204,7 @@ var ItensRemovidos as IItemStack[] = [
 
 //Immersive Engineering
 <immersiveengineering:skyhook>,
+<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}),
 
 //Thermal Foundation
 <thermalfoundation:material:1027>,

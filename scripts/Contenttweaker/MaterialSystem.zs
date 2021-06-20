@@ -24,7 +24,7 @@ var ObsidianColor = Color.fromHex("3c1263") as Color;
 
 var Obsidian = MaterialSystem.getMaterialBuilder().setName("Obsidian").setColor(ObsidianColor).build();
 
-Obsidian.registerParts(["Ingot"] as string[]);
+Obsidian.registerParts(["Ingot", "Plate", "Rod", "Bolt", "Gear", "Nugget"] as string[]);
 
 /*
 

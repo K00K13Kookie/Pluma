@@ -3,6 +3,22 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
 
+### Arc Furnace Rod Overhaul ###
+
+//Removing Original Electrode Recipes
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
+
+//Renaming to make more sense
+<immersiveengineering:graphite_electrode>.displayName = "Carbon Electrode (Rod)";
+
+//Readding the Recipe using a Railcraft Electrode
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:graphite_electrode>, <railcraft:charge:9>, <immersiveengineering:mold:2>, 800, 1);
+
+//Adding an Additional Recipe using Obsdian to get a Reinforced One
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:graphite_electrode>.withTag({ench: [{lvl: 3 as short, id: 34 as short}], display: {Name: "Reinforced Electrode Rod"}}), <contenttweaker:obsidianelectrode>, <immersiveengineering:mold:2>, 1200, 1);
+
+
 ### Coal Coke OreDict Issues ###
 
 recipes.replaceAllOccurences(<gregtech:meta_item_1:8357>, <ore:fuelCoke>);
@@ -23,8 +39,7 @@ var IEBlueprints as IItemStack[] = [
 <immersiveengineering:blueprint>.withTag({blueprint: "components"}),
 <immersiveengineering:blueprint>.withTag({blueprint: "molds"}),
 <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),
-<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),
-<immersiveengineering:blueprint>.withTag({blueprint: "electrode"})
+<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"})
 ];
 
 for i in IEBlueprints {

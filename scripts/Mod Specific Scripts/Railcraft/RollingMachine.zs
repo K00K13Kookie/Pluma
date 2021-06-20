@@ -43,6 +43,13 @@ RollingMachine.addShaped(<railcraft:charge:10>, [
     [null, <ore:plateSilver>, null]
     ], 40);
 
+//Obsidian Electrode
+RollingMachine.addShaped(<contenttweaker:obsidianelectrode>, [
+    [null, <ore:plateObsidian>, null], 
+    [null, <forestry:thermionic_tubes:4>, null], 
+    [null, <ore:plateObsidian>, null]
+    ], 40);
+
 //Large Spool
 RollingMachine.remove(<railcraft:charge:4>);
 RollingMachine.addShaped(<railcraft:charge:4> * 2, [

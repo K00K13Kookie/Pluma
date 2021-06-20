@@ -789,3 +789,17 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansBurner>, 5)
   .addOutput(<gregtech:machine:2>)
   .create();
+
+//Actually Additions Farmer
+recipes.remove(<actuallyadditions:block_farmer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:screwBlackSteel>, <ore:plateVoid>, <ore:screwBlackSteel>],
+    [<ore:circuitBasic>, <actuallyadditions:block_misc:7>, <ore:plateVoid>],
+    [<ore:screwBlackSteel>, <ore:plateVoid>, <ore:screwBlackSteel>]])
+  .setFluid(<liquid:resin> * 500)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansDriver>, 5)
+  .addOutput(<actuallyadditions:block_farmer>)
+  .create();

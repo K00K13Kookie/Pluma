@@ -75,6 +75,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
+        "agricraft:agri_nugget:8",
         "thermalfoundation:material:196"
       ]
     },
@@ -292,6 +293,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.projectred.exploration.ore|3"
       ],
       "output": [
+        "agricraft:agri_nugget:4",
         "gregtech:meta_item_1:9018",
         "immersiveengineering:metal:20",
         "railcraft:nugget:1",
@@ -509,6 +511,7 @@
         "undergroundbiomes:tile.sedimentary_stone_iron_ore"
       ],
       "output": [
+        "agricraft:agri_nugget:3",
         "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0"
       ]
@@ -631,6 +634,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.lead"
       ],
       "output": [
+        "agricraft:agri_nugget:6",
         "gregtech:meta_item_1:9035",
         "immersiveengineering:metal:22",
         "railcraft:nugget:3",
@@ -763,6 +767,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.nickel"
       ],
       "output": [
+        "agricraft:agri_nugget:9",
         "gregtech:meta_item_1:9044",
         "immersiveengineering:metal:24",
         "railcraft:nugget:6",
@@ -812,6 +817,7 @@
         "undergroundbiomes:tile.sedimentary_stone_gregtech_ore_osmium_0"
       ],
       "output": [
+        "agricraft:agri_nugget:11",
         "gregtech:meta_item_1:9047"
       ]
     },
@@ -883,6 +889,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.platinum"
       ],
       "output": [
+        "agricraft:agri_nugget:10",
         "gregtech:meta_item_1:9051",
         "thermalfoundation:material:198"
       ]
@@ -1005,6 +1012,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.silver"
       ],
       "output": [
+        "agricraft:agri_nugget:7",
         "gregtech:meta_item_1:9062",
         "immersiveengineering:metal:23",
         "railcraft:nugget:4",
@@ -1154,6 +1162,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.tin"
       ],
       "output": [
+        "agricraft:agri_nugget:5",
         "gregtech:meta_item_1:9071",
         "railcraft:nugget:2",
         "thermalfoundation:material:193"

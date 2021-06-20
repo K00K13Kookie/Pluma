@@ -142,3 +142,66 @@ recipes.addShaped(<gregtech:machine_casing:6> * 1, [[<ore:plateLumium>, <ore:pla
 
 assembler.findRecipe(16, [<ore:plateChrome>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
 assembler.recipeBuilder().inputs([<ore:plateLumium> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing:6>]).duration(50).EUt(16).buildAndRegister();
+
+
+##### GregChests Overhaul #####
+
+// Bronze Chest
+recipes.remove(<gregtech:machine:802>);
+recipes.addShaped(<gregtech:machine:802> * 1, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <gregtech:meta_tool:8>, <ore:plateBronze>],[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateBronze> * 8])
+	.property("circuit", 8)
+    .outputs(<gregtech:machine:802>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+
+// Steel Chest
+recipes.remove(<gregtech:machine:803>);
+recipes.addShaped(<gregtech:machine:803> * 1, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <gregtech:meta_tool:8>, <ore:plateSteel>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateSteel> * 8])
+	.property("circuit", 8)
+    .outputs(<gregtech:machine:803>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+
+// Stainless Steel Chest
+recipes.remove(<gregtech:machine:804>);
+recipes.addShaped(<gregtech:machine:804> * 1, [[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>], [<ore:plateStainlessSteel>, <gregtech:meta_tool:8>, <ore:plateStainlessSteel>],[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateStainlessSteel> * 8])
+	.property("circuit", 8)
+    .outputs(<gregtech:machine:804>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+
+// Titanium Chest
+recipes.remove(<gregtech:machine:805>);
+recipes.addShaped(<gregtech:machine:805> * 1, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>], [<ore:plateTitanium>, <gregtech:meta_tool:8>, <ore:plateTitanium>],[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateTitanium> * 8])
+	.property("circuit", 8)
+    .outputs(<gregtech:machine:805>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+
+// TungstenSteel Chest
+recipes.remove(<gregtech:machine:806>);
+recipes.addShaped(<gregtech:machine:806> * 1, [[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>], [<ore:plateTungstenSteel>, <gregtech:meta_tool:8>, <ore:plateTungstenSteel>],[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateTungstenSteel> * 8])
+	.property("circuit", 8)
+    .outputs(<gregtech:machine:806>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();

@@ -6,8 +6,8 @@
 			blueprint: "molds"
 		}
 	},
-	x: -1.5d,
-	y: -11.0d,
+	x: -1.2d,
+	y: -9.5d,
 	shape: "square",
 	text: [
 		"Some Blueprints are special and you'll need to buy them at the Shop! but.. there are ones, the Vital ones for progression actually, that can be crafted in the",

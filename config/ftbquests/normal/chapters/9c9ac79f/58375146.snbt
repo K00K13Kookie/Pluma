@@ -1,8 +1,8 @@
 {
 	title: "Enhanced Steel Production?",
 	icon: "immersiveengineering:stone_device 1 2",
-	x: 1.533163265306115d,
-	y: -12.127551020408156d,
+	x: 1.95d,
+	y: -12.149999999999999d,
 	shape: "rsquare",
 	description: "Yeah, you're going to need a LOT of steel as you progress",
 	text: [

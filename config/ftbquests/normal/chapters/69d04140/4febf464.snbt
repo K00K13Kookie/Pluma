@@ -1,0 +1,35 @@
+{
+	title: "But how do I Breed them?",
+	icon: "agricraft:clipping",
+	x: 10.8d,
+	y: -8.5d,
+	shape: "rsquare",
+	description: "It is actually pretty simple",
+	text: [
+		"First of all, §2§lCrop Sticks§r§f are required when handling AgriCraft Crops, but most importantly, if you  §2§lRight click with a Crop Stick in an Already placed one§r§f, it §2§lwill make a Cross§r§f.",
+		"",
+		"If you have  §d§l2 Crops§r§f and an §d§lEmpty Farmland§r§f with a §d§lCross Between them§r§f, there's a chance that those crops will  §d§lbreed§r§f and generate another seed there.",
+		"",
+		"Whenever you §d§lbreed 2 Crops§r§f, the resulted one will have a chance §d§lto increse it stats§r§f.",
+		"",
+		"Also, if you leave some Crop Sticks empty (especially if you don't have enough seeds for all of them) the §e§lcrops can multiply themselves over time (you can force it with Bone Meal)§r§f.",
+		"",
+		"Oh, and it is §6§lCompatible with§r§f other §6§lMods \"Bone Meals\"§r§f you just need to §6§lShift right click§r§f in order to use them (Forestry Fertilizer for example)."
+	],
+	dependencies: [
+		"e4c913af"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "0db6c475",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "06e01fa4",
+		type: "item",
+		auto: "no_toast",
+		item: "forestry:fertilizer_compound",
+		count: 16
+	}]
+}

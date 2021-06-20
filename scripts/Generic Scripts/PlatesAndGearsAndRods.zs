@@ -290,6 +290,7 @@ recipes.addShaped(<thermalfoundation:material:322>, [[<gregtech:meta_tool:6>], [
 
 // Lead Plates =======================================================================================================================================
 recipes.addShaped(<thermalfoundation:material:323>, [[<gregtech:meta_tool:6>], [<ore:ingotLead>], [<ore:ingotLead>]]);
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13035>, <ore:plateLead>, <immersiveengineering:mold>, 80, 9);
 
 // Aluminum Plates =======================================================================================================================================
 recipes.addShaped(<thermalfoundation:material:324>, [[<gregtech:meta_tool:6>], [<ore:ingotAluminum>], [<ore:ingotAluminum>]]);

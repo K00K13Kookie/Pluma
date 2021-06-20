@@ -97,6 +97,10 @@ violetCrystal.register();
 var menrilSheet = VanillaFactory.createItem("menrilSheet");
 menrilSheet.register();
 
+//Obsidian  ================================================================================
+var obsidianElectrode = VanillaFactory.createItem("obsidianElectrode");
+obsidianElectrode.register();
+
 #############   Kitchen Utensils
 
 // Empty Bag ================================================================================
