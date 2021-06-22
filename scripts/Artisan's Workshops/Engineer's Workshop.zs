@@ -794,12 +794,12 @@ RecipeBuilder.get("engineer")
 recipes.remove(<actuallyadditions:block_farmer>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:screwBlackSteel>, <ore:plateVoid>, <ore:screwBlackSteel>],
-    [<ore:circuitBasic>, <actuallyadditions:block_misc:7>, <ore:plateVoid>],
-    [<ore:screwBlackSteel>, <ore:plateVoid>, <ore:screwBlackSteel>]])
+    [<ore:plateBlackSteel>, <ore:gearVoid>, <ore:plateBlackSteel>],
+    [<ore:plateVoid>, <actuallyadditions:block_misc:7>, <ore:plateVoid>],
+    [<ore:plateBlackSteel>, <ore:circuitBasic>, <ore:plateBlackSteel>]])
   .setFluid(<liquid:resin> * 500)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<actuallyadditions:block_farmer>)
   .create();

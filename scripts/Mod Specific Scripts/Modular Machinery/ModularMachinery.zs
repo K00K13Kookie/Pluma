@@ -30,7 +30,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:screwModularium>, <ore:plateDiamond>, <ore:screwModularium>],
     [<ore:plateDiamond>, <modularmachinery:blockcasing>, <ore:plateDiamond>],
-    [<ore:screwModularium>, <immersiveengineering:material:27>, <ore:screwModularium>]])
+    [<ore:screwModularium>, <ore:circuitBasic>, <ore:screwModularium>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSolderer>, 2)
@@ -41,9 +41,9 @@ RecipeBuilder.get("engineer")
 recipes.remove(<modularmachinery:blockcasing:5>); 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltBlackBronze>, <ore:circuitPrimitive>, <ore:boltBlackBronze>],
-    [<ore:circuitPrimitive>, <modularmachinery:blockcasing:4>, <ore:circuitPrimitive>],
-    [<ore:boltBlackBronze>, <ore:circuitPrimitive>, <ore:boltBlackBronze>]])
+    [<ore:boltBlackBronze>, <ore:circuitBasic>, <ore:boltBlackBronze>],
+    [<ore:circuitBasic>, <modularmachinery:blockcasing:4>, <ore:circuitBasic>],
+    [<ore:boltBlackBronze>, <ore:circuitBasic>, <ore:boltBlackBronze>]])
   .addTool(<ore:artisansSpanner>, 2)
   .addTool(<ore:artisansLens>, 2)
   .addTool(<ore:artisansSolderer>, 5)

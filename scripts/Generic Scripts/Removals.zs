@@ -18,13 +18,6 @@ var ItensRemovidos as IItemStack[] = [
 <chesttransporter:chesttransporter_tin>,
 <chesttransporter:chesttransporter_gold>,
 
-//TheOneProbe
-<theoneprobe:probe>,
-<theoneprobe:creativeprobe>,
-<theoneprobe:diamond_helmet_probe>,
-<theoneprobe:gold_helmet_probe>,
-<theoneprobe:iron_helmet_probe>,
-
 //Pyrotech Stuff
 <pyrotech:redstone_hoe>,
 <pyrotech:redstone_axe>,
