@@ -18,6 +18,16 @@ var ItensRemovidos as IItemStack[] = [
 <chesttransporter:chesttransporter_tin>,
 <chesttransporter:chesttransporter_gold>,
 
+//Solar Flux Reborn
+<solarflux:blank_upgrade>,
+<solarflux:efficiency_upgrade>,
+<solarflux:transfer_rate_upgrade>,
+<solarflux:capacity_upgrade>,
+<solarflux:traversal_upgrade>,
+<solarflux:dispersive_upgrade>,
+<solarflux:block_charging_upgrade>,
+<solarflux:furnace_upgrade>,
+
 //Pyrotech Stuff
 <pyrotech:redstone_hoe>,
 <pyrotech:redstone_axe>,
