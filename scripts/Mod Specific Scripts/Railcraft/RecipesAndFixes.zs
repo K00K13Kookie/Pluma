@@ -107,5 +107,5 @@ recipes.addShaped(<railcraft:tank_steel_wall> * 4, [[null, <ore:blockSheetmetalS
 
 // Steam Oven
 recipes.remove(<railcraft:steam_oven:0>);
-recipes.addShaped(<railcraft:steam_oven:0> * 4, [[<ore:densePlateBlackBronze>, <ore:plateBismuthBronze>, <ore:densePlateBlackBronze>], [<ore:plateBismuthBronze>, <gregtech:machine:15>, <ore:plateBismuthBronze>],[<ore:densePlateBlackBronze>, <ore:plateBismuthBronze>, <ore:densePlateBlackBronze>]]);
+recipes.addShaped(<railcraft:steam_oven:0> * 4, [[<ore:plateBlackBronze>, <ore:plateBismuthBronze>, <ore:plateBlackBronze>], [<ore:plateBismuthBronze>, <gregtech:machine:15>, <ore:plateBismuthBronze>],[<ore:plateBlackBronze>, <ore:plateBismuthBronze>, <ore:plateBlackBronze>]]);
 

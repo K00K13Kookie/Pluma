@@ -1,8 +1,9 @@
 {
 	title: "Chopping even more!",
 	icon: "minecraft:wooden_slab",
-	x: -8.0d,
-	y: -6.0d,
+	x: -3.0d,
+	y: 2.0d,
+	shape: "square",
 	text: [
 		"Besides making Planks, Chopping blocks can also be used to process more items! and in this case, chop a Plank down to get a Slab out of it!"
 	],

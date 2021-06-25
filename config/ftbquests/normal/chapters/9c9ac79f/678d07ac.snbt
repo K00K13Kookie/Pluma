@@ -1,8 +1,8 @@
 {
 	title: "Getting your hands Sticky!",
 	icon: "gregtech:meta_item_1 1 32627",
-	x: 1.1d,
-	y: -8.5d,
+	x: 15.735034013605429d,
+	y: -1.5282312925170203d,
 	shape: "square",
 	description: "Time to get Rubber!",
 	text: [

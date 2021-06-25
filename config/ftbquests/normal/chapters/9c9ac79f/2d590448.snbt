@@ -1,7 +1,7 @@
 {
 	title: "Charging and Discharging",
-	x: 9.0d,
-	y: -12.0d,
+	x: 34.5d,
+	y: -8.0d,
 	shape: "rsquare",
 	text: [
 		"The Energizer will charge items with Energy and the Enervator will take energy from items and store it in its buffer."

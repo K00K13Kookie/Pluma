@@ -7,8 +7,8 @@
 		},
 		Damage: 2s
 	},
-	x: -2.4613945578231267d,
-	y: -14.277891156462594d,
+	x: 26.0d,
+	y: 2.5d,
 	shape: "square",
 	description: "Let's build a Forestry Farm!",
 	text: [

@@ -1,8 +1,8 @@
 {
 	title: "Resources out of Rocks?",
-	x: 0.0d,
-	y: -7.0d,
-	shape: "hexagon",
+	x: 15.75d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"The Rock crusher does exactly that! it crushed items to get dusts and other components out of them! right now you can use it to get some special dusts to further proceed in the Pack!",
 		"",
@@ -12,7 +12,7 @@
 		"999c1b7c"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "abb617ee",
 		type: "item",

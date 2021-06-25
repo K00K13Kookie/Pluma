@@ -1,8 +1,8 @@
 {
 	title: "Early game Alchemy",
 	icon: "rustic:condenser",
-	x: 18.0d,
-	y: -9.0d,
+	x: 29.21394557823121d,
+	y: 2.013435374149644d,
 	shape: "square",
 	description: "A Way to heal yourself and improved your life!",
 	text: [
@@ -12,6 +12,7 @@
 		"7323d690"
 	],
 	hide: true,
+	size: 1.5d,
 	tasks: [{
 		uid: "38d2c8c5",
 		type: "item",

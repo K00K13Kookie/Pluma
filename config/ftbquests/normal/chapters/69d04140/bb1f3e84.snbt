@@ -1,8 +1,8 @@
 {
 	title: "Even Better Machines!",
-	x: 13.017006802721085d,
-	y: -3.514455782312929d,
-	shape: "gear",
+	x: 21.482312925170056d,
+	y: 2.005272108843535d,
+	shape: "square",
 	text: [
 		"Now that you have Refractory Bricks, maybe making these Upgraded Machines will help you along your Journey!",
 		"",
@@ -14,7 +14,7 @@
 		"e116ff07"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "a4127356",
 		type: "item",

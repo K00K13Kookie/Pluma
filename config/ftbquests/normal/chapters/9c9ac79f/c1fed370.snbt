@@ -1,15 +1,17 @@
 {
 	title: "The Arc Furnace!",
 	icon: "immersiveengineering:metal_multiblock 1 13",
-	x: 0.006802721088433827d,
-	y: -14.240816326530613d,
-	shape: "hexagon",
+	x: 26.0d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"Without doubt, The Arc furnace will be as usefull as the Metal Press in this Stage! you're going to be using it to Alloy Metals and make other Components that require a high temperature."
 	],
-	hide_dependency_lines: true,
+	dependencies: [
+		"75575132"
+	],
 	hide: true,
-	size: 4.0d,
+	size: 2.0d,
 	tasks: [{
 		uid: "7e43e880",
 		type: "item",

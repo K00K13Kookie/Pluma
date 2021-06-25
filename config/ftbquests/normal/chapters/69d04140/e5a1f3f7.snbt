@@ -1,7 +1,8 @@
 {
 	title: "Stone Tools!",
-	x: -2.0d,
-	y: -7.0d,
+	x: 11.0d,
+	y: 0.5d,
+	shape: "square",
 	description: "Finally some decent Mining!",
 	text: [
 		"Now that you have Masonry Bricks, it is time to make some Stone Tools! they're much better than the ones that you currently have."

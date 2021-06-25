@@ -1,8 +1,8 @@
 {
 	title: "Early game Storage Solution",
 	icon: "thermallogistics:terminal_item",
-	x: -24.75d,
-	y: -19.25d,
+	x: 47.0d,
+	y: -5.5d,
 	shape: "rsquare",
 	description: "Thermal Logistics!",
 	text: [

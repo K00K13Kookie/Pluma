@@ -1,16 +1,16 @@
 {
 	title: "Faster Fire Starting!",
-	x: -5.0d,
-	y: -8.5d,
-	shape: "square",
+	x: 0.5d,
+	y: 0.0d,
+	shape: "rsquare",
 	text: [
 		"You can't make a regular Flint and Steel right now, but, why not Make Matchsticks? They offer you a faster Fire Starting at a moderate cost, you can make them basically by \"Macerating\" Sand with your Current tools."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"1a9ebb00"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "d4c3ea9d",
 		type: "item",

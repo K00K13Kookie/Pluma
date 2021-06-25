@@ -1,8 +1,8 @@
 {
 	title: "Interacting with Blocks!",
 	icon: "actuallyadditions:block_breaker",
-	x: 5.0d,
-	y: -14.0d,
+	x: 31.5d,
+	y: -6.0d,
 	shape: "rsquare",
 	text: [
 		"These \"Special\" Machines are capable of Breaking and actually Placing blocks! Maybe they can be used in your Automations."

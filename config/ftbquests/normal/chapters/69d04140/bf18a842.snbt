@@ -1,8 +1,9 @@
 {
 	title: "Getting Smooth Stone!",
 	icon: "minecraft:stone",
-	x: -2.5d,
-	y: -4.0d,
+	x: 6.5d,
+	y: 0.5d,
+	shape: "square",
 	text: [
 		"Smelting stone takes some time in the Pit Kiln and also can fail! I recommend that you make at least 2 Pit holes to guarantee that you get enough stone."
 	],

@@ -1,7 +1,7 @@
 {
 	title: "A Good way to Transfer Stuff!",
-	x: -2.9d,
-	y: -11.0d,
+	x: 22.5d,
+	y: 1.5d,
 	shape: "square",
 	description: "Where's Thermal Dynamics for 1.16?",
 	text: [

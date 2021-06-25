@@ -1,9 +1,9 @@
 {
 	title: "Lets Cook Something!",
 	icon: "pyrotech:campfire",
-	x: -4.974829931972813d,
-	y: -7.247959183673494d,
-	shape: "rsquare",
+	x: 2.0d,
+	y: -1.5d,
+	shape: "square",
 	text: [
 		"The Campfire is very important in the Early game, it is going to be your way to Cook the Meat and/or Other foods to also increase the Saturation that you'll get from them.",
 		"",
@@ -19,11 +19,9 @@
 		"And also, PAY ATTENTION! your food can actually burn if you don't collect it on the Right time."
 	],
 	dependencies: [
-		"04bde3fc",
 		"1a9ebb00"
 	],
 	hide: true,
-	size: 1.5d,
 	tasks: [{
 		uid: "820093ab",
 		type: "item",

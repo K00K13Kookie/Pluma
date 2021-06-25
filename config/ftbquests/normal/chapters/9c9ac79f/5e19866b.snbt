@@ -1,7 +1,7 @@
 {
 	title: "AutoCrafting?",
-	x: 14.0d,
-	y: -18.0d,
+	x: 40.0d,
+	y: -3.5d,
 	shape: "rsquare",
 	description: "Extremely usefull for Batch Crafting!",
 	text: [

@@ -1,9 +1,9 @@
 {
 	title: "A Brief Explanation About Researches",
 	icon: "ftbquests:book",
-	x: -9.0d,
+	x: -8.0d,
 	y: -4.0d,
-	shape: "pentagon",
+	shape: "diamond",
 	description: "Learn about how they work",
 	text: [
 		"First of all, by completing a Research you'll imediatly unlock content related to it but there's a little bit more into it as:",

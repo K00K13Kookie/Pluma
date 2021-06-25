@@ -1,8 +1,8 @@
 {
 	title: "Go get yourself a Cup of Coffee! you Deserve it!",
 	icon: "actuallyadditions:block_coffee_machine",
-	x: 7.0d,
-	y: -14.0d,
+	x: 33.0d,
+	y: -6.0d,
 	shape: "rsquare",
 	description: "Finally a Decent Quest to Complete!",
 	text: [

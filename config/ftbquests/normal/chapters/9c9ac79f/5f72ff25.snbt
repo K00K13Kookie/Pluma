@@ -1,7 +1,7 @@
 {
 	title: "Moving Items Around!",
-	x: 1.1d,
-	y: -9.5d,
+	x: 15.71122448979591d,
+	y: -2.861564625850349d,
 	shape: "square",
 	description: "Finally some sort of Automation!",
 	text: [

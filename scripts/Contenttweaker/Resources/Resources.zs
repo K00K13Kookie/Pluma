@@ -164,5 +164,9 @@ rawricebread.register();
 var rawbaguette = VanillaFactory.createItemFood("rawbaguette", 1);
 rawbaguette.register();
 
+// Blank Shape Card ================================================================================
+var BlankShapeCard = VanillaFactory.createItem("BlankShapeCard");
+BlankShapeCard.register();
+
 print("--------------- Custom Resources End ------------------");
 

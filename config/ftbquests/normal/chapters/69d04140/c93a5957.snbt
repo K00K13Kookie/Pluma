@@ -1,8 +1,9 @@
 {
 	title: "Making Bronze",
 	icon: "thermalfoundation:material 1 163",
-	x: 16.054761904761904d,
-	y: -10.877380952380946d,
+	x: 31.5d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"With your brand new Alloy Kiln, lets make some Bronze!"
 	],

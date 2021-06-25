@@ -1,8 +1,8 @@
 {
 	title: "Blacksmith's Workshop",
 	icon: "artisanworktables:workshop 1 3",
-	x: 16.0d,
-	y: -6.0d,
+	x: 27.0d,
+	y: 0.0d,
 	shape: "square",
 	text: [
 		"The Blacksmith's table is a very important way to craft in the Pack, you'll gonna be making almost all of your Armor Sets here in this table, also, in the Early game you'll gonna be making Iron/Metal Stuff here."
@@ -13,7 +13,7 @@
 		"86a49b56"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "971b7a09",
 		type: "item",

@@ -1,7 +1,7 @@
 {
 	title: "Welcome to a New Era!",
 	icon: "thermalfoundation:material 1 288",
-	x: 0.0d,
+	x: 4.0d,
 	y: 0.0d,
 	shape: "octagon",
 	text: [
@@ -11,7 +11,7 @@
 		"7269d3bb"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "5565d3e3",
 		type: "gamestage",

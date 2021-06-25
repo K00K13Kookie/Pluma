@@ -1,9 +1,9 @@
 {
 	title: "Making use of Gravel!",
 	icon: "minecraft:gravel",
-	x: -5.0d,
-	y: -5.0d,
-	shape: "rsquare",
+	x: 2.0d,
+	y: 2.0d,
+	shape: "square",
 	text: [
 		"Now lets get some Gravel! you can use it to get flint! 3 gravels = 1 flint",
 		"after that, simply place 1 flint in your Chopping Block and lets get Flint Shards!"

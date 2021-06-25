@@ -1,8 +1,9 @@
 {
 	title: "How does Ore Generation Work?",
 	icon: "gregtech:ore_lepidolite_0",
-	x: -0.5d,
-	y: -7.0d,
+	x: 11.0d,
+	y: -0.5d,
+	shape: "rsquare",
 	description: "Read for tips about how to Mine in the Pack",
 	text: [
 		"First of all, I'll be clear, There's GregTech on the Pack and all of the Veins have been tweaked! so they'll spawn more often, they're not spammed, but keep in mind that there are some exclusive ores on some of them.",

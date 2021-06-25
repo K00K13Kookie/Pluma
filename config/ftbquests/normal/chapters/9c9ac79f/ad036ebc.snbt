@@ -7,8 +7,8 @@
 		},
 		Damage: 3s
 	},
-	x: -4.002210884353765d,
-	y: -14.304761904761946d,
+	x: 28.0d,
+	y: 2.5d,
 	shape: "square",
 	description: "By default you'll get an Arboretum, how can I change it?",
 	text: [

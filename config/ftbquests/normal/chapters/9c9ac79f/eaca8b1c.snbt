@@ -17,8 +17,8 @@
 		},
 		Damage: 3s
 	},
-	x: 4.0d,
-	y: -17.0d,
+	x: 29.5d,
+	y: -4.5d,
 	shape: "square",
 	text: [
 		"You've got yourself some Sticky Resing out of Tree right? why not actually \"Automate\" de Process? by using an Arboreal Extractor, you'll get Sap! right now you can't solidify it into Rubber, but further on You'll be capable of it!",

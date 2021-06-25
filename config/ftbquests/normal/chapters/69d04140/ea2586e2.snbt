@@ -1,8 +1,8 @@
 {
 	title: "Blasting up Some Steel!",
 	icon: "immersiveengineering:stone_device 1 1",
-	x: 12.51190476190476d,
-	y: -10.877380952380939d,
+	x: 33.75d,
+	y: 0.0d,
 	shape: "square",
 	text: [
 		"The Blast furnace is a Multiblock structure just like the Coke Oven that you've build before, 3x3x3. but this furnace is much more special! it will consume Coke coal as a Burnable and it will convert Iron into Steel!"
@@ -11,7 +11,7 @@
 		"c93a5957"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "dcc69dd8",
 		type: "item",

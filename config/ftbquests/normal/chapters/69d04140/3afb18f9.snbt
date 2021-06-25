@@ -1,12 +1,13 @@
 {
 	title: "Your first Tools!",
 	icon: "pyrotech:crude_axe",
-	x: -8.0d,
-	y: -4.0d,
+	x: -6.0d,
+	y: 2.0d,
+	shape: "square",
 	text: [
 		"This Pack has a Special Custom Tool Progression system! so after completing this quest, take a look at a New Quest Chapter! the Tool Progression one!",
 		"",
-		"- Craft some Crude tools, they'll be your intial way to get some resources!",
+		"§a- Craft some Crude tools, they'll be your intial way to get some resources!§f",
 		"",
 		"§oBut watch out, You can't craft a Sword yet!§r"
 	],

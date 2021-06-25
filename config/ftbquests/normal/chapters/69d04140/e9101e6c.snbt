@@ -1,18 +1,16 @@
 {
 	title: "A Big Workshop!",
 	icon: "artisanworktables:workshop 1 5",
-	x: 4.5d,
-	y: -2.25d,
-	shape: "hexagon",
+	x: 14.0d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"In this Pack, you'll need some Special tables to craft certain things troughout your journey! and the Basic Workshop is going to be your friend when crafting these Special Tables!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"8621f2f6"
 	],
 	hide: true,
-	size: 1.5d,
 	tasks: [{
 		uid: "545c159f",
 		type: "item",

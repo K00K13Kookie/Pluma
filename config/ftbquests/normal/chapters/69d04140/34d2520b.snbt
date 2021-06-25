@@ -1,8 +1,9 @@
 {
 	title: "Granite is Actually very Important!",
 	icon: "minecraft:stone 1 1",
-	x: -2.5d,
-	y: -5.0d,
+	x: 8.0d,
+	y: 0.5d,
+	shape: "square",
 	text: [
 		"Granite has a Special use here in this Pack, You're gonna be using it to get a Granite Anvil!",
 		"",
@@ -10,7 +11,6 @@
 		"",
 		"- Get some Cobblestone Slabs and also convert them into Stone slabs by smelting them in the Pit Kiln that you've got recently."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"bf18a842"
 	],

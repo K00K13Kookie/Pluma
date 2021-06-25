@@ -1,9 +1,9 @@
 {
 	title: "The Metal Press!",
 	icon: "immersiveengineering:metal_multiblock",
-	x: 0.0d,
-	y: -11.0d,
-	shape: "hexagon",
+	x: 22.5d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"Now that you have Acess to it, Make yourself a Metal Press! it is INSANELY useful in this Era. It will provide you cheaper ways to make all of your Crafting Components."
 	],
@@ -13,7 +13,7 @@
 		"5f72ff25"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "5cea62ad",
 		type: "item",

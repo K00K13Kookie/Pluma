@@ -1,8 +1,9 @@
 {
 	title: "Early game Automations",
 	icon: "pyrotech:mechanical_hopper",
-	x: -0.5d,
-	y: -6.0d,
+	x: 9.5d,
+	y: -0.5d,
+	shape: "rsquare",
 	description: "A Mechanical Hopper!",
 	text: [
 		"Normal Hoppers are kinda Expensive on the Early game, by why not make an Mechanical Hopper? it can be made easily with Masonry Bricks and some Wood",

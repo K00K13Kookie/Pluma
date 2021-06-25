@@ -1,8 +1,8 @@
 {
 	title: "RF --> Charge?",
 	icon: "railcraft:flux_transformer",
-	x: -1.5d,
-	y: -7.0d,
+	x: 14.0d,
+	y: -1.5d,
 	shape: "square",
 	text: [
 		"You're going to be using some special machines from Railcraft from now on, but, Railcraft utilizes his own Energy Metric, Charge! the Flux Transformer is a 2x2x2 Multiblock structure capable of Converting RF to Charge."

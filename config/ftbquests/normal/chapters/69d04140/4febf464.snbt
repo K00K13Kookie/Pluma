@@ -1,8 +1,8 @@
 {
 	title: "But how do I Breed them?",
 	icon: "agricraft:clipping",
-	x: 10.8d,
-	y: -8.5d,
+	x: 23.5d,
+	y: -5.5d,
 	shape: "rsquare",
 	description: "It is actually pretty simple",
 	text: [

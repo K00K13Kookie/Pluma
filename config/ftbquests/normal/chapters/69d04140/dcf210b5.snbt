@@ -1,8 +1,9 @@
 {
 	title: "A Special Type of Stone!",
 	icon: "pyrotech:limestone",
-	x: 10.0d,
-	y: -6.0d,
+	x: 21.5d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"Limestone is a Special type of stone that you'll gonna be using in order to craft special blocks/\"machines\" from Pyrotech.",
 		"",

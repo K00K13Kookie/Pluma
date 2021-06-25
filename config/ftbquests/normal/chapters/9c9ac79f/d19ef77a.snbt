@@ -1,8 +1,8 @@
 {
 	title: "Even moar Power!",
 	icon: "immersiveengineering:wirecoil 1 2",
-	x: 1.5d,
-	y: -7.0d,
+	x: 8.5d,
+	y: -4.5d,
 	shape: "square",
 	text: [
 		"And now, congratulations, if you need these wires to transfer your power arround, you're generating a LOT of RF! they are used in some craftings too so Win Win",

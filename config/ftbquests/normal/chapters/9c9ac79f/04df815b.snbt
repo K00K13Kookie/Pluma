@@ -1,8 +1,8 @@
 {
 	title: "Generating Energy with Steam I",
 	icon: "thermalexpansion:augment 1 640",
-	x: -11.25d,
-	y: -15.0d,
+	x: 34.914285714285725d,
+	y: 2.6074829931973156d,
 	shape: "square",
 	description: "Lets make a Turbine!",
 	text: [

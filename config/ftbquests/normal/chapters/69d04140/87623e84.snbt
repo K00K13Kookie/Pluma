@@ -1,12 +1,12 @@
 {
 	title: "Masonry Bricks!",
 	icon: "pyrotech:material 1 16",
-	x: -2.0d,
-	y: -6.0d,
+	x: 9.5d,
+	y: 0.5d,
+	shape: "square",
 	text: [
 		"By crafting Stone bricks and them converting them into Slabs using the Granite Anvil, you can also Use the Anvil Again to get Masonry Bricks! they're a very essential material that you'll be using to construct Early Game machines and also Stone Tools!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"34d2520b"
 	],

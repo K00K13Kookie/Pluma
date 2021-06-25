@@ -1,8 +1,8 @@
 {
 	title: "The Engineer's Workshop!",
 	icon: "artisanworktables:workshop 1 6",
-	x: 16.0d,
-	y: -13.0d,
+	x: 33.75d,
+	y: -1.5d,
 	shape: "square",
 	text: [
 		"This Table will basically be the one for your Technological Needs. you gonna be crafting Redstone related here aswell."
@@ -11,7 +11,7 @@
 		"c93a5957"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "f9015b00",
 		type: "item",

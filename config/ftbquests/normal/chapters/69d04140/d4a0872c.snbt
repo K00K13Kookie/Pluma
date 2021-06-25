@@ -1,8 +1,9 @@
 {
 	title: "Finally a Decent Crafting Table!",
 	icon: "minecraft:crafting_table",
-	x: 9.569047619047623d,
-	y: -2.2345238095238003d,
+	x: 25.0d,
+	y: -5.5d,
+	shape: "rsquare",
 	text: [
 		"Now that you have acess to the Carpenter's Workshop, you can work towards having a normal crafting table and even a Crafting Station!",
 		"",

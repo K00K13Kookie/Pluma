@@ -1,20 +1,19 @@
 {
 	title: "The Worktable!",
 	icon: "pyrotech:worktable",
-	x: -5.019727891156485d,
-	y: -2.0207482993197416d,
-	shape: "hexagon",
+	x: -1.3037414965986684d,
+	y: 1.9882653061224644d,
+	shape: "square",
 	text: [
 		"Crafting Tables are Expensive, in the Start of the Pack you'll be crafting your Items using this Special Table! in order to craft something on it, simply place the desired items on it (right clicking on the correct squares) and them smashing it with a hammer to make the progress bar go up!",
 		"",
 		"Now you know why i've asked you to make a Crude Hammer :)"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"924627e8"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "535787f8",
 		type: "item",

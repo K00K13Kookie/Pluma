@@ -1,8 +1,8 @@
 {
 	title: "The process of making a Parchment!",
 	icon: "contenttweaker:parchment",
-	x: -2.9d,
-	y: -9.5d,
+	x: 20.0d,
+	y: -1.5d,
 	shape: "square",
 	text: [
 		"Perhaps you didn't noticed yet but, once you kill an Animal, you'll get his Hide! not the leather! to get leather you'll need to treat it with Salt, Drying it, and even Tanning it! but, Parchment comes from a specific stage of this whole process to produce leather! get some Dried Hide and actually mash it with a hammer! you'll get some Parchments."

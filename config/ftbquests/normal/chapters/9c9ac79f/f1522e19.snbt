@@ -1,8 +1,8 @@
 {
 	title: "Enhancing Bronze Again!",
 	icon: "gregtech:meta_item_1 1 10230",
-	x: 0.0d,
-	y: -17.0d,
+	x: 26.0d,
+	y: -4.5d,
 	shape: "square",
 	description: "Also Rember to Always research for New Tech! (Some Quests may be hidden behind them)",
 	text: [
@@ -32,25 +32,26 @@
 		}]
 	},
 	{
-		uid: "4580039c",
+		uid: "fc2a7c26",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				Parent: {
-					data: "ingotBismuth",
+					data: "dustBrass",
 					id: "ore"
 				}
 			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any ingotBismuth"
+					Name: "Any dustBrass"
 				}
 			}
-		}]
+		}],
+		count: 4L
 	},
 	{
-		uid: "0c3f5c7e",
+		uid: "73ec89ad",
 		type: "item",
 		items: [{
 			ForgeCaps: {

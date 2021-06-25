@@ -1,8 +1,8 @@
 {
 	title: "Alchemical Rings?",
 	icon: "actuallyadditions:item_potion_ring",
-	x: 9.0d,
-	y: -13.0d,
+	x: 34.5d,
+	y: -7.0d,
 	shape: "rsquare",
 	description: "When Potions aren't Enough",
 	text: [

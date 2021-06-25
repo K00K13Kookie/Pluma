@@ -322,3 +322,42 @@ recipes.addShaped(<rftools:rf_monitor> * 1, [[<ore:plateElectrotineAlloy>, <ore:
 recipes.remove(<rftools:relay>);
 recipes.addShaped(<rftools:relay> * 1, [[<ore:foilGold>, <minecraft:redstone_torch>, <ore:foilGold>], [<ore:foilGold>, <gregtech:machine:501>, <ore:foilGold>],[<ore:foilGold>, <minecraft:redstone_torch>, <ore:foilGold>]]);
 
+// Blank Shape Card
+recipes.addShaped(<contenttweaker:blankshapecard> * 1, [[<ore:plateApatite>, <ore:plateBoron>, <ore:plateApatite>], [<ore:plateBoron>, <gregtech:meta_item_1:32300>, <ore:plateBoron>],[<ore:plateApatite>, <ore:plateBoron>, <ore:plateApatite>]]);
+
+//Shape Card Basic
+recipes.remove(<rftools:shape_card>);
+recipes.addShapeless("BasicShapeCard", <rftools:shape_card>, [<contenttweaker:blankshapecard>, <ore:blockBrick>]);
+
+//Shape Card Void
+recipes.remove(<rftools:shape_card:1>);
+recipes.addShapeless("VoidShapeCard", <rftools:shape_card:1>, [<contenttweaker:blankshapecard>, <ore:dustVoid>]);  
+
+//Shape Card Pump
+recipes.removeByRecipeName("rftools:shape_card_pump");
+recipes.addShapeless("PumpShapeCard", <rftools:shape_card:8>, [<contenttweaker:blankshapecard>, <immersiveengineering:metal_device0:5>]); 
+
+// Powercell (Low)
+recipes.remove(<rftoolspower:cell1>);
+recipes.addShaped(<rftoolspower:cell1> * 1, [[<ore:plateBismuth>, <rftoolspower:power_core1>, <ore:plateBismuth>], [<rftoolspower:power_core1>, <actuallyadditions:block_misc:9>, <rftoolspower:power_core1>],[<ore:plateBismuth>, <rftoolspower:power_core1>, <ore:plateBismuth>]]);
+
+// Power Core (Low)
+recipes.remove(<rftoolspower:power_core1>);
+recipes.addShaped(<rftoolspower:power_core1> * 4, [[<ore:plateRedAlloy>, <ore:plateBatteryAlloy>, <ore:plateRedAlloy>], [<ore:plateBatteryAlloy>, <ore:gearDiamond>, <ore:plateBatteryAlloy>],[<ore:plateRedAlloy>, <ore:plateBatteryAlloy>, <ore:plateRedAlloy>]]);
+
+// Power Core (Medium)
+recipes.remove(<rftoolspower:power_core2>);
+recipes.addShaped(<rftoolspower:power_core2> * 4, [[<ore:plateRuby>, <ore:plateBatteryAlloy>, <ore:plateRuby>], [<ore:plateBatteryAlloy>, <ore:gearDiamond>, <ore:plateBatteryAlloy>],[<ore:plateRuby>, <ore:plateBatteryAlloy>, <ore:plateRuby>]]);
+
+// Powercell (Medium)
+recipes.remove(<rftoolspower:cell2>);
+recipes.addShaped(<rftoolspower:cell2> * 1, [[<ore:plateVanadiumSteel>, <rftoolspower:power_core2>, <ore:plateVanadiumSteel>], [<rftoolspower:power_core2>, <actuallyadditions:block_misc:7>, <rftoolspower:power_core2>],[<ore:plateVanadiumSteel>, <rftoolspower:power_core2>, <ore:plateVanadiumSteel>]]);
+
+// Power Core (High)
+recipes.remove(<rftoolspower:power_core3>);
+recipes.addShaped(<rftoolspower:power_core3> * 4, [[<ore:plateRutile>, <ore:plateBatteryAlloy>, <ore:plateRutile>], [<ore:plateBatteryAlloy>, <ore:gearDimensionalShard>, <ore:plateBatteryAlloy>],[<ore:plateRutile>, <ore:plateBatteryAlloy>, <ore:plateRutile>]]);
+
+// Powercell (High)
+recipes.remove(<rftoolspower:cell3>);
+recipes.addShaped(<rftoolspower:cell3> * 1, [[<ore:plateTungsten>, <rftoolspower:power_core3>, <ore:plateTungsten>], [<rftoolspower:power_core3>, <gregtech:machine:504>, <rftoolspower:power_core3>],[<ore:plateTungsten>, <rftoolspower:power_core3>, <ore:plateTungsten>]]);
+

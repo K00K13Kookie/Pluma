@@ -1,8 +1,8 @@
 {
 	title: "Refining it all together!",
 	icon: "immersiveengineering:metal_multiblock 1 9",
-	x: -7.0d,
-	y: -15.0d,
+	x: 31.0d,
+	y: 2.5d,
 	shape: "square",
 	description: "Don't worry, you'll produce a BUNCH of energy at the end of this Questline",
 	text: [

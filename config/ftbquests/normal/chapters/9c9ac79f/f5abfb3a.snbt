@@ -1,7 +1,7 @@
 {
 	title: "A Better Rolling device!",
-	x: 0.0d,
-	y: -5.5d,
+	x: 14.0d,
+	y: 0.0d,
 	text: [
 		"Now that you can make Charge and move it using wires, why not to Upgrade your Manual Rolling machine to an Automatic One?",
 		"",
@@ -9,7 +9,6 @@
 		"",
 		"That's why the Reward is a Simple Rolling Machine!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"999c1b7c"
 	],

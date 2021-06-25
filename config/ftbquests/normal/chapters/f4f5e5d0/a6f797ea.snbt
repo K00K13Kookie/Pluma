@@ -1,8 +1,8 @@
 {
 	title: "Getting Alchemical",
 	icon: "contenttweaker:artoken",
-	x: -7.04081632653061d,
-	y: -4.948979591836732d,
+	x: -7.5d,
+	y: -5.0d,
 	shape: "diamond",
 	description: "Potions and Other Alchemical Manipulations",
 	text: [

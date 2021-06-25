@@ -1,13 +1,16 @@
 {
 	title: "An Engineer's way to craft Stuff!",
-	x: -1.2d,
-	y: -8.5d,
+	x: 22.5d,
+	y: -3.0d,
 	shape: "square",
 	text: [
 		"The Engineer's Workbench is a very useful table that can be used to further make you life crafing materials and components easier! after you craft it",
 		"you'll just need the blueprints!"
 	],
 	hide_dependency_lines: true,
+	dependencies: [
+		"7cf59bee"
+	],
 	hide: true,
 	tasks: [{
 		uid: "7951c792",

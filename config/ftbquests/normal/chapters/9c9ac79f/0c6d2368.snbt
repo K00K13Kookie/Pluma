@@ -1,8 +1,8 @@
 {
 	title: "A Whole New World!",
-	x: -24.8d,
-	y: -12.0d,
-	shape: "hexagon",
+	x: 49.13265306122446d,
+	y: 0.4945578231292629d,
+	shape: "square",
 	description: "Finally, lets get into a Whole new Era!",
 	text: [
 		"Now that you have Black Steel and Other special Resources such as Circuits, IT IS FINALLY TIME! lets proceed to the Chemistry Era!"
@@ -11,7 +11,7 @@
 		"e1c53741"
 	],
 	hide: true,
-	size: 4.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "c6434de8",
 		type: "item",

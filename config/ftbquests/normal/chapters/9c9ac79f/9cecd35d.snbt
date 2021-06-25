@@ -1,16 +1,14 @@
 {
 	title: "Getting into Thermal Utilities",
-	x: 12.026190476190465d,
-	y: -16.92976190476191d,
+	x: 38.51632653061223d,
+	y: -4.36785714285714d,
 	shape: "square",
 	description: "Lets make some Usefull Machines!",
 	text: [
 		"Now that you have Enhanced Aluminum, and you're also able to make some Coils, Time to make some Thermal Expansion Usefull Machines!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"9f184050",
-		"1725995e"
+		"9f184050"
 	],
 	hide: true,
 	size: 1.5d,

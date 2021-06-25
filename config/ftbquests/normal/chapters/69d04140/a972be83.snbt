@@ -1,9 +1,9 @@
 {
 	title: "A Better way to Process Wood!",
 	icon: "pyrotech:stone_sawmill",
-	x: -8.0d,
-	y: -10.0d,
-	shape: "gear",
+	x: 9.512244897959143d,
+	y: 5.200850340136064d,
+	shape: "square",
 	text: [
 		"Now that You've adquired Masonry Bricks, time to start making some Improvements to our Infrastructure! First of All, An \"Automatic\" Way to Process Wood!",
 		"",
@@ -13,12 +13,11 @@
 		"",
 		"and Don't forget to use your Tinder to Start the Fire!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"87623e84"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "4f922889",
 		type: "item",

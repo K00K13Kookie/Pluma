@@ -1,8 +1,8 @@
 {
 	title: "Working towards your first Circuit II",
 	icon: "gregtech:meta_item_2 1 32443",
-	x: -17.5d,
-	y: -15.0d,
+	x: 42.5d,
+	y: 2.5d,
 	shape: "square",
 	description: "Circuit Boards, Resistors and Red Alloy Cables!",
 	text: [

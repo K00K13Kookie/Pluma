@@ -1,9 +1,9 @@
 {
 	title: "Finally you can Fight Against Monsters!",
 	icon: "pyrotech:flint_sword",
-	x: -4.5d,
-	y: -6.0d,
-	shape: "rsquare",
+	x: 3.5d,
+	y: 2.0d,
+	shape: "square",
 	text: [
 		"The flint sword is your first proper Weapon! no more running and hoping to not get killed by a Creeper!"
 	],

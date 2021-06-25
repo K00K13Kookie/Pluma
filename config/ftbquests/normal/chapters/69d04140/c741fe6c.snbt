@@ -1,9 +1,9 @@
 {
 	title: "Drying it up!",
 	icon: "pyrotech:drying_rack",
-	x: -5.0d,
-	y: -4.0d,
-	shape: "rsquare",
+	x: 0.5d,
+	y: 2.0d,
+	shape: "square",
 	text: [
 		"Now that you have a Worktable, let's start going after better tools and better ways to take care of ourselves!",
 		"",

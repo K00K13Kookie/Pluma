@@ -1,14 +1,14 @@
 {
 	title: "Do you have some Steam left?",
-	x: -8.5d,
-	y: -17.5d,
+	x: 26.0d,
+	y: -6.5d,
 	shape: "rsquare",
 	description: "You can use it to Smelt a ton of itens at once!",
 	text: [
 		"With the Steam Oven, you can utilize some of your extra Steam to actually Smelt items! and also remember, it can be automated with Conveyor Belts! :P"
 	],
 	dependencies: [
-		"d9aecb97"
+		"f1522e19"
 	],
 	hide: true,
 	optional: true,

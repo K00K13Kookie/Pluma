@@ -1,8 +1,8 @@
 {
 	title: "Your First Circuits!",
-	x: -19.95221088435376d,
-	y: -15.058843537414987d,
-	shape: "hexagon",
+	x: 45.002380952380975d,
+	y: 2.5401360544217795d,
+	shape: "square",
 	description: "More Complex Machines are waiting for ya!",
 	text: [
 		"As it was said on previous quests, you're going to be using more and more circuits as time goes on, and actually you'll be unlocking new ones on each stage of the Game, but these are your first ones, Congratulations!"
@@ -11,7 +11,7 @@
 		"79ddcbad"
 	],
 	hide: true,
-	size: 4.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "fbba5531",
 		type: "item",

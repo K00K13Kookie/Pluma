@@ -1,9 +1,9 @@
 {
 	title: "Melting down the Things!",
 	icon: "pyrotech:stone_crucible",
-	x: 4.5d,
-	y: -4.5d,
-	shape: "gear",
+	x: 15.75d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"In order to use the Next table from Artisan's, you'll be needing Liquid clay! and to get that you'll need a crucible to melt it down!",
 		"",

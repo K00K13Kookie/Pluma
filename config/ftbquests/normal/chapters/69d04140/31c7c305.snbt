@@ -1,7 +1,7 @@
 {
 	title: "Becoming a Master Chef!",
-	x: 18.2d,
-	y: -6.0d,
+	x: 27.0d,
+	y: -2.0d,
 	shape: "square",
 	description: "Where's the Lamb Sauce?",
 	text: [

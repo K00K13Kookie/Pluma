@@ -1,7 +1,7 @@
 {
 	title: "Getting rid of your Trash!",
-	x: 0.0d,
-	y: -19.5d,
+	x: 27.0d,
+	y: -6.5d,
 	shape: "rsquare",
 	text: [
 		"With Trash cans you can Void the Exess of your Productions/Automations and Maybe Clear your Messy Inventory of Actual Trash",

@@ -1,8 +1,8 @@
 {
 	title: "A Primitive Solidifiyng Chamber!",
 	icon: "modularmachinery:blockcontroller",
-	x: -23.25d,
-	y: -19.2d,
+	x: 45.0d,
+	y: -5.5d,
 	shape: "square",
 	description: "An Initial way to solidify liquids into Items.",
 	text: [
@@ -12,7 +12,6 @@
 		"671ba0b2"
 	],
 	hide: true,
-	size: 1.5d,
 	tasks: [{
 		uid: "95ce3b85",
 		type: "item",

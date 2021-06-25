@@ -1,14 +1,14 @@
 {
 	title: "Compacting!",
 	icon: "pyrotech:compacting_bin",
-	x: -1.5d,
-	y: -5.0d,
+	x: 8.0d,
+	y: -0.5d,
+	shape: "square",
 	text: [
 		"The Compacting bin is very useful to compact certain resources into blocks!",
 		"",
 		"And in this specific case, lets compact some charcoal into full blocks! (maybe you should complete the quest unlock right on the side of this one, related to charcoal burning)."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"3183afcf",
 		"bf18a842"

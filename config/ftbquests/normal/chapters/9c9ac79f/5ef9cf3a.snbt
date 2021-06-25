@@ -1,7 +1,7 @@
 {
 	title: "The Thermionic Guy",
-	x: -1.5d,
-	y: -6.0d,
+	x: 12.5d,
+	y: -1.5d,
 	shape: "square",
 	text: [
 		"Now that you have Canola Oil, you can use it to produce even more components! including a new Chassis that is used to make this fellow."

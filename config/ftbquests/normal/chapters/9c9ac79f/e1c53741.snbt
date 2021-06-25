@@ -1,8 +1,8 @@
 {
 	title: "Automating Researchs? O.o",
 	icon: "modularmachinery:blockcontroller",
-	x: -24.8d,
-	y: -15.1d,
+	x: 47.0d,
+	y: 0.5d,
 	shape: "square",
 	description: "Lets make our First Research Lab!",
 	text: [

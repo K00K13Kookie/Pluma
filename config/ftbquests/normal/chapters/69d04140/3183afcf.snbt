@@ -1,8 +1,9 @@
 {
 	title: "Producing Charcoal",
 	icon: "minecraft:coal 1 1",
-	x: -1.5d,
-	y: -4.0d,
+	x: 6.5d,
+	y: -0.5d,
+	shape: "square",
 	text: [
 		"Lets make some Charcoal! in order to do so, get some Sawdust and make a compressed version of it. After that, simply smelt it to get Charcoal!"
 	],

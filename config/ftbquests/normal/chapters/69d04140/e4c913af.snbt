@@ -1,8 +1,8 @@
 {
 	title: "Agricultural Expansion!",
 	icon: "agricraft:debugger",
-	x: 12.1d,
-	y: -8.5d,
+	x: 23.5d,
+	y: -4.0d,
 	shape: "rsquare",
 	description: "Lets analyze and Improve the Quality if our Seeds!",
 	text: [

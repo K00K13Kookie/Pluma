@@ -83,6 +83,8 @@ item.contenttweaker.rawbread.name=Raw Bread Dough
 item.contenttweaker.rawbaguette.name=Raw Baguette Dough
 item.contenttweaker.rawricebread.name=Raw Rice Bread
 
+item.contenttweaker.BlankShapeCard.name=Blank Shape Card
+
 item.contenttweaker.obsidianElectrode.name=Obsidian Electrode
 
 item.contenttweaker.trtoken.name=Transportation Research Token

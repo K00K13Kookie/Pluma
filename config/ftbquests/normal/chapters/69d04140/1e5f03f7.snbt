@@ -1,7 +1,7 @@
 {
 	title: "Sewing and Making String!",
-	x: 8.0d,
-	y: -7.5d,
+	x: 19.5d,
+	y: 2.0d,
 	shape: "square",
 	description: "Finally lets make a Bed!",
 	text: [

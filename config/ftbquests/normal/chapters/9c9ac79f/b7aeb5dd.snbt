@@ -1,8 +1,8 @@
 {
 	title: "Interacting with Fluids!",
 	icon: "actuallyadditions:block_fluid_collector",
-	x: 5.0d,
-	y: -13.0d,
+	x: 31.5d,
+	y: -7.0d,
 	shape: "rsquare",
 	text: [
 		"These \"Special\" Machines are capable of Placing and Collecting Fluids! Maybe they can be used in your Automations.",

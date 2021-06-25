@@ -1,7 +1,8 @@
 {
 	title: "Different Types of Tools?",
-	x: 14.454761904761916d,
-	y: -10.870238095238086d,
+	x: 31.5d,
+	y: 2.0d,
+	shape: "square",
 	text: [
 		"This is where things will probally get a little confusing, but, Artisan's Tools are different from GregTech tools! Artisan's are Tools where you'll be using mostly in their respective tables, but GregTech ones are the ones where you'll be",
 		"Using in Hand Crafting's and such!"

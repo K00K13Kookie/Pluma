@@ -1,9 +1,9 @@
 {
 	title: "Early game Chemistry?",
 	icon: "artisanworktables:workshop 1 9",
-	x: 1.5d,
-	y: -11.0d,
-	shape: "square",
+	x: 24.0d,
+	y: -1.5d,
+	shape: "rsquare",
 	text: [
 		"In the Near Future, you'll be making A LOT of chemical related automations, but for now, you'll probally just need the basics, and in this specific quest, Time to get some Glowstone!"
 	],
@@ -11,6 +11,7 @@
 		"75575132"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "3163fbbe",
 		type: "item",

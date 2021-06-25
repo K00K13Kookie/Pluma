@@ -1,8 +1,8 @@
 {
 	title: "The Enchanter",
 	icon: "contenttweaker:ertoken",
-	x: -7.5d,
-	y: -5.4d,
+	x: -8.0d,
+	y: -5.5d,
 	shape: "diamond",
 	description: "Enchantment Tables and Enchanted Books/Items!",
 	text: [

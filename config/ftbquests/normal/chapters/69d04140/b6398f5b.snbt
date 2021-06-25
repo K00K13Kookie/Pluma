@@ -2,17 +2,17 @@
 	title: "Punching your First Wood!",
 	icon: "minecraft:log",
 	x: -8.0d,
-	y: -2.0d,
+	y: 2.0d,
 	shape: "hexagon",
 	text: [
 		"This is Minecraft of Course! everything here starts by punching a little bit of Wood!",
 		"",
 		"but this pack also has some special custom progression on it! so you might need to look out for some of these special Initial resources!",
 		"",
-		"- Break Leaves to get Sticks",
+		"§a- Break Leaves to get Sticks",
 		"- Break Grass to get Plant Fibers",
 		"- Break Rocks on the Ground to get.. Rocks!",
-		"- Break Wood to.... Get Wood of course!"
+		"- Break Wood to.... Get Wood of course!§f"
 	],
 	size: 2.0d,
 	tasks: [{

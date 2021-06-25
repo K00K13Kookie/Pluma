@@ -1,9 +1,9 @@
 {
 	title: "Early game Flint and Steel!",
 	icon: "pyrotech:flint_and_tinder",
-	x: -5.5d,
-	y: -6.0d,
-	shape: "rsquare",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"By using a Dried Plant fiber a Rock and a Flint shard, you can get a Rudimentary way to start a fire! we will be using it to ignite a bunch of Pyrotech Machines later on!"
 	],

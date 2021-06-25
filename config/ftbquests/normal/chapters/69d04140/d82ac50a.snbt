@@ -1,9 +1,9 @@
 {
 	title: "Smelting your First Items!",
 	icon: "pyrotech:kiln_pit",
-	x: -2.0d,
-	y: -2.0d,
-	shape: "hexagon",
+	x: 4.994557823129199d,
+	y: -0.032482993197298526d,
+	shape: "square",
 	text: [
 		"A Pit Kiln can be simply obtained with 2 Dried plant fibers, you'll be using a new one everytime you want to start a smelting process with it!",
 		"",
@@ -19,12 +19,11 @@
 		"5- After all of it, Place 3 logs on the top and them ",
 		"Start the fire with your Flint and Tinder!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"1a9ebb00"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "cb3f06a2",
 		type: "item",

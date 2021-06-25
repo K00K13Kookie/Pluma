@@ -1,8 +1,8 @@
 {
 	title: "Why not Store all of your Steam in a Massive Tank?",
 	icon: "railcraft:tank_iron_valve",
-	x: -8.5d,
-	y: -16.5d,
+	x: 33.0d,
+	y: 1.5d,
 	shape: "rsquare",
 	description: "It is very usefull to stock it up!",
 	text: [

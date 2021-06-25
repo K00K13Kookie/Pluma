@@ -1,7 +1,7 @@
 {
 	title: "Easier Nether Materials",
-	x: 7.0d,
-	y: -18.5d,
+	x: 33.0d,
+	y: -10.0d,
 	shape: "rsquare",
 	description: "Without even going to the Nether!",
 	text: [

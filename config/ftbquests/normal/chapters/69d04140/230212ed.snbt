@@ -1,9 +1,9 @@
 {
 	title: "A Better way to Cook Food!",
 	icon: "pyrotech:stone_oven",
-	x: -5.0d,
-	y: -10.0d,
-	shape: "gear",
+	x: 9.515646258503352d,
+	y: 2.2943877551020506d,
+	shape: "square",
 	text: [
 		"Now that You've adquired Masonry Bricks, time to start making some Improvements to our Infrastructure! Lets Cook!",
 		"",
@@ -12,12 +12,11 @@
 		"",
 		"and Don't forget to use your Tinder to Start the Fire!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"87623e84"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "510d0376",
 		type: "item",

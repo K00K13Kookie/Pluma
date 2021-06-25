@@ -1,7 +1,7 @@
 {
 	title: "An Effiecient Way to carry Fluids",
-	x: -2.5d,
-	y: -17.0d,
+	x: 24.0d,
+	y: -4.5d,
 	shape: "square",
 	text: [
 		"The Cells from GregTech can store 1 Bucket of a Fluid and also can be Stacked Together! that is a Real Improvement from Buckets! ",

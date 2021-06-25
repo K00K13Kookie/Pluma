@@ -1,8 +1,8 @@
 {
 	title: "Quick Tips",
 	icon: "minecraft:writable_book",
-	x: -4.0d,
-	y: -15.5d,
+	x: 28.0d,
+	y: 3.5d,
 	shape: "gear",
 	description: "That didn't fit in the Quest Text",
 	text: [

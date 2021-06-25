@@ -1,8 +1,8 @@
 {
 	title: "A Non Atomic Reconstructor!",
-	x: 7.0d,
-	y: -17.0d,
-	shape: "hexagon",
+	x: 33.02823129251702d,
+	y: -4.463095238095249d,
+	shape: "square",
 	description: "It is a Laser!",
 	text: [
 		"The Laser Reconstructor when provided with power, will shoot a laser and actually reconstruct 1 item into another one!",
@@ -13,7 +13,7 @@
 		"eaca8b1c"
 	],
 	hide: true,
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "93ac13da",
 		type: "item",

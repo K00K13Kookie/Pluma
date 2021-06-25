@@ -1,8 +1,8 @@
 {
 	title: "Dark Areas, Be Gonne!",
 	icon: "actuallyadditions:block_lamp_powerer",
-	x: 7.0d,
-	y: -12.0d,
+	x: 33.0d,
+	y: -8.0d,
 	shape: "rsquare",
 	text: [
 		"Now you can Craft (using different dyes to make different colors) Lamps! Right clicking them will light them up, but, if you apply a redstone signal into a lamp controller it will turn on adjacent lamps to it and to the lamps themselves!"

@@ -706,4 +706,4 @@ mods.ItemStages.stageModItems("MachineryEra", "thermallogistics");
 
 # Staggin RFTools
 mods.ItemStages.stageModItems("MachineryEra", "rftools");
-mods.ItemStages.stageModItems("MachineryEra", "rftoolscontrol");
+mods.ItemStages.stageModItems("MachineryEra", "rftoolspower");

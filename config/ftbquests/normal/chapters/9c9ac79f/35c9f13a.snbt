@@ -1,8 +1,8 @@
 {
 	title: "Didn't understand the Explanation?",
 	icon: "minecraft:repeating_command_block",
-	x: -2.4307823129251673d,
-	y: -15.4700680272109d,
+	x: 26.0d,
+	y: 3.5d,
 	shape: "gear",
 	description: "Click here to Open a Complete tutorial!",
 	text: [

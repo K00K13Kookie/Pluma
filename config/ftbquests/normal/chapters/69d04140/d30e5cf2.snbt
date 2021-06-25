@@ -1,9 +1,9 @@
 {
 	title: "The Mason's Workshop!",
 	icon: "artisanworktables:workshop 1 2",
-	x: 4.5d,
-	y: -6.0d,
-	shape: "rsquare",
+	x: 17.5d,
+	y: 0.0d,
+	shape: "square",
 	text: [
 		"The Mason's Workshop is going to be very useful when crafting any type of Bricks! from normal vanilla minecraft ones to even Immersive Engineering Coke bricks!",
 		"",
@@ -14,7 +14,6 @@
 		"ff9ac789"
 	],
 	hide: true,
-	size: 1.5d,
 	tasks: [{
 		uid: "16b153ba",
 		type: "item",

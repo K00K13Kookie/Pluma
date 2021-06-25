@@ -1,8 +1,8 @@
 {
 	title: "Some info about Mobs",
 	icon: "minecraft:writable_book",
-	x: -9.5d,
-	y: -2.0d,
+	x: -9.4d,
+	y: 2.0d,
 	description: "Not all of them will Spawn at the Beggining of your Journey!",
 	text: [
 		"First of all, In this Modpack §cAlmost All Mobs received a Rework/New Abilities§f! and also, §dMobs§f will §dstart spawning and getting buffed as you progress§f, so right now, You'll not",

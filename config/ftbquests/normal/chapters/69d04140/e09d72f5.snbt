@@ -1,19 +1,18 @@
 {
 	title: "Finally Infinite Water!",
-	x: 17.197619047619042d,
-	y: -10.877380952380932d,
-	shape: "gear",
+	x: 33.75d,
+	y: 1.5d,
+	shape: "square",
 	text: [
 		"At this point you might have noticed that in this Pack, most places don't have Infinite Water sources! and that's correct! ",
 		"",
 		"If you want Infinite Water, you should probally make a \"Water Generator\". right now at the Early stages you can make this Water tank! it will Slowly collect water for you!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"13615611",
 		"c93a5957"
 	],
 	hide: true,
+	size: 1.5d,
 	tasks: [{
 		uid: "d444af2f",
 		type: "item",

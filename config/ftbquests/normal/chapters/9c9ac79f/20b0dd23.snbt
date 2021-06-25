@@ -1,7 +1,7 @@
 {
 	title: "Storing your Experience for later use",
-	x: 5.0d,
-	y: -11.0d,
+	x: 31.5d,
+	y: -9.0d,
 	shape: "rsquare",
 	text: [
 		"Now you can craft a Tome of Knowladge! this special Item offers you a way to store XP inside of it! right click to store and shift+right click to extract from it."

@@ -1,8 +1,9 @@
 {
 	title: "Treated Wood!",
 	icon: "immersiveengineering:treated_wood",
-	x: 13.0d,
-	y: -7.0d,
+	x: 23.5d,
+	y: -2.0d,
+	shape: "square",
 	text: [
 		"Treated Wood is a more durable and enhanced type of wood, it is mostly used to make special types of blocks, structures and items. ",
 		"",

@@ -1,7 +1,8 @@
 {
 	title: "A Very usefull Mortar",
-	x: -3.5d,
-	y: -6.0d,
+	x: 5.0d,
+	y: 2.0d,
+	shape: "square",
 	description: "Different from the Rest!",
 	text: [
 		"As soon as you get Metals, you'll be able to make GregTech tools! they'll be used in a variety of crafts an such, but for now, my tip for you is to make the Flint Mortar! as it makes it easier to get flint."
@@ -10,7 +11,6 @@
 		"04bde3fc"
 	],
 	hide: true,
-	optional: true,
 	tasks: [{
 		uid: "f8fe274c",
 		type: "item",

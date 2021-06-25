@@ -85,3 +85,12 @@ furnace.remove(i);
 
 //Removing Obsidian Ingot Recipe aswell, since the Recycling is Broken
 mods.immersiveengineering.ArcFurnace.removeRecipe(<contenttweaker:obsidian_ingot>);
+
+//Removing Bismuth Dust since it gets broken when Alloying
+mods.immersiveengineering.ArcFurnace.removeRecipe(<gregtech:meta_item_1:10008>);
+
+//Black Bronze in the Arc Furnace
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10230> * 2, <ore:dustBismuth>, null, 120, 120, [<ore:dustBrass> * 4], "Alloying");
+
+//Bismuth Bronze in the Arc Furnace
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10229> * 2, <ore:dustCopper> * 3, null, 120, 120, [<ore:dustElectrum> * 2], "Alloying");
