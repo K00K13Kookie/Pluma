@@ -1,5 +1,6 @@
 import mods.artisanworktables.builder.RecipeBuilder;
-
+import crafttweaker.item.IItemStack;
+import mods.gregtech.recipe.RecipeMap;
 # Trash Cans ======
 
 // Item Trash Can
@@ -14,6 +15,69 @@ recipes.addShaped(<trashcans:liquid_trash_can> * 1, [[<ore:stone>, <ore:stone>, 
 recipes.remove(<trashcans:energy_trash_can>);
 recipes.addShaped(<trashcans:energy_trash_can> * 1, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:cobblestone>, <immersiveengineering:metal_device0:0>, <ore:cobblestone>],[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
+##### Shulker Boxes Fixes #####
+<minecraft:purple_shulker_box>.addTooltip(format.green("Can be Dyed."));
+
+##### Iron Chests #####
+
+//All IronChests don't have a Recipe, they need to be manually Upgraded
+var IronChests as IItemStack[] = [
+<ironchest:iron_chest>,    
+<ironchest:iron_chest:1>,
+<ironchest:iron_chest:2>,
+<ironchest:iron_chest:6>,
+<ironchest:iron_chest:5>
+];
+for i in IronChests {
+recipes.remove(i);
+i.addTooltip(format.aqua("Use Upgrades in order to get this Chest."));
+}
+
+// Wood to Iron Chest Upgrade
+recipes.remove(<ironchest:wood_iron_chest_upgrade>);
+recipes.addShaped(<ironchest:wood_iron_chest_upgrade> * 1, [[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>], [<ore:plateIron>, <actuallyadditions:block_misc:4>, <ore:plateIron>],[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>]]);
+
+// Iron to Gold Chest Upgrade
+recipes.remove(<ironchest:iron_gold_chest_upgrade>);
+recipes.addShaped(<ironchest:iron_gold_chest_upgrade> * 1, [[<ore:screwGold>, <ore:plateGold>, <ore:screwGold>], [<ore:plateGold>, <ore:blockIron>, <ore:plateGold>],[<ore:screwGold>, <ore:plateGold>, <ore:screwGold>]]);
+
+// Gold to Diamond Chest Upgrade
+recipes.remove(<ironchest:gold_diamond_chest_upgrade>);
+recipes.addShaped(<ironchest:gold_diamond_chest_upgrade> * 1, [[<ore:gemFlawedDiamond>, <ore:plateDiamond>, <ore:gemFlawedDiamond>], [<ore:plateDiamond>, <ore:blockGold>, <ore:plateDiamond>],[<ore:gemFlawedDiamond>, <ore:plateDiamond>, <ore:gemFlawedDiamond>]]);
+
+// Diamond to Crystal Chest Upgrade
+recipes.remove(<ironchest:diamond_crystal_chest_upgrade>);
+recipes.addShaped(<ironchest:diamond_crystal_chest_upgrade> * 1, [[<quark:framed_glass>, <quark:framed_glass>, <quark:framed_glass>], [<quark:framed_glass>, <gtadditions:ga_transparent_casing:0>, <quark:framed_glass>],[<quark:framed_glass>, <quark:framed_glass>, <quark:framed_glass>]]);
+
+// Diamond to Obsidian Chest Upgrade
+recipes.remove(<ironchest:diamond_obsidian_chest_upgrade>);
+recipes.addShaped(<ironchest:diamond_obsidian_chest_upgrade> * 1, [[<overloaded:compressed_obsidian:0>, <ore:plateObsidian>, <overloaded:compressed_obsidian:0>], [<ore:plateObsidian>, <ore:blockDiamond>, <ore:plateObsidian>],[<overloaded:compressed_obsidian:0>, <ore:plateObsidian>, <overloaded:compressed_obsidian:0>]]);
+
+//Dirt Chest Meme
+<ironchest:iron_chest:7>.displayName = "Creative Chest 9000!";
+
+##### Fluid Tanks #####
+
+// Copper Tank
+recipes.remove(<fluidtank:blocktank2:1>);
+recipes.addShaped(<fluidtank:blocktank2:1> * 1, [[<ore:screwCopper>, <ore:plateCopper>, <ore:screwCopper>], [<ore:plateDenseCopper>, <ore:blockGlassHardened>, <ore:plateDenseCopper>],[<ore:screwCopper>, <ore:plateCopper>, <ore:screwCopper>]]);
+
+// Tin Tank
+recipes.remove(<fluidtank:blocktank2:2>);
+recipes.addShaped(<fluidtank:blocktank2:2> * 1, [[<ore:screwTin>, <ore:plateTin>, <ore:screwTin>], [<ore:plateDenseTin>, <fluidtank:blocktank2:1>, <ore:plateDenseTin>],[<ore:screwTin>, <ore:plateTin>, <ore:screwTin>]]);
+
+// Iron Tank
+recipes.remove(<fluidtank:blocktank3:0>);
+recipes.addShaped(<fluidtank:blocktank3:0> * 1, [[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>], [<ore:plateDenseIron>, <fluidtank:blocktank2:2>, <ore:plateDenseIron>],[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>]]);
+
+//Bronze Tank
+assembler.recipeBuilder()
+    .inputs([<fluidtank:blocktank3>, <ore:plateDenseBronze> * 2, <ore:plateBronze> * 4])
+    .property("circuit", 8)
+    .outputs(<fluidtank:blocktank3:1>)
+    .duration(100)
+    .EUt(28)
+    .buildAndRegister();  
 
 
 # Basic Vanilla Overhaul

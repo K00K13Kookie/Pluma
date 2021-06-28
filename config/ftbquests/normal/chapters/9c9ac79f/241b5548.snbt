@@ -76,5 +76,10 @@
 		uid: "b51aef7c",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "4a58bec2",
+		type: "item",
+		item: "solarflux:solar_panel_1"
 	}]
 }

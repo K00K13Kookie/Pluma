@@ -65,15 +65,6 @@ recipes.addShaped(<thermaldynamics:retriever:1> * 2, [[null, null, null], [<ore:
 recipes.remove(<thermaldynamics:retriever:2>);
 recipes.addShaped(<thermaldynamics:retriever:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:dustVoid>, <ore:plateElectrum>]]);
 
-# Strongbox 
-
-// Strongbox (Basic)
-recipes.remove(<thermalexpansion:strongbox:0>);
-recipes.addShaped(<thermalexpansion:strongbox:0> * 1, [[<ore:plateDenseEnhancedAluminum>, <ore:plateSilver>, <ore:plateDenseEnhancedAluminum>], [<ore:plateSilver>, <ore:chestWood>, <ore:plateSilver>],[<ore:plateDenseEnhancedAluminum>, <ore:plateSilver>, <ore:plateDenseEnhancedAluminum>]]);
-
-<thermalexpansion:strongbox:0>.addTooltip(format.green("Can also be further Upgraded with Upgrade Kits"));
-
-
 # Machine Frame Mini-Rework
 <thermalexpansion:frame>.displayName = "Silver Chassis";
 
@@ -121,6 +112,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermalfoundation:upgrade>)
   .create();
 
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseInvar>, <ore:foilRedAlloy> * 4, <ore:gearBoron>, <ore:screwBlackSteel> * 4])
+    .outputs(<thermalfoundation:upgrade>)
+    .duration(120)
+    .EUt(32)
+    .buildAndRegister();  
+
 //Reinforced Upgrade Kit
 recipes.remove(<thermalfoundation:upgrade:1>);
 RecipeBuilder.get("engineer")
@@ -134,6 +132,31 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermalfoundation:upgrade:1>)
   .create();  
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseElectrum>, <ore:plateRestonia> * 2, <ore:gearTopaz>, <ore:screwBlackSteel> * 4])
+    .outputs(<thermalfoundation:upgrade:1>)
+    .duration(140)
+    .EUt(128)
+    .buildAndRegister();  
+
+//Signalum Upgrade Kit
+recipes.remove(<thermalfoundation:upgrade:2>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseSignalum>, <ore:foilGraphene> * 4, <ore:gearCinnabar>, <ore:screwBlackSteel> * 4])
+    .outputs(<thermalfoundation:upgrade:2>)
+    .duration(160)
+    .EUt(512)
+    .buildAndRegister(); 
+
+//Enderium Upgrade Kit
+recipes.remove(<thermalfoundation:upgrade:3>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseEnderium>, <ore:foilGraphene> * 4, <ore:gearMonazite>, <ore:screwPlatinum> * 4])
+    .outputs(<thermalfoundation:upgrade:3>)
+    .duration(180)
+    .EUt(8192)
+    .buildAndRegister();       
 
 # Stage to Unlock Thermal Machines and Upgrades at the Right Quest
 

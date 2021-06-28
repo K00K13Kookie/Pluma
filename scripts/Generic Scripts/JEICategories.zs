@@ -31,7 +31,12 @@ var categoriesToHide as string[] = [
 	"thermalexpansion.factorizer_combine",
 	"thermalexpansion.factorizer_split",
 	"ftbquests.quests",
-	"actuallyadditions.compost"
+	"actuallyadditions.compost",
+	"thermalexpansion.compactor",
+	"thermalexpansion.compactor_mint",
+	"thermalexpansion.compactor_gear",
+	"thermalexpansion.crucible",
+	"thermalexpansion.crucible_lava"
 
 
 ];

@@ -1,4 +1,5 @@
 import mods.actuallyadditions.AtomicReconstructor;
+import mods.gregtech.recipe.RecipeMap;
 
 # Lamps OreDict ===============
 
@@ -89,3 +90,32 @@ recipes.addShaped(<actuallyadditions:item_misc:8> * 1, [[<ore:plateGlowstone>, <
 
 //Worm Tooltip
 <actuallyadditions:item_worm>.addTooltip(format.red("Can only be bough in the Shop. And it lives for about 1 Hour."));
+
+##### Canola Oil Processing ######
+
+//Refined Canola Oil
+distillery.recipeBuilder()
+    .fluidInputs([<liquid:canolaoil> * 5])
+    .property("circuit", 4)
+    .fluidOutputs(<liquid:refinedcanolaoil> * 5)
+    .duration(600)
+    .EUt(32)
+    .buildAndRegister();
+
+//Crystallized Oil
+mixer.recipeBuilder()
+    .fluidInputs([<liquid:refinedcanolaoil> * 1000])
+    .inputs(<actuallyadditions:item_misc:23>)
+    .fluidOutputs(<liquid:crystaloil> * 1000)
+    .duration(300)
+    .EUt(48)
+    .buildAndRegister();
+
+//Empowered Oil
+mixer.recipeBuilder()
+    .fluidInputs([<liquid:crystaloil> * 1000])
+    .inputs(<actuallyadditions:item_misc:24>)
+    .fluidOutputs(<liquid:empoweredoil> * 1000)
+    .duration(300)
+    .EUt(512)
+    .buildAndRegister();

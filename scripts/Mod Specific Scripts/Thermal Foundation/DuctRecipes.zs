@@ -9,24 +9,27 @@ import mods.artisanworktables.builder.RecipeBuilder;
 ###### Fluiduct ######
 
 //Fluiduct 
+recipes.addShapeless("FluiductNonOpaque", <thermaldynamics:duct_16>, [<thermaldynamics:duct_16:1>, <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_16>);
+/*
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>],
-    [<ore:plateDenseCopper>, <ore:gearConstantan>, <ore:plateDenseCopper>],
+    [<ore:plateCopper>, <ore:gearConstantan>, <ore:plateCopper>],
     [<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_16> * 6)
   .create();
+*/
 
 //Fluiduct Opaque
 recipes.remove(<thermaldynamics:duct_16:1>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
-    [<ore:plateDenseCopper>, <ore:gearConstantan>, <ore:plateDenseCopper>],
+    [<ore:plateCopper>, <ore:gearConstantan>, <ore:plateCopper>],
     [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
@@ -35,24 +38,27 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Hardened Fluiduct
+recipes.addShapeless("HardenedFluiductNonOpaque", <thermaldynamics:duct_16:2>, [<thermaldynamics:duct_16:3>, <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_16:2>);
+/*
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],
-    [<ore:plateDenseInvar>, <ore:gearConstantan>, <ore:plateDenseInvar>],
+    [<ore:plateInvar>, <ore:gearConstantan>, <ore:plateInvar>],
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_16:2> * 6)
   .create();
+*/
 
 //Hardened Fluiduct Opaque
 recipes.remove(<thermaldynamics:duct_16:3>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>],
-    [<ore:plateDenseInvar>, <ore:gearConstantan>, <ore:plateDenseInvar>],
+    [<ore:plateInvar>, <ore:gearConstantan>, <ore:plateInvar>],
     [<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
@@ -61,7 +67,9 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Signalum Plated Fluiduct
+recipes.addShapeless("SPlatedFluiductNonOpaque", <thermaldynamics:duct_16:4>, [<thermaldynamics:duct_16:5>, <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_16:4>);
+/*
 RecipeBuilder.get("engineer")
   .setShapeless([<thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <ore:plateSignalum>, <ore:plateElectrum>])
   .addTool(<ore:artisansHammer>, 5)
@@ -69,6 +77,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_16:4> * 3)
   .create();
+*/
 
 //Signalum Plated Fluiduct Opaque
 recipes.remove(<thermaldynamics:duct_16:5>);
@@ -81,7 +90,9 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Super Laminar Fluiduct
+recipes.addShapeless("SLaminarFluiductNonOpaque", <thermaldynamics:duct_16:6>, [<thermaldynamics:duct_16:7>, <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_16:6>);
+/*
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateTopaz>, <gtadditions:ga_transparent_casing>, <ore:plateTopaz>],
@@ -92,6 +103,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 1)
   .addOutput(<thermaldynamics:duct_16:6>)
   .create();
+*/
 
 //Super Laminar Fluiduct Opaque
 recipes.remove(<thermaldynamics:duct_16:7>);
@@ -113,7 +125,7 @@ recipes.remove(<thermaldynamics:duct_0>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateRedAlloy>, <ore:plateRedAlloy>, <ore:plateRedAlloy>],
-    [<ore:plateDenseLead>, <ore:gearRedstone>, <ore:plateDenseLead>],
+    [<ore:plateLead>, <ore:gearRedstone>, <ore:plateLead>],
     [<ore:plateRedAlloy>, <ore:plateRedAlloy>, <ore:plateRedAlloy>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
@@ -199,18 +211,47 @@ RecipeBuilder.get("engineer")
 
 ###### ItemDucts ######
 
+//ItemDuct
+recipes.addShapeless("ItemductNonOpaque", <thermaldynamics:duct_32>, [<thermaldynamics:duct_32:1>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32>);
+/*
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>],
+    [<ore:plateTin>, <ore:gearLead>, <ore:plateTin>],
+    [<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansCutters>, 3)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addOutput(<thermaldynamics:duct_32> * 6)
+  .create();
+*/
+
 //ItemDuct Opaque
 recipes.remove(<thermaldynamics:duct_32:1>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateElectrotineAlloy>, <ore:plateElectrotineAlloy>, <ore:plateElectrotineAlloy>],
-    [<ore:plateDenseTin>, <ore:gearLead>, <ore:plateDenseTin>],
+    [<ore:plateTin>, <ore:gearLead>, <ore:plateTin>],
     [<ore:plateElectrotineAlloy>, <ore:plateElectrotineAlloy>, <ore:plateElectrotineAlloy>]])
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansCutters>, 3)
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_32:1> * 6)
   .create();
+
+//Dense ItemDuct
+recipes.addShapeless("DenseItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}))
+  .create();
+*/
 
 //Dense ItemDuct Opaque
 recipes.remove(<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}));
@@ -222,6 +263,19 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}))
   .create();
 
+//Vacuum ItemDuct
+recipes.addShapeless("VacuumItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}))
+  .create();
+*/
+
 //Vacuum ItemDuct Opaque
 recipes.remove(<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}));
 RecipeBuilder.get("engineer")
@@ -232,50 +286,10 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}))
   .create();
 
-//ItemDuct
-recipes.remove(<thermaldynamics:duct_32>);
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>],
-    [<ore:plateDenseTin>, <ore:gearLead>, <ore:plateDenseTin>],
-    [<ore:strengthenedGlass>, <ore:strengthenedGlass>, <ore:strengthenedGlass>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansCutters>, 3)
-  .addTool(<ore:artisansSolderer>, 5)
-  .addOutput(<thermaldynamics:duct_32> * 6)
-  .create();
-
-//Dense ItemDuct
-recipes.remove(<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}))
-  .create();
-
-//Vacuum ItemDuct
-recipes.remove(<thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}))
-  .create();
-
-//Non Opaque to Opaque ItemDuct
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <ore:plateLead>])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansCutters>, 3)
-  .addTool(<ore:artisansSolderer>, 5)
-  .addOutput(<thermaldynamics:duct_32:1> * 6)
-  .create();
-
 //Dense Vacuum ItemDuct
+recipes.addShapeless("DenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}));
+/*
 RecipeBuilder.get("engineer")
   .setShapeless([<thermaldynamics:duct_32:2>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
   .addTool(<ore:artisansHammer>, 2)
@@ -283,28 +297,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}))
   .create();
-
-//Vacuum Vacuum ItemDuct
-recipes.remove(<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32:2>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}))
-  .create();
-
-//Impulse itemduct from non-opaque to opaque
-recipes.remove(<thermaldynamics:duct_32:3>);
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<thermaldynamics:duct_32:2>, <thermaldynamics:duct_32:2>, <thermaldynamics:duct_32:2>, <thermaldynamics:duct_32:2>, <thermaldynamics:duct_32:2>],
-    [<thermaldynamics:duct_32:2>, <ore:plateLead>, null, null, null]])
-  .addTool(<ore:artisansHammer>, 3)
-  .addTool(<ore:artisansCutters>, 3)
-  .addTool(<ore:artisansSolderer>, 3)
-  .addOutput(<thermaldynamics:duct_32:3> * 6)
-  .create();
+*/
 
 //Dense Vacuum ItemDuct Opaque
 recipes.remove(<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}));
@@ -315,6 +308,19 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}))
   .create();
+
+//Vacuum Vacuum ItemDuct
+recipes.addShapeless("VacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32:2>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}))
+  .create();
+*/
 
 //Vacuum Vacuum ItemDuct Opaque
 recipes.remove(<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}));
@@ -327,7 +333,9 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Signalum Plated Itemduct
+recipes.addShapeless("SPlatedItemductNonOpaque", <thermaldynamics:duct_32:4>, [<thermaldynamics:duct_32:5>, <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_32:4>);
+/*
 RecipeBuilder.get("engineer")
   .setShapeless([<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <ore:plateSignalum>, <ore:plateElectrum>])
   .addTool(<ore:artisansHammer>, 5)
@@ -335,26 +343,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_32:4> * 3)
   .create();
-
-//Dense Vacuum ItemDuct Signalum Plated
-recipes.remove(<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32:4>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}))
-  .create();
-
-//Vacuum Vacuum ItemDuct Signalum Plated
-recipes.remove(<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32:4>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}))
-  .create();
+*/
 
 //Signalum Plated Itemduct Opaque
 recipes.remove(<thermaldynamics:duct_32:5>);
@@ -366,6 +355,19 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:5> * 3)
   .create();
 
+//Dense Vacuum ItemDuct Signalum Plated
+recipes.addShapeless("SPlatedDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32:4>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}))
+  .create();
+*/
+
 //Dense Vacuum ItemDuct Opaque Signalum Plated
 recipes.remove(<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}));
 RecipeBuilder.get("engineer")
@@ -375,6 +377,19 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}))
   .create();
+
+//Vacuum Vacuum ItemDuct Signalum Plated
+recipes.addShapeless("SPlatedVacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32:4>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}))
+  .create();
+*/
 
 //Vacuum Vacuum ItemDuct Opaque Signalum Plated
 recipes.remove(<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}));
@@ -387,7 +402,9 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Signalum Plated Impulse Itemduct
+recipes.addShapeless("SPlatedImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>, [<thermaldynamics:duct_32:7>, <ore:artisansLens>.reuse().transformDamage(1)]);
 recipes.remove(<thermaldynamics:duct_32:6>);
+/*
 RecipeBuilder.get("engineer")
   .setShapeless([<thermaldynamics:duct_32:2>, <thermaldynamics:duct_32:2>, <thermaldynamics:duct_32:2>, <ore:plateSignalum>, <ore:plateElectrum>])
   .addTool(<ore:artisansHammer>, 5)
@@ -395,26 +412,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_32:6> * 3)
   .create();
-
-//Dense Vacuum Impulse ItemDuct Signalum Plated
-recipes.remove(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32:6>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}))
-  .create();
-
-//Vacuum Vacuum Impulse ItemDuct Signalum Plated
-recipes.remove(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}));
-RecipeBuilder.get("engineer")
-  .setShapeless([<thermaldynamics:duct_32:6>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 2)
-  .addOutput(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}))
-  .create();
+*/
 
 //Signalum Plated Impulse Itemduct Opaque
 recipes.remove(<thermaldynamics:duct_32:7>);
@@ -426,6 +424,19 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:7> * 3)
   .create();
 
+//Dense Vacuum Impulse ItemDuct Signalum Plated
+recipes.addShapeless("SPlatedImpulseDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32:6>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}))
+  .create();
+*/
+
 //Dense Vacuum Impulse ItemDuct Opaque Signalum Plated
 recipes.remove(<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}));
 RecipeBuilder.get("engineer")
@@ -435,6 +446,19 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}))
   .create();
+
+//Vacuum Vacuum Impulse ItemDuct Signalum Plated
+recipes.addShapeless("SPlatedVacuumVacuumImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.remove(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}));
+/*
+RecipeBuilder.get("engineer")
+  .setShapeless([<thermaldynamics:duct_32:6>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}))
+  .create();
+*/
 
 //Vacuum Vacuum Impulse ItemDuct Opaque Signalum Plated
 recipes.remove(<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}));
@@ -453,8 +477,8 @@ recipes.remove(<thermaldynamics:duct_48>);
   RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateIron>, <ore:gearLead>, <ore:plateIron>]])
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<thermaldynamics:duct_48> * 6)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSolderer>, 4)
+  .addOutput(<thermaldynamics:duct_48> * 12)
   .create();

@@ -41,7 +41,7 @@ materialBluesteel.setCableProperties(128, 4, 0);
 
 	#Signalum (HV Cable)
 val materialSignalum = MaterialRegistry.createIngotMaterial(801, "signalum", 0xF6872E, "SHINY", 2); 
-materialSignalum.addFlags(["GENERATE_BOLT_SCREW"]);
+materialSignalum.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_DENSE"]);
 materialSignalum.setCableProperties(512, 4, 0);
 
 	#Energetic Alloy (EV)
@@ -51,7 +51,7 @@ energeticAlloy.setCableProperties(2048, 4, 0);
 
 	#Enderium (IV)
 val materialEnderium = MaterialRegistry.createIngotMaterial(803, "enderium", 0x1F534A, "SHINY", 3, null, 18.0f, 6, 6000);
-materialEnderium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_ROTOR"]);
+materialEnderium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_ROTOR", "GENERATE_DENSE"]);
 materialEnderium.setCableProperties(8192, 4, 0);
 
     #Lumium (LuV)

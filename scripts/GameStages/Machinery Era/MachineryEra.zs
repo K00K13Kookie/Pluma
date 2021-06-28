@@ -581,7 +581,6 @@ var MachineryGates as IItemStack[] = [
 <thermaldynamics:duct_32:7>,
 <thermaldynamics:filter:3>,
 <thermaldynamics:filter:4>,
-<thermalexpansion:strongbox>,
 <thermalexpansion:capacitor>,
 <thermalexpansion:capacitor:1>,
 <thermalexpansion:capacitor:32000>,
