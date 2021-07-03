@@ -1,14 +1,14 @@
 {
 	title: "Compressing...",
-	x: 4.2d,
-	y: -3.4d,
+	x: 22.0d,
+	y: -4.2d,
 	shape: "square",
 	description: "Plant Balls and some special Plates!",
 	text: [
 		"With a Compressor you'll be able to compress some solids into other ones, and that applies to some Gem Plates."
 	],
 	dependencies: [
-		"40dac07d"
+		"946e923b"
 	],
 	hide: true,
 	tasks: [{

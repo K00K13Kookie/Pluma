@@ -1,14 +1,14 @@
 {
 	title: "Extracting...",
-	x: 5.9d,
-	y: -3.4d,
+	x: 24.0d,
+	y: -4.2d,
 	shape: "square",
 	description: "Time to Extract Rubber!",
 	text: [
 		"With an Extractor you'll be specially capable of extracting Dyes from flowers and a lot of Rubber out of Resin!"
 	],
 	dependencies: [
-		"934f786b"
+		"e7529c09"
 	],
 	hide: true,
 	tasks: [{

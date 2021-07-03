@@ -19,5 +19,10 @@
 		items: [{
 			item: "gregtech:machine 1 70"
 		}]
+	}],
+	rewards: [{
+		uid: "de6ef3af",
+		type: "ftbmoney:money",
+		ftb_money: 2L
 	}]
 }

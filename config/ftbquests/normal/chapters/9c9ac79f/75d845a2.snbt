@@ -1,0 +1,48 @@
+{
+	title: "Compact Fluid Storage!",
+	x: 21.5d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Railcraft Tanks can store Massive amounts, but they're huge! why not store less in a Small Space?",
+	text: [
+		"Right now you can make Tanks from FluidTanks Mod! you also have the possibility to make portable tanks from Thermal Expansion aswell.",
+		"",
+		"But, here's the Twist, right now at the Early game, Those Tanks from the FluidTanks Mod are a Viable option! but at the Late game, Portable Tanks",
+		"can store massive amounts if you upgrade them with Kits. ",
+		"",
+		"Basically Thermal Portable Tanks will scale more over time."
+	],
+	dependencies: [
+		"a9e7810e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "00e618f3",
+		type: "item",
+		title: "Make Any Tank from this Mod!",
+		items: [{
+			item: "fluidtank:blocktank2 1 1"
+		},
+		{
+			item: "fluidtank:blocktank2 1 2"
+		},
+		{
+			item: "fluidtank:blocktank3"
+		},
+		{
+			item: "fluidtank:blocktank3 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3e833770",
+		type: "item",
+		item: "fluidtank:blocktank2 1 1"
+	},
+	{
+		uid: "2237dc8f",
+		type: "item",
+		item: "thermaldynamics:duct_16 1 1",
+		random_bonus: 15
+	}]
+}

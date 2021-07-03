@@ -1,7 +1,7 @@
 {
 	title: "Solidifying...",
-	x: 5.9d,
-	y: 1.9d,
+	x: 20.0d,
+	y: 2.2d,
 	shape: "square",
 	description: "Let it Dry with Energy!",
 	text: [

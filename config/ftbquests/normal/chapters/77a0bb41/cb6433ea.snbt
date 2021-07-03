@@ -19,11 +19,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "82aeba1a",
-		type: "item",
-		item: "immersiveengineering:material 1 27"
-	},
-	{
 		uid: "c8c5b660",
 		type: "ftbmoney:money",
 		ftb_money: 2L

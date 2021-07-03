@@ -1,0 +1,38 @@
+{
+	title: "Imroving your Circuit Crafting Process.",
+	icon: "gregtech:meta_item_1 1 10180",
+	x: 18.2d,
+	y: -4.2d,
+	shape: "square",
+	description: "By using Soldering Alloy, there's no need to used Tin Directly.",
+	text: [
+		"With an Fluid Extractor you'll be able to Extract some fluids out of some Items. Specially Soldering Alloy.",
+		"",
+		"By Alloying §31 Antimony§f and §39 Tin ingots§f you'll be making §3Soldering Alloy!§f an Alloy used in a bunch of crafting operations troughout the whole pack!",
+		"",
+		"- §3Antimony§f can be obtained by Smelting §3Stibnite Ores§f."
+	],
+	dependencies: [
+		"038af185"
+	],
+	tasks: [{
+		uid: "5c5de677",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 300"
+		}]
+	},
+	{
+		uid: "faf7654d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10180"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e5690e8e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

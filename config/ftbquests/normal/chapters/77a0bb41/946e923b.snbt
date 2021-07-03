@@ -1,14 +1,14 @@
 {
 	title: "Lathing...",
-	x: 4.2d,
-	y: 1.9d,
+	x: 20.0d,
+	y: -4.2d,
 	shape: "square",
 	description: "Improving Rod Production...",
 	text: [
 		"With a Lathe you'll be able to produce Rods, Bolts and Screws easily!"
 	],
 	dependencies: [
-		"1eb874bb"
+		"83620a71"
 	],
 	hide: true,
 	tasks: [{

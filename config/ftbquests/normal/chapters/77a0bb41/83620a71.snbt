@@ -1,14 +1,14 @@
 {
 	title: "Metal Bending...",
-	x: 4.2d,
-	y: -2.1d,
+	x: 20.0d,
+	y: -2.0d,
 	shape: "square",
 	description: "Hey there Twinkle Toes!",
 	text: [
 		"With a Bending machine you'll be finally able to make Plates and Foils Automatically."
 	],
 	dependencies: [
-		"40dac07d"
+		"038af185"
 	],
 	hide: true,
 	tasks: [{

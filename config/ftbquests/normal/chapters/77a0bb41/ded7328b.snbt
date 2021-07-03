@@ -1,0 +1,26 @@
+{
+	title: "Making Wires!",
+	icon: "gregtech:machine 1 470",
+	x: 9.6d,
+	y: -0.8d,
+	shape: "square",
+	description: "Easier Wires and now Fine Wires!",
+	text: [
+		"With a Wiremill you'll be making more Wires with less Materias!"
+	],
+	dependencies: [
+		"162527d7"
+	],
+	tasks: [{
+		uid: "928eec48",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 470"
+		}]
+	}],
+	rewards: [{
+		uid: "41455e4a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

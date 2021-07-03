@@ -143,6 +143,46 @@ recipes.addShaped(<gregtech:machine_casing:6> * 1, [[<ore:plateLumium>, <ore:pla
 assembler.findRecipe(16, [<ore:plateChrome>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
 assembler.recipeBuilder().inputs([<ore:plateLumium> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing:6>]).duration(50).EUt(16).buildAndRegister();
 
+// Emitter (LV)
+recipes.remove(<gregtech:meta_item_1:32680>);
+recipes.addShaped(<gregtech:meta_item_1:32680> * 1, [[<ore:stickBrass>, <ore:stickBrass>, <ore:circuitBasic>], [<gregtech:cable:5071>, <ore:gemQuartzite>, <ore:stickBrass>],[<ore:circuitBasic>, <gregtech:cable:5071>, <ore:stickBrass>]]);
+
+//LV Precision Laser Engraver
+recipes.remove(<gregtech:machine:430>);
+recipes.addShaped(<gregtech:machine:430> * 1, [[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32680>, <gregtech:meta_item_1:32640>], [<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>],[<gregtech:cable:5071>, <ore:circuitBasic>, <gregtech:cable:5071>]]);
+
+//LV Chemical Reactor
+recipes.remove(<gregtech:machine:190>);
+recipes.addShaped(<gregtech:machine:190> * 1, [[<ore:strengthenedGlass>, <gregtech:meta_item_2:18071>, <ore:strengthenedGlass>], [<gregtech:cable:5071>, <gregtech:meta_item_1:32600>, <gregtech:cable:5071>],[<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>]]);
+
+//LV Wiremill
+recipes.remove(<gregtech:machine:470>);
+recipes.addShaped(<gregtech:machine:470> * 1, [[<gregtech:meta_item_1:32600>, <gregtech:cable:5071>, <gregtech:meta_item_1:32600>], [<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>],[<gregtech:meta_item_1:32600>, <gregtech:cable:5071>, <gregtech:meta_item_1:32600>]]);
+
+//LV Mixer
+recipes.remove(<gregtech:machine:370>);
+recipes.addShaped(<gregtech:machine:370> * 1, [[<ore:strengthenedGlass>, <gregtech:meta_item_2:18071>, <ore:strengthenedGlass>], [<ore:strengthenedGlass>, <gregtech:meta_item_1:32600>, <ore:strengthenedGlass>],[<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>]]);
+
+//LV Alloy Smelter
+recipes.remove(<gregtech:machine:70>);
+recipes.addShaped(<gregtech:machine:70> * 1, [[<ore:circuitBasic>, <gregtech:cable:2018>, <ore:circuitBasic>], [<gregtech:cable:2018>, <gregtech:machine:501>, <gregtech:cable:2018>],[<gregtech:cable:5071>, <gregtech:cable:2018>, <gregtech:cable:5071>]]);
+
+//LV Electric Furnace
+recipes.remove(<gregtech:machine:50>);
+recipes.addShaped(<gregtech:machine:50> * 1, [[<ore:circuitBasic>, <gregtech:cable:1018>, <ore:circuitBasic>], [<gregtech:cable:1018>, <gregtech:machine:501>, <gregtech:cable:1018>],[<gregtech:cable:5071>, <gregtech:cable:1018>, <gregtech:cable:5071>]]);
+
+// Basic Macerator
+recipes.remove(<gregtech:machine:60>);
+recipes.addShaped(<gregtech:machine:60> * 1, [[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32600>, <ore:gemDiamond>], [<gregtech:cable:5071>, <gregtech:cable:5071>, <gregtech:machine:501>],[<ore:circuitBasic>, <ore:circuitBasic>, <gregtech:cable:5071>]]);
+
+//Electric Blast Furnace
+recipes.remove(<gregtech:machine:511>);
+recipes.addShaped(<gregtech:machine:511> * 1, [[<gregtech:machine:16>, <gregtech:machine:16>, <gregtech:machine:16>], [<ore:circuitBasic>, <gregtech:metal_casing:2>, <ore:circuitBasic>],[<gregtech:cable:5071>, <ore:circuitBasic>, <gregtech:cable:5071>]]);
+
+//LV Cutting Machine
+recipes.remove(<gregtech:machine:220>);
+recipes.addShaped(<gregtech:machine:220> * 1, [[<gregtech:cable:5071>, <ore:circuitBasic>, <ore:strengthenedGlass>], [<gregtech:meta_item_1:32630>, <gregtech:machine:501>, <gregtech:meta_item_1:32721>],[<ore:circuitBasic>, <gregtech:cable:5071>, <gregtech:meta_item_1:32600>]]);
+
 
 ##### GregChests Overhaul #####
 
