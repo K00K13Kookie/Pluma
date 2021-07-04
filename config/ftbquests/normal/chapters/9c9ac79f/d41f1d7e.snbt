@@ -19,16 +19,16 @@
 		uid: "306a8a6b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustBiotite",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustBiotite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBiotite"
 				}
 			}
 		}]

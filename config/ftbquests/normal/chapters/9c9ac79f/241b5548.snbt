@@ -2,10 +2,10 @@
 	title: "Automating Crops!",
 	icon: {
 		id: "forestry:ffarm",
+		Damage: 2s,
 		tag: {
 			FarmBlock: 0
-		},
-		Damage: 2s
+		}
 	},
 	x: 26.0d,
 	y: 2.5d,
@@ -36,10 +36,10 @@
 		type: "item",
 		items: [{
 			id: "forestry:ffarm",
+			Damage: 2s,
 			tag: {
 				FarmBlock: 0
-			},
-			Damage: 2s
+			}
 		}]
 	},
 	{
@@ -47,10 +47,10 @@
 		type: "item",
 		items: [{
 			id: "forestry:ffarm",
+			Damage: 4s,
 			tag: {
 				FarmBlock: 0
-			},
-			Damage: 4s
+			}
 		}]
 	},
 	{

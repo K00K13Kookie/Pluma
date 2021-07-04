@@ -1,0 +1,35 @@
+{
+	title: "O² for days",
+	x: 20.0d,
+	y: 1.8d,
+	shape: "square",
+	description: "Centrifuging Air to get Nitrogen and Oxygen!",
+	text: [
+		"While Nitrogen is easier to obtain since NuclearCraft offers Nitrogen Collectors, Oxygen in the other hand, is a little bit tricky but not hard."
+	],
+	dependencies: [
+		"288d7a2b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12a43cd7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 150"
+		}]
+	},
+	{
+		uid: "f203c5e8",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

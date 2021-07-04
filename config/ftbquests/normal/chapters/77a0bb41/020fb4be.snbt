@@ -1,0 +1,33 @@
+{
+	title: "Ethylene!",
+	x: 18.2d,
+	y: 3.8d,
+	shape: "square",
+	description: "Maybe it is time to make a good production of Ethanol?",
+	text: [
+		"By using Ethanol and some Sulfuric Acid together, you'll be getting Ethylene! it is the First step to get Polyethylene!"
+	],
+	dependencies: [
+		"2088728e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11107471",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "ethylene",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "91fbd9cb",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

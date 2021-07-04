@@ -21,16 +21,16 @@
 		uid: "c0cf51a6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolScrewdriver",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolScrewdriver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolScrewdriver"
 				}
 			}
 		}],
@@ -40,16 +40,16 @@
 		uid: "a910bffa",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolWrench",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolWrench"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWrench"
 				}
 			}
 		}],
@@ -59,16 +59,16 @@
 		uid: "0beb5aa5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolCrowbar",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolCrowbar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolCrowbar"
 				}
 			}
 		}],
@@ -78,16 +78,16 @@
 		uid: "d265b4e9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolSoftHammer",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolSoftHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolSoftHammer"
 				}
 			}
 		}],

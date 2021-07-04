@@ -17,16 +17,16 @@
 		uid: "d6a890e3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustBismuth",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustBismuth"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBismuth"
 				}
 			}
 		}]
@@ -35,16 +35,16 @@
 		uid: "fc2a7c26",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustBrass",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBrass"
 				}
 			}
 		}],
@@ -54,16 +54,16 @@
 		uid: "73ec89ad",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "ingotBismuthBronze",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotBismuthBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBismuthBronze"
 				}
 			}
 		}]

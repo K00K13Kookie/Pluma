@@ -1,7 +1,7 @@
 {
 	title: "Alloying...",
 	x: 2.4d,
-	y: -2.1d,
+	y: -2.0d,
 	shape: "square",
 	description: "Ez Red Alloy?",
 	text: [

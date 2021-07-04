@@ -1,0 +1,30 @@
+{
+	title: "Getting Aluminium!",
+	icon: "thermalfoundation:material 1 132",
+	x: 11.58061224489795d,
+	y: 1.1695578231292743d,
+	shape: "square",
+	description: "An Resource used to progress to MV!",
+	text: [
+		"You'll be using a ton of Aluminium when you reach the MV Age of GregTech. you can start producing some right now! this may prove to be useful, as some",
+		"recipes require MV Machines. you'll need to make at least tier 2 Circuits in order to get to the actual MV Age tho."
+	],
+	dependencies: [
+		"409cd73f"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "1d55c33c",
+		type: "item",
+		title: "Aluminium Ingot",
+		items: [{
+			item: "thermalfoundation:material 1 132"
+		}]
+	}],
+	rewards: [{
+		uid: "523d8c00",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -12,14 +12,14 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:
 
 alloy.recipeBuilder()
     .inputs(<ore:dustElectrotine> * 4, <ore:ingotTin>)
-    .outputs(<ore:ingotElectrotineAlloy>.firstItem)
+    .outputs(<ore:ingotElectrotine>.firstItem)
     .duration(128)
     .EUt(120)
 .buildAndRegister();
 
 blast_furnace.recipeBuilder()
     .inputs(<ore:dustElectrotine>, <ore:ingotTin>)
-    .outputs(<ore:ingotElectrotineAlloy>.firstItem * 2)
+    .outputs(<ore:ingotElectrotine>.firstItem * 2)
     .property("temperature", 1200) //this is a minimal temperature at which the item will be smelted
     .duration(884)
     .EUt(120)

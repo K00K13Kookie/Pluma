@@ -72,16 +72,16 @@
 		uid: "9c2eac9f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockGlassHardened",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockGlassHardened"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockGlassHardened"
 				}
 			}
 		}],

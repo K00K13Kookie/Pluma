@@ -2,6 +2,7 @@
 	title: "Mass Producing Stones Sands",
 	icon: {
 		id: "thermalexpansion:machine",
+		Damage: 15s,
 		tag: {
 			RSControl: 0b,
 			Facing: 3b,
@@ -15,8 +16,7 @@
 				2b
 			],
 			Level: 0b
-		},
-		Damage: 15s
+		}
 	},
 	x: 40.0d,
 	y: -5.5d,
@@ -34,6 +34,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:machine",
+			Damage: 15s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -47,8 +48,7 @@
 					2b
 				],
 				Level: 0b
-			},
-			Damage: 15s
+			}
 		}]
 	},
 	{

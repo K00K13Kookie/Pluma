@@ -15,16 +15,16 @@
 		uid: "604304e4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustWood"
 				}
 			}
 		}],
@@ -41,16 +41,16 @@
 		uid: "8715cf59",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "charcoal",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any charcoal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "charcoal"
 				}
 			}
 		}]

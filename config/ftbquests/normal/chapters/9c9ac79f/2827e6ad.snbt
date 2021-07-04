@@ -23,16 +23,16 @@
 		uid: "47fc8225",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustGlowstone",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustGlowstone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustGlowstone"
 				}
 			}
 		}],

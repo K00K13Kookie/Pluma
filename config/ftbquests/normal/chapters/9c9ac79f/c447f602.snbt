@@ -63,6 +63,7 @@
 		type: "item",
 		item: {
 			id: "gregtech:meta_tool",
+			Damage: 8s,
 			tag: {
 				ench: [{
 					lvl: 1s,
@@ -71,8 +72,7 @@
 				GT.ToolStats: {
 					Material: "steel"
 				}
-			},
-			Damage: 8s
+			}
 		}
 	}]
 }

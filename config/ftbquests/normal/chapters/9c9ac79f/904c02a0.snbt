@@ -38,12 +38,12 @@
 		uid: "09e98b9b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				Parent: 0
-			},
 			id: "f0-resources:item_advanced_scanner",
 			tag: {
 				"f0r:energy": 0
+			},
+			ForgeCaps: {
+				Parent: 0
 			}
 		}
 	}]

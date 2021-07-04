@@ -22,16 +22,16 @@
 		uid: "0d5ef0b5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "bookshelf",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any bookshelf"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "bookshelf"
 				}
 			}
 		}],
@@ -42,16 +42,16 @@
 		uid: "c17436d4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "gearDiamond",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gearDiamond"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearDiamond"
 				}
 			}
 		}],
@@ -62,16 +62,16 @@
 		uid: "d6cee5e4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "plateObsidian",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any plateObsidian"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateObsidian"
 				}
 			}
 		}],

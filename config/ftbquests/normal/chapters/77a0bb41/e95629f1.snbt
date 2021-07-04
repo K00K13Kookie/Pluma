@@ -1,0 +1,34 @@
+{
+	title: "Finally Polyethylene!",
+	x: 20.0d,
+	y: 3.8d,
+	shape: "square",
+	description: "Ethylene + O² (Oxygen) = Polyethylene!",
+	text: [
+		"By mixing Ethylene and Oxygen, you can also use Air directly but I do not recommend it, you'll obtain Polyethylene! an Important Plastic used in many Recipes!"
+	],
+	dependencies: [
+		"020fb4be",
+		"d2af1900"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85d7f52d",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "773cb43b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -19,16 +19,16 @@
 		uid: "4feeb2ad",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "stoneGranite",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any stoneGranite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "stoneGranite"
 				}
 			}
 		}],

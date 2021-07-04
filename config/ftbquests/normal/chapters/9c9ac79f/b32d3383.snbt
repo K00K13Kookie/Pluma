@@ -22,16 +22,16 @@
 		uid: "0481959c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "ingotBlackBronze",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotBlackBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBlackBronze"
 				}
 			}
 		}]

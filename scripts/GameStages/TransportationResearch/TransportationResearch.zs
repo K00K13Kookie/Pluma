@@ -22,6 +22,7 @@ var TransportationResearch as IItemStack[] = [
 <railcraft:signal_dual:1>,
 <railcraft:signal_dual:2>,
 <railcraft:cart_spawner>,
+<railcraft:locomotive_steam_solid>,
 <railcraft:detector>,
 <railcraft:detector:1>,
 <railcraft:detector:2>,

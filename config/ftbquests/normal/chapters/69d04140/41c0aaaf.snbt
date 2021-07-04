@@ -40,16 +40,16 @@
 		uid: "6c0b733a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "fuelCoke",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any fuelCoke"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "fuelCoke"
 				}
 			}
 		}]

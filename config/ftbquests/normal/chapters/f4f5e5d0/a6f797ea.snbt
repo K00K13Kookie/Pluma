@@ -20,16 +20,16 @@
 		uid: "12a880d2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustBlaze",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustBlaze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBlaze"
 				}
 			}
 		}],
@@ -40,16 +40,16 @@
 		uid: "ba68b904",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "cropNetherWart",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any cropNetherWart"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cropNetherWart"
 				}
 			}
 		}],

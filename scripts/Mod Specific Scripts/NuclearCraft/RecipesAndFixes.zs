@@ -35,4 +35,3 @@ recipes.addShaped(<nuclearcraft:cobblestone_generator_compact> * 1, [[<nuclearcr
 // Dense Cobblestone Generator
 recipes.remove(<nuclearcraft:cobblestone_generator_dense>);
 recipes.addShaped(<nuclearcraft:cobblestone_generator_dense> * 1, [[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>], [<nuclearcraft:cobblestone_generator_compact>, <moreplates:emeradic_gear>, <nuclearcraft:cobblestone_generator_compact>],[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>]]);
-

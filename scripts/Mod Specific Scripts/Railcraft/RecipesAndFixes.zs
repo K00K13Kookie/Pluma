@@ -83,6 +83,13 @@ recipes.addShaped(<railcraft:tank_steel_valve> * 1, [[<engineersdecor:steel_mesh
 recipes.remove(<railcraft:tank_steel_wall>);
 recipes.addShaped(<railcraft:tank_steel_wall> * 4, [[null, <ore:blockSheetmetalSteel>, null], [<ore:blockSheetmetalSteel>, null, <ore:blockSheetmetalSteel>],[null, <ore:blockSheetmetalSteel>, null]]);
 
+// Steam Locomotive
+recipes.remove(<railcraft:locomotive_steam_solid:0>);
+recipes.addShaped(<railcraft:locomotive_steam_solid:0> * 1, [[<railcraft:tank_iron_wall:0>, <railcraft:tank_iron_wall:0>, <gregtech:machine:16>], [<railcraft:tank_iron_wall:0>, <railcraft:tank_iron_wall:0>, <gregtech:machine:16>],[<minecraft:iron_bars>, <minecraft:minecart>, <minecraft:minecart>]]);
+
+// Tunnel Bore
+recipes.remove(<railcraft:bore:0>);
+recipes.addShaped(<railcraft:bore:0> * 1, [[<ore:blockSteel>, <minecraft:minecart>, <ore:blockSteel>], [<gregtech:machine:16>, <minecraft:minecart>, <gregtech:machine:16>],[null, <minecraft:chest_minecart>, null]]);
 
 # OreDicts =================================
 

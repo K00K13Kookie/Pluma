@@ -26,16 +26,16 @@
 		uid: "834e2f8b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockCharcoal",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockCharcoal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockCharcoal"
 				}
 			}
 		}],

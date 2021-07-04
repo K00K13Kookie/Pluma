@@ -30,16 +30,16 @@
 		uid: "6f1294d4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "scaffoldingSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any scaffoldingSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "scaffoldingSteel"
 				}
 			}
 		}],

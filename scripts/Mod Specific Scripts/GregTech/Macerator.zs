@@ -7,7 +7,7 @@ import mods.gregtech.recipe.RecipeMap;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Coke Dust OreDicting
-macerator.findRecipe(8, [<gregtech:meta_item_1:8357>], null).remove();
+macerator.findRecipe(32, [<gregtech:meta_item_1:8357>], null).remove();
 macerator.recipeBuilder()
     .inputs([<ore:fuelCoke>])
     .outputs(<immersiveengineering:material:17>)

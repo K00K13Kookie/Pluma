@@ -23,16 +23,16 @@
 		uid: "f00b44fe",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "slabSheetmetalSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any slabSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "slabSheetmetalSteel"
 				}
 			}
 		}],
@@ -42,16 +42,16 @@
 		uid: "bc88ecc6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSheetmetalSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSheetmetalSteel"
 				}
 			}
 		}],
@@ -61,16 +61,16 @@
 		uid: "c188071b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSteel"
 				}
 			}
 		}],
@@ -80,16 +80,16 @@
 		uid: "17a3c965",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "scaffoldingSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any scaffoldingSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "scaffoldingSteel"
 				}
 			}
 		}],
@@ -148,6 +148,7 @@
 		type: "item",
 		item: {
 			id: "gregtech:meta_tool",
+			Damage: 1s,
 			tag: {
 				ench: [{
 					lvl: 5s,
@@ -168,8 +169,7 @@
 					Material: "steel",
 					Dmg: 0
 				}
-			},
-			Damage: 1s
+			}
 		}
 	}]
 }

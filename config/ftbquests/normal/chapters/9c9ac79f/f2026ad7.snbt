@@ -17,16 +17,16 @@
 		uid: "a978548d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "obsidian",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any obsidian"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "obsidian"
 				}
 			}
 		}],

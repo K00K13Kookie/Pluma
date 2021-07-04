@@ -2,10 +2,10 @@
 	title: "Setting up your Farm",
 	icon: {
 		id: "forestry:chipsets",
+		Damage: 3s,
 		tag: {
 			T: 3s
-		},
-		Damage: 3s
+		}
 	},
 	x: 28.0d,
 	y: 2.5d,
@@ -41,10 +41,10 @@
 		type: "item",
 		items: [{
 			id: "forestry:chipsets",
+			Damage: 3s,
 			tag: {
 				T: 3s
-			},
-			Damage: 3s
+			}
 		}]
 	},
 	{

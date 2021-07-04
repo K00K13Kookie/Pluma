@@ -14,16 +14,16 @@
 		uid: "13d74952",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolSaw",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolSaw"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolSaw"
 				}
 			}
 		}],
@@ -33,16 +33,16 @@
 		uid: "d7633edf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolMortar",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolMortar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolMortar"
 				}
 			}
 		}],
@@ -52,16 +52,16 @@
 		uid: "cf2d6796",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolHardHammer",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolHardHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
 				}
 			}
 		}],
@@ -71,16 +71,16 @@
 		uid: "0782976f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolScrewdriver",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolScrewdriver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolScrewdriver"
 				}
 			}
 		}],
@@ -90,16 +90,16 @@
 		uid: "8fbed753",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolWireCutter",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolWireCutter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWireCutter"
 				}
 			}
 		}],
@@ -109,16 +109,16 @@
 		uid: "d5391a81",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolFile",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolFile"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolFile"
 				}
 			}
 		}],

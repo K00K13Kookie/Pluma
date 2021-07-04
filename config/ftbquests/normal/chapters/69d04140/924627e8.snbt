@@ -15,16 +15,16 @@
 		uid: "bf62ec08",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "slabWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any slabWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "slabWood"
 				}
 			}
 		}],

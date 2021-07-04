@@ -54,7 +54,6 @@ var GearsRemovidas as IItemStack[] = [
 <moreplates:lapis_lazuli_gear>,
 <moreplates:nether_quartz_gear>,
 <moreplates:redstone_gear>,
-<moreplates:electrotine_alloy_gear>,
 <moreplates:red_alloy_gear>,
 <railcraft:gear>,
 <thermalfoundation:material:24>,
@@ -113,7 +112,8 @@ recipes.addShaped(<moreplates:redstone_gear>, [[<gregtech:meta_tool:6>, <ore:dus
 mods.immersiveengineering.MetalPress.addRecipe(<moreplates:redstone_gear>, <ore:dustRedstone>, <immersiveengineering:mold:1>, 80, 4);
 
 // Electrotine Alloy Gear
-recipes.addShaped(<moreplates:electrotine_alloy_gear>, [[<gregtech:meta_tool:6>, <ore:ingotElectrotineAlloy>, <gregtech:meta_tool:11>], [<ore:ingotElectrotineAlloy>, null, <ore:ingotElectrotineAlloy>],[<gregtech:meta_tool:13>, <ore:ingotElectrotineAlloy>, <gregtech:meta_tool:9>]]);
+recipes.remove(<jaopca:item_gearelectrotine>);
+recipes.addShaped(<jaopca:item_gearelectrotine>, [[<gregtech:meta_tool:6>, <ore:ingotElectrotine>, <gregtech:meta_tool:11>], [<ore:ingotElectrotine>, null, <ore:ingotElectrotine>],[<gregtech:meta_tool:13>, <ore:ingotElectrotine>, <gregtech:meta_tool:9>]]);
 
 // Red Alloy Gear
 recipes.addShaped(<moreplates:red_alloy_gear>, [[<gregtech:meta_tool:6>, <ore:ingotRedAlloy>, <gregtech:meta_tool:11>], [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],[<gregtech:meta_tool:13>, <ore:ingotRedAlloy>, <gregtech:meta_tool:9>]]);

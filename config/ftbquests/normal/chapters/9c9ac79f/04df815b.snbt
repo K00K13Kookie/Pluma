@@ -17,16 +17,16 @@
 		uid: "4a6e3061",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "scaffoldingSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any scaffoldingSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "scaffoldingSteel"
 				}
 			}
 		}],
@@ -67,16 +67,16 @@
 		uid: "62a475c4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSheetmetalSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSheetmetalSteel"
 				}
 			}
 		}],
@@ -86,16 +86,16 @@
 		uid: "f93133b7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSteel"
 				}
 			}
 		}],

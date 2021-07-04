@@ -20,16 +20,16 @@
 		uid: "132d7cb3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "plateSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any plateSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateSteel"
 				}
 			}
 		}],
@@ -39,16 +39,16 @@
 		uid: "9be2aa7e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "gearSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gearSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearSteel"
 				}
 			}
 		}],
@@ -59,16 +59,16 @@
 		uid: "6dafdf10",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSheetmetalSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSheetmetalSteel"
 				}
 			}
 		}],

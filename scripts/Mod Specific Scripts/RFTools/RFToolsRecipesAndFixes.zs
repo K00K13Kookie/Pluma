@@ -14,6 +14,10 @@ recipes.remove(<rftools:dimensional_shard>);
 
 #### // ####
 
+// Machine Information Screen Module
+recipes.remove(<rftools:machineinformation_module>);
+recipes.addShaped(<rftools:machineinformation_module> * 1, [[null, <gregtech:machine:50>, null], [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>],[null, <ore:dyeBlack>, null]]);
+
 //Machine Frame
 recipes.remove(<rftools:machine_frame>);
 assembler.recipeBuilder()

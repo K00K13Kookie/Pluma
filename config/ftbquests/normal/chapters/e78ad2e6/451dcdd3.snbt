@@ -15,16 +15,16 @@
 		type: "item",
 		title: "Craft Any Scoop",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingToolScoop",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingToolScoop"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolScoop"
 				}
 			}
 		}],

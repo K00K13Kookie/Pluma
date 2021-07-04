@@ -18,9 +18,12 @@ for item in toRemove {
 			entry.remove(item);
 		}
 	}
-
-	recipes.remove(item);
 }
+
+## Electrotine Corrected OreDicts #####
+
+<ore:ingotElectrotine>.add(<projectred-core:resource_item:104>);
+<ore:plateElectrotine>.add(<moreplates:electrotine_alloy_plate>);
 
 ### Blue Steel Wire Fixes ##
 

@@ -1,7 +1,7 @@
 {
 	title: "Want a Better Explanation?",
 	x: 1.0d,
-	y: -2.1d,
+	y: -2.0d,
 	shape: "gear",
 	description: "Click here to be redirected to the GT Electricity wiki",
 	text: [
@@ -16,10 +16,10 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_2",
+			Damage: 32213s,
 			tag: {
 				Charge: 10000000L
-			},
-			Damage: 32213s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

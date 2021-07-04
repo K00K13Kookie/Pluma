@@ -56,6 +56,10 @@ var toRemove = [
 , <gregtech:meta_item_1:10829>
 , <modularmachinery:itemmodularium>
 , <gregtech:metal_casing:1>
+, <gregtech:machine:360>
+, <gregtech:machine:361>
+, <gregtech:machine:362>
+, <gregtech:machine:363>
 
 //Flint Tools
 , <gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})
@@ -106,6 +110,13 @@ var toRemove = [
 , <gregtech:meta_item_1:9811>
 , <gregtech:meta_item_1:2811>
 , <gregtech:meta_block_compressed_50:11>
+
+//Electrotine Stuff
+,  <gregtech:meta_block_compressed_52>
+,  <gregtech:meta_item_1:10832>
+,  <gregtech:meta_item_1:2832>
+,  <gregtech:meta_item_1:12832>
+,  <moreplates:electrotine_alloy_gear>
 
 ] as IItemStack[];
 

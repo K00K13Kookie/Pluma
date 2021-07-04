@@ -16,6 +16,7 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_tool",
+			Damage: 12s,
 			tag: {
 				GT.ToolStats: {
 					MaxDurability: 80,
@@ -24,8 +25,7 @@
 					Material: "flint",
 					HarvestLevel: 1
 				}
-			},
-			Damage: 12s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

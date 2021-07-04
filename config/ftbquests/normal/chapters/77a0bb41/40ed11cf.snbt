@@ -24,17 +24,17 @@
 		"6b204553"
 	],
 	tasks: [{
-		uid: "dea1501d",
+		uid: "84e939d9",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 5237"
+			item: "gregtech:cable 1 5832"
 		}]
 	},
 	{
-		uid: "168b6dd8",
+		uid: "2cafc30b",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 237"
+			item: "gregtech:cable 1 832"
 		}]
 	}],
 	rewards: [{

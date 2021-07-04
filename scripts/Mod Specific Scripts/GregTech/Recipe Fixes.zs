@@ -183,6 +183,11 @@ recipes.addShaped(<gregtech:machine:511> * 1, [[<gregtech:machine:16>, <gregtech
 recipes.remove(<gregtech:machine:220>);
 recipes.addShaped(<gregtech:machine:220> * 1, [[<gregtech:cable:5071>, <ore:circuitBasic>, <ore:strengthenedGlass>], [<gregtech:meta_item_1:32630>, <gregtech:machine:501>, <gregtech:meta_item_1:32721>],[<ore:circuitBasic>, <gregtech:cable:5071>, <gregtech:meta_item_1:32600>]]);
 
+//Multi Smelter Recipe Fix
+recipes.remove(<gregtech:machine:516>);
+recipes.addShaped(<gregtech:machine:516> * 1, [[<gregtech:machine:50>, <gregtech:machine:50>, <gregtech:machine:50>], [<ore:circuitAdvanced>, <gregtech:metal_casing:2>, <ore:circuitAdvanced>],[<gregtech:cable:5087>, <ore:circuitAdvanced>, <gregtech:cable:5087>]]);
+
+
 
 ##### GregChests Overhaul #####
 

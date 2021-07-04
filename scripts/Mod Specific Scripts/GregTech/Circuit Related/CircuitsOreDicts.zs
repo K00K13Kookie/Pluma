@@ -22,9 +22,9 @@ import mods.gregtech.recipe.RecipeMap;
 //                          Primitive Circuit               Immersive Circuit 
 <ore:circuitPrimitive>.add(<gregtech:meta_item_2:32487>, <immersiveengineering:material:27>);
 
-//                          Immersive Circuit               Good Electronic Circuit     Integrated Processor
-<ore:circuitGood>.add(<immersiveengineering:material:27>, <gregtech:meta_item_2:32489>, <gregtech:meta_item_2:32490>);
-<ore:circuitBasic>.add(<immersiveengineering:material:27>, <gregtech:meta_item_2:32489>, <gregtech:meta_item_2:32490>);
+//                          Immersive Circuit               Good Electronic Circuit
+<ore:circuitGood>.add(<immersiveengineering:material:27>, <gregtech:meta_item_2:32489>);
+<ore:circuitBasic>.add(<immersiveengineering:material:27>, <gregtech:meta_item_2:32489>);
 
 //                          Integrated Processor            Processor Assembly          Nano Processor
 <ore:circuitAdvanced>.add(<gregtech:meta_item_2:32490>, <gregtech:meta_item_2:32491>, <gregtech:meta_item_2:32492>);

@@ -20,16 +20,16 @@
 		uid: "45c675f9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "scaffoldingSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any scaffoldingSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "scaffoldingSteel"
 				}
 			}
 		}],
@@ -70,16 +70,16 @@
 		uid: "c38ab078",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingPiston",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingPiston"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingPiston"
 				}
 			}
 		}]

@@ -18,16 +18,16 @@
 		uid: "34d1b776",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "projredInsulatedWire",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any projredInsulatedWire"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "projredInsulatedWire"
 				}
 			}
 		}],

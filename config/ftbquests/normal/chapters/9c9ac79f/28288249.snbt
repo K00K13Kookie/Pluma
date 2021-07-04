@@ -17,16 +17,16 @@
 		uid: "0279a3a3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "actuallyLamp",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any actuallyLamp"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "actuallyLamp"
 				}
 			}
 		}]

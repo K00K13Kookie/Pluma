@@ -16,16 +16,16 @@
 		uid: "2ff29551",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "gravel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gravel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gravel"
 				}
 			}
 		}],

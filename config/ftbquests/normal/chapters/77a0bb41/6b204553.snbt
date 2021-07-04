@@ -3,26 +3,37 @@
 	x: -0.3d,
 	y: -0.8d,
 	shape: "square",
-	description: "Red Alloy is very Important right now!",
+	description: "Electrotine Alloy is very Important right now!",
 	text: [
 		"I Will explain about the GT Cables on a later quest, but for now, keep in mind a few Things.",
 		"",
 		"",
-		"- Each Stage (LV, MV, HV...) will have a \"must automate\" resource, in this case Red Alloy",
+		"- Each Stage (LV, MV, HV...) will have a \"must automate\" resource, in this case Electrotine Alloy",
 		"",
 		"- With that \"Must automate\" Resource you'll have acess to a variety of machines and crafts, but most importantly, the Cables for that Stage.",
 		"",
 		"",
-		"The Cables made from Red Alloy will be the Best ones in the LV Stage."
+		"The Cables made from Electrotine will be the Best ones in the LV Stage."
 	],
 	dependencies: [
 		"b8f138dd"
 	],
 	tasks: [{
-		uid: "b1c7c661",
+		uid: "6f6c8e65",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10237"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotElectrotine"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotElectrotine"
+				}
+			}
 		}],
 		count: 16L
 	}],

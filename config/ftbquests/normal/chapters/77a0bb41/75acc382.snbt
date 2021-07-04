@@ -1,0 +1,26 @@
+{
+	title: "Making Transistors!",
+	x: 22.0d,
+	y: 3.8d,
+	description: "A Step closer to Tier 1.5 Circuits!",
+	text: [
+		"With 6x Tin foils, a Silicon plate and some Polyethylene, you'll be able to make Transistors! a Component required to make Tier 1.5 Circuits!"
+	],
+	dependencies: [
+		"e95629f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68823b69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32461"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4140e29b",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

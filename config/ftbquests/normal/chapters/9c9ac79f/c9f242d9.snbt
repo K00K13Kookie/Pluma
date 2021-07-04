@@ -49,16 +49,16 @@
 		uid: "f61c7c4a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSheetmetalSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSheetmetalSteel"
 				}
 			}
 		}],
@@ -68,16 +68,16 @@
 		uid: "cd6f2f15",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSteel"
 				}
 			}
 		}],

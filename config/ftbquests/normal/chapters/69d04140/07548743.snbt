@@ -15,16 +15,16 @@
 		uid: "d46f8152",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "bed",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any bed"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "bed"
 				}
 			}
 		}],

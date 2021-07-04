@@ -1,0 +1,35 @@
+{
+	title: "Lets automate Clay!",
+	x: 18.2d,
+	y: 0.8d,
+	shape: "square",
+	description: "Water + Sand in a Chemical Bath = Infinite Clay!",
+	text: [
+		"Using you current Sand Automation line, you can also place a chemical bath next to the auto output side of the Macerator in order to insert those sands ",
+		"inside of the Chemical Bath, them, simply provide power and Water. Congratulations, you've automated Clay aswell!"
+	],
+	dependencies: [
+		"912da6fa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b52000e4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 180"
+		}]
+	},
+	{
+		uid: "4849c72f",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0ec8cc14",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

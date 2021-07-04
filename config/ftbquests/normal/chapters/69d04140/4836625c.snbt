@@ -17,16 +17,16 @@
 		uid: "0bc513b8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockCandle",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockCandle"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockCandle"
 				}
 			}
 		}]
