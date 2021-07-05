@@ -118,6 +118,13 @@ var toRemove = [
 ,  <gregtech:meta_item_1:12832>
 ,  <moreplates:electrotine_alloy_gear>
 
+//Certus Stuff
+,  <gregtech:meta_item_1:12202>
+,  <gregtech:meta_block_compressed_12:10>
+,  <gregtech:ore_certus_quartz_0>
+,  <gregtech:meta_item_1:8202>
+,  <gregtech:meta_item_1:2202>
+
 ] as IItemStack[];
 
 for item in toRemove {

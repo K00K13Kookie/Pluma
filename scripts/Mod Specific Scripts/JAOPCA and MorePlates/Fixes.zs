@@ -35,7 +35,8 @@ var RecipeRemovals as IItemStack[] = [
 <jaopca:item_gearamethyst>,
 <jaopca:item_gearapatite>,
 <jaopca:item_gearbluetopaz>,
-<jaopca:item_gearcertusquartz>,
+<moreplates:certus_quartz_gear>,
+<jaopca:item_gearchargedcertusquartz>,
 <jaopca:item_gearcinnabar>,
 <jaopca:item_geardimensionalshard>,
 <jaopca:item_gearenderbiotite>,
@@ -78,7 +79,9 @@ var RecipeRemovals as IItemStack[] = [
 <jaopca:item_stickenderbiotite>,
 <jaopca:item_stickperidot>,
 <jaopca:item_stickquartz>,
-<jaopca:item_stickquartzblack>
+<jaopca:item_stickquartzblack>,
+<moreplates:certus_quartz_plate>,
+<moreplates:fluix_plate>
     ];
 
 for i in RecipeRemovals {
@@ -431,12 +434,23 @@ mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_gearbluetopaz>, <ore
 extruder.recipeBuilder()
     .inputs(<ore:gemCertusQuartz> * 4)
     .notConsumable(<gregtech:meta_item_1:32372>)
-    .outputs(<jaopca:item_gearcertusquartz>)
+    .outputs(<moreplates:certus_quartz_gear>)
     .duration(128)
     .EUt(64)
 .buildAndRegister();
 
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_gearcertusquartz>, <ore:gemCertusQuartz>, <immersiveengineering:mold:1>, 80, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<moreplates:certus_quartz_gear>, <ore:gemCertusQuartz>, <immersiveengineering:mold:1>, 80, 4);
+
+//Certuz Quartz Charged Gear
+extruder.recipeBuilder()
+    .inputs(<ore:gemChargedCertusQuartz> * 4)
+    .notConsumable(<gregtech:meta_item_1:32372>)
+    .outputs(<jaopca:item_gearchargedcertusquartz>)
+    .duration(128)
+    .EUt(64)
+.buildAndRegister();
+
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_gearchargedcertusquartz>, <ore:gemChargedCertusQuartz>, <immersiveengineering:mold:1>, 80, 4);
 
 //Dimensional Shard Gear
 extruder.recipeBuilder()

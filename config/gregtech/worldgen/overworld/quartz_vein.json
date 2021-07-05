@@ -32,7 +32,7 @@
         },
 		    {
           "weight": 35,
-          "value": "ore:certus_quartz"
+          "value": "ore_dict:oreCertusQuartz"
         },
 		    {
           "weight": 20,

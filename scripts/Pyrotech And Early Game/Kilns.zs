@@ -255,7 +255,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "CertuzQuartzOreSmelt",                // unique recipe name
-  <gregtech:meta_item_1:8202> * 2,          // recipe output
+  <appliedenergistics2:material> * 2,          // recipe output
   <ore:oreCertusQuartz>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
