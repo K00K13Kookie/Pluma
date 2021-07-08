@@ -30,4 +30,13 @@ chemreactor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
-    
+##### Super Glue Recipe #####
+
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:glue> * 2000])
+    .fluidInputs([<liquid:nitrogen_dioxide> * 1000])
+    .fluidInputs([<liquid:styrene> * 1000])
+    .fluidOutputs(<liquid:superglue> * 4000)
+    .duration(600)
+    .EUt(32)
+    .buildAndRegister();

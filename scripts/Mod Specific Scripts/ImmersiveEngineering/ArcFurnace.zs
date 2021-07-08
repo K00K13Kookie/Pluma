@@ -76,7 +76,8 @@ var RemovingFromArc as IItemStack[] = [
 <gregtech:meta_item_1:10424>,
 <gregtech:meta_item_1:10229>,
 <gregtech:meta_item_1:10230>,
-<gregtech:meta_item_1:10231>
+<gregtech:meta_item_1:10231>,
+<gregtech:meta_item_1:10835>
 ];
 for i in RemovingFromArc {
 mods.immersiveengineering.ArcFurnace.removeRecipe(i);

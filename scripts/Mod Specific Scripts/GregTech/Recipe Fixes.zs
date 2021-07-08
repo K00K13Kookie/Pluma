@@ -250,3 +250,24 @@ assembler.recipeBuilder()
     .duration(120)
     .EUt(16)
     .buildAndRegister();
+
+//Fixing Glowstone in the Fluid Extractor
+fluid_extractor.findRecipe(32, [<minecraft:glowstone_dust>], null).remove();
+fluid_extractor.findRecipe(32, [<minecraft:glowstone_dust>], null).remove();       
+fluid_extractor.findRecipe(32, [<minecraft:glowstone>], null).remove();
+
+fluid_extractor.recipeBuilder()
+    .inputs(<minecraft:glowstone_dust>)
+    .fluidOutputs(<liquid:glowstone> * 144)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
+fluid_extractor.recipeBuilder()
+    .inputs(<minecraft:glowstone>)
+    .fluidOutputs(<liquid:glowstone> * 576)
+    .duration(320)
+    .EUt(32)
+    .buildAndRegister();
+
+    

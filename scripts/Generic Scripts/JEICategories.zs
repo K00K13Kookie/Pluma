@@ -36,7 +36,8 @@ var categoriesToHide as string[] = [
 	"thermalexpansion.compactor_mint",
 	"thermalexpansion.compactor_gear",
 	"thermalexpansion.crucible",
-	"thermalexpansion.crucible_lava"
+	"thermalexpansion.crucible_lava",
+	"appliedenergistics2.inscriber"
 
 
 ];

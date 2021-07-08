@@ -368,3 +368,21 @@ alloy.recipeBuilder()
 recipes.remove(<thermalexpansion:tank:0>);
 recipes.addShaped(<thermalexpansion:tank:0> * 1, [[<ore:plateDenseCopper>, <ore:plateCopper>, <ore:plateDenseCopper>], [<ore:plateCopper>, <ore:blockGlassHardened>, <ore:plateCopper>],[<ore:plateCopper>, <thermalfoundation:material:512>, <ore:plateCopper>]]);
 
+
+//Cache Easier on the Assembler
+assembler.recipeBuilder()
+    .inputs([<ore:plateBismuth> * 2, <immersiveengineering:wooden_device0>, <thermalfoundation:material:512>, <ore:plateDenseTin>])
+    .outputs(<thermalexpansion:cache>)
+    .duration(120)
+    .EUt(128)
+    .buildAndRegister();
+
+//Redstone Servo on HV Chemical Reactor
+chemreactor.recipeBuilder()
+    .inputs([<projectred-core:resource_item:410>, <ore:stickSilver> * 4])
+    .fluidInputs([<liquid:redstone> * 400])
+    .outputs(<thermalfoundation:material:512> * 4)
+    .duration(100)
+    .EUt(512)
+    .buildAndRegister();
+

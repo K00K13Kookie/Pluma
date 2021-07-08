@@ -17,7 +17,6 @@ recipes.remove(<jaopca:item_nuggetcoal>);
 var RecipeRemovals as IItemStack[] = [
 <jaopca:item_gearberyllium>,
 <jaopca:item_gearbismuth>,
-<jaopca:item_gearcobalt>,
 <jaopca:item_geargraphite>,
 <jaopca:item_gearlithium>,
 <jaopca:item_gearmagnesium>,
@@ -81,7 +80,8 @@ var RecipeRemovals as IItemStack[] = [
 <jaopca:item_stickquartz>,
 <jaopca:item_stickquartzblack>,
 <moreplates:certus_quartz_plate>,
-<moreplates:fluix_plate>
+<moreplates:fluix_plate>,
+<moreplates:fluix_gear>
     ];
 
 for i in RecipeRemovals {

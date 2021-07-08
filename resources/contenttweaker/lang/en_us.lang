@@ -68,6 +68,7 @@ tile.contenttweaker.uninspectedmineral.name=Uninspected Mineral
 
 fluid.hidratedlubricant=Hidrated Lubricant
 fluid.liquidTomato=Tomato Sauce
+fluid.superGlue=Super Glue
 
 item.contenttweaker.emptybag.name=Empty Bag
 item.contenttweaker.emptypot.name=Empty Pot
@@ -82,6 +83,9 @@ item.contenttweaker.drinkglass.name=Drinking Glass
 item.contenttweaker.rawbread.name=Raw Bread Dough
 item.contenttweaker.rawbaguette.name=Raw Baguette Dough
 item.contenttweaker.rawricebread.name=Raw Rice Bread
+
+item.contenttweaker.printedFluix.name=Printed Parallel Circuit
+item.contenttweaker.inscriberParallelPress.name=Inscriber Parallel Press
 
 item.contenttweaker.BlankShapeCard.name=Blank Shape Card
 

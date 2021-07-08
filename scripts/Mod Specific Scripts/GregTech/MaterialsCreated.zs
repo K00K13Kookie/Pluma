@@ -27,6 +27,11 @@ MaterialRegistry.createIngotMaterial(
 	@Optional int blastFurnaceTemperature);
 */
 
+	#Fluix
+val fluidFluix = MaterialRegistry.createFluidMaterial(839, "fluix", 0x9B16DF, "FLUID");
+fluidFluix.addFlags(["GENERATE_FLUID_BLOCK"]);
+fluidFluix.setFluidTemperature(30);
+
 	#Modularium
 val materialModularium = MaterialRegistry.createIngotMaterial(830, "modularium", 0x8BA6CB, "METALLIC", 2); 
 materialModularium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
@@ -34,6 +39,10 @@ materialModularium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_
 	#HoneyComb
 val materialHoneyComb = MaterialRegistry.createIngotMaterial(829, "honeycomb", 0xebc334, "SHINY", 2); 
 materialHoneyComb.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
+
+	#Celestial Crystal
+val materialCrystal = MaterialRegistry.createIngotMaterial(835, "celestialcrystal", 0x743197, "SHINY", 2); 
+materialCrystal.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
 
 	#Electrotine (LV Cable)
 val materialElectrotine = MaterialRegistry.createIngotMaterial(832, "electrotine", 0x2687dc, "SHINY", 6, null, 12.0f, 6, 7000);

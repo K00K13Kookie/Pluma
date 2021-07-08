@@ -168,5 +168,13 @@ rawbaguette.register();
 var BlankShapeCard = VanillaFactory.createItem("BlankShapeCard");
 BlankShapeCard.register();
 
+// Printed Fluix ================================================================================
+var printedFluix = VanillaFactory.createItem("printedFluix");
+printedFluix.register();
+
+// Inscriber Parallel Press ================================================================================
+var inscriberParallelPress = VanillaFactory.createItem("inscriberParallelPress");
+inscriberParallelPress.register();
+
 print("--------------- Custom Resources End ------------------");
 

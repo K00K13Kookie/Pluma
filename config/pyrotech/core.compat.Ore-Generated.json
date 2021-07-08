@@ -79,6 +79,15 @@
         "thermalfoundation:material:196"
       ]
     },
+    "oreArdite": {
+      "slagColor": "e85e17",
+      "langKey": [
+        "tconstruct:tile.tconstruct.ore.ardite"
+      ],
+      "output": [
+        "tconstruct:nuggets:1"
+      ]
+    },
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
@@ -96,6 +105,7 @@
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
+        "tconstruct:tile.tconstruct.ore.cobalt",
         "undergroundbiomes:tile.igneous_stone_gregtech_ore_cobalt_0",
         "undergroundbiomes:tile.igneous_stone_gregtech_ore_cobalt_0",
         "undergroundbiomes:tile.igneous_stone_gregtech_ore_cobalt_0",
@@ -122,7 +132,8 @@
         "undergroundbiomes:tile.sedimentary_stone_gregtech_ore_cobalt_0"
       ],
       "output": [
-        "gregtech:meta_item_1:9017"
+        "gregtech:meta_item_1:9017",
+        "tconstruct:nuggets:0"
       ]
     },
     "oreCopper": {

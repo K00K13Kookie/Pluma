@@ -9,7 +9,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 ###### Fluiduct ######
 
 //Fluiduct 
-recipes.addShapeless("FluiductNonOpaque", <thermaldynamics:duct_16>, [<thermaldynamics:duct_16:1>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("FluiductNonOpaque", <thermaldynamics:duct_16>, [<thermaldynamics:duct_16:1>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("FluiductNonOpaqueToOpaque", <thermaldynamics:duct_16:1>, [<thermaldynamics:duct_16>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_16>);
 /*
 RecipeBuilder.get("engineer")
@@ -38,7 +39,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Hardened Fluiduct
-recipes.addShapeless("HardenedFluiductNonOpaque", <thermaldynamics:duct_16:2>, [<thermaldynamics:duct_16:3>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("HardenedFluiductNonOpaque", <thermaldynamics:duct_16:2>, [<thermaldynamics:duct_16:3>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("HardenedFluiductNonOpaqueToOpaque", <thermaldynamics:duct_16:3>, [<thermaldynamics:duct_16:2>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_16:2>);
 /*
 RecipeBuilder.get("engineer")
@@ -67,7 +69,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Signalum Plated Fluiduct
-recipes.addShapeless("SPlatedFluiductNonOpaque", <thermaldynamics:duct_16:4>, [<thermaldynamics:duct_16:5>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedFluiductNonOpaque", <thermaldynamics:duct_16:4>, [<thermaldynamics:duct_16:5>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedFluiductNonOpaqueToOpaque", <thermaldynamics:duct_16:5>, [<thermaldynamics:duct_16:4>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_16:4>);
 /*
 RecipeBuilder.get("engineer")
@@ -90,7 +93,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Super Laminar Fluiduct
-recipes.addShapeless("SLaminarFluiductNonOpaque", <thermaldynamics:duct_16:6>, [<thermaldynamics:duct_16:7>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SLaminarFluiductNonOpaque", <thermaldynamics:duct_16:6>, [<thermaldynamics:duct_16:7>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("SLaminarFluiductNonOpaqueToOpaque", <thermaldynamics:duct_16:7>, [<thermaldynamics:duct_16:6>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_16:6>);
 /*
 RecipeBuilder.get("engineer")
@@ -212,7 +216,8 @@ RecipeBuilder.get("engineer")
 ###### ItemDucts ######
 
 //ItemDuct
-recipes.addShapeless("ItemductNonOpaque", <thermaldynamics:duct_32>, [<thermaldynamics:duct_32:1>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("ItemductNonOpaque", <thermaldynamics:duct_32>, [<thermaldynamics:duct_32:1>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("ItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:1>, [<thermaldynamics:duct_32>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32>);
 /*
 RecipeBuilder.get("engineer")
@@ -241,7 +246,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Dense ItemDuct
-recipes.addShapeless("DenseItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("DenseItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("DenseItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -264,7 +270,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Vacuum ItemDuct
-recipes.addShapeless("VacuumItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("VacuumItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("VacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -287,7 +294,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Dense Vacuum ItemDuct
-recipes.addShapeless("DenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("DenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("DenseVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -310,7 +318,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Vacuum Vacuum ItemDuct
-recipes.addShapeless("VacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("VacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("VacuumVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -333,7 +342,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Signalum Plated Itemduct
-recipes.addShapeless("SPlatedItemductNonOpaque", <thermaldynamics:duct_32:4>, [<thermaldynamics:duct_32:5>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedItemductNonOpaque", <thermaldynamics:duct_32:4>, [<thermaldynamics:duct_32:5>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:5>, [<thermaldynamics:duct_32:4>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:4>);
 /*
 RecipeBuilder.get("engineer")
@@ -356,7 +366,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Dense Vacuum ItemDuct Signalum Plated
-recipes.addShapeless("SPlatedDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedDenseVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -379,7 +390,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Vacuum Vacuum ItemDuct Signalum Plated
-recipes.addShapeless("SPlatedVacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedVacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedVacuumVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -402,7 +414,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Signalum Plated Impulse Itemduct
-recipes.addShapeless("SPlatedImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>, [<thermaldynamics:duct_32:7>, <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>, [<thermaldynamics:duct_32:7>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedImpulseItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:7>, [<thermaldynamics:duct_32:6>, <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:6>);
 /*
 RecipeBuilder.get("engineer")
@@ -425,7 +438,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Dense Vacuum Impulse ItemDuct Signalum Plated
-recipes.addShapeless("SPlatedImpulseDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedImpulseDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedImpulseDenseVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}));
 /*
 RecipeBuilder.get("engineer")
@@ -448,7 +462,8 @@ RecipeBuilder.get("engineer")
   .create();
 
 //Vacuum Vacuum Impulse ItemDuct Signalum Plated
-recipes.addShapeless("SPlatedVacuumVacuumImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), <ore:artisansLens>.reuse().transformDamage(1)]);
+recipes.addShapeless("SPlatedVacuumVacuumImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
+recipes.addShapeless("SPlatedVacuumVacuumImpulseItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.remove(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}));
 /*
 RecipeBuilder.get("engineer")

@@ -38,4 +38,12 @@ macerator.recipeBuilder()
     .outputs(<contenttweaker:driedhide>)
     .duration(120)
     .EUt(12)
-    .buildAndRegister();    
+    .buildAndRegister();
+
+//Sky Stone Dust Recipe
+macerator.recipeBuilder()
+    .inputs([<appliedenergistics2:sky_stone_block>])
+    .outputs(<appliedenergistics2:material:45> * 4)
+    .duration(120)
+    .EUt(12)
+    .buildAndRegister();        

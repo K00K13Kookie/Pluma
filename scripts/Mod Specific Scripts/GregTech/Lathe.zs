@@ -12,4 +12,4 @@ lathe.recipeBuilder()
     .outputs(<immersiveengineering:material> * 2)
     .duration(10)
     .EUt(8)
-    .buildAndRegister();
+    .buildAndRegister();    

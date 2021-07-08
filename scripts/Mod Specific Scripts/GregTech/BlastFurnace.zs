@@ -39,4 +39,14 @@ blast_furnace.recipeBuilder()
     .property("temperature", 1200) //this is a minimal temperature at which the item will be smelted
     .duration(1450)
     .EUt(120)
-    .buildAndRegister();  
+    .buildAndRegister();
+
+//Vanadium Steel
+blast_furnace.findRecipe(128, [<gregtech:meta_item_1:2301>], null).remove();
+blast_furnace.recipeBuilder()
+    .inputs(<ore:dustVanadium>, <ore:dustBlackSteel>)
+    .outputs(<ore:ingotVanadiumSteel>.firstItem * 1)
+    .property("temperature", 1200) //this is a minimal temperature at which the item will be smelted
+    .duration(1450)
+    .EUt(120)
+    .buildAndRegister();

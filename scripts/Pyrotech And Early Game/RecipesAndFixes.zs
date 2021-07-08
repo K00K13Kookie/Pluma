@@ -6,7 +6,7 @@ recipes.addShaped(<pyrotech:mechanical_hopper> * 1, [[<pyrotech:material:16>, nu
 
 //Replacing all String recipes with Twine OreDict
 <ore:string>.add(<pyrotech:material:14>);
-recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+#recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
 
 //Replacing Pyrotech Ash with an OreDict
 recipes.replaceAllOccurences(<pyrotech:material>, <ore:dustAsh>);

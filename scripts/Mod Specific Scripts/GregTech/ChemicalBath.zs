@@ -17,4 +17,11 @@ chemical_bath.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
-    
+//Resonating Crystal
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:ender> * 250])
+    .inputs(<ore:crystalPureFluix>)
+    .outputs(<threng:material:5>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();

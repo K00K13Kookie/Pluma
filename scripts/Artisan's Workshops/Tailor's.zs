@@ -32,6 +32,15 @@ RecipeBuilder.get("tailor")
   .addOutput(<minecraft:string>)
   .create();  
 
+//Twine to String
+RecipeBuilder.get("tailor")
+  .setShaped([
+    [<ore:twine>]])
+  .addTool(<ore:artisansKnife>, 2)
+  .addTool(<ore:artisansLens>, 2)
+  .addOutput(<minecraft:string>)
+  .create();
+
 //Wool
 recipes.remove(<minecraft:wool>);
 RecipeBuilder.get("tailor")

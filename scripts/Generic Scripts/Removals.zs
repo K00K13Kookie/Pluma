@@ -13,6 +13,30 @@ i.addTooltip(format.red("Cannot be Crafted with Bare Hands. Can Only found in th
 
 var ItensRemovidos as IItemStack[] = [
 
+//LazyAE2
+<threng:material:2>,
+<threng:machine>,
+<threng:machine:1>,
+<threng:machine:2>,
+<threng:machine:5>,
+<threng:material:14>,
+<threng:material:13>,
+<threng:material:7>,
+<threng:material:8>,
+<threng:material:9>,
+<threng:material:10>,
+<threng:material:11>,
+<threng:material:12>,
+
+//AE2
+<appliedenergistics2:crystal_seed>,
+<appliedenergistics2:crystal_seed:600>,
+<appliedenergistics2:crystal_seed:1200>,
+<appliedenergistics2:material:4>,
+<appliedenergistics2:material:3>,
+<appliedenergistics2:part:200>,
+<appliedenergistics2:part:160>,
+
 //Chest Transporter
 <chesttransporter:chesttransporter_silver>,
 <chesttransporter:chesttransporter_tin>,
@@ -67,6 +91,7 @@ var ItensRemovidos as IItemStack[] = [
 <forestry:farm_nether:1>,
 
 //Actually Additions
+<actuallyadditions:item_dust:5>,
 <actuallyadditions:block_giant_chest_medium>,
 <actuallyadditions:block_giant_chest_large>,
 <actuallyadditions:block_furnace_double>,
@@ -176,6 +201,11 @@ var ItensRemovidos as IItemStack[] = [
 <projectred-exploration:wool_gin>,
 <projectred-expansion:machine2:11>,
 <projectred-expansion:machine2:10>,
+<projectred-core:resource_item:200>,
+<projectred-core:resource_item:201>,
+<projectred-core:resource_item:202>,
+<projectred-exploration:ore>,
+<projectred-exploration:ore:1>,
 
 //Overloaded Removals
 <overloaded:creative_generator>,
@@ -398,7 +428,6 @@ var ItensRemovidos as IItemStack[] = [
 <plants2:generic:7>,
 <plants2:generic:8>,
 <plants2:generic:9>
-
     ];
 for item in ItensRemovidos {
 	recipes.remove(item);
