@@ -29,5 +29,10 @@
 		uid: "f62173b1",
 		type: "ftbmoney:money",
 		ftb_money: 2L
+	},
+	{
+		uid: "3335f80f",
+		type: "item",
+		item: "tconstruct:moms_spaghetti"
 	}]
 }

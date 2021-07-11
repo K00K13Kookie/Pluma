@@ -66,3 +66,14 @@ mods.pyrotech.SoakingPot.addRecipe(
   false,
   1600
 );
+
+//Rough Brownstone
+recipes.remove(<tconstruct:brownstone:1>);
+mods.pyrotech.SoakingPot.addRecipe(
+  "RoughBrownstone",     
+  <tconstruct:brownstone:1>,
+  <liquid:redstone> * 144,
+  <undergroundbiomes:sedimentary_stone:5>,
+  false,
+  800
+);

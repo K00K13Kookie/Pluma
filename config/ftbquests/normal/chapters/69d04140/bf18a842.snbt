@@ -15,9 +15,9 @@
 		uid: "f3aef098",
 		type: "item",
 		items: [{
-			item: "minecraft:stone 16"
+			item: "minecraft:stone"
 		}],
-		count: 16L,
+		count: 10L,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

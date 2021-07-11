@@ -905,6 +905,10 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:machine:2506>,
 <gregtech:machine:2507>,
 <gregtech:meta_item_2:32447>,
+<gregtech:machine:2179>,
+<gregtech:machine:2180>,
+<gregtech:machine:2181>,
+<gregtech:machine:2182>,
 
 //CEU
 <gregtech:machine:10646>,

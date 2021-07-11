@@ -270,4 +270,21 @@ fluid_extractor.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 
-    
+//Fixing Redstone in the Fluid Extractor
+fluid_extractor.findRecipe(32, [<minecraft:redstone>], null).remove();
+fluid_extractor.findRecipe(32, [<minecraft:redstone>], null).remove();       
+fluid_extractor.findRecipe(32, [<minecraft:redstone_block>], null).remove();
+
+fluid_extractor.recipeBuilder()
+    .inputs(<ore:dustRedstone>)
+    .fluidOutputs(<liquid:redstone> * 144)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
+fluid_extractor.recipeBuilder()
+    .inputs(<ore:blockRedstone>)
+    .fluidOutputs(<liquid:redstone> * 1296)
+    .duration(320)
+    .EUt(32)
+    .buildAndRegister();    

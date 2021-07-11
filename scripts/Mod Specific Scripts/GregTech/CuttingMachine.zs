@@ -18,6 +18,16 @@ saw.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 
+//Firewood
+recipes.remove(<tconstruct:firewood:1>);
+saw.recipeBuilder()
+    .inputs([<tconstruct:firewood>])
+    .fluidInputs(<liquid:blaze> * 2304)
+    .outputs(<tconstruct:firewood:1> * 4)
+    .duration(120)
+    .EUt(50)
+    .buildAndRegister();
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Wood Planks and Slabs Rework                                                                                                     //

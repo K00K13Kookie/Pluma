@@ -33,10 +33,45 @@ chemreactor.recipeBuilder()
 ##### Super Glue Recipe #####
 
 chemreactor.recipeBuilder()
-    .fluidInputs([<liquid:glue> * 2000])
+    .fluidInputs([<liquid:glue> * 2000]) 
     .fluidInputs([<liquid:nitrogen_dioxide> * 1000])
     .fluidInputs([<liquid:styrene> * 1000])
     .fluidOutputs(<liquid:superglue> * 4000)
     .duration(600)
     .EUt(32)
+    .buildAndRegister();
+
+##### Slimy Muds #####    
+
+//Green
+recipes.remove(<tconstruct:soil:1>);
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:water> * 250])
+    .inputs(<ore:blockMud>)
+    .inputs(<ore:slimeballGreen> * 4)    
+    .outputs(<tconstruct:soil:1>)
+    .duration(200)
+    .EUt(10)
+    .buildAndRegister();
+
+//Blue
+recipes.remove(<tconstruct:soil:2>);
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:water> * 250])
+    .inputs(<ore:blockMud>)
+    .inputs(<ore:slimeballBlue> * 4)    
+    .outputs(<tconstruct:soil:2>)
+    .duration(200)
+    .EUt(10)
+    .buildAndRegister();
+
+//Orange
+recipes.remove(<tconstruct:soil:5>);
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:water> * 250])
+    .inputs(<ore:blockMud>)
+    .inputs(<ore:slimeballMagma> * 4)    
+    .outputs(<tconstruct:soil:5>)
+    .duration(200)
+    .EUt(10)
     .buildAndRegister();

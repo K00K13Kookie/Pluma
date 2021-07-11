@@ -1,0 +1,42 @@
+{
+	title: "A Special Type of Chisel!",
+	x: 3.4989795918367363d,
+	y: 0.5723639455782319d,
+	shape: "rsquare",
+	description: "Lets Convert Stones!",
+	text: [
+		"You've probally already noticed that in this world, Normal Stone is... kinda rare! there's a bunch of types of stone tho, and you can always convert them back to their normal minecraft variants!",
+		"",
+		"- You can use an Artisan's Chisel to convert them 1 by 1, and later on, you'll be able to convert them easily"
+	],
+	dependencies: [
+		"04bde3fc"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "45a9f7d2",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any artisansChisel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "artisansChisel"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eae8bd44",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

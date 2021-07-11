@@ -391,3 +391,87 @@ recipes.addShaped(<appliedenergistics2:network_tool> * 1, [[<ore:plateCelestialc
 //Acceleration Card
 recipes.remove(<appliedenergistics2:material:30>);
 recipes.addShapeless("AEAccelerationCard", <appliedenergistics2:material:30>, [<appliedenergistics2:material:28>, <threng:material:5>]);
+
+//Import Bus
+recipes.remove(<appliedenergistics2:part:240>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:material:44>, <appliedenergistics2:part:140>, <ore:plateIron> * 2, <minecraft:sticky_piston>])
+    .fluidInputs([<liquid:superglue> * 125])
+    .outputs(<appliedenergistics2:part:240>)
+    .duration(80)
+    .EUt(45)
+    .buildAndRegister();
+
+//Export Bus
+recipes.remove(<appliedenergistics2:part:260>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:material:43>, <appliedenergistics2:part:140>, <ore:plateIron> * 2, <minecraft:piston>])
+    .fluidInputs([<liquid:superglue> * 125])
+    .outputs(<appliedenergistics2:part:260>)
+    .duration(80)
+    .EUt(45)
+    .buildAndRegister();
+
+//Fluid Import Bus
+recipes.remove(<appliedenergistics2:part:241>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:material:44>, <appliedenergistics2:part:140>, <ore:plateLapis> * 2, <minecraft:sticky_piston>])
+    .fluidInputs([<liquid:superglue> * 125])
+    .outputs(<appliedenergistics2:part:241>)
+    .duration(80)
+    .EUt(45)
+    .buildAndRegister();
+
+//Fluid Export Bus
+recipes.remove(<appliedenergistics2:part:261>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:material:43>, <appliedenergistics2:part:140>, <ore:plateLapis> * 2, <minecraft:piston>])
+    .fluidInputs([<liquid:superglue> * 125])
+    .outputs(<appliedenergistics2:part:261>)
+    .duration(80)
+    .EUt(45)
+    .buildAndRegister();
+
+//Level Emitter
+recipes.remove(<appliedenergistics2:part:280>);
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:32680>])
+    .property("circuit", 22)    
+    .fluidInputs([<liquid:fluix> * 2664])
+    .outputs(<appliedenergistics2:part:280>)
+    .duration(80)
+    .EUt(60)
+    .buildAndRegister();
+
+//Fluid Level Emitter
+recipes.remove(<appliedenergistics2:part:281>);
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:32680>, <ore:dustLapis>])
+    .property("circuit", 22)    
+    .fluidInputs([<liquid:fluix> * 2664])
+    .outputs(<appliedenergistics2:part:281>)
+    .duration(80)
+    .EUt(60)
+    .buildAndRegister();
+
+//Wireless Booster
+recipes.remove(<appliedenergistics2:material:42>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateEnderPearl>, <ore:plateChargedCertusQuartz>, <forestry:thermionic_tubes:12>])
+    .property("circuit", 22)    
+    .fluidInputs([<liquid:fluix> * 666])
+    .outputs(<appliedenergistics2:material:42> * 4)
+    .duration(80)
+    .EUt(60)
+    .buildAndRegister();
+
+//Toggle Bus
+recipes.remove(<appliedenergistics2:part:80>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:part:16>, <minecraft:lever>])
+    .property("circuit", 22)    
+    .fluidInputs([<liquid:redstone> * 288])
+    .outputs(<appliedenergistics2:part:80>)
+    .duration(60)
+    .EUt(12)
+    .buildAndRegister();        

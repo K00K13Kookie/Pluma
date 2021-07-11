@@ -81,7 +81,9 @@ var RecipeRemovals as IItemStack[] = [
 <jaopca:item_stickquartzblack>,
 <moreplates:certus_quartz_plate>,
 <moreplates:fluix_plate>,
-<moreplates:fluix_gear>
+<moreplates:fluix_gear>,
+<moreplates:knightslime_gear>,
+<moreplates:knightslime_plate>
     ];
 
 for i in RecipeRemovals {

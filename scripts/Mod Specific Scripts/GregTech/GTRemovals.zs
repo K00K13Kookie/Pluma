@@ -60,6 +60,19 @@ var toRemove = [
 , <gregtech:machine:361>
 , <gregtech:machine:362>
 , <gregtech:machine:363>
+, <gregtech:meta_item_1:10069>
+, <gregtech:meta_block_compressed_4:5>
+, <gregtech:meta_item_1:10038>
+, <gregtech:meta_block_compressed_2:6>
+, <gregtech:meta_item_1:2038>
+, <gregtech:meta_item_1:2069>
+, <gregtech:meta_block_compressed_1:1>
+, <gregtech:meta_item_1:10017>
+, <gregtech:meta_item_1:12017>
+, <gregtech:meta_block_compressed_8:12>
+, <gregtech:meta_item_1:12140>
+, <gregtech:meta_item_1:10140>
+, <gregtech:meta_item_1:9140>
 
 //Flint Tools
 , <gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})

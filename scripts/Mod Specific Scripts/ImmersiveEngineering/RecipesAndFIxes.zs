@@ -3,6 +3,9 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
 
+//Renaming Uranium Ingot to Uranium 238 Ingot
+<immersiveengineering:metal:5>.displayName = "Uranium 238 Ingot";
+
 ### Arc Furnace Rod Overhaul ###
 
 //Removing Original Electrode Recipes

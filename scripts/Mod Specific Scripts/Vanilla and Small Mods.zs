@@ -91,7 +91,7 @@ recipes.addShaped(<minecraft:piston> * 2, [[<ore:plankTreatedWood>, <ore:plankTr
 
 // Piston with Steel and Red Alloy 
 recipes.remove(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston> * 4, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<overloaded:compressed_cobblestone:1>, <ore:plateSteel>, <overloaded:compressed_cobblestone:1>],[<overloaded:compressed_cobblestone:1>, <ore:gearRedAlloy>, <overloaded:compressed_cobblestone:1>]]);
+recipes.addShaped(<minecraft:piston> * 8, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<overloaded:compressed_cobblestone:1>, <ore:plateSteel>, <overloaded:compressed_cobblestone:1>],[<overloaded:compressed_cobblestone:1>, <ore:gearRedAlloy>, <overloaded:compressed_cobblestone:1>]]);
 
 
 // Hopper with Iron and Chest

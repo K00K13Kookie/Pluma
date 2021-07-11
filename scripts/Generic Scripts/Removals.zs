@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.tconstruct.Casting;
 
 var ItensComReceitasRemovidas as IItemStack[] = [
 
@@ -12,6 +13,103 @@ i.addTooltip(format.red("Cannot be Crafted with Bare Hands. Can Only found in th
 }
 
 var ItensRemovidos as IItemStack[] = [
+
+//Tinker's
+<tconstruct:clay_cast>,
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:shard"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:bow_limb"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:fletching"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:sign_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:pick_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:wide_guard"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:axe_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:sword_blade"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:large_sword_blade"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:hand_guard"}),
+<tconstruct:clay_cast>.withTag({PartType: "plustic:battery_cell"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:shovel_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:kama_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:tough_tool_rod"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:scythe_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:arrow_shaft"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:excavator_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:binding"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:sharpening_kit"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:broad_axe_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:cross_guard"}),
+<tconstruct:clay_cast>.withTag({PartType: "plustic:pipe_piece"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:large_plate"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:tool_rod"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:hammer_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:arrow_head"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:tough_binding"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconstruct:knife_blade"}),
+<tconstruct:smeltery_controller>,
+<tconstruct:casting>,
+<tconstruct:casting:1>,
+<tconstruct:pattern>.withTag({PartType: "tconstruct:shard"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:bow_string"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:bow_limb"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:fletching"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:sign_head"}),
+<tconstruct:pattern>.withTag({PartType: "plustic:laser_medium"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:pick_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:wide_guard"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:axe_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:sword_blade"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:pan_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:large_sword_blade"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:hand_guard"}),
+<tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:shovel_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:kama_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:tough_tool_rod"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:scythe_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:arrow_shaft"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:excavator_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:binding"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:sharpening_kit"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:broad_axe_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:cross_guard"}),
+<tconstruct:pattern>.withTag({PartType: "plustic:pipe_piece"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:large_plate"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:tool_rod"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:arrow_head"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:tough_binding"}),
+<tconstruct:pattern>.withTag({PartType: "tconstruct:knife_blade"}),
+<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}),
+<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}),
+<tconstruct:wooden_hopper>,
+<plustic:centrifuge>,
+<plustic:centrifuge:1>,
+<tconstruct:pattern>.withTag({PartType: "tconevo:part_arcane_focus"}),
+<tconstruct:clay_cast>.withTag({PartType: "tconevo:part_arcane_focus"}),
+<tconevo:material:2>,
+<tconevo:metal_block:4>,
+<tconevo:metal_block:3>,
+<tconevo:metal_block:5>,
+<tconevo:metal_block:6>,
+<tconevo:metal_block:7>,
+<tconevo:metal_block:8>,
+<tconevo:material>,
+<tconstruct:spaghetti:1>,
+<tconstruct:spaghetti:2>,
+<tconstruct:moms_spaghetti>,
+<tconstruct:rack:1>.withTag({textureBlock: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}),
+<tconstruct:stone_stick>,
+<tconstruct:stone_ladder>,
+<tconstruct:stone_torch>,
+<tconstruct:spaghetti>,
+<tconstruct:wood_rail>,
+<tconstruct:wood_rail_trapdoor>,
+<tconstruct:seared_furnace_controller>,
+<tconstruct:tinker_tank_controller>,
+<tconstruct:smeltery_io>,
+<tconstruct:channel>,
+<tconstruct:faucet>,
+<tconstruct:materials:14>,
 
 //LazyAE2
 <threng:material:2>,
@@ -89,6 +187,9 @@ var ItensRemovidos as IItemStack[] = [
 <forestry:farm_ender:1>,
 <forestry:farm_ender>,
 <forestry:farm_nether:1>,
+<forestry:ingot_copper>,
+<forestry:ingot_bronze>,
+<forestry:ingot_tin>,
 
 //Actually Additions
 <actuallyadditions:item_dust:5>,
@@ -203,7 +304,6 @@ var ItensRemovidos as IItemStack[] = [
 <projectred-expansion:machine2:10>,
 <projectred-core:resource_item:200>,
 <projectred-core:resource_item:201>,
-<projectred-core:resource_item:202>,
 <projectred-exploration:ore>,
 <projectred-exploration:ore:1>,
 
@@ -320,6 +420,15 @@ var ItensRemovidos as IItemStack[] = [
 //Railcraft
 <railcraft:generic:5>,
 <railcraft:dust:6>,
+<railcraft:ingot>,
+<railcraft:ingot:1>,
+<railcraft:ingot:2>,
+<railcraft:ingot:3>,
+<railcraft:ingot:4>,
+<railcraft:ingot:5>,
+<railcraft:ingot:6>,
+<railcraft:ingot:7>,
+<railcraft:ingot:8>,
 
 //Iron Chests
 <ironchest:iron_chest:3>,
@@ -382,6 +491,7 @@ var ItensRemovidos as IItemStack[] = [
 
 //NuclearCraft
 <nuclearcraft:bin>,
+<nuclearcraft:ingot:4>,
 
 //Integrated Dynamics
 <integrateddynamics:squeezer>,
@@ -433,6 +543,8 @@ for item in ItensRemovidos {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
 	furnace.remove(item);
+	mods.tconstruct.Casting.removeTableRecipe(item);
+	mods.tconstruct.Casting.removeBasinRecipe(item);
 	var ores = item.ores;
 	if (!isNull(ores)) {
 		for entry in ores {
