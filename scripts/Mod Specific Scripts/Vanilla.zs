@@ -51,9 +51,45 @@ recipes.remove(<minecraft:glass_bottle>);
 recipes.addShaped(<minecraft:glass_bottle> * 3, [[null, <ore:slabWood>, null], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>],[null, <ore:blockGlassColorless>, null]]);
 recipes.addShaped(<minecraft:glass_bottle> * 9, [[null, <ore:slabWood>, null], [<ore:strengthenedGlass>, null, <ore:strengthenedGlass>],[null, <ore:strengthenedGlass>, null]]);
 
+//Mossy Cobblestone
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:water> * 250])
+    .inputs(<ore:cobblestone>)
+    .outputs(<minecraft:mossy_cobblestone>)
+    .duration(80)
+    .EUt(16)
+    .buildAndRegister();
+
+//Mossy Stone Bricks
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:water> * 250])
+    .inputs(<minecraft:stonebrick>)
+    .outputs(<minecraft:stonebrick:1>)
+    .duration(80)
+    .EUt(16)
+    .buildAndRegister();
+
+//Bottle 'O Enchanting
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:experience> * 250])
+    .inputs(<minecraft:glass_bottle>)  
+    .outputs(<minecraft:experience_bottle>)
+    .duration(60)
+    .EUt(8)
+    .buildAndRegister();
+
+//Water Bottle
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:water> * 250])
+    .inputs(<minecraft:glass_bottle>)  
+    .outputs(<minecraft:potion>.withTag({Potion: "minecraft:water"}))
+    .duration(60)
+    .EUt(8)
+    .buildAndRegister();
 
 # Terracota OreDict =============
-<ore:Terracota>.add(
+
+var TerracotasDict as IItemStack[] = [
 <minecraft:purple_glazed_terracotta>,
 <minecraft:blue_glazed_terracotta>,
 <minecraft:brown_glazed_terracotta>,
@@ -104,8 +140,132 @@ recipes.addShaped(<minecraft:glass_bottle> * 9, [[null, <ore:slabWood>, null], [
 <quark:stained_clay_tiles:13>,
 <quark:stained_clay_tiles:14>,
 <quark:stained_clay_tiles:15>
-);
+];
+for i in TerracotasDict {
+<ore:Terracota>.add(i);
+}
 
+var SandstoneDict as IItemStack[] = [
+<minecraft:sandstone>,
+<minecraft:sandstone:1>,
+<minecraft:sandstone:2>,
+<chisel:sandstoneyellow>,
+<chisel:sandstoneyellow:1>,
+<chisel:sandstoneyellow:2>,
+<chisel:sandstoneyellow:3>,
+<chisel:sandstoneyellow:4>,
+<chisel:sandstoneyellow:5>,
+<chisel:sandstoneyellow:6>,
+<chisel:sandstoneyellow:7>,
+<chisel:sandstoneyellow:8>,
+<chisel:sandstoneyellow:9>,
+<chisel:sandstoneyellow:10>,
+<chisel:sandstoneyellow:11>,
+<chisel:sandstoneyellow:12>,
+<chisel:sandstoneyellow:13>,
+<chisel:sandstoneyellow:14>,
+<chisel:sandstoneyellow:15>,
+<chisel:sandstoneyellow1>,
+<chisel:sandstoneyellow1:1>,
+<chisel:sandstoneyellow1:2>,
+<chisel:sandstoneyellow1:3>,
+<chisel:sandstoneyellow1:4>,
+<chisel:sandstoneyellow1:5>,
+<chisel:sandstoneyellow1:6>,
+<chisel:sandstoneyellow1:7>,
+<chisel:sandstoneyellow1:8>,
+<chisel:sandstoneyellow1:9>,
+<chisel:sandstoneyellow2>,
+<chisel:sandstoneyellow2:1>,
+<chisel:sandstoneyellow2:2>,
+<chisel:sandstoneyellow2:3>,
+<chisel:sandstoneyellow2:4>,
+<chisel:sandstoneyellow2:5>,
+<chisel:sandstoneyellow2:6>,
+<chisel:sandstoneyellow2:7>,
+<chisel:sandstone-scribbles>,
+<chisel:sandstone-scribbles:1>,
+<chisel:sandstone-scribbles:2>,
+<chisel:sandstone-scribbles:3>,
+<chisel:sandstone-scribbles:4>,
+<chisel:sandstone-scribbles:5>,
+<chisel:sandstone-scribbles:6>,
+<chisel:sandstone-scribbles:7>,
+<chisel:sandstone-scribbles:8>,
+<chisel:sandstone-scribbles:9>,
+<chisel:sandstone-scribbles:10>,
+<chisel:sandstone-scribbles:11>,
+<chisel:sandstone-scribbles:12>,
+<chisel:sandstone-scribbles:13>,
+<chisel:sandstone-scribbles:14>,
+<chisel:sandstone-scribbles:15>,
+<quark:sandstone_new>,
+<quark:sandstone_new:1>
+];
+for i in SandstoneDict {
+<ore:NormalSandstone>.add(i);
+}
+
+var RedSandstoneDict as IItemStack[] = [
+<minecraft:red_sandstone>,
+<minecraft:red_sandstone:1>,
+<minecraft:red_sandstone:2>,
+<chisel:sandstonered>,
+<chisel:sandstonered:1>,
+<chisel:sandstonered:2>,
+<chisel:sandstonered:3>,
+<chisel:sandstonered:4>,
+<chisel:sandstonered:5>,
+<chisel:sandstonered:6>,
+<chisel:sandstonered:7>,
+<chisel:sandstonered:8>,
+<chisel:sandstonered:9>,
+<chisel:sandstonered:10>,
+<chisel:sandstonered:11>,
+<chisel:sandstonered:12>,
+<chisel:sandstonered:13>,
+<chisel:sandstonered:14>,
+<chisel:sandstonered:15>,
+<chisel:sandstonered1>,
+<chisel:sandstonered1:1>,
+<chisel:sandstonered1:2>,
+<chisel:sandstonered1:3>,
+<chisel:sandstonered1:4>,
+<chisel:sandstonered1:5>,
+<chisel:sandstonered1:6>,
+<chisel:sandstonered1:7>,
+<chisel:sandstonered1:8>,
+<chisel:sandstonered1:9>,
+<chisel:sandstonered2>,
+<chisel:sandstonered2:1>,
+<chisel:sandstonered2:2>,
+<chisel:sandstonered2:3>,
+<chisel:sandstonered2:4>,
+<chisel:sandstonered2:5>,
+<chisel:sandstonered2:6>,  
+<chisel:sandstonered2:7>,
+<chisel:sandstonered-scribbles>,
+<chisel:sandstonered-scribbles:1>,
+<chisel:sandstonered-scribbles:2>,
+<chisel:sandstonered-scribbles:3>,
+<chisel:sandstonered-scribbles:4>,
+<chisel:sandstonered-scribbles:5>,
+<chisel:sandstonered-scribbles:6>,
+<chisel:sandstonered-scribbles:7>,
+<chisel:sandstonered-scribbles:8>,
+<chisel:sandstonered-scribbles:9>,
+<chisel:sandstonered-scribbles:10>,
+<chisel:sandstonered-scribbles:11>,
+<chisel:sandstonered-scribbles:12>,
+<chisel:sandstonered-scribbles:13>,
+<chisel:sandstonered-scribbles:14>,
+<chisel:sandstonered-scribbles:15>,
+<quark:sandstone_new:2>,
+<quark:sandstone_new:3>
+];
+for i in RedSandstoneDict {
+<ore:RedSandstone>.add(i);
+}
 ##### Artisan's Recipes #####
 
 //Vannila Bricks

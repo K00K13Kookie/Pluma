@@ -65,7 +65,7 @@ saw.recipeBuilder()
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Heavy Cream
-mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:heavycreamitem>, <minecraft:bowl>, <liquid:milk> * 250, 120);
+#mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:heavycreamitem>, <minecraft:bowl>, <liquid:milk> * 250, 120);
 mixer.recipeBuilder()
     .inputs([<minecraft:bowl>])
     .fluidInputs(<liquid:milk> * 250)
@@ -77,8 +77,8 @@ mixer.recipeBuilder()
 //Fresh Milk
 recipes.remove(<harvestcraft:freshmilkitem>);
 recipes.addShapeless("FreshMilkRecipe", <harvestcraft:freshmilkitem> * 4, [<minecraft:milk_bucket>]);
-mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:freshmilkitem>, <contenttweaker:emptypot>, <liquid:milk> * 250, 120);
-chemical_bath.recipeBuilder()
+#mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:freshmilkitem>, <contenttweaker:emptypot>, <liquid:milk> * 250, 120);
+fluid_canner.recipeBuilder()
     .inputs([<contenttweaker:emptypot>])
     .fluidInputs(<liquid:milk> * 250)
     .outputs(<harvestcraft:freshmilkitem>)
@@ -89,23 +89,14 @@ chemical_bath.recipeBuilder()
 //Fresh Water
 recipes.remove(<harvestcraft:freshwateritem>);
 recipes.addShapeless("FreshWaterRecipe", <harvestcraft:freshwateritem> * 2, [<minecraft:water_bucket>]);
-mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:freshwateritem>, <contenttweaker:emptypot>, <liquid:water> * 500, 120);
-chemical_bath.recipeBuilder()
+#.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:freshwateritem>, <contenttweaker:emptypot>, <liquid:water> * 500, 120);
+fluid_canner.recipeBuilder()
     .inputs([<contenttweaker:emptypot>])
     .fluidInputs(<liquid:water> * 500)
     .outputs(<harvestcraft:freshwateritem>)
     .duration(80)
     .EUt(8)
     .buildAndRegister(); 
-
-//Tortilla    
-chemical_bath.recipeBuilder()
-    .inputs([<harvestcraft:cornmealitem>])
-    .fluidInputs(<liquid:water> * 500)
-    .outputs(<harvestcraft:tortillaitem> * 2)
-    .duration(128)
-    .EUt(12)
-    .buildAndRegister();
 
 //Cheese Wheel
 recipes.remove(<actuallyadditions:item_food>);
@@ -119,8 +110,8 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 // Ketchup
-mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:ketchupitem>, <contenttweaker:emptypot>, <liquid:liquidtomato> * 250, 120);
-chemical_bath.recipeBuilder()
+#mods.thermalexpansion.Transposer.addFillRecipe(<harvestcraft:ketchupitem>, <contenttweaker:emptypot>, <liquid:liquidtomato> * 250, 120);
+fluid_canner.recipeBuilder()
     .inputs([<contenttweaker:emptypot>])
     .fluidInputs(<liquid:liquidtomato> * 250)
     .outputs(<harvestcraft:ketchupitem>)

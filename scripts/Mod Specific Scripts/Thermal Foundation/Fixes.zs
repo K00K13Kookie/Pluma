@@ -483,6 +483,15 @@ chemreactor.recipeBuilder()
     .EUt(130)
     .buildAndRegister();
 
+//Rich Phyto-Gro ================
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:sap> * 200])
+    .inputs(<thermalfoundation:fertilizer>)  
+    .outputs(<thermalfoundation:fertilizer:1>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
 ##### Artisan's Recipes #####
 
 /*

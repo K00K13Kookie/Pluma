@@ -61,7 +61,6 @@ var AdvancedMachinery as IItemStack[] = [
 <thermalexpansion:augment:324>,
 <thermalfoundation:fertilizer:1>,
 <thermalfoundation:fertilizer:2>,
-<thermalexpansion:machine:8>,
 <thermalexpansion:machine:9>,
 <thermalexpansion:machine:10>,
 <thermalexpansion:capacitor:3>,

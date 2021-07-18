@@ -12,6 +12,12 @@ import mods.artisanworktables.builder.RecipeBuilder;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Cinnabar OreDict
+<ore:gemCinnabar>.add(<thermalfoundation:material:866>);
+
+<ore:crystalCinnabar>.add(<gregtech:meta_item_1:8103>);
+<ore:itemCinnabar>.add(<gregtech:meta_item_1:8103>);
+
 //Biotite Dust to Gem
 furnace.addRecipe(<quark:biotite>, <jaopca:item_dustenderbiotite>);
 

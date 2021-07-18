@@ -1,9 +1,101 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
+////////// Filling the Ducts ////////// 
+
+//Redstone Energy Fluxduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:redstone> * 200])
+    .inputs(<thermaldynamics:duct_0:6>)  
+    .outputs(<thermaldynamics:duct_0:2>)
+    .duration(120)
+    .EUt(66)
+    .buildAndRegister();
+
+//Signalum Energy Fluxduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:redstone> * 200])
+    .inputs(<thermaldynamics:duct_0:7>)  
+    .outputs(<thermaldynamics:duct_0:3>)
+    .duration(120)
+    .EUt(120)
+    .buildAndRegister();
+
+//Resonant Energy Fluxduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:redstone> * 200])
+    .inputs(<thermaldynamics:duct_0:8>)  
+    .outputs(<thermaldynamics:duct_0:4>)
+    .duration(120)
+    .EUt(512)
+    .buildAndRegister();
+
+//Viaduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:aerotheum> * 100])
+    .inputs(<thermaldynamics:duct_64:3>)  
+    .outputs(<thermaldynamics:duct_64>)
+    .duration(160)
+    .EUt(90)
+    .buildAndRegister();
+
+//Long Range Linking Viaduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:ender> * 1000])
+    .inputs(<thermaldynamics:duct_64>)  
+    .outputs(<thermaldynamics:duct_64:2>)
+    .duration(180)
+    .EUt(120)
+    .buildAndRegister();
+
+//Impulse Itemduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:glowstone> * 200])
+    .inputs(<thermaldynamics:duct_32>)  
+    .outputs(<thermaldynamics:duct_32:2>)
+    .duration(120)
+    .EUt(48)
+    .buildAndRegister();
+
+//Impulse Itemduct (Opaque)
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:glowstone> * 200])
+    .inputs(<thermaldynamics:duct_32:1>)  
+    .outputs(<thermaldynamics:duct_32:3>)
+    .duration(120)
+    .EUt(48)
+    .buildAndRegister();
+
+//Signalum Plated Impulse Itemduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:glowstone> * 200])
+    .inputs(<thermaldynamics:duct_32:4>)  
+    .outputs(<thermaldynamics:duct_32:6>)
+    .duration(120)
+    .EUt(56)
+    .buildAndRegister();
+
+//Signalum Plated Impulse Itemduct (Opaque)
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:glowstone> * 200])
+    .inputs(<thermaldynamics:duct_32:5>)  
+    .outputs(<thermaldynamics:duct_32:7>)
+    .duration(120)
+    .EUt(56)
+    .buildAndRegister();
+
+//Cryo Stablized Fluxduct
+fluid_canner.recipeBuilder()
+    .fluidInputs([<liquid:cryotheum> * 500])
+    .inputs(<thermaldynamics:duct_0:9>)  
+    .outputs(<thermaldynamics:duct_0:5>)
+    .duration(160)
+    .EUt(8050)
+    .buildAndRegister();
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//			         																														 //
-//			Thermal Duct Recipes                                                                                                             //
-//			         																														 //
+//			         																														                                                                 //
+//			Thermal Duct Recipes                                                                                                                 //
+//			         																														                                                                 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ###### Fluiduct ######
@@ -172,6 +264,7 @@ RecipeBuilder.get("engineer")
 
 //Signalum Fluxduct
 recipes.remove(<thermaldynamics:duct_0:3>);
+/*
 RecipeBuilder.get("engineer")
   .setShapeless([<thermaldynamics:duct_0:2>, <thermaldynamics:duct_0:2>, <thermaldynamics:duct_0:2>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <ore:plateSignalum>])
   .addTool(<ore:artisansHammer>, 5)
@@ -179,6 +272,8 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_0:3> * 3)
   .create();
+*/
+
 
 //Resonant Fluxduct Empty
 recipes.remove(<thermaldynamics:duct_0:8>);
@@ -192,6 +287,7 @@ RecipeBuilder.get("engineer")
 
 //Resonant Fluxduct
 recipes.remove(<thermaldynamics:duct_0:4>);
+/*
 RecipeBuilder.get("engineer")
   .setShapeless([<thermaldynamics:duct_0:3>, <thermaldynamics:duct_0:3>, <thermaldynamics:duct_0:3>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <ore:plateEnderium>])
   .addTool(<ore:artisansHammer>, 5)
@@ -199,6 +295,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_0:4> * 3)
   .create();
+*/
 
 //CryoStablized Fluxduct Empty
 recipes.remove(<thermaldynamics:duct_0:9>);
@@ -340,6 +437,12 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}))
   .create();
+
+//Impulse Itemduct
+recipes.removeByRecipeName("thermaldynamics:duct_32_12");
+recipes.removeByRecipeName("thermaldynamics:duct_32_13");
+recipes.addShapeless("ImpulseItemductNonOpaque", <thermaldynamics:duct_32:2>, [<thermaldynamics:duct_32:3>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("ImpulseItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:3>, [<thermaldynamics:duct_32:2>, <gregtech:meta_tool:8>]);
 
 //Signalum Plated Itemduct
 recipes.addShapeless("SPlatedItemductNonOpaque", <thermaldynamics:duct_32:4>, [<thermaldynamics:duct_32:5>, <gregtech:meta_tool:8>]);

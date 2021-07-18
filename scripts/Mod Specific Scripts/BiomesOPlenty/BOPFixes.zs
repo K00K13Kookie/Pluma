@@ -41,3 +41,12 @@ chemical_bath.recipeBuilder()
     .duration(100)
     .EUt(5)
     .buildAndRegister();
+
+//Loamy Dirt and Normal Dirt to Mud
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:water> * 1000])
+    .inputs(<ore:dirt>)
+    .outputs(<biomesoplenty:mud>)
+    .duration(60)
+    .EUt(16)
+    .buildAndRegister();  
