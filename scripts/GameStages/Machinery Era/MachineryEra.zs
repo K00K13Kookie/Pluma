@@ -644,18 +644,6 @@ var MachineryGates as IItemStack[] = [
 <thermalexpansion:capacitor:1>,
 <thermalexpansion:capacitor:32000>,
 <thermalexpansion:capacitor:2>,
-<thermalexpansion:dynamo:1>,
-<thermalexpansion:dynamo:2>,
-<thermalexpansion:augment:513>,
-<thermalexpansion:augment:514>,
-<thermalexpansion:augment:515>,
-<thermalexpansion:augment:576>,
-<thermalexpansion:augment:640>,
-<thermalexpansion:augment:656>,
-<thermalexpansion:augment:672>,
-<thermalexpansion:augment:673>,
-<thermalexpansion:augment:674>,
-<thermalexpansion:augment:512>,
 <thermalexpansion:tank>,
 
 //Integrated Dynamics
@@ -820,9 +808,6 @@ mods.ItemStages.stageRecipeCategory("MachineryEra", "it.boiler");
 
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.extruder");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.extruder_sedimentary");
-mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.steam");
-mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.magmatic");
-mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.compression");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.coolant");
 
 # Stagging the Whole Immersive Tech Mod

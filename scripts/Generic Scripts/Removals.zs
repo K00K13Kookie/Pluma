@@ -195,6 +195,7 @@ var ItensRemovidos as IItemStack[] = [
 <forestry:ingot_tin>,
 
 //Actually Additions
+<actuallyadditions:item_dust:1>,
 <actuallyadditions:item_dust:5>,
 <actuallyadditions:block_giant_chest_medium>,
 <actuallyadditions:block_giant_chest_large>,
@@ -422,6 +423,14 @@ var ItensRemovidos as IItemStack[] = [
 <thermalexpansion:augment:496>,
 <thermalexpansion:augment:336>,
 <thermalexpansion:augment:337>,
+<thermalexpansion:augment:512>,
+<thermalexpansion:augment:513>,
+<thermalexpansion:augment:514>,
+<thermalexpansion:augment:515>,
+<thermalexpansion:augment:656>,
+<thermalexpansion:augment:672>,
+<thermalexpansion:augment:673>,
+<thermalexpansion:augment:674>,
 
 //Redstone Arsenal
 <redstonearsenal:material:192>,

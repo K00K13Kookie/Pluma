@@ -25,7 +25,7 @@ oldDeathpoints:false
 distance:1
 showCoords:true
 lockNorth:true
-zoom:1
+zoom:2
 minimapSize:0
 entityAmount:1
 chunkGrid:-1
