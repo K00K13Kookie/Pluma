@@ -307,6 +307,8 @@ var ItensRemovidos as IItemStack[] = [
 <projectred-core:resource_item:201>,
 <projectred-exploration:ore>,
 <projectred-exploration:ore:1>,
+<projectred-exploration:stone:5>,
+<projectred-exploration:stone:6>,
 
 //Overloaded Removals
 <overloaded:creative_generator>,
