@@ -506,6 +506,7 @@ var ItensRemovidos as IItemStack[] = [
 <immersivetech:metal_trash>,
 <immersivetech:metal_trash:1>,
 <immersivetech:metal_trash:2>,
+<immersiveengineering:material:24>,
 
 //NuclearCraft
 <nuclearcraft:bin>,

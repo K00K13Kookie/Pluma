@@ -383,6 +383,106 @@ chemreactor.recipeBuilder()
     .EUt(512)
     .buildAndRegister();
 
+//Pulped Biomass ================
+macerator.recipeBuilder()
+    .inputs([<ore:listAllgrain> * 8])
+    .outputs(<thermalfoundation:material:816>)
+    .duration(80)
+    .EUt(16)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs([<ore:listAllveggie> * 8])
+    .outputs(<thermalfoundation:material:816>)
+    .duration(80)
+    .EUt(16)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs([<ore:treeSapling> * 4])
+    .outputs(<thermalfoundation:material:816>)
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs([<ore:blockCactus> * 4])
+    .outputs(<thermalfoundation:material:816>)
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs([<minecraft:melon_block> * 4])
+    .outputs(<thermalfoundation:material:816>)
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
+
+//Rich Bioblend ================
+
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:seed.oil> * 100])
+    .inputs(<thermalfoundation:material:818>)
+    .outputs(<thermalfoundation:material:819>)
+    .duration(120)
+    .EUt(12)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:canolaoil> * 400])
+    .inputs(<thermalfoundation:material:818>)
+    .outputs(<thermalfoundation:material:819>)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:fish_oil> * 100])
+    .inputs(<thermalfoundation:material:818>)
+    .outputs(<thermalfoundation:material:819>)
+    .duration(120)
+    .EUt(10)
+    .buildAndRegister();
+
+//Powders using Essence of Knowladge ================
+
+# Blaze
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:experience> * 200])
+    .inputs(<ore:dustSulfur> * 2)  
+    .outputs(<minecraft:blaze_powder>)
+    .duration(200)
+    .EUt(130)
+    .buildAndRegister();
+
+# Basalz
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:experience> * 200])
+    .inputs(<ore:dustObsidian> * 2)  
+    .outputs(<thermalfoundation:material:2053>)
+    .duration(200)
+    .EUt(130)
+    .buildAndRegister();
+
+# Blitz
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:experience> * 200])
+    .inputs(<ore:dustSaltpeter> * 2)  
+    .outputs(<thermalfoundation:material:2051>)
+    .duration(200)
+    .EUt(130)
+    .buildAndRegister();
+
+# Blizz
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:experience> * 200])
+    .inputs(<minecraft:snowball> * 2)  
+    .outputs(<thermalfoundation:material:2049>)
+    .duration(200)
+    .EUt(130)
+    .buildAndRegister();
+
 ##### Artisan's Recipes #####
 
 /*

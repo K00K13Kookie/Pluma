@@ -33,3 +33,11 @@ blast_furnace.recipeBuilder()
     .EUt(128)
     .buildAndRegister();
 
+//Dried Sand to Sand
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:water> * 1000])
+    .inputs(<biomesoplenty:dried_sand>)
+    .outputs(<minecraft:sand>)
+    .duration(100)
+    .EUt(5)
+    .buildAndRegister();
