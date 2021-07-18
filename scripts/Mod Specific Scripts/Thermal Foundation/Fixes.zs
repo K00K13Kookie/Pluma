@@ -164,10 +164,7 @@ var ThermalFirstMachines as IItemStack[] = [
 <thermalexpansion:augment:128>,
 <thermalexpansion:augment:129>,
 <thermalexpansion:augment:130>,
-<thermalexpansion:augment:432>,
-<thermalexpansion:augment:433>,
 <thermalexpansion:augment:497>,
-<thermalexpansion:machine:11>,
 <thermalexpansion:machine:15>,
     ];
 
@@ -388,6 +385,7 @@ chemreactor.recipeBuilder()
 
 ##### Artisan's Recipes #####
 
+/*
 //Sequential Fabricator
 recipes.remove(<thermalexpansion:machine:11>);
 RecipeBuilder.get("engineer")
@@ -400,6 +398,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermalexpansion:machine:11>)
   .create();
+*/
 
 //Igneous Extruder
 recipes.remove(<thermalexpansion:machine:15>);

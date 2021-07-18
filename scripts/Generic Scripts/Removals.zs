@@ -343,6 +343,9 @@ var ItensRemovidos as IItemStack[] = [
 <immersiveengineering:blueprint>.withTag({blueprint: "electrode"}),
 
 //Thermal Foundation
+<thermalexpansion:machine:11>,
+<thermalexpansion:augment:432>,
+<thermalexpansion:augment:433>,
 <thermalfoundation:material:1027>,
 <thermalfoundation:material:1026>,
 <thermalfoundation:material:1025>,
