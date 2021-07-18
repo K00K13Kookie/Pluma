@@ -37,33 +37,55 @@ recipes.addShaped(<thermaldynamics:relay:0> * 2, [[null, null, null], [<ore:plat
 
 // Servo
 recipes.remove(<thermaldynamics:servo:0>);
-recipes.addShaped(<thermaldynamics:servo:0> * 2, [[null, null, null], [<ore:boltIron>, <ore:strengthenedGlass>, <ore:boltIron>],[<ore:plateIron>, <ore:gearRedstone>, <ore:plateIron>]]);
+recipes.addShaped(<thermaldynamics:servo:0> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateIron>, <ore:gearRedstone>, <ore:plateIron>]]);
 // Hardened Servo
 recipes.remove(<thermaldynamics:servo:1>);
 recipes.addShaped(<thermaldynamics:servo:1> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateInvar>, <ore:gearRedstone>, <ore:plateInvar>]]);
 // Reinforced Servo
 recipes.remove(<thermaldynamics:servo:2>);
 recipes.addShaped(<thermaldynamics:servo:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:gearRedstone>, <ore:plateElectrum>]]);
+// Signalum Servo
+recipes.remove(<thermaldynamics:servo:3>);
+recipes.addShaped(<thermaldynamics:servo:3> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateSignalum>, <ore:gearRedstone>, <ore:plateSignalum>]]);
+// Resonant Servo
+recipes.remove(<thermaldynamics:servo:4>);
+recipes.addShaped(<thermaldynamics:servo:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:gearRedstone>, <ore:plateEnderium>]]);
+
 
 // Filter
 recipes.remove(<thermaldynamics:filter>);
-recipes.addShaped(<thermaldynamics:filter> * 2, [[null, null, null], [<ore:boltIron>, <ore:strengthenedGlass>, <ore:boltIron>],[<ore:plateIron>, <ore:paper>, <ore:plateIron>]]);
+recipes.addShaped(<thermaldynamics:filter> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateIron>, <ore:paper>, <ore:plateIron>]]);
 // Hardened Filter
 recipes.remove(<thermaldynamics:filter:1>);
 recipes.addShaped(<thermaldynamics:filter:1> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateInvar>, <ore:paper>, <ore:plateInvar>]]);
 // Reinforced Filter
 recipes.remove(<thermaldynamics:filter:2>);
 recipes.addShaped(<thermaldynamics:filter:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:paper>, <ore:plateElectrum>]]);
+// Signalum Filter
+recipes.remove(<thermaldynamics:filter:3>);
+recipes.addShaped(<thermaldynamics:filter:3> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateSignalum>, <ore:paper>, <ore:plateSignalum>]]);
+// Resonant Filter
+recipes.remove(<thermaldynamics:filter:4>);
+recipes.addShaped(<thermaldynamics:filter:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:paper>, <ore:plateEnderium>]]);
+
 
 // Retriever
 recipes.remove(<thermaldynamics:retriever>);
-recipes.addShaped(<thermaldynamics:retriever> * 2, [[null, null, null], [<ore:boltIron>, <ore:strengthenedGlass>, <ore:boltIron>],[<ore:plateIron>, <ore:dustVoid>, <ore:plateIron>]]);
+recipes.addShaped(<thermaldynamics:retriever> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateIron>, <ore:dustVoid>, <ore:plateIron>]]);
 // Hardened Retriever
 recipes.remove(<thermaldynamics:retriever:1>);
 recipes.addShaped(<thermaldynamics:retriever:1> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateInvar>, <ore:dustVoid>, <ore:plateInvar>]]);
 // Reinforced Retriever
 recipes.remove(<thermaldynamics:retriever:2>);
 recipes.addShaped(<thermaldynamics:retriever:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:dustVoid>, <ore:plateElectrum>]]);
+// Signalum Retriever
+recipes.remove(<thermaldynamics:retriever:3>);
+recipes.addShaped(<thermaldynamics:retriever:3> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateSignalum>, <ore:dustVoid>, <ore:plateSignalum>]]);
+// Resonant Retriever
+recipes.remove(<thermaldynamics:retriever:4>);
+recipes.addShaped(<thermaldynamics:retriever:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:dustVoid>, <ore:plateEnderium>]]);
+
+
 
 # Machine Frame Mini-Rework
 <thermalexpansion:frame>.displayName = "Silver Chassis";

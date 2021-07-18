@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.MetalPress;
+import mods.gregtech.recipe.RecipeMap;
 
 //Remove all Plate Recipes ======================================================================================================
 mods.unidict.removalByKind.get("Crafting").remove("plate");
@@ -86,6 +87,23 @@ recipes.remove(i);
 //Wood Gear
 recipes.remove(<thermalfoundation:material:22>);
 recipes.addShaped(<thermalfoundation:material:22>, [[null, <ore:plankWood>, null], [<ore:plankWood>, <ore:boltWood>, <ore:plankWood>],[null, <ore:plankWood>, null]]);
+
+extruder.recipeBuilder()
+    .inputs(<ore:dustWood> * 4)
+    .notConsumable(<gregtech:meta_item_1:32372>)
+    .outputs(<thermalfoundation:material:22>)
+    .duration(128)
+    .EUt(64)
+.buildAndRegister();
+
+//Stone Gear
+extruder.recipeBuilder()
+    .inputs(<ore:stone> * 4)
+    .notConsumable(<gregtech:meta_item_1:32372>)
+    .outputs(<thermalfoundation:material:23>)
+    .duration(128)
+    .EUt(64)
+.buildAndRegister();
 
 # Gear Recipe Early Game ===========================================================================
 
@@ -410,8 +428,8 @@ mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12157>, <or
 #mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:14>, <ore:gemPeridot>, <immersiveengineering:mold>, 80);
 
 // Wood Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12196>, [[<gregtech:meta_tool:6>], [<ore:plankWood>], [<ore:plankWood>]]);
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12196>, <ore:plankWood>, <immersiveengineering:mold>, 80);
+recipes.addShaped(<gregtech:meta_item_1:12196>, [[<gregtech:meta_tool:6>], [<ore:dustWood>], [<ore:dustWood>]]);
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12196>, <ore:dustWood>, <immersiveengineering:mold>, 80);
 
 // Treated Wood Plates =======================================================================================================================================
 recipes.addShaped(<contenttweaker:treated_plate>, [[<gregtech:meta_tool:6>], [<ore:plankTreatedWood>], [<ore:plankTreatedWood>]]);
