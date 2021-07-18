@@ -522,6 +522,7 @@ var MachineryGates as IItemStack[] = [
 <actuallyadditions:block_inputter>,
 <actuallyadditions:block_inputter_advanced>,
 <actuallyadditions:block_item_viewer>,
+<actuallyadditions:block_item_viewer_hopping>,
 
 <thermalfoundation:material:864>,
 <thermalfoundation:material:865>,

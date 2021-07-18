@@ -205,7 +205,6 @@ var ItensRemovidos as IItemStack[] = [
 <actuallyadditions:item_chest_to_crate_upgrade>,
 <actuallyadditions:item_small_to_medium_crate_upgrade>,
 <actuallyadditions:item_medium_to_large_crate_upgrade>,
-<actuallyadditions:block_item_viewer_hopping>,
 <actuallyadditions:block_bio_reactor>,
 <actuallyadditions:block_shock_suppressor>,
 <actuallyadditions:block_miner>,

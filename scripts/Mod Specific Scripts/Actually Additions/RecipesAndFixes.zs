@@ -298,7 +298,12 @@ RecipeBuilder.get("carpenter")
 assembler.recipeBuilder()
     .inputs([<ore:blockSheetmetalSteel> * 4, <ore:plateTreated> * 2, <ore:chestWood>])
     .property("circuit", 8)
-    .outputs(<actuallyadditions:block_giant_chest>)
+    .outputs(<actuallyadditions:block_item_viewer>)
     .duration(80)
     .EUt(32)
     .buildAndRegister();
+
+
+//Hopping Item Interface
+recipes.remove(<actuallyadditions:block_item_viewer_hopping>);
+recipes.addShapeless("HoppingAAItemInterface", <actuallyadditions:block_item_viewer_hopping>, [<actuallyadditions:block_item_viewer>, <ore:hopper>, <gregtech:meta_tool:8>, <gregtech:meta_tool:5>]);
