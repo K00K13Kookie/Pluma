@@ -365,3 +365,7 @@ recipes.addShaped(<rftoolspower:power_core3> * 4, [[<ore:plateRutile>, <ore:plat
 recipes.remove(<rftoolspower:cell3>);
 recipes.addShaped(<rftoolspower:cell3> * 1, [[<ore:plateTungsten>, <rftoolspower:power_core3>, <ore:plateTungsten>], [<rftoolspower:power_core3>, <gregtech:machine:504>, <rftoolspower:power_core3>],[<ore:plateTungsten>, <rftoolspower:power_core3>, <ore:plateTungsten>]]);
 
+// Elevator
+recipes.remove(<rftools:elevator>);
+recipes.addShaped(<rftools:elevator> * 1, [[<ore:plateRedAlloy>, <forestry:thermionic_tubes:12>, <ore:plateRedAlloy>], [<ore:plateRedAlloy>, <gregtech:machine_casing:1>, <ore:plateRedAlloy>],[<ore:plateRedAlloy>, <ore:gearRedstone>, <ore:plateRedAlloy>]]);
+

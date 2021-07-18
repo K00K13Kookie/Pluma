@@ -1,4 +1,5 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -84,6 +85,20 @@ assembler.recipeBuilder()
 .duration(250)
 .EUt(18)
 .buildAndRegister();
+
+//Mutagen Tank =====================================
+recipes.remove(<gendustry:mutagen_tank>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:screwHoneycomb>, <ore:casingTin>, <ore:screwHoneycomb>],
+    [<ore:plateSilver>, <gregtech:meta_item_1:32762>, <ore:plateSilver>],
+    [<ore:screwHoneycomb>, <ore:casingTin>, <ore:screwHoneycomb>]])
+  .setFluid(<liquid:canolaoil> * 1000)
+  .addTool(<ore:artisansCutters>, 5)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gendustry:mutagen_tank> * 2)
+  .create();
 
 //Mutagen Producer =====================================
 assembler.recipeBuilder()

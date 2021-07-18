@@ -111,3 +111,43 @@ recipes.addShapeless("StaticLightPanel", <integrateddynamics:part_static_light_p
 //Dynamic Light Panel
 recipes.remove(<integrateddynamics:part_dynamic_light_panel_item>);
 recipes.addShapeless("DynamicLightPanel", <integrateddynamics:part_dynamic_light_panel_item>, [<integrateddynamics:part_static_light_panel_item>, <integrateddynamics:variable>]); 
+
+##### Artisan's recipes #####
+
+//Logic Cable from Integrated Dynamics
+recipes.remove(<integrateddynamics:cable>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:menrilsheet>, <ore:stickSilver>, <contenttweaker:menrilsheet>],
+    [<contenttweaker:menrilsheet>, <ore:plateRedstone>, <contenttweaker:menrilsheet>],
+    [<contenttweaker:menrilsheet>, <ore:stickSilver>, <contenttweaker:menrilsheet>]])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansCutters>, 5)
+  .addTool(<ore:artisansDriver>, 2)
+  .addOutput(<integrateddynamics:cable> * 6)
+  .create();  
+
+//Display Panel
+recipes.remove(<integrateddynamics:part_display_panel_item>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:boltBismuthBronze>, <contenttweaker:menrilsheet>, <ore:boltBismuthBronze>],
+    [<contenttweaker:menrilsheet>, <ore:plateDenseBlackSteel>, <contenttweaker:menrilsheet>],
+    [<ore:boltBismuthBronze>, <contenttweaker:menrilsheet>, <ore:boltBismuthBronze>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansCutters>, 5)
+  .addTool(<ore:artisansDriver>, 2)
+  .addOutput(<integrateddynamics:part_display_panel_item>)
+  .create();
+
+//Item Interface
+recipes.remove(<integratedtunnels:part_interface_item_item>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:menrilsheet>, <immersiveengineering:wooden_device0:5>, <contenttweaker:menrilsheet>],
+    [<contenttweaker:menrilsheet>, <ore:plateDiamatine>, <contenttweaker:menrilsheet>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansDriver>, 3)
+  .addOutput(<integratedtunnels:part_interface_item_item> * 4)
+  .create();

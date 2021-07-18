@@ -1,0 +1,21 @@
+{
+	title: "Want to Learn About Channels?",
+	x: 13.5d,
+	y: 9.5d,
+	shape: "gear",
+	description: "Click here to be redirected to a Full Tutorial!",
+	custom_click: "https://ae-mod.info/Channels/",
+	dependencies: [
+		"485b1119"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1782891c",
+		type: "item",
+		items: [{
+			item: "minecraft:writable_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

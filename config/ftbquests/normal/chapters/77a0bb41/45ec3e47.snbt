@@ -1,0 +1,28 @@
+{
+	title: "Benze + Ethylene = Styrene!",
+	x: 18.205952380952382d,
+	y: 5.98571428571428d,
+	description: "Mix them to get this Special Fluid!",
+	text: [
+		""
+	],
+	dependencies: [
+		"020fb4be",
+		"ee3e84ff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7dd3ff96",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "styrene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

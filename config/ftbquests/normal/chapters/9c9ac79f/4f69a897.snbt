@@ -2,7 +2,7 @@
 	title: "A Primitive High Furnace!",
 	icon: "modularmachinery:blockcontroller",
 	x: 45.0d,
-	y: -1.5d,
+	y: -1.8d,
 	shape: "square",
 	description: "Do not confuse yourself, this one is to make resources! not only steel! :p",
 	text: [

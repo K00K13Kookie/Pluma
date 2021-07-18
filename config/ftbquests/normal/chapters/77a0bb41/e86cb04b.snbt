@@ -1,0 +1,84 @@
+{
+	title: "Super Glue!",
+	icon: {
+		id: "gregtech:meta_item_1",
+		Damage: 32762s,
+		tag: {
+			Fluid: {
+				FluidName: "superglue",
+				Amount: 1000
+			}
+		}
+	},
+	x: 18.194047619047616d,
+	y: 7.985714285714295d,
+	description: "A Very Strong Glue used to make AE2 and other Complex Components!",
+	text: [
+		"By Mixing No² (Nitrogen Dioxide), C₈ H₈ (Styrene) and some Glue, you'll refine it to Super Glue!"
+	],
+	dependencies: [
+		"45ec3e47"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a892db41",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "nitrogen_dioxide",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "603aab74",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "styrene",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "c9cfcfe2",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "glue",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "d9370dc1",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "superglue",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ecd4cb82",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -111,6 +111,9 @@ var ItensRemovidos as IItemStack[] = [
 <tconstruct:faucet>,
 <tconstruct:materials:14>,
 
+//TAIGA
+<taiga:palladium_ore>,
+
 //LazyAE2
 <threng:material:2>,
 <threng:machine>,
@@ -205,7 +208,6 @@ var ItensRemovidos as IItemStack[] = [
 <actuallyadditions:block_item_viewer_hopping>,
 <actuallyadditions:block_bio_reactor>,
 <actuallyadditions:block_shock_suppressor>,
-<actuallyadditions:block_item_viewer>,
 <actuallyadditions:block_miner>,
 <actuallyadditions:block_laser_relay_extreme>,
 <actuallyadditions:block_smiley_cloud>,
@@ -416,6 +418,9 @@ var ItensRemovidos as IItemStack[] = [
 <thermalexpansion:augment:496>,
 <thermalexpansion:augment:336>,
 <thermalexpansion:augment:337>,
+
+//Redstone Arsenal
+<redstonearsenal:material:192>,
 
 //Railcraft
 <railcraft:generic:5>,

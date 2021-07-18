@@ -4,6 +4,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import mods.chisel.Carving;
 import mods.nuclearcraft.ingot_former;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -287,4 +288,257 @@ fluid_extractor.recipeBuilder()
     .fluidOutputs(<liquid:redstone> * 1296)
     .duration(320)
     .EUt(32)
-    .buildAndRegister();    
+    .buildAndRegister();
+
+//Chisel Basalt
+var Basalt as IItemStack[] = [
+<gregtech:mineral:2>,
+<gregtech:mineral:14>,
+<gregtech:mineral:3>,
+<gregtech:mineral:7>,
+<gregtech:mineral:11>,
+<gregtech:mineral:15>,
+<taiga:basalt_block>
+];
+for i in Basalt {
+mods.chisel.Carving.addVariation("basalt", i);
+}    
+
+###### Artisan's Recipes #####
+
+//Coke Brick
+furnace.remove(<gregtech:meta_item_2:32016>, <gtadditions:ga_meta_item:32032>);
+recipes.remove(<gregtech:meta_item_2:32016>);
+RecipeBuilder.get("mason")
+  .setShapeless([<ore:ingotBrick>, <ore:dustAsh>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansFile>, 2)
+  .addOutput(<gregtech:meta_item_2:32016>)
+  .create();
+
+//Coated Circuit Board
+recipes.remove(<gregtech:meta_item_2:32443>);
+RecipeBuilder.get("engineer")
+  .setShapeless([<ore:plateWood>])
+  .setFluid(<liquid:sap> * 500)
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansTSquare>, 2)
+  .addOutput(<gregtech:meta_item_2:32443>)
+  .create();
+
+//Primitive Circuit
+mods.immersiveengineering.Blueprint.removeRecipe(<gregtech:meta_item_2:32487>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<gregtech:meta_item_2:32455>, <ore:casingCopper>, <gregtech:meta_item_2:32455>],
+    [<ore:electronTube>, <gregtech:meta_item_2:32443>, <ore:electronTube>],
+    [<ore:projredInsulatedWire>, <ore:projredInsulatedWire>, <ore:projredInsulatedWire>]])
+  .setFluid(<liquid:refinedcanolaoil> * 250)
+  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansSolderer>, 8)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<gregtech:meta_item_2:32487>)
+  .create();  
+
+//Empty Fluid Cell (Basic)
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:boltTin>, <ore:plateTin>, <ore:boltTin>],
+    [<ore:plateTin>, <ore:paneGlass>, <ore:plateTin>],
+    [<ore:boltTin>, <ore:plateTin>, <ore:boltTin>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansFile>, 5)
+  .addTool(<ore:artisansCutters>, 5)
+  .addOutput(<gregtech:meta_item_1:32762> * 4)
+  .create();
+
+//Steam Extractor
+recipes.remove(<gregtech:machine:7>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>],
+    [<ore:craftingPiston>, <gregtech:machine_casing:10>, <ore:blockGlass>],
+    [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>]])
+  .addTool(<ore:artisansSolderer>, 6)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 4)
+  .addOutput(<gregtech:machine:7>)
+  .create();
+
+//High Pressure Extractor
+recipes.remove(<gregtech:machine:8>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>],
+    [<ore:craftingPiston>, <gregtech:machine_casing:12>, <ore:blockGlass>],
+    [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]])
+  .setFluid(<liquid:oliveoil> * 250)     
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansHammer>, 6)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<gregtech:machine:8>)
+  .create();
+
+//Steam Macerator
+recipes.remove(<gregtech:machine:9>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:gemFlint>, <ore:plateBronze>, <ore:gemFlint>],
+    [<contenttweaker:bronzemechanicalcomponent>, <gregtech:machine_casing:10>, <contenttweaker:bronzemechanicalcomponent>],
+    [<ore:craftingPiston>, <ore:plateBronze>, <ore:craftingPiston>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<gregtech:machine:9>)
+  .create();
+
+//High Pressure Macerator
+recipes.remove(<gregtech:machine:10>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:gemFlint>, <ore:plateSteel>, <ore:gemFlint>],
+    [<immersiveengineering:material:9>, <gregtech:machine_casing:12>, <immersiveengineering:material:9>],
+    [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]])
+  .setFluid(<liquid:oliveoil> * 250)     
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 4)
+  .addOutput(<gregtech:machine:10>)
+  .create();
+
+//Steam Compressor
+recipes.remove(<gregtech:machine:11>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>],
+    [<ore:craftingPiston>, <gregtech:machine_casing:10>, <ore:craftingPiston>],
+    [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gregtech:machine:11>)
+  .create();
+
+//High Pressure Compressor
+recipes.remove(<gregtech:machine:12>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>],
+    [<ore:craftingPiston>, <gregtech:machine_casing:12>, <ore:craftingPiston>],
+    [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]])
+  .setFluid(<liquid:oliveoil> * 250)     
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 4)
+  .addOutput(<gregtech:machine:12>)
+  .create();
+
+//Steam Forge Hammer
+recipes.remove(<gregtech:machine:13>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:craftingPiston>, <ore:plateBronze>],
+    [<contenttweaker:bronzemechanicalcomponent>, <gregtech:machine_casing:10>, <contenttweaker:bronzemechanicalcomponent>],
+    [<ore:plateBronze>, <ore:craftingAnvil>, <ore:plateBronze>]])
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gregtech:machine:13>)
+  .create();
+
+//High Pressure Forge Hammer
+recipes.remove(<gregtech:machine:14>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:craftingPiston>, <ore:plateSteel>],
+    [<immersiveengineering:material:9>, <gregtech:machine_casing:12>, <immersiveengineering:material:9>],
+    [<ore:plateSteel>, <ore:craftingAnvil>, <ore:plateSteel>]])
+  .setFluid(<liquid:oliveoil> * 250)     
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gregtech:machine:14>)
+  .create();
+
+//Steam Furnace
+recipes.remove(<gregtech:machine:15>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+    [<ore:plateBronze>, <gregtech:machine_casing:11>, <ore:plateBronze>],
+    [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gregtech:machine:15>)
+  .create();
+
+//High Pressure Furnace
+recipes.remove(<gregtech:machine:16>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:plateSteel>, <gregtech:machine_casing:13>, <ore:plateSteel>],
+    [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]])
+  .setFluid(<liquid:oliveoil> * 250) 
+  .addTool(<ore:artisansSolderer>, 2)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 8)
+  .addOutput(<gregtech:machine:16>)
+  .create();
+
+//Steam Alloy Smelter
+recipes.remove(<gregtech:machine:17>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+    [<contenttweaker:bronzemechanicalcomponent>, <gregtech:machine_casing:11>, <contenttweaker:bronzemechanicalcomponent>],
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<gregtech:machine:17>)
+  .create();
+
+//High Pressure Alloy Smelter
+recipes.remove(<gregtech:machine:18>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<immersiveengineering:material:9>, <gregtech:machine_casing:13>, <immersiveengineering:material:9>],
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
+  .setFluid(<liquid:oliveoil> * 250)
+  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansBurner>, 1)
+  .addOutput(<gregtech:machine:18>)
+  .create();
+
+//Steam Boiler
+recipes.remove(<gregtech:machine:1>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+    [<ore:plateBronze>, null, <ore:plateBronze>],
+    [<ore:blockBrick>, <pyrotech:stone_kiln>, <ore:blockBrick>]])
+  .setFluid(<liquid:canolaoil> * 1000)
+  .addTool(<ore:artisansSolderer>, 3)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansBurner>, 3)
+  .addOutput(<gregtech:machine:1>)
+  .create();
+
+//High Pressure Steam Boiler
+recipes.remove(<gregtech:machine:2>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:plateSteel>, null, <ore:plateSteel>],
+    [<ore:blockBrick>, <pyrotech:brick_kiln>, <ore:blockBrick>]])
+  .setFluid(<liquid:canolaoil> * 2000)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<gregtech:machine:2>)
+  .create();  

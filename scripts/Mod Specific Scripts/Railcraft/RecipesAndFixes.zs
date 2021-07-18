@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 # Tank related Tooltips to infor the Color Variations ========
 
@@ -116,3 +117,45 @@ recipes.addShaped(<railcraft:bore:0> * 1, [[<ore:blockSteel>, <minecraft:minecar
 recipes.remove(<railcraft:steam_oven:0>);
 recipes.addShaped(<railcraft:steam_oven:0> * 4, [[<ore:plateBlackBronze>, <ore:plateBismuthBronze>, <ore:plateBlackBronze>], [<ore:plateBismuthBronze>, <gregtech:machine:15>, <ore:plateBismuthBronze>],[<ore:plateBlackBronze>, <ore:plateBismuthBronze>, <ore:plateBlackBronze>]]);
 
+##### Artisan's Recipes #####
+
+//Railcraft Wood Water Tank
+recipes.remove(<railcraft:tank_water>);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+    [<ore:plateBronze>, <actuallyadditions:block_misc:4>, <ore:plateBronze>],
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
+  .addTool(<ore:artisansCarver>, 5)
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<railcraft:tank_water> * 3)
+  .create();
+
+//Powered Rolling Machine
+recipes.remove(<railcraft:equipment:1>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateInvar>, <railcraft:charge:5>, <ore:plateInvar>],
+    [<immersiveengineering:material:9>, <railcraft:equipment>, <immersiveengineering:material:9>],
+    [<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSolderer>, 3)
+  .addTool(<ore:artisansDriver>, 6)
+  .addOutput(<railcraft:equipment:1>)
+  .create();
+
+//Rock Crusher
+recipes.remove(<railcraft:rock_crusher>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <railcraft:charge:5>, <ore:plateSteel>],
+    [<ore:gearInvar>, <pyrotech:sawmill_blade_diamond>, <ore:gearInvar>],
+    [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>]])
+  .setFluid(<liquid:canolaoil> * 1000)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<railcraft:rock_crusher> * 6)
+  .create();  

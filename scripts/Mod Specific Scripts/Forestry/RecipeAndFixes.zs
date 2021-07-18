@@ -4,6 +4,7 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 //Beewax by hand Recipe
 recipes.addShapeless("EarlyBeeWax", <forestry:beeswax>, [<ore:beeComb>, <gregtech:meta_tool:12>]);
@@ -269,3 +270,70 @@ var FarmControls as IItemStack[] = [
 for i in FarmControls {     
 i.addTooltip(format.aqua("Redstone Control for the Multiblock Farm"));
 }
+
+##### Artisan's Recipes #####
+
+//Squeezer
+recipes.remove(<forestry:squeezer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateTin>, <ore:strengthenedGlass>, <ore:plateTin>],
+    [<ore:plateTin>, <forestry:sturdy_machine>, <ore:plateTin>],
+    [<ore:plateTin>, <ore:strengthenedGlass>, <ore:plateTin>]])
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<forestry:squeezer>)
+  .create();
+
+//Carpenter
+recipes.remove(<forestry:carpenter>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:strengthenedGlass>, <ore:plateBronze>],
+    [<ore:plateBronze>, <forestry:sturdy_machine>, <ore:plateBronze>],
+    [<ore:plateBronze>, <ore:strengthenedGlass>, <ore:plateBronze>]])
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansHammer>, 3)
+  .addOutput(<forestry:carpenter>)
+  .create();
+
+//Centrifuge
+recipes.remove(<forestry:centrifuge>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateCopper>, <ore:strengthenedGlass>, <ore:plateCopper>],
+    [<ore:casingCopper>, <forestry:sturdy_machine>, <ore:casingCopper>],
+    [<ore:plateCopper>, <ore:strengthenedGlass>, <ore:plateCopper>]])
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansHammer>, 3)
+  .addOutput(<forestry:centrifuge>)
+  .create();
+
+//Thermionic Fabricator
+recipes.remove(<forestry:fabricator>);
+ RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:gearSmallSteel>, <ore:plateSteel>],
+    [<ore:strengthenedGlass>, <ore:gearElectrum>, <ore:strengthenedGlass>],
+    [<ore:plateGold>, <forestry:hardened_machine>, <ore:plateGold>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<forestry:fabricator>)
+  .create(); 
+
+//Still
+recipes.remove(<forestry:still>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateRedstone>, <ore:plateDenseBismuthBronze>, <ore:plateRedstone>],
+    [<ore:boltBismuthBronze>, <ore:gearBismuthBronze>, <ore:boltBismuthBronze>],
+    [<ore:plateRedstone>, <forestry:hardened_machine>, <ore:plateRedstone>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansHammer>, 4)
+  .addOutput(<forestry:still>)
+  .create();

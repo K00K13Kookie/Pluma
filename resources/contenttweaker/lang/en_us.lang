@@ -80,8 +80,8 @@ item.contenttweaker.dmgjuiceriron.name=Iron Juicer
 item.contenttweaker.dmgjuicerdiamond.name=Diamond Juicer
 item.contenttweaker.pieplate.name=Pie Plate
 item.contenttweaker.drinkglass.name=Drinking Glass
-item.contenttweaker.rawbread.name=Raw Bread Dough
-item.contenttweaker.rawbaguette.name=Raw Baguette Dough
+item.contenttweaker.rawbread.name=Raw Bread
+item.contenttweaker.rawbaguette.name=Raw Baguette
 item.contenttweaker.rawricebread.name=Raw Rice Bread
 
 item.contenttweaker.printedFluix.name=Printed Parallel Circuit

@@ -386,3 +386,86 @@ chemreactor.recipeBuilder()
     .EUt(512)
     .buildAndRegister();
 
+##### Artisan's Recipes #####
+
+//Sequential Fabricator
+recipes.remove(<thermalexpansion:machine:11>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateConstantan>, <ore:workbench>, <ore:plateConstantan>],
+    [<thermalfoundation:material:513>, <thermalexpansion:frame>, <thermalfoundation:material:513>],
+    [<ore:gearCopper>, <ore:circuitPrimitive>, <ore:gearCopper>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermalexpansion:machine:11>)
+  .create();
+
+//Igneous Extruder
+recipes.remove(<thermalexpansion:machine:15>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:boltEnhancedAluminum>, <ore:strengthenedGlass>, <ore:boltEnhancedAluminum>],
+    [<ore:circuitPrimitive>, <thermalexpansion:frame>, <ore:circuitPrimitive>],
+    [<ore:gearInvar>, <ore:plateDenseBlackBronze>, <ore:gearInvar>]])
+  .addTool(<ore:artisansHammer>, 8)
+  .addTool(<ore:artisansBurner>, 8)
+  .addTool(<ore:artisansSolderer>, 8)
+  .addOutput(<thermalexpansion:machine:15>)
+  .create();
+
+//Augment Clastic Deposition
+recipes.remove(<thermalexpansion:augment:497>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>],
+    [<ore:plateLead>, <ore:plateDenseBlackSteel>, <ore:plateLead>],
+    [<ore:casingBlackSteel>, <thermalfoundation:material:515>, <ore:casingBlackSteel>]])
+  .setFluid(<liquid:tree_oil> * 250)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addTool(<ore:artisansSolderer>, 4)
+  .addOutput(<thermalexpansion:augment:497>)
+  .create();
+
+//Arboreal Extractor
+recipes.remove(<thermalexpansion:device:3>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateRubber>, <ore:plateBismuthBronze>, <ore:plateRubber>],
+    [<ore:plateRubber>, <thermalexpansion:frame:64>, <ore:plateRubber>],
+    [<ore:gearInvar>, <thermalfoundation:material:512>, <ore:gearInvar>]])
+  .setFluid(<liquid:refinedcanolaoil> * 500)
+  .addTool(<ore:artisansSolderer>, 6)
+  .addTool(<ore:artisansHammer>, 6)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<thermalexpansion:device:3>)
+  .create();
+
+//Cache
+recipes.remove(<thermalexpansion:cache>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:boltTin>, <ore:densePlateTin>, <ore:boltTin>],
+    [<ore:plateBismuth>, <immersiveengineering:wooden_device0>, <ore:plateBismuth>],
+    [<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]])
+  .setFluid(<liquid:canolaoil> * 500)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 3)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addOutput(<thermalexpansion:cache>)
+  .create();
+
+//Redstone Servo
+recipes.remove(<thermalfoundation:material:512>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<projectred-core:resource_item:11>, <ore:stickSilver>, <projectred-core:resource_item:11>],
+    [<projectred-core:resource_item:2>, <projectred-core:resource_item:410>, <projectred-core:resource_item:2>],
+    [<projectred-core:resource_item:11>, <ore:stickSilver>, <projectred-core:resource_item:11>]])
+  .setFluid(<liquid:redstone> * 400)
+  .addTool(<ore:artisansDriver>, 7)
+  .addTool(<ore:artisansSolderer>, 9)
+  .addTool(<ore:artisansSpanner>, 8)
+  .addOutput(<thermalfoundation:material:512> * 2)
+  .create();

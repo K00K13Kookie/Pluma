@@ -171,5 +171,11 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "74e837a3",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "NetherDimensionUnlock"
 	}]
 }

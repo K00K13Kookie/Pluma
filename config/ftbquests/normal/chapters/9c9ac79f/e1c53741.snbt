@@ -1,8 +1,8 @@
 {
 	title: "Automating Researchs? O.o",
 	icon: "modularmachinery:blockcontroller",
-	x: 47.0d,
-	y: 0.5d,
+	x: 47.8d,
+	y: 0.4d,
 	shape: "square",
 	description: "Lets make our First Research Lab!",
 	text: [
@@ -10,7 +10,6 @@
 		"your knowladge into them, the Lab will greatly make that job for you! Different crystals have different recipes, Simply provide it with everthing that it needs."
 	],
 	dependencies: [
-		"45243bf5",
 		"1725995e"
 	],
 	hide: true,

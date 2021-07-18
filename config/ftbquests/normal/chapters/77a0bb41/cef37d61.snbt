@@ -1,0 +1,38 @@
+{
+	title: "Autocrafting!",
+	x: 13.5d,
+	y: 11.0d,
+	description: "The Interface is probally the Most used AE2 Block...",
+	text: [
+		"With and Interface and an Adjacent Molecular Assembler, you can pretty much autocraft all Crafting Table Recipes!",
+		"",
+		"The Interface itself is also very usefull! you can use it to Import or Export Items from the Network.",
+		"",
+		"Also, you can use the Interface directly connected to a Machine in order to automate recipes on it Aswell!"
+	],
+	dependencies: [
+		"3a48a5b1",
+		"bb9e0009"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ab8d74a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "e2715b0c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "0a8ab414",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 8
+	}]
+}

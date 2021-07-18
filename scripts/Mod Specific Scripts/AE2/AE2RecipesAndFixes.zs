@@ -7,6 +7,9 @@ import mods.thermalexpansion.Insolator;
 //			         																													 	 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Fixing weid Certus Recipe Glitch
+recipes.removeByRecipeName("thermalfoundation:material_127");
+
 //Removing Seeds from the Insolator
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed>, <minecraft:glowstone_dust>);
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
@@ -196,7 +199,7 @@ assembler.recipeBuilder()
 //ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 assembler.recipeBuilder()
-    .inputs([<threng:material:4>, <appliedenergistics2:smooth_sky_stone_block> * 4, <ore:crystalPureFluix> * 4, <ore:screwCelestialcrystal> * 4])
+    .inputs([<threng:material:4>, <appliedenergistics2:smooth_sky_stone_block> * 4, <ore:crystalPureFluix> * 4, <ore:screwCelestialcrystal> * 4, <ore:circuitGood> * 2])
     .fluidInputs([<liquid:superglue> * 250])
     .outputs(<appliedenergistics2:controller>)
     .duration(140)
@@ -474,4 +477,16 @@ assembler.recipeBuilder()
     .outputs(<appliedenergistics2:part:80>)
     .duration(60)
     .EUt(12)
-    .buildAndRegister();        
+    .buildAndRegister();
+
+
+//Storage Bus
+recipes.remove(<appliedenergistics2:part:220>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:part:440>, <gregtech:meta_item_1:32641>])
+    .property("circuit", 22)    
+    .fluidInputs([<liquid:fluix> * 2664])
+    .outputs(<appliedenergistics2:part:220>)
+    .duration(80)
+    .EUt(80)
+    .buildAndRegister();  

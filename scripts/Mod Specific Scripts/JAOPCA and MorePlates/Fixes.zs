@@ -661,7 +661,14 @@ extruder.recipeBuilder()
     .EUt(64)
 .buildAndRegister();
 
-
+//Fluxed Electrum Gear
+extruder.recipeBuilder()
+    .inputs(<ore:ingotElectrumFlux> * 4)
+    .notConsumable(<gregtech:meta_item_1:32372>)
+    .outputs(<redstonearsenal:material:96>)
+    .duration(128)
+    .EUt(64)
+.buildAndRegister();
 
 //Boron Rod
 lathe.recipeBuilder()
@@ -672,6 +679,14 @@ lathe.recipeBuilder()
 .buildAndRegister();
 
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_gearvinteum>, <ore:gemVinteum>, <immersiveengineering:mold:2>, 80, 1);
+
+//Obsidian Rod
+lathe.recipeBuilder()
+    .inputs(<ore:ingotObsidian>)
+    .outputs(<contenttweaker:obsidian_rod> * 2)
+    .duration(80)
+    .EUt(24)
+.buildAndRegister();
 
 //Mithril Rod
 lathe.recipeBuilder()

@@ -1,14 +1,14 @@
 {
 	title: "A Whole New World!",
-	x: 50.840136054421734d,
-	y: 0.4345238095238031d,
+	x: 50.699999999999996d,
+	y: -1.7999999999999998d,
 	shape: "square",
 	description: "Finally, lets get into a Whole new Era!",
 	text: [
 		"Now that you have Black Steel and Other special Resources such as Circuits, IT IS FINALLY TIME! lets proceed to the Chemistry Era!"
 	],
 	dependencies: [
-		"e1c53741"
+		"45243bf5"
 	],
 	hide: true,
 	size: 1.5d,

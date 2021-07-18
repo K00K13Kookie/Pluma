@@ -1,0 +1,50 @@
+{
+	title: "Making Fluix Steel!",
+	x: 13.0d,
+	y: 7.0d,
+	description: "Carbon + Fluix!",
+	text: [
+		"There are Many ways to make Carbon Monoxide, but one the easiest ones, is to make it in a chemical reactor with some carbon/coal and Oxygen!",
+		"",
+		"and them, you'll be using it to make Carbonic Fluix!",
+		"",
+		"after obtaining Carbonic Fluix, just mix it with Steel in a Blast Furnace!"
+	],
+	dependencies: [
+		"638eb87b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41258743",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "carbon_monoxide",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "3ea9212b",
+		type: "item",
+		items: [{
+			item: "threng:material 1 1"
+		}]
+	},
+	{
+		uid: "944c5f6a",
+		type: "item",
+		items: [{
+			item: "threng:material"
+		}]
+	}],
+	rewards: [{
+		uid: "3b686217",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

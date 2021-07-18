@@ -1,5 +1,6 @@
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.gregtech.recipe.RecipeMap;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 # Lamps OreDict ===============
 
@@ -118,4 +119,186 @@ mixer.recipeBuilder()
     .fluidOutputs(<liquid:empoweredoil> * 1000)
     .duration(300)
     .EUt(512)
+    .buildAndRegister();
+
+###### Artisan's Recipes #####
+
+//Atomic Reconstructor
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:boltBlackBronze>, <ore:plateRedAlloy>, <ore:boltBlackBronze>],
+    [<ore:plateSteel>, <actuallyadditions:block_misc:9>, <ore:plateDenseBismuthBronze>],
+    [<ore:boltBlackBronze>, <ore:plateRedAlloy>, <ore:boltBlackBronze>]])
+  .setFluid(<liquid:resin> * 500)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansDriver>, 2)
+  .addOutput(<actuallyadditions:block_atomic_reconstructor>)
+  .create();
+
+//Block Breaker
+recipes.remove(<actuallyadditions:block_breaker>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>],
+    [<ore:plateInvar>, <actuallyadditions:item_misc:7>, <ore:plateVoid>],
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>]])
+  .addTool(<ore:artisansSolderer>, 2)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 2)
+  .addOutput(<actuallyadditions:block_breaker>)
+  .create();
+
+//Block Placer
+recipes.remove(<actuallyadditions:block_placer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>],
+    [<ore:plateInvar>, <actuallyadditions:item_misc:7>, <ore:platePalis>],
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>]])
+  .addTool(<ore:artisansSolderer>, 2)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 2)
+  .addOutput(<actuallyadditions:block_placer>)
+  .create();
+
+//Fluid "Breaker"
+recipes.remove(<actuallyadditions:block_fluid_collector>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>],
+    [<ore:plateInvar>, <actuallyadditions:item_misc:8>, <ore:plateVoid>],
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>]])
+  .addTool(<ore:artisansSolderer>, 2)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 2)
+  .addOutput(<actuallyadditions:block_fluid_collector>)
+  .create();  
+
+//Fluid Placer
+recipes.remove(<actuallyadditions:block_fluid_placer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>],
+    [<ore:plateInvar>, <actuallyadditions:item_misc:8>, <ore:platePalis>],
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>]])
+  .addTool(<ore:artisansSolderer>, 2)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 2)
+  .addOutput(<actuallyadditions:block_fluid_placer>)
+  .create();
+
+//Automatic Precision Dropper
+recipes.remove(<actuallyadditions:block_dropper>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateDenseSteel>, <ore:platePalis>, <ore:plateDenseSteel>],
+    [<ore:plateUranium>, <minecraft:dropper>, <actuallyadditions:item_misc:8>],
+    [<ore:plateDenseSteel>, <ore:platePalis>, <ore:plateDenseSteel>]])
+  .addTool(<ore:artisansSolderer>, 4)
+  .addTool(<ore:artisansHammer>, 10)
+  .addTool(<ore:artisansSpanner>, 4)
+  .addOutput(<actuallyadditions:block_dropper>)
+  .create();
+
+//Ranged Collector
+recipes.remove(<actuallyadditions:block_ranged_collector>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateConstantan>, <ore:plateDiamatine>, <ore:plateConstantan>],
+    [<ore:enderpearl>, <ore:hopper>, <ore:enderpearl>],
+    [<ore:plateConstantan>, <actuallyadditions:block_misc:7>, <ore:plateConstantan>]])
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansBurner>, 2)
+  .addOutput(<actuallyadditions:block_ranged_collector>)
+  .create();  
+
+//Energizer
+recipes.remove(<actuallyadditions:block_energizer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateRestonia>, <ore:plateRuby>, <ore:plateRestonia>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:item_misc:8>],
+    [<ore:plateRestonia>, <ore:plateRuby>, <ore:plateRestonia>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansBurner>, 2)
+  .addOutput(<actuallyadditions:block_energizer>)
+  .create();
+
+//Enervator
+recipes.remove(<actuallyadditions:block_enervator>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateRestonia>, <ore:plateSapphire>, <ore:plateRestonia>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:item_misc:8>],
+    [<ore:plateRestonia>, <ore:plateSapphire>, <ore:plateRestonia>]])
+  .addTool(<ore:artisansHammer>, 6)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addTool(<ore:artisansBurner>, 2)
+  .addOutput(<actuallyadditions:block_enervator>)
+  .create();
+
+//Actually Additions Farmer
+recipes.remove(<actuallyadditions:block_farmer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBlackSteel>, <ore:gearVoid>, <ore:plateBlackSteel>],
+    [<ore:plateVoid>, <actuallyadditions:block_misc:7>, <ore:plateVoid>],
+    [<ore:plateBlackSteel>, <ore:circuitBasic>, <ore:plateBlackSteel>]])
+  .setFluid(<liquid:resin> * 500)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addOutput(<actuallyadditions:block_farmer>)
+  .create();
+
+//Coffe Machine
+recipes.remove(<actuallyadditions:block_coffee_machine>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:plateSteel>, <actuallyadditions:item_coffee_beans>, <ore:plateSteel>],
+    [<ore:plateVoid>, <actuallyadditions:block_misc:9>, <ore:plateVoid>],
+    [<actuallyadditions:item_misc:7>, <ore:gearVoid>, <actuallyadditions:item_misc:7>]])
+  .setFluid(<liquid:resin> * 500)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansHammer>, 10)
+  .addTool(<ore:artisansBurner>, 5)
+  .addOutput(<actuallyadditions:block_coffee_machine>)
+  .create();
+
+//Animal Feeder
+recipes.remove(<actuallyadditions:block_feeder>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:plateTreated>, <ore:boltElectrum>, <ore:plateTreated>],
+    [<actuallyadditions:item_misc:7>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_misc:7>],
+    [<ore:plateTreated>, <ore:boltElectrum>, <ore:plateTreated>]])
+  .addTool(<ore:artisansSolderer>, 2)
+  .addTool(<ore:artisansHammer>, 6)
+  .addTool(<ore:artisansBurner>, 2)
+  .addOutput(<actuallyadditions:block_feeder>)
+  .create();
+
+//Item Interface
+recipes.remove(<actuallyadditions:block_item_viewer>);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<ore:blockSheetmetalSteel>, <ore:plateTreated>, <ore:blockSheetmetalSteel>],
+    [<ore:plateTreated>, <ore:chestWood>, <ore:plateTreated>],
+    [<ore:blockSheetmetalSteel>, <ore:plateTreated>, <ore:blockSheetmetalSteel>]])
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansDriver>, 5)
+  .addOutput(<actuallyadditions:block_item_viewer>)
+  .create();
+
+assembler.recipeBuilder()
+    .inputs([<ore:blockSheetmetalSteel> * 4, <ore:plateTreated> * 2, <ore:chestWood>])
+    .property("circuit", 8)
+    .outputs(<actuallyadditions:block_giant_chest>)
+    .duration(80)
+    .EUt(32)
     .buildAndRegister();

@@ -1,0 +1,25 @@
+{
+	title: "A Path to an AE2 System!",
+	x: 13.0d,
+	y: 8.0d,
+	description: "The Energy Input is the first thing to do!",
+	text: [
+		"Now that you have Fluix Steel you can finally make an Energy Acceptor, why it can be important? well, you can use it with a ME Drive and a Terminal, to get a \"Simplistic AE2 System\"."
+	],
+	dependencies: [
+		"6ec45bd1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c7e53cde",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "1d2822dd",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

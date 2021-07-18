@@ -25,7 +25,7 @@ oldDeathpoints:false
 distance:1
 showCoords:true
 lockNorth:true
-zoom:0
+zoom:1
 minimapSize:0
 entityAmount:1
 chunkGrid:-1
@@ -101,7 +101,6 @@ caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
-ignoreHeightmaps:false
 waypointsBottom:false
 minimapShape:0
 lightOverlayType:0

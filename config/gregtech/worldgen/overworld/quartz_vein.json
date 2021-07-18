@@ -23,7 +23,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 25,
+          "weight": 30,
           "value": "ore:quartzite"
         },
         {
@@ -31,7 +31,7 @@
           "value": "ore:barite"
         },
 		    {
-          "weight": 35,
+          "weight": 25,
           "value": "ore_dict:oreCertusQuartz"
         },
 		    {
@@ -39,7 +39,7 @@
           "value": "ore:nether_quartz" 
         },
         {
-          "weight": 10,
+          "weight": 15,
           "value": "ore_dict:oreQuartzBlack"
         }
       ]

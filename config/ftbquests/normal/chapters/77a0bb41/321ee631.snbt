@@ -26,5 +26,11 @@
 		uid: "523d8c00",
 		type: "ftbmoney:money",
 		ftb_money: 5L
+	},
+	{
+		uid: "3cf27bc9",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EndDimensionUnlock"
 	}]
 }

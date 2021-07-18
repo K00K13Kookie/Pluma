@@ -180,3 +180,64 @@ recipes.addShaped(<minecraft:glass_bottle> * 9, [[null, <ore:slabWood>, null], [
 <quark:stained_clay_tiles:14>,
 <quark:stained_clay_tiles:15>
 );
+
+##### Artisan's Recipes #####
+
+//Vannila Bricks
+recipes.remove(<minecraft:brick_block>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>],
+    [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>],
+    [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]])
+  .setFluid(<liquid:liquid_clay> * 1000)
+  .addTool(<ore:artisansTSquare>, 2)
+  .addTool(<ore:artisansFile>, 2)
+  .addOutput(<minecraft:brick_block>)
+  .create();
+
+//Vanilla Chest
+recipes.remove(<minecraft:chest>);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<ore:logWood>, <ore:plateTreated>, <ore:logWood>],
+    [<ore:plateTreated>, <minecraft:stone_button>, <ore:plateTreated>],
+    [<ore:logWood>, <ore:plateTreated>, <ore:logWood>]])
+  .addTool(<ore:artisansCarver>, 5)
+  .addTool(<ore:artisansHandsaw>, 10)
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:chest>)
+  .create();
+
+//Vanilla Crafting Table
+recipes.remove(<minecraft:crafting_table>);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<ore:boltTreated>, <ore:plateTreated>, <ore:boltTreated>],
+    [<ore:plateTreated>, <artisanworktables:workshop:5>, <ore:plateTreated>],
+    [<ore:boltTreated>, <ore:plateTreated>, <ore:boltTreated>]])
+  .addTool(<ore:artisansCarver>, 10)
+  .addTool(<ore:artisansHandsaw>, 10)
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:crafting_table>)
+  .create();
+
+//Glowstone in the Early Game
+RecipeBuilder.get("chemist")
+  .setShapeless([<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:dustSulfur>, <ore:dustSaltpeter>])
+  .setFluid(<liquid:water> * 1000)
+  .addTool(<ore:artisansBeaker>, 3)
+  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansMortar>, 5)
+  .addOutput(<minecraft:glowstone_dust> * 4)
+  .create();
+
+//Blaze Powder in the Early Game
+RecipeBuilder.get("chemist")
+  .setShapeless([<ore:dustElectrotine>, <ore:dustEnderPearl>, <ore:dustSulfur>, <ore:dustGlowstone>, <ore:dustUranium>])
+  .setFluid(<liquid:refinedcanolaoil> * 100)
+  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansMortar>, 5)
+  .addTool(<ore:artisansSifter>, 2)
+  .addOutput(<minecraft:blaze_powder> * 4)
+  .create();  
