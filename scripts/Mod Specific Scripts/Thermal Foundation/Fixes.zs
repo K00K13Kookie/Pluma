@@ -514,6 +514,82 @@ chemreactor.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
+//Augment Nutrient Recovery
+recipes.remove(<thermalexpansion:augment:320>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseNeodymium>, <thermalfoundation:fertilizer:1> * 2, <thermalfoundation:material:512>, <ore:gearSilver>])
+    .outputs(<thermalexpansion:augment:320>)
+    .duration(120)
+    .EUt(32)
+    .buildAndRegister(); 
+
+//Augment Sapling Infuser
+recipes.remove(<thermalexpansion:augment:323>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseNeodymium>, <ore:plateLumium> * 2, <thermalfoundation:material:512>, <ore:gearInvar>])
+    .outputs(<thermalexpansion:augment:323>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister(); 
+
+//Augment Monoculture Cycle
+recipes.remove(<thermalexpansion:augment:324>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseNeodymium>, <ore:plateNickel> * 2, <thermalfoundation:material:515>, <ore:gearSignalum>, <thermalfoundation:fertilizer:2>])
+    .outputs(<thermalexpansion:augment:324>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister(); 
+
+//Augment Flux Linkage Concentrator
+recipes.remove(<thermalexpansion:augment:400>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseNeodymium>, <ore:plateSilver> * 2, <thermalfoundation:material:515>, <ore:gearElectrum>])
+    .outputs(<thermalexpansion:augment:400>)
+    .duration(120)
+    .EUt(60)
+    .buildAndRegister(); 
+
+//Augment Flux Reconstruction
+recipes.remove(<thermalexpansion:augment:401>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseNeodymium>, <ore:plateOsmium> * 2, <thermalfoundation:material:515>, <ore:gearTitanium>])
+    .outputs(<thermalexpansion:augment:401>)
+    .duration(180)
+    .EUt(128)
+    .buildAndRegister();
+
+//Augment Parabolic Flux
+recipes.remove(<thermalexpansion:augment:402>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseNeodymium>, <ore:plateBlueTopaz> * 2, <thermalfoundation:material:512>, <ore:gearRestonia>])
+    .outputs(<thermalexpansion:augment:402>)
+    .duration(160)
+    .EUt(75)
+    .buildAndRegister();
+
+// Flux Capacitor (Basic)
+recipes.removeByRecipeName("thermalexpansion:capacitor");
+recipes.addShaped(<thermalexpansion:capacitor:0> * 1, [[null, <ore:plateRedAlloy>, null], [<ore:plateBatteryAlloy>, <immersiveengineering:metal_device0:0>, <ore:plateBatteryAlloy>],[<ore:plateRedAlloy>, <ore:dustSulfur>, <ore:plateRedAlloy>]]);
+
+// Flux Capacitor (Hardened)
+recipes.removeByRecipeName("thermalexpansion:capacitor_1");
+recipes.addShaped(<thermalexpansion:capacitor:1> * 1, [[null, <ore:plateRedAlloy>, null], [<ore:plateBatteryAlloy>, <immersiveengineering:metal_device0:1>, <ore:plateBatteryAlloy>],[<ore:plateRedAlloy>, <ore:gearInvar>, <ore:plateRedAlloy>]]);
+
+// Flux Capacitor (Reinforced)
+recipes.removeByRecipeName("thermalexpansion:capacitor_2");
+recipes.addShaped(<thermalexpansion:capacitor:2> * 1, [[null, <ore:plateRedAlloy>, null], [<ore:plateBatteryAlloy>, <immersiveengineering:metal_device0:2>, <ore:plateBatteryAlloy>],[<ore:plateRedAlloy>, <ore:gearElectrum>, <ore:plateRedAlloy>]]);
+
+// Flux Capacitor (Signalum)
+recipes.removeByRecipeName("thermalexpansion:capacitor_3");
+recipes.addShaped(<thermalexpansion:capacitor:3> * 1, [[<ore:screwBatteryAlloy>, <ore:plateRedAlloy>, <ore:screwBatteryAlloy>], [<ore:plateSignalum>, <thermalexpansion:capacitor:2>, <ore:plateSignalum>],[<ore:plateRedAlloy>, <ore:gearSignalum>, <ore:plateRedAlloy>]]);
+
+// Flux Capacitor (Resonant)
+recipes.removeByRecipeName("thermalexpansion:capacitor_4");
+recipes.addShaped(<thermalexpansion:capacitor:4> * 1, [[<ore:screwBatteryAlloy>, <ore:plateRedAlloy>, <ore:screwBatteryAlloy>], [<ore:plateEnderium>, <thermalexpansion:capacitor:3>, <ore:plateEnderium>],[<ore:plateRedAlloy>, <ore:gearEnderium>, <ore:plateRedAlloy>]]);
+
+
+
 ##### Artisan's Recipes #####
 
 /*
@@ -535,7 +611,7 @@ RecipeBuilder.get("engineer")
 recipes.remove(<thermalexpansion:machine:15>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltEnhancedAluminum>, <ore:strengthenedGlass>, <ore:boltEnhancedAluminum>],
+    [<ore:screwSilver>, <ore:strengthenedGlass>, <ore:screwSilver>],
     [<ore:circuitPrimitive>, <thermalexpansion:frame>, <ore:circuitPrimitive>],
     [<ore:gearInvar>, <ore:plateDenseBlackBronze>, <ore:gearInvar>]])
   .addTool(<ore:artisansHammer>, 8)
@@ -557,6 +633,76 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 4)
   .addOutput(<thermalexpansion:augment:497>)
   .create();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseBlackSteel>, <ore:plateNickel> * 2, <thermalfoundation:material:515>, <ore:gearLead>])
+    .outputs(<thermalexpansion:augment:497>)
+    .duration(128)
+    .EUt(32)
+    .buildAndRegister();
+
+//Augment Reception Coil
+recipes.remove(<thermalexpansion:augment:128>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
+    [<ore:plateGold>, <ore:plateDenseBlackSteel>, <ore:plateGold>],
+    [<ore:gearRedAlloy>, <thermalfoundation:material:513>, <ore:gearRedAlloy>]])
+  .setFluid(<liquid:tree_oil> * 250)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansBurner>, 5)
+  .addTool(<ore:artisansSolderer>, 2)
+  .addOutput(<thermalexpansion:augment:128> * 2)
+  .create();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseBlackSteel>, <ore:plateGold> * 2, <thermalfoundation:material:513>, <ore:gearRedAlloy>])
+    .outputs(<thermalexpansion:augment:128> * 2)
+    .duration(128)
+    .EUt(32)
+    .buildAndRegister();
+
+//Augment Auxiliary Sieve
+recipes.remove(<thermalexpansion:augment:129>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+    [<ore:plateBronze>, <ore:plateDenseBlackSteel>, <ore:plateBronze>],
+    [<ore:plateBronze>, <thermalfoundation:material:512>, <ore:plateBronze>]])
+  .setFluid(<liquid:tree_oil> * 250)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansBurner>, 4)
+  .addTool(<ore:artisansSolderer>, 3)
+  .addOutput(<thermalexpansion:augment:129>)
+  .create();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseBlackSteel>, <ore:plateBronze> * 2, <thermalfoundation:material:512>, <ore:gearConstantan>])
+    .outputs(<thermalexpansion:augment:129> * 2)
+    .duration(128)
+    .EUt(32)
+    .buildAndRegister();
+
+//Augment Nullification Chamber
+recipes.remove(<thermalexpansion:augment:130>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:screwInvar>, <ore:plateInvar>, <ore:screwInvar>],
+    [<ore:plateVoid>, <ore:plateDenseBlackSteel>, <ore:plateVoid>],
+    [<ore:screwInvar>, <ore:dustVoid>, <ore:screwInvar>]])
+  .setFluid(<liquid:tree_oil> * 1000)
+  .addTool(<ore:artisansHammer>, 2)
+  .addTool(<ore:artisansBurner>, 2)
+  .addTool(<ore:artisansSolderer>, 5)
+  .addOutput(<thermalexpansion:augment:130>)
+  .create();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseBlackSteel>, <ore:plateInvar> * 2, <ore:dustVoid>, <ore:gearVoid>])
+    .outputs(<thermalexpansion:augment:130> * 2)
+    .duration(128)
+    .EUt(32)
+    .buildAndRegister();
 
 //Arboreal Extractor
 recipes.remove(<thermalexpansion:device:3>);
