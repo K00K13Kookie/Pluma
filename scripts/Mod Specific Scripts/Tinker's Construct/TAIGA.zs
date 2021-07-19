@@ -26,7 +26,7 @@ import crafttweaker.item.IItemStack;
 
 //OreDicts
 <ore:blockBasalt>.remove(<taiga:basalt_block>);
-
+<ore:oreDilithium>.add(<taiga:dilithium_ore>);
 
 /////////////////// Making the Resources ///////////////////
 
