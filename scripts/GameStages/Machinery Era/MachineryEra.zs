@@ -645,6 +645,7 @@ var MachineryGates as IItemStack[] = [
 <thermalexpansion:capacitor:32000>,
 <thermalexpansion:capacitor:2>,
 <thermalexpansion:tank>,
+<thermalexpansion:reservoir>,
 
 //Integrated Dynamics
 <integrateddynamics:variable_transformer:1>,

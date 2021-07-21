@@ -65,8 +65,6 @@ var AdvancedMachinery as IItemStack[] = [
 <thermalexpansion:machine:10>,
 <thermalexpansion:capacitor:3>,
 <thermalexpansion:capacitor:4>,
-<thermalexpansion:reservoir:3>,
-<thermalexpansion:reservoir:4>,
 <thermalexpansion:frame:147>,
 <thermalfoundation:upgrade:3>,
 <thermalfoundation:upgrade:35>,
@@ -85,6 +83,10 @@ var AdvancedMachinery as IItemStack[] = [
 <thermaldynamics:duct_64:1>,
 <thermaldynamics:duct_64:2>,
 <thermaldynamics:duct_64:3>,
+<thermalexpansion:reservoir:1>,
+<thermalexpansion:reservoir:2>,
+<thermalexpansion:reservoir:3>,
+<thermalexpansion:reservoir:4>,
 
 //Rftools
 <rftools:syringe>,

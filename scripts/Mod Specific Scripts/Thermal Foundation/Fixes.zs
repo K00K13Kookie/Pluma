@@ -4,6 +4,41 @@ import mods.forestry.Still;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.gregtech.recipe.RecipeMap;
 
+##### Thermal Important Resources #####
+
+//Signalum (HV)
+chemical_bath.findRecipe(32, [<nuclearcraft:alloy:7>], [<liquid:redstone> * 250]).remove();
+blast_furnace.recipeBuilder()
+    .inputs(<nuclearcraft:alloy:7>, <ore:dustSmallRedAlloy>)
+    .fluidInputs([<liquid:redstone> * 500])    
+    .outputs(<thermalfoundation:material:165>)
+    .property("temperature", 2500)
+    .duration(1500)
+    .EUt(360)
+    .buildAndRegister();
+
+//Lumium (LuV)
+chemical_bath.findRecipe(32, [<nuclearcraft:alloy:8>], [<liquid:glowstone> * 250]).remove();
+blast_furnace.recipeBuilder()
+    .inputs(<nuclearcraft:alloy:8>, <ore:dustSmallRoseGold>)
+    .fluidInputs([<liquid:glowstone> * 500])    
+    .outputs(<thermalfoundation:material:166>)
+    .property("temperature", 3500)
+    .duration(1500)
+    .EUt(30000)
+    .buildAndRegister();
+
+//Enderium (ZPM)
+chemical_bath.findRecipe(32, [<nuclearcraft:alloy:9>], [<liquid:ender> * 250]).remove();
+blast_furnace.recipeBuilder()
+    .inputs(<nuclearcraft:alloy:9>, <ore:dustSmallRoseGold>)
+    .fluidInputs([<liquid:ender> * 500])    
+    .outputs(<thermalfoundation:material:167>)
+    .property("temperature", 5000)
+    .duration(1500)
+    .EUt(130000)
+    .buildAndRegister();
+
 # Fixing the Names of "Pulverized" to "Dust"
 
 <thermalfoundation:material>.displayName = "Iron Dust";
@@ -588,7 +623,43 @@ recipes.addShaped(<thermalexpansion:capacitor:3> * 1, [[<ore:screwBatteryAlloy>,
 recipes.removeByRecipeName("thermalexpansion:capacitor_4");
 recipes.addShaped(<thermalexpansion:capacitor:4> * 1, [[<ore:screwBatteryAlloy>, <ore:plateRedAlloy>, <ore:screwBatteryAlloy>], [<ore:plateEnderium>, <thermalexpansion:capacitor:3>, <ore:plateEnderium>],[<ore:plateRedAlloy>, <ore:gearEnderium>, <ore:plateRedAlloy>]]);
 
+// Reservoir (Basic)
+recipes.remove(<thermalexpansion:reservoir:0>);
+recipes.addShaped(<thermalexpansion:reservoir:0> * 1, [[<ore:screwCopper>, <ore:plateElectrotine>, <ore:screwCopper>], [<ore:plateDenseCopper>, <gregtech:meta_item_1:32762>, <ore:plateDenseCopper>],[<ore:plateCopper>, <thermalfoundation:material:512>, <ore:plateCopper>]]);
 
+// Reservoir (Hardened)
+recipes.remove(<thermalexpansion:reservoir:1>);
+recipes.addShaped(<thermalexpansion:reservoir:1> * 1, [[<ore:screwInvar>, <ore:plateElectrotine>, <ore:screwInvar>], [<ore:plateDenseInvar>, <gregtech:meta_item_1:32405>, <ore:plateDenseInvar>],[<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>]]);
+
+// Reservoir (Reinforced)
+recipes.remove(<thermalexpansion:reservoir:2>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseElectrum> * 2, <ore:plateElectrum> * 2, <ore:plateElectrotine>, <ore:screwElectrum> * 2, <thermalfoundation:material:512>, <gregtech:meta_item_1:32405>])
+    .outputs(<thermalexpansion:reservoir:2>)
+    .property("circuit", 1)    
+    .duration(160)
+    .EUt(32)
+    .buildAndRegister();
+
+// Reservoir (Signalum)
+recipes.remove(<thermalexpansion:reservoir:3>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseSignalum> * 2, <ore:plateSignalum> * 2, <ore:plateElectrotine>, <ore:screwSignalum> * 2, <thermalfoundation:material:512>, <gregtech:meta_item_1:32405>])
+    .outputs(<thermalexpansion:reservoir:3>)
+    .property("circuit", 1)    
+    .duration(160)
+    .EUt(58)
+    .buildAndRegister();
+
+// Reservoir (Resonant)
+recipes.remove(<thermalexpansion:reservoir:4>);
+assembler.recipeBuilder()
+    .inputs([<ore:plateDenseEnderium> * 2, <ore:plateEnderium> * 2, <ore:plateElectrotine>, <ore:screwEnderium> * 2, <thermalfoundation:material:512>, <gregtech:meta_item_1:32405>])
+    .outputs(<thermalexpansion:reservoir:4>)
+    .property("circuit", 1)    
+    .duration(160)
+    .EUt(156)
+    .buildAndRegister();
 
 ##### Artisan's Recipes #####
 

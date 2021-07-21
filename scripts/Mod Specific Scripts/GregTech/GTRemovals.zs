@@ -477,6 +477,16 @@ var toRemove = [
 ,  <gregtech:meta_item_1:8202>
 ,  <gregtech:meta_item_1:2202>
 
+//Osram Stuff
+,  <gregtech:meta_item_1:9701>
+,  <gregtech:meta_item_1:10701>
+,  <gregtech:meta_item_1:2701>
+
+//Iox Stuff
+,  <gregtech:meta_item_1:10901>
+,  <gregtech:meta_item_1:2901>
+,  <gregtech:meta_item_1:9901>
+
 ] as IItemStack[];
 
 for item in toRemove {

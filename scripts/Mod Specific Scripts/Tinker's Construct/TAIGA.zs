@@ -749,7 +749,7 @@ solidifier.recipeBuilder()
 mixer.recipeBuilder()
     .inputs(<taiga:vibranium_dust>)
     .inputs(<taiga:nihilite_dust>)	
-    .fluidInputs([<liquid:iox_fluid> * 432])
+    .fluidInputs([<liquid:iox> * 432])
     .fluidInputs([<liquid:solarium_fluid> * 144])	
     .fluidOutputs(<liquid:adamant_fluid> * 576)
     .duration(240)
@@ -1222,12 +1222,16 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 //Iox
+<ore:blockIox>.remove(<taiga:iox_block>);
+recipes.addShapeless("GTIoxToTaiga", <taiga:iox_block>, [<gregtech:meta_block_compressed_56:5>]);
+recipes.addShapeless("GTIoxToTaiga2", <gregtech:meta_block_compressed_56:5>, [<taiga:iox_block>]);
+
 mixer.recipeBuilder()
     .inputs(<taiga:abyssum_dust> * 2)
     .inputs(<taiga:obsidiorite_dust> * 9)	
     .fluidInputs([<liquid:eezo_fluid> * 288])
-    .fluidInputs([<liquid:osram_fluid> * 288])	
-    .fluidOutputs(<liquid:iox_fluid> * 1152)
+    .fluidInputs([<liquid:osram> * 288])	
+    .fluidOutputs(<liquid:iox> * 1152)
     .duration(240)
     .EUt(32)
     .buildAndRegister();
@@ -1239,7 +1243,7 @@ blast_furnace.recipeBuilder()
     .duration(1500)
     .EUt(128)
     .buildAndRegister();
-
+/*
 macerator.recipeBuilder()
     .inputs([<taiga:iox_ingot>])
     .outputs(<taiga:iox_dust>)
@@ -1253,32 +1257,34 @@ macerator.recipeBuilder()
     .duration(60)
     .EUt(16)
     .buildAndRegister();
+*/
 
 ### Fluids of this Resource
 
+/*
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:iox_block>)
-    .fluidOutputs(<liquid:iox_fluid> * 1296)
+    .fluidOutputs(<liquid:iox> * 1296)
     .duration(720)
     .EUt(32)
     .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:iox_ingot>)
-    .fluidOutputs(<liquid:iox_fluid> * 144)
+    .fluidOutputs(<liquid:iox> * 144)
     .duration(80)
     .EUt(32)
     .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:iox_nugget>)
-    .fluidOutputs(<liquid:iox_fluid> * 16)
+    .fluidOutputs(<liquid:iox> * 16)
     .duration(8.8)
     .EUt(32)
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:iox_fluid> * 1296)
+    .fluidInputs(<liquid:iox> * 1296)
     .notConsumable(<gregtech:meta_item_1:32308>)
     .outputs(<taiga:iox_block>)		
     .duration(56)
@@ -1286,7 +1292,7 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:iox_fluid> * 144)
+    .fluidInputs(<liquid:iox> * 144)
     .notConsumable(<gregtech:meta_item_1:32306>)
     .outputs(<taiga:iox_ingot>)		
     .duration(20)
@@ -1294,12 +1300,13 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:iox_fluid> * 16)
+    .fluidInputs(<liquid:iox> * 16)
     .notConsumable(<gregtech:meta_item_1:32309>)	
     .outputs(<taiga:iox_nugget>)	
     .duration(12.8)
     .EUt(4)
     .buildAndRegister();
+*/
 
 //Lumix
 mixer.recipeBuilder()
@@ -1462,7 +1469,7 @@ solidifier.recipeBuilder()
 //Nucleum
 mixer.recipeBuilder()
     .inputs(<taiga:eezo_dust>)
-    .fluidInputs([<liquid:osram_fluid> * 144])
+    .fluidInputs([<liquid:osram> * 144])
     .fluidInputs([<liquid:niob_fluid> * 432])	
     .fluidOutputs(<liquid:nucleum_fluid> * 576)
     .duration(240)
@@ -2326,6 +2333,10 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 //Osram
+<ore:blockOsram>.remove(<taiga:osram_block>);
+recipes.addShapeless("GTOsramToTaiga", <taiga:osram_block>, [<gregtech:meta_block_compressed_43:13>]);
+recipes.addShapeless("GTOsramToTaiga2", <gregtech:meta_block_compressed_43:13>, [<taiga:osram_block>]);
+
 macerator.recipeBuilder()
     .inputs([<taiga:osram_ore>])
     .outputs(<taiga:osram_dust> * 2)
@@ -2341,6 +2352,7 @@ blast_furnace.recipeBuilder()
     .EUt(128)
     .buildAndRegister();
 
+/*
 macerator.recipeBuilder()
     .inputs([<taiga:osram_ingot>])
     .outputs(<taiga:osram_dust>)
@@ -2354,32 +2366,34 @@ macerator.recipeBuilder()
     .duration(60)
     .EUt(16)
     .buildAndRegister();
+*/
 
 ### Fluids of this Resource
 
+/*
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:osram_block>)
-    .fluidOutputs(<liquid:osram_fluid> * 1296)
+    .fluidOutputs(<liquid:osram> * 1296)
     .duration(720)
     .EUt(32)
     .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:osram_ingot>)
-    .fluidOutputs(<liquid:osram_fluid> * 144)
+    .fluidOutputs(<liquid:osram> * 144)
     .duration(80)
     .EUt(32)
     .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:osram_nugget>)
-    .fluidOutputs(<liquid:osram_fluid> * 16)
+    .fluidOutputs(<liquid:osram> * 16)
     .duration(8.8)
     .EUt(32)
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:osram_fluid> * 1296)
+    .fluidInputs(<liquid:osram> * 1296)
     .notConsumable(<gregtech:meta_item_1:32308>)
     .outputs(<taiga:osram_block>)		
     .duration(56)
@@ -2387,7 +2401,7 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:osram_fluid> * 144)
+    .fluidInputs(<liquid:osram> * 144)
     .notConsumable(<gregtech:meta_item_1:32306>)
     .outputs(<taiga:osram_ingot>)		
     .duration(20)
@@ -2395,12 +2409,13 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:osram_fluid> * 16)
+    .fluidInputs(<liquid:osram> * 16)
     .notConsumable(<gregtech:meta_item_1:32309>)	
     .outputs(<taiga:osram_nugget>)	
     .duration(12.8)
     .EUt(4)
     .buildAndRegister();
+*/
 
 //Prometheum
 macerator.recipeBuilder()
@@ -2979,6 +2994,7 @@ extruder.recipeBuilder()
 	.buildAndRegister();
 
 //Osram
+/*
 extruder.recipeBuilder()
 	.inputs(<taiga:osram_ingot> * 9)
 	.notConsumable(<gregtech:meta_item_1:32363>)
@@ -2986,6 +3002,7 @@ extruder.recipeBuilder()
 	.duration(50)
 	.EUt(60)
 	.buildAndRegister();
+*/
 
 //Abyssum
 extruder.recipeBuilder()
@@ -3159,6 +3176,7 @@ extruder.recipeBuilder()
 	.buildAndRegister();
 
 //Iox
+/*
 extruder.recipeBuilder()
 	.inputs(<taiga:iox_ingot> * 9)
 	.notConsumable(<gregtech:meta_item_1:32363>)
@@ -3166,6 +3184,7 @@ extruder.recipeBuilder()
 	.duration(50)
 	.EUt(60)
 	.buildAndRegister();
+*/
 
 //Meteorite
 extruder.recipeBuilder()

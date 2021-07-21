@@ -58,20 +58,25 @@ val materialSignalum = MaterialRegistry.createIngotMaterial(801, "signalum", 0xF
 materialSignalum.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_DENSE"]);
 materialSignalum.setCableProperties(512, 4, 0);
 
-	#Energetic Alloy (EV)
-val energeticAlloy = MaterialRegistry.createIngotMaterial(701, "energetic_alloy", 0xf49507, "shiny", 2);
-energeticAlloy.addFlags(["GENERATE_PLATE","GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_BOLT_SCREW"]);
-energeticAlloy.setCableProperties(2048, 4, 0);
+	#Osram (EV)
+val materialOsram = MaterialRegistry.createIngotMaterial(701, "osram", 0xf49507, "shiny", 2);
+materialOsram.addFlags(["GENERATE_PLATE","GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_BOLT_SCREW"]);
+materialOsram.setCableProperties(2048, 4, 0);
 
-	#Enderium (IV)
-val materialEnderium = MaterialRegistry.createIngotMaterial(803, "enderium", 0x1F534A, "SHINY", 3, null, 18.0f, 6, 6000);
-materialEnderium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_ROTOR", "GENERATE_DENSE"]);
-materialEnderium.setCableProperties(8192, 4, 0);
+	#Iox (IV)
+val materialIox = MaterialRegistry.createIngotMaterial(901, "iox", 0xf54542, "shiny", 2);
+materialIox.addFlags(["GENERATE_PLATE","GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_BOLT_SCREW"]);
+materialIox.setCableProperties(8192, 4, 0);
 
     #Lumium (LuV)
 val materialLumium = MaterialRegistry.createIngotMaterial(811, "lumium", 0xEAD489, "SHINY", 2);
 materialLumium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_ROTOR"]);
 materialLumium.setCableProperties(32768, 4, 0);
+
+	#Enderium (ZPM)
+val materialEnderium = MaterialRegistry.createIngotMaterial(803, "enderium", 0x1F534A, "SHINY", 3, null, 18.0f, 6, 6000);
+materialEnderium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_ROTOR", "GENERATE_DENSE"]);
+materialEnderium.setCableProperties(131072, 4, 0);
 
 //////////////////////////
       #Misc Flags
