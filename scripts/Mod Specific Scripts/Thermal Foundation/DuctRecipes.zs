@@ -98,7 +98,7 @@ fluid_canner.recipeBuilder()
 //			         																														                                                                 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-###### Fluiduct ######
+###### Fluiducts ######
 
 //Fluiduct 
 recipes.addShapeless("FluiductNonOpaque", <thermaldynamics:duct_16>, [<thermaldynamics:duct_16:1>, <gregtech:meta_tool:8>]);
@@ -130,6 +130,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_16:1> * 6)
   .create();
 
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseBronze>])
+    .outputs(<thermaldynamics:duct_16:1> * 6)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();    
+
 //Hardened Fluiduct
 recipes.addShapeless("HardenedFluiductNonOpaque", <thermaldynamics:duct_16:2>, [<thermaldynamics:duct_16:3>, <gregtech:meta_tool:8>]);
 recipes.addShapeless("HardenedFluiductNonOpaqueToOpaque", <thermaldynamics:duct_16:3>, [<thermaldynamics:duct_16:2>, <gregtech:meta_tool:8>]);
@@ -160,6 +167,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_16:3> * 6)
   .create();
 
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseInvar>])
+    .outputs(<thermaldynamics:duct_16:3> * 6)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Signalum Plated Fluiduct
 recipes.addShapeless("SPlatedFluiductNonOpaque", <thermaldynamics:duct_16:4>, [<thermaldynamics:duct_16:5>, <gregtech:meta_tool:8>]);
 recipes.addShapeless("SPlatedFluiductNonOpaqueToOpaque", <thermaldynamics:duct_16:5>, [<thermaldynamics:duct_16:4>, <gregtech:meta_tool:8>]);
@@ -183,6 +197,14 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_16:5> * 3)
   .create();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:signalum> * 144])
+    .inputs(<thermaldynamics:duct_16:3>)
+    .outputs(<thermaldynamics:duct_16:5>)
+    .duration(110)
+    .EUt(100)
+    .buildAndRegister();
 
 //Super Laminar Fluiduct
 recipes.addShapeless("SLaminarFluiductNonOpaque", <thermaldynamics:duct_16:6>, [<thermaldynamics:duct_16:7>, <gregtech:meta_tool:8>]);
@@ -214,6 +236,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_16:7>)
   .create();
 
+chemreactor.recipeBuilder()
+    .inputs(<thermaldynamics:duct_16:3>, <ore:plateTopaz> * 4)     
+    .outputs(<thermaldynamics:duct_16:7>)
+    .duration(110)
+    .EUt(512)
+    .buildAndRegister();
+
 ###### FluxDucts ######
 
 //Leadstone Fluxduct
@@ -229,6 +258,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_0> * 6)
   .create();
 
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:redstone> * 288])
+    .inputs(<ore:wireGtOctalLead>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 24}))    
+    .outputs(<thermaldynamics:duct_0>)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Hardened Fluxduct
 recipes.remove(<thermaldynamics:duct_0:1>);
 RecipeBuilder.get("engineer")
@@ -238,6 +276,15 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 1)
   .addOutput(<thermaldynamics:duct_0:1> * 3)
   .create();
+
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:invar> * 288])
+    .inputs(<thermaldynamics:duct_0>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 24}))    
+    .outputs(<thermaldynamics:duct_0:1>)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
 
 //Redstone Fluxduct Empty
 recipes.remove(<thermaldynamics:duct_0:6>);
@@ -252,6 +299,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_0:6> * 6)
   .create();
 
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:redstone> * 288])
+    .inputs(<ore:wireGtOctalElectrum>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 24}))    
+    .outputs(<thermaldynamics:duct_0:6>)
+    .duration(80)
+    .EUt(56)
+    .buildAndRegister();
+
 //Signalum Fluxduct Empty
 recipes.remove(<thermaldynamics:duct_0:7>);
 RecipeBuilder.get("engineer")
@@ -261,6 +317,15 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_0:7> * 3)
   .create();
+
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:signalum> * 288])
+    .inputs(<thermaldynamics:duct_0:6>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 24}))    
+    .outputs(<thermaldynamics:duct_0:7>)
+    .duration(80)
+    .EUt(120)
+    .buildAndRegister();
 
 //Signalum Fluxduct
 recipes.remove(<thermaldynamics:duct_0:3>);
@@ -284,6 +349,15 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_0:8> * 3)
   .create();
+
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:enderium> * 288])
+    .inputs(<thermaldynamics:duct_0:7>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 24}))    
+    .outputs(<thermaldynamics:duct_0:8>)
+    .duration(80)
+    .EUt(320)
+    .buildAndRegister();
 
 //Resonant Fluxduct
 recipes.remove(<thermaldynamics:duct_0:4>);
@@ -309,6 +383,15 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermaldynamics:duct_0:9>)
   .create();
+
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:rose_gold> * 576])
+    .inputs(<thermaldynamics:duct_0:8>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 24}))    
+    .outputs(<thermaldynamics:duct_0:9>)
+    .duration(80)
+    .EUt(532)
+    .buildAndRegister();
 
 ###### ItemDucts ######
 
@@ -342,6 +425,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:1> * 6)
   .create();
 
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseTin>])
+    .outputs(<thermaldynamics:duct_32:1> * 6)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Dense ItemDuct
 recipes.addShapeless("DenseItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.addShapeless("DenseItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
@@ -365,6 +455,13 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}))
   .create();
+
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:1>, <ore:dustSmallLead>])   
+    .outputs(<thermaldynamics:duct_32:1>.withTag({DenseType: 1 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
 
 //Vacuum ItemDuct
 recipes.addShapeless("VacuumItemductNonOpaque", <thermaldynamics:duct_32>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
@@ -390,6 +487,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}))
   .create();
 
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:1>, <ore:dustSmallSilver>])   
+    .outputs(<thermaldynamics:duct_32:1>.withTag({DenseType: 2 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Dense Vacuum ItemDuct
 recipes.addShapeless("DenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.addShapeless("DenseVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
@@ -414,6 +518,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}))
   .create();
 
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:3>, <ore:dustSmallLead>])   
+    .outputs(<thermaldynamics:duct_32:3>.withTag({DenseType: 1 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Vacuum Vacuum ItemDuct
 recipes.addShapeless("VacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.addShapeless("VacuumVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
@@ -437,6 +548,13 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}))
   .create();
+
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:3>, <ore:dustSmallSilver>])   
+    .outputs(<thermaldynamics:duct_32:3>.withTag({DenseType: 2 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
 
 //Impulse Itemduct
 recipes.removeByRecipeName("thermaldynamics:duct_32_12");
@@ -468,6 +586,14 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:5> * 3)
   .create();
 
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:signalum> * 144])
+    .inputs(<thermaldynamics:duct_32>)
+    .outputs(<thermaldynamics:duct_32:5>)
+    .duration(110)
+    .EUt(100)
+    .buildAndRegister();
+
 //Dense Vacuum ItemDuct Signalum Plated
 recipes.addShapeless("SPlatedDenseVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
 recipes.addShapeless("SPlatedDenseVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}), [<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}), <gregtech:meta_tool:8>]);
@@ -492,6 +618,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}))
   .create();
 
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:5>, <ore:dustSmallLead>])   
+    .outputs(<thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Vacuum Vacuum ItemDuct Signalum Plated
 recipes.addShapeless("SPlatedVacuumVacuumItemductNonOpaque", <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.addShapeless("SPlatedVacuumVacuumItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
@@ -515,6 +648,13 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}))
   .create();
+
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:5>, <ore:dustSmallSilver>])   
+    .outputs(<thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
 
 //Signalum Plated Impulse Itemduct
 recipes.addShapeless("SPlatedImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>, [<thermaldynamics:duct_32:7>, <gregtech:meta_tool:8>]);
@@ -564,6 +704,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}))
   .create();
 
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:7>, <ore:dustSmallLead>])   
+    .outputs(<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 //Vacuum Vacuum Impulse ItemDuct Signalum Plated
 recipes.addShapeless("SPlatedVacuumVacuumImpulseItemductNonOpaque", <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
 recipes.addShapeless("SPlatedVacuumVacuumImpulseItemductNonOpaqueToOpaque", <thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), [<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), <gregtech:meta_tool:8>]);
@@ -588,6 +735,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}))
   .create();
 
+chemreactor.recipeBuilder()
+    .inputs([<thermaldynamics:duct_32:7>, <ore:dustSmallSilver>])   
+    .outputs(<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}))
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
 ### Special Ducts ###
 
 //Structural Duct
@@ -600,3 +754,10 @@ recipes.remove(<thermaldynamics:duct_48>);
   .addTool(<ore:artisansSolderer>, 4)
   .addOutput(<thermaldynamics:duct_48> * 12)
   .create();
+
+lathe.recipeBuilder()
+    .inputs([<ore:wireGtHexIron>])
+    .outputs(<thermaldynamics:duct_48> * 64)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();    

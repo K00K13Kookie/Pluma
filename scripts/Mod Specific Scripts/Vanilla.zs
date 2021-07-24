@@ -5,6 +5,36 @@ import mods.gregtech.recipe.RecipeMap;
 ##### Shulker Boxes Fixes #####
 <minecraft:purple_shulker_box>.addTooltip(format.green("Can be Dyed."));
 
+##### Ice to Water Mini-Rework #####
+
+fluid_extractor.findRecipe(32, [<minecraft:packed_ice>], null).remove();
+fluid_extractor.findRecipe(32, [<minecraft:ice>], null).remove();
+fluid_extractor.findRecipe(32, [<minecraft:packed_ice>], null).remove();
+fluid_extractor.findRecipe(32, [<minecraft:ice>], null).remove();
+
+//Crushed Ice Recipe Corrected
+fluid_extractor.recipeBuilder()
+    .inputs(<ore:dustIce>)
+    .fluidOutputs(<liquid:ice> * 144)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
+//Water out of Ice
+fluid_extractor.recipeBuilder()
+    .inputs(<ore:blockIce>)
+    .fluidOutputs(<liquid:water> * 1000)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
+
+//Water out of Packed Ice
+fluid_extractor.recipeBuilder()
+    .inputs(<ore:blockPackedIce>)
+    .fluidOutputs(<liquid:water> * 4000)
+    .duration(80)
+    .EUt(32)
+    .buildAndRegister();
 
 # Basic Vanilla Overhaul
 

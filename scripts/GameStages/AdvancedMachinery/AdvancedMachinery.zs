@@ -87,6 +87,8 @@ var AdvancedMachinery as IItemStack[] = [
 <thermalexpansion:reservoir:2>,
 <thermalexpansion:reservoir:3>,
 <thermalexpansion:reservoir:4>,
+<thermalexpansion:frame:128>,
+<thermalexpansion:cell>,
 
 //Rftools
 <rftools:syringe>,

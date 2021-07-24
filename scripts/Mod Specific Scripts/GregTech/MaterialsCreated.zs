@@ -44,6 +44,14 @@ materialHoneyComb.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_G
 val materialCrystal = MaterialRegistry.createIngotMaterial(835, "celestialcrystal", 0x743197, "SHINY", 2); 
 materialCrystal.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
 
+	#Sigberium
+val materialSigberium = MaterialRegistry.createIngotMaterial(840, "sigberium", 0xB6F715, "SHINY", 2); 
+materialSigberium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR"]);
+
+//////////////////////////
+      #Cable Materials 
+/////////////////////////
+
 	#Electrotine (LV Cable)
 val materialElectrotine = MaterialRegistry.createIngotMaterial(832, "electrotine", 0x2687dc, "SHINY", 6, null, 12.0f, 6, 7000);
 materialElectrotine.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_DENSE"]);

@@ -6,6 +6,27 @@ import mods.gregtech.recipe.RecipeMap;
 
 ##### Thermal Important Resources #####
 
+//Sigberium (HV)
+mixer.recipeBuilder()
+    .inputs(<ore:dustStone>)
+    .fluidInputs([<liquid:tiberium_fluid> * 144])
+    .fluidInputs([<liquid:signalum> * 144])
+    .fluidOutputs([<liquid:sigberium> * 144])         
+    .outputs(<gregtech:meta_item_1:2840>)
+    .duration(137)
+    .EUt(450)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<ore:dustSkyStone> * 4)
+    .fluidInputs([<liquid:tiberium_fluid> * 144])
+    .fluidInputs([<liquid:signalum> * 144])
+    .fluidOutputs([<liquid:sigberium> * 144])         
+    .outputs(<gregtech:meta_item_1:2840> * 2)
+    .duration(137)
+    .EUt(450)
+    .buildAndRegister();
+
 //Signalum (HV)
 chemical_bath.findRecipe(32, [<nuclearcraft:alloy:7>], [<liquid:redstone> * 250]).remove();
 blast_furnace.recipeBuilder()
@@ -120,6 +141,53 @@ recipes.addShaped(<thermaldynamics:retriever:3> * 2, [[null, null, null], [<ore:
 recipes.remove(<thermaldynamics:retriever:4>);
 recipes.addShaped(<thermaldynamics:retriever:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:dustVoid>, <ore:plateEnderium>]]);
 
+// Requester
+recipes.remove(<thermallogistics:requester>);
+recipes.addShaped(<thermallogistics:requester> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateIron>, <ore:dustGreenSapphire>, <ore:plateIron>]]);
+// Hardened Requester
+recipes.remove(<thermallogistics:requester:1>);
+recipes.addShaped(<thermallogistics:requester:1> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateInvar>, <ore:dustGreenSapphire>, <ore:plateInvar>]]);
+// Reinforced Requester
+recipes.remove(<thermallogistics:requester:2>);
+recipes.addShaped(<thermallogistics:requester:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:dustGreenSapphire>, <ore:plateElectrum>]]);
+// Signalum Requester
+recipes.remove(<thermallogistics:requester:3>);
+recipes.addShaped(<thermallogistics:requester:3> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateSignalum>, <ore:dustGreenSapphire>, <ore:plateSignalum>]]);
+// Resonant Requester
+recipes.remove(<thermallogistics:requester:4>);
+recipes.addShaped(<thermallogistics:requester:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:dustGreenSapphire>, <ore:plateEnderium>]]);
+
+// Crafter
+recipes.remove(<thermallogistics:crafter>);
+recipes.addShaped(<thermallogistics:crafter> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateIron>, <ore:workbench>, <ore:plateIron>]]);
+// Hardened Crafter
+recipes.remove(<thermallogistics:crafter:1>);
+recipes.addShaped(<thermallogistics:crafter:1> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateInvar>, <ore:workbench>, <ore:plateInvar>]]);
+// Reinforced Crafter
+recipes.remove(<thermallogistics:crafter:2>);
+recipes.addShaped(<thermallogistics:crafter:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:workbench>, <ore:plateElectrum>]]);
+// Signalum Crafter
+recipes.remove(<thermallogistics:crafter:3>);
+recipes.addShaped(<thermallogistics:crafter:3> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateSignalum>, <ore:workbench>, <ore:plateSignalum>]]);
+// Resonant Crafter
+recipes.remove(<thermallogistics:crafter:4>);
+recipes.addShaped(<thermallogistics:crafter:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:workbench>, <ore:plateEnderium>]]);
+
+// Distributor
+recipes.remove(<thermallogistics:distributor>);
+recipes.addShaped(<thermallogistics:distributor> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateIron>, <ore:dustLapis>, <ore:plateIron>]]);
+// Hardened Distributor
+recipes.remove(<thermallogistics:distributor:1>);
+recipes.addShaped(<thermallogistics:distributor:1> * 2, [[null, null, null], [<ore:boltSteel>, <ore:strengthenedGlass>, <ore:boltSteel>],[<ore:plateInvar>, <ore:dustLapis>, <ore:plateInvar>]]);
+// Reinforced Distributor
+recipes.remove(<thermallogistics:distributor:2>);
+recipes.addShaped(<thermallogistics:distributor:2> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateElectrum>, <ore:dustLapis>, <ore:plateElectrum>]]);
+// Signalum Distributor
+recipes.remove(<thermallogistics:distributor:3>);
+recipes.addShaped(<thermallogistics:distributor:3> * 2, [[null, null, null], [<ore:boltBlackSteel>, <ore:strengthenedGlass>, <ore:boltBlackSteel>],[<ore:plateSignalum>, <ore:dustLapis>, <ore:plateSignalum>]]);
+// Resonant Distributor
+recipes.remove(<thermallogistics:distributor:4>);
+recipes.addShaped(<thermallogistics:distributor:4> * 2, [[null, null, null], [<ore:boltStainlessSteel>, <ore:strengthenedGlass>, <ore:boltStainlessSteel>],[<ore:plateEnderium>, <ore:dustLapis>, <ore:plateEnderium>]]);
 
 
 # Machine Frame Mini-Rework
@@ -561,7 +629,7 @@ assembler.recipeBuilder()
 //Augment Sapling Infuser
 recipes.remove(<thermalexpansion:augment:323>);
 assembler.recipeBuilder()
-    .inputs([<ore:plateDenseNeodymium>, <ore:plateLumium> * 2, <thermalfoundation:material:512>, <ore:gearInvar>])
+    .inputs([<ore:plateDenseNeodymium>, <ore:plateSigberium> * 2, <thermalfoundation:material:512>, <ore:gearInvar>])
     .outputs(<thermalexpansion:augment:323>)
     .duration(120)
     .EUt(80)
@@ -654,12 +722,118 @@ assembler.recipeBuilder()
 // Reservoir (Resonant)
 recipes.remove(<thermalexpansion:reservoir:4>);
 assembler.recipeBuilder()
-    .inputs([<ore:plateDenseEnderium> * 2, <ore:plateEnderium> * 2, <ore:plateElectrotine>, <ore:screwEnderium> * 2, <thermalfoundation:material:512>, <gregtech:meta_item_1:32405>])
+    .inputs([<ore:plateDenseEnderium> * 2, <ore:plateEnderium> * 2, <ore:plateElectrotine>, <ore:screwEnderium> * 2, <thermalfoundation:material:512>, <gregtech:meta_item_1:32406>])
     .outputs(<thermalexpansion:reservoir:4>)
     .property("circuit", 1)    
     .duration(160)
     .EUt(156)
     .buildAndRegister();
+
+//Energy Cell Frame
+recipes.remove(<thermalexpansion:frame:128>);
+chemreactor.recipeBuilder()
+    .inputs([<thermalexpansion:frame>, <ore:dustElectrum> * 12])
+    .fluidInputs([<liquid:lead> * 1296])
+    .outputs(<thermalexpansion:frame:128>)
+    .duration(180)
+    .EUt(128)
+    .buildAndRegister();
+
+//Energy Cell (Basic)
+recipes.remove(<thermalexpansion:cell>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame:128>, <thermalfoundation:material:515>, <ore:plateRedAlloy> * 4, <ore:screwLead> * 4])
+    .fluidInputs([<liquid:battery_alloy> * 1296])    
+    .outputs(<thermalexpansion:cell>)
+    .duration(160)
+    .EUt(128)
+    .buildAndRegister();
+
+//Arboreal Extractor (Assembler Recipe)
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame:64>, <thermalfoundation:material:512>, <ore:plateBismuthBronze>, <ore:gearInvar> * 2])
+    .fluidInputs([<liquid:rubber> * 576])    
+    .outputs(<thermalexpansion:device:3>)
+    .duration(120)
+    .EUt(68)
+    .buildAndRegister();
+
+//Thermal Mediator
+recipes.remove(<thermalexpansion:device:2>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame:64>, <thermalfoundation:material:512>, <forestry:thermionic_tubes>, <ore:gearZinc> * 2, <ore:circuitGood> * 2])
+    .fluidInputs([<liquid:cryotheum> * 500])    
+    .outputs(<thermalexpansion:device:2>)
+    .duration(120)
+    .EUt(56)
+    .buildAndRegister();
+
+//Aqueous Accumulator
+recipes.remove(<thermalexpansion:device>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame:64>, <thermalfoundation:material:512>, <forestry:thermionic_tubes:10>, <ore:gearStainlessSteel> * 2, <ore:circuitAdvanced>])
+    .fluidInputs([<liquid:blue_vitriol_water_solution> * 1000])    
+    .outputs(<thermalexpansion:device>)
+    .duration(120)
+    .EUt(450)
+    .buildAndRegister();
+
+//Igneous Extruder (Assembler Recipe)
+recipes.remove(<thermalexpansion:machine:15>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame>, <ore:gearInvar> * 2, <ore:screwSilver> * 2, <ore:circuitGood> * 2, <ore:blockGlassHardened>, <ore:plateBlackSteel>])  
+    .outputs(<thermalexpansion:machine:15>)
+    .duration(128)
+    .EUt(62)
+    .buildAndRegister();
+
+//Glacial Precipitator
+recipes.remove(<thermalexpansion:machine:14>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame>, <ore:gearCobalt> * 2, <gregtech:meta_item_1:32640>, <ore:circuitGood> * 2, <thermalfoundation:material:513>, <ore:plateSodalite>])  
+    .outputs(<thermalexpansion:machine:14>)
+    .duration(110)
+    .EUt(56)
+    .buildAndRegister();
+
+//Centrifugal Separator
+recipes.remove(<thermalexpansion:machine:10>);
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:151>, <ore:gearBrass> * 2, <ore:plateConstantan> * 2, <thermalfoundation:material:513>])
+    .fluidInputs([<liquid:silver> * 1296])         
+    .outputs(<thermalexpansion:machine:10>)
+    .duration(110)
+    .EUt(60)
+    .buildAndRegister();
+
+//Phytogenic Insolator
+recipes.remove(<thermalexpansion:machine:4>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame>, <ore:gearSigberium> * 2, <gregtech:meta_item_1:32612>, <ore:circuitGood> * 2, <thermalfoundation:material:513>, <gregtech:meta_item_1:32642>])  
+    .outputs(<thermalexpansion:machine:4>)
+    .duration(117)
+    .EUt(450)
+    .buildAndRegister();
+
+//Energetic Infuser
+recipes.remove(<thermalexpansion:machine:9>);
+assembler.recipeBuilder()
+    .inputs([<thermalexpansion:frame>, <ore:plateDenseMolybdenum>, <gregtech:meta_item_1:32681>, <ore:circuitGood> * 2, <thermalfoundation:material:513>, <thermalfoundation:material:514> * 2])  
+    .outputs(<thermalexpansion:machine:9>)
+    .duration(123)
+    .EUt(64)
+    .buildAndRegister();
+
+//Red Print
+recipes.remove(<thermalfoundation:diagram_redprint>);
+RecipeBuilder.get("scribe")
+  .setShapeless([<ore:paper>])
+  .setFluid(<liquid:redstone> * 288)
+  .addTool(<ore:artisansPencil>, 5)
+  .addTool(<ore:artisansTSquare>, 3)
+  .addTool(<ore:artisansLens>, 4)
+  .addOutput(<thermalfoundation:diagram_redprint>)
+  .create();
 
 ##### Artisan's Recipes #####
 

@@ -575,7 +575,6 @@ var MachineryGates as IItemStack[] = [
 <thermalexpansion:frame:146>,
 <thermalexpansion:frame:130>,
 <thermalexpansion:frame:129>,
-<thermalexpansion:frame:128>,
 <thermalexpansion:frame:64>,
 <thermalexpansion:frame>,
 <thermalfoundation:tome_experience>,

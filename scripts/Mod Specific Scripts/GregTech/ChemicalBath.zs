@@ -8,7 +8,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 ### Way to Automate Clay using Sand ####
 
-//Readding them with the Correct Ethanol
+//Clay out of Sand
 chemical_bath.recipeBuilder()
     .fluidInputs([<liquid:water> * 1000])
     .inputs(<ore:sand>)
