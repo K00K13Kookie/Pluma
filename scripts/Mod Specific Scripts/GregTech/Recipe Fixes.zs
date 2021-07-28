@@ -5,6 +5,10 @@ import crafttweaker.item.IItemStack;
 import mods.chisel.Carving;
 import mods.nuclearcraft.ingot_former;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.pyrotech.StoneKiln as StoneKiln;
+import mods.pyrotech.BrickKiln as BrickKiln;
+import mods.pyrotech.GraniteAnvil as GraniteAnvil;
+import mods.pyrotech.IroncladAnvil as IroncladAnvil;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -553,3 +557,34 @@ RecipeBuilder.get("engineer")
 recipes.remove(<gregtech:meta_item_1:2364>);
 recipes.addShapeless("boronsilicateglassByHand", <gregtech:meta_item_1:2364> * 8, [<ore:dustBoron>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustSmallSilicon>]);
 
+##### Glass Rework (Inspired by GTNH)
+
+//Making Quartz Sand
+recipes.addShapeless("EarlyQuartzSand", <gregtech:meta_item_1:2269>, [<ore:sand>, <gregtech:meta_tool:12>]);
+
+//Making Glass Dust
+recipes.addShapeless("EarlyGlassDust", <gregtech:meta_item_1:2209>, [<ore:dustSmallFlint>, <ore:dustQuartzSand>]);
+
+//Readding Glass Recipe
+furnace.remove(<minecraft:glass>);
+StoneKiln.removeRecipes(<minecraft:glass>);
+BrickKiln.removeRecipes(<minecraft:glass>);
+
+furnace.addRecipe(<minecraft:glass>, <ore:dustGlass>);
+StoneKiln.addRecipe(
+  "GlassDustToGlassItself",                // unique recipe name
+  <minecraft:glass>,          // recipe output
+  <ore:dustGlass>,          // recipe input
+  1200,          // recipe duration in ticks
+  0.10,        // chance for item to fail conversion
+  [<pyrotech:material:32>],  // array of randomly chosen failure items
+  true // true if the recipe should be inherited
+);
+
+//Fixing Flint aswell
+GraniteAnvil.removeRecipes(<pyrotech:material:31>);
+IroncladAnvil.removeRecipes(<pyrotech:material:31>);
+
+recipes.remove(<minecraft:flint>);
+recipes.addShapeless("EarlyFlintFromGravel", <minecraft:flint>, [<ore:gravel>, <ore:artisansSifter>.reuse().transformDamage(1)]);
+recipes.addShapeless("EarlyFlintDust", <gregtech:meta_item_1:1220>, [<ore:gemFlint>, <gregtech:meta_tool:12>]);

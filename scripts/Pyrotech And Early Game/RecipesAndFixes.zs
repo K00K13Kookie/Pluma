@@ -64,9 +64,6 @@ recipes.addShapeless("BlacktoNGranite", <minecraft:stone:1>, [<ore:artisansChise
 recipes.remove(<pyrotech:worktable_stone>);
 recipes.addShaped(<pyrotech:worktable_stone>, [[<pyrotech:material:16>, <ore:stoneAndesitePolished>, <pyrotech:material:16>], [<pyrotech:material:16>, <pyrotech:worktable>, <pyrotech:material:16>],[<pyrotech:material:16>, <ore:blockCharcoal>, <pyrotech:material:16>]]);
 
-//Flint out of Gravel
-recipes.addShapeless("GravelToFlint", <minecraft:flint>, [<ore:gravel>, <ore:gravel>, <ore:gravel>]);
-
 # Pyrotech Ash to Forestry Ash
 //to forestry
 recipes.addShapeless(<forestry:ash>, [<ore:artisansLens>.reuse().transformDamage(2), <pyrotech:material>]);
