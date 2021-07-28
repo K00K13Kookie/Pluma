@@ -547,4 +547,9 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansBurner>, 5)
   .addOutput(<gregtech:machine:2>)
-  .create();  
+  .create();
+
+//Boron Silicate Glass Dust
+recipes.remove(<gregtech:meta_item_1:2364>);
+recipes.addShapeless("boronsilicateglassByHand", <gregtech:meta_item_1:2364> * 8, [<ore:dustBoron>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustSmallSilicon>]);
+

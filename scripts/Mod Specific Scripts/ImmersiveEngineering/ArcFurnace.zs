@@ -133,3 +133,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10230> * 2,
 
 //Bismuth Bronze in the Arc Furnace
 mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10229> * 2, <ore:dustCopper> * 3, null, 120, 120, [<ore:dustElectrum> * 2], "Alloying");
+
+//Constantan Fix
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:164>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:164> * 3, <ore:ingotCopper> * 1, null, 120, 120, [<ore:ingotBrass> * 2], "Alloying");

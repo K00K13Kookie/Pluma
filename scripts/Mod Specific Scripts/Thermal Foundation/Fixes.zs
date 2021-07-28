@@ -799,7 +799,7 @@ assembler.recipeBuilder()
 //Centrifugal Separator
 recipes.remove(<thermalexpansion:machine:10>);
 assembler.recipeBuilder()
-    .inputs([<gregtech:machine:151>, <ore:gearBrass> * 2, <ore:plateConstantan> * 2, <thermalfoundation:material:513>])
+    .inputs([<gregtech:machine:151>, <ore:gearBrass> * 2, <ore:plateCupronickel> * 2, <thermalfoundation:material:513>])
     .fluidInputs([<liquid:silver> * 1296])         
     .outputs(<thermalexpansion:machine:10>)
     .duration(110)

@@ -105,3 +105,29 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansCarver>, 2)
   .addOutput(<artisanworktables:workshop:11>)
   .create();
+
+//Mages's Workshop
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:plateElectrotine>, <ore:plateElectrotine>, <ore:plateElectrotine>],
+    [<ore:plateWood>, <artisanworktables:workshop:5>, <ore:plateWood>],
+    [<ore:scaffoldingTreatedWood>, <ore:scaffoldingTreatedWood>, <ore:scaffoldingTreatedWood>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addOutput(<artisanworktables:workshop:7>)
+  .create();
+
+//Jeweler's Workshop  
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:plateRedAlloy>, <ore:plateDiamond>, <ore:plateRedAlloy>],
+    [<ore:plateWood>, <artisanworktables:workshop:5>, <ore:plateWood>],
+    [<ore:scaffoldingTreatedWood>, <ore:scaffoldingTreatedWood>, <ore:scaffoldingTreatedWood>]])
+  .setFluid(<liquid:creosote> * 2000)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansHandsaw>, 4)
+  .addTool(<ore:artisansSpanner>, 5)
+  .addOutput(<artisanworktables:workshop:4>)
+  .create();    

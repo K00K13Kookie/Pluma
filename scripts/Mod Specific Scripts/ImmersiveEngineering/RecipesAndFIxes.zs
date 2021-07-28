@@ -3,6 +3,11 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.immersiveengineering.AlloySmelter;
+
+##### Constantan #####
+mods.immersiveengineering.AlloySmelter.removeRecipe(<thermalfoundation:material:164>);
+mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2, <ore:ingotBrass> * 2, <ore:ingotCopper>, 1000);
 
 //Renaming Uranium Ingot to Uranium 238 Ingot
 <immersiveengineering:metal:5>.displayName = "Uranium 238 Ingot";

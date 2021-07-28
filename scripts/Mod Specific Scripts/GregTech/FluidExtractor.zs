@@ -47,4 +47,13 @@ fluid_extractor.recipeBuilder()
     .duration(120)
     .EUt(32)
     .buildAndRegister();
-   
+
+##### Vanilla Dragons Breath #####  
+
+fluid_extractor.recipeBuilder()
+    .inputs(<minecraft:dragon_breath>)
+    .outputs(<minecraft:glass_bottle>)
+    .fluidOutputs(<liquid:dbreath> * 250)
+    .duration(160)
+    .EUt(55)
+    .buildAndRegister();

@@ -32,6 +32,11 @@ val fluidFluix = MaterialRegistry.createFluidMaterial(839, "fluix", 0x9B16DF, "F
 fluidFluix.addFlags(["GENERATE_FLUID_BLOCK"]);
 fluidFluix.setFluidTemperature(30);
 
+	#DragonsBreath
+val fluidDragonsBreath = MaterialRegistry.createFluidMaterial(841, "Dbreath", 0xC54B8C, "FLUID");
+fluidDragonsBreath.addFlags(["GENERATE_FLUID_BLOCK"]);
+fluidDragonsBreath.setFluidTemperature(180);
+
 	#Modularium
 val materialModularium = MaterialRegistry.createIngotMaterial(830, "modularium", 0x8BA6CB, "METALLIC", 2); 
 materialModularium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_DENSE"]);
@@ -105,5 +110,6 @@ materialEnderium.setCableProperties(131072, 4, 0);
 <material:cupronickel>.addFlags(["GENERATE_GEAR"]);
 <material:invar>.addFlags(["GENERATE_GEAR", "GENERATE_DENSE"]);
 <material:rose_gold>.addFlags(["GENERATE_RING"]);
+<material:vinteum>.addFlags(["SMELT_INTO_FLUID"]);
 
 print("-------------GT Materials Initialized------------");

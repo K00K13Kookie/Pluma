@@ -704,7 +704,7 @@ lathe.recipeBuilder()
     .EUt(24)
 .buildAndRegister();
 
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickdimensionalshard> * 2, <ore:gemDimensionalShard>, <immersiveengineering:mold:1>, 80, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickdimensionalshard> * 2, <ore:gemDimensionalShard>, <immersiveengineering:mold:2>, 80, 1);
 
 //Biotite Rod
 lathe.recipeBuilder()
@@ -714,7 +714,7 @@ lathe.recipeBuilder()
     .EUt(24)
 .buildAndRegister();
 
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickenderbiotite> * 2, <ore:gemEnderBiotite>, <immersiveengineering:mold:1>, 80, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickenderbiotite> * 2, <ore:gemEnderBiotite>, <immersiveengineering:mold:2>, 80, 1);
 
 //Peridot Rod
 lathe.recipeBuilder()
@@ -724,7 +724,7 @@ lathe.recipeBuilder()
     .EUt(24)
 .buildAndRegister();
 
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickperidot> * 2, <ore:gemPeridot>, <immersiveengineering:mold:1>, 80, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickperidot> * 2, <ore:gemPeridot>, <immersiveengineering:mold:2>, 80, 1);
 
 //Quartz Rod
 lathe.recipeBuilder()
@@ -734,7 +734,7 @@ lathe.recipeBuilder()
     .EUt(24)
 .buildAndRegister();
 
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickquartz> * 2, <ore:gemNetherQuartz>, <immersiveengineering:mold:1>, 80, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickquartz> * 2, <ore:gemNetherQuartz>, <immersiveengineering:mold:2>, 80, 1);
 
 //Black Quartz Rod
 lathe.recipeBuilder()
@@ -744,4 +744,4 @@ lathe.recipeBuilder()
     .EUt(24)
 .buildAndRegister();
 
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickquartzblack> * 2, <ore:gemQuartzBlack>, <immersiveengineering:mold:1>, 80, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_stickquartzblack> * 2, <ore:gemQuartzBlack>, <immersiveengineering:mold:2>, 80, 1);

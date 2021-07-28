@@ -31,3 +31,12 @@ alloy.recipeBuilder()
     .duration(200)
     .EUt(30)
 .buildAndRegister();
+
+//Constantan
+alloy.recipeBuilder()
+    .inputs(<ore:ingotCopper>)
+    .inputs(<ore:ingotBrass> * 2)    
+    .outputs(<thermalfoundation:material:164> * 3)
+    .duration(200)
+    .EUt(30)
+.buildAndRegister();
