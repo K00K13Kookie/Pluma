@@ -1,0 +1,63 @@
+{
+	"populate": {
+		"cryo_lake": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_cryotheum",
+				"material":[
+                    "biomesoplenty:hard_ice",
+                    "minecraft:snow",
+                    "minecraft:grass",
+                    "minecraft:ice",
+                    "minecraft:packed_ice"
+                ],
+				"use-material": true,
+				"outline-block": [
+					"biomesoplenty:hard_ice",
+					"minecraft:packed_ice"
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"min-height": 60,
+			"max-height": 255,
+			"follow-terrain": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:ice_flats",
+                    "minecraft:ice_mountains",
+                    "minecraft:taiga_hills",
+                    "minecraft:cold_beach",
+                    "minecraft:taiga_cold",
+                    "minecraft:taiga_cold_hills",
+                    "minecraft:redwood_taiga",
+                    "minecraft:redwood_taiga_hills",
+                    "biomesoplenty:cold_desert",
+                    "biomesoplenty:coniferous_forest",
+                    "biomesoplenty:snowy_coniferous_forest",
+                    "biomesoplenty:snowy_forest",
+                    "biomesoplenty:tundra",
+                    "biomesoplenty:alps_foothills",
+                    "biomesoplenty:glacier",
+                    "biomesoplenty:snowy_tundra",
+                    "minecraft:mutated_taiga",
+                    "traverse:glacier",
+                    "traverse:glacier_spikes",
+                    "minecraft:mutated_ice_flats",
+                    "traverse:snowy_coniferous_forest",
+                    "minecraft:mutated_taiga_cold",
+                    "minecraft:mutated_redwood_taiga"
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+    "weight": 0,
+    "density": 1.0,
+    "max_height": 80,
+    "min_height": 20,
+    "priority": -100,
+    "count_as_vein": false,
+    "generation_predicate": "any",
+    "vein_populator": {
+      "type": "fluid_spring",
+      "chance": 1.00
+    },
+    "biome_modifier": {
+      "type": "biome_map",
+      "traverse:red_desert": 500,
+      "traverse:mountainous_desert": 500,
+      "traverse:rocky_plateau": 300,
+      "traverse:desert_shrubland": 500,
+      "traverse:arid_highland": 400,      
+      "traverse:badlands": 300,
+      "minecraft:deep_ocean": 400,
+      "biomesoplenty:crag": 500,
+      "biomesoplenty:lush_desert": 400,
+      "biomesoplenty:outback": 600,
+      "biomesoplenty:oasis": 200,
+      "biomesoplenty:volcanic_island": 300,
+      "nuclearcraft:nuclear_wasteland": 800
+    },
+    "generator": {
+      "type": "sphere",
+      "radius": [
+        8,
+        12
+      ]
+    },
+    "filler": {
+      "type": "ignore_bedrock",
+      "value": {
+        "type": "weight_random",
+        "values": [
+          {
+            "weight": 100,
+            "value": "block:gregtech:fluid.oil"
+          }
+        ]
+      }
+    }
+  }

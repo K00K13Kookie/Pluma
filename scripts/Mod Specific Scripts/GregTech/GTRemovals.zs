@@ -420,6 +420,12 @@ var toRemove = [
 , <gregtech:meta_item_2:4832>
 , <gregtech:meta_item_2:4972>
 , <gregtech:meta_item_1:2220>
+, <gregtech:meta_block_compressed_2:7>
+, <gregtech:meta_item_1:2039>
+, <gregtech:meta_item_1:10039>
+, <gregtech:meta_item_1:10036>
+, <gregtech:meta_block_compressed_2:4>
+, <gregtech:meta_item_1:2036>
 
 //BlueSteel Stuff
 , <gregtech:meta_item_1:2828>
