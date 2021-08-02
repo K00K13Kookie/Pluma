@@ -7,6 +7,10 @@ import mods.artisanworktables.builder.RecipeBuilder;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+##### Gating Radiation #####
+//Added Upon Unlocking the Advanced Machinery Era
+mods.nuclearcraft.radiation.setRadiationImmunityGameStages(true, "NCRadiationON");
+
 ### Boron Nitride Oredicting #####
 
 <ore:gemBoronnitride>.add(<nuclearcraft:gem:1>);
@@ -67,10 +71,10 @@ recipes.addShaped(<projectred-core:resource_item:250> * 2, [[<overloaded:compres
 
 //Silicon Ball
 recipes.remove(<projectred-core:resource_item:301>);
-recipes.addShapeless("SiliconBouleToBall", <projectred-core:resource_item:301> * 4, [<projectred-core:resource_item:300>, <gregtech:meta_tool:5>]);
+recipes.addShapeless("SiliconBouleToBall", <projectred-core:resource_item:301> * 4, [<projectred-core:resource_item:300>, <ore:craftingToolSaw>]);
 
 //Silicon (Normal)
-recipes.addShapeless("Silicon Ball to Normal", <nuclearcraft:gem:6> * 2, [<projectred-core:resource_item:301>, <gregtech:meta_tool:5>]);
+recipes.addShapeless("Silicon Ball to Normal", <nuclearcraft:gem:6> * 2, [<projectred-core:resource_item:301>, <ore:craftingToolSaw>]);
 
 # Cobblestone Generators 
 
@@ -374,11 +378,11 @@ assembler.recipeBuilder()
 
 // Reactor Trapdoor
 recipes.remove(<nuclearcraft:reactor_trapdoor>);
-recipes.addShaped(<nuclearcraft:reactor_trapdoor> * 1, [[null, null, null], [<ore:plateBasic>, <ore:plateBasic>, null],[<ore:plateBasic>, <ore:plateBasic>, <gregtech:meta_tool:6>]]);
+recipes.addShaped(<nuclearcraft:reactor_trapdoor> * 1, [[null, null, null], [<ore:plateBasic>, <ore:plateBasic>, null],[<ore:plateBasic>, <ore:plateBasic>, <ore:craftingToolHardHammer>]]);
 
 // Reactor Door
 recipes.remove(<nuclearcraft:reactor_door_item>);
-recipes.addShaped(<nuclearcraft:reactor_door_item> * 1, [[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null], [<nuclearcraft:part:0>, <nuclearcraft:part:0>, <gregtech:meta_tool:6>],[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null]]);
+recipes.addShaped(<nuclearcraft:reactor_door_item> * 1, [[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null], [<nuclearcraft:part:0>, <nuclearcraft:part:0>, <ore:craftingToolHardHammer>],[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null]]);
 
 // Fission Controller
 recipes.remove(<nuclearcraft:fission_controller_new_fixed>);
@@ -418,8 +422,8 @@ recipes.remove(<nuclearcraft:fusion_electromagnet_transparent_idle>);
 
 recipes.addShaped(<nuclearcraft:fusion_electromagnet_idle> * 1, [[<ore:solenoidMagnesiumDiboride>, <ore:plateDU>, <ore:solenoidMagnesiumDiboride>], [<ore:plateDU>, <gregtech:machine:505>, <ore:plateDU>],[<ore:solenoidMagnesiumDiboride>, <ore:plateDU>, <ore:solenoidMagnesiumDiboride>]]);
 
-recipes.addShapeless("ElectromagnetToTransparent", <nuclearcraft:fusion_electromagnet_transparent_idle>, [<nuclearcraft:fusion_electromagnet_idle>, <gregtech:meta_tool:8>]);
-recipes.addShapeless("TransparentToElectromagnetNormal", <nuclearcraft:fusion_electromagnet_idle>, [<nuclearcraft:fusion_electromagnet_transparent_idle>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("ElectromagnetToTransparent", <nuclearcraft:fusion_electromagnet_transparent_idle>, [<nuclearcraft:fusion_electromagnet_idle>, <ore:craftingToolWrench>]);
+recipes.addShapeless("TransparentToElectromagnetNormal", <nuclearcraft:fusion_electromagnet_idle>, [<nuclearcraft:fusion_electromagnet_transparent_idle>, <ore:craftingToolWrench>]);
 
 // Molten Salt Reactor Controller
 recipes.remove(<nuclearcraft:salt_fission_controller>);
@@ -456,8 +460,8 @@ chemical_bath.recipeBuilder()
 
 //Salt Reactor Casing Edges
 recipes.remove(<nuclearcraft:salt_fission_frame>);
-recipes.addShapeless("NormalCasingToEdge", <nuclearcraft:salt_fission_frame>, [<nuclearcraft:salt_fission_wall>, <gregtech:meta_tool:8>]);
-recipes.addShapeless("EdgeToNormalCasing", <nuclearcraft:salt_fission_wall>, [<nuclearcraft:salt_fission_frame>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("NormalCasingToEdge", <nuclearcraft:salt_fission_frame>, [<nuclearcraft:salt_fission_wall>, <ore:craftingToolWrench>]);
+recipes.addShapeless("EdgeToNormalCasing", <nuclearcraft:salt_fission_wall>, [<nuclearcraft:salt_fission_frame>, <ore:craftingToolWrench>]);
 
 // Molten Salt Reactor Vent
 recipes.remove(<nuclearcraft:salt_fission_vent>);
@@ -510,8 +514,8 @@ chemical_bath.recipeBuilder()
 
 //Turbine Casing Edges
 recipes.remove(<nuclearcraft:turbine_frame>);
-recipes.addShapeless("NormalTurbineCasingToEdge", <nuclearcraft:turbine_frame>, [<nuclearcraft:turbine_wall>, <gregtech:meta_tool:8>]);
-recipes.addShapeless("EdgeToNormalTurbineCasing", <nuclearcraft:turbine_wall>, [<nuclearcraft:turbine_frame>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("NormalTurbineCasingToEdge", <nuclearcraft:turbine_frame>, [<nuclearcraft:turbine_wall>, <ore:craftingToolWrench>]);
+recipes.addShapeless("EdgeToNormalTurbineCasing", <nuclearcraft:turbine_wall>, [<nuclearcraft:turbine_frame>, <ore:craftingToolWrench>]);
 
 // Turbine Rotor Shaft
 recipes.remove(<nuclearcraft:turbine_rotor_shaft>);
@@ -681,7 +685,7 @@ recipes.addShaped(<nuclearcraft:buffer> * 1, [[<ore:plateBasic>, <ore:solenoidCo
 
 //Basic Helium Collector
 recipes.remove(<nuclearcraft:helium_collector>);
-forming.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<ore:plateBasic> * 4, <ore:blockThorium230>, <ore:rotorZircaloy>, <ore:plateZircaloy> * 2, <gregtech:meta_item_2:32474>)
     .outputs(<nuclearcraft:helium_collector>)
     .duration(120)
@@ -708,7 +712,7 @@ forming.recipeBuilder()
 
 //Basic Nitrogen Collector
 recipes.remove(<nuclearcraft:nitrogen_collector>);
-forming.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<ore:plateAdvanced> * 4, <ore:blockThorium230>, <ore:rotorHardCarbon>, <ore:plateHardCarbon> * 2, <biomesoplenty:hard_ice>)
     .outputs(<nuclearcraft:nitrogen_collector>)
     .duration(120)
@@ -732,6 +736,10 @@ forming.recipeBuilder()
     .duration(160)
     .EUt(512)
     .buildAndRegister();
+
+//Universal Bin
+recipes.remove(<nuclearcraft:bin>);
+recipes.addShapeless("NCBinRecipe", <nuclearcraft:bin>, [<trashcans:ultimate_trash_can>, <ore:plateSteel>, <ore:craftingToolWrench>]);
 
 ##### Platings #####
 
@@ -820,7 +828,7 @@ chemical_bath.recipeBuilder()
 
 //Servomechanism
 recipes.remove(<nuclearcraft:part:7>);
-forming.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<ore:plateStainlessSteel> * 3, <ore:gearTough>, <ore:wireFineRedAlloy> * 2, <ore:boltTough> * 3)
     .outputs(<nuclearcraft:part:7>)
     .duration(80)
@@ -829,7 +837,7 @@ forming.recipeBuilder()
 
 //Electric Motor
 recipes.remove(<nuclearcraft:part:8>);
-forming.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<ore:solenoidCopper> * 2, <ore:plateStainlessSteel> * 5, <ore:ringStainlessSteel> * 2, <ore:screwGold> * 2)
     .outputs(<nuclearcraft:part:8>)
     .duration(90)
@@ -838,7 +846,7 @@ forming.recipeBuilder()
 
 //Linear Actuator
 recipes.remove(<nuclearcraft:part:9>);
-forming.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:32642>, <ore:plateHardCarbon> * 2, <ore:gearSmallTough>, <ore:ringTough> * 2)
     .outputs(<nuclearcraft:part:9>)
     .duration(95)

@@ -704,7 +704,7 @@ var MachineryGates as IItemStack[] = [
 <nuclearcraft:cobblestone_generator>,
 <nuclearcraft:cobblestone_generator_compact>,
 <nuclearcraft:cobblestone_generator_dense>,
-<nuclearcraft:part:4>,
+<nuclearcraft:bin>,
 
 //SolarFlux
 <solarflux:solar_panel_1>,

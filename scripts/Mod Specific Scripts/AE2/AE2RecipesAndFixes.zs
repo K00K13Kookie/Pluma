@@ -489,4 +489,24 @@ assembler.recipeBuilder()
     .outputs(<appliedenergistics2:part:220>)
     .duration(80)
     .EUt(80)
-    .buildAndRegister();  
+    .buildAndRegister();
+
+//Mass Assembler Frame
+recipes.remove(<threng:big_assembler>);
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:steel> * 288])
+    .inputs(<appliedenergistics2:fluix_block>)
+    .outputs(<threng:big_assembler>)
+    .duration(80)
+    .EUt(128)
+    .buildAndRegister();
+
+//Mass Assembler Vent
+recipes.remove(<threng:big_assembler:1>);
+assembler.recipeBuilder()
+    .inputs([<threng:big_assembler>, <ore:rotorHardCarbon>, <ore:blockSheetmetalSteel> * 6])
+    .property("circuit", 22)    
+    .outputs(<threng:big_assembler:1>)
+    .duration(80)
+    .EUt(128)
+    .buildAndRegister();

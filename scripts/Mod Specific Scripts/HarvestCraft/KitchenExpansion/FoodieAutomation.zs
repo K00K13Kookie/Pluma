@@ -39,7 +39,7 @@ mods.thermalexpansion.Insolator.addRecipe(<harvestcraft:chilidonutitem>, <harves
 
 //Toast Slices
 recipes.remove(<actuallyadditions:item_food:10>);
-recipes.addShapeless("ToastSlices", <actuallyadditions:item_food:10> * 2, [<harvestcraft:toastitem>, <gregtech:meta_tool:17>]);
+recipes.addShapeless("ToastSlices", <actuallyadditions:item_food:10> * 2, [<harvestcraft:toastitem>, <ore:craftingToolKnife>]);
 saw.recipeBuilder()
     .inputs([<harvestcraft:toastitem>])
     .outputs(<actuallyadditions:item_food:10> * 5)
@@ -49,7 +49,7 @@ saw.recipeBuilder()
 
 //Cheese Slices
 recipes.remove(<harvestcraft:cheeseitem>);
-recipes.addShapeless("CheeseSlices", <harvestcraft:cheeseitem> * 8, [<actuallyadditions:item_food>, <gregtech:meta_tool:17>]);
+recipes.addShapeless("CheeseSlices", <harvestcraft:cheeseitem> * 8, [<actuallyadditions:item_food>, <ore:craftingToolKnife>]);
 saw.recipeBuilder()
     .inputs([<actuallyadditions:item_food>])
     .outputs(<harvestcraft:cheeseitem> * 8)

@@ -478,3 +478,5 @@ mods.ItemStages.addItemStage("AdvancedMachinery", i);
 //Staggin Whole Mods
 mods.ItemStages.stageModItems("AdvancedMachinery", "volumetricflask");
 mods.ItemStages.stageModItems("AdvancedMachinery", "redstonearsenal");
+
+mods.ItemStages.stageModItems("AdvancedMachinery", "computercraft");

@@ -132,7 +132,7 @@ RecipeBuilder.get("engineer")
 
 //Storage Terminal
 recipes.remove(<rftools:storage_terminal>);
-recipes.addShapeless("RFtoolsStorageTerminal", <rftools:storage_terminal>, [<rftools:storage_scanner>, <gregtech:meta_tool:5>]);  
+recipes.addShapeless("RFtoolsStorageTerminal", <rftools:storage_terminal>, [<rftools:storage_scanner>, <ore:craftingToolSaw>]);  
 
 //Storage Tablet
 recipes.removeByRecipeName("rftools:storage_module_tablet");
@@ -308,7 +308,7 @@ assembler.recipeBuilder()
 
 // Shape Card (Quarry)
 recipes.remove(<rftools:shape_card:2>);
-recipes.addShaped(<rftools:shape_card:2> * 1, [[<ore:plateRestonia>, <gregtech:meta_tool:1>, <ore:plateRestonia>], [<ore:plateStainlessSteel>, <gregtech:meta_item_2:32448>, <ore:plateStainlessSteel>],[<ore:plateRestonia>, <gregtech:meta_tool:2>, <ore:plateRestonia>]]);
+recipes.addShaped(<rftools:shape_card:2> * 1, [[<ore:plateRestonia>, <ore:craftingToolPickaxe>, <ore:plateRestonia>], [<ore:plateStainlessSteel>, <gregtech:meta_item_2:32448>, <ore:plateStainlessSteel>],[<ore:plateRestonia>, <ore:craftingToolShovel>, <ore:plateRestonia>]]);
 
 // Environmental Controller
 recipes.remove(<rftools:environmental_controller>);

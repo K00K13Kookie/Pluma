@@ -6,7 +6,9 @@
 	shape: "gear",
 	description: "Now the Fun part of the Pack Beggins...",
 	text: [
-		"Now you'll finally have the requirements to start automating stuff and actually utilizing more complex and Advanced Machines."
+		"Now you'll finally have the requirements to start automating stuff and actually utilizing more complex and Advanced Machines.",
+		"",
+		"Also, Now Radiation will start to take Effect, be carefull when manipulating some Radioactive items near your base."
 	],
 	dependencies: [
 		"0c6d2368"
@@ -22,5 +24,11 @@
 		uid: "aa7e6213",
 		type: "item",
 		item: "harvestcraft:mintchocolatechipicecreamitem"
+	},
+	{
+		uid: "be01e862",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "NCRadiationON"
 	}]
 }

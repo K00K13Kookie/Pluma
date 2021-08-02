@@ -37,7 +37,7 @@
 
 //Healing Salve
 recipes.remove(<roughtweaks:salve>);
-recipes.addShapeless("HealingSalve", <roughtweaks:salve>, [<minecraft:bowl>, <ore:healingCrop>, <ore:seed>, <gregtech:meta_tool:12>]);
+recipes.addShapeless("HealingSalve", <roughtweaks:salve>, [<minecraft:bowl>, <ore:healingCrop>, <ore:seed>, <ore:craftingToolMortar>]);
 
 //Plaster Using Rubber Sheets and Slimeballs
 recipes.remove(<roughtweaks:plaster>);

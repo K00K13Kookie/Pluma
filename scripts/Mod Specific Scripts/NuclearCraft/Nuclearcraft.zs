@@ -5,7 +5,7 @@ import crafttweaker.mods.IMod;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.contenttweaker.Fluid;
 
-//Script Adapted from Omnifactory! They've done an incredible job making their Pack and I actually play it a lot :P
+//Script Adapted from Omnifactory! They've done an incredible job making their Pack and I actually played it a lot :P
 
 //////////////////////////////////////////////////////////////
 /////////////////       Nuclearcraft       ///////////////////
@@ -299,7 +299,8 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:radiation_badge>,
 <nuclearcraft:radaway>,
 <nuclearcraft:radaway_slow>,
-<nuclearcraft:rad_x>
+<nuclearcraft:rad_x>,
+<nuclearcraft:part:4>
     ];
 
 for i in NuclearStagins {

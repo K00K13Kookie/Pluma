@@ -28,9 +28,9 @@ recipes.remove(i);
 }
 
 //Iron, Steel and Aluminium Rods
-recipes.addShapeless("IronRod", <immersiveengineering:material:1>, [<ore:ingotIron>, <gregtech:meta_tool:9>]);
-recipes.addShapeless("SteelRod", <immersiveengineering:material:2>, [<ore:ingotSteel>, <gregtech:meta_tool:9>]);
-recipes.addShapeless("ConstantanRod", <moreplates:constantan_stick>, [<ore:ingotConstantan>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("IronRod", <immersiveengineering:material:1>, [<ore:ingotIron>, <ore:craftingToolFile>]);
+recipes.addShapeless("SteelRod", <immersiveengineering:material:2>, [<ore:ingotSteel>, <ore:craftingToolFile>]);
+recipes.addShapeless("ConstantanRod", <moreplates:constantan_stick>, [<ore:ingotConstantan>, <ore:craftingToolFile>]);
 
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:3> * 2, <ore:ingotAluminium>, <immersiveengineering:mold:2>, 80, 1);
 
@@ -108,107 +108,107 @@ extruder.recipeBuilder()
 # Gear Recipe Early Game ===========================================================================
 
 // Black Quartz Gear
-recipes.addShaped(<moreplates:black_quartz_gear>, [[<gregtech:meta_tool:6>, <actuallyadditions:item_misc:5>, <gregtech:meta_tool:11>], [<actuallyadditions:item_misc:5>, null, <actuallyadditions:item_misc:5>],[<gregtech:meta_tool:13>, <actuallyadditions:item_misc:5>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:black_quartz_gear>, [[<ore:craftingToolHardHammer>, <actuallyadditions:item_misc:5>, <ore:craftingToolScrewdriver>], [<actuallyadditions:item_misc:5>, null, <actuallyadditions:item_misc:5>],[<ore:craftingToolWireCutter>, <actuallyadditions:item_misc:5>, <ore:craftingToolFile>]]);
 
 // Coal Gear
 <moreplates:coal_gear>.displayName = "Carbon Gear";
-recipes.addShaped(<moreplates:coal_gear>, [[<gregtech:meta_tool:6>, <ore:coal>, <gregtech:meta_tool:11>], [<ore:coal>, null, <ore:coal>],[<gregtech:meta_tool:13>, <ore:coal>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:coal_gear>, [[<ore:craftingToolHardHammer>, <ore:coal>, <ore:craftingToolScrewdriver>], [<ore:coal>, null, <ore:coal>],[<ore:craftingToolWireCutter>, <ore:coal>, <ore:craftingToolFile>]]);
 
 // Glowstone Gear
-recipes.addShaped(<moreplates:glowstone_gear>, [[<gregtech:meta_tool:6>, <ore:blockGlowstone>, <gregtech:meta_tool:11>], [<ore:blockGlowstone>, null, <ore:blockGlowstone>],[<gregtech:meta_tool:13>, <ore:blockGlowstone>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:glowstone_gear>, [[<ore:craftingToolHardHammer>, <ore:blockGlowstone>, <ore:craftingToolScrewdriver>], [<ore:blockGlowstone>, null, <ore:blockGlowstone>],[<ore:craftingToolWireCutter>, <ore:blockGlowstone>, <ore:craftingToolFile>]]);
 
 // Lapis Gear
-recipes.addShaped(<moreplates:lapis_lazuli_gear>, [[<gregtech:meta_tool:6>, <ore:gemLapis>, <gregtech:meta_tool:11>], [<ore:gemLapis>, null, <ore:gemLapis>],[<gregtech:meta_tool:13>, <ore:gemLapis>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:lapis_lazuli_gear>, [[<ore:craftingToolHardHammer>, <ore:gemLapis>, <ore:craftingToolScrewdriver>], [<ore:gemLapis>, null, <ore:gemLapis>],[<ore:craftingToolWireCutter>, <ore:gemLapis>, <ore:craftingToolFile>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<moreplates:lapis_lazuli_gear>, <ore:gemLapis>, <immersiveengineering:mold:1>, 80, 4);
 
 // Quartz Gear
-recipes.addShaped(<moreplates:nether_quartz_gear>, [[<gregtech:meta_tool:6>, <ore:gemQuartz>, <gregtech:meta_tool:11>], [<ore:gemQuartz>, null, <ore:gemQuartz>],[<gregtech:meta_tool:13>, <ore:gemQuartz>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:nether_quartz_gear>, [[<ore:craftingToolHardHammer>, <ore:gemQuartz>, <ore:craftingToolScrewdriver>], [<ore:gemQuartz>, null, <ore:gemQuartz>],[<ore:craftingToolWireCutter>, <ore:gemQuartz>, <ore:craftingToolFile>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<moreplates:nether_quartz_gear>, <ore:gemQuartz>, <immersiveengineering:mold:1>, 80, 4);
 
 // Redstone Gear
-recipes.addShaped(<moreplates:redstone_gear>, [[<gregtech:meta_tool:6>, <ore:dustRedstone>, <gregtech:meta_tool:11>], [<ore:dustRedstone>, null, <ore:dustRedstone>],[<gregtech:meta_tool:13>, <ore:dustRedstone>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:redstone_gear>, [[<ore:craftingToolHardHammer>, <ore:dustRedstone>, <ore:craftingToolScrewdriver>], [<ore:dustRedstone>, null, <ore:dustRedstone>],[<ore:craftingToolWireCutter>, <ore:dustRedstone>, <ore:craftingToolFile>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<moreplates:redstone_gear>, <ore:dustRedstone>, <immersiveengineering:mold:1>, 80, 4);
 
 // Electrotine Alloy Gear
 recipes.remove(<gregtech:meta_item_2:26832>);
-recipes.addShaped(<gregtech:meta_item_2:26832>, [[<gregtech:meta_tool:6>, <ore:ingotElectrotine>, <gregtech:meta_tool:11>], [<ore:ingotElectrotine>, null, <ore:ingotElectrotine>],[<gregtech:meta_tool:13>, <ore:ingotElectrotine>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<gregtech:meta_item_2:26832>, [[<ore:craftingToolHardHammer>, <ore:ingotElectrotine>, <ore:craftingToolScrewdriver>], [<ore:ingotElectrotine>, null, <ore:ingotElectrotine>],[<ore:craftingToolWireCutter>, <ore:ingotElectrotine>, <ore:craftingToolFile>]]);
 
 // Red Alloy Gear
-recipes.addShaped(<moreplates:red_alloy_gear>, [[<gregtech:meta_tool:6>, <ore:ingotRedAlloy>, <gregtech:meta_tool:11>], [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],[<gregtech:meta_tool:13>, <ore:ingotRedAlloy>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<moreplates:red_alloy_gear>, [[<ore:craftingToolHardHammer>, <ore:ingotRedAlloy>, <ore:craftingToolScrewdriver>], [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],[<ore:craftingToolWireCutter>, <ore:ingotRedAlloy>, <ore:craftingToolFile>]]);
 
 // Brass Gear
-recipes.addShaped(<gregtech:meta_item_2:26094>, [[<gregtech:meta_tool:6>, <ore:ingotBrass>, <gregtech:meta_tool:11>], [<ore:ingotBrass>, <railcraft:gear:3>, <ore:ingotBrass>],[<gregtech:meta_tool:13>, <ore:ingotBrass>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<gregtech:meta_item_2:26094>, [[<ore:craftingToolHardHammer>, <ore:ingotBrass>, <ore:craftingToolScrewdriver>], [<ore:ingotBrass>, <railcraft:gear:3>, <ore:ingotBrass>],[<ore:craftingToolWireCutter>, <ore:ingotBrass>, <ore:craftingToolFile>]]);
 
 // Iron Gear
-recipes.addShaped(<thermalfoundation:material:24>, [[<gregtech:meta_tool:6>, <ore:ingotIron>, <gregtech:meta_tool:11>], [<ore:ingotIron>, null, <ore:ingotIron>],[<gregtech:meta_tool:13>, <ore:ingotIron>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:24>, [[<ore:craftingToolHardHammer>, <ore:ingotIron>, <ore:craftingToolScrewdriver>], [<ore:ingotIron>, null, <ore:ingotIron>],[<ore:craftingToolWireCutter>, <ore:ingotIron>, <ore:craftingToolFile>]]);
 
 // Gold Gear
-recipes.addShaped(<thermalfoundation:material:25>, [[<gregtech:meta_tool:6>, <ore:ingotGold>, <gregtech:meta_tool:11>], [<ore:ingotGold>, null, <ore:ingotGold>],[<gregtech:meta_tool:13>, <ore:ingotGold>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:25>, [[<ore:craftingToolHardHammer>, <ore:ingotGold>, <ore:craftingToolScrewdriver>], [<ore:ingotGold>, null, <ore:ingotGold>],[<ore:craftingToolWireCutter>, <ore:ingotGold>, <ore:craftingToolFile>]]);
 
 // Diamond Gear
-recipes.addShaped(<thermalfoundation:material:26>, [[<gregtech:meta_tool:6>, <ore:gemDiamond>, <gregtech:meta_tool:11>], [<ore:gemDiamond>, null, <ore:gemDiamond>],[<gregtech:meta_tool:13>, <ore:gemDiamond>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:26>, [[<ore:craftingToolHardHammer>, <ore:gemDiamond>, <ore:craftingToolScrewdriver>], [<ore:gemDiamond>, null, <ore:gemDiamond>],[<ore:craftingToolWireCutter>, <ore:gemDiamond>, <ore:craftingToolFile>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:26>, <ore:gemDiamond>, <immersiveengineering:mold:1>, 80, 4);
 
 // Emerald Gear
-recipes.addShaped(<thermalfoundation:material:27>, [[<gregtech:meta_tool:6>, <ore:gemEmerald>, <gregtech:meta_tool:11>], [<ore:gemEmerald>, null, <ore:gemEmerald>],[<gregtech:meta_tool:13>, <ore:gemEmerald>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:27>, [[<ore:craftingToolHardHammer>, <ore:gemEmerald>, <ore:craftingToolScrewdriver>], [<ore:gemEmerald>, null, <ore:gemEmerald>],[<ore:craftingToolWireCutter>, <ore:gemEmerald>, <ore:craftingToolFile>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:27>, <ore:gemEmerald>, <immersiveengineering:mold:1>, 80, 4);
 
 // Copper Gear
-recipes.addShaped(<thermalfoundation:material:256>, [[<gregtech:meta_tool:6>, <ore:ingotCopper>, <gregtech:meta_tool:11>], [<ore:ingotCopper>, null, <ore:ingotCopper>],[<gregtech:meta_tool:13>, <ore:ingotCopper>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:256>, [[<ore:craftingToolHardHammer>, <ore:ingotCopper>, <ore:craftingToolScrewdriver>], [<ore:ingotCopper>, null, <ore:ingotCopper>],[<ore:craftingToolWireCutter>, <ore:ingotCopper>, <ore:craftingToolFile>]]);
 
 // Tin Gear
-recipes.addShaped(<thermalfoundation:material:257>, [[<gregtech:meta_tool:6>, <ore:ingotTin>, <gregtech:meta_tool:11>], [<ore:ingotTin>, null, <ore:ingotTin>],[<gregtech:meta_tool:13>, <ore:ingotTin>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:257>, [[<ore:craftingToolHardHammer>, <ore:ingotTin>, <ore:craftingToolScrewdriver>], [<ore:ingotTin>, null, <ore:ingotTin>],[<ore:craftingToolWireCutter>, <ore:ingotTin>, <ore:craftingToolFile>]]);
 
 // Silver Gear
-recipes.addShaped(<thermalfoundation:material:258>, [[<gregtech:meta_tool:6>, <ore:ingotSilver>, <gregtech:meta_tool:11>], [<ore:ingotSilver>, null, <ore:ingotSilver>],[<gregtech:meta_tool:13>, <ore:ingotSilver>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:258>, [[<ore:craftingToolHardHammer>, <ore:ingotSilver>, <ore:craftingToolScrewdriver>], [<ore:ingotSilver>, null, <ore:ingotSilver>],[<ore:craftingToolWireCutter>, <ore:ingotSilver>, <ore:craftingToolFile>]]);
 
 // Lead Gear
-recipes.addShaped(<thermalfoundation:material:259>, [[<gregtech:meta_tool:6>, <ore:ingotLead>, <gregtech:meta_tool:11>], [<ore:ingotLead>, null, <ore:ingotLead>],[<gregtech:meta_tool:13>, <ore:ingotLead>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:259>, [[<ore:craftingToolHardHammer>, <ore:ingotLead>, <ore:craftingToolScrewdriver>], [<ore:ingotLead>, null, <ore:ingotLead>],[<ore:craftingToolWireCutter>, <ore:ingotLead>, <ore:craftingToolFile>]]);
 
 // Aluminum Gear
-recipes.addShaped(<thermalfoundation:material:260>, [[<gregtech:meta_tool:6>, <ore:ingotAluminum>, <gregtech:meta_tool:11>], [<ore:ingotAluminum>, null, <ore:ingotAluminum>],[<gregtech:meta_tool:13>, <ore:ingotAluminum>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:260>, [[<ore:craftingToolHardHammer>, <ore:ingotAluminum>, <ore:craftingToolScrewdriver>], [<ore:ingotAluminum>, null, <ore:ingotAluminum>],[<ore:craftingToolWireCutter>, <ore:ingotAluminum>, <ore:craftingToolFile>]]);
 
 // Nickel Gear
-recipes.addShaped(<thermalfoundation:material:261>, [[<gregtech:meta_tool:6>, <ore:ingotNickel>, <gregtech:meta_tool:11>], [<ore:ingotNickel>, null, <ore:ingotNickel>],[<gregtech:meta_tool:13>, <ore:ingotNickel>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:261>, [[<ore:craftingToolHardHammer>, <ore:ingotNickel>, <ore:craftingToolScrewdriver>], [<ore:ingotNickel>, null, <ore:ingotNickel>],[<ore:craftingToolWireCutter>, <ore:ingotNickel>, <ore:craftingToolFile>]]);
 
 // Platinum Gear
-recipes.addShaped(<thermalfoundation:material:262>, [[<gregtech:meta_tool:6>, <ore:ingotPlatinum>, <gregtech:meta_tool:11>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>],[<gregtech:meta_tool:13>, <ore:ingotPlatinum>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:262>, [[<ore:craftingToolHardHammer>, <ore:ingotPlatinum>, <ore:craftingToolScrewdriver>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>],[<ore:craftingToolWireCutter>, <ore:ingotPlatinum>, <ore:craftingToolFile>]]);
 
 // Iridium Gear
-recipes.addShaped(<thermalfoundation:material:263>, [[<gregtech:meta_tool:6>, <ore:ingotIridium>, <gregtech:meta_tool:11>], [<ore:ingotIridium>, null, <ore:ingotIridium>],[<gregtech:meta_tool:13>, <ore:ingotIridium>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:263>, [[<ore:craftingToolHardHammer>, <ore:ingotIridium>, <ore:craftingToolScrewdriver>], [<ore:ingotIridium>, null, <ore:ingotIridium>],[<ore:craftingToolWireCutter>, <ore:ingotIridium>, <ore:craftingToolFile>]]);
 
 // Mana Infused Gear
-recipes.addShaped(<thermalfoundation:material:264>, [[<gregtech:meta_tool:6>, <ore:ingotMithril>, <gregtech:meta_tool:11>], [<ore:ingotMithril>, null, <ore:ingotMithril>],[<gregtech:meta_tool:13>, <ore:ingotMithril>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:264>, [[<ore:craftingToolHardHammer>, <ore:ingotMithril>, <ore:craftingToolScrewdriver>], [<ore:ingotMithril>, null, <ore:ingotMithril>],[<ore:craftingToolWireCutter>, <ore:ingotMithril>, <ore:craftingToolFile>]]);
 
 // Steel Gear
-recipes.addShaped(<thermalfoundation:material:288>, [[<gregtech:meta_tool:6>, <ore:ingotSteel>, <gregtech:meta_tool:11>], [<ore:ingotSteel>, null, <ore:ingotSteel>],[<gregtech:meta_tool:13>, <ore:ingotSteel>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:288>, [[<ore:craftingToolHardHammer>, <ore:ingotSteel>, <ore:craftingToolScrewdriver>], [<ore:ingotSteel>, null, <ore:ingotSteel>],[<ore:craftingToolWireCutter>, <ore:ingotSteel>, <ore:craftingToolFile>]]);
 
 // Electrum Gear
-recipes.addShaped(<thermalfoundation:material:289>, [[<gregtech:meta_tool:6>, <ore:ingotElectrum>, <gregtech:meta_tool:11>], [<ore:ingotElectrum>, null, <ore:ingotElectrum>],[<gregtech:meta_tool:13>, <ore:ingotElectrum>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:289>, [[<ore:craftingToolHardHammer>, <ore:ingotElectrum>, <ore:craftingToolScrewdriver>], [<ore:ingotElectrum>, null, <ore:ingotElectrum>],[<ore:craftingToolWireCutter>, <ore:ingotElectrum>, <ore:craftingToolFile>]]);
 
 // Invar Gear
-recipes.addShaped(<thermalfoundation:material:290>, [[<gregtech:meta_tool:6>, <ore:ingotInvar>, <gregtech:meta_tool:11>], [<ore:ingotInvar>, null, <ore:ingotInvar>],[<gregtech:meta_tool:13>, <ore:ingotInvar>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:290>, [[<ore:craftingToolHardHammer>, <ore:ingotInvar>, <ore:craftingToolScrewdriver>], [<ore:ingotInvar>, null, <ore:ingotInvar>],[<ore:craftingToolWireCutter>, <ore:ingotInvar>, <ore:craftingToolFile>]]);
 
 // Bronze Gear
-recipes.addShaped(<thermalfoundation:material:291>, [[<gregtech:meta_tool:6>, <ore:ingotBronze>, <gregtech:meta_tool:11>], [<ore:ingotBronze>, null, <ore:ingotBronze>],[<gregtech:meta_tool:13>, <ore:ingotBronze>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:291>, [[<ore:craftingToolHardHammer>, <ore:ingotBronze>, <ore:craftingToolScrewdriver>], [<ore:ingotBronze>, null, <ore:ingotBronze>],[<ore:craftingToolWireCutter>, <ore:ingotBronze>, <ore:craftingToolFile>]]);
 
 // Constantan Gear
-recipes.addShaped(<thermalfoundation:material:292>, [[<gregtech:meta_tool:6>, <ore:ingotConstantan>, <gregtech:meta_tool:11>], [<ore:ingotConstantan>, null, <ore:ingotConstantan>],[<gregtech:meta_tool:13>, <ore:ingotConstantan>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:292>, [[<ore:craftingToolHardHammer>, <ore:ingotConstantan>, <ore:craftingToolScrewdriver>], [<ore:ingotConstantan>, null, <ore:ingotConstantan>],[<ore:craftingToolWireCutter>, <ore:ingotConstantan>, <ore:craftingToolFile>]]);
 
 // Signalum Gear
-recipes.addShaped(<thermalfoundation:material:293>, [[<gregtech:meta_tool:6>, <ore:ingotSignalum>, <gregtech:meta_tool:11>], [<ore:ingotSignalum>, null, <ore:ingotSignalum>],[<gregtech:meta_tool:13>, <ore:ingotSignalum>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:293>, [[<ore:craftingToolHardHammer>, <ore:ingotSignalum>, <ore:craftingToolScrewdriver>], [<ore:ingotSignalum>, null, <ore:ingotSignalum>],[<ore:craftingToolWireCutter>, <ore:ingotSignalum>, <ore:craftingToolFile>]]);
 
 // Lumium Gear
-recipes.addShaped(<thermalfoundation:material:294>, [[<gregtech:meta_tool:6>, <ore:ingotLumium>, <gregtech:meta_tool:11>], [<ore:ingotLumium>, null, <ore:ingotLumium>],[<gregtech:meta_tool:13>, <ore:ingotLumium>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:294>, [[<ore:craftingToolHardHammer>, <ore:ingotLumium>, <ore:craftingToolScrewdriver>], [<ore:ingotLumium>, null, <ore:ingotLumium>],[<ore:craftingToolWireCutter>, <ore:ingotLumium>, <ore:craftingToolFile>]]);
 
 // Enderium Gear
-recipes.addShaped(<thermalfoundation:material:295>, [[<gregtech:meta_tool:6>, <ore:ingotEnderium>, <gregtech:meta_tool:11>], [<ore:ingotEnderium>, null, <ore:ingotEnderium>],[<gregtech:meta_tool:13>, <ore:ingotEnderium>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<thermalfoundation:material:295>, [[<ore:craftingToolHardHammer>, <ore:ingotEnderium>, <ore:craftingToolScrewdriver>], [<ore:ingotEnderium>, null, <ore:ingotEnderium>],[<ore:craftingToolWireCutter>, <ore:ingotEnderium>, <ore:craftingToolFile>]]);
 
 // Black Bronze Gear
-recipes.addShaped(<gregtech:meta_item_2:26229>, [[<gregtech:meta_tool:6>, <ore:ingotBlackBronze>, <gregtech:meta_tool:11>], [<ore:ingotBlackBronze>, null, <ore:ingotBlackBronze>],[<gregtech:meta_tool:13>, <ore:ingotBlackBronze>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<gregtech:meta_item_2:26229>, [[<ore:craftingToolHardHammer>, <ore:ingotBlackBronze>, <ore:craftingToolScrewdriver>], [<ore:ingotBlackBronze>, null, <ore:ingotBlackBronze>],[<ore:craftingToolWireCutter>, <ore:ingotBlackBronze>, <ore:craftingToolFile>]]);
 
 // Bismuth Bronze Gear
-recipes.addShaped(<gregtech:meta_item_2:26230>, [[<gregtech:meta_tool:6>, <ore:ingotBismuthBronze>, <gregtech:meta_tool:11>], [<ore:ingotBismuthBronze>, null, <ore:ingotBismuthBronze>],[<gregtech:meta_tool:13>, <ore:ingotBismuthBronze>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<gregtech:meta_item_2:26230>, [[<ore:craftingToolHardHammer>, <ore:ingotBismuthBronze>, <ore:craftingToolScrewdriver>], [<ore:ingotBismuthBronze>, null, <ore:ingotBismuthBronze>],[<ore:craftingToolWireCutter>, <ore:ingotBismuthBronze>, <ore:craftingToolFile>]]);
 
 
 var PlatesRemovidas as IItemStack[] = [
@@ -269,98 +269,98 @@ mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_gea
 
 
 // Redstone-Plate =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12215>, [[<gregtech:meta_tool:6>], [<minecraft:redstone>], [<minecraft:redstone>]]);
+recipes.addShaped(<gregtech:meta_item_1:12215>, [[<ore:craftingToolHardHammer>], [<minecraft:redstone>], [<minecraft:redstone>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12215>, <minecraft:redstone>, <immersiveengineering:mold>, 80);
 
 // HOP Graphite Plate  =======================================================================================================================================
-recipes.addShaped(<contenttweaker:h_o_p_graphite_plate>, [[<gregtech:meta_tool:6>], [<immersiveengineering:material:19>], [<immersiveengineering:material:19>]]);
+recipes.addShaped(<contenttweaker:h_o_p_graphite_plate>, [[<ore:craftingToolHardHammer>], [<immersiveengineering:material:19>], [<immersiveengineering:material:19>]]);
 
 /*
 // Redstone Alloy-Plate =======================================================================================================================================
-recipes.addShaped(<moreplates:redstone_alloy_plate>, [[<gregtech:meta_tool:6>], [<enderio:item_alloy_ingot:3>], [<enderio:item_alloy_ingot:3>]]);
+recipes.addShaped(<moreplates:redstone_alloy_plate>, [[<ore:craftingToolHardHammer>], [<enderio:item_alloy_ingot:3>], [<enderio:item_alloy_ingot:3>]]);
 */
 
 // Emerald-Plate =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12113>, [[<gregtech:meta_tool:6>], [<minecraft:emerald>], [<minecraft:emerald>]]);
+recipes.addShaped(<gregtech:meta_item_1:12113>, [[<ore:craftingToolHardHammer>], [<minecraft:emerald>], [<minecraft:emerald>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12113>, <minecraft:emerald>, <immersiveengineering:mold>, 80);
 
 // Diamond-Plate =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12111>, [[<gregtech:meta_tool:6>], [<minecraft:diamond>], [<minecraft:diamond>]]);
+recipes.addShaped(<gregtech:meta_item_1:12111>, [[<ore:craftingToolHardHammer>], [<minecraft:diamond>], [<minecraft:diamond>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12111>, <minecraft:diamond>, <immersiveengineering:mold>, 80);
 
 // Bronze-Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:355>, [[<gregtech:meta_tool:6>], [<ore:ingotBronze>], [<ore:ingotBronze>]]);
+recipes.addShaped(<thermalfoundation:material:355>, [[<ore:craftingToolHardHammer>], [<ore:ingotBronze>], [<ore:ingotBronze>]]);
 
 // Tin-Plates ======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:321>, [[<gregtech:meta_tool:6>], [<ore:ingotTin>], [<ore:ingotTin>]]);
+recipes.addShaped(<thermalfoundation:material:321>, [[<ore:craftingToolHardHammer>], [<ore:ingotTin>], [<ore:ingotTin>]]);
 
 // Gold-Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:33>, [[<gregtech:meta_tool:6>], [<ore:ingotGold>], [<ore:ingotGold>]]);
+recipes.addShaped(<thermalfoundation:material:33>, [[<ore:craftingToolHardHammer>], [<ore:ingotGold>], [<ore:ingotGold>]]);
 
 // Copper-Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:320>, [[<gregtech:meta_tool:6>], [<ore:ingotCopper>], [<ore:ingotCopper>]]);
+recipes.addShaped(<thermalfoundation:material:320>, [[<ore:craftingToolHardHammer>], [<ore:ingotCopper>], [<ore:ingotCopper>]]);
 
 // Iron-Plates ======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:32>, [[<gregtech:meta_tool:6>], [<ore:ingotIron>], [<ore:ingotIron>]]);
+recipes.addShaped(<thermalfoundation:material:32>, [[<ore:craftingToolHardHammer>], [<ore:ingotIron>], [<ore:ingotIron>]]);
 
 // Silver Plates ======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:322>, [[<gregtech:meta_tool:6>], [<ore:ingotSilver>], [<ore:ingotSilver>]]);
+recipes.addShaped(<thermalfoundation:material:322>, [[<ore:craftingToolHardHammer>], [<ore:ingotSilver>], [<ore:ingotSilver>]]);
 
 // Lead Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:323>, [[<gregtech:meta_tool:6>], [<ore:ingotLead>], [<ore:ingotLead>]]);
+recipes.addShaped(<thermalfoundation:material:323>, [[<ore:craftingToolHardHammer>], [<ore:ingotLead>], [<ore:ingotLead>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13035>, <ore:plateLead>, <immersiveengineering:mold>, 80, 9);
 
 // Aluminum Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:324>, [[<gregtech:meta_tool:6>], [<ore:ingotAluminum>], [<ore:ingotAluminum>]]);
+recipes.addShaped(<thermalfoundation:material:324>, [[<ore:craftingToolHardHammer>], [<ore:ingotAluminum>], [<ore:ingotAluminum>]]);
 
 // Nickel Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:325>, [[<gregtech:meta_tool:6>], [<ore:ingotNickel>], [<ore:ingotNickel>]]);
+recipes.addShaped(<thermalfoundation:material:325>, [[<ore:craftingToolHardHammer>], [<ore:ingotNickel>], [<ore:ingotNickel>]]);
 
 /*
 // Osmium Plate =======================================================================================================================================
-recipes.addShaped(<moreplates:osmium_plate>, [[<gregtech:meta_tool:6>], [<mekanism:ingot:1>], [<mekanism:ingot:1>]]);
+recipes.addShaped(<moreplates:osmium_plate>, [[<ore:craftingToolHardHammer>], [<mekanism:ingot:1>], [<mekanism:ingot:1>]]);
 
 // Manasteel Plate =======================================================================================================================================
-recipes.addShaped(<moreplates:manasteel_plate>, [[<gregtech:meta_tool:6>], [<ore:ingotManasteel>], [<ore:ingotManasteel>]]);
+recipes.addShaped(<moreplates:manasteel_plate>, [[<ore:craftingToolHardHammer>], [<ore:ingotManasteel>], [<ore:ingotManasteel>]]);
 */
 
 // Invar Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:354>, [[<gregtech:meta_tool:6>], [<ore:ingotInvar>], [<ore:ingotInvar>]]);
+recipes.addShaped(<thermalfoundation:material:354>, [[<ore:craftingToolHardHammer>], [<ore:ingotInvar>], [<ore:ingotInvar>]]);
 
 // Lumium Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:358>, [[<gregtech:meta_tool:6>], [<ore:ingotLumium>], [<ore:ingotLumium>]]);
+recipes.addShaped(<thermalfoundation:material:358>, [[<ore:craftingToolHardHammer>], [<ore:ingotLumium>], [<ore:ingotLumium>]]);
 
 // Signalum Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:357>, [[<gregtech:meta_tool:6>], [<ore:ingotSignalum>], [<ore:ingotSignalum>]]);
+recipes.addShaped(<thermalfoundation:material:357>, [[<ore:craftingToolHardHammer>], [<ore:ingotSignalum>], [<ore:ingotSignalum>]]);
 
 // Enderium Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:359>, [[<gregtech:meta_tool:6>], [<ore:ingotEnderium>], [<ore:ingotEnderium>]]);
+recipes.addShaped(<thermalfoundation:material:359>, [[<ore:craftingToolHardHammer>], [<ore:ingotEnderium>], [<ore:ingotEnderium>]]);
 
 // Mana Infusion Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:328>, [[<gregtech:meta_tool:6>], [<ore:ingotMithril>], [<ore:ingotMithril>]]);
+recipes.addShaped(<thermalfoundation:material:328>, [[<ore:craftingToolHardHammer>], [<ore:ingotMithril>], [<ore:ingotMithril>]]);
 
 // Electrum Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:353>, [[<gregtech:meta_tool:6>], [<ore:ingotElectrum>], [<ore:ingotElectrum>]]);
+recipes.addShaped(<thermalfoundation:material:353>, [[<ore:craftingToolHardHammer>], [<ore:ingotElectrum>], [<ore:ingotElectrum>]]);
 
 // Platin Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:326>, [[<gregtech:meta_tool:6>], [<ore:ingotPlatinum>], [<ore:ingotPlatinum>]]);
+recipes.addShaped(<thermalfoundation:material:326>, [[<ore:craftingToolHardHammer>], [<ore:ingotPlatinum>], [<ore:ingotPlatinum>]]);
 
 // Iridium Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:327>, [[<gregtech:meta_tool:6>], [<ore:ingotIridium>], [<ore:ingotIridium>]]);
+recipes.addShaped(<thermalfoundation:material:327>, [[<ore:craftingToolHardHammer>], [<ore:ingotIridium>], [<ore:ingotIridium>]]);
 
 // Constatan Plate =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:356>, [[<gregtech:meta_tool:6>], [<ore:ingotConstantan>], [<ore:ingotConstantan>]]);
+recipes.addShaped(<thermalfoundation:material:356>, [[<ore:craftingToolHardHammer>], [<ore:ingotConstantan>], [<ore:ingotConstantan>]]);
 
 // Steel Plates =======================================================================================================================================
-recipes.addShaped(<thermalfoundation:material:352>, [[<gregtech:meta_tool:6>], [<ore:ingotSteel>], [<ore:ingotSteel>]]);
+recipes.addShaped(<thermalfoundation:material:352>, [[<ore:craftingToolHardHammer>], [<ore:ingotSteel>], [<ore:ingotSteel>]]);
 
 /*
 // Demonic Plate =======================================================================================================================================
-recipes.addShaped(<moreplates:demon_plate>, [[<gregtech:meta_tool:6>.reuse().transformDamage(8)], [<extrautils2:ingredients:11>], [<extrautils2:ingredients:11>]]);
+recipes.addShaped(<moreplates:demon_plate>, [[<ore:craftingToolHardHammer>.reuse().transformDamage(8)], [<extrautils2:ingredients:11>], [<extrautils2:ingredients:11>]]);
 
 /*
 // Refined Glowstone Plates =======================================================================================================================================
-recipes.addShaped(<moreplates:refined_glowstone_plate>, [[<gregtech:meta_tool:6>.reuse().transformDamage(8)], [<ore:ingotRefinedGlowstone>], [<ore:ingotRefinedGlowstone>]]);
+recipes.addShaped(<moreplates:refined_glowstone_plate>, [[<ore:craftingToolHardHammer>.reuse().transformDamage(8)], [<ore:ingotRefinedGlowstone>], [<ore:ingotRefinedGlowstone>]]);
 
 
 // Empowered Restonia Plate =======================================================================================================================================
@@ -383,96 +383,96 @@ mods.nuclearcraft.pressurizer.addRecipe([<actuallyadditions:item_crystal_empower
 
 /*
 // Silicon Plates =======================================================================================================================================
-recipes.addShaped(<moreplates:silicon_plate>, [[<gregtech:meta_tool:6>], [<nuclearcraft:gem:6>], [<nuclearcraft:gem:6>]]);
+recipes.addShaped(<moreplates:silicon_plate>, [[<ore:craftingToolHardHammer>], [<nuclearcraft:gem:6>], [<nuclearcraft:gem:6>]]);
 mods.thermalexpansion.Compactor.addPressRecipe(<moreplates:silicon_plate>, <nuclearcraft:gem:6>, 1500);
 mods.nuclearcraft.pressurizer.addRecipe([<nuclearcraft:gem:6>, <moreplates:silicon_plate>]);
 
 */
 
 // Enori Plates =======================================================================================================================================
-recipes.addShaped(<moreplates:enori_plate>, [[<gregtech:meta_tool:6>], [<actuallyadditions:item_crystal:5>], [<actuallyadditions:item_crystal:5>]]);
+recipes.addShaped(<moreplates:enori_plate>, [[<ore:craftingToolHardHammer>], [<actuallyadditions:item_crystal:5>], [<actuallyadditions:item_crystal:5>]]);
 /*
 mods.nuclearcraft.pressurizer.addRecipe([<actuallyadditions:item_crystal:5>, <moreplates:enori_plate>]);
 */
 
 // Red Alloy Plate =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12237>, [[<gregtech:meta_tool:6>], [<ore:ingotRedAlloy>], [<ore:ingotRedAlloy>]]);
+recipes.addShaped(<gregtech:meta_item_1:12237>, [[<ore:craftingToolHardHammer>], [<ore:ingotRedAlloy>], [<ore:ingotRedAlloy>]]);
 
 // Eletrotin Plate =======================================================================================================================================
-recipes.addShaped(<moreplates:electrotine_alloy_plate>, [[<gregtech:meta_tool:6>], [<projectred-core:resource_item:104>], [<projectred-core:resource_item:104>]]);
+recipes.addShaped(<moreplates:electrotine_alloy_plate>, [[<ore:craftingToolHardHammer>], [<projectred-core:resource_item:104>], [<projectred-core:resource_item:104>]]);
 
 // Quartz Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12201>, [[<gregtech:meta_tool:6>], [<ore:gemQuartz>], [<ore:gemQuartz>]]);
+recipes.addShaped(<gregtech:meta_item_1:12201>, [[<ore:craftingToolHardHammer>], [<ore:gemQuartz>], [<ore:gemQuartz>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12201>, <ore:gemQuartz>, <immersiveengineering:mold>, 80);
 
 // Black Quartz Plates =======================================================================================================================================
-recipes.addShaped(<moreplates:black_quartz_plate>, [[<gregtech:meta_tool:6>], [<ore:gemQuartzBlack>], [<ore:gemQuartzBlack>]]);
+recipes.addShaped(<moreplates:black_quartz_plate>, [[<ore:craftingToolHardHammer>], [<ore:gemQuartzBlack>], [<ore:gemQuartzBlack>]]);
 
 // Lapis Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12216>, [[<gregtech:meta_tool:6>], [<ore:gemLapis>], [<ore:gemLapis>]]);
+recipes.addShaped(<gregtech:meta_item_1:12216>, [[<ore:craftingToolHardHammer>], [<ore:gemLapis>], [<ore:gemLapis>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12216>, <ore:gemLapis>, <immersiveengineering:mold>, 80);
 
 // Uranium Plates =======================================================================================================================================
-recipes.addShaped(<immersiveengineering:metal:35>, [[<gregtech:meta_tool:6>], [<ore:ingotUranium>], [<ore:ingotUranium>]]);
+recipes.addShaped(<immersiveengineering:metal:35>, [[<ore:craftingToolHardHammer>], [<ore:ingotUranium>], [<ore:ingotUranium>]]);
 
 // Ruby Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12154>, [[<gregtech:meta_tool:6>], [<ore:gemRuby>], [<ore:gemRuby>]]);
+recipes.addShaped(<gregtech:meta_item_1:12154>, [[<ore:craftingToolHardHammer>], [<ore:gemRuby>], [<ore:gemRuby>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12154>, <ore:gemRuby>, <immersiveengineering:mold>, 80);
 
 // Sapphire Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12157>, [[<gregtech:meta_tool:6>], [<ore:gemSapphire>], [<ore:gemSapphire>]]);
+recipes.addShaped(<gregtech:meta_item_1:12157>, [[<ore:craftingToolHardHammer>], [<ore:gemSapphire>], [<ore:gemSapphire>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12157>, <ore:gemSapphire>, <immersiveengineering:mold>, 80);
 
 // Peridot Plates =======================================================================================================================================
-#recipes.addShaped(<techreborn:plates:14>, [[<gregtech:meta_tool:6>], [<ore:gemPeridot>], [<ore:gemPeridot>]]);
+#recipes.addShaped(<techreborn:plates:14>, [[<ore:craftingToolHardHammer>], [<ore:gemPeridot>], [<ore:gemPeridot>]]);
 #mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:14>, <ore:gemPeridot>, <immersiveengineering:mold>, 80);
 
 // Wood Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12196>, [[<gregtech:meta_tool:6>], [<ore:dustWood>], [<ore:dustWood>]]);
+recipes.addShaped(<gregtech:meta_item_1:12196>, [[<ore:craftingToolHardHammer>], [<ore:dustWood>], [<ore:dustWood>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12196>, <ore:dustWood>, <immersiveengineering:mold>, 80);
 
 // Treated Wood Plates =======================================================================================================================================
-recipes.addShaped(<contenttweaker:treated_plate>, [[<gregtech:meta_tool:6>], [<ore:plankTreatedWood>], [<ore:plankTreatedWood>]]);
+recipes.addShaped(<contenttweaker:treated_plate>, [[<ore:craftingToolHardHammer>], [<ore:plankTreatedWood>], [<ore:plankTreatedWood>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:treated_plate>, <ore:plankTreatedWood>, <immersiveengineering:mold>, 80);
 
 // Magnesium Plates =======================================================================================================================================
-recipes.addShaped(<jaopca:item_platemagnesium>, [[<gregtech:meta_tool:6>], [<nuclearcraft:ingot:7>], [<nuclearcraft:ingot:7>]]);
+recipes.addShaped(<jaopca:item_platemagnesium>, [[<ore:craftingToolHardHammer>], [<nuclearcraft:ingot:7>], [<nuclearcraft:ingot:7>]]);
 
 // Zinc Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12079>, [[<gregtech:meta_tool:6>], [<ore:ingotZinc>], [<ore:ingotZinc>]]);
+recipes.addShaped(<gregtech:meta_item_1:12079>, [[<ore:craftingToolHardHammer>], [<ore:ingotZinc>], [<ore:ingotZinc>]]);
 
 // Brass Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12094>, [[<gregtech:meta_tool:6>], [<ore:ingotBrass>], [<ore:ingotBrass>]]);
+recipes.addShaped(<gregtech:meta_item_1:12094>, [[<ore:craftingToolHardHammer>], [<ore:ingotBrass>], [<ore:ingotBrass>]]);
 
 // Red Garnet Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12243>, [[<gregtech:meta_tool:6>], [<gregtech:meta_item_1:8243>], [<gregtech:meta_item_1:8243>]]);
+recipes.addShaped(<gregtech:meta_item_1:12243>, [[<ore:craftingToolHardHammer>], [<gregtech:meta_item_1:8243>], [<gregtech:meta_item_1:8243>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12243>, <gregtech:meta_item_1:8243>, <immersiveengineering:mold>, 80);
 
 // Yellow Garnet Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12244>, [[<gregtech:meta_tool:6>], [<gregtech:meta_item_1:8244>], [<gregtech:meta_item_1:8244>]]);
+recipes.addShaped(<gregtech:meta_item_1:12244>, [[<ore:craftingToolHardHammer>], [<gregtech:meta_item_1:8244>], [<gregtech:meta_item_1:8244>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12244>, <gregtech:meta_item_1:8244>, <immersiveengineering:mold>, 80);
 
 // Silicon Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12061>, [[<gregtech:meta_tool:6>], [<ore:itemSilicon>], [<ore:itemSilicon>]]);
+recipes.addShaped(<gregtech:meta_item_1:12061>, [[<ore:craftingToolHardHammer>], [<ore:itemSilicon>], [<ore:itemSilicon>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12061>, <ore:itemSilicon>, <immersiveengineering:mold>, 80);
 
 // Glowstone Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12330>, [[<gregtech:meta_tool:6>], [<ore:blockGlowstone>], [<ore:blockGlowstone>]]);
+recipes.addShaped(<gregtech:meta_item_1:12330>, [[<ore:craftingToolHardHammer>], [<ore:blockGlowstone>], [<ore:blockGlowstone>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12330>, <ore:blockGlowstone>, <immersiveengineering:mold>, 80);
 
 // Black Bronze Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12229>, [[<gregtech:meta_tool:6>], [<ore:ingotBlackBronze>], [<ore:ingotBlackBronze>]]);
+recipes.addShaped(<gregtech:meta_item_1:12229>, [[<ore:craftingToolHardHammer>], [<ore:ingotBlackBronze>], [<ore:ingotBlackBronze>]]);
 
 // Bismuth Bronze Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12230>, [[<gregtech:meta_tool:6>], [<ore:ingotBismuthBronze>], [<ore:ingotBismuthBronze>]]);
+recipes.addShaped(<gregtech:meta_item_1:12230>, [[<ore:craftingToolHardHammer>], [<ore:ingotBismuthBronze>], [<ore:ingotBismuthBronze>]]);
 
 // Rubber Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12152>, [[<gregtech:meta_tool:6>], [<gregtech:meta_item_1:32627>], [<gregtech:meta_item_1:32627>]]);
+recipes.addShaped(<gregtech:meta_item_1:12152>, [[<ore:craftingToolHardHammer>], [<gregtech:meta_item_1:32627>], [<gregtech:meta_item_1:32627>]]);
 
 // Menril Sheet =======================================================================================================================================
-recipes.addShaped(<contenttweaker:menrilsheet> * 2, [[<gregtech:meta_tool:6>], [<integrateddynamics:crystalized_menril_block>], [<integrateddynamics:crystalized_menril_block>]]);
+recipes.addShaped(<contenttweaker:menrilsheet> * 2, [[<ore:craftingToolHardHammer>], [<integrateddynamics:crystalized_menril_block>], [<integrateddynamics:crystalized_menril_block>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:menrilsheet> * 4, <integrateddynamics:crystalized_menril_block>, <immersiveengineering:mold>, 80);
 
 // Green Sapphire Plates =======================================================================================================================================
-recipes.addShaped(<gregtech:meta_item_1:12117>, [[<gregtech:meta_tool:6>], [<ore:gemGreenSapphire>], [<ore:gemGreenSapphire>]]);
+recipes.addShaped(<gregtech:meta_item_1:12117>, [[<ore:craftingToolHardHammer>], [<ore:gemGreenSapphire>], [<ore:gemGreenSapphire>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12117>, <ore:gemGreenSapphire>, <immersiveengineering:mold>, 80);

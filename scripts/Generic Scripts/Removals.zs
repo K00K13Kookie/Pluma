@@ -507,7 +507,6 @@ var ItensRemovidos as IItemStack[] = [
 <immersiveengineering:material:24>,
 
 //NuclearCraft
-<nuclearcraft:bin>,
 <nuclearcraft:ingot:4>,
 <nuclearcraft:voltaic_pile_basic>,
 <nuclearcraft:voltaic_pile_advanced>,

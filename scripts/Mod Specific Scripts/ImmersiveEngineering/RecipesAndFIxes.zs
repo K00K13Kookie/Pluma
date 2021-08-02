@@ -5,6 +5,96 @@ import mods.immersiveengineering.Mixer;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.immersiveengineering.AlloySmelter;
 
+##### IE Sheetmetals Automation ######
+
+//Copper
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseCopper>])
+    .outputs(<immersiveengineering:sheetmetal> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister(); 
+
+//Aluminium
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseAluminium>])
+    .outputs(<immersiveengineering:sheetmetal:1> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Lead
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseLead>])
+    .outputs(<immersiveengineering:sheetmetal:2> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Silver
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseSilver>])
+    .outputs(<immersiveengineering:sheetmetal:3> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Nickel
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseNickel>])
+    .outputs(<immersiveengineering:sheetmetal:4> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Uranium
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseUranium>])
+    .outputs(<immersiveengineering:sheetmetal:5> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Constantan
+lathe.recipeBuilder()
+    .inputs([<ore:plateConstantan> * 9])
+    .outputs(<immersiveengineering:sheetmetal:6> * 9)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Electrum
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseElectrum>])
+    .outputs(<immersiveengineering:sheetmetal:7>)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Steel
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseSteel>])
+    .outputs(<immersiveengineering:sheetmetal:8>)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Iron
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseIron>])
+    .outputs(<immersiveengineering:sheetmetal:9>)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
+//Gold
+lathe.recipeBuilder()
+    .inputs([<ore:plateDenseGold>])
+    .outputs(<immersiveengineering:sheetmetal:10>)
+    .duration(95)
+    .EUt(32)
+    .buildAndRegister();
+
 ##### Constantan #####
 mods.immersiveengineering.AlloySmelter.removeRecipe(<thermalfoundation:material:164>);
 mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2, <ore:ingotBrass> * 2, <ore:ingotCopper>, 1000);
@@ -35,7 +125,7 @@ recipes.replaceAllOccurences(<thermalfoundation:material:802>, <ore:fuelCoke>);
 recipes.replaceAllOccurences(<immersiveengineering:material:6>, <ore:fuelCoke>);
 
 recipes.remove(<immersiveengineering:material:17>);
-recipes.addShapeless("CokeDustRecipe", <immersiveengineering:material:17>, [<ore:fuelCoke>, <gregtech:meta_tool:12>]);
+recipes.addShapeless("CokeDustRecipe", <immersiveengineering:material:17>, [<ore:fuelCoke>, <ore:craftingToolMortar>]);
 
 // Adding Immersive Tools to Artisan's OreDicts
 
@@ -73,7 +163,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 
 // Fluid Pipe
 recipes.remove(<immersiveengineering:metal_device1:6>);
-recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<gregtech:meta_tool:9>, null, <gregtech:meta_tool:6>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:craftingToolFile>, null, <ore:craftingToolHardHammer>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 # Immersive Wires using different Cutter ===================================
 
