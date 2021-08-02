@@ -1,0 +1,27 @@
+{
+	"dependencies": "contenttweaker",
+	"populate": {
+		"uninspectedmineral": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:uninspectedmineral"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 2,
+			"max-height": 35,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [ 
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -45,17 +45,9 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:block_depleted_thorium>,
 <nuclearcraft:block_depleted_uranium>,
 <nuclearcraft:block_depleted_neptunium>,
-<nuclearcraft:solar_panel_advanced>,
-<nuclearcraft:solar_panel_du>,
-<nuclearcraft:solar_panel_elite>,
 <nuclearcraft:decay_generator>,
-<nuclearcraft:voltaic_pile_basic>,
-<nuclearcraft:voltaic_pile_advanced>,
-<nuclearcraft:voltaic_pile_du>,
-<nuclearcraft:voltaic_pile_elite>,
 <nuclearcraft:decay_hastener_idle>,
 <nuclearcraft:irradiator_idle>,
-<nuclearcraft:pressurizer_idle>,
 <nuclearcraft:rock_crusher_idle>,
 <nuclearcraft:machine_interface>,
 <nuclearcraft:fission_controller_new_fixed>,
@@ -66,7 +58,6 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:rtg_plutonium>,
 <nuclearcraft:rtg_americium>,
 <nuclearcraft:rtg_californium>,
-<nuclearcraft:solar_panel_basic>,
 <nuclearcraft:heat_exchanger_tube_thermoconducting>,
 <nuclearcraft:heat_exchanger_condenser_tube_copper>,
 <nuclearcraft:heat_exchanger_condenser_tube_hard_carbon>,
@@ -76,10 +67,6 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:turbine_glass>,
 <nuclearcraft:turbine_frame>,
 <nuclearcraft:turbine_rotor_shaft>,
-<nuclearcraft:lithium_ion_battery_basic>.withTag({maxTransfer: 1600000, capacity: 32000000, energy: 0}),
-<nuclearcraft:lithium_ion_battery_advanced>.withTag({maxTransfer: 6400000, capacity: 128000000, energy: 0}),
-<nuclearcraft:lithium_ion_battery_du>.withTag({maxTransfer: 25600000, capacity: 512000000, energy: 0}),
-<nuclearcraft:lithium_ion_battery_elite>.withTag({maxTransfer: 102400000, capacity: 2048000000, energy: 0}),
 <nuclearcraft:buffer>,
 <nuclearcraft:active_cooler>,
 <nuclearcraft:fusion_electromagnet_idle>,
@@ -294,13 +281,25 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:lithium:1>,
 <nuclearcraft:lithium:2>,
 <nuclearcraft:lithium:3>,
-<nuclearcraft:lithium_ion_cell>,
 <nuclearcraft:part:7>,
 <nuclearcraft:part:9>,
 <nuclearcraft:part:8>,
 <nuclearcraft:part:10>,
-<nuclearcraft:part:12>
-
+<nuclearcraft:part:12>,
+<nuclearcraft:geiger_counter>,
+<nuclearcraft:geiger_block>,
+<nuclearcraft:radiation_scrubber>,
+<nuclearcraft:rad_shielding>,
+<nuclearcraft:rad_shielding:1>,
+<nuclearcraft:rad_shielding:2>,
+<nuclearcraft:helm_hazmat>,
+<nuclearcraft:chest_hazmat>,
+<nuclearcraft:legs_hazmat>,
+<nuclearcraft:boots_hazmat>,
+<nuclearcraft:radiation_badge>,
+<nuclearcraft:radaway>,
+<nuclearcraft:radaway_slow>,
+<nuclearcraft:rad_x>
     ];
 
 for i in NuclearStagins {
@@ -443,10 +442,11 @@ for liquid in game.liquids {
        liquid.name has "_24" | 
        liquid.name has "_25" ) {
 
-        purgeFluidFromJEI(liquid.name);
-
+        mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", liquid.name);
+        mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", liquid*1000);   
+        #purgeFluidFromJEI(liquid.name);
         // Hide the fluid too
-        mods.jei.JEI.hide(liquid*1000);
+        #mods.jei.JEI.hide(liquid*1000);
     }
 }
 

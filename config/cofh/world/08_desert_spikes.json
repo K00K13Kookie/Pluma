@@ -11,17 +11,27 @@
 					"block": [
 						{
 							"name": "minecraft:sandstone",
-							"weight": 50
+							"weight": 35
 						},
 						{
 							"name": "minecraft:sandstone",
 							"metadata": 2,
-							"weight": 40
+							"weight": 30
 						},
 						{
 							"name": "minecraft:sandstone",
 							"metadata": 1,
 							"weight": 10
+						},
+						{
+							"name": "undergroundbiomes:igneous_stone",
+							"metadata": 6,
+							"weight": 20
+						},
+						{
+							"name": "undergroundbiomes:igneous_monster_stone",
+							"metadata": 6,
+							"weight": 5
 						}
 					],
 					"material": [
@@ -43,17 +53,25 @@
 					"block": [
 						{
 							"name": "minecraft:red_sandstone",
-							"weight": 50
+							"weight": 40
 						},
 						{
 							"name": "minecraft:red_sandstone",
 							"metadata": 2,                            
-							"weight": 40
+							"weight": 35
 						},
 						{
 							"name": "minecraft:red_sandstone",
                             "metadata": 1,
 							"weight": 10
+						},
+						{
+							"name": "undergroundbiomes:igneous_sandstone",
+							"weight": 10
+						},
+						{
+							"name": "undergroundbiomes:igneous_sandstone_chiseled",
+							"weight": 5
 						}
 					],
 					"material": [

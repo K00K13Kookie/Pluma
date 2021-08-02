@@ -518,6 +518,12 @@ var ItensRemovidos as IItemStack[] = [
 <nuclearcraft:lithium_ion_battery_du>,
 <nuclearcraft:lithium_ion_battery_elite>,
 <nuclearcraft:lithium_ion_battery_du>,
+<nuclearcraft:lithium_ion_cell>,
+<nuclearcraft:solar_panel_basic>,
+<nuclearcraft:solar_panel_advanced>,
+<nuclearcraft:solar_panel_du>,
+<nuclearcraft:solar_panel_elite>,
+<nuclearcraft:decay_generator>,
 
 //Integrated Dynamics
 <integrateddynamics:squeezer>,

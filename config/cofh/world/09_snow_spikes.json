@@ -11,15 +11,21 @@
 					"block": [
 						{
 							"name": "biomesoplenty:hard_ice",
-							"weight": 50
-						},
-						{
-							"name": "minecraft:packed_ice",
 							"weight": 45
 						},
 						{
-							"name": "gregtech:ore_tanzanite_0",
+							"name": "minecraft:packed_ice",
+							"weight": 35
+						},
+						{
+							"name": "undergroundbiomes:metamorphic_monster_stone",
+							"metadata": 4,
 							"weight": 5
+						},
+						{
+							"name": "undergroundbiomes:metamorphic_stone",
+							"metadata": 4,
+							"weight": 15
 						}
 					],
 					"material": [

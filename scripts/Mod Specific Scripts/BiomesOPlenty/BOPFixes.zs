@@ -49,4 +49,12 @@ chemical_bath.recipeBuilder()
     .outputs(<biomesoplenty:mud>)
     .duration(60)
     .EUt(16)
-    .buildAndRegister();  
+    .buildAndRegister();
+
+//Hard Ice producing Nitrogen
+fluid_extractor.recipeBuilder()
+    .inputs(<biomesoplenty:hard_ice>)
+    .fluidOutputs(<liquid:nitrogen> * 2000)
+    .duration(500)
+    .EUt(512)
+    .buildAndRegister();       

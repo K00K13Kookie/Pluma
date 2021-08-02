@@ -426,6 +426,10 @@ var toRemove = [
 , <gregtech:meta_item_1:10036>
 , <gregtech:meta_block_compressed_2:4>
 , <gregtech:meta_item_1:2036>
+, <gregtech:meta_block_compressed_0:7>
+, <gregtech:meta_item_1:2007>
+, <gregtech:meta_item_1:10007>
+
 
 //BlueSteel Stuff
 , <gregtech:meta_item_1:2828>
@@ -493,6 +497,24 @@ var toRemove = [
 ,  <gregtech:meta_item_1:10901>
 ,  <gregtech:meta_item_1:2901>
 ,  <gregtech:meta_item_1:9901>
+
+//Tough Stuff
+,  <gregtech:meta_item_1:10842>
+
+//HSLA Steel Stuff
+,  <gregtech:meta_item_1:10843>
+
+//Extreme Alloy Stuff
+,  <gregtech:meta_item_1:10844>
+
+//Thermoconducting Stuff
+,  <gregtech:meta_item_1:10845>
+
+//HardCarbon Stuff
+,  <gregtech:meta_item_1:10847>
+
+//SiC-SiC Stuff
+,  <gregtech:meta_item_1:10849>
 
 ] as IItemStack[];
 
