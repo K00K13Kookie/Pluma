@@ -96,7 +96,7 @@ lathe.recipeBuilder()
     .buildAndRegister();
 
 ##### Constantan #####
-mods.immersiveengineering.AlloySmelter.removeRecipe(<thermalfoundation:material:164>);
+mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
 mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2, <ore:ingotBrass> * 2, <ore:ingotCopper>, 1000);
 
 //Renaming Uranium Ingot to Uranium 238 Ingot
@@ -116,16 +116,6 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:graphite_el
 
 //Adding an Additional Recipe using Obsdian to get a Reinforced One
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:graphite_electrode>.withTag({ench: [{lvl: 3 as short, id: 34 as short}], display: {Name: "Reinforced Electrode Rod"}}), <contenttweaker:obsidianelectrode>, <immersiveengineering:mold:2>, 1200, 1);
-
-
-### Coal Coke OreDict Issues ###
-
-recipes.replaceAllOccurences(<gregtech:meta_item_1:8357>, <ore:fuelCoke>);
-recipes.replaceAllOccurences(<thermalfoundation:material:802>, <ore:fuelCoke>);
-recipes.replaceAllOccurences(<immersiveengineering:material:6>, <ore:fuelCoke>);
-
-recipes.remove(<immersiveengineering:material:17>);
-recipes.addShapeless("CokeDustRecipe", <immersiveengineering:material:17>, [<ore:fuelCoke>, <ore:craftingToolMortar>]);
 
 // Adding Immersive Tools to Artisan's OreDicts
 
@@ -311,6 +301,41 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2, [[<ore:boltSte
 // Wooden Storage Crate
 recipes.remove(<immersiveengineering:wooden_device0:0>);
 recipes.addShaped(<immersiveengineering:wooden_device0:0> * 1, [[<ore:boltTreated>, <ore:plateTreated>, <ore:boltTreated>], [<ore:plateTreated>, null, <ore:plateTreated>],[<ore:boltTreated>, <ore:plateTreated>, <ore:boltTreated>]]);
+
+// --- Metal Rung Ladder
+recipes.remove(<engineersdecor:metal_rung_ladder>);
+
+recipes.addShaped(<engineersdecor:metal_rung_ladder> * 4, [
+[<ore:stickSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:screwSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:craftingToolSoftHammer>, <ore:stickSteel>]]);
+
+// --- Treated Wood Ladder
+recipes.remove(<engineersdecor:treated_wood_ladder>);
+
+recipes.addShaped(<engineersdecor:treated_wood_ladder>, [
+[<ore:stickTreatedWood>, <ore:craftingToolScrewdriver>, <ore:stickTreatedWood>],
+[<ore:string>, <ore:boltWood>, <ore:string>],
+[<ore:stickTreatedWood>, <ore:craftingToolSoftHammer>, <ore:stickTreatedWood>]]);
+// -
+recipes.addShaped(<engineersdecor:treated_wood_ladder> * 2, [
+[<ore:stickTreatedWood>, <ore:craftingToolScrewdriver>, <ore:stickTreatedWood>],
+[<ore:string>, <ore:screwIron>, <ore:string>],
+[<ore:stickTreatedWood>, <ore:craftingToolSoftHammer>, <ore:stickTreatedWood>]]);
+// -
+recipes.addShaped(<engineersdecor:treated_wood_ladder> * 4, [
+[<ore:stickTreatedWood>, <ore:craftingToolScrewdriver>, <ore:stickTreatedWood>],
+[<ore:string>, <ore:screwSteel>, <ore:string>],
+[<ore:stickTreatedWood>, <ore:craftingToolSoftHammer>, <ore:stickTreatedWood>]]);
+
+// --- Metal Ladder
+recipes.remove(<immersiveengineering:metal_ladder>);
+
+recipes.addShaped(<immersiveengineering:metal_ladder> * 4, [
+[<ore:stickSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>],
+[<ore:string>, <ore:screwSteel>, <ore:string>],
+[<ore:stickSteel>, <ore:craftingToolSoftHammer>, <ore:stickSteel>]]);
+
 
 ##### Artisan's Recipes #####
 

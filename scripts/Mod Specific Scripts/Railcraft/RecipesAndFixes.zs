@@ -46,7 +46,7 @@ recipes.addShaped(<railcraft:equipment:0>, [[<ore:plateSteel>, <minecraft:piston
 
 // Bag of Cement
 recipes.remove(<railcraft:concrete>);
-recipes.addShaped(<railcraft:concrete> * 4, [[<minecraft:gravel>, <immersiveengineering:material:7>, <minecraft:gravel>], [<immersiveengineering:material:7>, <minecraft:gravel>, <immersiveengineering:material:7>],[<minecraft:gravel>, <immersiveengineering:material:7>, <minecraft:gravel>]]);
+recipes.addShaped(<railcraft:concrete> * 4, [[<ore:gravel>, <ore:itemSlag>, <ore:gravel>], [<ore:itemSlag>, <ore:gravel>, <ore:itemSlag>],[<ore:gravel>, <ore:itemSlag>, <ore:gravel>]]);
 
 //Strengthened Glass
 recipes.remove(<railcraft:glass>);
@@ -116,6 +116,13 @@ recipes.addShaped(<railcraft:bore:0> * 1, [[<ore:blockSteel>, <minecraft:minecar
 // Steam Oven
 recipes.remove(<railcraft:steam_oven:0>);
 recipes.addShaped(<railcraft:steam_oven:0> * 4, [[<ore:plateBlackBronze>, <ore:plateBismuthBronze>, <ore:plateBlackBronze>], [<ore:plateBismuthBronze>, <gregtech:machine:15>, <ore:plateBismuthBronze>],[<ore:plateBlackBronze>, <ore:plateBismuthBronze>, <ore:plateBlackBronze>]]);
+
+// Steel Anvil
+recipes.remove(<railcraft:anvil>);
+recipes.addShaped(<railcraft:anvil>, [
+[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
+[<ore:screwSteel>, <ore:blockSteel>, <ore:screwSteel>],
+[<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>]]);
 
 ##### Artisan's Recipes #####
 

@@ -21,12 +21,6 @@ recipes.addShapeless("ClayBlocksToBalls", <minecraft:clay_ball> * 4, [<ore:block
 recipes.remove(<overloaded:compressed_cobblestone:0>);
 recipes.addShaped(<overloaded:compressed_cobblestone:0> * 1, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
-//Torch Recipe Fix
-recipes.remove(<minecraft:torch>);
-recipes.addShapeless("TorchWithBeewax", <minecraft:torch> * 4, [<ore:stickWood>, <ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]);
-recipes.addShapeless("TorchWithLigniteCoal", <minecraft:torch> * 4, [<ore:stickWood>, <gregtech:meta_item_1:8211>]);
-recipes.addShapeless("TorchWithSulfur", <minecraft:torch> * 2, [<ore:stickWood>, <ore:dustSulfur>]);
-
 //Tiny Coal e Tiny Charcoal Recipe Directly
 recipes.addShapeless("TinyCoal", <pyrotech:material:21> * 8, [<ore:coal>]);
 recipes.addShapeless("TinyCharcoal", <pyrotech:material:15> * 8, [<ore:charcoal>]);

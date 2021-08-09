@@ -588,3 +588,97 @@ IroncladAnvil.removeRecipes(<pyrotech:material:31>);
 recipes.remove(<minecraft:flint>);
 recipes.addShapeless("EarlyFlintFromGravel", <minecraft:flint>, [<ore:gravel>, <ore:artisansSifter>.reuse().transformDamage(1)]);
 recipes.addShapeless("EarlyFlintDust", <gregtech:meta_item_1:1220>, [<ore:gemFlint>, <ore:craftingToolMortar>]);
+
+##### Steel Fixes #####
+
+//Removing Steel Recipes outside of Blast Furnaces
+alloy.findRecipe(32, [<minecraft:iron_ingot>, <nuclearcraft:ingot:8>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material>, <nuclearcraft:ingot:8>], null).remove();
+alloy.findRecipe(32, [<minecraft:iron_ingot>, <nuclearcraft:dust:8>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material>, <nuclearcraft:dust:8>], null).remove();
+alloy.findRecipe(32, [<gregtech:meta_item_1:2033>, <nuclearcraft:ingot:8>], null).remove();
+alloy.findRecipe(32, [<gregtech:meta_item_1:2033>, <nuclearcraft:dust:8>], null).remove();
+
+alloy.findRecipe(32, [<minecraft:coal> * 2, <minecraft:iron_ingot>], null).remove();
+alloy.findRecipe(32, [<minecraft:coal> * 2, <thermalfoundation:material>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <minecraft:iron_ingot>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <minecraft:iron_ingot>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <thermalfoundation:material>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <thermalfoundation:material>], null).remove();
+alloy.findRecipe(32, [<minecraft:coal> * 2, <gregtech:meta_item_1:2033>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <gregtech:meta_item_1:2033>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <gregtech:meta_item_1:2033>], null).remove();
+
+alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <gregtech:meta_item_1:8357>], null).remove();
+alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <gregtech:meta_item_1:8357>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material> * 2, <gregtech:meta_item_1:8357>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material> * 2, <gregtech:meta_item_1:8357>], null).remove();
+alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <gregtech:meta_item_1:8357>], null).remove();
+alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <gregtech:meta_item_1:8357>], null).remove();
+
+alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <immersiveengineering:material:17>], null).remove();
+alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <immersiveengineering:material:17>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material> * 2, <immersiveengineering:material:17>], null).remove();
+alloy.findRecipe(32, [<thermalfoundation:material> * 2, <immersiveengineering:material:17>], null).remove();
+alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <immersiveengineering:material:17>], null).remove();
+alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <immersiveengineering:material:17>], null).remove();
+
+alloy.findRecipe(32, [<minecraft:iron_block>, <nuclearcraft:ingot_block:8>], null).remove();
+alloy.findRecipe(32, [<minecraft:coal_block> * 2, <minecraft:iron_block>], null).remove();
+alloy.findRecipe(32, [<minecraft:iron_block> * 2, <gregtech:meta_block_compressed_22:5>], null).remove();
+alloy.findRecipe(32, [<minecraft:iron_block> * 2, <chisel:block_coal_coke2:1>], null).remove();
+
+blast_furnace.findRecipe(128, [<minecraft:iron_ingot>], [<liquid:oxygen> * 1000]).remove();
+
+
+##### Spring Recipes #####
+
+// Gold Spring
+recipes.remove(<gregtech:meta_item_2:21026>);
+recipes.addShaped(<gregtech:meta_item_2:21026> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongGold>, <ore:craftingToolWireCutter>],[null, <ore:stickLongGold>, null]]);
+
+// Iron Spring
+recipes.remove(<gregtech:meta_item_2:21033>);
+recipes.addShaped(<gregtech:meta_item_2:21033> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongIron>, <ore:craftingToolWireCutter>],[null, <ore:stickLongIron>, null]]);
+
+// Titanium Spring
+recipes.remove(<gregtech:meta_item_2:21072>);
+recipes.addShaped(<gregtech:meta_item_2:21072> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongTitanium>, <ore:craftingToolWireCutter>],[null, <ore:stickLongTitanium>, null]]);
+
+// Stainless Steel Spring
+recipes.remove(<gregtech:meta_item_2:21183>);
+recipes.addShaped(<gregtech:meta_item_2:21183> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongStainlessSteel>, <ore:craftingToolWireCutter>],[null, <ore:stickLongStainlessSteel>, null]]);
+
+// Steel Spring
+recipes.remove(<gregtech:meta_item_2:21184>);
+recipes.addShaped(<gregtech:meta_item_2:21184> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongSteel>, <ore:craftingToolWireCutter>],[null, <ore:stickLongSteel>, null]]);
+
+##### Small Spring Recipes #####
+
+// Steel Small Spring
+recipes.remove(<gregtech:meta_item_2:20184>);
+recipes.addShaped(<gregtech:meta_item_2:20184> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickSteel>, <ore:craftingToolWireCutter>],[null, null, null]]);
+
+MetalBender.recipeBuilder()
+    .inputs(<ore:stickSteel>)
+    .property("circuit", 1)
+    .outputs(<gregtech:meta_item_2:20184> * 2)
+    .duration(100)
+    .EUt(7)
+.buildAndRegister();
+
+// Stainless Steel Small Spring
+recipes.remove(<gregtech:meta_item_2:20183>);
+recipes.addShaped(<gregtech:meta_item_2:20183> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickStainlessSteel>, <ore:craftingToolWireCutter>],[null, null, null]]);
+
+MetalBender.recipeBuilder()
+    .inputs(<ore:stickStainlessSteel>)
+    .property("circuit", 1)
+    .outputs(<gregtech:meta_item_2:20183> * 2)
+    .duration(100)
+    .EUt(7)
+.buildAndRegister();
+
+### Quartz Fix ####
+
+<ore:plateQuartz>.add(<gregtech:meta_item_1:12201>);

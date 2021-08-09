@@ -110,6 +110,8 @@ var ItensRemovidos as IItemStack[] = [
 <tconstruct:channel>,
 <tconstruct:faucet>,
 <tconstruct:materials:14>,
+<tconstruct:fancy_frame:5>,
+<tconstruct:fancy_frame:6>,
 
 //TAIGA
 <taiga:palladium_ore>,
@@ -167,6 +169,9 @@ var ItensRemovidos as IItemStack[] = [
 <pyrotech:mulch>,
 <pyrotech:compost_bin>,
 <pyrotech:mechanical_mulch_spreader>,
+<pyrotech:gold_shears>,
+<pyrotech:diamond_shears>,
+<pyrotech:obsidian_shears>,
 
 //MorePlates
 <moreplates:hammer>,

@@ -66,33 +66,87 @@ recipes.addShaped(<harvestcraft:saucepanitem>, [[<ore:stickWood>, null, null],[<
 <artisanworktables:artisans_mortar_iron>,
 <artisanworktables:artisans_mortar_diamond>,
 <artisanworktables:artisans_mortar_flint>,
+<artisanworktables:artisans_mortar_bone>,
+<artisanworktables:artisans_mortar_aluminum>,
 <artisanworktables:artisans_mortar_bronze>,
+<artisanworktables:artisans_mortar_constantan>,
 <artisanworktables:artisans_mortar_copper>,
-<artisanworktables:artisans_mortar_steel>
+<artisanworktables:artisans_mortar_electrum>,
+<artisanworktables:artisans_mortar_boronnitride>,
+<artisanworktables:artisans_mortar_hardcarbon>,
+<artisanworktables:artisans_mortar_toughalloy>,
+<artisanworktables:artisans_mortar_boron>,
+<artisanworktables:artisans_mortar_osmium>,
+<artisanworktables:artisans_mortar_tin>,
+<artisanworktables:artisans_mortar_steel>,
+<artisanworktables:artisans_mortar_silver>,
+<artisanworktables:artisans_mortar_platinum>,
+<artisanworktables:artisans_mortar_nickel>,
+<artisanworktables:artisans_mortar_lead>,
+<artisanworktables:artisans_mortar_invar>
 );
 
-recipes.replaceAllOccurences(<harvestcraft:mortarandpestleitem>, <ore:foodMortar>);
+recipes.replaceAllOccurences(<harvestcraft:mortarandpestleitem>, <ore:foodMortar>.reuse().transformDamage(1));
 
 <ore:foodCuttingBoard>.add(
 <artisanworktables:artisans_cutting_board_iron>,
 <artisanworktables:artisans_cutting_board_diamond>,
 <artisanworktables:artisans_cutting_board_flint>,
+<artisanworktables:artisans_cutting_board_bone>,
+<artisanworktables:artisans_cutting_board_aluminum>,
 <artisanworktables:artisans_cutting_board_bronze>,
+<artisanworktables:artisans_cutting_board_constantan>,
 <artisanworktables:artisans_cutting_board_copper>,
+<artisanworktables:artisans_cutting_board_electrum>,
+<artisanworktables:artisans_cutting_board_boronnitride>,
+<artisanworktables:artisans_cutting_board_hardcarbon>,
+<artisanworktables:artisans_cutting_board_toughalloy>,
+<artisanworktables:artisans_cutting_board_boron>,
+<artisanworktables:artisans_cutting_board_osmium>,
+<artisanworktables:artisans_cutting_board_tin>,
 <artisanworktables:artisans_cutting_board_steel>,
+<artisanworktables:artisans_cutting_board_silver>,
+<artisanworktables:artisans_cutting_board_platinum>,
+<artisanworktables:artisans_cutting_board_nickel>,
+<artisanworktables:artisans_cutting_board_lead>,
+<artisanworktables:artisans_cutting_board_invar>,
 <harvestcraft:cuttingboarditem>
 );
 
-recipes.replaceAllOccurences(<harvestcraft:cuttingboarditem>, <ore:foodCuttingBoard>);
+recipes.replaceAllOccurences(<harvestcraft:cuttingboarditem>, <ore:foodCuttingBoard>.reuse().transformDamage(1));
 
 <ore:foodPan>.add(
 <harvestcraft:saucepanitem>,
 <artisanworktables:artisans_pan_iron>,
 <artisanworktables:artisans_pan_diamond>,
 <artisanworktables:artisans_pan_flint>,
+<artisanworktables:artisans_pan_bone>,
+<artisanworktables:artisans_pan_aluminum>,
 <artisanworktables:artisans_pan_bronze>,
+<artisanworktables:artisans_pan_constantan>,
 <artisanworktables:artisans_pan_copper>,
-<artisanworktables:artisans_pan_steel>
+<artisanworktables:artisans_pan_electrum>,
+<artisanworktables:artisans_pan_boronnitride>,
+<artisanworktables:artisans_pan_hardcarbon>,
+<artisanworktables:artisans_pan_toughalloy>,
+<artisanworktables:artisans_pan_boron>,
+<artisanworktables:artisans_pan_osmium>,
+<artisanworktables:artisans_pan_tin>,
+<artisanworktables:artisans_pan_steel>,
+<artisanworktables:artisans_pan_silver>,
+<artisanworktables:artisans_pan_platinum>,
+<artisanworktables:artisans_pan_nickel>,
+<artisanworktables:artisans_pan_lead>,
+<artisanworktables:artisans_pan_invar>
 );
 
-recipes.replaceAllOccurences(<harvestcraft:saucepanitem>, <ore:foodPan>);
+recipes.replaceAllOccurences(<harvestcraft:saucepanitem>, <ore:foodPan>.reuse().transformDamage(1));
+
+<ore:foodPot>.add(
+<harvestcraft:potitem>,
+<contenttweaker:dmgpotdiamond>,
+<contenttweaker:dmgpotiron>,
+<contenttweaker:dmgpotclay>
+);
+
+recipes.replaceAllOccurences(<harvestcraft:potitem>, <ore:foodPot>.reuse().transformDamage(1));

@@ -40,7 +40,7 @@ recipes.addShaped(<thermalfoundation:tool.bow_copper> * 1, [[null, <ore:ingotCop
 
 // Copper Fishing Rod
 recipes.remove(<thermalfoundation:tool.fishing_rod_copper>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_copper> * 1, [[null, null, <ore:ingotCopper>], [null, <ore:ingotCopper>, <ore:twine>],[<ore:stickTreatedWood>, null, <ore:twine>]]);
+recipes.addShaped(<thermalfoundation:tool.fishing_rod_copper> * 1, [[null, null, <ore:stickLongWood>], [null, <ore:stickLongWood>, <ore:string>],[<ore:stickTreatedWood>, null, <ore:ringCopper>]]);
 
 
 ###### Bronze ###### ====================================================
@@ -71,7 +71,7 @@ recipes.addShaped(<thermalfoundation:tool.bow_bronze> * 1, [[null, <ore:ingotBro
 
 // Bronze Fishing Rod
 recipes.remove(<thermalfoundation:tool.fishing_rod_bronze>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_bronze> * 1, [[null, null, <ore:ingotBronze>], [null, <ore:ingotBronze>, <ore:twine>],[<ore:stickTreatedWood>, null, <ore:twine>]]);
+recipes.addShaped(<thermalfoundation:tool.fishing_rod_bronze> * 1, [[null, null, <ore:stickLongWood>], [null, <ore:stickLongWood>, <ore:string>],[<ore:stickTreatedWood>, null, <ore:ringBronze>]]);
 
 // Bronze Sickle
 recipes.remove(<thermalfoundation:tool.sickle_bronze>);
@@ -115,10 +115,6 @@ recipes.addShaped(<pyrotech:iron_hammer> * 1, [[null, <minecraft:iron_ingot>, <p
 recipes.remove(<thermalfoundation:tool.bow_iron>);
 recipes.addShaped(<thermalfoundation:tool.bow_iron> * 1, [[null, <minecraft:iron_ingot>, <ore:twine>], [<ore:stickTreatedWood>, null, <ore:twine>],[null, <minecraft:iron_ingot>, <ore:twine>]]);
 
-// Iron Fishing Rod
-recipes.remove(<thermalfoundation:tool.fishing_rod_iron>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_iron> * 1, [[null, null, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, <ore:twine>],[<ore:stickTreatedWood>, null, <ore:twine>]]);
-
 // Iron Sickle
 recipes.remove(<thermalfoundation:tool.sickle_iron>);
 recipes.addShaped(<thermalfoundation:tool.sickle_iron> * 1, [[null, <minecraft:iron_ingot>, null], [null, null, <minecraft:iron_ingot>],[<ore:stickTreatedWood>, <minecraft:iron_ingot>, null]]);
@@ -151,7 +147,7 @@ recipes.addShaped(<thermalfoundation:tool.bow_steel> * 1, [[null, <ore:ingotStee
 
 // Steel Fishing Rod
 recipes.remove(<thermalfoundation:tool.fishing_rod_steel>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_steel> * 1, [[null, null, <ore:ingotSteel>], [null, <ore:ingotSteel>, <ore:twine>],[<ore:stickTreatedWood>, null, <ore:twine>]]);
+recipes.addShaped(<thermalfoundation:tool.fishing_rod_steel> * 1, [[null, null, <ore:stickLongWood>], [null, <ore:stickLongWood>, <ore:string>],[<ore:stickTreatedWood>, null, <ore:ringSteel>]]);
 
 ###### Ruby ###### ====================================================
 
@@ -263,7 +259,7 @@ recipes.addShaped(<thermalfoundation:tool.bow_diamond> * 1, [[null, <ore:gemDiam
 
 // Diamond Fishing Rod
 recipes.remove(<thermalfoundation:tool.fishing_rod_diamond>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_diamond> * 1, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, <ore:twine>],[<ore:stickTreatedWood>, null, <ore:twine>]]);
+recipes.addShaped(<thermalfoundation:tool.fishing_rod_diamond> * 1, [[null, null, <ore:stickLongWood>], [null, <ore:stickLongWood>, <ore:string>],[<ore:stickTreatedWood>, null, <ore:boltDiamond>]]);
 
 // Diamond Sickle
 recipes.remove(<thermalfoundation:tool.sickle_diamond>);

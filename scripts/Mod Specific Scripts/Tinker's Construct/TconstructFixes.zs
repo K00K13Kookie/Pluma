@@ -260,3 +260,43 @@ forming.recipeBuilder()
     .duration(320)
     .EUt(60)
 .buildAndRegister();
+
+#### Item Frames #####
+
+// --- Gold
+recipes.remove(<tconstruct:fancy_frame>);
+recipes.addShaped(<tconstruct:fancy_frame>, [
+[<ore:string>, <ore:ringGold>, <ore:string>],
+[<ore:stickGold>, <ore:plateObsidian>, <ore:stickGold>],
+[<ore:stickGold>, <ore:stickGold>, <ore:stickGold>]]);
+
+// --- Aluminium Brass
+
+<tconstruct:fancy_frame:1>.displayName = "Brass Item Frame";
+
+recipes.remove(<tconstruct:fancy_frame:1>);
+recipes.addShaped(<tconstruct:fancy_frame:1>, [
+[<ore:string>, <ore:ringBrass>, <ore:string>],
+[<ore:stickBrass>, <ore:plateObsidian>, <ore:stickBrass>],
+[<ore:stickBrass>, <ore:stickBrass>, <ore:stickBrass>]]);
+
+// --- Cobalt
+recipes.remove(<tconstruct:fancy_frame:2>);
+recipes.addShaped(<tconstruct:fancy_frame:2>, [
+[<ore:string>, <ore:ringCobalt>, <ore:string>],
+[<ore:stickCobalt>, <ore:plateObsidian>, <ore:stickCobalt>],
+[<ore:stickCobalt>, <ore:stickCobalt>, <ore:stickCobalt>]]);
+
+// --- Ardite
+recipes.remove(<tconstruct:fancy_frame:3>);
+recipes.addShaped(<tconstruct:fancy_frame:3>, [
+[<ore:string>, <ore:ringArdite>, <ore:string>],
+[<ore:stickArdite>, <ore:plateObsidian>, <ore:stickArdite>],
+[<ore:stickArdite>, <ore:stickArdite>, <ore:stickArdite>]]);
+
+// --- Manyullyn
+recipes.remove(<tconstruct:fancy_frame:4>);
+recipes.addShaped(<tconstruct:fancy_frame:4>, [
+[<ore:string>, <ore:ringManyullyn>, <ore:string>],
+[<ore:stickManyullyn>, <ore:plateObsidian>, <ore:stickManyullyn>],
+[<ore:stickManyullyn>, <ore:stickManyullyn>, <ore:stickManyullyn>]]);

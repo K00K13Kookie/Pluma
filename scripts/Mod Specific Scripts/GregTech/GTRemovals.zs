@@ -429,7 +429,9 @@ var toRemove = [
 , <gregtech:meta_block_compressed_0:7>
 , <gregtech:meta_item_1:2007>
 , <gregtech:meta_item_1:10007>
-
+, <gregtech:meta_item_1:14033>
+, <gregtech:meta_item_1:14184>
+, <gregtech:meta_item_2:26111> 
 
 //BlueSteel Stuff
 , <gregtech:meta_item_1:2828>
@@ -515,6 +517,36 @@ var toRemove = [
 
 //SiC-SiC Stuff
 ,  <gregtech:meta_item_1:10849>
+
+//Graphite Stuff
+,  <gregtech:meta_block_compressed_12:12>
+,  <gregtech:meta_item_1:10204>
+,  <gregtech:meta_item_1:2204>
+
+
+//Coal Coke Stuff
+,  <immersiveengineering:stone_decoration:3>
+,  <immersiveengineering:material:6>
+,  <railcraft:generic:6>
+,  <thermalfoundation:storage_resource:1>
+,  <thermalfoundation:material:802>
+,  <gregtech:meta_item_1:2357>
+
+//Ardite Stuff
+,  <gregtech:meta_item_1:12850>
+,  <gregtech:meta_item_2:26850>
+,  <gregtech:meta_item_1:10850>
+,  <gregtech:meta_item_1:9850>
+,  <gregtech:meta_block_compressed_53:2>
+
+//Manyullyn Stuff
+,  <gregtech:meta_item_1:12851>
+,  <gregtech:meta_item_1:10851>
+,  <gregtech:meta_block_compressed_53:3>
+,  <gregtech:meta_item_2:26851>
+,  <gregtech:meta_item_1:9851>
+
+,  <jaopca:item_platequartz>
 
 ] as IItemStack[];
 

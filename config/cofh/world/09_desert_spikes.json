@@ -41,7 +41,7 @@
 					"gen-body": "minecraft:air",
 					"smooth": true,
 					"fat": false,
-					"min-height": 60,
+					"min-height": 20,
 					"height-variance": 6,
 					"height-mod": 3,
 					"gen-size": 0,
@@ -104,7 +104,7 @@
 					"gen-body": "minecraft:air",
 					"smooth": false,
 					"fat": true,
-					"min-height": 60,
+					"min-height": 20,
 					"height-variance": 6,
 					"height-mod": 3,
 					"gen-size": 0,
@@ -112,7 +112,7 @@
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 4,
+			"chunk-chance": 2,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",

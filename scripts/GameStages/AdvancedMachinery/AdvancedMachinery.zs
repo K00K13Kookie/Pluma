@@ -425,7 +425,6 @@ var AdvancedMachinery as IItemStack[] = [
 <tconstruct:materials:11>,
 <tconstruct:firewood>,
 <tconstruct:firewood:1>,
-<tconstruct:pattern>,
 <tconstruct:materials:12>,
 <tconstruct:materials:13>,
 <tconstruct:tooltables:4>,

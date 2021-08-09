@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-//Forestry Removals
+//BOP Removals
 var toRemove = [
     <biomesoplenty:gem_ore>
     , <biomesoplenty:gem_ore:1>
@@ -66,4 +66,25 @@ for i in WoodPlanksRemovals {
 recipes.remove(i);  
 }
 
+var WoodSlabsRemovals as IItemStack[] = [
+<biomesoplenty:wood_slab_0>,
+<biomesoplenty:wood_slab_0:1>,
+<biomesoplenty:wood_slab_0:2>,
+<biomesoplenty:wood_slab_0:3>,
+<biomesoplenty:wood_slab_0:4>,
+<biomesoplenty:wood_slab_0:5>,
+<biomesoplenty:wood_slab_0:6>,
+<biomesoplenty:wood_slab_0:7>,
+<biomesoplenty:wood_slab_1>,
+<biomesoplenty:wood_slab_1:7>,
+<biomesoplenty:wood_slab_1:6>,
+<biomesoplenty:wood_slab_1:5>,
+<biomesoplenty:wood_slab_1:4>,
+<biomesoplenty:wood_slab_1:3>,
+<biomesoplenty:wood_slab_1:2>,
+<biomesoplenty:wood_slab_1:1>
+];
 
+for i in WoodSlabsRemovals {
+recipes.remove(i);  
+}

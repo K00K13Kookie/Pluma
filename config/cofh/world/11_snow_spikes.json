@@ -38,7 +38,7 @@
 					"gen-body": "minecraft:air",
 					"smooth": true,
 					"fat": false,
-					"min-height": 60,
+					"min-height": 30,
 					"height-variance": 6,
 					"height-mod": 3,
 					"gen-size": 0,
@@ -53,27 +53,20 @@
 				"value": [
 					"minecraft:ice_flats",
                     "minecraft:ice_mountains",
-                    "minecraft:taiga_hills",
                     "minecraft:cold_beach",
                     "minecraft:taiga_cold",
                     "minecraft:taiga_cold_hills",
-                    "minecraft:redwood_taiga",
-                    "minecraft:redwood_taiga_hills",
                     "biomesoplenty:cold_desert",
-                    "biomesoplenty:coniferous_forest",
                     "biomesoplenty:snowy_coniferous_forest",
                     "biomesoplenty:snowy_forest",
                     "biomesoplenty:tundra",
-                    "biomesoplenty:alps_foothills",
                     "biomesoplenty:glacier",
                     "biomesoplenty:snowy_tundra",
-                    "minecraft:mutated_taiga",
                     "traverse:glacier",
                     "traverse:glacier_spikes",
                     "minecraft:mutated_ice_flats",
                     "traverse:snowy_coniferous_forest",
-                    "minecraft:mutated_taiga_cold",
-                    "minecraft:mutated_redwood_taiga"
+                    "minecraft:mutated_taiga_cold"
 				]
 			},
 			"dimension": "all"

@@ -29,3 +29,12 @@ for item in toRemove {
 
 	recipes.remove(item);
 }
+
+var WoodSlabsRemovals as IItemStack[] = [
+<rustic:olive_slab_item>,
+<rustic:ironwood_slab_item>
+];
+
+for i in WoodSlabsRemovals {
+recipes.remove(i);  
+}
