@@ -1,0 +1,34 @@
+{
+	title: "RF --> Charge?",
+	icon: "railcraft:flux_transformer",
+	x: 14.0d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"You're going to be using some special machines from Railcraft from now on, but, Railcraft utilizes his own Energy Metric, Charge! the Flux Transformer is a 2x2x2 Multiblock structure capable of Converting RF to Charge."
+	],
+	dependencies: [
+		"5ef9cf3a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47b9e458",
+		type: "item",
+		items: [{
+			item: "railcraft:flux_transformer"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6b7acc98",
+		type: "item",
+		items: [{
+			item: "railcraft:wire"
+		}]
+	}],
+	rewards: [{
+		uid: "0c9ef74c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

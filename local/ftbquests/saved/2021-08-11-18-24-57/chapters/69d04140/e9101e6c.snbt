@@ -1,0 +1,27 @@
+{
+	title: "A Big Workshop!",
+	icon: "artisanworktables:workshop 1 5",
+	x: 14.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"In this Pack, you'll need some Special tables to craft certain things troughout your journey! and the Basic Workshop is going to be your friend when crafting these Special Tables!"
+	],
+	dependencies: [
+		"8621f2f6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "545c159f",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b94fa5d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

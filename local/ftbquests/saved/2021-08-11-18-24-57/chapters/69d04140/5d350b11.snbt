@@ -1,0 +1,26 @@
+{
+	title: "A Carpenter's Life",
+	icon: "artisanworktables:workshop 1 1",
+	x: 25.0d,
+	y: -4.0d,
+	shape: "square",
+	text: [
+		"The Carpenter's Workshop is an Essential type of table, it is required to craft most of blocks related to wood, that basically means chests, fences and even a normal crafting table!"
+	],
+	dependencies: [
+		"13615611"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b74415a3",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e17f1dc7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

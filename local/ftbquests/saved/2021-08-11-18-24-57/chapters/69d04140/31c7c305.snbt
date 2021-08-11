@@ -1,0 +1,38 @@
+{
+	title: "Becoming a Master Chef!",
+	x: 27.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "Where's the Lamb Sauce?",
+	text: [
+		"Now that you have a Blacksmith's Workshop, you can also make a Chef's Workshop.",
+		"",
+		"And with this Table, you'll be finally able to make more complex and rewarding Foods, Very Usefull considering the that this Pack has Spice of Life."
+	],
+	dependencies: [
+		"9ecac484"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c52109b6",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "5a554178",
+		type: "item",
+		item: "harvestcraft:redvelvetcakeitem"
+	},
+	{
+		uid: "f62173b1",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "3335f80f",
+		type: "item",
+		item: "tconstruct:moms_spaghetti"
+	}]
+}

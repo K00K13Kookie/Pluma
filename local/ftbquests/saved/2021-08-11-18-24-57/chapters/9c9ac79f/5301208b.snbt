@@ -1,0 +1,45 @@
+{
+	title: "Playing with Lenses",
+	x: 34.5d,
+	y: -6.0d,
+	shape: "rsquare",
+	text: [
+		"The Laser Reconstructor can even have more utilities! if you insert a lens on it it will do something different than Usual! :P",
+		"",
+		"- The Lens of Color will swap Dyes and Change the color of colored items.",
+		"",
+		"- The Lens of Detonation will increse the range of the Laser but it will cause a GIGANTIC Explosion! use with care.",
+		"",
+		"- The Lens of Certain Death will kill a Player or Mob with a single shot, but it will not drop \"Player Kill\" items when a mob is killed.",
+		"",
+		"- The Lens of the Killer does the exact same thing as the Certain Death, exept that it actually drops those \"Player Kill\" items."
+	],
+	dependencies: [
+		"9f184050"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4dbf8b85",
+		type: "item",
+		title: "Choose one to Craft",
+		items: [{
+			item: "actuallyadditions:item_color_lens"
+		},
+		{
+			item: "actuallyadditions:item_explosion_lens"
+		},
+		{
+			item: "actuallyadditions:item_damage_lens"
+		},
+		{
+			item: "actuallyadditions:item_more_damage_lens"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7af430eb",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

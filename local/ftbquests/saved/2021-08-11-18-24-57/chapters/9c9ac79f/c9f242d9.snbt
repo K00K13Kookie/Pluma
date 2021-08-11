@@ -1,0 +1,98 @@
+{
+	title: "Generating Energy with Steam II",
+	icon: "thermalexpansion:augment 1 640",
+	x: 36.48571428571431d,
+	y: 2.6074829931973156d,
+	shape: "square",
+	description: "Lets make an Alternator!",
+	text: [
+		"Now that you have an Steam Turbine that can generate rotational power, lets convert it into actual RF! Make yourself an Alternator and keep in mind that the structure needs to be connected to the Turbine!"
+	],
+	dependencies: [
+		"04df815b"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "96fc234a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 4L
+	},
+	{
+		uid: "823496a5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 6"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e2c6df28",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 2"
+		}],
+		count: 6L
+	},
+	{
+		uid: "f11e408c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f61c7c4a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSheetmetalSteel"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "cd6f2f15",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSteel"
+				}
+			}
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "44aff2a3",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c127472d",
+		type: "item",
+		item: "thermalfoundation:storage_alloy",
+		count: 2,
+		random_bonus: 3
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Crafting Components II [Pumps]",
+	x: 5.9d,
+	y: -0.8d,
+	shape: "square",
+	description: "Used in most Craftings Related to Fluids, and a Functional Component!",
+	text: [
+		"Pumps are used in craftings related to Fluids. But most importantly, you can place it on a Side of a machine to export or import fluids from adjacent blocks."
+	],
+	dependencies: [
+		"40dac07d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f4d06311",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32610"
+		}]
+	}],
+	rewards: [{
+		uid: "28d8f78d",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

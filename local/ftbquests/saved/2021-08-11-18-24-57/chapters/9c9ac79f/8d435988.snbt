@@ -1,0 +1,33 @@
+{
+	title: "An Engineer's way to craft Stuff!",
+	x: 22.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"The Engineer's Workbench is a very useful table that can be used to further make you life crafing materials and components easier! after you craft it",
+		"you'll just need the blueprints!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7cf59bee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7951c792",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c1f63983",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "a7e56289",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierBasicWorkshop"
+	}]
+}

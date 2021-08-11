@@ -1,0 +1,75 @@
+{
+	title: "Obtaining AE Presses!",
+	x: 15.5d,
+	y: 6.0d,
+	description: "Captalism!",
+	text: [
+		"Almost all of AE2 Presses can be buyed at the Store easily! but if you don't want to use your precious money, you can find them normally in Meteorites.",
+		"",
+		"§m(I've tried to insert the parallel press into AE2 Meteors Loottable, But I couldn't)§r"
+	],
+	dependencies: [
+		"638eb87b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4ecb1d84",
+		type: "item",
+		items: [{
+			item: "contenttweaker:inscriberparallelpress"
+		}]
+	},
+	{
+		uid: "e24d41ff",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "66b1b05c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "45fa1f71",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "70b4dc5e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "440ebb3b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7a62dbac",
+		type: "item",
+		item: "threng:material 1 6"
+	},
+	{
+		uid: "4b590936",
+		type: "item",
+		item: "appliedenergistics2:material 1 22"
+	},
+	{
+		uid: "ec335329",
+		type: "item",
+		item: "appliedenergistics2:material 1 24"
+	},
+	{
+		uid: "1dd5c789",
+		type: "item",
+		item: "appliedenergistics2:material 1 23"
+	}]
+}

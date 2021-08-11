@@ -1,0 +1,36 @@
+{
+	title: "Unlucky with Flints?",
+	x: 2.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	description: "Use a Sifter to obtain Flints at a 100% chance!",
+	text: [
+		"If you have at least 2 flints, you may find usefull to craft a Sifter! it can be used to sift the gravel in order to obtain a flint at the cost of its durability! Neat!"
+	],
+	dependencies: [
+		"ffc624bf"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "96c4e16b",
+		type: "item",
+		items: [{
+			item: "artisanworktables:artisans_sifter_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb0873aa",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:flint",
+		count: 2
+	},
+	{
+		uid: "c7acefbb",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

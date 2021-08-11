@@ -1,0 +1,49 @@
+{
+	title: "Moving Items Around!",
+	x: 15.71122448979591d,
+	y: -2.861564625850349d,
+	shape: "square",
+	description: "Finally some sort of Automation!",
+	text: [
+		"Immersive Engineering offers an Item transportation trough Conveyor Belts! they have a bunch of variations to acommodate your personal needs! It is Strongly advised that you make some for basic automations."
+	],
+	dependencies: [
+		"678d07ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca356609",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2e6fcb8b",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:dropper"
+			}
+		}
+	},
+	{
+		uid: "8dd1e964",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:extract"
+			}
+		}
+	},
+	{
+		uid: "9cf35425",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

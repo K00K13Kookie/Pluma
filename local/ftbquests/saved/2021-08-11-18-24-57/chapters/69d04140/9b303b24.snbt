@@ -1,0 +1,33 @@
+{
+	title: "Improving Iron Ingots!",
+	x: 33.75d,
+	y: 0.0d,
+	description: "Before Steel, there is Wrough Iron!",
+	text: [
+		"Steel is a very desirable material to obtain, but, in order to make it, you'll need Wrough Iron!",
+		"",
+		"This Material is also very good to be used in Tools, you should try! :)"
+	],
+	dependencies: [
+		"c93a5957"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "65033f22",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10197"
+		}]
+	}],
+	rewards: [{
+		uid: "b2df5eed",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "d3d2002a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10197",
+		random_bonus: 4
+	}]
+}

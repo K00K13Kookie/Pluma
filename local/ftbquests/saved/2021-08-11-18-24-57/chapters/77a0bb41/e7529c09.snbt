@@ -1,0 +1,31 @@
+{
+	title: "Compressing...",
+	x: 22.0d,
+	y: -4.2d,
+	shape: "square",
+	description: "Plant Balls and some special Plates!",
+	text: [
+		"With a Compressor you'll be able to compress some solids into other ones, and that applies to some Gem Plates."
+	],
+	dependencies: [
+		"946e923b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdce97fd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 210"
+		}]
+	}],
+	rewards: [{
+		uid: "212210b3",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	},
+	{
+		uid: "cd239155",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

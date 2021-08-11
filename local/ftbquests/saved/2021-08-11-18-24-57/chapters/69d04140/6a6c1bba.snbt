@@ -1,0 +1,56 @@
+{
+	title: "Different Ways to store your Items!",
+	icon: "pyrotech:crate",
+	x: -3.0d,
+	y: 0.5d,
+	shape: "rsquare",
+	text: [
+		"- The Stash can store up to 640 items of a single type",
+		"",
+		"- The Shelf can store up to 1 stack per spot on its rows",
+		"",
+		"- The Crate can store up to 1 stack aswell per spot on it",
+		"",
+		"- And the Wood Rack can store 1 stack of ONLY Logs per \"mini log\" on it",
+		"",
+		"",
+		"~ And yes, you can't craft a chest right now, this is the Early game Afterall!"
+	],
+	dependencies: [
+		"924627e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "902535c2",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash"
+		}]
+	},
+	{
+		uid: "b319dc52",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf"
+		}]
+	},
+	{
+		uid: "ae5e738b",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate"
+		}]
+	},
+	{
+		uid: "8a6d4c2f",
+		type: "item",
+		items: [{
+			item: "pyrotech:wood_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "df87f990",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

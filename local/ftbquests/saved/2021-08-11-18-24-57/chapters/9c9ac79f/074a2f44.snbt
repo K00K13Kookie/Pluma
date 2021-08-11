@@ -1,0 +1,32 @@
+{
+	title: "Squeezing things!",
+	icon: "forestry:squeezer",
+	x: 12.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"The Squeezer is a Machine that make possible for you to Squeeze special Oil's and other liquids out of certain Items."
+	],
+	dependencies: [
+		"1958e56c",
+		"3b24df78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34a426c8",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	},
+	{
+		uid: "bfa7a413",
+		type: "fluid",
+		fluid: "canolaoil"
+	}],
+	rewards: [{
+		uid: "4edfd0c6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

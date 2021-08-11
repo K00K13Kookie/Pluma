@@ -1,0 +1,45 @@
+{
+	title: "Engraving your Wafers!",
+	icon: "gregtech:machine 1 430",
+	x: 16.2d,
+	y: -3.0d,
+	shape: "square",
+	description: "Light Sabers are not Laser Swords.",
+	text: [
+		"With a Laser Engraver and a Red Lens (Choose one that you can afford easily) and a LOT of time, you'll be making some Integrated Circuit Wafers.",
+		"",
+		"Remember that you'll need to cutt them afterwards in the Cutting Machine."
+	],
+	dependencies: [
+		"a4223224",
+		"5b8e4038"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d3a3651",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 430"
+		}]
+	},
+	{
+		uid: "9c40f636",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32463"
+		}]
+	},
+	{
+		uid: "01367b85",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32477"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9ce45784",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

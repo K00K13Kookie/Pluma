@@ -1,0 +1,66 @@
+{
+	title: "Elixir of Healing",
+	icon: {
+		id: "rustic:elixir",
+		tag: {
+			ElixirEffects: [{
+				Effect: "minecraft:instant_health",
+				Duration: 1,
+				Amplifier: 0
+			}]
+		}
+	},
+	x: 27.5d,
+	y: 3.5d,
+	shape: "rsquare",
+	text: [
+		"A Cheap way to heal yourself"
+	],
+	dependencies: [
+		"bf158ec7"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "493195aa",
+		type: "item",
+		items: [{
+			item: "rustic:chamomile"
+		}]
+	},
+	{
+		uid: "7161fb94",
+		type: "item",
+		items: [{
+			item: "minecraft:beef"
+		}]
+	},
+	{
+		uid: "40f7530c",
+		type: "item",
+		items: [{
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:instant_health",
+					Duration: 1,
+					Amplifier: 0
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b641510e",
+		type: "item",
+		item: {
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:instant_health",
+					Duration: 1,
+					Amplifier: 0
+				}]
+			}
+		}
+	}]
+}

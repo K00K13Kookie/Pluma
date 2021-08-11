@@ -1,0 +1,78 @@
+{
+	title: "Steam Machines!",
+	x: 14.0d,
+	y: 1.5d,
+	shape: "square",
+	description: "High Pressure = More Steam Used and Faster processing",
+	text: [
+		"GregTech offers you a way to utilize Steam in a \"Compact\" Way! These Machines are not that good tho if compared with the Ones that you have acess with Immersive Engineering.",
+		"",
+		"But now you'll have the Option to make a more compact production utilizing them if you wish, and also keep in mind that there are some Exclusive recipes to them, specially the ones that don't have an Immersive",
+		"Engineering counterpart.",
+		"",
+		"So In general I incentivize you to make them if you actually need them.",
+		"",
+		"Oh and one last tip, with an GT wrench you can click on a side of them to set the \"Air Output\", this is important beacuse they §4CANNOT WORK WITH AN OBSTRUCTED \"AIR OUTPUT\"§f."
+	],
+	dependencies: [
+		"d1298cb3"
+	],
+	tasks: [{
+		uid: "5f996125",
+		type: "item",
+		title: "Maky any one of these machines",
+		items: [{
+			item: "gregtech:machine 1 7"
+		},
+		{
+			item: "gregtech:machine 1 9"
+		},
+		{
+			item: "gregtech:machine 1 11"
+		},
+		{
+			item: "gregtech:machine 1 13"
+		},
+		{
+			item: "gregtech:machine 1 15"
+		},
+		{
+			item: "gregtech:machine 1 17"
+		},
+		{
+			item: "gregtech:machine 1 10"
+		},
+		{
+			item: "gregtech:machine 1 8"
+		},
+		{
+			item: "gregtech:machine 1 14"
+		},
+		{
+			item: "gregtech:machine 1 12"
+		},
+		{
+			item: "gregtech:machine 1 18"
+		},
+		{
+			item: "gregtech:machine 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "a810a5e1",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 8s,
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 34s
+				}],
+				GT.ToolStats: {
+					Material: "steel"
+				}
+			}
+		}
+	}]
+}

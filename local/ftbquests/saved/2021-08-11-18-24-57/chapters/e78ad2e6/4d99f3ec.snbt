@@ -1,0 +1,56 @@
+{
+	title: "Bee Protected",
+	icon: "forestry:apiarist_helmet",
+	x: 0.6802721088435533d,
+	y: -2.612925170068035d,
+	shape: "hexagon",
+	description: "Making an \"Apiarist Armor\"",
+	text: [
+		"With this Clothes you'll be fully protected against Bee Attacks! good when you need to collect a bunch of Wild Bees or maybe to stay in theme with this Mod."
+	],
+	dependencies: [
+		"d9b1b409"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d2f5bb3",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7d948822",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f85facc2",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ce81ac32",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71cf99ee",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

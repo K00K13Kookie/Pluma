@@ -1,0 +1,55 @@
+{
+	title: "Masonry Bricks!",
+	icon: "pyrotech:material 1 16",
+	x: 9.5d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"By crafting Stone bricks and them converting them into Slabs using the Granite Anvil, you can also Use the Anvil Again to get Masonry Bricks! they're a very essential material that you'll be using to construct Early Game machines and also Stone Tools!"
+	],
+	dependencies: [
+		"34d2520b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d174e3f0",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 4"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef2ccf5a",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick 4"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bbfbd342",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab 8 5"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c84c1e91",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 16 16"
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f23c6c43",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

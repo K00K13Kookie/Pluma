@@ -1,0 +1,41 @@
+{
+	title: "Getting some Crazy Dusts!",
+	x: 18.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Using the Rock Crusher can be very rewarding! it can be used to produce and maybe in the future can be used to automate some resources aswell! ",
+		"",
+		"- Try to find some Gneiss in your world, as it can be Crushed to get Biotite Dust!",
+		"",
+		"- Tip: the Rock Crusher is VERY slow and Power Hungry, so maybe is a good choice to setup an Automation using Hoppers and a Furnace, and them,",
+		"let it run while you work in your base."
+	],
+	dependencies: [
+		"c652f0d5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "306a8a6b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBiotite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBiotite"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2b2190c0",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

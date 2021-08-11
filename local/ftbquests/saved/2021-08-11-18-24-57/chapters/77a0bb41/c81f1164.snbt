@@ -1,0 +1,42 @@
+{
+	title: "Mixing Dusts!",
+	icon: "gregtech:machine 1 370",
+	x: 14.2d,
+	y: -0.8d,
+	shape: "square",
+	description: "Hey, come here and Listen to my Mix!",
+	text: [
+		"With a Mixer you can Mix dusts and even Liquids together! But most importantly, right now you'll be using it to produce some Cobalt Brass.",
+		"",
+		"Also here's a Tip, with all of these Machines you'll probally unlock cheaper and better ways to produce some resources, and all of those recipes probally won't be mentioned in Quests",
+		"you'll need to find them for yourself."
+	],
+	dependencies: [
+		"409cd73f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2813f0d7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 370"
+		}]
+	},
+	{
+		uid: "0936625b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10238"
+		}]
+	}],
+	rewards: [{
+		uid: "f00e6653",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "872d5bd4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32721"
+	}]
+}

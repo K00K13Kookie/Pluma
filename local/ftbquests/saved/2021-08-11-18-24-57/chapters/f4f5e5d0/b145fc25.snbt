@@ -1,0 +1,87 @@
+{
+	title: "The Enchanter",
+	icon: "contenttweaker:ertoken",
+	x: -8.0d,
+	y: -5.5d,
+	shape: "diamond",
+	description: "Enchantment Tables and Enchanted Books/Items!",
+	text: [
+		"This Research will grant you acess to:",
+		"",
+		"- Enchanting of your Tools and Armor and the confection of Special Enchanted Books.",
+		"",
+		"Also as a Reminder, Artisan's Tools can be Enchanted!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e4067a20",
+		"b32d3383"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d5ef0b5",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bookshelf"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "bookshelf"
+				}
+			}
+		}],
+		count: 15L,
+		consume_items: true
+	},
+	{
+		uid: "c17436d4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearDiamond"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearDiamond"
+				}
+			}
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "d6cee5e4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateObsidian"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateObsidian"
+				}
+			}
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "63f848de",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "EnchanterResearch"
+	}]
+}

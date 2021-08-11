@@ -1,0 +1,31 @@
+{
+	title: "Metal Bending...",
+	x: 20.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "Hey there Twinkle Toes!",
+	text: [
+		"With a Bending machine you'll be finally able to make Plates and Foils Automatically."
+	],
+	dependencies: [
+		"038af185"
+	],
+	hide: true,
+	tasks: [{
+		uid: "445d3be6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 120"
+		}]
+	}],
+	rewards: [{
+		uid: "7d7ad96b",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "febed33d",
+		type: "item",
+		item: "immersiveengineering:material 1 27"
+	}]
+}

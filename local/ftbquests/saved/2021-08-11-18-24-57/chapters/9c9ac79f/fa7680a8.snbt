@@ -1,0 +1,24 @@
+{
+	title: "Want to learn more? Check out the Wiki!",
+	icon: "forestry:gear_bronze",
+	x: 47.0d,
+	y: -7.0d,
+	shape: "gear",
+	description: "Click here to be redirected to the Wiki!",
+	text: [
+		""
+	],
+	custom_click: "https://github.com/Astavie/ThermalLogistics/wiki",
+	dependencies: [
+		"09960ff8"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "53fa334c",
+		type: "item",
+		items: [],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

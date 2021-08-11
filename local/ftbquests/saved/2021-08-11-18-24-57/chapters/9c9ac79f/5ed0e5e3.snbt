@@ -1,0 +1,44 @@
+{
+	title: "Iron Chests!",
+	icon: "ironchest:iron_chest",
+	x: 23.5d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Store more with less Space!",
+	text: [
+		"By using Upgrades provided by this mod, you'll be able to increse the storage of your chests up to Obsidian Level!",
+		"",
+		"Also, Keep in mind that sometimes, GT Metal chests are better since they can accept covers such as Conveyor's, Robot Arm's and so it goes."
+	],
+	dependencies: [
+		"a9e7810e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ce47caf8",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	},
+	{
+		uid: "5235ba49",
+		type: "item",
+		items: [{
+			item: "ironchest:wood_iron_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2670f50f",
+		type: "item",
+		item: "ironchest:wood_iron_chest_upgrade",
+		random_bonus: 1
+	},
+	{
+		uid: "b234e5a1",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

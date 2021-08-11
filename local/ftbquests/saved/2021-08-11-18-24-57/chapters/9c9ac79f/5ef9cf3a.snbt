@@ -1,0 +1,25 @@
+{
+	title: "The Thermionic Guy",
+	x: 12.5d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"Now that you have Canola Oil, you can use it to produce even more components! including a new Chassis that is used to make this fellow."
+	],
+	dependencies: [
+		"074a2f44"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d938ac67",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "78442077",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Go get yourself a Cup of Coffee! you Deserve it!",
+	icon: "actuallyadditions:block_coffee_machine",
+	x: 33.0d,
+	y: -6.0d,
+	shape: "rsquare",
+	description: "Finally a Decent Quest to Complete!",
+	text: [
+		"With the Coffe machine, some water and some Coffee Beans you'll be able to make a Delicious Coffee! just remember to have a Cup ready and maybe prepare some extra ingredients to improve even more the taste!"
+	],
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "95d32939",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coffee_machine"
+		}]
+	},
+	{
+		uid: "87c067d9",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_coffee"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aafee898",
+		type: "item",
+		item: "actuallyadditions:item_coffee_beans",
+		random_bonus: 15
+	},
+	{
+		uid: "e64d3ddd",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Making a Terminal!",
+	x: 15.5d,
+	y: 9.5d,
+	description: "Now, with a terminal, you pretty much have a Budget AE System!",
+	text: [
+		"If you didn't understand how to set up a simple AE2 Sytem in the previous quests:",
+		"",
+		"- Place the Energy Acceptor and connect it to Power.",
+		"",
+		"- Then Place your ME Drive right next to it and insert some Storage Cells on it.",
+		"",
+		"- And to Finish your Budget AE2 System, place a Glass cable above the ME Drive and connect a Terminal to the cable.",
+		"",
+		"Now you should be able to at least store and Acess all of your items digitally!",
+		"",
+		"For more complex network autocrafting, it is recommended that you progress further on the Mod by making an ME Controller."
+	],
+	dependencies: [
+		"6a821983"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b66e34a",
+		type: "item",
+		title: "Any Terminal that can visualize items",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		},
+		{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	},
+	{
+		uid: "853ce385",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "ea84096b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

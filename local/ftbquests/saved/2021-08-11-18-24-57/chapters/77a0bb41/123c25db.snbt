@@ -1,0 +1,41 @@
+{
+	title: "An Advanced type of Silicon Boule",
+	icon: "gregtech:meta_item_2 1 32439",
+	x: 11.6d,
+	y: -3.0d,
+	shape: "square",
+	description: "A Monocrystalline one!",
+	text: [
+		"In order to make this boule you'll need 32x Silicon Dusts and 1x tiny pile of Gallium in the Blast Furnace.",
+		"",
+		"To get GT's Silicon, Simply Macerate some Sand.",
+		"",
+		"To get Gallium is a complicated process currently, but, you've been given some Gallium in the last Quest. Use it wisely."
+	],
+	dependencies: [
+		"409cd73f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e7571e8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2061"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f97be8ea",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 25"
+		}]
+	},
+	{
+		uid: "f527d39b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32439"
+		}]
+	}]
+}

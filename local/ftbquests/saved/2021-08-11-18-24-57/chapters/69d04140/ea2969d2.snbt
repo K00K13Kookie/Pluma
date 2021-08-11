@@ -1,0 +1,48 @@
+{
+	title: "Chopping down some Wood!",
+	icon: "pyrotech:chopping_block",
+	x: -4.5d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"You might have noticed that you can't get planks from wood by hand, this is where the Chopping block proves to be very useful! simply craft one and start chopping! ",
+		"",
+		"§a- Keep note that better Axes = Less time and more Planks out of a Single Log!§f"
+	],
+	dependencies: [
+		"3afb18f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab8d954e",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "082402b1",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankWood"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "180d3067",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

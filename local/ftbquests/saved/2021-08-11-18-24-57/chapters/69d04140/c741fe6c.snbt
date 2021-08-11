@@ -1,0 +1,38 @@
+{
+	title: "Drying it up!",
+	icon: "pyrotech:drying_rack",
+	x: 0.5d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"Now that you have a Worktable, let's start going after better tools and better ways to take care of ourselves!",
+		"",
+		"- Craft a Drying Rack in order to get some Dried Plant Fibers!"
+	],
+	dependencies: [
+		"a64a82a1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce3793da",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "26f6c42c",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 16 13"
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5a34363",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

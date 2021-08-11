@@ -1,0 +1,54 @@
+{
+	title: "Making Fluix Dust",
+	icon: "appliedenergistics2:material 1 8",
+	x: 13.0d,
+	y: 6.0d,
+	description: "Time to get into AE2!",
+	text: [
+		"Now that you're in the End, grab some Celestial Crystals and look out for a Molybdenum Vein, as it has a high chance to contain Powellite! a resource that can used in combination with Charged Certus and Energium to obtain Fluix Dust!",
+		"",
+		"- oh, and keep in mind that you'll need an Autoclave to make Fluix Crystals."
+	],
+	dependencies: [
+		"e0bf55dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0aabca86",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	},
+	{
+		uid: "48c290fc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32572"
+		}]
+	},
+	{
+		uid: "29b5d04f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2146"
+		}]
+	},
+	{
+		uid: "365d1985",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "8be9975c",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "658d793f",
+		type: "item",
+		item: "contenttweaker:inscriberparallelpress"
+	}]
+}

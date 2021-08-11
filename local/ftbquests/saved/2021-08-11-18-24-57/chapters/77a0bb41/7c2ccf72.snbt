@@ -1,0 +1,54 @@
+{
+	title: "Making Sulfur Trioxide!",
+	x: 16.2d,
+	y: 1.8d,
+	shape: "square",
+	description: "Sulfur dust can be tricky to get currently",
+	text: [
+		"In order to craft some components in the Future we will need some Sulfuric Acid, and the first step in order to get it is to make Sulfur Trioxide using a Chemical Reactor!",
+		"",
+		"There's a Plenty of ways to get Sulfur dust, look at JEI, you can get it from its ore and even from electrolyzing/processing other dusts."
+	],
+	dependencies: [
+		"327ff8dc",
+		"d2af1900"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bfab4e8b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSulfur"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustSulfur"
+				}
+			}
+		}]
+	},
+	{
+		uid: "e29605b2",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "sulfur_trioxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ef849414",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

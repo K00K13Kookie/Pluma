@@ -1,0 +1,105 @@
+{
+	title: "Squeezing Seed Oil!",
+	icon: "immersiveengineering:metal_multiblock 1 7",
+	x: 29.5d,
+	y: 1.5d,
+	shape: "square",
+	description: "All of your Multiblock Farm Production will be consumed! muahaha",
+	text: [
+		"Without joke, if you didn't saw already, you're going to be using the crop themselves on the quest above to make ethanol, and them, now using a Squeezer you'll also gonna be using the seeds to make Seed Oil!",
+		"",
+		"Later on, if you want, you can also use Fish Oil.",
+		"",
+		"Couldn't just I use the Forestry Squeezer for it? Well, it isn't that fast compared with the Industrial Squezer! and the Industrial Squeezer can also handle more recipes."
+	],
+	dependencies: [
+		"ad036ebc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45c675f9",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any scaffoldingSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "scaffoldingSteel"
+				}
+			}
+		}],
+		count: 6L
+	},
+	{
+		uid: "b47bcd51",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "bdaf14f1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "149ce701",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "02ec0439",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c38ab078",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingPiston"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingPiston"
+				}
+			}
+		}]
+	},
+	{
+		uid: "bf573ab9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "3d56b82b",
+		type: "fluid",
+		fluid: "seed.oil"
+	}],
+	rewards: [{
+		uid: "4f714af6",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

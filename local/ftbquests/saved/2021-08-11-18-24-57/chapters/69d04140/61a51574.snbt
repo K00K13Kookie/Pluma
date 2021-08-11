@@ -1,0 +1,49 @@
+{
+	title: "Compacting!",
+	icon: "pyrotech:compacting_bin",
+	x: 8.0d,
+	y: -0.5d,
+	shape: "square",
+	text: [
+		"The Compacting bin is very useful to compact certain resources into blocks!",
+		"",
+		"And in this specific case, lets compact some charcoal into full blocks! (maybe you should complete the quest unlock right on the side of this one, related to charcoal burning)."
+	],
+	dependencies: [
+		"3183afcf",
+		"bf18a842"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61b0fb81",
+		type: "item",
+		items: [{
+			item: "pyrotech:compacting_bin"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "834e2f8b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCharcoal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockCharcoal"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "570ef661",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

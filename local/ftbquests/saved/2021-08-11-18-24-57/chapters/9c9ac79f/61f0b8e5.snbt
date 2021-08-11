@@ -1,0 +1,74 @@
+{
+	title: "Alchemical Rings?",
+	icon: "actuallyadditions:item_potion_ring",
+	x: 34.5d,
+	y: -7.0d,
+	shape: "rsquare",
+	description: "When Potions aren't Enough",
+	text: [
+		"Actually Additions offers you a way to have Potion Effects on Rings! But remember to make some research on Alchemistry first.",
+		"",
+		"The \"Fuel\" for those rings is Blaze Powder, wich cannot be obtained  that easily.",
+		"",
+		"And remember that some rings need to be holded in your Hand and they're charged by mixing blaze powder in the Crafting table."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a9426512",
+		type: "gamestage",
+		stage: "AlchemicalResearch"
+	},
+	{
+		uid: "85359fe4",
+		type: "item",
+		title: "Choose 1 Ring to Craft!",
+		items: [{
+			item: "actuallyadditions:item_potion_ring"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 1"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 2"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 3"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 4"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 5"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 6"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 7"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 8"
+		},
+		{
+			item: "actuallyadditions:item_potion_ring 1 9"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e7a3ed7",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		random_bonus: 15
+	},
+	{
+		uid: "36d1c85c",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

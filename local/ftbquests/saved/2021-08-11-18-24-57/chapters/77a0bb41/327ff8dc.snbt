@@ -1,0 +1,42 @@
+{
+	title: "Getting Chemical!",
+	icon: "gregtech:machine 1 190",
+	x: 16.2d,
+	y: -0.8d,
+	shape: "square",
+	description: "Lets improve our Circuit Boards!",
+	text: [
+		"Now that we are in the LV Age, it is time to start improving the production of our circuits. So the first thing to do is improve those Circuit Boards!",
+		"",
+		"Over time you'll be producing better chemicals in order to make Phenolic Boards more efficiently, but right now, use some of the Glue that you have!"
+	],
+	dependencies: [
+		"409cd73f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8fd39b9f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 190"
+		}]
+	},
+	{
+		uid: "f7658ec8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32447"
+		}]
+	}],
+	rewards: [{
+		uid: "cf05e93d",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32447",
+		count: 2
+	},
+	{
+		uid: "3043a146",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

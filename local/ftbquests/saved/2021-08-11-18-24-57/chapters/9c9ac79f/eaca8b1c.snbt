@@ -1,0 +1,77 @@
+{
+	title: "Arborealis Extraction",
+	icon: {
+		id: "thermalexpansion:device",
+		Damage: 3s,
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		}
+	},
+	x: 29.5d,
+	y: -4.5d,
+	shape: "square",
+	text: [
+		"You've got yourself some Sticky Resing out of Tree right? why not actually \"Automate\" de Process? by using an Arboreal Extractor, you'll get Sap! right now you can't solidify it into Rubber, but further on You'll be capable of it!",
+		"",
+		"And if you want to speed up the process you can use Phyto-Gro!",
+		"",
+		"Also Keep in mind that different trees will give you different \"tree fluids\" and in that instance this is how it works:",
+		"",
+		"- Resin is a fluid obtained from spruce, birch, jungle and acacia trees.",
+		"",
+		"- Sap is a fluid obtained from oak and dark oak trees",
+		"",
+		"So Keep that in mind while using this device."
+	],
+	dependencies: [
+		"1d17fa74"
+	],
+	tasks: [{
+		uid: "f13715f7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 3s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			}
+		}]
+	},
+	{
+		uid: "d652291a",
+		type: "fluid",
+		fluid: "sap"
+	}],
+	rewards: [{
+		uid: "6541a176",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "a18fde24",
+		type: "item",
+		item: "thermalfoundation:fertilizer",
+		count: 5,
+		random_bonus: 5
+	}]
+}

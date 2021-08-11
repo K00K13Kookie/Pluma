@@ -1,0 +1,79 @@
+{
+	title: "Improving our Coal Coke Production!",
+	icon: "gregtech:machine 1 514",
+	x: 9.6d,
+	y: 1.2d,
+	shape: "square",
+	description: "More Coal Coke = More Steam and subsequentially = More Energy!",
+	text: [
+		"With a Pyrolyse Oven you'll be able to make more Coal Coke faster, the catch is that it requires MV Energy tho... but, we can simply work with that by adding",
+		"a Second LV Energy Input on it! in that way you'll be probally able to make it run with LV."
+	],
+	dependencies: [
+		"ded7328b"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "545e8100",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing"
+		}],
+		count: 12L
+	},
+	{
+		uid: "322db963",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 714"
+		}],
+		count: 2L
+	},
+	{
+		uid: "27a97289",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "11ffa12c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "5238e137",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "0a12eacd",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9af876aa",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 514"
+		}]
+	}],
+	rewards: [{
+		uid: "492a3c11",
+		type: "item",
+		item: "gregtech:machine 1 10659"
+	},
+	{
+		uid: "a8de7bf4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

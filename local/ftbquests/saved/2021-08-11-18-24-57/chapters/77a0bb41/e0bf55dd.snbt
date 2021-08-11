@@ -1,0 +1,32 @@
+{
+	title: "Time to go for The End!",
+	icon: "minecraft:end_portal_frame",
+	x: 11.613095238095234d,
+	y: 5.989285714285714d,
+	description: "If you don't feel strong enough, maybe it is good to enchant your stuff?",
+	text: [
+		"Now is pretty much time to go to The End in order to obtain some special resources such as Celestial Crystals!"
+	],
+	dependencies: [
+		"321ee631"
+	],
+	hide: true,
+	tasks: [{
+		uid: "665a98b9",
+		type: "dimension",
+		dim: 1
+	},
+	{
+		uid: "be32859d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:crystal_shard"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8f9dc943",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

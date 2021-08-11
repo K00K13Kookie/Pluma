@@ -1,0 +1,47 @@
+{
+	title: "Producing Wood Tar and Then Refining it to Benzene!",
+	x: 9.577380952380956d,
+	y: 5.98571428571428d,
+	description: "Not the Most Efficient thing currently, but it is Important!",
+	text: [
+		"Now that you have a Pyrolyse Oven, you can make some Wood Tar and them use a Ditillery with the right circuit to produce Benzene!",
+		"",
+		"- Benzene is very important once you start working towards AE2."
+	],
+	dependencies: [
+		"04a3c58c"
+	],
+	tasks: [{
+		uid: "49ad76f6",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "wood_tar",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "f62af63c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "benzene",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "70c6cba4",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Crafting Components III [Emitters]",
+	x: 16.2d,
+	y: -4.2d,
+	shape: "square",
+	description: "A Special Crafting Component, Used in some Recipes!",
+	text: [
+		"The Emitter is Less used Crafing Component in GT, but there are some Key Machines that are crafted using it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"162527d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f78939a1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32680"
+		}]
+	}],
+	rewards: [{
+		uid: "f568bd12",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

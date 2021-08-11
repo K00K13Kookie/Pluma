@@ -1,0 +1,34 @@
+{
+	title: "Charging and Discharging",
+	x: 34.5d,
+	y: -8.0d,
+	shape: "rsquare",
+	text: [
+		"The Energizer will charge items with Energy and the Enervator will take energy from items and store it in its buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "993bd121",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_energizer"
+		}]
+	},
+	{
+		uid: "bd7b40e2",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_enervator"
+		}]
+	}],
+	rewards: [{
+		uid: "93c60786",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

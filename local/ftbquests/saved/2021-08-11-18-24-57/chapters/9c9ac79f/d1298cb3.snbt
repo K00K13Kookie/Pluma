@@ -1,0 +1,30 @@
+{
+	title: "Producing A Little bit of Steam!",
+	x: 12.5d,
+	y: 1.5d,
+	shape: "square",
+	description: "Not the Best Way but not the Only Way!",
+	text: [
+		"Now that you have Canola Oil, you can make some GT Single-Block Boiler's, they will Produce Steam for you if you suply them with Water and Coal.",
+		"",
+		"- DO NOT INSERT WATER INTO AN HOT BOILER! If your Boiler is Hot and has no Water, remove the fuel and let it cool down."
+	],
+	dependencies: [
+		"074a2f44"
+	],
+	tasks: [{
+		uid: "ab6fcd08",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		},
+		{
+			item: "gregtech:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "88ceb089",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

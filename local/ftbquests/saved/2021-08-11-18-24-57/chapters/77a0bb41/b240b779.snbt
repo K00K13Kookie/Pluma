@@ -1,0 +1,55 @@
+{
+	title: "Point to Point Transportation",
+	icon: "appliedenergistics2:part 1 460",
+	x: 16.5d,
+	y: 11.0d,
+	description: "A Powerfull way to move Channels and Other Stuff using AE!",
+	text: [
+		"By Connecting 2 P2P's together, you will be able to compress 32 channels, move them using a glass cable or any ME Cable actually, and them decompress anywhere you like!",
+		"",
+		"- Simply place a P2P-ME in one face of your ME Controller and another one in the final destination that you want.",
+		"",
+		"- Connect both P2P's with some ME Cables, and them, click (shift+right click) on the start point (the P2P Connected to the ME Controller) with an Memory Card to create a Linking combination.",
+		"",
+		"- Then simply finish it all by right clicking with the memory card on the output P2P aswell to finish their connection!",
+		"",
+		"- Oh, and don't forget to craft an Extra Energy Acceptor and place it connected to the glass cables that are currently connecting both of those P2P's. they need power on the line to maintain their connection.",
+		"",
+		"",
+		"And as a bonus, to be more specific about what you've done, you've basically created a SubNetwork of AE in order to Compress the Channels and them Decompress, that basically means that if you connect anything on these",
+		"wires that are connecting the P2P's it will be treated as a separate Network, and thats why you've needed an Extra Energy acceptor aswell."
+	],
+	dependencies: [
+		"3a48a5b1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b3216cf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 460"
+		}],
+		count: 2L
+	},
+	{
+		uid: "89f2f741",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c37c54a6",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 16
+	},
+	{
+		uid: "49871044",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

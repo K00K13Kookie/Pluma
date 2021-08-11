@@ -13,9 +13,9 @@ PitKiln.addRecipe(
   "CompressedSawdustCharcoalEarly",
   <minecraft:coal:1>,
   <thermalfoundation:material:801>,
-  1200,
-  0.33,
-  [<pyrotech:material>],
+  12200,
+  0.25,
+  [<pyrotech:material> * 2, <pyrotech:rock:7> * 2],
   true
 );
 
@@ -25,9 +25,9 @@ PitKiln.addRecipe(
   "WoodChipsCharcoalEarly",
   <minecraft:coal:1>,
   <pyrotech:pile_wood_chips>,
-  1200,
-  0.33,
-  [<pyrotech:material>],
+  12200,
+  0.25,
+  [<pyrotech:material> * 2, <pyrotech:rock:7> * 2],
   true
 );
 

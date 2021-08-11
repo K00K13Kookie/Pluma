@@ -1,0 +1,137 @@
+{
+	title: "Different Types of Tools?",
+	x: 31.5d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"This is where things will probally get a little confusing, but, Artisan's Tools are different from GregTech tools! Artisan's are Tools where you'll be using mostly in their respective tables, but GregTech ones are the ones where you'll be",
+		"Using in Hand Crafting's and such!"
+	],
+	dependencies: [
+		"c93a5957"
+	],
+	tasks: [{
+		uid: "13d74952",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSaw"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolSaw"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7633edf",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolMortar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolMortar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf2d6796",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0782976f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolScrewdriver"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fbed753",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d5391a81",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolFile"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "388fdcc1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bae89d50",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

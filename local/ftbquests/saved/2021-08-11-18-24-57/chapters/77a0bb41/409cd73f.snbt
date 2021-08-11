@@ -1,0 +1,75 @@
+{
+	title: "The Blast Furnace!",
+	icon: "gregtech:machine 1 511",
+	x: 11.6d,
+	y: -0.8d,
+	shape: "square",
+	description: "Anyway, I Started Blasting!",
+	text: [
+		"Finally the Blast Furnace is at your hands! But there's a Twist tho, currently you'll probally won't have acess to Aluminium in order to make those MV Energy Inputs....",
+		"what do we do? Well, make 2 LV Energy Inputs instead, this will provide you with enough power for some Recipes of the Blast Furnace.",
+		"",
+		"And an Important tip when using the Blast furnace is to take a look at JEI for some info about the Heat Required! Better Coils = More Heat."
+	],
+	dependencies: [
+		"ded7328b"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "1f3992db",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 511"
+		}]
+	},
+	{
+		uid: "37bf8911",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "868d6aeb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 711"
+		}]
+	},
+	{
+		uid: "556fcc71",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "34096337",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}],
+		count: 12L
+	},
+	{
+		uid: "ef437a20",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 714"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3acb8390",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "e23eb12e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10025",
+		count: 10
+	}]
+}

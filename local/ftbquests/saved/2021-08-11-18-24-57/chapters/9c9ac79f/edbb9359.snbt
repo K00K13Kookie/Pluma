@@ -1,0 +1,42 @@
+{
+	title: "Easier Nether Materials",
+	x: 33.0d,
+	y: -10.0d,
+	shape: "rsquare",
+	description: "Without even going to the Nether!",
+	text: [
+		"Now that you have an Laser Reconstructor, You'll be able to obtain:",
+		"",
+		"- §nGlowstone§r trough §oRedstone§r.",
+		"",
+		"- §nSoulsand§r trough §oSand§r.",
+		"",
+		"- §nNether Quartz§r trough §oBlack Quartz§r."
+	],
+	dependencies: [
+		"9f184050"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "978f9c74",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	},
+	{
+		uid: "4ce4860d",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}]
+	},
+	{
+		uid: "463ff823",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}]
+}

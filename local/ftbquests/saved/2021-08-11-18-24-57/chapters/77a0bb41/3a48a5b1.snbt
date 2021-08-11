@@ -1,0 +1,31 @@
+{
+	title: "Expanding it to a Full Potential!",
+	x: 15.5d,
+	y: 11.0d,
+	description: "32 Channels, here we go!",
+	text: [
+		"Now it its time to improve your \"Budget AE2 System\" to a Real one, and to do that, Make an ME Controller!",
+		"",
+		"- To make it simple for you to Understand, by not using an ME Controller on your ME Network, you're basically limited to 8 Channels.",
+		"",
+		"- Using a Controller, you'll be able to use up to 32 Channels per side of it.",
+		"",
+		"Almost all Blocks from AE2 Require a Channel to operate, for example, if you use Smart cables instead of Glass cables, you'll be able to notice that your Terminal is using 1 Channel, and your ME Drive aswell."
+	],
+	dependencies: [
+		"485b1119"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ff1fa6a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "a566efe9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

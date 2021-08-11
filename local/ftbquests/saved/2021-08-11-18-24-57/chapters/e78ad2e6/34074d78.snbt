@@ -1,0 +1,29 @@
+{
+	title: "Apiarist's Preparation II",
+	x: -1.5d,
+	y: -0.5d,
+	description: "Cease your resistance!",
+	text: [
+		"Actually this step is not required but it can be good to not get attacked by Bee's right?",
+		"",
+		"The Smoker can be used against hives in order to calm down bees and make your life as an Apiarist not risky."
+	],
+	dependencies: [
+		"451dcdd3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b8cd500",
+		type: "item",
+		items: [{
+			item: "forestry:smoker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f25edf7",
+		type: "item",
+		item: "harvestcraft:corndogitem"
+	}]
+}

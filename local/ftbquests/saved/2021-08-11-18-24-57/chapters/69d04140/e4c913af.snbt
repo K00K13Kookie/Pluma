@@ -1,0 +1,53 @@
+{
+	title: "Agricultural Expansion!",
+	icon: "agricraft:debugger",
+	x: 23.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Lets analyze and Improve the Quality if our Seeds!",
+	text: [
+		"§2§lAgriCraft§r§f is on this Pack! and what that means? well, you now can Analyze your current seeds with an Seed Analyzer, it will tell you 3 things:",
+		"",
+		"§2§l- Growth§r§f",
+		"§9§l- Gain§r§f",
+		"§c§l- Strenght§r§f",
+		"",
+		"If you max out all of this 3 Attributes, the Plant will be at is Best. Also, here's a Quick tip, §c§lStrenght§r§f isn't relevant if you're only going to let that plant alone to be farmed, §c§lStrenght§r§f is only relevant when Breeding."
+	],
+	dependencies: [
+		"13615611"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "4959d4e3",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	},
+	{
+		uid: "20cea584",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}],
+	rewards: [{
+		uid: "ebe28f1a",
+		type: "item",
+		auto: "no_toast",
+		item: "agricraft:trowel"
+	},
+	{
+		uid: "dd9b557e",
+		type: "item",
+		auto: "no_toast",
+		item: "agricraft:clipper"
+	},
+	{
+		uid: "a6d0ed73",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Didn't understand the Explanation?",
+	icon: "minecraft:repeating_command_block",
+	x: 26.0d,
+	y: 3.5d,
+	shape: "gear",
+	description: "Click here to Open a Complete tutorial!",
+	text: [
+		""
+	],
+	custom_click: "https://ftbwiki.org/MultiFarm",
+	dependencies: [
+		"241b5548"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56316c07",
+		type: "item",
+		items: [],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

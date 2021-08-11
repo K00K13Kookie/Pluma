@@ -1,0 +1,34 @@
+{
+	title: "Making your Apiarist Life Easier",
+	x: 10.0d,
+	y: -4.9d,
+	shape: "rsquare",
+	description: "With Gendustry, Everything gets Better!",
+	text: [
+		"Now that you have acess to Honey-Comb Ingots and Also an Assembler, Lets Make Machines from Gendustry!",
+		"",
+		"- The Industrial Apiary uses Energy and can Accept Modules to simulate the Ideal Habitat to a Specific Bee."
+	],
+	dependencies: [
+		"b6f3208b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e70a8749",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "50d65333",
+		type: "item",
+		item: "gendustry:industrial_apiary",
+		random_bonus: 2
+	},
+	{
+		uid: "d7f2f56e",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

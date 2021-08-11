@@ -24,12 +24,16 @@ mods.MobStages.toggleSpawner("minecraft:husk", true);
 mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:witch");
 mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:skeleton");
 mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:skeleton_horse");
+mods.MobStages.addStage("SkeletonSpawnUnlock", "minecraft:stray");
 
 mods.MobStages.toggleSpawner("minecraft:witch", true);
 mods.MobStages.toggleSpawner("minecraft:skeleton", true);
 
 //Creeper (Start Spawning when "Refining it all together!" Quest is Completed)
 mods.MobStages.addStage("CreeperSpawnUnlock", "minecraft:creeper");
+mods.MobStages.addStage("CreeperSpawnUnlock", "thermalfoundation:basalz");
+mods.MobStages.addStage("CreeperSpawnUnlock", "thermalfoundation:blitz");
+mods.MobStages.addStage("CreeperSpawnUnlock", "thermalfoundation:blizz");
 
 mods.MobStages.toggleSpawner("minecraft:creeper", true);
 

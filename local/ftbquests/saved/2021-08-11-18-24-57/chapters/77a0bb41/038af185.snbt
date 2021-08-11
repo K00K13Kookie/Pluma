@@ -1,0 +1,28 @@
+{
+	title: "Tier 1 Circuits!",
+	x: 18.2d,
+	y: -2.0d,
+	shape: "square",
+	description: "More Machines are now Acessible!",
+	text: [
+		"Now that you're able to make at least Tier 1 Circuits, you'll be able to make more and more Machines!"
+	],
+	dependencies: [
+		"59c81253",
+		"327ff8dc"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "4180ef28",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "e8f55300",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

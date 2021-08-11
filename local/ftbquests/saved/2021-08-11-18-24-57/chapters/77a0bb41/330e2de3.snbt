@@ -1,0 +1,82 @@
+{
+	title: "Using all of that Coal Coke!",
+	icon: "gregtech:machine 1 522",
+	x: 7.662925170068043d,
+	y: 1.1937074829932328d,
+	shape: "square",
+	description: "Time to make a Better Boiler!",
+	text: [
+		"Now that you have a Good Production of Coal Coke, time to make a Steel Boiler! with it you'll be able to Burn Coal Cokes and Water to Produce Steam!",
+		"Keep in mind that we are not using the Bronze Boiler beacuse the Steel one can generate more Steam! also, inside of its GUI you can configure the throttle",
+		"that becomes handy if you only have 1 Pyrolyse Oven and it is not keeping up with the Boiler.",
+		"",
+		"Tip: If you need more Steam, Build more Boilers and if you need more coal coke, build more pyrolyse ovens! (later on you can also change the voltage on the Pyrolyse aswell)"
+	],
+	dependencies: [
+		"04a3c58c"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "065ecce8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 522"
+		}]
+	},
+	{
+		uid: "b87d22a1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "0f9372ca",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}]
+	},
+	{
+		uid: "ccd443ca",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "7853c078",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing 1 1"
+		}],
+		count: 7L
+	},
+	{
+		uid: "239b686b",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5288aedc",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 23L
+	}],
+	rewards: [{
+		uid: "9d8f350c",
+		type: "item",
+		item: "fluidtank:blocktank2 1 2"
+	},
+	{
+		uid: "a5afbae2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

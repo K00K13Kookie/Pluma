@@ -1,0 +1,38 @@
+{
+	title: "Chopping even more!",
+	icon: "minecraft:wooden_slab",
+	x: -3.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"Besides making Planks, Chopping blocks can also be used to process more items! and in this case, chop a Plank down to get a Slab out of it!"
+	],
+	dependencies: [
+		"ea2969d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bf62ec08",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slabWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "slabWood"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f28f566",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

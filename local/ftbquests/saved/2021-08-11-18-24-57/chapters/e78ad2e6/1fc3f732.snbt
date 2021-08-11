@@ -1,0 +1,30 @@
+{
+	title: "Shooting Bees at your Enemies!",
+	x: 11.0d,
+	y: -3.7d,
+	shape: "rsquare",
+	description: "Go Get them!",
+	text: [
+		"Some Bees (Specially the Ones added by Career Bees) can interact in the World if you Shoot them with this Special Gun.",
+		"",
+		"- The Gun need to be loaded with Honey Aswell."
+	],
+	dependencies: [
+		"b6f3208b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f1b2a61a",
+		type: "item",
+		items: [{
+			item: "careerbees:beegun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9525f15",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

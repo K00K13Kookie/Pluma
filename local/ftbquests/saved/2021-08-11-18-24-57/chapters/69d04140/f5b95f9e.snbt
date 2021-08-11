@@ -1,0 +1,32 @@
+{
+	title: "Faster Fire Starting!",
+	x: 0.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"You can't make a regular Flint and Steel right now, but, why not Make Matchsticks? They offer you a faster Fire Starting at a moderate cost, you can make them basically by \"Macerating\" Sand with your Current tools."
+	],
+	dependencies: [
+		"1a9ebb00"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d4c3ea9d",
+		type: "item",
+		items: [{
+			item: "pyrotech:matchstick"
+		}]
+	}],
+	rewards: [{
+		uid: "3a9779cf",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "3e1e1427",
+		type: "item",
+		item: "pyrotech:matchstick",
+		random_bonus: 7
+	}]
+}

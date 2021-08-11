@@ -1,0 +1,34 @@
+{
+	title: "Alloying!",
+	icon: "immersiveengineering:stone_device 1 7",
+	x: 29.25d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"The Alloy Kiln is your first way to make Alloys! you'll gonna be using it right now to make bronze! a special resource that can be used to make better tools."
+	],
+	dependencies: [
+		"9ecac484"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "6fc3c2da",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 8 10"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "96d17f5b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "6d033f69",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierBricks"
+	}]
+}

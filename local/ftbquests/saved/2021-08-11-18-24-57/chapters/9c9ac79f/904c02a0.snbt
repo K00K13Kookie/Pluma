@@ -1,0 +1,49 @@
+{
+	title: "Lets get \"Infinite\" Ores!",
+	icon: "immersiveengineering:metal_multiblock 1 11",
+	x: 47.8d,
+	y: -3.6d,
+	shape: "square",
+	description: "With an Excavator you'll be able to mine Ore Veins under the Bedrock!",
+	text: [
+		"A Lot of Tweaking have been done to IE Excavators!",
+		"",
+		"Simply use a Core Sample Drill to find out where are some OreChunks, and them simply build an Excavator on the Same Chunk!",
+		"",
+		"All GT Veins can be found with the Core Sampler.",
+		"",
+		"Consult the Engineer's Manual for More Info About the Veins!"
+	],
+	dependencies: [
+		"45243bf5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e16e431",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	},
+	{
+		uid: "7dda658b",
+		type: "item",
+		title: "Any Core Sample",
+		items: [{
+			item: "immersiveengineering:coresample"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba1d6d1b",
+		type: "item",
+		item: "immersiveengineering:metal_device0 1 2",
+		count: 2
+	},
+	{
+		uid: "6f8bb749",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,202 @@
+{
+	title: "Automating Researchs? O.o",
+	icon: "modularmachinery:blockcontroller",
+	x: 47.8d,
+	y: 0.4d,
+	shape: "square",
+	description: "Lets make our First Research Lab!",
+	text: [
+		"Perhaps you've noticed that some researches now require some \"Knowladge Crystals\" and that is right! for more complex recipes you'll need to condese ",
+		"your knowladge into them, the Lab will greatly make that job for you! Different crystals have different recipes, Simply provide it with everthing that it needs."
+	],
+	dependencies: [
+		"1725995e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5bfe495",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 4"
+		}],
+		count: 65L
+	},
+	{
+		uid: "8c2c49b7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "34be8b6c",
+		type: "item",
+		title: "It can be any Sheetmetal!",
+		items: [{
+			item: "immersiveengineering:sheetmetal"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 1"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 2"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 3"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 4"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 5"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 6"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 7"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 8"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 9"
+		},
+		{
+			item: "immersiveengineering:sheetmetal 1 10"
+		}],
+		count: 41L
+	},
+	{
+		uid: "9c2eac9f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockGlassHardened"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockGlassHardened"
+				}
+			}
+		}],
+		count: 48L
+	},
+	{
+		uid: "f509d5f1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 6"
+		}]
+	},
+	{
+		uid: "5c93c982",
+		type: "item",
+		title: "Any Energy Input",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 3"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 5"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 6"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 7"
+		}]
+	},
+	{
+		uid: "6b272f80",
+		type: "item",
+		title: "Any Item Output",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 1"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 2"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 3"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 4"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 5"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	},
+	{
+		uid: "3115266e",
+		type: "item",
+		title: "Any Item Input",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		},
+		{
+			item: "modularmachinery:blockinputbus 1 1"
+		},
+		{
+			item: "modularmachinery:blockinputbus 1 2"
+		},
+		{
+			item: "modularmachinery:blockinputbus 1 3"
+		},
+		{
+			item: "modularmachinery:blockinputbus 1 4"
+		},
+		{
+			item: "modularmachinery:blockinputbus 1 5"
+		},
+		{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	},
+	{
+		uid: "9cbcb7bd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 8"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2a76060d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "db6ab9df",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "43ad8b02",
+		type: "item",
+		item: "contenttweaker:redcrystal"
+	}]
+}

@@ -1,0 +1,83 @@
+{
+	title: "A Good way to Transfer Stuff!",
+	x: 22.5d,
+	y: 1.5d,
+	shape: "square",
+	description: "Where's Thermal Dynamics for 1.16?",
+	text: [
+		"Now that you have a Metal Press, you can finally start making some Thermal Dynamics Ducts! you can make any of the Basic ones to complete this Quest.",
+		"",
+		"Thermal Ducts need Dense Plates, that's why you've needed a Metal Press First."
+	],
+	dependencies: [
+		"75575132"
+	],
+	tasks: [{
+		uid: "7a5b5b6d",
+		type: "item",
+		title: "Craft Any Basic Duct",
+		items: [{
+			item: "thermaldynamics:duct_32 1 1"
+		},
+		{
+			item: "thermaldynamics:duct_16 1 1"
+		},
+		{
+			item: "thermaldynamics:duct_0"
+		},
+		{
+			item: "thermaldynamics:duct_16"
+		},
+		{
+			item: "thermaldynamics:duct_32"
+		}]
+	},
+	{
+		uid: "78e58885",
+		type: "item",
+		title: "Craft Any Servo",
+		items: [{
+			item: "thermaldynamics:servo"
+		},
+		{
+			item: "thermaldynamics:servo 1 1"
+		},
+		{
+			item: "thermaldynamics:servo 1 2"
+		},
+		{
+			item: "thermaldynamics:servo 1 3"
+		},
+		{
+			item: "thermaldynamics:servo 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "e19754e1",
+		type: "item",
+		auto: "no_toast",
+		item: "thermaldynamics:duct_16 1 1",
+		random_bonus: 5
+	},
+	{
+		uid: "a44e8156",
+		type: "item",
+		auto: "no_toast",
+		item: "thermaldynamics:duct_32 1 1",
+		random_bonus: 5
+	},
+	{
+		uid: "006cf993",
+		type: "item",
+		auto: "no_toast",
+		item: "thermaldynamics:duct_0",
+		random_bonus: 5
+	},
+	{
+		uid: "71cc8532",
+		type: "item",
+		auto: "no_toast",
+		item: "thermaldynamics:servo",
+		random_bonus: 3
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Sewing and Making String!",
+	x: 19.5d,
+	y: 2.0d,
+	shape: "square",
+	description: "Finally lets make a Bed!",
+	text: [
+		"With a Tailor's Workshop you'll finally be able to convert cotton into string, and most importantly, make yourself a Bed!"
+	],
+	dependencies: [
+		"41c0aaaf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b8f7dacd",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop"
+		}]
+	}],
+	rewards: [{
+		uid: "d6cbbedf",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "01ab23d6",
+		type: "item",
+		item: "quark:quilted_wool",
+		random_bonus: 1
+	}]
+}

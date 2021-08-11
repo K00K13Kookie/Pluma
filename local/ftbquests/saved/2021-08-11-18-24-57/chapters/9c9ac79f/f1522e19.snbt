@@ -1,0 +1,76 @@
+{
+	title: "Enhancing Bronze Again!",
+	icon: "gregtech:meta_item_1 1 10230",
+	x: 26.0d,
+	y: -4.5d,
+	shape: "square",
+	description: "Also Rember to Always research for New Tech! (Some Quests may be hidden behind them)",
+	text: [
+		"Just like Black bronze, you're going to be using Bismuth bronze in some recipes aswell!",
+		"",
+		"Simply get Bismuth by crushing some rocks, and them mix it with copper and zinc in your new Arc Furnace!"
+	],
+	dependencies: [
+		"c1fed370"
+	],
+	tasks: [{
+		uid: "d6a890e3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBismuth"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBismuth"
+				}
+			}
+		}]
+	},
+	{
+		uid: "fc2a7c26",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBrass"
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "73ec89ad",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBismuthBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBismuthBronze"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4afe36b0",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

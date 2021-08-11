@@ -1,0 +1,35 @@
+{
+	title: "Have you Seen this Tree?",
+	icon: "integrateddynamics:menril_sapling",
+	x: 45.0d,
+	y: -3.6d,
+	shape: "square",
+	description: "Is is a Menril one!",
+	text: [
+		"Menril Trees will be kinda usefull in future Items and actually will be usefull in the next few quests! Try to find at least one and bring a sapling so you can farm them at your base location."
+	],
+	dependencies: [
+		"4f69a897"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11359fae",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_sapling"
+		}]
+	},
+	{
+		uid: "372da606",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_menril_chunk"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8534fa8f",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

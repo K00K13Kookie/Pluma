@@ -1,0 +1,181 @@
+{
+	title: "The Arc Furnace!",
+	icon: "immersiveengineering:metal_multiblock 1 13",
+	x: 26.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Without doubt, The Arc furnace will be as usefull as the Metal Press in this Stage! you're going to be using it to Alloy Metals and make other Components that require a high temperature."
+	],
+	dependencies: [
+		"75575132"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "7e43e880",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	},
+	{
+		uid: "f00b44fe",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slabSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "slabSheetmetalSteel"
+				}
+			}
+		}],
+		count: 14L
+	},
+	{
+		uid: "bc88ecc6",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSheetmetalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSheetmetalSteel"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "c188071b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSteel"
+				}
+			}
+		}],
+		count: 6L
+	},
+	{
+		uid: "17a3c965",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any scaffoldingSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "scaffoldingSteel"
+				}
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "6c1ea241",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "e829ddbf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "ee16be66",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "1fd44636",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "6a37481e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "11ccb19d",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "roughmobsequip"
+	},
+	{
+		uid: "a524062e",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "roughmobsenchant"
+	},
+	{
+		uid: "516f2284",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 1s,
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 32s
+				},
+				{
+					lvl: 1s,
+					id: 29s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				}],
+				display: {
+					Name: "The Ception"
+				},
+				GT.ToolStats: {
+					Material: "steel",
+					Dmg: 0
+				}
+			}
+		}
+	},
+	{
+		uid: "74e837a3",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "NetherDimensionUnlock"
+	}]
+}

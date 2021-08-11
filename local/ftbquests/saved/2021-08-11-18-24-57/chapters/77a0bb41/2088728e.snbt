@@ -1,0 +1,32 @@
+{
+	title: "Sulfuric Acid!",
+	x: 16.2d,
+	y: 3.8d,
+	shape: "square",
+	description: "Be Careful, do not touch it with your bare hands!",
+	text: [
+		"And them, just by mixing Sulfur Trioxide with Water, you'll finally get Sulfuric Acid! a very Important fluid that you'll be probally be using troughout the Pack."
+	],
+	dependencies: [
+		"7c2ccf72"
+	],
+	tasks: [{
+		uid: "3cdb7c61",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 32762s,
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_acid",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bdfe8002",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

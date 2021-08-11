@@ -1,0 +1,66 @@
+{
+	title: "Elixir of Night Vision",
+	icon: {
+		id: "rustic:elixir",
+		tag: {
+			ElixirEffects: [{
+				Effect: "minecraft:night_vision",
+				Duration: 3600,
+				Amplifier: 0
+			}]
+		}
+	},
+	x: 30.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	text: [
+		"A Cheap way to give nightvision to yourself"
+	],
+	dependencies: [
+		"bf158ec7"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d9d8597a",
+		type: "item",
+		items: [{
+			item: "minecraft:spider_eye"
+		}]
+	},
+	{
+		uid: "8782d520",
+		type: "item",
+		items: [{
+			item: "rustic:mooncap_mushroom"
+		}]
+	},
+	{
+		uid: "35fa3e38",
+		type: "item",
+		items: [{
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:night_vision",
+					Duration: 3600,
+					Amplifier: 0
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6526398c",
+		type: "item",
+		item: {
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:night_vision",
+					Duration: 3600,
+					Amplifier: 0
+				}]
+			}
+		}
+	}]
+}

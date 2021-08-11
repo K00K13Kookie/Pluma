@@ -1,0 +1,33 @@
+{
+	title: "A Better way to Smelt Things!",
+	icon: "pyrotech:stone_kiln",
+	x: 9.515646258503352d,
+	y: 3.7025510204081726d,
+	shape: "square",
+	text: [
+		"Now that You've adquired Masonry Bricks, time to start making some Improvements to our Infrastructure! No More Pit Kiln in your Life!",
+		"",
+		"",
+		"- Just to help you out, all of Pyrotech Machines are Interactive and Don't have a GUI so you'll need to place your items above, and the Fuel (A Burnable Product) on the designated spot bellow.",
+		"",
+		"and Don't forget to use your Tinder to Start the Fire!"
+	],
+	dependencies: [
+		"87623e84"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "005863d4",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad743543",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

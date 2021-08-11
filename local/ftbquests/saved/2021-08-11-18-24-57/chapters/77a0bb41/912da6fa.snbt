@@ -1,0 +1,38 @@
+{
+	title: "Automating Sand!",
+	x: 18.2d,
+	y: -0.6d,
+	shape: "square",
+	description: "Macerator + Cobble Generator = Infinite Sand!",
+	text: [
+		"Now that you have an Macerator and some LV Circuits, lets automate Sand and possibily Glass too! Simply place your cobble gen next to the macerator and provide it with power!",
+		"Also, remember to use a Wrench in order to select the direction of the Output and them mark the Auto Output buttom inside of the machine! this eliminate",
+		"the necessity of having itemducts to extract the results.",
+		"",
+		"Pro Tip: if you want to automate Gravel aswell, use a Forge hammer instead of an Macerator. "
+	],
+	dependencies: [
+		"038af185"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa16baef",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cobblestone_generator"
+		}]
+	},
+	{
+		uid: "d3d8d130",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "88ef4d27",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}
