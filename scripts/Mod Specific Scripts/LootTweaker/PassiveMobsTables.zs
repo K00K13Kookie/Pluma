@@ -60,3 +60,8 @@ import loottweaker.vanilla.loot.Functions;
 <entity:minecraft:chicken>.addDrop(<minecraft:feather> % 50, 1, 2);
 <entity:minecraft:chicken>.addDrop(<minecraft:chicken> % 100, 1, 1);
 <entity:minecraft:chicken>.addPlayerOnlyDrop(<minecraft:egg> % 75, 1, 2);
+
+
+# Villager Lootable =============
+
+<entity:minecraft:villager>.addDrop(<gregtech:meta_item_1:113> % 25, 1, 2);

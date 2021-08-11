@@ -199,7 +199,7 @@ assembler.recipeBuilder()
 //ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 assembler.recipeBuilder()
-    .inputs([<threng:material:4>, <appliedenergistics2:smooth_sky_stone_block> * 4, <ore:crystalPureFluix> * 4, <ore:screwCelestialcrystal> * 4, <ore:circuitGood> * 2])
+    .inputs([<threng:material:4>, <appliedenergistics2:smooth_sky_stone_block> * 4, <ore:crystalPureFluix> * 4, <ore:screwTitanium> * 4, <ore:circuitAdvanced> * 2])
     .fluidInputs([<liquid:superglue> * 250])
     .outputs(<appliedenergistics2:controller>)
     .duration(140)

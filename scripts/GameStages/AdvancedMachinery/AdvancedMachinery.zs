@@ -409,6 +409,12 @@ var AdvancedMachinery as IItemStack[] = [
 <solarflux:solar_panel_6>,
 <solarflux:solar_panel_7>,
 <solarflux:solar_panel_8>,
+<solarflux:photovoltaic_cell_1>,
+<solarflux:photovoltaic_cell_2>,
+<solarflux:photovoltaic_cell_3>,
+<solarflux:photovoltaic_cell_4>,
+<solarflux:photovoltaic_cell_5>,
+<solarflux:photovoltaic_cell_6>,
 
 //Tconstruct
 <tconstruct:soil:1>,

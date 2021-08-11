@@ -21,7 +21,7 @@ recipes.addShaped(<rftools:machineinformation_module> * 1, [[null, <gregtech:mac
 //Machine Frame
 recipes.remove(<rftools:machine_frame>);
 assembler.recipeBuilder()
-    .inputs([<ore:plateStainlessSteel> * 8, <forestry:thermionic_tubes:4> * 2, <ore:gemFlawedLapis> * 2])
+    .inputs([<ore:plateTitanium> * 8, <forestry:thermionic_tubes:4> * 2, <ore:gemFlawedLapis> * 2])
     .fluidInputs([<liquid:soldering_alloy> * 288]) 
     .outputs(<rftools:machine_frame>)
     .duration(160)
@@ -308,7 +308,7 @@ assembler.recipeBuilder()
 
 // Shape Card (Quarry)
 recipes.remove(<rftools:shape_card:2>);
-recipes.addShaped(<rftools:shape_card:2> * 1, [[<ore:plateRestonia>, <ore:craftingToolPickaxe>, <ore:plateRestonia>], [<ore:plateStainlessSteel>, <gregtech:meta_item_2:32448>, <ore:plateStainlessSteel>],[<ore:plateRestonia>, <ore:craftingToolShovel>, <ore:plateRestonia>]]);
+recipes.addShaped(<rftools:shape_card:2> * 1, [[<ore:plateRestonia>, <ore:craftingToolPickaxe>, <ore:plateRestonia>], [<ore:plateTitanium>, <gregtech:meta_item_2:32448>, <ore:plateTitanium>],[<ore:plateRestonia>, <ore:craftingToolShovel>, <ore:plateRestonia>]]);
 
 // Environmental Controller
 recipes.remove(<rftools:environmental_controller>);

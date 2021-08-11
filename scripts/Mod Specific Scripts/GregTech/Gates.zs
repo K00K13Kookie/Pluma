@@ -924,6 +924,7 @@ var AdvancedMachinery as IItemStack[] = [
 <gregtech:machine:2219>,
 <gregtech:machine:2220>,
 <gregtech:machine:2221>,
+<gregtech:machine:2213>,
 
 //CEU
 <gregtech:machine:10646>,
@@ -1020,3 +1021,6 @@ mods.ItemStages.addItemStage("AdvancedMachinery", i);
 
 //Staggin GTAdditions (AKA Shadows of Greg)
 mods.ItemStages.stageModItems("AdvancedMachinery", "gtadditions");
+
+//Staggin GregtechEnergistics
+mods.ItemStages.stageModItems("AdvancedMachinery", "gregtechenergistics");

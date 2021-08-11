@@ -300,24 +300,6 @@ fluid_extractor.recipeBuilder()
 //Obsidian Dust into Ingot
 furnace.addRecipe(<contenttweaker:obsidian_ingot>, <thermalfoundation:material:770>);
 
-// Cauldron Iron
-recipes.remove(<minecraft:cauldron>);
-recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
-// Cauldron Aluminum
-recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateAluminum>, null, <ore:plateAluminum>], [<ore:plateAluminum>, null, <ore:plateAluminum>],[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
-
-// Cauldron Invar
-recipes.addShaped(<minecraft:cauldron> * 2, [[<ore:plateInvar>, null, <ore:plateInvar>], [<ore:plateInvar>, null, <ore:plateInvar>],[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>]]);
-
-// Bucket
-recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket> * 1, [[null, null, null], [<thermalfoundation:material:32>, null, <thermalfoundation:material:32>],[null, <thermalfoundation:material:32>, null]]);
-
-// Bucket
-recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket> * 2, [[null, null, null], [<thermalfoundation:material:352>, null, <thermalfoundation:material:352>],[null, <thermalfoundation:material:352>, null]]);
-
 // Glass Bottle
 recipes.remove(<minecraft:glass_bottle>);
 recipes.addShaped(<minecraft:glass_bottle> * 3, [[null, <ore:slabWood>, null], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>],[null, <ore:blockGlassColorless>, null]]);
@@ -523,6 +505,14 @@ recipes.addShaped(<minecraft:activator_rail> * 2, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<railcraft:rail>, <railcraft:railbed>, <railcraft:rail>],
 [<ore:craftingToolScrewdriver>, <ore:gearRedAlloy>, <ore:craftingToolHardHammer>]]);
+
+// --- Booster Rail
+recipes.remove(<minecraft:golden_rail>);
+
+recipes.addShaped(<minecraft:golden_rail> * 8, [
+[<ore:screwIron>, <ore:plateGold> , <ore:screwIron>],
+[<railcraft:rail:1>, <railcraft:railbed>, <railcraft:rail:1>],
+[<ore:craftingToolScrewdriver>, <ore:plateRedAlloy> , <ore:craftingToolHardHammer>]]);
 
 // --- Noteblock
 recipes.remove(<minecraft:noteblock>);
@@ -1506,6 +1496,27 @@ recipes.addShaped(<minecraft:hopper_minecart>, [
 [null, <minecraft:minecart>, null],
 [null, <ore:craftingToolScrewdriver>, null]]);
 
+// --- Minecart with TNT
+recipes.remove(<minecraft:tnt_minecart>);
+recipes.addShaped(<minecraft:tnt_minecart>, [
+[<ore:craftingToolHardHammer>, <minecraft:tnt>, <ore:craftingToolWrench>],
+[null, <minecraft:minecart>, null],
+[null, <ore:craftingToolScrewdriver>, null]]);
+
+// --- Minecart with Apiary
+recipes.remove(<forestry:cart.beehouse:1>);
+recipes.addShaped(<forestry:cart.beehouse:1>, [
+[<ore:craftingToolHardHammer>, <forestry:apiary>, <ore:craftingToolWrench>],
+[null, <minecraft:minecart>, null],
+[null, <ore:craftingToolScrewdriver>, null]]);
+
+// --- Minecart with Bee House
+recipes.remove(<forestry:cart.beehouse>);
+recipes.addShaped(<forestry:cart.beehouse>, [
+[<ore:craftingToolHardHammer>, <forestry:bee_house>, <ore:craftingToolWrench>],
+[null, <minecraft:minecart>, null],
+[null, <ore:craftingToolScrewdriver>, null]]);
+
 // --- Empty Map
 recipes.remove(<minecraft:map>);
 recipes.addShaped(<minecraft:map>, [
@@ -1554,6 +1565,70 @@ recipes.addShaped(<minecraft:observer> * 1, [[<ore:cobblestone>, <ore:cobbleston
 recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped(<minecraft:fishing_rod> * 1, [[null, null, <ore:stickLongWood>], [null, <ore:stickLongWood>, <ore:string>],[<ore:stickLongWood>, null, <ore:ringIron>]]);
 
+//Ender Eye
+recipes.removeByRecipeName("minecraft:ender_eye");
+
+// Ender Chest
+recipes.remove(<minecraft:ender_chest>);
+recipes.addShaped(<minecraft:ender_chest> * 1, [[<ore:plateEnderEye>, <minecraft:obsidian>, <ore:plateEnderEye>], [<minecraft:obsidian>, <quark:gold_button>, <minecraft:obsidian>],[<ore:plateEnderEye>, <minecraft:obsidian>, <ore:plateEnderEye>]]);
+
+// Purple Shulker Box
+recipes.remove(<minecraft:purple_shulker_box>);
+recipes.addShaped(<minecraft:purple_shulker_box> * 1, [[<ore:screwCelestialcrystal>, <ore:shulkerShell>, <ore:screwCelestialcrystal>], [<ore:foilCelestialcrystal>, <immersiveengineering:wooden_device0:0>, <ore:foilCelestialcrystal>],[<ore:craftingToolScrewdriver>, <ore:shulkerShell>, <ore:craftingToolSaw>]]);
+
+// Minecart
+recipes.remove(<minecraft:minecart>);
+recipes.addShaped(<minecraft:minecart> * 1, [[<ore:screwIron>, null, <ore:screwIron>], [<ore:plateIron>, <ore:quiltedWool>, <ore:plateIron>],[<ore:craftingToolWrench>, <ore:plateDenseIron>, <ore:craftingToolScrewdriver>]]);
+recipes.addShaped(<minecraft:minecart> * 2, [[<ore:screwBronze>, null, <ore:screwBronze>], [<ore:plateBronze>, <ore:quiltedWool>, <ore:plateBronze>],[<ore:craftingToolWrench>, <ore:plateDenseBronze>, <ore:craftingToolScrewdriver>]]);
+recipes.addShaped(<minecraft:minecart> * 4, [[<ore:screwSteel>, null, <ore:screwSteel>], [<ore:plateSteel>, <ore:quiltedWool>, <ore:plateSteel>],[<ore:craftingToolWrench>, <ore:plateDenseSteel>, <ore:craftingToolScrewdriver>]]);
+recipes.addShaped(<minecraft:minecart> * 8, [[<ore:screwStainlessSteel>, null, <ore:screwStainlessSteel>], [<ore:plateStainlessSteel>, <ore:quiltedWool>, <ore:plateStainlessSteel>],[<ore:craftingToolWrench>, <ore:plateDenseStainlessSteel>, <ore:craftingToolScrewdriver>]]);
+
+// Brewing Stand
+recipes.remove(<minecraft:brewing_stand>);
+recipes.addShaped(<minecraft:brewing_stand> * 1, [[<ore:craftingToolFile>, <ore:screwSteelMagnetic>, <ore:craftingToolScrewdriver>], [<ore:screwSteelMagnetic>, <ore:stickBlaze>, <ore:screwSteelMagnetic>],[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>]]);
+
+// Cauldron Iron
+recipes.remove(<minecraft:cauldron>);
+recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateWroughtIron>, null, <ore:plateWroughtIron>], [<ore:plateWroughtIron>, <ore:craftingToolHardHammer>, <ore:plateWroughtIron>],[<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>]]);
+recipes.addShaped(<minecraft:cauldron> * 4, [[<ore:plateAluminium>, null, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:craftingToolHardHammer>, <ore:plateAluminium>],[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+
+// Bucket
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped(<minecraft:bucket> * 1, [[null, null, null], [<ore:plateWroughtIron>, null, <ore:plateWroughtIron>],[<ore:craftingToolHardHammer>, <ore:plateWroughtIron>, <ore:craftingToolFile>]]);
+recipes.addShaped(<minecraft:bucket> * 2, [[null, null, null], [<ore:plateAluminium>, null, <ore:plateAluminium>],[<ore:craftingToolHardHammer>, <ore:plateAluminium>, <ore:craftingToolFile>]]);
+recipes.addShaped(<minecraft:bucket> * 4, [[null, null, null], [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],[<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:craftingToolFile>]]);
+
+##### Metal Bender Recipes #####
+
+//Bucket
+MetalBender.findRecipe(8, [<thermalfoundation:material:32> * 12, <gregtech:meta_item_1:32766>.withTag({Configuration: 1})], null).remove();
+MetalBender.findRecipe(8, [<gregtech:meta_item_1:12197> * 12, <gregtech:meta_item_1:32766>.withTag({Configuration: 1})], null).remove();
+
+MetalBender.recipeBuilder()
+    .inputs(<ore:plateWroughtIron> * 3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<minecraft:bucket>)
+    .duration(400)
+    .EUt(8)
+.buildAndRegister();
+
+MetalBender.recipeBuilder()
+    .inputs(<ore:plateAluminium> * 3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<minecraft:bucket> * 2)
+    .duration(400)
+    .EUt(8)
+.buildAndRegister();
+
+MetalBender.recipeBuilder()
+    .inputs(<ore:plateStainlessSteel> * 3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<minecraft:bucket> * 4)
+    .duration(400)
+    .EUt(8)
+.buildAndRegister();
+
 ##### Alloy Smelter Recipes #####
 
 //Nether Brick
@@ -1567,6 +1642,42 @@ alloy.recipeBuilder()
 .buildAndRegister();
 
 ##### Assembler Recipes #####
+
+// Cauldron
+assembler.recipeBuilder()     
+    .inputs([<ore:plateAluminium> * 7])
+    .property("circuit", 7)
+    .outputs(<minecraft:cauldron> * 4)
+    .duration(700)
+    .EUt(4)
+    .buildAndRegister(); 
+
+//Ender Chest
+assembler.recipeBuilder()     
+    .inputs([<ore:plateEnderEye> * 4, <ore:obsidian> * 2, <quark:gold_button>])
+    .property("circuit", 8)
+    .outputs(<minecraft:ender_chest>)
+    .duration(160)
+    .EUt(32)
+    .buildAndRegister(); 
+
+//Shulker Box
+assembler.recipeBuilder()     
+    .inputs([<ore:screwCelestialcrystal> * 2, <ore:foilCelestialcrystal> * 2, <immersiveengineering:wooden_device0>, <minecraft:shulker_shell>])
+    .property("circuit", 8)
+    .outputs(<minecraft:purple_shulker_box>)
+    .duration(150)
+    .EUt(48)
+    .buildAndRegister(); 
+
+//End Crystal
+recipes.remove(<minecraft:end_crystal>);
+forming.recipeBuilder()     
+    .inputs([<minecraft:ghast_tear>, <ore:gemNetherStar>, <ore:strengthenedGlass> * 7])
+    .outputs(<minecraft:end_crystal>)
+    .duration(120)
+    .EUt(64)
+    .buildAndRegister();
 
 //String
 assembler.recipeBuilder()
@@ -2149,6 +2260,8 @@ lathe.recipeBuilder()
     .duration(120)
     .EUt(98)
     .buildAndRegister(); 
+
+##### Compressor Recipes #####
 
 ##### Artisan's Recipes #####
 

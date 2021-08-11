@@ -709,6 +709,7 @@ var MachineryGates as IItemStack[] = [
 //SolarFlux
 <solarflux:solar_panel_1>,
 <solarflux:solar_panel_2>,
+<solarflux:mirror>,
 
 //ModularMachinery
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primitive_high_furnace"}),
@@ -813,5 +814,11 @@ mods.ItemStages.stageModItems("MachineryEra", "immersivetech");
 # StagginThermal Logistics
 mods.ItemStages.stageModItems("MachineryEra", "thermallogistics");
 
-# Staggin RFTools
+# Staggin RFTools Power
 mods.ItemStages.stageModItems("MachineryEra", "rftoolspower");
+
+# Staggin Scannable
+mods.ItemStages.stageModItems("MachineryEra", "scannable");
+
+# Staggin Natures Compass
+mods.ItemStages.stageModItems("MachineryEra", "naturescompass");

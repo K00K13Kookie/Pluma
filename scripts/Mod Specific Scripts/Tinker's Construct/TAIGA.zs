@@ -2984,6 +2984,14 @@ extruder.recipeBuilder()
 	.EUt(60)
 	.buildAndRegister();
 
+solidifier.recipeBuilder()
+    .fluidInputs(<liquid:palladium> * 1296)
+    .notConsumable(<gregtech:meta_item_1:32308>)
+    .outputs(<taiga:palladium_block>)		
+    .duration(56)
+    .EUt(8)
+    .buildAndRegister();
+
 //Uru
 extruder.recipeBuilder()
 	.inputs(<taiga:uru_ingot> * 9)
