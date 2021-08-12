@@ -300,3 +300,6 @@ recipes.addShaped(<tconstruct:fancy_frame:4>, [
 [<ore:string>, <ore:ringManyullyn>, <ore:string>],
 [<ore:stickManyullyn>, <ore:plateObsidian>, <ore:stickManyullyn>],
 [<ore:stickManyullyn>, <ore:stickManyullyn>, <ore:stickManyullyn>]]);
+
+// --- Crafting Station
+recipes.addShapeless("TConstructCraftingStation", <tconstruct:tooltables>, [<ore:craftingTableWood>, <gregtech:meta_tool:5>]);

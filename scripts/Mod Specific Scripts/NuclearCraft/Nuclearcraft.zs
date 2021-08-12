@@ -299,7 +299,6 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:radiation_badge>,
 <nuclearcraft:radaway>,
 <nuclearcraft:radaway_slow>,
-<nuclearcraft:rad_x>,
 <nuclearcraft:part:4>
     ];
 
