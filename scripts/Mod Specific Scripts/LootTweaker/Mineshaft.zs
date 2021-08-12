@@ -67,7 +67,6 @@ plates.addItemEntryHelper(<thermalfoundation:material:321>, 5, 0, [Functions.set
 plates.addItemEntryHelper(<thermalfoundation:material:320>, 5, 0, [Functions.setCount(1, 2)], []);
 plates.addItemEntryHelper(<contenttweaker:treated_plate>, 3, 0, [Functions.setCount(1, 2)], []);
 plates.addItemEntryHelper(<thermalfoundation:material:356>, 2, 0, [Functions.setCount(1, 2)], []);
-plates.addItemEntryHelper(<ironchest:wood_copper_chest_upgrade>, 1, 0, [Functions.setCount(1, 1)], []);
 plates.addItemEntryHelper(<railcraft:brick_abyssal>, 4, 0, [Functions.setCount(1, 16)], []);
 
 /*

@@ -44,7 +44,6 @@ utils.addItemEntryHelper(<gregtech:meta_item_1:8357>, 2, 0, [Functions.setCount(
 utils.addItemEntryHelper(<gregtech:meta_item_1:8211>, 4, 0, [Functions.setCount(2, 8)], []);
 utils.addItemEntryHelper(<minecraft:coal>, 4, 0, [Functions.setCount(1, 6)], []);
 utils.addItemEntryHelper(<minecraft:coal:1>, 4, 0, [Functions.setCount(2, 6)], []);
-utils.addItemEntryHelper(<ironchest:wood_iron_chest_upgrade>, 2, 0, [Functions.setCount(1, 1)], []);
 utils.addItemEntryHelper(<pyrotech:iron_hammer>, 2, 0, [Functions.setCount(1, 1)], []);
 utils.addItemEntryHelper(<engineersdecor:labeled_crate>, 2, 0, [Functions.setCount(1, 1)], []);
 utils.addItemEntryHelper(<fluidtank:blocktank2>, 3, 0, [Functions.setCount(1, 1)], []);
