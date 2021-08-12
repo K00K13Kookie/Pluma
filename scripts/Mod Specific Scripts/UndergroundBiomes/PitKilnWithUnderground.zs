@@ -14,7 +14,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:1",
+  "Metamorphic1",
   <undergroundbiomes:metamorphic_stone:1>,
   <undergroundbiomes:metamorphic_cobble:1>,
   12200,
@@ -23,7 +23,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:2",
+  "Metamorphic2",
   <undergroundbiomes:metamorphic_stone:2>,
   <undergroundbiomes:metamorphic_cobble:2>,
   12200,
@@ -32,7 +32,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:3",
+  "Metamorphic3",
   <undergroundbiomes:metamorphic_stone:3>,
   <undergroundbiomes:metamorphic_cobble:3>,
   12200,
@@ -41,7 +41,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:4",
+  "Metamorphic4",
   <undergroundbiomes:metamorphic_stone:4>,
   <undergroundbiomes:metamorphic_cobble:4>,
   12200,
@@ -50,7 +50,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:5",
+  "Metamorphic5",
   <undergroundbiomes:metamorphic_stone:5>,
   <undergroundbiomes:metamorphic_cobble:5>,
   12200,
@@ -59,7 +59,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:6",
+  "Metamorphic6",
   <undergroundbiomes:metamorphic_stone:6>,
   <undergroundbiomes:metamorphic_cobble:6>,
   12200,
@@ -68,7 +68,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Metamorphic:7",
+  "Metamorphic7",
   <undergroundbiomes:metamorphic_stone:7>,
   <undergroundbiomes:metamorphic_cobble:7>,
   12200,
@@ -89,7 +89,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:1",
+  "Igneous1",
   <undergroundbiomes:igneous_stone:1>,
   <undergroundbiomes:igneous_cobble:1>,
   12200,
@@ -98,7 +98,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:2",
+  "Igneous2",
   <undergroundbiomes:igneous_stone:2>,
   <undergroundbiomes:igneous_cobble:2>,
   12200,
@@ -107,7 +107,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:3",
+  "Igneous3",
   <undergroundbiomes:igneous_stone:3>,
   <undergroundbiomes:igneous_cobble:3>,
   12200,
@@ -116,7 +116,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:4",
+  "Igneous4",
   <undergroundbiomes:igneous_stone:4>,
   <undergroundbiomes:igneous_cobble:4>,
   12200,
@@ -125,7 +125,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:5",
+  "Igneous5",
   <undergroundbiomes:igneous_stone:5>,
   <undergroundbiomes:igneous_cobble:5>,
   12200,
@@ -134,7 +134,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:6",
+  "Igneous6",
   <undergroundbiomes:igneous_stone:6>,
   <undergroundbiomes:igneous_cobble:6>,
   12200,
@@ -143,7 +143,7 @@ PitKiln.addRecipe(
   true
 );
 PitKiln.addRecipe(
-  "Igneous:7",
+  "Igneous7",
   <undergroundbiomes:igneous_stone:7>,
   <undergroundbiomes:igneous_cobble:7>,
   12200,

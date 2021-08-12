@@ -112,6 +112,9 @@ var ItensRemovidos as IItemStack[] = [
 <tconstruct:materials:14>,
 <tconstruct:fancy_frame:5>,
 <tconstruct:fancy_frame:6>,
+<tconstruct:slimesling:5>,
+<tconstruct:slime_boots:5>,
+
 
 //TAIGA
 <taiga:palladium_ore>,

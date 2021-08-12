@@ -16,7 +16,9 @@
 		"3- Place your Food and Light it up! ",
 		"",
 		"",
-		"And also, PAY ATTENTION! your food can actually burn if you don't collect it on the Right time."
+		"And also, PAY ATTENTION! your food can actually burn if you don't collect it on the Right time.",
+		"",
+		"Oh, and remember that as time goes on, your campfire will accumulate ashes, simply use an Shovel to collect that."
 	],
 	dependencies: [
 		"1a9ebb00"
@@ -46,14 +48,6 @@
 					data: "logWood"
 				}
 			}
-		}],
-		ignore_nbt: 1b
-	},
-	{
-		uid: "2070c77d",
-		type: "item",
-		items: [{
-			item: "pyrotech:apple_baked"
 		}],
 		ignore_nbt: 1b
 	}],
