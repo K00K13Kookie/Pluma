@@ -11,32 +11,32 @@ recipes.remove(<blockcraftery:editable_block>);
 
 recipes.addShaped(<blockcraftery:editable_block> * 2, [
 [<ore:frameGtWood>,<ore:boltWood>, <ore:frameGtWood>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>],
 [<ore:frameGtWood>, <ore:boltWood>, <ore:frameGtWood>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block> * 8, [
 [<ore:frameGtWood>, <ore:screwIron>, <ore:frameGtWood>],
-[<ore:frameGtWood>, <ore:craftingToolScrewdriver>, <ore:frameGtWood>],
+[<ore:frameGtWood>, <gregtech:meta_tool:11>, <ore:frameGtWood>],
 [<ore:frameGtWood>, <ore:screwIron>, <ore:frameGtWood>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block> * 12, [
 [<ore:frameGtWood>, <ore:screwSteel>, <ore:frameGtWood>],
-[<ore:frameGtWood>, <ore:craftingToolScrewdriver>, <ore:frameGtWood>],
+[<ore:frameGtWood>, <gregtech:meta_tool:11>, <ore:frameGtWood>],
 [<ore:frameGtWood>, <ore:screwSteel>, <ore:frameGtWood>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block> * 16, [
 [<ore:frameGtWood>, <ore:screwAluminium>, <ore:frameGtWood>],
-[<ore:frameGtWood>, <ore:craftingToolScrewdriver>, <ore:frameGtWood>],
+[<ore:frameGtWood>, <gregtech:meta_tool:11>, <ore:frameGtWood>],
 [<ore:frameGtWood>, <ore:screwAluminium>, <ore:frameGtWood>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block> * 20, [
 [<ore:frameGtWood>, <ore:screwStainlessSteel>, <ore:frameGtWood>],
-[<ore:frameGtWood>, <ore:craftingToolScrewdriver>, <ore:frameGtWood>],
+[<ore:frameGtWood>, <gregtech:meta_tool:11>, <ore:frameGtWood>],
 [<ore:frameGtWood>, <ore:screwStainlessSteel>, <ore:frameGtWood>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block> * 24, [
 [<ore:frameGtWood>, <ore:screwTitanium>, <ore:frameGtWood>],
-[<ore:frameGtWood>, <ore:craftingToolScrewdriver>, <ore:frameGtWood>],
+[<ore:frameGtWood>, <gregtech:meta_tool:11>, <ore:frameGtWood>],
 [<ore:frameGtWood>, <ore:screwTitanium>, <ore:frameGtWood>]]);
 
 
@@ -45,121 +45,121 @@ recipes.remove(<blockcraftery:editable_block_reinforced>);
 
 recipes.addShaped(<blockcraftery:editable_block_reinforced> * 2, [
 [<ore:frameGtSteel>,<ore:boltWood>, <ore:frameGtSteel>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>],
 [<ore:frameGtSteel>, <ore:boltWood>, <ore:frameGtSteel>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block_reinforced> * 8, [
 [<ore:frameGtSteel>, <ore:screwIron>, <ore:frameGtSteel>],
-[<ore:frameGtSteel>, <ore:craftingToolScrewdriver>, <ore:frameGtSteel>],
+[<ore:frameGtSteel>, <gregtech:meta_tool:11>, <ore:frameGtSteel>],
 [<ore:frameGtSteel>, <ore:screwIron>, <ore:frameGtSteel>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block_reinforced> * 12, [
 [<ore:frameGtSteel>, <ore:screwSteel>, <ore:frameGtSteel>],
-[<ore:frameGtSteel>, <ore:craftingToolScrewdriver>, <ore:frameGtSteel>],
+[<ore:frameGtSteel>, <gregtech:meta_tool:11>, <ore:frameGtSteel>],
 [<ore:frameGtSteel>, <ore:screwSteel>, <ore:frameGtSteel>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block_reinforced> * 16, [
 [<ore:frameGtSteel>, <ore:screwAluminium>, <ore:frameGtSteel>],
-[<ore:frameGtSteel>, <ore:craftingToolScrewdriver>, <ore:frameGtSteel>],
+[<ore:frameGtSteel>, <gregtech:meta_tool:11>, <ore:frameGtSteel>],
 [<ore:frameGtSteel>, <ore:screwAluminium>, <ore:frameGtSteel>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block_reinforced> * 20, [
 [<ore:frameGtSteel>, <ore:screwStainlessSteel>, <ore:frameGtSteel>],
-[<ore:frameGtSteel>, <ore:craftingToolScrewdriver>, <ore:frameGtSteel>],
+[<ore:frameGtSteel>, <gregtech:meta_tool:11>, <ore:frameGtSteel>],
 [<ore:frameGtSteel>, <ore:screwStainlessSteel>, <ore:frameGtSteel>]]);
 // -
 recipes.addShaped(<blockcraftery:editable_block_reinforced> * 24, [
 [<ore:frameGtSteel>, <ore:screwTitanium>, <ore:frameGtSteel>],
-[<ore:frameGtSteel>, <ore:craftingToolScrewdriver>, <ore:frameGtSteel>],
+[<ore:frameGtSteel>, <gregtech:meta_tool:11>, <ore:frameGtSteel>],
 [<ore:frameGtSteel>, <ore:screwTitanium>, <ore:frameGtSteel>]]);
 
 // --- Framed Pressure Plate
 recipes.removeByRecipeName("blockcraftery:editable_pressure_plate");
 
 recipes.addShaped(<blockcraftery:editable_pressure_plate_all> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<blockcraftery:editable_block>, <ore:springIron>, <blockcraftery:editable_block>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // --- Framed Pressure Plate Reinforced
 recipes.removeByRecipeName("blockcraftery:editable_pressure_plate_reinforced");
 
 recipes.addShaped(<blockcraftery:editable_pressure_plate_all_reinforced> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<blockcraftery:editable_block_reinforced>, <ore:springIron>, <blockcraftery:editable_block_reinforced>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // --- Framed Trapdoor
 recipes.remove(<blockcraftery:editable_trap_door>);
 
 recipes.addShaped(<blockcraftery:editable_trap_door>, [
 [<blockcraftery:editable_block>, <minecraft:trapdoor>, <blockcraftery:editable_block>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // --- Framed Trapdoor Reinfoced
 recipes.remove(<blockcraftery:editable_trap_door_reinforced>);
 
 recipes.addShaped(<blockcraftery:editable_trap_door_reinforced>, [
 [<blockcraftery:editable_block_reinforced>, <minecraft:trapdoor>, <blockcraftery:editable_block_reinforced>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // --- Framed Slope
 recipes.remove(<blockcraftery:editable_slant>);
 
-recipes.addShapeless(<blockcraftery:editable_slant> * 2, [<blockcraftery:editable_block>, <ore:craftingToolSaw>]);
+recipes.addShapeless(<blockcraftery:editable_slant> * 2, [<blockcraftery:editable_block>, <gregtech:meta_tool:5>]);
 
 // --- Framed Slope Reinfoced
 recipes.remove(<blockcraftery:editable_slant_reinforced>);
 
-recipes.addShapeless(<blockcraftery:editable_slant_reinforced> * 2, [<blockcraftery:editable_block_reinforced>, <ore:craftingToolSaw>]);
+recipes.addShapeless(<blockcraftery:editable_slant_reinforced> * 2, [<blockcraftery:editable_block_reinforced>, <gregtech:meta_tool:5>]);
 
 // --- Framed Stairs
 recipes.remove(<blockcraftery:editable_stairs>);
 
-recipes.addShapeless(<blockcraftery:editable_stairs>, [<ore:craftingToolSaw>, <blockcraftery:editable_slant>]);
+recipes.addShapeless(<blockcraftery:editable_stairs>, [<gregtech:meta_tool:5>, <blockcraftery:editable_slant>]);
 
 // --- Framed Stairs Reinforced
 recipes.remove(<blockcraftery:editable_stairs_reinforced>);
 
-recipes.addShapeless(<blockcraftery:editable_stairs_reinforced>, [<ore:craftingToolSaw>, <blockcraftery:editable_slant_reinforced>]);
+recipes.addShapeless(<blockcraftery:editable_stairs_reinforced>, [<gregtech:meta_tool:5>, <blockcraftery:editable_slant_reinforced>]);
 
 // ---  Framed Door
 recipes.remove(<blockcraftery:editable_door>);
 
 recipes.addShaped(<blockcraftery:editable_door>, [
 [<blockcraftery:editable_block>, <ore:doorWood>, <blockcraftery:editable_block>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // ---  Framed Door Reinforced
 recipes.remove(<blockcraftery:editable_door_reinforced>);
 
 recipes.addShaped(<blockcraftery:editable_door_reinforced>, [
 [<blockcraftery:editable_block_reinforced>, <ore:doorWood>, <blockcraftery:editable_block_reinforced>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // --- Framed Slab
 recipes.remove(<blockcraftery:editable_slab>);
-recipes.addShapeless(<blockcraftery:editable_slab> * 2, [<ore:craftingToolSaw>, <blockcraftery:editable_block>]);
+recipes.addShapeless(<blockcraftery:editable_slab> * 2, [<gregtech:meta_tool:5>, <blockcraftery:editable_block>]);
 
 // --- Framed Slab Reinforced
 recipes.remove(<blockcraftery:editable_slab_reinforced>);
-recipes.addShapeless(<blockcraftery:editable_slab_reinforced> * 2, [<ore:craftingToolSaw>, <blockcraftery:editable_block_reinforced>]);
+recipes.addShapeless(<blockcraftery:editable_slab_reinforced> * 2, [<gregtech:meta_tool:5>, <blockcraftery:editable_block_reinforced>]);
 
 // --- Framed Outer Corner
 recipes.remove(<blockcraftery:editable_outer_corner>);
-recipes.addShapeless(<blockcraftery:editable_outer_corner> * 2, [<ore:craftingToolSaw>, <blockcraftery:editable_slant>, <ore:craftingToolKnife>]);
+recipes.addShapeless(<blockcraftery:editable_outer_corner> * 2, [<gregtech:meta_tool:5>, <blockcraftery:editable_slant>, <gregtech:meta_tool:17>]);
 
 // --- Framed Outer Corner Reinforced
 recipes.remove(<blockcraftery:editable_outer_corner_reinforced>);
-recipes.addShapeless(<blockcraftery:editable_outer_corner_reinforced> * 2, [<ore:craftingToolSaw>, <blockcraftery:editable_slant_reinforced>, <ore:craftingToolKnife>]);
+recipes.addShapeless(<blockcraftery:editable_outer_corner_reinforced> * 2, [<gregtech:meta_tool:5>, <blockcraftery:editable_slant_reinforced>, <gregtech:meta_tool:17>]);
 
 //Framed Inner Corner
 recipes.remove(<blockcraftery:editable_inner_corner>);
-recipes.addShapeless(<blockcraftery:editable_inner_corner>, [<ore:craftingToolSaw>, <blockcraftery:editable_slant>, <blockcraftery:editable_slant>]);
+recipes.addShapeless(<blockcraftery:editable_inner_corner>, [<gregtech:meta_tool:5>, <blockcraftery:editable_slant>, <blockcraftery:editable_slant>]);
 
 //Framed Inner Corner Reinfoced
 recipes.remove(<blockcraftery:editable_inner_corner_reinforced>);
-recipes.addShapeless(<blockcraftery:editable_inner_corner_reinforced>, [<ore:craftingToolSaw>, <blockcraftery:editable_slant_reinforced>, <blockcraftery:editable_slant_reinforced>]);
+recipes.addShapeless(<blockcraftery:editable_inner_corner_reinforced>, [<gregtech:meta_tool:5>, <blockcraftery:editable_slant_reinforced>, <blockcraftery:editable_slant_reinforced>]);
 
 // --- Assembler Recipes ---
 

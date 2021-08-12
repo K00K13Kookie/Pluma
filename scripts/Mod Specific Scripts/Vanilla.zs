@@ -436,7 +436,7 @@ recipes.remove(<minecraft:trapped_chest>);
 recipes.addShaped(<minecraft:trapped_chest>, [
 [null, <minecraft:tripwire_hook>, null],
 [<ore:screwIron>, <ore:chestWood>, <ore:screwIron>],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Dropper I to III
 recipes.remove(<minecraft:dropper>);
@@ -478,7 +478,7 @@ recipes.addShaped(<minecraft:piston> * 4, [
 recipes.remove(<minecraft:sticky_piston>);
 
 recipes.addShaped(<minecraft:sticky_piston>, [
-[null, <ore:craftingToolSoftHammer>, null],
+[null, <gregtech:meta_tool:7>, null],
 [null, <ore:slimeball>, null],
 [null, <minecraft:piston>, null]]);
 
@@ -488,7 +488,7 @@ recipes.remove(<minecraft:rail>);
 recipes.addShaped(<minecraft:rail> * 8, [
 [<ore:screwIron>, null , <ore:screwIron>],
 [<railcraft:rail>, <railcraft:railbed>, <railcraft:rail>],
-[<ore:craftingToolScrewdriver>, null , <ore:craftingToolHardHammer>]]);
+[<gregtech:meta_tool:11>, null , <gregtech:meta_tool:6>]]);
 
 // --- Detector Rail
 recipes.remove(<minecraft:detector_rail>);
@@ -496,7 +496,7 @@ recipes.remove(<minecraft:detector_rail>);
 recipes.addShaped(<minecraft:detector_rail>, [
 [<ore:screwIron>, <railcraft:detector:1>, <ore:screwIron>],
 [<railcraft:rail>, <railcraft:railbed>, <railcraft:rail>],
-[<ore:craftingToolScrewdriver>, <ore:gearRedAlloy>, <ore:craftingToolHardHammer>]]);
+[<gregtech:meta_tool:11>, <ore:gearRedAlloy>, <gregtech:meta_tool:6>]]);
 
 // --- Activator Rail
 recipes.remove(<minecraft:activator_rail>);
@@ -504,7 +504,7 @@ recipes.remove(<minecraft:activator_rail>);
 recipes.addShaped(<minecraft:activator_rail> * 2, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<railcraft:rail>, <railcraft:railbed>, <railcraft:rail>],
-[<ore:craftingToolScrewdriver>, <ore:gearRedAlloy>, <ore:craftingToolHardHammer>]]);
+[<gregtech:meta_tool:11>, <ore:gearRedAlloy>, <gregtech:meta_tool:6>]]);
 
 // --- Booster Rail
 recipes.remove(<minecraft:golden_rail>);
@@ -512,7 +512,7 @@ recipes.remove(<minecraft:golden_rail>);
 recipes.addShaped(<minecraft:golden_rail> * 8, [
 [<ore:screwIron>, <ore:plateGold> , <ore:screwIron>],
 [<railcraft:rail:1>, <railcraft:railbed>, <railcraft:rail:1>],
-[<ore:craftingToolScrewdriver>, <ore:plateRedAlloy> , <ore:craftingToolHardHammer>]]);
+[<gregtech:meta_tool:11>, <ore:plateRedAlloy> , <gregtech:meta_tool:6>]]);
 
 // --- Noteblock
 recipes.remove(<minecraft:noteblock>);
@@ -534,7 +534,7 @@ recipes.addShaped(<minecraft:jukebox>, [
 recipes.remove(<minecraft:lit_pumpkin>);
 
 recipes.addShapeless(<minecraft:lit_pumpkin>,
-[<minecraft:pumpkin>, <ore:torch>, <ore:craftingToolKnife>]);
+[<minecraft:pumpkin>, <ore:torch>, <gregtech:meta_tool:17>]);
 
 // --- Iron Trapdoor
 recipes.remove(<minecraft:iron_trapdoor>);
@@ -662,21 +662,21 @@ recipes.remove(<quark:obsidian_pressure_plate>);
 
 //Stone
 recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
-[<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>],
+[<ore:screwIron>, <gregtech:meta_tool:6>, <ore:screwIron>],
 [<minecraft:stone_slab>,  <ore:springIron>, <minecraft:stone_slab>],
-[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
+[<ore:screwIron>, <gregtech:meta_tool:11>, <ore:screwIron>]]);
 
 //Iron
 recipes.addShaped(<minecraft:heavy_weighted_pressure_plate> * 2, [
-[<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>],
+[<ore:screwIron>, <gregtech:meta_tool:6>, <ore:screwIron>],
 [<ore:plateIron>,  <ore:springIron>, <ore:plateIron>],
-[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
+[<ore:screwIron>, <gregtech:meta_tool:11>, <ore:screwIron>]]);
 
 //Gold
 recipes.addShaped(<minecraft:light_weighted_pressure_plate> * 2, [
-[<ore:screwGold>, <ore:craftingToolHardHammer>, <ore:screwGold>],
+[<ore:screwGold>, <gregtech:meta_tool:6>, <ore:screwGold>],
 [<ore:plateGold>,  <ore:springGold>, <ore:plateGold>],
-[<ore:screwGold>, <ore:craftingToolScrewdriver>, <ore:screwGold>]]);
+[<ore:screwGold>, <gregtech:meta_tool:11>, <ore:screwGold>]]);
 
 // --- Wooden Pressure Plate for all Types of Wood
 var WoodPressurePlatesRecipesRemoved as IItemStack[] = [
@@ -692,39 +692,39 @@ recipes.remove(i);
 }
 //Oak
 recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab>, <ore:springIron>, <minecraft:wooden_slab>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 //Spruce
 recipes.addShaped(<quark:spruce_pressure_plate> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab:1>, <ore:springIron>, <minecraft:wooden_slab:1>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 //Birch
 recipes.addShaped(<quark:birch_pressure_plate> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab:2>, <ore:springIron>, <minecraft:wooden_slab:2>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 //Jungle
 recipes.addShaped(<quark:jungle_pressure_plate> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab:3>, <ore:springIron>, <minecraft:wooden_slab:3>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 //Acacia
 recipes.addShaped(<quark:acacia_pressure_plate> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab:4>, <ore:springIron>, <minecraft:wooden_slab:4>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 //Dark Oak
 recipes.addShaped(<quark:dark_oak_pressure_plate> * 2, [
-[<ore:boltWood>, <ore:craftingToolHardHammer>, <ore:boltWood>],
+[<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab:5>, <ore:springIron>, <minecraft:wooden_slab:5>],
-[<ore:boltWood>, <ore:craftingToolScrewdriver>, <ore:boltWood>]]);
+[<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
 
 // --- Glass ---
 
@@ -752,8 +752,8 @@ for i in GlassPanesRecipesRemoved {
 recipes.remove(i);
 }
 
-recipes.addShapeless(<minecraft:glass_pane> * 2, [<ore:craftingToolSaw>, <ore:blockGlassColorless>]);
-recipes.addShapeless(<quark:framed_glass_pane> * 2, [<ore:craftingToolSaw>, <quark:framed_glass>]);
+recipes.addShapeless(<minecraft:glass_pane> * 2, [<gregtech:meta_tool:5>, <ore:blockGlassColorless>]);
+recipes.addShapeless(<quark:framed_glass_pane> * 2, [<gregtech:meta_tool:5>, <quark:framed_glass>]);
 
 // --- White Glass
 recipes.addShaped(WhiteGlass * 8, [
@@ -1090,7 +1090,7 @@ recipes.addShapeless(<minecraft:lever>, [<ore:stickWood>, <minecraft:stone_butto
 // --- Button Stone
 recipes.remove(<minecraft:stone_button>);
 
-recipes.addShaped(<minecraft:stone_button> * 2, [[<ore:craftingToolSaw>, <minecraft:stone_pressure_plate>]]);
+recipes.addShaped(<minecraft:stone_button> * 2, [[<gregtech:meta_tool:5>, <minecraft:stone_pressure_plate>]]);
 
 // --- Button Wood for all Types
 
@@ -1102,17 +1102,17 @@ recipes.remove(<quark:acacia_button>);
 recipes.remove(<quark:dark_oak_button>);
 
 //Oak
-recipes.addShaped(<minecraft:wooden_button> * 2, [[<ore:craftingToolSaw>, <minecraft:wooden_pressure_plate>]]);
+recipes.addShaped(<minecraft:wooden_button> * 2, [[<gregtech:meta_tool:5>, <minecraft:wooden_pressure_plate>]]);
 //Spruce
-recipes.addShaped(<quark:spruce_button> * 2, [[<ore:craftingToolSaw>, <quark:spruce_pressure_plate>]]);
+recipes.addShaped(<quark:spruce_button> * 2, [[<gregtech:meta_tool:5>, <quark:spruce_pressure_plate>]]);
 //Birch
-recipes.addShaped(<quark:birch_button> * 2, [[<ore:craftingToolSaw>, <quark:birch_pressure_plate>]]);
+recipes.addShaped(<quark:birch_button> * 2, [[<gregtech:meta_tool:5>, <quark:birch_pressure_plate>]]);
 //Jungle
-recipes.addShaped(<quark:jungle_button> * 2, [[<ore:craftingToolSaw>, <quark:jungle_pressure_plate>]]);
+recipes.addShaped(<quark:jungle_button> * 2, [[<gregtech:meta_tool:5>, <quark:jungle_pressure_plate>]]);
 //Acacia
-recipes.addShaped(<quark:acacia_button> * 2, [[<ore:craftingToolSaw>, <quark:acacia_pressure_plate>]]);
+recipes.addShaped(<quark:acacia_button> * 2, [[<gregtech:meta_tool:5>, <quark:acacia_pressure_plate>]]);
 //Dark Oak
-recipes.addShaped(<quark:dark_oak_button> * 2, [[<ore:craftingToolSaw>, <quark:dark_oak_pressure_plate>]]);
+recipes.addShaped(<quark:dark_oak_button> * 2, [[<gregtech:meta_tool:5>, <quark:dark_oak_pressure_plate>]]);
 
 // --- Redstone Torch
 recipes.remove(<minecraft:redstone_torch>);
@@ -1125,27 +1125,27 @@ recipes.addShapedMirrored(<minecraft:redstone_torch> , [
 recipes.remove(<minecraft:ladder>);
 
 recipes.addShaped(<minecraft:ladder>, [
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>],
 [<ore:string>, <ore:boltWood>, <ore:string>],
-[<ore:stickWood>, <ore:craftingToolSoftHammer>, <ore:stickWood>]]);
+[<ore:stickWood>, <gregtech:meta_tool:7>, <ore:stickWood>]]);
 // -
 recipes.addShaped(<minecraft:ladder> * 2, [
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>],
 [<ore:string>, <ore:screwIron>, <ore:string>],
-[<ore:stickWood>, <ore:craftingToolSoftHammer>, <ore:stickWood>]]);
+[<ore:stickWood>, <gregtech:meta_tool:7>, <ore:stickWood>]]);
 // -
 recipes.addShaped(<minecraft:ladder> * 4, [
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>],
 [<ore:string>, <ore:screwSteel>, <ore:string>],
-[<ore:stickWood>, <ore:craftingToolSoftHammer>, <ore:stickWood>]]);
+[<ore:stickWood>, <gregtech:meta_tool:7>, <ore:stickWood>]]);
 
 // --- Iron Ladder
 recipes.remove(<quark:iron_ladder>);
 
 recipes.addShaped(<quark:iron_ladder> * 2, [
-[<ore:stickIron>, <ore:craftingToolScrewdriver>, <ore:stickIron>],
+[<ore:stickIron>, <gregtech:meta_tool:11>, <ore:stickIron>],
 [<ore:string>, <ore:screwIron>, <ore:string>],
-[<ore:stickIron>, <ore:craftingToolSoftHammer>, <ore:stickIron>]]);
+[<ore:stickIron>, <gregtech:meta_tool:7>, <ore:stickIron>]]);
 
 // --- Sign
 recipes.remove(<minecraft:sign>);
@@ -1179,32 +1179,32 @@ recipes.remove(<thermalfoundation:tool.shears_diamond>);
 //Iron
 recipes.addShaped(<minecraft:shears>, [
 [<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
-[<ore:craftingToolHardHammer>, <ore:ringIron>, <ore:craftingToolFile>],
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+[<gregtech:meta_tool:6>, <ore:ringIron>, <gregtech:meta_tool:9>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>]]);
 
 //Copper
 recipes.addShaped(<thermalfoundation:tool.shears_copper>, [
 [<ore:plateCopper>, <ore:screwCopper>, <ore:plateCopper>],
-[<ore:craftingToolHardHammer>, <ore:ringCopper>, <ore:craftingToolFile>],
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+[<gregtech:meta_tool:6>, <ore:ringCopper>, <gregtech:meta_tool:9>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>]]);
 
 //Steel
 recipes.addShaped(<thermalfoundation:tool.shears_steel>, [
 [<ore:plateSteel>, <ore:screwSteel>, <ore:plateSteel>],
-[<ore:craftingToolHardHammer>, <ore:ringSteel>, <ore:craftingToolFile>],
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+[<gregtech:meta_tool:6>, <ore:ringSteel>, <gregtech:meta_tool:9>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>]]);
 
 //Bronze
 recipes.addShaped(<thermalfoundation:tool.shears_bronze>, [
 [<ore:plateBronze>, <ore:screwBronze>, <ore:plateBronze>],
-[<ore:craftingToolHardHammer>, <ore:ringBronze>, <ore:craftingToolFile>],
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+[<gregtech:meta_tool:6>, <ore:ringBronze>, <gregtech:meta_tool:9>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>]]);
 
 //Diamond
 recipes.addShaped(<thermalfoundation:tool.shears_diamond>, [
 [<ore:plateDiamond>, <ore:gemFlawedDiamond>, <ore:plateDiamond>],
-[<ore:craftingToolHardHammer>, <ore:gearDiamond>, <ore:craftingToolFile>],
-[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+[<gregtech:meta_tool:6>, <ore:gearDiamond>, <gregtech:meta_tool:9>],
+[<ore:stickWood>, <gregtech:meta_tool:11>, <ore:stickWood>]]);
 
 // --- Book
 recipes.remove(<minecraft:book>);
@@ -1233,7 +1233,7 @@ recipes.addShaped(<minecraft:item_frame>, [
 
 // Armor Stand
 recipes.remove(<minecraft:armor_stand>);
-recipes.addShaped(<minecraft:armor_stand> * 1, [[<ore:plateWood>, <ore:stickWood>, <ore:plateWood>], [<ore:boltWood>, <ore:stickWood>, <ore:craftingToolScrewdriver>],[<ore:plateWood>, <minecraft:stone_slab:0>, <ore:plateWood>]]);
+recipes.addShaped(<minecraft:armor_stand> * 1, [[<ore:plateWood>, <ore:stickWood>, <ore:plateWood>], [<ore:boltWood>, <ore:stickWood>, <gregtech:meta_tool:11>],[<ore:plateWood>, <minecraft:stone_slab:0>, <ore:plateWood>]]);
 
 // --- Redstone Lamp
 recipes.remove (<minecraft:redstone_lamp>);
@@ -1261,17 +1261,17 @@ recipes.remove (<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [
 [<ore:plateIron>, <ore:chestWood>, <ore:plateIron>],
 [<ore:plateIron>, <ore:gearIron>, <ore:plateIron>],
-[<ore:craftingToolHardHammer>, <ore:plateIron>, <ore:craftingToolFile>]]);
+[<gregtech:meta_tool:6>, <ore:plateIron>, <gregtech:meta_tool:9>]]);
 
 recipes.addShaped(<minecraft:hopper> * 2, [
 [<ore:plateSteel>, <ore:chestWood>, <ore:plateSteel>],
 [<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>],
-[<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:craftingToolFile>]]);
+[<gregtech:meta_tool:6>, <ore:plateSteel>, <gregtech:meta_tool:9>]]);
 
 recipes.addShaped(<minecraft:hopper> * 4, [
 [<ore:plateStainlessSteel>, <ore:chestWood>, <ore:plateStainlessSteel>],
 [<ore:plateStainlessSteel>, <ore:gearStainlessSteel>, <ore:plateStainlessSteel>],
-[<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:craftingToolFile>]]);
+[<gregtech:meta_tool:6>, <ore:plateStainlessSteel>, <gregtech:meta_tool:9>]]);
 
 // --- Stained Clay Block ---
 
@@ -1455,67 +1455,67 @@ recipes.remove(<minecraft:clock>);
 recipes.addShaped(<minecraft:clock>, [
 [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>],
 [<ore:plateGold>, <minecraft:comparator>, <ore:plateGold>],
-[<ore:craftingToolScrewdriver>, <ore:plateGold>, <ore:craftingToolWrench>]]);
+[<gregtech:meta_tool:11>, <ore:plateGold>, <gregtech:meta_tool:8>]]);
 
 // --- Compass
 recipes.remove(<minecraft:compass>);
 recipes.addShaped(<minecraft:compass>, [
 [<ore:screwIron>, <ore:paneGlass>, <ore:boltIron>],
 [<ore:ringZinc>, <ore:plateIron>, <ore:ringZinc>],
-[<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
+[<ore:boltRedAlloy>, <gregtech:meta_tool:11>, <ore:screwIron>]]);
 
 // --- Pumpkin Seeds
 recipes.remove(<minecraft:pumpkin_seeds>);
-recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>]]);
+recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <gregtech:meta_tool:6>]]);
 
 // --- Melon Seeds
 recipes.remove(<minecraft:melon_seeds>);
-recipes.addShaped(<minecraft:melon_seeds>, [[<minecraft:melon>, <ore:craftingToolHardHammer>]]);
+recipes.addShaped(<minecraft:melon_seeds>, [[<minecraft:melon>, <gregtech:meta_tool:6>]]);
 
 // --- Melon Slices
-recipes.addShapeless(<minecraft:melon> * 6, [<ore:craftingToolKnife>, <minecraft:melon_block>]);
+recipes.addShapeless(<minecraft:melon> * 6, [<gregtech:meta_tool:17>, <minecraft:melon_block>]);
 
 // --- Minecart with Chest
 recipes.remove(<minecraft:chest_minecart>);
 recipes.addShaped(<minecraft:chest_minecart>, [
-[<ore:craftingToolHardHammer>, <ore:chestWood>, <ore:craftingToolWrench>],
+[<gregtech:meta_tool:6>, <ore:chestWood>, <gregtech:meta_tool:8>],
 [null, <minecraft:minecart>, null],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Minecart with Furnace
 recipes.remove(<minecraft:furnace_minecart>);
 recipes.addShaped(<minecraft:furnace_minecart>, [
-[<ore:craftingToolHardHammer>, <minecraft:furnace>, <ore:craftingToolWrench>],
+[<gregtech:meta_tool:6>, <minecraft:furnace>, <gregtech:meta_tool:8>],
 [null, <minecraft:minecart>, null],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Minecart with Hopper
 recipes.remove(<minecraft:hopper_minecart>);
 recipes.addShaped(<minecraft:hopper_minecart>, [
-[<ore:craftingToolHardHammer>, <minecraft:hopper>, <ore:craftingToolWrench>],
+[<gregtech:meta_tool:6>, <minecraft:hopper>, <gregtech:meta_tool:8>],
 [null, <minecraft:minecart>, null],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Minecart with TNT
 recipes.remove(<minecraft:tnt_minecart>);
 recipes.addShaped(<minecraft:tnt_minecart>, [
-[<ore:craftingToolHardHammer>, <minecraft:tnt>, <ore:craftingToolWrench>],
+[<gregtech:meta_tool:6>, <minecraft:tnt>, <gregtech:meta_tool:8>],
 [null, <minecraft:minecart>, null],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Minecart with Apiary
 recipes.remove(<forestry:cart.beehouse:1>);
 recipes.addShaped(<forestry:cart.beehouse:1>, [
-[<ore:craftingToolHardHammer>, <forestry:apiary>, <ore:craftingToolWrench>],
+[<gregtech:meta_tool:6>, <forestry:apiary>, <gregtech:meta_tool:8>],
 [null, <minecraft:minecart>, null],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Minecart with Bee House
 recipes.remove(<forestry:cart.beehouse>);
 recipes.addShaped(<forestry:cart.beehouse>, [
-[<ore:craftingToolHardHammer>, <forestry:bee_house>, <ore:craftingToolWrench>],
+[<gregtech:meta_tool:6>, <forestry:bee_house>, <gregtech:meta_tool:8>],
 [null, <minecraft:minecart>, null],
-[null, <ore:craftingToolScrewdriver>, null]]);
+[null, <gregtech:meta_tool:11>, null]]);
 
 // --- Empty Map
 recipes.remove(<minecraft:map>);
@@ -1529,33 +1529,33 @@ recipes.remove(<minecraft:comparator>);
 recipes.addShaped(<minecraft:comparator>, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<ore:craftingRedstoneTorch>, <ore:plateNetherQuartz>, <ore:craftingRedstoneTorch>],
-[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+[<minecraft:stone_pressure_plate>, <gregtech:meta_tool:11>, <minecraft:stone_pressure_plate>]]);
 // -
 recipes.addShaped(<minecraft:comparator>, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<ore:craftingRedstoneTorch>, <ore:plateCertusQuartz>, <ore:craftingRedstoneTorch>],
-[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+[<minecraft:stone_pressure_plate>, <gregtech:meta_tool:11>, <minecraft:stone_pressure_plate>]]);
 // -
 recipes.addShaped(<minecraft:comparator>, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<ore:craftingRedstoneTorch>, <ore:plateChargedCertusQuartz>, <ore:craftingRedstoneTorch>],
-[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+[<minecraft:stone_pressure_plate>, <gregtech:meta_tool:11>, <minecraft:stone_pressure_plate>]]);
 // -
 recipes.addShaped(<minecraft:comparator>, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<ore:craftingRedstoneTorch>, <ore:plateQuartzite>, <ore:craftingRedstoneTorch>],
-[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+[<minecraft:stone_pressure_plate>, <gregtech:meta_tool:11>, <minecraft:stone_pressure_plate>]]);
 
 // --- Redstone Repeater
 recipes.remove(<minecraft:repeater>);
 recipes.addShaped(<minecraft:repeater>, [
 [<ore:screwIron>, null, <ore:screwIron>],
-[<ore:craftingRedstoneTorch>, <ore:craftingToolScrewdriver>, <ore:craftingRedstoneTorch>],
+[<ore:craftingRedstoneTorch>, <gregtech:meta_tool:11>, <ore:craftingRedstoneTorch>],
 [<minecraft:stone_pressure_plate>, <ore:stickRedAlloy>, <minecraft:stone_pressure_plate>]]);
 
 // --- Flower Pot
 recipes.remove(<minecraft:flower_pot>);
-recipes.addShapeless(<minecraft:flower_pot>, [<ore:craftingToolFile>, <pyrotech:bucket_clay>]);
+recipes.addShapeless(<minecraft:flower_pot>, [<gregtech:meta_tool:9>, <pyrotech:bucket_clay>]);
 
 // Observer
 recipes.remove(<minecraft:observer>);
@@ -1574,30 +1574,30 @@ recipes.addShaped(<minecraft:ender_chest> * 1, [[<ore:plateEnderEye>, <minecraft
 
 // Purple Shulker Box
 recipes.remove(<minecraft:purple_shulker_box>);
-recipes.addShaped(<minecraft:purple_shulker_box> * 1, [[<ore:screwCelestialcrystal>, <ore:shulkerShell>, <ore:screwCelestialcrystal>], [<ore:foilCelestialcrystal>, <immersiveengineering:wooden_device0:0>, <ore:foilCelestialcrystal>],[<ore:craftingToolScrewdriver>, <ore:shulkerShell>, <ore:craftingToolSaw>]]);
+recipes.addShaped(<minecraft:purple_shulker_box> * 1, [[<ore:screwCelestialcrystal>, <ore:shulkerShell>, <ore:screwCelestialcrystal>], [<ore:foilCelestialcrystal>, <immersiveengineering:wooden_device0:0>, <ore:foilCelestialcrystal>],[<gregtech:meta_tool:11>, <ore:shulkerShell>, <gregtech:meta_tool:5>]]);
 
 // Minecart
 recipes.remove(<minecraft:minecart>);
-recipes.addShaped(<minecraft:minecart> * 1, [[<ore:screwIron>, null, <ore:screwIron>], [<ore:plateIron>, <ore:quiltedWool>, <ore:plateIron>],[<ore:craftingToolWrench>, <ore:plateDenseIron>, <ore:craftingToolScrewdriver>]]);
-recipes.addShaped(<minecraft:minecart> * 2, [[<ore:screwBronze>, null, <ore:screwBronze>], [<ore:plateBronze>, <ore:quiltedWool>, <ore:plateBronze>],[<ore:craftingToolWrench>, <ore:plateDenseBronze>, <ore:craftingToolScrewdriver>]]);
-recipes.addShaped(<minecraft:minecart> * 4, [[<ore:screwSteel>, null, <ore:screwSteel>], [<ore:plateSteel>, <ore:quiltedWool>, <ore:plateSteel>],[<ore:craftingToolWrench>, <ore:plateDenseSteel>, <ore:craftingToolScrewdriver>]]);
-recipes.addShaped(<minecraft:minecart> * 8, [[<ore:screwStainlessSteel>, null, <ore:screwStainlessSteel>], [<ore:plateStainlessSteel>, <ore:quiltedWool>, <ore:plateStainlessSteel>],[<ore:craftingToolWrench>, <ore:plateDenseStainlessSteel>, <ore:craftingToolScrewdriver>]]);
+recipes.addShaped(<minecraft:minecart> * 1, [[<ore:screwIron>, null, <ore:screwIron>], [<ore:plateIron>, <ore:quiltedWool>, <ore:plateIron>],[<gregtech:meta_tool:8>, <ore:plateDenseIron>, <gregtech:meta_tool:11>]]);
+recipes.addShaped(<minecraft:minecart> * 2, [[<ore:screwBronze>, null, <ore:screwBronze>], [<ore:plateBronze>, <ore:quiltedWool>, <ore:plateBronze>],[<gregtech:meta_tool:8>, <ore:plateDenseBronze>, <gregtech:meta_tool:11>]]);
+recipes.addShaped(<minecraft:minecart> * 4, [[<ore:screwSteel>, null, <ore:screwSteel>], [<ore:plateSteel>, <ore:quiltedWool>, <ore:plateSteel>],[<gregtech:meta_tool:8>, <ore:plateDenseSteel>, <gregtech:meta_tool:11>]]);
+recipes.addShaped(<minecraft:minecart> * 8, [[<ore:screwStainlessSteel>, null, <ore:screwStainlessSteel>], [<ore:plateStainlessSteel>, <ore:quiltedWool>, <ore:plateStainlessSteel>],[<gregtech:meta_tool:8>, <ore:plateDenseStainlessSteel>, <gregtech:meta_tool:11>]]);
 
 // Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
-recipes.addShaped(<minecraft:brewing_stand> * 1, [[<ore:craftingToolFile>, <ore:screwSteelMagnetic>, <ore:craftingToolScrewdriver>], [<ore:screwSteelMagnetic>, <ore:stickBlaze>, <ore:screwSteelMagnetic>],[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>]]);
+recipes.addShaped(<minecraft:brewing_stand> * 1, [[<gregtech:meta_tool:9>, <ore:screwSteelMagnetic>, <gregtech:meta_tool:11>], [<ore:screwSteelMagnetic>, <ore:stickBlaze>, <ore:screwSteelMagnetic>],[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>]]);
 
 // Cauldron Iron
 recipes.remove(<minecraft:cauldron>);
-recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateWroughtIron>, null, <ore:plateWroughtIron>], [<ore:plateWroughtIron>, <ore:craftingToolHardHammer>, <ore:plateWroughtIron>],[<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>]]);
-recipes.addShaped(<minecraft:cauldron> * 4, [[<ore:plateAluminium>, null, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:craftingToolHardHammer>, <ore:plateAluminium>],[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <gregtech:meta_tool:6>, <ore:plateIron>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:cauldron> * 1, [[<ore:plateWroughtIron>, null, <ore:plateWroughtIron>], [<ore:plateWroughtIron>, <gregtech:meta_tool:6>, <ore:plateWroughtIron>],[<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>]]);
+recipes.addShaped(<minecraft:cauldron> * 4, [[<ore:plateAluminium>, null, <ore:plateAluminium>], [<ore:plateAluminium>, <gregtech:meta_tool:6>, <ore:plateAluminium>],[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 
 // Bucket
 recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket> * 1, [[null, null, null], [<ore:plateWroughtIron>, null, <ore:plateWroughtIron>],[<ore:craftingToolHardHammer>, <ore:plateWroughtIron>, <ore:craftingToolFile>]]);
-recipes.addShaped(<minecraft:bucket> * 2, [[null, null, null], [<ore:plateAluminium>, null, <ore:plateAluminium>],[<ore:craftingToolHardHammer>, <ore:plateAluminium>, <ore:craftingToolFile>]]);
-recipes.addShaped(<minecraft:bucket> * 4, [[null, null, null], [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],[<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:craftingToolFile>]]);
+recipes.addShaped(<minecraft:bucket> * 1, [[null, null, null], [<ore:plateWroughtIron>, null, <ore:plateWroughtIron>],[<gregtech:meta_tool:6>, <ore:plateWroughtIron>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<minecraft:bucket> * 2, [[null, null, null], [<ore:plateAluminium>, null, <ore:plateAluminium>],[<gregtech:meta_tool:6>, <ore:plateAluminium>, <gregtech:meta_tool:9>]]);
+recipes.addShaped(<minecraft:bucket> * 4, [[null, null, null], [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],[<gregtech:meta_tool:6>, <ore:plateStainlessSteel>, <gregtech:meta_tool:9>]]);
 
 ##### Metal Bender Recipes #####
 

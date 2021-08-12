@@ -5,8 +5,9 @@
 	y: 2.0d,
 	shape: "square",
 	text: [
-		"Now lets get some Gravel! you can use it to get flint! 3 gravels = 1 flint",
-		"after that, simply place 1 flint in your Chopping Block and lets get Flint Shards!"
+		"Now lets get some Flints! Use the gravel that you've probally found in the World in order to get it!",
+		"",
+		"- If you're struggling, I Advise you to make a Sifter! it will garantee that you'll obtain a flint out of a Gravel Piece"
 	],
 	dependencies: [
 		"c741fe6c"
@@ -47,6 +48,26 @@
 			item: "pyrotech:material 3 10"
 		}],
 		count: 3L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29946472",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any artisansSifter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "artisansSifter"
+				}
+			}
+		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

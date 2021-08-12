@@ -32,10 +32,10 @@ furnace.addRecipe(<quark:biotite>, <jaopca:item_dustenderbiotite>);
 <ore:dustEnderBiotite>.add(<gregtech:meta_item_1:2250>);
 
 //Biotite Dust with a Mortar
-recipes.addShapeless("BiotiteDustWithMortar", <jaopca:item_dustenderbiotite>, [<ore:gemEnderBiotite>, <ore:craftingToolMortar>]);
+recipes.addShapeless("BiotiteDustWithMortar", <jaopca:item_dustenderbiotite>, [<ore:gemEnderBiotite>, <gregtech:meta_tool:12>]);
 
 //Clay Dust with a Mortar
-recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:ingotClay>, <ore:craftingToolMortar>]);
+recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:ingotClay>, <gregtech:meta_tool:12>]);
 
 //GT Salt into FoodSalt OreDict
 <ore:foodSalt>.add(<gregtech:meta_item_1:2155>);
@@ -46,23 +46,23 @@ recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:in
 
 // Bee Armor Chestplate
 recipes.remove(<careerbees:bee.armor.chest>);
-recipes.addShaped(<careerbees:bee.armor.chest> * 1, [[<gregtech:meta_item_1:12829>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>]]);
+recipes.addShaped(<careerbees:bee.armor.chest> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>]]);
 
 // Bee Armor Helmet
 recipes.remove(<careerbees:bee.armor.head>);
-recipes.addShaped(<careerbees:bee.armor.head> * 1, [[<gregtech:meta_item_1:14829>, null, <gregtech:meta_item_1:14829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12829>]]);
+recipes.addShaped(<careerbees:bee.armor.head> * 1, [[<gregtech:meta_item_1:14829>, null, <gregtech:meta_item_1:14829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>]]);
 
 // Bee Armor Leggings
 recipes.remove(<careerbees:bee.armor.legs>);
-recipes.addShaped(<careerbees:bee.armor.legs> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
+recipes.addShaped(<careerbees:bee.armor.legs> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
 
 // Bee Armor Boots
 recipes.remove(<careerbees:bee.armor.feet>);
-recipes.addShaped(<careerbees:bee.armor.feet> * 1, [[<gregtech:meta_item_1:17829>, null, <gregtech:meta_item_1:17829>], [<gregtech:meta_item_1:12829>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
+recipes.addShaped(<careerbees:bee.armor.feet> * 1, [[<gregtech:meta_item_1:17829>, null, <gregtech:meta_item_1:17829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
 
 // Bee-Bee Gun
 recipes.remove(<careerbees:beegun>);
-recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <ore:craftingToolScrewdriver>, <gregtech:meta_item_1:17829>], [<careerbees:ingredients:10>, <gregtech:meta_item_2:26829>, <gregtech:meta_item_1:12829>],[<careerbees:ingredients:10>, <ore:craftingToolWrench>, <ore:craftingToolHardHammer>]]);
+recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <gregtech:meta_tool:11>, <gregtech:meta_item_1:17829>], [<careerbees:ingredients:10>, <gregtech:meta_item_2:26829>, <gregtech:meta_item_1:12829>],[<careerbees:ingredients:10>, <gregtech:meta_tool:8>, <gregtech:meta_tool:6>]]);
 
 ##### Aluminium/Aluminum Fixes #####
 
@@ -135,21 +135,21 @@ furnace.remove(<thermalfoundation:material:132>);
 
 ## ULV Casing Fix 
 recipes.remove(<gregtech:machine_casing>);
-recipes.addShaped(<gregtech:machine_casing> * 1, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:craftingToolWrench>, <ore:plateSteel>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<gregtech:machine_casing> * 1, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <gregtech:meta_tool:8>, <ore:plateSteel>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 assembler.findRecipe(16, [<ore:plateWroughtIron>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
 assembler.recipeBuilder().inputs([<ore:plateSteel> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing>]).duration(26).EUt(16).buildAndRegister();
 
 ## LV Casing Fix 
 recipes.remove(<gregtech:machine_casing:1>);
-recipes.addShaped(<gregtech:machine_casing:1> * 1, [[<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:craftingToolWrench>, <ore:plateBlackSteel>],[<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>]]);
+recipes.addShaped(<gregtech:machine_casing:1> * 1, [[<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <gregtech:meta_tool:8>, <ore:plateBlackSteel>],[<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>]]);
 
 assembler.findRecipe(16, [<ore:plateSteel>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
 assembler.recipeBuilder().inputs([<ore:plateBlackSteel> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing:1>]).duration(50).EUt(16).buildAndRegister();
 
 ## LuV Casing Fix
 recipes.remove(<gregtech:machine_casing:6>);
-recipes.addShaped(<gregtech:machine_casing:6> * 1, [[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>], [<ore:plateLumium>, <ore:craftingToolWrench>, <ore:plateLumium>],[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>]]);
+recipes.addShaped(<gregtech:machine_casing:6> * 1, [[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>], [<ore:plateLumium>, <gregtech:meta_tool:8>, <ore:plateLumium>],[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>]]);
 
 assembler.findRecipe(16, [<ore:plateChrome>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
 assembler.recipeBuilder().inputs([<ore:plateLumium> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing:6>]).duration(50).EUt(16).buildAndRegister();
@@ -204,7 +204,7 @@ recipes.addShaped(<gregtech:machine:516> * 1, [[<gregtech:machine:50>, <gregtech
 
 // Bronze Chest
 recipes.remove(<gregtech:machine:802>);
-recipes.addShaped(<gregtech:machine:802> * 1, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <ore:craftingToolWrench>, <ore:plateBronze>],[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
+recipes.addShaped(<gregtech:machine:802> * 1, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <gregtech:meta_tool:8>, <ore:plateBronze>],[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
 
 assembler.recipeBuilder()
     .inputs([<ore:plateBronze> * 8])
@@ -216,7 +216,7 @@ assembler.recipeBuilder()
 
 // Steel Chest
 recipes.remove(<gregtech:machine:803>);
-recipes.addShaped(<gregtech:machine:803> * 1, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:craftingToolWrench>, <ore:plateSteel>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<gregtech:machine:803> * 1, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <gregtech:meta_tool:8>, <ore:plateSteel>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 assembler.recipeBuilder()
     .inputs([<ore:plateSteel> * 8])
@@ -228,7 +228,7 @@ assembler.recipeBuilder()
 
 // Stainless Steel Chest
 recipes.remove(<gregtech:machine:804>);
-recipes.addShaped(<gregtech:machine:804> * 1, [[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>], [<ore:plateStainlessSteel>, <ore:craftingToolWrench>, <ore:plateStainlessSteel>],[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<gregtech:machine:804> * 1, [[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>], [<ore:plateStainlessSteel>, <gregtech:meta_tool:8>, <ore:plateStainlessSteel>],[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 
 assembler.recipeBuilder()
     .inputs([<ore:plateStainlessSteel> * 8])
@@ -240,7 +240,7 @@ assembler.recipeBuilder()
 
 // Titanium Chest
 recipes.remove(<gregtech:machine:805>);
-recipes.addShaped(<gregtech:machine:805> * 1, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>], [<ore:plateTitanium>, <ore:craftingToolWrench>, <ore:plateTitanium>],[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
+recipes.addShaped(<gregtech:machine:805> * 1, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>], [<ore:plateTitanium>, <gregtech:meta_tool:8>, <ore:plateTitanium>],[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 
 assembler.recipeBuilder()
     .inputs([<ore:plateTitanium> * 8])
@@ -252,7 +252,7 @@ assembler.recipeBuilder()
 
 // TungstenSteel Chest
 recipes.remove(<gregtech:machine:806>);
-recipes.addShaped(<gregtech:machine:806> * 1, [[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>], [<ore:plateTungstenSteel>, <ore:craftingToolWrench>, <ore:plateTungstenSteel>],[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
+recipes.addShaped(<gregtech:machine:806> * 1, [[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>], [<ore:plateTungstenSteel>, <gregtech:meta_tool:8>, <ore:plateTungstenSteel>],[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
 
 assembler.recipeBuilder()
     .inputs([<ore:plateTungstenSteel> * 8])
@@ -560,7 +560,7 @@ recipes.addShapeless("boronsilicateglassByHand", <gregtech:meta_item_1:2364> * 8
 ##### Glass Rework (Inspired by GTNH)
 
 //Making Quartz Sand
-recipes.addShapeless("EarlyQuartzSand", <gregtech:meta_item_1:2269>, [<ore:sand>, <ore:craftingToolMortar>]);
+recipes.addShapeless("EarlyQuartzSand", <gregtech:meta_item_1:2269>, [<ore:sand>, <gregtech:meta_tool:12>]);
 
 //Making Glass Dust
 recipes.addShapeless("EarlyGlassDust", <gregtech:meta_item_1:2209>, [<ore:dustSmallFlint>, <ore:dustQuartzSand>]);
@@ -587,7 +587,7 @@ IroncladAnvil.removeRecipes(<pyrotech:material:31>);
 
 recipes.remove(<minecraft:flint>);
 recipes.addShapeless("EarlyFlintFromGravel", <minecraft:flint>, [<ore:gravel>, <ore:artisansSifter>.reuse().transformDamage(1)]);
-recipes.addShapeless("EarlyFlintDust", <gregtech:meta_item_1:1220>, [<ore:gemFlint>, <ore:craftingToolMortar>]);
+recipes.addShapeless("EarlyFlintDust", <gregtech:meta_item_1:1220>, [<ore:gemFlint>, <gregtech:meta_tool:12>]);
 
 ##### Steel Fixes #####
 
@@ -635,29 +635,29 @@ blast_furnace.findRecipe(128, [<minecraft:iron_ingot>], [<liquid:oxygen> * 1000]
 
 // Gold Spring
 recipes.remove(<gregtech:meta_item_2:21026>);
-recipes.addShaped(<gregtech:meta_item_2:21026> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongGold>, <ore:craftingToolWireCutter>],[null, <ore:stickLongGold>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:21026> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongGold>, <gregtech:meta_tool:13>],[null, <ore:stickLongGold>, null]]);
 
 // Iron Spring
 recipes.remove(<gregtech:meta_item_2:21033>);
-recipes.addShaped(<gregtech:meta_item_2:21033> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongIron>, <ore:craftingToolWireCutter>],[null, <ore:stickLongIron>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:21033> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongIron>, <gregtech:meta_tool:13>],[null, <ore:stickLongIron>, null]]);
 
 // Titanium Spring
 recipes.remove(<gregtech:meta_item_2:21072>);
-recipes.addShaped(<gregtech:meta_item_2:21072> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongTitanium>, <ore:craftingToolWireCutter>],[null, <ore:stickLongTitanium>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:21072> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongTitanium>, <gregtech:meta_tool:13>],[null, <ore:stickLongTitanium>, null]]);
 
 // Stainless Steel Spring
 recipes.remove(<gregtech:meta_item_2:21183>);
-recipes.addShaped(<gregtech:meta_item_2:21183> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongStainlessSteel>, <ore:craftingToolWireCutter>],[null, <ore:stickLongStainlessSteel>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:21183> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongStainlessSteel>, <gregtech:meta_tool:13>],[null, <ore:stickLongStainlessSteel>, null]]);
 
 // Steel Spring
 recipes.remove(<gregtech:meta_item_2:21184>);
-recipes.addShaped(<gregtech:meta_item_2:21184> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickLongSteel>, <ore:craftingToolWireCutter>],[null, <ore:stickLongSteel>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:21184> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongSteel>, <gregtech:meta_tool:13>],[null, <ore:stickLongSteel>, null]]);
 
 ##### Small Spring Recipes #####
 
 // Steel Small Spring
 recipes.remove(<gregtech:meta_item_2:20184>);
-recipes.addShaped(<gregtech:meta_item_2:20184> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickSteel>, <ore:craftingToolWireCutter>],[null, null, null]]);
+recipes.addShaped(<gregtech:meta_item_2:20184> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickSteel>, <gregtech:meta_tool:13>],[null, null, null]]);
 
 MetalBender.recipeBuilder()
     .inputs(<ore:stickSteel>)
@@ -669,7 +669,7 @@ MetalBender.recipeBuilder()
 
 // Stainless Steel Small Spring
 recipes.remove(<gregtech:meta_item_2:20183>);
-recipes.addShaped(<gregtech:meta_item_2:20183> * 1, [[null, <ore:craftingToolSaw>, null], [<ore:craftingToolFile>, <ore:stickStainlessSteel>, <ore:craftingToolWireCutter>],[null, null, null]]);
+recipes.addShaped(<gregtech:meta_item_2:20183> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickStainlessSteel>, <gregtech:meta_tool:13>],[null, null, null]]);
 
 MetalBender.recipeBuilder()
     .inputs(<ore:stickStainlessSteel>)

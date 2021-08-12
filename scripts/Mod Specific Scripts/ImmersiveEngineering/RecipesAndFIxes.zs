@@ -153,7 +153,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 
 // Fluid Pipe
 recipes.remove(<immersiveengineering:metal_device1:6>);
-recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:craftingToolFile>, null, <ore:craftingToolHardHammer>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<gregtech:meta_tool:9>, null, <gregtech:meta_tool:6>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 # Immersive Wires using different Cutter ===================================
 
@@ -306,35 +306,35 @@ recipes.addShaped(<immersiveengineering:wooden_device0:0> * 1, [[<ore:boltTreate
 recipes.remove(<engineersdecor:metal_rung_ladder>);
 
 recipes.addShaped(<engineersdecor:metal_rung_ladder> * 4, [
-[<ore:stickSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>],
+[<ore:stickSteel>, <gregtech:meta_tool:11>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:screwSteel>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:craftingToolSoftHammer>, <ore:stickSteel>]]);
+[<ore:stickSteel>, <gregtech:meta_tool:7>, <ore:stickSteel>]]);
 
 // --- Treated Wood Ladder
 recipes.remove(<engineersdecor:treated_wood_ladder>);
 
 recipes.addShaped(<engineersdecor:treated_wood_ladder>, [
-[<ore:stickTreatedWood>, <ore:craftingToolScrewdriver>, <ore:stickTreatedWood>],
+[<ore:stickTreatedWood>, <gregtech:meta_tool:11>, <ore:stickTreatedWood>],
 [<ore:string>, <ore:boltWood>, <ore:string>],
-[<ore:stickTreatedWood>, <ore:craftingToolSoftHammer>, <ore:stickTreatedWood>]]);
+[<ore:stickTreatedWood>, <gregtech:meta_tool:7>, <ore:stickTreatedWood>]]);
 // -
 recipes.addShaped(<engineersdecor:treated_wood_ladder> * 2, [
-[<ore:stickTreatedWood>, <ore:craftingToolScrewdriver>, <ore:stickTreatedWood>],
+[<ore:stickTreatedWood>, <gregtech:meta_tool:11>, <ore:stickTreatedWood>],
 [<ore:string>, <ore:screwIron>, <ore:string>],
-[<ore:stickTreatedWood>, <ore:craftingToolSoftHammer>, <ore:stickTreatedWood>]]);
+[<ore:stickTreatedWood>, <gregtech:meta_tool:7>, <ore:stickTreatedWood>]]);
 // -
 recipes.addShaped(<engineersdecor:treated_wood_ladder> * 4, [
-[<ore:stickTreatedWood>, <ore:craftingToolScrewdriver>, <ore:stickTreatedWood>],
+[<ore:stickTreatedWood>, <gregtech:meta_tool:11>, <ore:stickTreatedWood>],
 [<ore:string>, <ore:screwSteel>, <ore:string>],
-[<ore:stickTreatedWood>, <ore:craftingToolSoftHammer>, <ore:stickTreatedWood>]]);
+[<ore:stickTreatedWood>, <gregtech:meta_tool:7>, <ore:stickTreatedWood>]]);
 
 // --- Metal Ladder
 recipes.remove(<immersiveengineering:metal_ladder>);
 
 recipes.addShaped(<immersiveengineering:metal_ladder> * 4, [
-[<ore:stickSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>],
+[<ore:stickSteel>, <gregtech:meta_tool:11>, <ore:stickSteel>],
 [<ore:string>, <ore:screwSteel>, <ore:string>],
-[<ore:stickSteel>, <ore:craftingToolSoftHammer>, <ore:stickSteel>]]);
+[<ore:stickSteel>, <gregtech:meta_tool:7>, <ore:stickSteel>]]);
 
 
 ##### Artisan's Recipes #####

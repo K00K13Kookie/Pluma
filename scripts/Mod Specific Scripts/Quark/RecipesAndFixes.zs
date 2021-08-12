@@ -20,9 +20,9 @@ recipes.remove(<quark:gold_button>);
 //Reading a Fixed Recipe
 
 //Iron
-recipes.addShaped(<quark:iron_button> * 2, [[<ore:craftingToolSaw>, <minecraft:heavy_weighted_pressure_plate>]]);
+recipes.addShaped(<quark:iron_button> * 2, [[<gregtech:meta_tool:5>, <minecraft:heavy_weighted_pressure_plate>]]);
 //Gold
-recipes.addShaped(<quark:gold_button> * 2, [[<ore:craftingToolSaw>, <minecraft:light_weighted_pressure_plate>]]);
+recipes.addShaped(<quark:gold_button> * 2, [[<gregtech:meta_tool:5>, <minecraft:light_weighted_pressure_plate>]]);
 
 //Iron
 saw.recipeBuilder()

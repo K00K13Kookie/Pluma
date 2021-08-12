@@ -5,21 +5,21 @@ import mods.immersiveengineering.MetalPress;
 # All bolts created with Contenttweaker 
 
 //Wood and Treated Wood
-recipes.addShapeless("WoodBolt", <contenttweaker:wood_bolt> * 2, [<ore:stickWood>, <ore:craftingToolSaw>, <ore:craftingToolFile>]);
-recipes.addShapeless("TreatedWoodBolt", <contenttweaker:treated_bolt> * 2, [<ore:stickTreatedWood>, <ore:craftingToolSaw>, <ore:craftingToolFile>]);
+recipes.addShapeless("WoodBolt", <contenttweaker:wood_bolt> * 2, [<ore:stickWood>, <gregtech:meta_tool:5>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("TreatedWoodBolt", <contenttweaker:treated_bolt> * 2, [<ore:stickTreatedWood>, <gregtech:meta_tool:5>, <gregtech:meta_tool:9>]);
 
 # All the Casings created with Contenttweaker
 
-recipes.addShapeless("IronCasing", <contenttweaker:iron_casing> * 2, [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("SteelCasing", <contenttweaker:steel_casing> * 2, [<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("BlackBronzeCasing", <contenttweaker:black_bronze_casing> * 2, [<ore:plateBlackBronze>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("BronzeCasing", <contenttweaker:bronze_casing> * 2, [<ore:plateBronze>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("CopperCasing", <contenttweaker:copper_casing> * 2, [<ore:plateCopper>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("TinCasing", <contenttweaker:tin_casing> * 2, [<ore:plateTin>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("AluminumCasing", <contenttweaker:aluminium_casing> * 2, [<ore:plateAluminum>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("ElectrumCasing", <contenttweaker:electrum_casing> * 2, [<ore:plateElectrum>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("BismuthBronzeCasing", <contenttweaker:bismuth_bronze_casing> * 2, [<ore:plateBismuthBronze>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
-recipes.addShapeless("SilverCasing", <contenttweaker:silver_casing> * 2, [<ore:plateSilver>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]);
+recipes.addShapeless("IronCasing", <contenttweaker:iron_casing> * 2, [<ore:plateIron>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("SteelCasing", <contenttweaker:steel_casing> * 2, [<ore:plateSteel>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("BlackBronzeCasing", <contenttweaker:black_bronze_casing> * 2, [<ore:plateBlackBronze>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("BronzeCasing", <contenttweaker:bronze_casing> * 2, [<ore:plateBronze>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("CopperCasing", <contenttweaker:copper_casing> * 2, [<ore:plateCopper>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("TinCasing", <contenttweaker:tin_casing> * 2, [<ore:plateTin>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("AluminumCasing", <contenttweaker:aluminium_casing> * 2, [<ore:plateAluminum>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("ElectrumCasing", <contenttweaker:electrum_casing> * 2, [<ore:plateElectrum>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("BismuthBronzeCasing", <contenttweaker:bismuth_bronze_casing> * 2, [<ore:plateBismuthBronze>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
+recipes.addShapeless("SilverCasing", <contenttweaker:silver_casing> * 2, [<ore:plateSilver>, <gregtech:meta_tool:6>, <gregtech:meta_tool:9>]);
 
 # Casing's Recipes on the Press ================================
 

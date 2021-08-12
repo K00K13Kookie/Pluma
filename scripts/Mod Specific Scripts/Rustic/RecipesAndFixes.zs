@@ -96,4 +96,4 @@ recipes.addShaped(<rustic:retort> * 1, [[null, <pyrotech:material:5>, null], [<r
 
 //Iron Lattice
 recipes.remove(<rustic:iron_lattice>);
-recipes.addShapeless("IronLattice", <rustic:iron_lattice> * 8, [<ore:stickLongIron>, <ore:craftingToolSaw>]);
+recipes.addShapeless("IronLattice", <rustic:iron_lattice> * 8, [<ore:stickLongIron>, <gregtech:meta_tool:5>]);

@@ -77,7 +77,7 @@ recipes.addShaped(<actuallyadditions:block_misc:7>, [[<immersiveengineering:shee
 recipes.addShaped(<actuallyadditions:block_misc:8> * 1, [[<ore:plateEnderPearl>, <ore:plateDiamatineEmpowered>, <ore:plateEnderPearl>], [<forestry:thermionic_tubes:5>, <ore:blockQuartzBlack>, <forestry:thermionic_tubes:5>],[<ore:plateEnderPearl>, <ore:plateDiamatineEmpowered>, <ore:plateEnderPearl>]]);
 
 //Black Quartz Dust recipe Early Game
-recipes.addShapeless("EarlyBlackQuartzDust", <actuallyadditions:item_dust:7>, [<actuallyadditions:item_misc:5>, <ore:craftingToolMortar>]);
+recipes.addShapeless("EarlyBlackQuartzDust", <actuallyadditions:item_dust:7>, [<actuallyadditions:item_misc:5>, <gregtech:meta_tool:12>]);
 
 // Basic Coil
 recipes.remove(<actuallyadditions:item_misc:7>);
@@ -328,7 +328,7 @@ assembler.recipeBuilder()
 
 //Hopping Item Interface
 recipes.remove(<actuallyadditions:block_item_viewer_hopping>);
-recipes.addShapeless("HoppingAAItemInterface", <actuallyadditions:block_item_viewer_hopping>, [<actuallyadditions:block_item_viewer>, <ore:hopper>, <ore:craftingToolWrench>, <ore:craftingToolSaw>]);
+recipes.addShapeless("HoppingAAItemInterface", <actuallyadditions:block_item_viewer_hopping>, [<actuallyadditions:block_item_viewer>, <ore:hopper>, <gregtech:meta_tool:8>, <gregtech:meta_tool:5>]);
 
 //Ring
 recipes.remove(<actuallyadditions:item_misc:6>);
@@ -762,5 +762,5 @@ assembler.recipeBuilder()
 
 // Phantom Connector
 recipes.removeByRecipeName("actuallyadditions:recipes49");
-recipes.addShaped(<actuallyadditions:item_phantom_connector> * 1, [[<ore:craftingToolScrewdriver>, <ore:plateEnderPearl>, <ore:stickSteel>], [<ore:plateEnderPearl>, <ore:ringSigberium>, <ore:plateEnderEye>],[<ore:stickSteel>, <ore:plateEnderEye>, <ore:craftingToolFile>]]);
+recipes.addShaped(<actuallyadditions:item_phantom_connector> * 1, [[<gregtech:meta_tool:11>, <ore:plateEnderPearl>, <ore:stickSteel>], [<ore:plateEnderPearl>, <ore:ringSigberium>, <ore:plateEnderEye>],[<ore:stickSteel>, <ore:plateEnderEye>, <gregtech:meta_tool:9>]]);
 

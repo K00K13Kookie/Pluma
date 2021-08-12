@@ -7,7 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 //Beewax by hand Recipe
-recipes.addShapeless("EarlyBeeWax", <forestry:beeswax>, [<ore:beeComb>, <ore:craftingToolMortar>]);
+recipes.addShapeless("EarlyBeeWax", <forestry:beeswax>, [<ore:beeComb>, <gregtech:meta_tool:12>]);
 
 var ItensRemovidosAteDoCarpenter as IItemStack[] = [
 <forestry:kit_shovel>,

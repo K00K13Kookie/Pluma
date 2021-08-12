@@ -1,0 +1,39 @@
+{
+	title: "Healing wounds in this Harsh World",
+	x: 0.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"If you didn't noticed yet, there's no natural regeneration! you'll need to heal yourself manually.",
+		"",
+		"- Right now, you can Heal yourself using your Campfire and you can also make some Healing Salves! they are good when you need to explore ",
+		"and want to have a safe way to heal.",
+		"",
+		"",
+		"- Later on you will find other alternatives to heal yourself."
+	],
+	dependencies: [
+		"35a65384"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "9301ae7c",
+		type: "item",
+		items: [{
+			item: "roughtweaks:salve"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e925555",
+		type: "item",
+		item: "roughtweaks:bandage"
+	},
+	{
+		uid: "5e3fd43c",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

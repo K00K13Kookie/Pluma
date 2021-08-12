@@ -57,7 +57,7 @@ assembler.recipeBuilder()
 
 // Pocket Computer
 recipes.remove(<computercraft:pocket_computer>);
-recipes.addShapeless("CCPocketComputer", <computercraft:pocket_computer>, [<computercraft:computer:0>, <ore:craftingToolWrench>, <ore:craftingToolSaw>]);
+recipes.addShapeless("CCPocketComputer", <computercraft:pocket_computer>, [<computercraft:computer:0>, <gregtech:meta_tool:8>, <gregtech:meta_tool:5>]);
 
 //Turtle
 recipes.remove(<computercraft:turtle_expanded>);
@@ -97,7 +97,7 @@ assembler.recipeBuilder()
 
 //Wired Modem
 recipes.removeByRecipeName("computercraft:wired_modem");
-recipes.addShapeless("CCWiredModem", <computercraft:cable:1>, [<computercraft:peripheral:1>, <ore:plateStone> * 8, <ore:craftingToolHardHammer>]);
+recipes.addShapeless("CCWiredModem", <computercraft:cable:1>, [<computercraft:peripheral:1>, <ore:plateStone> * 8, <gregtech:meta_tool:6>]);
 
 ## Advanced Tier Tier
 
@@ -112,7 +112,7 @@ assembler.recipeBuilder()
 
 // Advanced Pocket Computer
 recipes.remove(<computercraft:pocket_computer:1>);
-recipes.addShapeless("CCPocketAdvancedComputer", <computercraft:pocket_computer:1>, [<computercraft:computer:16384>, <ore:craftingToolWrench>, <ore:craftingToolSaw>]);
+recipes.addShapeless("CCPocketAdvancedComputer", <computercraft:pocket_computer:1>, [<computercraft:computer:16384>, <gregtech:meta_tool:8>, <gregtech:meta_tool:5>]);
 
 //Advanced Turtle
 recipes.remove(<computercraft:turtle_advanced>);

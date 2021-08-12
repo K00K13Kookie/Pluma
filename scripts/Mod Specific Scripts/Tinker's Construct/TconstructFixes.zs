@@ -188,7 +188,7 @@ RecipeBuilder.get("carpenter")
 
 //Punji Sticks
 recipes.remove(<tconstruct:punji>);
-recipes.addShapeless("PunjiSticks", <tconstruct:punji>, [<ore:sugarcane>, <ore:craftingToolSaw>]);
+recipes.addShapeless("PunjiSticks", <tconstruct:punji>, [<ore:sugarcane>, <gregtech:meta_tool:5>]);
 
 // EFLN
 recipes.remove(<tconstruct:throwball:1>);

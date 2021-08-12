@@ -1,6 +1,6 @@
 {
 	title: "A Special Type of Chisel!",
-	x: 0.5d,
+	x: 2.0d,
 	y: 3.5d,
 	shape: "rsquare",
 	description: "Lets Convert Stones!",

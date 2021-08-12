@@ -24,7 +24,7 @@ i.addTooltip(format.yellow("This item can be Dyed! Press U to see the recipes.")
 # Ender Dust fixes ===============================
 
 //Ender Pearl Dust with Mortar
-recipes.addShapeless("EarlyEnderPearlDust", <appliedenergistics2:material:46>, [<ore:enderpearl>, <ore:craftingToolMortar>]);
+recipes.addShapeless("EarlyEnderPearlDust", <appliedenergistics2:material:46>, [<ore:enderpearl>, <gregtech:meta_tool:12>]);
 
 // Pearlized Block
 recipes.remove(<railcraft:brick_pearlized:2>);

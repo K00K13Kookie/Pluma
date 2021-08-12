@@ -1,0 +1,48 @@
+{
+	title: "An Early game Backpack!",
+	x: 0.5d,
+	y: 3.5d,
+	shape: "rsquare",
+	description: "Not the Best, but a good one for now!",
+	text: [
+		"Now that you can make Dried Fibers, convert them into Twine and them into Woven Cloth! after that, it is time to make your Backpack!",
+		"",
+		"- It is a basic one, you can't open it with a keybind, and it has a limited space, but it works!"
+	],
+	dependencies: [
+		"c741fe6c"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "fdef8350",
+		type: "item",
+		title: "Craft Any ProjectRed's Backpack!",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any prbackpack"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "prbackpack"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c0d4b31",
+		type: "item",
+		item: "harvestcraft:netherwingsitem",
+		random_bonus: 1
+	},
+	{
+		uid: "bcd721d6",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

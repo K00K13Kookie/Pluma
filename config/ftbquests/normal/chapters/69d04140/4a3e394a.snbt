@@ -1,0 +1,54 @@
+{
+	title: "A Way to carry up Fluids",
+	icon: "pyrotech:bucket_clay",
+	x: -1.3479591836734528d,
+	y: 3.505697278911562d,
+	shape: "rsquare",
+	description: "Using a Clay Bucket!",
+	text: [
+		"Now that you have a Worktable, you can finally craft a Bucket! not an Iron one, but one made with Clay! Simply collect some Clay and them form them into",
+		"bricks, after that, make an Unfired Clay Bucket! after that, you'll just need to fire it up in order to start using it!",
+		"",
+		"- But be ready for it to break, as it will be damaged everytime that you place a fluid collected with it."
+	],
+	dependencies: [
+		"a64a82a1"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "fa011b3c",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 24"
+		}],
+		count: 3L
+	},
+	{
+		uid: "ff0c983b",
+		type: "item",
+		items: [{
+			item: "pyrotech:bucket_clay_unfired"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e54fb6cd",
+		type: "item",
+		items: [{
+			item: "pyrotech:bucket_clay"
+		}]
+	}],
+	rewards: [{
+		uid: "d164bb2e",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "71bf10c3",
+		type: "item",
+		item: "harvestcraft:applesmoothieitem",
+		random_bonus: 2
+	}]
+}

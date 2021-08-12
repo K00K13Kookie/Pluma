@@ -71,10 +71,10 @@ recipes.addShaped(<projectred-core:resource_item:250> * 2, [[<overloaded:compres
 
 //Silicon Ball
 recipes.remove(<projectred-core:resource_item:301>);
-recipes.addShapeless("SiliconBouleToBall", <projectred-core:resource_item:301> * 4, [<projectred-core:resource_item:300>, <ore:craftingToolSaw>]);
+recipes.addShapeless("SiliconBouleToBall", <projectred-core:resource_item:301> * 4, [<projectred-core:resource_item:300>, <gregtech:meta_tool:5>]);
 
 //Silicon (Normal)
-recipes.addShapeless("Silicon Ball to Normal", <nuclearcraft:gem:6> * 2, [<projectred-core:resource_item:301>, <ore:craftingToolSaw>]);
+recipes.addShapeless("Silicon Ball to Normal", <nuclearcraft:gem:6> * 2, [<projectred-core:resource_item:301>, <gregtech:meta_tool:5>]);
 
 # Cobblestone Generators 
 
@@ -378,11 +378,11 @@ assembler.recipeBuilder()
 
 // Reactor Trapdoor
 recipes.remove(<nuclearcraft:reactor_trapdoor>);
-recipes.addShaped(<nuclearcraft:reactor_trapdoor> * 1, [[null, null, null], [<ore:plateBasic>, <ore:plateBasic>, null],[<ore:plateBasic>, <ore:plateBasic>, <ore:craftingToolHardHammer>]]);
+recipes.addShaped(<nuclearcraft:reactor_trapdoor> * 1, [[null, null, null], [<ore:plateBasic>, <ore:plateBasic>, null],[<ore:plateBasic>, <ore:plateBasic>, <gregtech:meta_tool:6>]]);
 
 // Reactor Door
 recipes.remove(<nuclearcraft:reactor_door_item>);
-recipes.addShaped(<nuclearcraft:reactor_door_item> * 1, [[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null], [<nuclearcraft:part:0>, <nuclearcraft:part:0>, <ore:craftingToolHardHammer>],[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null]]);
+recipes.addShaped(<nuclearcraft:reactor_door_item> * 1, [[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null], [<nuclearcraft:part:0>, <nuclearcraft:part:0>, <gregtech:meta_tool:6>],[<nuclearcraft:part:0>, <nuclearcraft:part:0>, null]]);
 
 // Fission Controller
 recipes.remove(<nuclearcraft:fission_controller_new_fixed>);
@@ -422,8 +422,8 @@ recipes.remove(<nuclearcraft:fusion_electromagnet_transparent_idle>);
 
 recipes.addShaped(<nuclearcraft:fusion_electromagnet_idle> * 1, [[<ore:solenoidMagnesiumDiboride>, <ore:plateDU>, <ore:solenoidMagnesiumDiboride>], [<ore:plateDU>, <gregtech:machine:505>, <ore:plateDU>],[<ore:solenoidMagnesiumDiboride>, <ore:plateDU>, <ore:solenoidMagnesiumDiboride>]]);
 
-recipes.addShapeless("ElectromagnetToTransparent", <nuclearcraft:fusion_electromagnet_transparent_idle>, [<nuclearcraft:fusion_electromagnet_idle>, <ore:craftingToolWrench>]);
-recipes.addShapeless("TransparentToElectromagnetNormal", <nuclearcraft:fusion_electromagnet_idle>, [<nuclearcraft:fusion_electromagnet_transparent_idle>, <ore:craftingToolWrench>]);
+recipes.addShapeless("ElectromagnetToTransparent", <nuclearcraft:fusion_electromagnet_transparent_idle>, [<nuclearcraft:fusion_electromagnet_idle>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("TransparentToElectromagnetNormal", <nuclearcraft:fusion_electromagnet_idle>, [<nuclearcraft:fusion_electromagnet_transparent_idle>, <gregtech:meta_tool:8>]);
 
 // Molten Salt Reactor Controller
 recipes.remove(<nuclearcraft:salt_fission_controller>);
@@ -460,8 +460,8 @@ chemical_bath.recipeBuilder()
 
 //Salt Reactor Casing Edges
 recipes.remove(<nuclearcraft:salt_fission_frame>);
-recipes.addShapeless("NormalCasingToEdge", <nuclearcraft:salt_fission_frame>, [<nuclearcraft:salt_fission_wall>, <ore:craftingToolWrench>]);
-recipes.addShapeless("EdgeToNormalCasing", <nuclearcraft:salt_fission_wall>, [<nuclearcraft:salt_fission_frame>, <ore:craftingToolWrench>]);
+recipes.addShapeless("NormalCasingToEdge", <nuclearcraft:salt_fission_frame>, [<nuclearcraft:salt_fission_wall>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("EdgeToNormalCasing", <nuclearcraft:salt_fission_wall>, [<nuclearcraft:salt_fission_frame>, <gregtech:meta_tool:8>]);
 
 // Molten Salt Reactor Vent
 recipes.remove(<nuclearcraft:salt_fission_vent>);
@@ -514,8 +514,8 @@ chemical_bath.recipeBuilder()
 
 //Turbine Casing Edges
 recipes.remove(<nuclearcraft:turbine_frame>);
-recipes.addShapeless("NormalTurbineCasingToEdge", <nuclearcraft:turbine_frame>, [<nuclearcraft:turbine_wall>, <ore:craftingToolWrench>]);
-recipes.addShapeless("EdgeToNormalTurbineCasing", <nuclearcraft:turbine_wall>, [<nuclearcraft:turbine_frame>, <ore:craftingToolWrench>]);
+recipes.addShapeless("NormalTurbineCasingToEdge", <nuclearcraft:turbine_frame>, [<nuclearcraft:turbine_wall>, <gregtech:meta_tool:8>]);
+recipes.addShapeless("EdgeToNormalTurbineCasing", <nuclearcraft:turbine_wall>, [<nuclearcraft:turbine_frame>, <gregtech:meta_tool:8>]);
 
 // Turbine Rotor Shaft
 recipes.remove(<nuclearcraft:turbine_rotor_shaft>);
@@ -739,7 +739,7 @@ forming.recipeBuilder()
 
 //Universal Bin
 recipes.remove(<nuclearcraft:bin>);
-recipes.addShapeless("NCBinRecipe", <nuclearcraft:bin>, [<trashcans:ultimate_trash_can>, <ore:plateSteel>, <ore:craftingToolWrench>]);
+recipes.addShapeless("NCBinRecipe", <nuclearcraft:bin>, [<trashcans:ultimate_trash_can>, <ore:plateSteel>, <gregtech:meta_tool:8>]);
 
 ##### Platings #####
 

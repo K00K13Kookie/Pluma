@@ -1,11 +1,13 @@
 {
-	title: "Finally you can Fight Against Monsters!",
-	icon: "pyrotech:flint_sword",
+	title: "Flint Tools!",
+	icon: "pyrotech:flint_pickaxe",
 	x: 3.5d,
 	y: 2.0d,
 	shape: "square",
 	text: [
-		"The flint sword is your first proper Weapon! no more running and hoping to not get killed by a Creeper!"
+		"With your brand new Flint Shards, you can finally make decent tools!",
+		"",
+		"- Make yourself a Sword, a Pickaxe and an Axe!"
 	],
 	dependencies: [
 		"ffc624bf"
@@ -16,6 +18,24 @@
 		type: "item",
 		items: [{
 			item: "pyrotech:flint_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "477afa87",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a73cc774",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

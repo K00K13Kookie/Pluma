@@ -253,7 +253,7 @@ recipes.remove(<harvestcraft:mochiitem>);
 
 // Ground Nutmeg ============================================================================================================
 recipes.remove(<harvestcraft:groundnutmegitem>);
-recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<ore:craftingToolMortar>, <harvestcraft:nutmegitem>]);
+recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<gregtech:meta_tool:12>, <harvestcraft:nutmegitem>]);
 
  RecipeBuilder.get("chef")
   .setShapeless([<harvestcraft:nutmegitem>])
@@ -263,7 +263,7 @@ recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<ore:craftingToolMortar>,
   
 // Marzipan ============================================================================================================
 recipes.remove(<harvestcraft:marzipanitem>);
-recipes.addShapeless(<harvestcraft:marzipanitem>, [<ore:craftingToolMortar>, <ore:cropAlmond>, <ore:listAllsugar>]);
+recipes.addShapeless(<harvestcraft:marzipanitem>, [<gregtech:meta_tool:12>, <ore:cropAlmond>, <ore:listAllsugar>]);
 
  RecipeBuilder.get("chef")
   .setShapeless([<ore:cropAlmond>, <ore:listAllsugar>])
@@ -273,7 +273,7 @@ recipes.addShapeless(<harvestcraft:marzipanitem>, [<ore:craftingToolMortar>, <or
   
 // Ground Cinnamon ============================================================================================================
 recipes.remove(<harvestcraft:groundcinnamonitem>);
-recipes.addShapeless(<harvestcraft:groundcinnamonitem>, [<ore:craftingToolMortar>, <harvestcraft:cinnamonitem>]);
+recipes.addShapeless(<harvestcraft:groundcinnamonitem>, [<gregtech:meta_tool:12>, <harvestcraft:cinnamonitem>]);
 
  RecipeBuilder.get("chef")
   .setShapeless([<harvestcraft:cinnamonitem>])
@@ -283,7 +283,7 @@ recipes.addShapeless(<harvestcraft:groundcinnamonitem>, [<ore:craftingToolMortar
   
 // Curry Powder ============================================================================================================
 recipes.remove(<harvestcraft:currypowderitem>);
-recipes.addShapeless(<harvestcraft:currypowderitem>, [<ore:craftingToolMortar>, <harvestcraft:curryleafitem>]);
+recipes.addShapeless(<harvestcraft:currypowderitem>, [<gregtech:meta_tool:12>, <harvestcraft:curryleafitem>]);
 
  RecipeBuilder.get("chef")
   .setShapeless([<harvestcraft:curryleafitem>])
@@ -293,7 +293,7 @@ recipes.addShapeless(<harvestcraft:currypowderitem>, [<ore:craftingToolMortar>, 
   
 // Black Pepper ============================================================================================================
 recipes.remove(<harvestcraft:blackpepperitem>);
-recipes.addShapeless(<harvestcraft:blackpepperitem>, [<ore:craftingToolMortar>, <harvestcraft:peppercornitem>]);
+recipes.addShapeless(<harvestcraft:blackpepperitem>, [<gregtech:meta_tool:12>, <harvestcraft:peppercornitem>]);
 
  RecipeBuilder.get("chef")
   .setShapeless([<harvestcraft:peppercornitem>])
