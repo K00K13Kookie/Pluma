@@ -3,7 +3,7 @@
 	icon: "minecraft:crafting_table",
 	x: 25.0d,
 	y: -5.5d,
-	shape: "rsquare",
+	shape: "square",
 	text: [
 		"Now that you have acess to the Carpenter's Workshop, you can work towards having a normal crafting table and even a Crafting Station!",
 		"",

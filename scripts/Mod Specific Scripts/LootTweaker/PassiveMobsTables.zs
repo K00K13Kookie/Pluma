@@ -34,8 +34,8 @@ import loottweaker.vanilla.loot.Functions;
 # Pig Loottable ============
 
 //Readding Tallow
-<entity:minecraft:pig>.addDrop(<quark:tallow> % 75, 1, 6);
 <entity:minecraft:pig>.removeDrop(<quark:tallow>);
+<entity:minecraft:pig>.addDrop(<quark:tallow> % 75, 1, 6);
 
 <entity:minecraft:pig>.addDrop(<contenttweaker:pigleather> % 50, 1, 3);
 
