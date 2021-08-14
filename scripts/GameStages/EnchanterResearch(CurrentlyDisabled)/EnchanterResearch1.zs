@@ -1,3 +1,7 @@
+/*
+
+CURRENTLY DISABLED, ACTUALLY ADDITIONS LENS GOT MOVED TO ADVANCED MACHINERY, AND ENCHANTMENT TABLE WHERE MOVED TO MACHINERY
+
 import crafttweaker.item.IItemStack;
 # Enchanted Itens from Vanilla
 
@@ -150,3 +154,5 @@ for i in EnchantGates {
 mods.recipestages.Recipes.setRecipeStage("EnchanterResearch", i);    
 mods.ItemStages.addItemStage("EnchanterResearch", i);
 }
+
+*/

@@ -1,11 +1,11 @@
-import mods.pyrotech.SoakingPot;
+import mods.pyrotech.SoakingPot as SoakingPot;
 
 # Paper Compatiblity
 
 recipes.remove(<minecraft:paper>);
 
 //Paper with Thermal Expansion Sawdust
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "TESoakingPaper",              // unique recipe name
   <pyrotech:material:25>,        // recipe output
   <liquid:water> * 500,  // input fluid
@@ -15,7 +15,7 @@ mods.pyrotech.SoakingPot.addRecipe(
 );
 
 //Paper with Actually Additions Rice
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "AASoakingPaper",     
   <pyrotech:material:25>,
   <liquid:water> * 1000,
@@ -25,7 +25,7 @@ mods.pyrotech.SoakingPot.addRecipe(
 );
 
 //HOP Graphite with Graphite Ingot
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "HOPgraphitewithGraphite",     
   <immersiveengineering:material:18>,
   <liquid:creosote> * 500,
@@ -37,7 +37,7 @@ mods.pyrotech.SoakingPot.addRecipe(
 #### Treated, Durable and Enhanced Stuff from Pyrotech ###
 
 //Durable Twine
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "DurableTwineRecipe",     
   <pyrotech:material:26>,
   <liquid:creosote> * 100,
@@ -48,7 +48,7 @@ mods.pyrotech.SoakingPot.addRecipe(
 
 
 //Tarred Planks
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "TarredPlanksRecipe",     
   <pyrotech:planks_tarred> * 4,
   <liquid:creosote> * 1000,
@@ -58,7 +58,7 @@ mods.pyrotech.SoakingPot.addRecipe(
 );
 
 //Treated Wood
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "TreatedWoodEarlyGame",     
   <immersiveengineering:treated_wood>,
   <liquid:creosote> * 200,
@@ -69,7 +69,7 @@ mods.pyrotech.SoakingPot.addRecipe(
 
 //Rough Brownstone
 recipes.remove(<tconstruct:brownstone:1>);
-mods.pyrotech.SoakingPot.addRecipe(
+SoakingPot.addRecipe(
   "RoughBrownstone",     
   <tconstruct:brownstone:1>,
   <liquid:redstone> * 144,

@@ -1,3 +1,7 @@
+// CURRENTLY DISABLED
+
+/*
+
 import crafttweaker.item.IItemStack;
 # Staging Potions from Vanilla Minecraft
 
@@ -474,7 +478,6 @@ var AlchemyGates as IItemStack[] = [
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}),
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 9600, Amplifier: 0}]}),
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 1800, Amplifier: 1}]}),
-<rustic:condenser_advanced>,
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 3600, Amplifier: 0}]}),
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 9600, Amplifier: 0}]}),
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 1800, Amplifier: 1}]}),
@@ -493,8 +496,7 @@ var AlchemyGates as IItemStack[] = [
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:blazing_trail", Duration: 9600, Amplifier: 0}]}),
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 0}]}),
 <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 1800, Amplifier: 1}]}),
-<rustic:condenser_advanced>,
-<rustic:retort_advanced>
+
 ];
 
 for i in AlchemyGates {
@@ -503,3 +505,5 @@ mods.ItemStages.addItemStage("AlchemicalResearch", i);
 }
 
 mods.ItemStages.stageRecipeCategory("AlchemicalResearch", "rustic.alchemy_advanced");
+
+*/

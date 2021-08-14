@@ -510,3 +510,23 @@ assembler.recipeBuilder()
     .duration(80)
     .EUt(128)
     .buildAndRegister();
+
+//Sky Stone Chest Raw
+recipes.remove(<appliedenergistics2:sky_stone_chest>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:sky_stone_block> * 8])
+    .property("circuit", 8)    
+    .outputs(<appliedenergistics2:sky_stone_chest>)
+    .duration(100)
+    .EUt(32)
+    .buildAndRegister();
+
+//Sky Stone Chest Smooth
+recipes.remove(<appliedenergistics2:smooth_sky_stone_chest>);
+assembler.recipeBuilder()
+    .inputs([<appliedenergistics2:smooth_sky_stone_block> * 8])
+    .property("circuit", 8)    
+    .outputs(<appliedenergistics2:smooth_sky_stone_chest>)
+    .duration(100)
+    .EUt(32)
+    .buildAndRegister();

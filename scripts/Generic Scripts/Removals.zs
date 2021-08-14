@@ -104,7 +104,6 @@ var ItensRemovidos as IItemStack[] = [
 <tconstruct:spaghetti>,
 <tconstruct:wood_rail>,
 <tconstruct:wood_rail_trapdoor>,
-<tconstruct:seared_furnace_controller>,
 <tconstruct:tinker_tank_controller>,
 <tconstruct:smeltery_io>,
 <tconstruct:channel>,
@@ -114,7 +113,12 @@ var ItensRemovidos as IItemStack[] = [
 <tconstruct:fancy_frame:6>,
 <tconstruct:slimesling:5>,
 <tconstruct:slime_boots:5>,
+<tconstruct:soil>,
+<tconstruct:seared_tank:1>,
+<tconstruct:seared_tank:2>,
 
+//Lapis Stay Mod
+<csb_ench_table:ender_enchanting_table>,
 
 //TAIGA
 <taiga:palladium_ore>,

@@ -15,11 +15,11 @@
         "gear2":
         {
             "image" : "mainmenu:gears2.png",
-            "posX" : 520,
-            "posY" : 10,
-            "width" : 125,
+            "posX" : -150,
+            "posY" : -20,
+            "width" : 375,
             "height" : 375,
-            "alignment" : "left_center"
+            "alignment" : "right_center"
         },
             "title":
         {

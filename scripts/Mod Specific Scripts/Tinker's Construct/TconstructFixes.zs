@@ -1,6 +1,8 @@
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.pyrotech.StoneCrucible as StoneCrucible;
+import mods.pyrotech.SoakingPot as SoakingPot;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Tconstruct Recipes and Fixes                                                                                                     //
@@ -304,3 +306,67 @@ recipes.addShaped(<tconstruct:fancy_frame:4>, [
 // --- Crafting Station
 recipes.remove(<tconstruct:tooltables>);
 recipes.addShapeless("TConstructCraftingStation", <tconstruct:tooltables>, [<ore:craftingTableWood>, <gregtech:meta_tool:5>]);
+
+
+##### Rework on Seared Stuff #####
+
+//Liquid Seared Stone in the Crucible
+StoneCrucible.addRecipe(
+  "SearedLiquid",
+  <liquid:stone> * 72,
+  <undergroundbiomes:sedimentary_stone:4>,
+  800,
+  true
+);
+
+
+//Removing Seared Ingot recipe
+furnace.remove(<tconstruct:materials>);
+
+//SoakingPot recipe for Seared Brick
+SoakingPot.addRecipe(
+  "SearedBrick",              // unique recipe name
+  <tconstruct:materials>,        // recipe output
+  <liquid:stone> * 125,  // input fluid
+  <tconstruct:materials:2>,    // input item
+  true, // needs to be above a campfire
+  10400             // recipe duration in ticks
+);
+
+//SoakingPot recipe for Seared Glass
+recipes.remove(<tconstruct:seared_glass>);
+SoakingPot.addRecipe(
+  "SearedGlass",              // unique recipe name
+  <tconstruct:seared_glass>,        // recipe output
+  <liquid:stone> * 125,  // input fluid
+  <ore:blockGlass>,    // input item
+  true, // needs to be above a campfire
+  10400             // recipe duration in ticks
+);
+
+//Seared Furnace Controller
+recipes.remove(<tconstruct:seared_furnace_controller>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<ore:plateBronze>, <ore:ingotBrickSeared>, <ore:plateBronze>],
+    [<ore:ingotBrickSeared>, <immersiveengineering:stone_decoration:2>, <ore:ingotBrickSeared>],
+    [<ore:plateBronze>, <ore:ingotBrickSeared>, <ore:plateBronze>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansTSquare>, 5)
+  .addTool(<ore:artisansChisel>, 5)
+  .addOutput(<tconstruct:seared_furnace_controller>)
+  .create();
+
+//Seared Tank
+recipes.remove(<tconstruct:seared_tank>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [null, <ore:ingotBrickSeared>, null],
+    [<ore:ingotBrickSeared>, <pyrotech:refractory_glass>, <ore:ingotBrickSeared>],
+    [<ore:ingotBrickSeared>, <pyrotech:refractory_glass>, <ore:ingotBrickSeared>],
+    [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansTSquare>, 5)
+  .addTool(<ore:artisansChisel>, 5)
+  .addOutput(<tconstruct:seared_tank>)
+  .create();

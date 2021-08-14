@@ -97,3 +97,12 @@ recipes.addShaped(<rustic:retort> * 1, [[null, <pyrotech:material:5>, null], [<r
 //Iron Lattice
 recipes.remove(<rustic:iron_lattice>);
 recipes.addShapeless("IronLattice", <rustic:iron_lattice> * 8, [<ore:stickLongIron>, <gregtech:meta_tool:5>]);
+
+// Advanced Alchemic Condenser
+recipes.remove(<rustic:condenser_advanced>);
+recipes.addShaped(<rustic:condenser_advanced> * 1, [[null, <ore:ingotBrickNether>, null], [<ore:ingotBrickNether>, <pyrotech:brick_tank>, <ore:ingotBrickNether>],[<ore:ingotBrickNether>, <immersiveengineering:stone_decoration:2>, <ore:ingotBrickNether>]]);
+
+// Advanced Alchemic Retort
+recipes.remove(<rustic:retort_advanced>);
+recipes.addShaped(<rustic:retort_advanced> * 1, [[null, <ore:ingotBrickNether>, null], [<ore:stickOsram>, <pyrotech:brick_tank>, null],[null, <immersiveengineering:stone_decoration:2>, null]]);
+

@@ -3,6 +3,13 @@ import crafttweaker.item.IItemStack;
 
 var MachineryGates as IItemStack[] = [
 
+//Minecraft Vanilla
+<minecraft:enchanting_table>,
+
+//Rustic
+<rustic:retort_advanced>,
+<rustic:condenser_advanced>,
+
 //Contenttweaker
 <contenttweaker:casingmold>,
 <contenttweaker:rotormold>,
@@ -717,9 +724,6 @@ var MachineryGates as IItemStack[] = [
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:research_lab_mk1"}),
 
 //AE2
-<appliedenergistics2:material:45>,
-<appliedenergistics2:material:46>,
-<appliedenergistics2:material:2>,
 <appliedenergistics2:tiny_tnt>,
 <appliedenergistics2:light_detector>,
 <appliedenergistics2:quartz_fixture>,
@@ -807,6 +811,8 @@ mods.ItemStages.stageRecipeCategory("MachineryEra", "it.boiler");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.extruder");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.extruder_sedimentary");
 mods.ItemStages.stageRecipeCategory("MachineryEra", "thermalexpansion.coolant");
+
+mods.ItemStages.stageRecipeCategory("MachineryEra", "rustic.alchemy_advanced");
 
 # Stagging the Whole Immersive Tech Mod
 mods.ItemStages.stageModItems("MachineryEra", "immersivetech");

@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 var AdvancedMachinery as IItemStack[] = [
 
 //Actually Additions
+<actuallyadditions:item_disenchanting_lens>,
 <actuallyadditions:block_empowerer>,
 <actuallyadditions:block_display_stand>,
 <actuallyadditions:block_item_repairer>,
@@ -266,7 +267,6 @@ var AdvancedMachinery as IItemStack[] = [
 <appliedenergistics2:material:55>,
 <appliedenergistics2:material:57>,
 <appliedenergistics2:material:7>,
-<appliedenergistics2:material:8>,
 <appliedenergistics2:material:9>,
 <appliedenergistics2:material:43>,
 <appliedenergistics2:material:22>,
