@@ -115,11 +115,46 @@ var RemovingFromArc as IItemStack[] = [
 <taiga:basalt_ingot>,
 <taiga:obsidiorite_ingot>,
 <taiga:dilithium_ingot>,
-<taiga:tiberium_ingot>
+<taiga:tiberium_ingot>,
+<thermalfoundation:material:167>,
+<immersiveengineering:metal:7>,
+<thermalfoundation:material:162>,
+<thermalfoundation:material:163>,
+<railcraft:ingot:9>,
+<projectred-core:resource_item:103>,
+<immersiveengineering:metal>,
+<minecraft:gold_ingot>,
+<minecraft:iron_ingot>,
+<thermalfoundation:material:129>,
+<railcraft:ingot:8>,
+<immersiveengineering:metal:3>,
+<immersiveengineering:metal:2>,
+<immersiveengineering:metal:4>,
+<thermalfoundation:material:134>,
+<thermalfoundation:material:136>,
+<thermalfoundation:material:161>,
+<thermalfoundation:material:160>,
+<thermalfoundation:material:165>,
+<thermalfoundation:material:166>,
+<nuclearcraft:ingot:4>,
+<nuclearcraft:ingot:5>,
+<nuclearcraft:ingot:3>,
+<nuclearcraft:ingot:6>,
+<nuclearcraft:ingot:7>,
+<nuclearcraft:ingot:8>,
+<nuclearcraft:ingot:9>,
+<nuclearcraft:ingot:10>,
+<nuclearcraft:ingot:11>,
+<libvulpes:productingot:3>,
+<libvulpes:productingot:7>,
+<tconstruct:ingots>,
+<advancedrocketry:productingot:1>,
+<advancedrocketry:productingot>,
+<tconstruct:ingots:1>,
+<nuclearcraft:alloy:13>
 ];
 for i in RemovingFromArc {
 mods.immersiveengineering.ArcFurnace.removeRecipe(i);
-furnace.remove(i);
 }
 
 //Removing Obsidian Ingot Recipe aswell, since the Recycling is Broken
@@ -134,6 +169,3 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10230> * 2,
 //Bismuth Bronze in the Arc Furnace
 mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10229> * 2, <ore:dustCopper> * 3, null, 120, 120, [<ore:dustElectrum> * 2], "Alloying");
 
-//Constantan Fix
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:6>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:164> * 3, <ore:ingotCopper> * 1, null, 120, 120, [<ore:ingotBrass> * 2], "Alloying");

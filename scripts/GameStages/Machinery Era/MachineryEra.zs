@@ -12,7 +12,6 @@ var MachineryGates as IItemStack[] = [
 
 //Contenttweaker
 <contenttweaker:casingmold>,
-<contenttweaker:rotormold>,
 <contenttweaker:tubemold>,
 <contenttweaker:boltmold>,
 
@@ -721,7 +720,6 @@ var MachineryGates as IItemStack[] = [
 //ModularMachinery
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primitive_high_furnace"}),
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primitive_solidifying_chamber"}),
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:research_lab_mk1"}),
 
 //AE2
 <appliedenergistics2:tiny_tnt>,

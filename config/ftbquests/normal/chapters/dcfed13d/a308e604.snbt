@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 3 Circuit",
+	x: 6.0d,
+	y: 6.0d,
+	description: "Nano Processor Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"a43faee4"
+	],
+	tasks: [{
+		uid: "2948a500",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32493"
+		}]
+	}]
+}

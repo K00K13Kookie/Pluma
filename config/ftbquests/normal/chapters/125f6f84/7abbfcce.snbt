@@ -1,0 +1,109 @@
+{
+	title: "The Gasification Plant!",
+	icon: {
+		id: "rockhounding_chemistry:machines_b",
+		Damage: 4s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 6.4d,
+	y: 0.1d,
+	description: "Lets make Raw Syngas!",
+	text: [
+		"The §3Gasification Plant§f produces gases by the reaction of solutions at hight temperatures past a threashold value.",
+		"",
+		"Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 2 Machines > Gasification Plant.§r",
+		"",
+		"- The §3Particulate collector§f will generate \"waste\" overtime, so, if you have an ItemDuct connected to it, when the bar inside of it fills up you'll get that item.",
+		"",
+		"- The §3Pressure Vessel§f will be your output for the Gases and in this case, the Raw Syngas.",
+		"",
+		"Oh and Also remember that the Coal Slurry needs to go into the Cistern and the Water to the Burner Itself.",
+		"",
+		"- This Machine uses Fuel sources in the Power Station."
+	],
+	dependencies: [
+		"b7b7dadd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5081ebb5",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 4s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "62363217",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "395eaf44",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 1s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "b8838d76",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "3e9142a8",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 8s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "038edd75",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 9s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f2bb28e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

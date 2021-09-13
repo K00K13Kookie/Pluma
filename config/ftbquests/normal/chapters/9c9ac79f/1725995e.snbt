@@ -1,22 +1,21 @@
 {
-	title: "A Special Alloy made with Aluminum!",
+	title: "A Special Alloy made with Nickel!",
 	x: 45.0d,
 	y: 0.4d,
 	shape: "square",
-	description: "Enhanced Aluminum!",
+	description: "Modularium!",
 	text: [
-		"With some Lead, Silver and Aluminum you'll be able to alloy them together and form a Special type of Ingot! It will be used to construct MultiBlock Machines from now on!"
+		"With some Lead, Silver and Nickel you'll be able to alloy them together and form a Special type of Ingot! It will be used to construct Some Special MultiBlock Machines from now on!"
 	],
 	dependencies: [
 		"1186a171"
 	],
 	tasks: [{
-		uid: "775bc173",
+		uid: "68dd908d",
 		type: "item",
 		items: [{
-			item: "modularmachinery:itemmodularium"
-		}],
-		count: 16L
+			item: "gregtech:meta_item_1 1 10652"
+		}]
 	}],
 	rewards: [{
 		uid: "db842bd2",

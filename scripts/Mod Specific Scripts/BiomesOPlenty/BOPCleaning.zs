@@ -4,45 +4,6 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-
-//BOP Removals
-var toRemove = [
-    <biomesoplenty:gem_ore>
-    , <biomesoplenty:gem_ore:1>
-    , <biomesoplenty:gem_ore:2>
-    , <biomesoplenty:gem_ore:3>
-    , <biomesoplenty:gem_ore:4>
-    , <biomesoplenty:gem_ore:5>
-    , <biomesoplenty:gem_ore:6>
-    , <biomesoplenty:gem_ore:7>
-    , <biomesoplenty:gem_block>
-    , <biomesoplenty:gem_block:1>
-    , <biomesoplenty:gem_block:2>
-    , <biomesoplenty:gem_block:3>
-    , <biomesoplenty:gem_block:4>
-    , <biomesoplenty:gem_block:5>
-    , <biomesoplenty:gem_block:6>
-    , <biomesoplenty:gem_block:7>
-    , <biomesoplenty:gem>
-    , <biomesoplenty:gem:1>
-    , <biomesoplenty:gem:2>
-    , <biomesoplenty:gem:3>
-    , <biomesoplenty:gem:4>
-    , <biomesoplenty:gem:5>
-    , <biomesoplenty:gem:6>
-    , <biomesoplenty:gem:7>
-] as IItemStack[];
-
-for item in toRemove {
-	mods.jei.JEI.removeAndHide(item);
-	var ores = item.ores;
-	if (!isNull(ores)) {
-		for entry in ores {
-			entry.remove(item);
-		}
-	}
-}
-
 var WoodPlanksRemovals as IItemStack[] = [
 <biomesoplenty:planks_0>,
 <biomesoplenty:planks_0:1>,

@@ -1,7 +1,7 @@
 {
 	title: "Lathing...",
 	x: 20.0d,
-	y: -4.2d,
+	y: -5.0d,
 	shape: "square",
 	description: "Improving Rod Production...",
 	text: [
@@ -21,7 +21,7 @@
 	rewards: [{
 		uid: "6b517954",
 		type: "item",
-		item: "immersiveengineering:material 1 27"
+		item: "gregtech:meta_item_2 1 32488"
 	},
 	{
 		uid: "201d938b",

@@ -1,7 +1,7 @@
 {
 	title: "Usefull Tools",
-	x: 7.7d,
-	y: -0.8d,
+	x: 4.2d,
+	y: 0.4d,
 	shape: "square",
 	description: "Usefull to Control Machines and Interact with Covers!",
 	text: [
@@ -14,7 +14,7 @@
 		"Soft Hammer = Used to Shut off a Machine Completly."
 	],
 	dependencies: [
-		"934f786b"
+		"40dac07d"
 	],
 	hide: true,
 	tasks: [{

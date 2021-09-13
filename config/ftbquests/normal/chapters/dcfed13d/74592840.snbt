@@ -1,8 +1,8 @@
 {
-	title: "MAX Era",
-	x: 19.0d,
-	y: -1.0d,
-	description: "Maximum Voltage",
+	title: "UHV Era - 2097152 EU",
+	x: 9.0d,
+	y: 13.5d,
+	description: "Highly Ultimate Voltage",
 	text: [
 		""
 	],
@@ -10,10 +10,10 @@
 		"7be650c6"
 	],
 	tasks: [{
-		uid: "0b968abc",
+		uid: "de35d9b5",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 509"
+			item: "gregtech:machine 1 3239"
 		}]
 	}]
 }

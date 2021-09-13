@@ -1,7 +1,7 @@
 {
 	title: "Extracting...",
-	x: 24.0d,
-	y: -4.2d,
+	x: 20.0d,
+	y: -7.4d,
 	shape: "square",
 	description: "Time to Extract Rubber!",
 	text: [
@@ -26,6 +26,6 @@
 	{
 		uid: "c88afd99",
 		type: "item",
-		item: "immersiveengineering:material 1 27"
+		item: "gregtech:meta_item_2 1 32488"
 	}]
 }

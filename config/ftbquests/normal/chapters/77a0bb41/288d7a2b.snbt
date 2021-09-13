@@ -1,14 +1,14 @@
 {
 	title: "Collecting Air?",
-	x: 20.0d,
-	y: 0.0d,
+	x: 16.0d,
+	y: 0.75d,
 	shape: "square",
 	description: "You're can technically become an Airbender now! Congratulations!",
 	text: [
 		"You're in the Chemical Era! By collecting Air, you'll be able to use it in a variety of chemical processes and operations."
 	],
 	dependencies: [
-		"83620a71"
+		"327ff8dc"
 	],
 	hide: true,
 	tasks: [{

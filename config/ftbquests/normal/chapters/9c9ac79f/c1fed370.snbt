@@ -177,5 +177,11 @@
 		type: "gamestage",
 		auto: "invisible",
 		stage: "NetherDimensionUnlock"
+	},
+	{
+		uid: "9e2f896e",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierStorage"
 	}]
 }

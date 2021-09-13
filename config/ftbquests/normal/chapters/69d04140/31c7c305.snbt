@@ -17,7 +17,7 @@
 		uid: "c52109b6",
 		type: "item",
 		items: [{
-			item: "artisanworktables:workshop 1 11"
+			item: "artisanworktables:worktable 1 11"
 		}]
 	}],
 	rewards: [{

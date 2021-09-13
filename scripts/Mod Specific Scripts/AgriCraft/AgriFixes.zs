@@ -17,9 +17,7 @@ RecipeBuilder.get("carpenter")
     [<ore:plankTreatedWood>, <projectred-core:resource_item>, <ore:plankTreatedWood>],
     [<ore:screwIron>, <actuallyadditions:block_misc:4>, <ore:screwIron>]])
   .setFluid(<liquid:glue> * 200)
-  .addTool(<ore:artisansHandsaw>, 5)
   .addTool(<ore:artisansFramingHammer>, 3)
-  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<agricraft:seed_analyzer>)
   .create();
 

@@ -1,0 +1,48 @@
+{
+	title: "Lets Automate Oxygen and Nitrogen!",
+	icon: {
+		id: "rockhounding_chemistry:machines_b",
+		Damage: 10s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 8.5d,
+	y: 3.6d,
+	description: "Those will be very important Gases!",
+	text: [
+		"Maybe you've already noticed, but if you didn't, let me explain:",
+		"",
+		"Air Collectos from GregTech will only be acessible in EV! so, you'll need to automate this process by using Rockhound Chemistry!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"475aca82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f1f1b282",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 10s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "7b32c824",
+		type: "gamestage",
+		title: "Your Second Tier 1Circuit!",
+		disable_toast: true,
+		stage: "LetsMakeAir!"
+	}],
+	rewards: [{
+		uid: "629ccda3",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

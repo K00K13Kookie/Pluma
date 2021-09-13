@@ -1,0 +1,32 @@
+{
+	title: "Your Second Tier 1 Circuit!",
+	x: 5.0d,
+	y: 3.2d,
+	description: "Lets Improve our MV Situation!",
+	text: [
+		"Now it is time to Improved a little bit of our situation, Electronic Assemblys can be used in MV, and are a little bit less Expensive! time to craft them!"
+	],
+	dependencies: [
+		"756a63ec"
+	],
+	hide: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "bc6ccd3f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32201"
+		}]
+	}],
+	rewards: [{
+		uid: "ae6d7efe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "278a4634",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "LetsMakeAir!"
+	}]
+}

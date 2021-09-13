@@ -1,0 +1,31 @@
+{
+	title: "Propylene Sheets!",
+	x: 14.6d,
+	y: -2.7d,
+	description: "Prepare a Fluid Solidifier!",
+	text: [
+		"Thats right! now that you can make Liquid Propylene, it is time to make some Sheets! as they will be used in some Rockhound Recipes."
+	],
+	dependencies: [
+		"bf1ae238"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cc3d4999",
+		type: "item",
+		items: [{
+			item: "contenttweaker:propylenesheet"
+		}]
+	}],
+	rewards: [{
+		uid: "ddfc1614",
+		type: "item",
+		item: "contenttweaker:propylenesheet",
+		random_bonus: 4
+	},
+	{
+		uid: "85b94615",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

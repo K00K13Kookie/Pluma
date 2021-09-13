@@ -28,5 +28,11 @@
 		auto: "no_toast",
 		stage: "WorktableJEI",
 		remove: true
+	},
+	{
+		uid: "5b1900e0",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "TransportationResearch"
 	}]
 }

@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 8 Circuit",
+	x: 15.0d,
+	y: 13.5d,
+	description: "Exotic Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"5b2050ab"
+	],
+	tasks: [{
+		uid: "aad945e4",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32605"
+		}]
+	}]
+}

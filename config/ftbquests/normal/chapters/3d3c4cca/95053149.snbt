@@ -1,0 +1,32 @@
+{
+	title: "Carpenters! I'am... Blockcraftery!",
+	x: -4.5d,
+	y: -0.5d,
+	description: "A Way to make Doors, Slabs, Stairs and even Pressure Plates out of any block!",
+	text: [
+		"With this Mod, you'll be able to decorate your base even more! tired of having a standart stone pressure plate? well, you can make a Framed pressure plate and choose any block you wish!"
+	],
+	dependencies: [
+		"a69e1bca"
+	],
+	tasks: [{
+		uid: "6876af91",
+		type: "item",
+		items: [{
+			item: "blockcraftery:editable_block"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6f3ba28b",
+		type: "item",
+		item: "blockcraftery:editable_block",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "93a96fc8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "First Tier 9 Circuit",
+	x: 12.0d,
+	y: 15.0d,
+	description: "Bioware Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"cc6f78e7"
+	],
+	tasks: [{
+		uid: "34df295e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32404"
+		}]
+	}]
+}

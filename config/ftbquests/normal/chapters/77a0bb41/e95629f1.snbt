@@ -1,7 +1,7 @@
 {
 	title: "Finally Polyethylene!",
-	x: 20.0d,
-	y: 3.8d,
+	x: 18.25d,
+	y: 0.75d,
 	shape: "square",
 	description: "Ethylene + O² (Oxygen) = Polyethylene!",
 	text: [

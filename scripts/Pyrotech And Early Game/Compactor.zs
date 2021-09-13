@@ -25,10 +25,9 @@ mods.pyrotech.MechanicalCompactor.removeRecipes(<pyrotech:charcoal_block>);
 
 //Charcoal
 recipes.remove(<chisel:block_charcoal2:1>);
-recipes.remove(<thermalfoundation:storage_resource>);
 mods.pyrotech.CompactingBin.addRecipe(
   "CharcoalFromThermal",                // unique recipe name
-  <thermalfoundation:storage_resource>,          // recipe output
+  <gregtech:meta_block_compressed_6:5>,          // recipe output
   <minecraft:coal:1>,          // recipe input
   9,                 // number of input items required
   true // true if the recipe should be inherited

@@ -1,0 +1,19 @@
+{
+	title: "First Tier 6 Circuit",
+	x: 7.5d,
+	y: 10.5d,
+	description: "Quantum Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"22198462"
+	],
+	tasks: [{
+		uid: "ade5c40f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32218"
+		}]
+	}]
+}

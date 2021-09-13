@@ -1,7 +1,7 @@
 {
 	title: "Early game Storage Solution",
 	icon: "thermallogistics:terminal_item",
-	x: 47.0d,
+	x: 47.7d,
 	y: -5.5d,
 	shape: "rsquare",
 	description: "Thermal Logistics!",
@@ -62,11 +62,5 @@
 		uid: "54eb3ae7",
 		type: "ftbmoney:money",
 		ftb_money: 2L
-	},
-	{
-		uid: "28274008",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "EasierStorage"
 	}]
 }

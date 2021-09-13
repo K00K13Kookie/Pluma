@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 2 Circuit",
+	x: 6.0d,
+	y: 4.5d,
+	description: "Nano Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"db121244"
+	],
+	tasks: [{
+		uid: "a84d6052",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32492"
+		}]
+	}]
+}

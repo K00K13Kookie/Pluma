@@ -1,12 +1,13 @@
 {
 	title: "Time to go for The End!",
 	icon: "minecraft:end_portal_frame",
-	x: 11.613095238095234d,
-	y: 5.989285714285714d,
+	x: 13.0d,
+	y: 5.0d,
 	description: "If you don't feel strong enough, maybe it is good to enchant your stuff?",
 	text: [
 		"Now is pretty much time to go to The End in order to obtain some special resources such as Celestial Crystals!"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"321ee631"
 	],

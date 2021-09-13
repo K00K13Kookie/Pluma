@@ -1,0 +1,19 @@
+{
+	title: "First Tier 2 Circuit",
+	x: 1.5d,
+	y: 4.5d,
+	description: "Electronic Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"fd452cce"
+	],
+	tasks: [{
+		uid: "e8ed6527",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32202"
+		}]
+	}]
+}

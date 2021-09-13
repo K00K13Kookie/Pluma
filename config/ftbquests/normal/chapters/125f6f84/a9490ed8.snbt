@@ -1,0 +1,47 @@
+{
+	title: "Iron III Chloride!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "iron_chloride",
+			Amount: 1000
+		}
+	},
+	x: 3.6d,
+	y: 5.6d,
+	description: "I Hope you have a good way to farm Iron for this Chemical Automation!",
+	text: [
+		"Now that you've recently automated Hydrochloric Acid (I Hope) you'll need to mix it with 1 Iron dust in a Chemical Reactor in order to obtain Iron III !"
+	],
+	dependencies: [
+		"a4b77c45"
+	],
+	tasks: [{
+		uid: "655a3997",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 190"
+		},
+		{
+			item: "gregtech:machine 1 191"
+		}]
+	},
+	{
+		uid: "8e7154cf",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "iron_chloride",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb869a1f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

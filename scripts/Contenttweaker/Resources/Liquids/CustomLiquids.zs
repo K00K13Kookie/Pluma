@@ -27,3 +27,11 @@ superGlue.fillSound = <soundevent:block.note.snare>;
 superGlue.luminosity = 2;
 superGlue.viscosity = 4000;
 superGlue.register();
+
+// Liquid Propylene ================================================================================
+
+var liquidPropylene = VanillaFactory.createFluid("liquidPropylene", Color.fromHex("e8e2e1"));
+liquidPropylene.fillSound = <soundevent:block.note.snare>;
+liquidPropylene.luminosity = 2;
+liquidPropylene.viscosity = 8000;
+liquidPropylene.register();

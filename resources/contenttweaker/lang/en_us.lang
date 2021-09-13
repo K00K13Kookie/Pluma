@@ -69,6 +69,7 @@ tile.contenttweaker.uninspectedmineral.name=Uninspected Mineral
 fluid.hidratedlubricant=Hidrated Lubricant
 fluid.liquidTomato=Tomato Sauce
 fluid.superGlue=Super Glue
+fluid.liquidPropylene=Liquid Propylene
 
 item.contenttweaker.emptybag.name=Empty Bag
 item.contenttweaker.emptypot.name=Empty Pot
@@ -83,6 +84,22 @@ item.contenttweaker.drinkglass.name=Drinking Glass
 item.contenttweaker.rawbread.name=Raw Bread
 item.contenttweaker.rawbaguette.name=Raw Baguette
 item.contenttweaker.rawricebread.name=Raw Rice Bread
+
+item.contenttweaker.heavyduty.name=Heavy Duty Plate
+item.contenttweaker.heavydutyalloy.name=Heavy Duty Alloy Ingot
+
+item.contenttweaker.thermalcloth.name=Thermal Cloth
+item.contenttweaker.refinedcloth.name=Refined Cloth
+
+item.contenttweaker.layerpressure.name=Pressure Layer
+item.contenttweaker.layerradiation.name=Radiation Layer
+
+item.contenttweaker.unpreparedspacehelmet.name=Unprepared Space Helmet
+item.contenttweaker.unpreparedspacechestplate.name=Unprepared Space Chestplate
+item.contenttweaker.unpreparedspaceleggins.name=Unprepared Space Leggings
+item.contenttweaker.unpreparedspaceboots.name=Unprepared Space Boots
+
+item.contenttweaker.etchedredalloywiring.name=Etched Red Alloy Wiring
 
 item.contenttweaker.printedFluix.name=Printed Parallel Circuit
 item.contenttweaker.inscriberParallelPress.name=Inscriber Parallel Press
@@ -146,3 +163,24 @@ item.contenttweaker.yellowCrystal.name=Yellow Crystal
 item.contenttweaker.violetCrystal.name=Violet Crystal
 
 item.contenttweaker.menrilSheet.name=Menril Sheet
+
+item.contenttweaker.enoriplate.name=Enori Plate
+item.contenttweaker.restoniaplate.name=Restonia Plate
+item.contenttweaker.diamatineplate.name=Diamantine Plate
+item.contenttweaker.emeradicplate.name=Emeradic Plate
+item.contenttweaker.voidplate.name=Void Plate
+item.contenttweaker.palisplate.name=Palis Plate
+
+item.contenttweaker.enorigear.name=Enori Gear
+item.contenttweaker.restoniagear.name=Restonia Gear
+item.contenttweaker.diamatinegear.name=Diamantine Gear
+item.contenttweaker.emeradicgear.name=Emeradic Gear
+item.contenttweaker.voidgear.name=Void Gear
+item.contenttweaker.palisgear.name=Palis Gear
+
+tile.contenttweaker.sheetmetal_nimonic.name=Nimonic Sheetmetal
+tile.contenttweaker.sheetmetal_hastelloy.name=Hastelloy Sheetmetal
+tile.contenttweaker.sheetmetal_hydronallium.name=Hydronalium Sheetmetal
+
+item.contenttweaker.rawStainlessSteel.name=Unprocessed Stainless Steel Mixture
+item.contenttweaker.PropyleneSheet.name=Propylene Sheet

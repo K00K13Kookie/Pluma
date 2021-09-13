@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 5 Circuit",
+	x: 9.0d,
+	y: 9.0d,
+	description: "Energy Flow Circuit",
+	text: [
+		""
+	],
+	dependencies: [
+		"d003c848"
+	],
+	tasks: [{
+		uid: "d4fe55c5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32497"
+		}]
+	}]
+}

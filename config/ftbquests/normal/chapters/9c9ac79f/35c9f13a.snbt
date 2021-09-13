@@ -1,6 +1,6 @@
 {
 	title: "Didn't understand the Explanation?",
-	icon: "minecraft:repeating_command_block",
+	icon: "computercraft:command_computer",
 	x: 26.0d,
 	y: 3.5d,
 	shape: "gear",

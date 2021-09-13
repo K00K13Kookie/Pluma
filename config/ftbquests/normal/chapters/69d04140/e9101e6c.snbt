@@ -1,6 +1,6 @@
 {
-	title: "A Big Workshop!",
-	icon: "artisanworktables:workshop 1 5",
+	title: "A Worktable!",
+	icon: "artisanworktables:worktable 1 5",
 	x: 14.0d,
 	y: 0.0d,
 	shape: "square",
@@ -15,7 +15,7 @@
 		uid: "545c159f",
 		type: "item",
 		items: [{
-			item: "artisanworktables:workshop 1 5"
+			item: "artisanworktables:worktable 1 5"
 		}],
 		ignore_nbt: 1b
 	}],

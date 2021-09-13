@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 3 Circuit",
+	x: 4.5d,
+	y: 6.0d,
+	description: "Micro Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"6d980b7b"
+	],
+	tasks: [{
+		uid: "09e99f95",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32209"
+		}]
+	}]
+}

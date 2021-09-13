@@ -1,0 +1,19 @@
+{
+	title: "Max Era - 2147483647 EU",
+	x: 16.5d,
+	y: 21.0d,
+	description: "Maximum Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"2c6020b1"
+	],
+	tasks: [{
+		uid: "e39fdfb2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 509"
+		}]
+	}]
+}

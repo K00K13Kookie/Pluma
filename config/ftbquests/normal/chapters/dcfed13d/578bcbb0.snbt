@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 11 Circuit",
+	x: 16.5d,
+	y: 18.0d,
+	description: "Cosmic Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"a0bd50c5"
+	],
+	tasks: [{
+		uid: "eed4f033",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32338"
+		}]
+	}]
+}

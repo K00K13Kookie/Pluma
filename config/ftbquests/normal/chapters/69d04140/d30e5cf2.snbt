@@ -1,6 +1,6 @@
 {
-	title: "The Mason's Workshop!",
-	icon: "artisanworktables:workshop 1 2",
+	title: "The Mason's Worktable!",
+	icon: "artisanworktables:worktable 1 2",
 	x: 17.5d,
 	y: 0.0d,
 	shape: "square",
@@ -18,7 +18,7 @@
 		uid: "16b153ba",
 		type: "item",
 		items: [{
-			item: "artisanworktables:workshop 1 2"
+			item: "artisanworktables:worktable 1 2"
 		}],
 		ignore_nbt: 1b
 	}],

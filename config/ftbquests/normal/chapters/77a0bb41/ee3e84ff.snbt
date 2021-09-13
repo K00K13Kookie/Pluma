@@ -1,7 +1,7 @@
 {
 	title: "Producing Wood Tar and Then Refining it to Benzene!",
-	x: 9.577380952380956d,
-	y: 5.98571428571428d,
+	x: 8.8d,
+	y: 6.0d,
 	description: "Not the Most Efficient thing currently, but it is Important!",
 	text: [
 		"Now that you have a Pyrolyse Oven, you can make some Wood Tar and them use a Ditillery with the right circuit to produce Benzene!",

@@ -1,0 +1,28 @@
+{
+	title: "Skeletal Mayhem",
+	icon: "minecraft:skull",
+	x: -5.0d,
+	y: 0.25d,
+	description: "Kill 25 Skeletons!",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a5c0f711",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "7f88c3d4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d053a05d",
+		type: "item",
+		item: "tconstruct:edible 1 10",
+		count: 2
+	}]
+}

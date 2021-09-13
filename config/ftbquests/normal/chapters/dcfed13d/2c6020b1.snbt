@@ -1,0 +1,19 @@
+{
+	title: "UXV Era - 536870912 EU",
+	x: 15.0d,
+	y: 19.5d,
+	description: "Extended Mega Ultimate Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"be408b86"
+	],
+	tasks: [{
+		uid: "738952ab",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3243"
+		}]
+	}]
+}

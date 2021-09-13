@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 5 Circuit",
+	x: 10.5d,
+	y: 9.0d,
+	description: "Wetware Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"d87c05a8"
+	],
+	tasks: [{
+		uid: "5323ccb5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32498"
+		}]
+	}]
+}

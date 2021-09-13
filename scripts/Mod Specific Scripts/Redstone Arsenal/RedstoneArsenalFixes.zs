@@ -14,7 +14,7 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<thermalfoundation:material:97
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>, <liquid:redstone> * 500);
 recipes.removeByRecipeName("redstonearsenal:gem_crystal_flux");
 
-chemical_bath.findRecipe(32, [<thermalfoundation:material:161>], [<liquid:redstone> * 500]).remove();
+#chemical_bath.findRecipe(32, [<thermalfoundation:material:161>], [<liquid:redstone> * 500]).remove();
 
 
 //Fluxed Electrum Ingot

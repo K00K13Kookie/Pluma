@@ -37,7 +37,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:10>,
   <minecraft:rotten_flesh>,
   16000,
-  true
+  false
 );
 
 //BeefJerky
@@ -46,7 +46,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:11>,
   <minecraft:beef>,
   16000,
-  true
+  false
 );
 
 //ChickenJerky
@@ -55,7 +55,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:12>,
   <minecraft:chicken>,
   16000,
-  true
+  false
 );
 
 //BaconJerky
@@ -64,7 +64,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:13>,
   <minecraft:porkchop>,
   16000,
-  true
+  false
 );
 
 //MuttonJerky
@@ -73,7 +73,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:14>,
   <minecraft:mutton>,
   16000,
-  true
+  false
 );
 
 //RabbitJerky
@@ -82,7 +82,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:15>,
   <minecraft:rabbit>,
   16000,
-  true
+  false
 );
 
 //FishJerky
@@ -91,7 +91,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:20>,
   <minecraft:fish>,  
   16000,
-  true
+  false
 );
 
 //SalmonJerky
@@ -100,7 +100,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:21>,
   <minecraft:fish:1>,  
   16000,
-  true
+  false
 );
 
 //Clowfish Jerky
@@ -109,7 +109,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:22>,
   <minecraft:fish:2>,  
   16000,
-  true
+  false
 );
 
 //FuguJerky
@@ -118,7 +118,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:23>,
   <minecraft:fish:3>,  
   16000,
-  true
+  false
 );
 
 //GreenSlimeDrop
@@ -127,7 +127,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:30>,
   <minecraft:slime_ball>,  
   16000,
-  true
+  false
 );
 
 //BlueSlimeDrop
@@ -136,7 +136,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:31>,
   <tconstruct:edible:1>,  
   16000,
-  true
+  false
 );
 
 //PurpleSlimeDrop
@@ -145,7 +145,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:32>,
   <tconstruct:edible:2>,  
   16000,
-  true
+  false
 );
 
 //BloodSlimeDrop
@@ -154,7 +154,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:33>,
   <tconstruct:edible:3>, 
   16000,
-  true
+  false
 );
 
 //OrangeSlimeDrop
@@ -163,7 +163,7 @@ DryingRack.addRecipe(
   <tconstruct:edible:34>,
   <tconstruct:edible:4>,  
   16000,
-  true
+  false
 );
 
 //DryedBrick
@@ -172,7 +172,7 @@ DryingRack.addRecipe(
   <tconstruct:materials:2>,
   <pyrotech:material:24>,  
   8000,
-  true
+  false
 );
 
 //DryedClay
@@ -181,5 +181,5 @@ DryingRack.addRecipe(
   <tconstruct:dried_clay>,
   <minecraft:clay>,  
   16000,
-  true
+  false
 );

@@ -1,0 +1,44 @@
+{
+	title: "Storing even more Gases!",
+	x: 5.5d,
+	y: -1.2d,
+	description: "A \"Better Vessel\"",
+	text: [
+		"The Gasification Plant Requires an Vessel for it to Ouput the Gases to, but, why not also use some Gas Pipelines to connect that output to an Gas Holder? It has an Ginourmous amount of space for Gases!"
+	],
+	dependencies: [
+		"7abbfcce",
+		"19f8a547"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bef491c",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b786695",
+		type: "item",
+		item: {
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}
+	},
+	{
+		uid: "d1f9e0d6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

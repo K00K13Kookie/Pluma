@@ -1,0 +1,41 @@
+{
+	title: "Crafting Components IIII [Robot Arms and Conveyors]",
+	x: 5.6d,
+	y: -2.0d,
+	description: "Used in a Bunch of Recipes and also to Move items from machines!",
+	text: [
+		"Robot Arms and Emitters can be kinda expensive, but, they are very important! Besides being used in a Bunch of Crafting Recipes, you can use them to move Items from Machine to Machine in GT."
+	],
+	dependencies: [
+		"934f786b"
+	],
+	tasks: [{
+		uid: "d5d40242",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32650"
+		}]
+	},
+	{
+		uid: "ede01229",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32630"
+		}]
+	}],
+	rewards: [{
+		uid: "60780555",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	},
+	{
+		uid: "a1d748a0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32650"
+	},
+	{
+		uid: "bfa12035",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32630"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 8 Circuit",
+	x: 13.5d,
+	y: 13.5d,
+	description: "Optical Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"49305172"
+	],
+	tasks: [{
+		uid: "563b71aa",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32502"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Profiling...",
+	x: -2.2d,
+	y: 0.1d,
+	description: "Lets get into Rockhounding!",
+	text: [
+		"§b§rLeft click to change modes, then right click to place whatever item you want processed. The Profiling Bench does not need power.",
+		"",
+		"Items can be piped in and out quite simply, so don't hesitate to set up a small automation for it!",
+		"",
+		"Rockhounding can be an intimadating mod! However in this pack §r§6what you need to know is explained trough quests§r, It is highly recommended to do at least the next quest in the line, to familiarize yourself with some of the concepts."
+	],
+	tasks: [{
+		uid: "192bb6a7",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 11s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4d6fd480",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 2 Circuit",
+	x: 3.0d,
+	y: 4.5d,
+	description: "Refined Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"2c677eb9"
+	],
+	tasks: [{
+		uid: "395fe6b6",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32205"
+		}]
+	}]
+}

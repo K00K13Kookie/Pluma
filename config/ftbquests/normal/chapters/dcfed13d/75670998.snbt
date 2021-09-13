@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 4 Circuit",
+	x: 7.5d,
+	y: 7.5d,
+	description: "Quantum Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"845942fc"
+	],
+	tasks: [{
+		uid: "447ab324",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32216"
+		}]
+	}]
+}

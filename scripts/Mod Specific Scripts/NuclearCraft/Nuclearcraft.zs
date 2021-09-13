@@ -132,26 +132,11 @@ var NuclearStagins as IItemStack[] = [
 <nuclearcraft:gem:3>,
 <nuclearcraft:gem:4>,
 <nuclearcraft:gem:5>,
-<nuclearcraft:gem_dust:1>,
 <nuclearcraft:gem_dust:4>,
 <nuclearcraft:gem_dust:5>,
 <nuclearcraft:gem_dust:8>,
 <nuclearcraft:gem_dust:9>,
 <nuclearcraft:gem_dust:10>,
-<nuclearcraft:alloy:1>,
-<nuclearcraft:alloy:2>,
-<nuclearcraft:alloy:3>,
-<nuclearcraft:alloy:4>,
-<nuclearcraft:alloy:6>,
-<nuclearcraft:alloy:7>,
-<nuclearcraft:alloy:8>,
-<nuclearcraft:alloy:9>,
-<nuclearcraft:alloy:10>,
-<nuclearcraft:alloy:11>,
-<nuclearcraft:alloy:12>,
-<nuclearcraft:alloy:13>,
-<nuclearcraft:alloy:14>,
-<nuclearcraft:alloy:15>,
 <nuclearcraft:compound>,
 <nuclearcraft:compound:10>,
 <nuclearcraft:part>,
@@ -433,8 +418,8 @@ for liquid in game.liquids {
        liquid.name has "_24" | 
        liquid.name has "_25" ) {
 
-        mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", liquid.name);
-        mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", liquid*1000);   
+        #mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", liquid.name);
+        #mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", liquid*1000);   
         #purgeFluidFromJEI(liquid.name);
         // Hide the fluid too
         #mods.jei.JEI.hide(liquid*1000);
@@ -547,7 +532,6 @@ for fluid in sharedFluids {
     // get rid of NC's weird fluid tile things
     var item = itemUtils.getItem("nuclearcraft:fluid_" + fluid);
     if(!isNull(item)) {
-        mods.recipestages.Recipes.setRecipeStage("AdvancedMachinery", item);    
-        mods.ItemStages.addItemStage("AdvancedMachinery", item);
+        mods.jei.JEI.hide(item);
     }
 }

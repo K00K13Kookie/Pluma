@@ -1,0 +1,19 @@
+{
+	title: "First Tier 12 Circuit",
+	x: 16.5d,
+	y: 19.5d,
+	description: "Cosmic Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"2c6020b1"
+	],
+	tasks: [{
+		uid: "752be581",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32339"
+		}]
+	}]
+}

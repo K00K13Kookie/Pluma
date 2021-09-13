@@ -1,21 +1,18 @@
 {
-  "weight": 140,
+  "weight": 60,
   "density": 0.7,
-  "max_height": 90,
   "min_height": 40,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_1",
-      "type": "aira_c"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "salt"
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
-    "radius": [15, 25]
+    "radius": [14, 17]
   },
   "filler": {
     "type": "simple",
@@ -23,20 +20,16 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 35,
+          "weight": 40,
           "value": "ore:salt"
         },
         {
-          "weight": 30,
+          "weight": 35,
           "value": "ore:rock_salt"
         },
 		{
           "weight": 15,
           "value": "ore:lepidolite"
-        },
-		{
-          "weight": 10,
-          "value": "ore:saltpeter"
         },
 		{
           "weight": 10,

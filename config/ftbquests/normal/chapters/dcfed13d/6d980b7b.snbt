@@ -1,0 +1,19 @@
+{
+	title: "First Tier 3 Circuit",
+	x: 3.0d,
+	y: 6.0d,
+	description: "Refined Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"efa8cc27"
+	],
+	tasks: [{
+		uid: "8a056184",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32206"
+		}]
+	}]
+}

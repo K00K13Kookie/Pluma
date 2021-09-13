@@ -27,7 +27,6 @@
 	{
 		uid: "47ad6254",
 		type: "gamestage",
-		title: "More Knowladge!",
 		auto: "invisible",
 		stage: "ModularMachineryUnlock"
 	},

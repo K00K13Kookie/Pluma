@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 3 Circuit",
+	x: 7.5d,
+	y: 6.0d,
+	description: "Quantumprocessor",
+	text: [
+		""
+	],
+	dependencies: [
+		"a308e604"
+	],
+	tasks: [{
+		uid: "592ef677",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32494"
+		}]
+	}]
+}

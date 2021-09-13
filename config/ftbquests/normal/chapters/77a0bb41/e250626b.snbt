@@ -1,8 +1,8 @@
 {
 	title: "Imroving your Circuit Crafting Process.",
 	icon: "gregtech:meta_item_1 1 10180",
-	x: 18.2d,
-	y: -4.2d,
+	x: 18.25d,
+	y: -3.5d,
 	shape: "square",
 	description: "By using Soldering Alloy, there's no need to used Tin Directly.",
 	text: [

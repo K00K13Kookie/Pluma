@@ -51,5 +51,11 @@
 		uid: "f23c6c43",
 		type: "ftbmoney:money",
 		ftb_money: 1L
+	},
+	{
+		uid: "4c19abaf",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EasierStoneSlabs"
 	}]
 }

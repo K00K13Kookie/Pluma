@@ -1,7 +1,18 @@
 {
-	title: "Chapter 3: The Chemistry Era",
+	title: "3. The Chemistry Era",
 	icon: "gregtech:machine 1 190",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 3.9d,
+		y: -3.8d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/banner3.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

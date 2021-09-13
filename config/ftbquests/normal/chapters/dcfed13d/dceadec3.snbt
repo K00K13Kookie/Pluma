@@ -1,0 +1,19 @@
+{
+	title: "First Tier 5 Circuit",
+	x: 6.0d,
+	y: 9.0d,
+	description: "Nano Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"09478a89"
+	],
+	tasks: [{
+		uid: "2d467836",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32212"
+		}]
+	}]
+}

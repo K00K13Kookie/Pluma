@@ -8,7 +8,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<ore:wool>]])
   .addTool(<ore:artisansShears>, 5)
-  .addTool(<ore:artisansKnife>, 2)
   .addOutput(<minecraft:string> * 4)
   .create();
 
@@ -17,7 +16,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<ore:fiberHemp>, <ore:fiberHemp>],
     [<ore:fiberHemp>, null]])
-  .addTool(<ore:artisansShears>, 5)
   .addTool(<ore:artisansKnife>, 2)
   .addOutput(<minecraft:string>)
   .create();
@@ -27,7 +25,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<ore:cropCotton>, <ore:cropCotton>],
     [<ore:cropCotton>, null]])
-  .addTool(<ore:artisansShears>, 5)
   .addTool(<ore:artisansKnife>, 2)
   .addOutput(<minecraft:string>)
   .create();  
@@ -37,7 +34,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<ore:twine>]])
   .addTool(<ore:artisansKnife>, 2)
-  .addTool(<ore:artisansLens>, 2)
   .addOutput(<minecraft:string>)
   .create();
 
@@ -48,7 +44,6 @@ RecipeBuilder.get("tailor")
     [<ore:twine>, <ore:twine>],
     [<ore:twine>, <ore:twine>]])
   .addTool(<ore:artisansNeedle>, 8)
-  .addTool(<ore:artisansShears>, 4)
   .addOutput(<minecraft:wool>)
   .create();
 
@@ -62,7 +57,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool>)
   .create();
 
@@ -74,7 +68,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:1>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:1>)
   .create();
 
@@ -86,7 +79,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:2>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:2>)
   .create();
 
@@ -98,7 +90,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:3>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:3>)
   .create();
 
@@ -110,7 +101,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:4>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:4>)
   .create();
 
@@ -122,7 +112,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:5>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:5>)
   .create();
 
@@ -134,7 +123,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:6>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:6>)
   .create();
 
@@ -146,7 +134,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:7>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:7>)
   .create();
 
@@ -158,7 +145,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:8>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:8>)
   .create();
 
@@ -170,7 +156,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:9>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:9>)
   .create(); 
 
@@ -182,7 +167,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:10>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:10>)
   .create();
 
@@ -194,7 +178,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:11>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:11>)
   .create();
 
@@ -206,7 +189,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:12>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:12>)
   .create();
 
@@ -218,7 +200,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:13>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:13>)
   .create();
 
@@ -230,7 +211,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:14>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:14>)
   .create();
 
@@ -242,7 +222,6 @@ RecipeBuilder.get("tailor")
     [<minecraft:wool:15>],
     [<ore:twine>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
   .addOutput(<quark:quilted_wool:15>)
   .create();
 
@@ -283,8 +262,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool>, <minecraft:wool>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet> * 3)
   .create();
 
@@ -294,8 +271,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:1>, <minecraft:wool:1>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:1> * 3)
   .create(); 
 
@@ -305,8 +280,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:2>, <minecraft:wool:2>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:2> * 3)
   .create();
 
@@ -316,8 +289,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:3>, <minecraft:wool:3>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:3> * 3)
   .create();
 
@@ -327,8 +298,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:4>, <minecraft:wool:4>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:4> * 3)
   .create();
 
@@ -338,8 +307,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:5>, <minecraft:wool:5>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:5> * 3)
   .create();
 
@@ -349,8 +316,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:6>, <minecraft:wool:6>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:6> * 3)
   .create();
 
@@ -360,8 +325,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:7>, <minecraft:wool:7>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:7> * 3)
   .create();
 
@@ -371,8 +334,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:8>, <minecraft:wool:8>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:8> * 3)
   .create();
 
@@ -382,8 +343,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:9>, <minecraft:wool:9>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:9> * 3)
   .create();
 
@@ -393,8 +352,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:10>, <minecraft:wool:10>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:10> * 3)
   .create();
 
@@ -404,8 +361,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:11>, <minecraft:wool:11>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:11> * 3)
   .create();
 
@@ -415,8 +370,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:12>, <minecraft:wool:12>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:12> * 3)
   .create();
 
@@ -426,8 +379,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:13>, <minecraft:wool:13>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:13> * 3)
   .create();
 
@@ -437,8 +388,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:14>, <minecraft:wool:14>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:14> * 3)
   .create();
 
@@ -448,8 +397,6 @@ RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:wool:15>, <minecraft:wool:15>]])
   .addTool(<ore:artisansNeedle>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<minecraft:carpet:15> * 3)
   .create();
 
@@ -485,7 +432,5 @@ RecipeBuilder.get("tailor")
     [<ore:quiltedWool>, <ore:quiltedWool>, <ore:wool>],
     [<ore:logWood>, <ore:plankWood>, <ore:logWood>]])
   .addTool(<ore:artisansNeedle>, 10)
-  .addTool(<ore:artisansShears>, 5)
-  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<minecraft:bed>)
   .create();    

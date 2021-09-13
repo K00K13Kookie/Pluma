@@ -20,11 +20,6 @@ for item in toRemove {
 	}
 }
 
-## Electrotine Corrected OreDicts #####
-
-<ore:ingotElectrotine>.add(<projectred-core:resource_item:104>);
-<ore:plateElectrotine>.add(<moreplates:electrotine_alloy_plate>);
-
 ## Certuz Quartz Corrected OreDicts #####
 
 <ore:blockCertusQuartz>.add(

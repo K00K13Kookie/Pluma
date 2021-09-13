@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 7 Circuit",
+	x: 13.5d,
+	y: 12.0d,
+	description: "Optical Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"8c4db75a"
+	],
+	tasks: [{
+		uid: "90f2bb46",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32501"
+		}]
+	}]
+}

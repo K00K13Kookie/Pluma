@@ -18,8 +18,8 @@
 			Level: 0b
 		}
 	},
-	x: 40.0d,
-	y: -5.5d,
+	x: 33.0d,
+	y: -0.3d,
 	shape: "rsquare",
 	text: [
 		"The Igneous Extruder will offer you a way to mass produce Stones and even Sand with the right upgrade! it is a powerfull machine specially if you want to automate the Rock Crusher completly!"

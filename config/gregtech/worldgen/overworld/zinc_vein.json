@@ -1,40 +1,42 @@
 {
-  "weight": 150,
-  "density": 0.3,
-  "max_height": 70,
-  "min_height": 10,
-  "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_0",
-      "type": "aethionema_s"
+    "weight": 50,
+    "density": 0.5,
+    "max_height": 50,
+    "min_height": 10,
+    "dimension_filter":
+  [
+    "dimension_id:0"
+  ],
+    "vein_populator": {
+      "type": "surface_rock",
+      "material": "zinc"
     },
-    "min_amount": 1,
-    "max_amount": 3
-  },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
-  "generator": {
-    "type": "ellipsoid",
-    "radius": [16, 30]
-  },
-  "filler": {
-    "type": "simple",
-    "value": {
-      "type": "weight_random",
-      "values": [
-        {
-          "weight": 60,
-          "value": "ore:zinc"
-        },
-        {
-          "weight": 20,
-          "value": "ore:pyrite"
-        },
-		{
-          "weight": 20,
-          "value": "ore:sphalerite"
-        }
-      ]
+    "generator": {
+      "type": "ellipsoid",
+      "radius": [7, 12]
+    },
+    "filler": {
+      "type": "simple",
+      "value": {
+        "type": "weight_random",
+        "values": [
+          {
+            "weight": 35,
+            "value": "ore:zinc"
+          },
+          {
+            "weight": 20,
+            "value": "ore:cassiterite"
+          },
+          {
+            "weight": 30,
+            "value": "ore:alunite"
+          },
+          {
+            "weight": 15,
+            "value": "ore:bauxite"
+          }
+        ]
+      }
     }
   }
-}

@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 1 Circuit",
+	x: 4.5d,
+	y: 3.0d,
+	description: "Micro Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"a035f568"
+	],
+	tasks: [{
+		uid: "c2766204",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32207"
+		}]
+	}]
+}

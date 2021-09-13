@@ -1,0 +1,48 @@
+{
+	title: "Salt Water -> Chlorine!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "chlorine",
+			Amount: 1000
+		}
+	},
+	x: 1.0d,
+	y: 5.6d,
+	description: "Lets Electrolyze Salt Water into Chlorine!",
+	text: [
+		"Now with your brand new production of Salt Water, it is time to hook up an Electrolyzer to it and Start Producing Chlorine! it is a very very very Important Resource to farm!"
+	],
+	dependencies: [
+		"1c26a11d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e559b4a4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 240"
+		},
+		{
+			item: "gregtech:machine 1 241"
+		}]
+	},
+	{
+		uid: "30e560fe",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "chlorine",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ec680a2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

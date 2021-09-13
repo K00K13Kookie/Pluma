@@ -83,21 +83,13 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_dense_pl
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:bismuth_bronze_dense_plate>, <ore:plateBismuthBronze>, <immersiveengineering:mold>, 160, 9);
 
 //Black Steel Dense Plate
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:black_steel_dense_plate>, <ore:plateBlackSteel>, <immersiveengineering:mold>, 160, 9);
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13231>, <ore:plateBlackSteel>, <immersiveengineering:mold>, 160, 9);
 
 //Silver Dense Plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:silver_dense_plate>, <ore:plateSilver>, <immersiveengineering:mold>, 160, 9);
 
 //Aluminium Dense Plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminium_dense_plate>, <ore:plateAluminium>, <immersiveengineering:mold>, 160, 9);
-
-# Rotor Recipes on the Press ================================
-
-//Steel Rotor
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_2:18184>, <ore:plateSteel>, <contenttweaker:rotormold>, 180, 4);
-
-//Black Steel Rotor
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:blacksteelrotor>, <ore:plateBlackSteel>, <contenttweaker:rotormold>, 180, 4);
 
 # Bolt Recipes in the Metal Press =============================
 
@@ -123,7 +115,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16184> * 4,
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:wood_bolt> * 4, <ore:stickWood>, <contenttweaker:boltmold>, 20);
 
 //Aluminum Bolt
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16001> * 4, <ore:stickAluminum>, <contenttweaker:boltmold>, 20);
+mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16001> * 4, <ore:stickAluminium>, <contenttweaker:boltmold>, 20);
 
 //Electrum Bolt
 mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16112> * 4, <ore:stickElectrum>, <contenttweaker:boltmold>, 20);
@@ -144,10 +136,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16062> * 4,
 # Black Bronze Related =================================
 
 //Obscure Compound
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:obscurecompound>, <gregtech:meta_item_1:2250>, <actuallyadditions:item_dust:7>, 400);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:obscurecompound>, <gregtech:meta_item_1:2250>, null, 200, 128, [<actuallyadditions:item_dust:7>], "Alloying");
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:obscurecompound>, <jaopca:item_dustenderbiotite>, <actuallyadditions:item_dust:7>, 400);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:obscurecompound>, <jaopca:item_dustenderbiotite>, null, 200, 128, [<actuallyadditions:item_dust:7>], "Alloying");
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:obscurecompound>, <gregtech:meta_item_1:2250>, <gregtech:meta_item_1:2475>, 400);
 
 
 // Black Bronze Ingot Recipe

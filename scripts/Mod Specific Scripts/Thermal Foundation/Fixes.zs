@@ -49,17 +49,6 @@ blast_furnace.recipeBuilder()
     .EUt(30000)
     .buildAndRegister();
 
-//Enderium (ZPM)
-chemical_bath.findRecipe(32, [<nuclearcraft:alloy:9>], [<liquid:ender> * 250]).remove();
-blast_furnace.recipeBuilder()
-    .inputs(<nuclearcraft:alloy:9>, <ore:dustSmallRoseGold>)
-    .fluidInputs([<liquid:ender> * 500])    
-    .outputs(<thermalfoundation:material:167>)
-    .property("temperature", 5000)
-    .duration(1500)
-    .EUt(130000)
-    .buildAndRegister();
-
 # Fixing the Names of "Pulverized" to "Dust"
 
 <thermalfoundation:material>.displayName = "Iron Dust";
@@ -493,10 +482,11 @@ recipes.addShaped(<thermalexpansion:tank:0> * 1, [[<ore:plateDenseCopper>, <ore:
 
 //Cache Easier on the Assembler
 assembler.recipeBuilder()
-    .inputs([<ore:plateBismuth> * 2, <immersiveengineering:wooden_device0>, <thermalfoundation:material:512>, <ore:plateDenseTin>])
+    .inputs([<ore:plateBismuthBronze> * 2, <immersiveengineering:wooden_device0:5>, <thermalfoundation:material:512>])
     .outputs(<thermalexpansion:cache>)
-    .duration(120)
-    .EUt(128)
+    .property("circuit", 8)
+    .duration(400)
+    .EUt(32)
     .buildAndRegister();
 
 //Redstone Servo on HV Chemical Reactor
@@ -830,8 +820,6 @@ RecipeBuilder.get("scribe")
   .setShapeless([<ore:paper>])
   .setFluid(<liquid:redstone> * 288)
   .addTool(<ore:artisansPencil>, 5)
-  .addTool(<ore:artisansTSquare>, 3)
-  .addTool(<ore:artisansLens>, 4)
   .addOutput(<thermalfoundation:diagram_redprint>)
   .create();
 
@@ -859,8 +847,6 @@ RecipeBuilder.get("engineer")
     [<ore:screwSilver>, <ore:strengthenedGlass>, <ore:screwSilver>],
     [<ore:circuitPrimitive>, <thermalexpansion:frame>, <ore:circuitPrimitive>],
     [<ore:gearInvar>, <ore:plateDenseBlackBronze>, <ore:gearInvar>]])
-  .addTool(<ore:artisansHammer>, 8)
-  .addTool(<ore:artisansBurner>, 8)
   .addTool(<ore:artisansSolderer>, 8)
   .addOutput(<thermalexpansion:machine:15>)
   .create();
@@ -874,8 +860,6 @@ RecipeBuilder.get("engineer")
     [<ore:casingBlackSteel>, <thermalfoundation:material:515>, <ore:casingBlackSteel>]])
   .setFluid(<liquid:tree_oil> * 250)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
-  .addTool(<ore:artisansSolderer>, 4)
   .addOutput(<thermalexpansion:augment:497>)
   .create();
 
@@ -895,8 +879,6 @@ RecipeBuilder.get("engineer")
     [<ore:gearRedAlloy>, <thermalfoundation:material:513>, <ore:gearRedAlloy>]])
   .setFluid(<liquid:tree_oil> * 250)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
-  .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<thermalexpansion:augment:128> * 2)
   .create();
 
@@ -916,8 +898,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <thermalfoundation:material:512>, <ore:plateBronze>]])
   .setFluid(<liquid:tree_oil> * 250)
   .addTool(<ore:artisansHammer>, 4)
-  .addTool(<ore:artisansBurner>, 4)
-  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<thermalexpansion:augment:129>)
   .create();
 
@@ -937,8 +917,6 @@ RecipeBuilder.get("engineer")
     [<ore:screwInvar>, <ore:dustVoid>, <ore:screwInvar>]])
   .setFluid(<liquid:tree_oil> * 1000)
   .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansBurner>, 2)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermalexpansion:augment:130>)
   .create();
 
@@ -958,8 +936,6 @@ RecipeBuilder.get("engineer")
     [<ore:gearInvar>, <thermalfoundation:material:512>, <ore:gearInvar>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)
   .addTool(<ore:artisansSolderer>, 6)
-  .addTool(<ore:artisansHammer>, 6)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<thermalexpansion:device:3>)
   .create();
 
@@ -967,13 +943,11 @@ RecipeBuilder.get("engineer")
 recipes.remove(<thermalexpansion:cache>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:boltTin>, <ore:densePlateTin>, <ore:boltTin>],
-    [<ore:plateBismuth>, <immersiveengineering:wooden_device0>, <ore:plateBismuth>],
-    [<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]])
+    [<ore:plateSteel>, <ore:plateDenseSteel>, <ore:plateSteel>],
+    [<ore:plateBismuthBronze>, <ironchest:iron_chest>, <ore:plateBismuthBronze>],
+    [<ore:plateSteel>, <thermalfoundation:material:512>, <ore:plateSteel>]])
   .setFluid(<liquid:canolaoil> * 500)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansSpanner>, 3)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<thermalexpansion:cache>)
   .create();
 
@@ -985,8 +959,6 @@ RecipeBuilder.get("engineer")
     [<projectred-core:resource_item:2>, <projectred-core:resource_item:410>, <projectred-core:resource_item:2>],
     [<projectred-core:resource_item:11>, <ore:stickSilver>, <projectred-core:resource_item:11>]])
   .setFluid(<liquid:redstone> * 400)
-  .addTool(<ore:artisansDriver>, 7)
   .addTool(<ore:artisansSolderer>, 9)
-  .addTool(<ore:artisansSpanner>, 8)
   .addOutput(<thermalfoundation:material:512> * 2)
   .create();

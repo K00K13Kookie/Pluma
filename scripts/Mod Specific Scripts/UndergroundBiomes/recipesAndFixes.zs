@@ -5,6 +5,11 @@ import mods.chisel.Carving;
 recipes.addShapeless(<minecraft:cobblestone>, [<ore:artisansChisel>.reuse().transformDamage(1), <ore:cobblestone>]);
 recipes.addShapeless(<minecraft:stone>, [<ore:artisansChisel>.reuse().transformDamage(1), <ore:stone>]);
 
+#### OreDicts ####
+
+<ore:stoneGraniteRed>.add(<undergroundbiomes:igneous_stone>);
+<ore:stoneGraniteBlack>.add(<undergroundbiomes:igneous_stone:1>);
+
 # Recipes for Contenttweaker new Variations ===========================
 
 //SmoothShale and Shale Road

@@ -1,0 +1,28 @@
+{
+	title: "The Walking Dead",
+	icon: "minecraft:skull 1 2",
+	x: -6.25d,
+	y: 0.25d,
+	description: "Kill 25 Zombies!",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "29282dd0",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "b6f1f683",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d2fe71bf",
+		type: "item",
+		item: "harvestcraft:zombiejerkyitem",
+		count: 2
+	}]
+}

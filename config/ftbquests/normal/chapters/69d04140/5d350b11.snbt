@@ -1,6 +1,6 @@
 {
 	title: "A Carpenter's Life",
-	icon: "artisanworktables:workshop 1 1",
+	icon: "artisanworktables:worktable 1 1",
 	x: 25.0d,
 	y: -4.0d,
 	shape: "square",
@@ -15,7 +15,7 @@
 		uid: "b74415a3",
 		type: "item",
 		items: [{
-			item: "artisanworktables:workshop 1 1"
+			item: "artisanworktables:worktable 1 1"
 		}]
 	}],
 	rewards: [{

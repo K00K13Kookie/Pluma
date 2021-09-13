@@ -9,6 +9,8 @@ import mods.pyrotech.StoneKiln as StoneKiln;
 import mods.pyrotech.BrickKiln as BrickKiln;
 import mods.pyrotech.GraniteAnvil as GraniteAnvil;
 import mods.pyrotech.IroncladAnvil as IroncladAnvil;
+import mods.gtadditions.recipe.Utils;
+import mods.immersiveengineering.Mixer as IEMixer;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -16,23 +18,17 @@ import mods.pyrotech.IroncladAnvil as IroncladAnvil;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Cinnabar OreDict
-<ore:gemCinnabar>.add(<thermalfoundation:material:866>);
-
-<ore:crystalCinnabar>.add(<gregtech:meta_item_1:8103>);
-<ore:itemCinnabar>.add(<gregtech:meta_item_1:8103>);
+// Wood Gear
+recipes.remove(<gregtech:meta_item_2:26196>);
+recipes.addShaped(<gregtech:meta_item_2:26196> * 1, [[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:plankWood>, null, <ore:plankWood>],[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
 
 //Biotite Dust to Gem
-furnace.addRecipe(<quark:biotite>, <jaopca:item_dustenderbiotite>);
-
-//Biotite Correct OreDicting
-<ore:dustBiotite>.add(<jaopca:item_dustenderbiotite>);
-<ore:dustRegularBiotite>.add(<jaopca:item_dustenderbiotite>);
+furnace.addRecipe(<quark:biotite>, <gregtech:meta_item_1:2250>);
 
 <ore:dustEnderBiotite>.add(<gregtech:meta_item_1:2250>);
 
 //Biotite Dust with a Mortar
-recipes.addShapeless("BiotiteDustWithMortar", <jaopca:item_dustenderbiotite>, [<ore:gemEnderBiotite>, <gregtech:meta_tool:12>]);
+recipes.addShapeless("BiotiteDustWithMortar", <gregtech:meta_item_1:2250>, [<ore:gemEnderBiotite>, <gregtech:meta_tool:12>]);
 
 //Clay Dust with a Mortar
 recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:ingotClay>, <gregtech:meta_tool:12>]);
@@ -40,98 +36,8 @@ recipes.addShapeless("ClayDustWithMortar", <gregtech:meta_item_1:2105>, [<ore:in
 //GT Salt into FoodSalt OreDict
 <ore:foodSalt>.add(<gregtech:meta_item_1:2155>);
 
-### HoneComb Fixes ###
-
-<ore:ingotHoneycomb>.add(<careerbees:ingredients:10>);
-
-// Bee Armor Chestplate
-recipes.remove(<careerbees:bee.armor.chest>);
-recipes.addShaped(<careerbees:bee.armor.chest> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>]]);
-
-// Bee Armor Helmet
-recipes.remove(<careerbees:bee.armor.head>);
-recipes.addShaped(<careerbees:bee.armor.head> * 1, [[<gregtech:meta_item_1:14829>, null, <gregtech:meta_item_1:14829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>]]);
-
-// Bee Armor Leggings
-recipes.remove(<careerbees:bee.armor.legs>);
-recipes.addShaped(<careerbees:bee.armor.legs> * 1, [[<gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>, <gregtech:meta_item_1:12829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
-
-// Bee Armor Boots
-recipes.remove(<careerbees:bee.armor.feet>);
-recipes.addShaped(<careerbees:bee.armor.feet> * 1, [[<gregtech:meta_item_1:17829>, null, <gregtech:meta_item_1:17829>], [<gregtech:meta_item_1:12829>, <gregtech:meta_tool:8>, <gregtech:meta_item_1:12829>],[<gregtech:meta_item_1:12829>, null, <gregtech:meta_item_1:12829>]]);
-
-// Bee-Bee Gun
-recipes.remove(<careerbees:beegun>);
-recipes.addShaped(<careerbees:beegun> * 1, [[<gregtech:meta_item_1:17829>, <gregtech:meta_tool:11>, <gregtech:meta_item_1:17829>], [<careerbees:ingredients:10>, <gregtech:meta_item_2:26829>, <gregtech:meta_item_1:12829>],[<careerbees:ingredients:10>, <gregtech:meta_tool:8>, <gregtech:meta_tool:6>]]);
-
-##### Aluminium/Aluminum Fixes #####
-
-
-<ore:ingotAluminium>.add(<thermalfoundation:material:132>);
-<ore:blockAluminium>.add(<thermalfoundation:storage:4>);
-<ore:dustAluminium>.add(<thermalfoundation:material:68>);
-<ore:gearAluminium>.add(<thermalfoundation:material:260>);
-<ore:nuggetAluminium>.add(<thermalfoundation:material:196>);
-<ore:stickAluminium>.add(<immersiveengineering:material:3>);
-<ore:plateAluminium>.add(<thermalfoundation:material:324>);
-
-
-<ore:ingotAluminum>.add(<gregtech:meta_item_1:10001>);
-<ore:blockAluminum>.add(<gregtech:meta_block_compressed_0:1>);
-<ore:dustAluminum>.add(<gregtech:meta_item_1:2001>);
-<ore:gearAluminum>.add(<gregtech:meta_item_2:26001>);
-<ore:nuggetAluminum>.add(<gregtech:meta_item_1:9001>);
-<ore:stickAluminum>.add(<gregtech:meta_item_1:14001>);
-<ore:plateAluminum>.add(<gregtech:meta_item_1:12001>);
-
-
-var toRemoveAluminum = [
-	<gregtech:meta_item_1:10001>
-,   <gregtech:meta_item_1:12001>
-,   <gregtech:meta_item_1:14001>
-,   <gregtech:meta_item_1:2001>
-,   <gregtech:meta_item_2:26001>
-,   <gregtech:meta_item_1:9001>
-,   <gregtech:meta_block_compressed_0:1>
-,   <nuclearcraft:ingot:12>
-,   <nuclearcraft:dust:12>
-,   <nuclearcraft:ingot_block:12>
-,   <immersiveengineering:metal:31>
-,   <immersiveengineering:metal:21>
-,   <immersiveengineering:metal:10>
-,   <immersiveengineering:metal:1>
-,   <immersiveengineering:storage:1>
-] as IItemStack[];
-
-for item in toRemoveAluminum {
-	mods.jei.JEI.removeAndHide(item);
-    furnace.remove(item);
-	var ores = item.ores;
-	if (!isNull(ores)) {
-		for entry in ores {
-			entry.remove(item);
-		}
-	}
-}
-
-/*
-
-//Replacing all ocurrences of Aluminum to Aluminium
-recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:ingotAluminium>);
-recipes.replaceAllOccurences(<ore:blockAluminum>, <ore:blockAluminium>);
-recipes.replaceAllOccurences(<ore:dustAluminum>, <ore:dustAluminium>);
-recipes.replaceAllOccurences(<ore:gearAluminum>, <ore:gearAluminium>);
-recipes.replaceAllOccurences(<ore:nuggetAluminum>, <ore:nuggetAluminium>);
-recipes.replaceAllOccurences(<ore:stickAluminum>, <ore:stickAluminium>);
-recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:plateAluminium>);
-
-*/
-
 //Shapeless to Convert Aluminum into Aluminium
 recipes.addShapeless("Aluminum to Aluminium", <gregtech:meta_item_1:10001>, [<thermalfoundation:material:132>]);
-
-//Removing Aluminum Ingot furnace Recipe
-furnace.remove(<thermalfoundation:material:132>);
 
 ## ULV Casing Fix 
 recipes.remove(<gregtech:machine_casing>);
@@ -151,7 +57,7 @@ assembler.recipeBuilder().inputs([<ore:plateBlackSteel> * 8]).notConsumable(<gre
 recipes.remove(<gregtech:machine_casing:6>);
 recipes.addShaped(<gregtech:machine_casing:6> * 1, [[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>], [<ore:plateLumium>, <gregtech:meta_tool:8>, <ore:plateLumium>],[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>]]);
 
-assembler.findRecipe(16, [<ore:plateChrome>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
+assembler.findRecipe(16, [<ore:plateRhodiumPlatedPalladium>.firstItem * 8, <gregtech:meta_item_1:32766>.withTag({Configuration: 8})], [null]).remove();
 assembler.recipeBuilder().inputs([<ore:plateLumium> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing:6>]).duration(50).EUt(16).buildAndRegister();
 
 // Emitter (LV)
@@ -186,19 +92,13 @@ recipes.addShaped(<gregtech:machine:50> * 1, [[<ore:circuitBasic>, <gregtech:cab
 recipes.remove(<gregtech:machine:60>);
 recipes.addShaped(<gregtech:machine:60> * 1, [[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32600>, <ore:gemDiamond>], [<gregtech:cable:5071>, <gregtech:cable:5071>, <gregtech:machine:501>],[<ore:circuitBasic>, <ore:circuitBasic>, <gregtech:cable:5071>]]);
 
-//Electric Blast Furnace
-recipes.remove(<gregtech:machine:511>);
-recipes.addShaped(<gregtech:machine:511> * 1, [[<gregtech:machine:16>, <gregtech:machine:16>, <gregtech:machine:16>], [<ore:circuitBasic>, <gregtech:metal_casing:2>, <ore:circuitBasic>],[<gregtech:cable:5071>, <ore:circuitBasic>, <gregtech:cable:5071>]]);
-
 //LV Cutting Machine
 recipes.remove(<gregtech:machine:220>);
 recipes.addShaped(<gregtech:machine:220> * 1, [[<gregtech:cable:5071>, <ore:circuitBasic>, <ore:strengthenedGlass>], [<gregtech:meta_item_1:32630>, <gregtech:machine:501>, <gregtech:meta_item_1:32721>],[<ore:circuitBasic>, <gregtech:cable:5071>, <gregtech:meta_item_1:32600>]]);
 
-//Multi Smelter Recipe Fix
-recipes.remove(<gregtech:machine:516>);
-recipes.addShaped(<gregtech:machine:516> * 1, [[<gregtech:machine:50>, <gregtech:machine:50>, <gregtech:machine:50>], [<ore:circuitAdvanced>, <gregtech:metal_casing:2>, <ore:circuitAdvanced>],[<gregtech:cable:5087>, <ore:circuitAdvanced>, <gregtech:cable:5087>]]);
-
-
+// Pyrolyse Oven
+recipes.remove(<gregtech:machine:3233>);
+recipes.addShaped(<gregtech:machine:3233> * 1, [[<gregtech:meta_item_1:32640>, <ore:circuitGood>, <gregtech:cable:2109>], [<ore:circuitGood>, <gregtech:machine:502>, <ore:circuitGood>],[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32610>, <gregtech:cable:2109>]]);
 
 ##### GregChests Overhaul #####
 
@@ -263,8 +163,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 //Fixing Glowstone in the Fluid Extractor
-fluid_extractor.findRecipe(32, [<minecraft:glowstone_dust>], null).remove();
-fluid_extractor.findRecipe(32, [<minecraft:glowstone_dust>], null).remove();       
+fluid_extractor.findRecipe(32, [<minecraft:glowstone_dust>], null).remove();    
 fluid_extractor.findRecipe(32, [<minecraft:glowstone>], null).remove();
 
 fluid_extractor.recipeBuilder()
@@ -282,7 +181,6 @@ fluid_extractor.recipeBuilder()
     .buildAndRegister();
 
 //Fixing Redstone in the Fluid Extractor
-fluid_extractor.findRecipe(32, [<minecraft:redstone>], null).remove();
 fluid_extractor.findRecipe(32, [<minecraft:redstone>], null).remove();       
 fluid_extractor.findRecipe(32, [<minecraft:redstone_block>], null).remove();
 
@@ -321,7 +219,6 @@ furnace.remove(<gregtech:meta_item_2:32016>, <gtadditions:ga_meta_item:32032>);
 recipes.remove(<gregtech:meta_item_2:32016>);
 RecipeBuilder.get("mason")
   .setShapeless([<ore:ingotBrick>, <ore:dustAsh>])
-  .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansFile>, 2)
   .addOutput(<gregtech:meta_item_2:32016>)
   .create();
@@ -332,24 +229,8 @@ RecipeBuilder.get("engineer")
   .setShapeless([<ore:plateWood>])
   .setFluid(<liquid:sap> * 500)
   .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansLens>, 2)
-  .addTool(<ore:artisansTSquare>, 2)
   .addOutput(<gregtech:meta_item_2:32443>)
   .create();
-
-//Primitive Circuit
-mods.immersiveengineering.Blueprint.removeRecipe(<gregtech:meta_item_2:32487>);
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<gregtech:meta_item_2:32455>, <ore:casingCopper>, <gregtech:meta_item_2:32455>],
-    [<ore:electronTube>, <gregtech:meta_item_2:32443>, <ore:electronTube>],
-    [<ore:projredInsulatedWire>, <ore:projredInsulatedWire>, <ore:projredInsulatedWire>]])
-  .setFluid(<liquid:refinedcanolaoil> * 250)
-  .addTool(<ore:artisansLens>, 2)
-  .addTool(<ore:artisansSolderer>, 8)
-  .addTool(<ore:artisansBurner>, 5)
-  .addOutput(<gregtech:meta_item_2:32487>)
-  .create();  
 
 //Empty Fluid Cell (Basic)
 RecipeBuilder.get("blacksmith")
@@ -357,8 +238,6 @@ RecipeBuilder.get("blacksmith")
     [<ore:boltTin>, <ore:plateTin>, <ore:boltTin>],
     [<ore:plateTin>, <ore:paneGlass>, <ore:plateTin>],
     [<ore:boltTin>, <ore:plateTin>, <ore:boltTin>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansFile>, 5)
   .addTool(<ore:artisansCutters>, 5)
   .addOutput(<gregtech:meta_item_1:32762> * 4)
   .create();
@@ -370,9 +249,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>],
     [<ore:craftingPiston>, <gregtech:machine_casing:10>, <ore:blockGlass>],
     [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>]])
-  .addTool(<ore:artisansSolderer>, 6)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 4)
   .addOutput(<gregtech:machine:7>)
   .create();
 
@@ -384,9 +261,7 @@ RecipeBuilder.get("engineer")
     [<ore:craftingPiston>, <gregtech:machine_casing:12>, <ore:blockGlass>],
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]])
   .setFluid(<liquid:oliveoil> * 250)     
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansHammer>, 6)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<gregtech:machine:8>)
   .create();
 
@@ -397,9 +272,7 @@ RecipeBuilder.get("engineer")
     [<ore:gemFlint>, <ore:plateBronze>, <ore:gemFlint>],
     [<contenttweaker:bronzemechanicalcomponent>, <gregtech:machine_casing:10>, <contenttweaker:bronzemechanicalcomponent>],
     [<ore:craftingPiston>, <ore:plateBronze>, <ore:craftingPiston>]])
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<gregtech:machine:9>)
   .create();
 
@@ -411,9 +284,7 @@ RecipeBuilder.get("engineer")
     [<immersiveengineering:material:9>, <gregtech:machine_casing:12>, <immersiveengineering:material:9>],
     [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]])
   .setFluid(<liquid:oliveoil> * 250)     
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 4)
   .addOutput(<gregtech:machine:10>)
   .create();
 
@@ -424,9 +295,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>],
     [<ore:craftingPiston>, <gregtech:machine_casing:10>, <ore:craftingPiston>],
     [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>]])
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 3)
   .addOutput(<gregtech:machine:11>)
   .create();
 
@@ -438,9 +307,7 @@ RecipeBuilder.get("engineer")
     [<ore:craftingPiston>, <gregtech:machine_casing:12>, <ore:craftingPiston>],
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]])
   .setFluid(<liquid:oliveoil> * 250)     
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 4)
   .addOutput(<gregtech:machine:12>)
   .create();
 
@@ -451,9 +318,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <ore:craftingPiston>, <ore:plateBronze>],
     [<contenttweaker:bronzemechanicalcomponent>, <gregtech:machine_casing:10>, <contenttweaker:bronzemechanicalcomponent>],
     [<ore:plateBronze>, <ore:craftingAnvil>, <ore:plateBronze>]])
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 3)
   .addOutput(<gregtech:machine:13>)
   .create();
 
@@ -465,9 +330,7 @@ RecipeBuilder.get("engineer")
     [<immersiveengineering:material:9>, <gregtech:machine_casing:12>, <immersiveengineering:material:9>],
     [<ore:plateSteel>, <ore:craftingAnvil>, <ore:plateSteel>]])
   .setFluid(<liquid:oliveoil> * 250)     
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 3)
   .addOutput(<gregtech:machine:14>)
   .create();
 
@@ -478,9 +341,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
     [<ore:plateBronze>, <gregtech:machine_casing:11>, <ore:plateBronze>],
     [<ore:plateBronze>, <contenttweaker:bronzemechanicalcomponent>, <ore:plateBronze>]])
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 3)
   .addOutput(<gregtech:machine:15>)
   .create();
 
@@ -492,9 +353,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <gregtech:machine_casing:13>, <ore:plateSteel>],
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]])
   .setFluid(<liquid:oliveoil> * 250) 
-  .addTool(<ore:artisansSolderer>, 2)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 8)
   .addOutput(<gregtech:machine:16>)
   .create();
 
@@ -505,9 +364,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
     [<contenttweaker:bronzemechanicalcomponent>, <gregtech:machine_casing:11>, <contenttweaker:bronzemechanicalcomponent>],
     [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]])
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<gregtech:machine:17>)
   .create();
 
@@ -519,9 +376,7 @@ RecipeBuilder.get("engineer")
     [<immersiveengineering:material:9>, <gregtech:machine_casing:13>, <immersiveengineering:material:9>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:oliveoil> * 250)
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansBurner>, 1)
+  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<gregtech:machine:18>)
   .create();
 
@@ -533,9 +388,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, null, <ore:plateBronze>],
     [<ore:blockBrick>, <pyrotech:stone_kiln>, <ore:blockBrick>]])
   .setFluid(<liquid:canolaoil> * 1000)
-  .addTool(<ore:artisansSolderer>, 3)
-  .addTool(<ore:artisansHammer>, 3)
-  .addTool(<ore:artisansBurner>, 3)
+  .addTool(<ore:artisansHammer>, 8)
   .addOutput(<gregtech:machine:1>)
   .create();
 
@@ -547,9 +400,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, null, <ore:plateSteel>],
     [<ore:blockBrick>, <pyrotech:brick_kiln>, <ore:blockBrick>]])
   .setFluid(<liquid:canolaoil> * 2000)
-  .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
+  .addTool(<ore:artisansHammer>, 16)
   .addOutput(<gregtech:machine:2>)
   .create();
 
@@ -558,12 +409,6 @@ recipes.remove(<gregtech:meta_item_1:2364>);
 recipes.addShapeless("boronsilicateglassByHand", <gregtech:meta_item_1:2364> * 8, [<ore:dustBoron>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustGlass>, <ore:dustSmallSilicon>]);
 
 ##### Glass Rework (Inspired by GTNH)
-
-//Making Quartz Sand
-recipes.addShapeless("EarlyQuartzSand", <gregtech:meta_item_1:2269>, [<ore:sand>, <gregtech:meta_tool:12>]);
-
-//Making Glass Dust
-recipes.addShapeless("EarlyGlassDust", <gregtech:meta_item_1:2209>, [<ore:dustSmallFlint>, <ore:dustQuartzSand>]);
 
 //Readding Glass Recipe
 furnace.remove(<minecraft:glass>);
@@ -589,47 +434,67 @@ recipes.remove(<minecraft:flint>);
 recipes.addShapeless("EarlyFlintFromGravel", <minecraft:flint>, [<ore:gravel>, <ore:artisansSifter>.reuse().transformDamage(1)]);
 recipes.addShapeless("EarlyFlintDust", <gregtech:meta_item_1:1220>, [<ore:gemFlint>, <gregtech:meta_tool:12>]);
 
+#### Early Game Coke Oven and Blast Furnace
+
+//Fixing Reinforced Blast Bricks and Coke Oven Bricks
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+recipes.remove(<immersivetech:stone_decoration>);
+
+recipes.addShapeless("ReinforcedBlastBricks", <immersiveengineering:stone_decoration:2>, [<gregtech:machine:825>, <ore:plateSteel>, <gregtech:meta_tool:6>]);
+recipes.addShapeless("ReinforcedCokeBricks", <immersivetech:stone_decoration>, [<gregtech:metal_casing:8>, <ore:plateSteel>, <gregtech:meta_tool:6>]);
+
+//Primitive Bricks
+recipes.remove(<gregtech:machine:825>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<ore:plateBronze>, <pyrotech:material:5>, <ore:plateBronze>],
+    [<pyrotech:material:5>, <ore:dustFireclay>, <pyrotech:material:5>],
+    [<ore:plateBronze>, <pyrotech:material:5>, <ore:plateBronze>]])
+  .setFluid(<liquid:liquid_clay> * 1000)
+  .addTool(<ore:artisansTrowel>, 5)
+  .addOutput(<gregtech:metal_casing:1> * 4)
+  .create();
+
+//Removing Coke Oven Bricks from the Furnace
+furnace.remove(<gregtech:meta_item_2:32016>);
+
+//Coke Oven Bricks
+recipes.remove(<gregtech:metal_casing:8>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>],
+    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]])
+  .setFluid(<liquid:liquid_clay> * 500)
+  .addTool(<ore:artisansPunch>, 5)
+  .addOutput(<gregtech:metal_casing:8> * 3)
+  .create();
+
+//Coke Oven Controller
+recipes.remove(<gregtech:machine:526>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>],
+    [<gregtech:meta_item_2:32016>, <overloaded:compressed_stone>, <gregtech:meta_item_2:32016>],
+    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]])
+  .setFluid(<liquid:liquid_clay> * 1000)
+  .addTool(<ore:artisansPunch>, 5)
+  .addOutput(<gregtech:machine:526>)
+  .create();
+
+//Coke Oven Hatch
+recipes.remove(<gregtech:machine:527>);
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<ore:plateTreated>, <gregtech:meta_item_2:32016>, <ore:plateTreated>],
+    [<gregtech:meta_item_2:32016>, <pyrotech:brick_tank>, <gregtech:meta_item_2:32016>],
+    [<ore:plateTreated>, <gregtech:meta_item_2:32016>, <ore:plateTreated>]])
+  .setFluid(<liquid:liquid_clay> * 500)
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<gregtech:machine:527>)
+  .create();
+
+
 ##### Steel Fixes #####
-
-//Removing Steel Recipes outside of Blast Furnaces
-alloy.findRecipe(32, [<minecraft:iron_ingot>, <nuclearcraft:ingot:8>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material>, <nuclearcraft:ingot:8>], null).remove();
-alloy.findRecipe(32, [<minecraft:iron_ingot>, <nuclearcraft:dust:8>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material>, <nuclearcraft:dust:8>], null).remove();
-alloy.findRecipe(32, [<gregtech:meta_item_1:2033>, <nuclearcraft:ingot:8>], null).remove();
-alloy.findRecipe(32, [<gregtech:meta_item_1:2033>, <nuclearcraft:dust:8>], null).remove();
-
-alloy.findRecipe(32, [<minecraft:coal> * 2, <minecraft:iron_ingot>], null).remove();
-alloy.findRecipe(32, [<minecraft:coal> * 2, <thermalfoundation:material>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <minecraft:iron_ingot>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <minecraft:iron_ingot>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <thermalfoundation:material>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <thermalfoundation:material>], null).remove();
-alloy.findRecipe(32, [<minecraft:coal> * 2, <gregtech:meta_item_1:2033>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <gregtech:meta_item_1:2033>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material:768> * 2, <gregtech:meta_item_1:2033>], null).remove();
-
-alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <gregtech:meta_item_1:8357>], null).remove();
-alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <gregtech:meta_item_1:8357>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material> * 2, <gregtech:meta_item_1:8357>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material> * 2, <gregtech:meta_item_1:8357>], null).remove();
-alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <gregtech:meta_item_1:8357>], null).remove();
-alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <gregtech:meta_item_1:8357>], null).remove();
-
-alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <immersiveengineering:material:17>], null).remove();
-alloy.findRecipe(32, [<minecraft:iron_ingot> * 2, <immersiveengineering:material:17>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material> * 2, <immersiveengineering:material:17>], null).remove();
-alloy.findRecipe(32, [<thermalfoundation:material> * 2, <immersiveengineering:material:17>], null).remove();
-alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <immersiveengineering:material:17>], null).remove();
-alloy.findRecipe(32, [<gregtech:meta_item_1:2033> * 2, <immersiveengineering:material:17>], null).remove();
-
-alloy.findRecipe(32, [<minecraft:iron_block>, <nuclearcraft:ingot_block:8>], null).remove();
-alloy.findRecipe(32, [<minecraft:coal_block> * 2, <minecraft:iron_block>], null).remove();
-alloy.findRecipe(32, [<minecraft:iron_block> * 2, <gregtech:meta_block_compressed_22:5>], null).remove();
-alloy.findRecipe(32, [<minecraft:iron_block> * 2, <chisel:block_coal_coke2:1>], null).remove();
-
-blast_furnace.findRecipe(128, [<minecraft:iron_ingot>], [<liquid:oxygen> * 1000]).remove();
-
 
 ##### Spring Recipes #####
 
@@ -682,3 +547,14 @@ MetalBender.recipeBuilder()
 ### Quartz Fix ####
 
 <ore:plateQuartz>.add(<gregtech:meta_item_1:12201>);
+
+
+///// Fixing Concrete Recipe /////
+
+Utils.removeRecipeByOutput(mixer, [], [<liquid:concrete> * 576], true);
+Utils.removeRecipeByOutput(large_mixer, [], [<liquid:concrete> * 576], true);
+
+IEMixer.removeRecipe(<liquid:concrete> * 500);
+IEMixer.removeRecipe(<liquid:concrete> * 500);
+
+mods.immersiveengineering.Mixer.addRecipe(<liquid:concrete> * 2304, <liquid:water> * 2000, [<ore:dustCalcite>, <ore:dustCalcite>, <ore:dustClay>, <ore:dustStone>, <ore:dustSand>], 2000);

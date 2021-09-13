@@ -1,0 +1,19 @@
+{
+	title: "UMV Era - 134217728 EU",
+	x: 13.5d,
+	y: 18.0d,
+	description: "Mega Ultimate Voltage",
+	text: [
+		""
+	],
+	dependencies: [
+		"58af1eab"
+	],
+	tasks: [{
+		uid: "ba54ba86",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3242"
+		}]
+	}]
+}

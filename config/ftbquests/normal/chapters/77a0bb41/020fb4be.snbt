@@ -1,7 +1,7 @@
 {
 	title: "Ethylene!",
-	x: 18.2d,
-	y: 3.8d,
+	x: 18.25d,
+	y: 3.5d,
 	shape: "square",
 	description: "Maybe it is time to make a good production of Ethanol?",
 	text: [

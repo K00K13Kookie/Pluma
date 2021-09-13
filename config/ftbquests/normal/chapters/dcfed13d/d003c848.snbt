@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 5 Circuit",
+	x: 7.5d,
+	y: 9.0d,
+	description: "Quantum Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"dceadec3"
+	],
+	tasks: [{
+		uid: "c57826a4",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32217"
+		}]
+	}]
+}

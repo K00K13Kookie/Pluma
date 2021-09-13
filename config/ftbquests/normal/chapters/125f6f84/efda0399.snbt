@@ -1,0 +1,126 @@
+{
+	title: "The Gas Purifier!",
+	icon: {
+		id: "rockhounding_chemistry:machines_b",
+		Damage: 5s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 10.2d,
+	y: 0.1d,
+	description: "Lets Purify your Syngas!",
+	text: [
+		"The Purifier allows you to perform a Purifying process on a gas to a refined one, possibly a refined version of itself.",
+		"",
+		"Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 2 Machines > Gas Purifier.§r",
+		"",
+		"- This Machine uses Fuel sources in the Power Station.",
+		"",
+		"Also keep in mind that the Output is on the Back, and just as the Gasification Plant, you'll have some \"Waste\" aswell."
+	],
+	dependencies: [
+		"7abbfcce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2892c887",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 5s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "bf2e4e51",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "256cafa0",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 15s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "a51d0c43",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 9s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		},
+		{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "064fc6f3",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 1s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "7fbc1c52",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "20970440",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 8s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ac5bcc86",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

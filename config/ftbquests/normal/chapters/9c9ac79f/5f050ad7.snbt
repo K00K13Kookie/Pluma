@@ -15,32 +15,10 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "593e44ec",
-		type: "item",
-		items: [{
-			item: "immersiveengineering:stone_decoration 1 8"
-		}]
-	},
-	{
-		uid: "5c0d7723",
-		type: "item",
-		items: [{
-			item: "contenttweaker:tubemold"
-		}]
-	},
-	{
 		uid: "aa8f88f1",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:material 1 26"
-		}],
-		count: 2L
-	},
-	{
-		uid: "e5da783c",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_2 1 32454"
 		}],
 		count: 2L
 	}],

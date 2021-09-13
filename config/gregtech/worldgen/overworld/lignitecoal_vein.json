@@ -1,18 +1,15 @@
 {
-  "weight": 150,
+  "weight": 70,
   "density": 0.6,
-  "max_height": 150,
   "min_height": 65,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_4",
-      "type": "streblorrhiza_s"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "lignite"
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
     "radius": [19, 20]

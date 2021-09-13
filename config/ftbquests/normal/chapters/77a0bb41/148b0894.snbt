@@ -1,0 +1,26 @@
+{
+	title: "Making Capacitors!",
+	x: 18.25d,
+	y: -0.75d,
+	description: "Capacitors are a Key component to make the Next level of Circuits!",
+	text: [
+		"Start making some Capacitors, as they are used in the Next Level of Circuit that you're gonna get in Tier 0."
+	],
+	dependencies: [
+		"e95629f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b5e60234",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32452"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2871faf5",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Maintenance for Starters",
+	x: 12.8d,
+	y: 0.6d,
+	description: "It is Quite simple actually...",
+	text: [
+		"Upon building your Blast Furnace, you've might noticed that on its controller is saying a bunch of crazy errors, that indicates that it needs Maintenance!",
+		"",
+		"> Simply hover those Red Errors to see wich tools you'll need to fix those erros and them go to the Maintenance hatch, on its GUI, simply click on the square to fix the issues.",
+		"",
+		"> Everytime you perform maintenence, your tools will take a little bit of damage. And if you don't perform Maintenance, your machine will underperform.",
+		"",
+		"",
+		"And a HUGE tip is that all the machines that require one of these hatches, will need maintenance every 48 real hours!"
+	],
+	dependencies: [
+		"409cd73f"
+	],
+	tasks: [{
+		uid: "651f862c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}],
+	rewards: [{
+		uid: "1aaeba80",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 12 Circuit",
+	x: 18.0d,
+	y: 19.5d,
+	description: "Supra-Causal Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"3742b55a"
+	],
+	tasks: [{
+		uid: "bf3d40ac",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32548"
+		}]
+	}]
+}

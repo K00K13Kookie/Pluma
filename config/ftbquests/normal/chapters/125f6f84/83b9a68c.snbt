@@ -1,0 +1,32 @@
+{
+	title: "Converting Raw Salt into Commom Salt!",
+	x: 1.0d,
+	y: 3.6d,
+	description: "Lets Spice things up!",
+	text: [
+		"The §6Seasoning Rack§f is an Unpowered device operating as an Object processor, where ingredients can be turned into others after an interval.",
+		"",
+		"> Simply insert the §3Raw Salts§f that you've obtained trough the §6Evaporation Tank§f and Voilá!"
+	],
+	dependencies: [
+		"c18aa032"
+	],
+	hide: true,
+	tasks: [{
+		uid: "928d1594",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 13s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fcec8d6e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

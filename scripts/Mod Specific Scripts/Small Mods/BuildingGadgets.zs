@@ -13,10 +13,8 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:stickQuartzite>, <ore:gemChippedQuartzite>, <ore:stickQuartzite>],
     [<ore:plateEnderPearl>, <ore:circuitGood>, <ore:plateEnderPearl>],
-    [<ore:plateHardCarbon>, <ore:gearSmallHardCarbon>, <ore:plateHardCarbon>]])
-  .addTool(<ore:artisansLens>, 3)
+    [<ore:plateHardcarbon>, <ore:gearSmallHardcarbon>, <ore:plateHardcarbon>]])
   .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<buildinggadgets:buildingtool>)
   .create();
 
@@ -26,10 +24,8 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:stickQuartzBlack>, <ore:gemChippedQuartzBlack>, <ore:stickQuartzBlack>],
     [<ore:plateEnderPearl>, <ore:circuitGood>, <ore:plateEnderPearl>],
-    [<ore:plateHardCarbon>, <ore:gearSmallHardCarbon>, <ore:plateHardCarbon>]])
-  .addTool(<ore:artisansLens>, 5)
+    [<ore:plateHardcarbon>, <ore:gearSmallHardcarbon>, <ore:plateHardcarbon>]])
   .addTool(<ore:artisansSolderer>, 3)
-  .addTool(<ore:artisansBurner>, 3)
   .addOutput(<buildinggadgets:exchangertool>)
   .create();
 
@@ -37,12 +33,10 @@ RecipeBuilder.get("engineer")
 recipes.remove(<buildinggadgets:copypastetool>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:stickChargedCertusQuartz>, <ore:gemChippedChargedCertusQuartz>, <ore:stickChargedCertusQuartz>],
+    [<ore:stickQuartzBlack>, <ore:gemChippedQuartzBlack>, <ore:stickQuartzBlack>],
     [<ore:plateEnderEye>, <ore:circuitGood>, <ore:plateEnderEye>],
-    [<ore:plateHardCarbon>, <ore:gearSmallHardCarbon>, <ore:plateHardCarbon>]])
-  .addTool(<ore:artisansLens>, 4)
+    [<ore:plateHardcarbon>, <ore:gearSmallHardcarbon>, <ore:plateHardcarbon>]])
   .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<buildinggadgets:copypastetool>)
   .create();
 
@@ -52,10 +46,8 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:stickOsram>, <ore:roundOsram>, <ore:stickOsram>],
     [<ore:plateEnderEye>, <ore:circuitGood>, <ore:plateEnderEye>],
-    [<ore:plateHardCarbon>, <ore:gearSmallHardCarbon>, <ore:plateHardCarbon>]])
-  .addTool(<ore:artisansLens>, 5)
+    [<ore:plateHardcarbon>, <ore:gearSmallHardcarbon>, <ore:plateHardcarbon>]])
   .addTool(<ore:artisansSolderer>, 2)
-  .addTool(<ore:artisansBurner>, 2)
   .addOutput(<buildinggadgets:destructiontool>)
   .create();
 

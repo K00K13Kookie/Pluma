@@ -1,0 +1,61 @@
+{
+	title: "Lets make an MV Assembler I",
+	icon: "gregtech:meta_item_1 1 32601",
+	x: 11.25d,
+	y: 5.0d,
+	description: "Avengers, Assemble!",
+	text: [
+		"Before you can make your First MV Machine, prepare some components that will be needed."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"798e258b",
+		"321ee631"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3864f8c3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32601"
+		}],
+		count: 10L
+	},
+	{
+		uid: "bb0ba6bc",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any circuitGood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "circuitGood"
+				}
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "fb72ff59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 502"
+		}]
+	}],
+	rewards: [{
+		uid: "66a4d58c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32601",
+		random_bonus: 4
+	},
+	{
+		uid: "8286b6e6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

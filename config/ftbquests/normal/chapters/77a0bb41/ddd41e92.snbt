@@ -1,0 +1,45 @@
+{
+	title: "A New Alloy, Cobalt Brass!",
+	icon: "gregtech:meta_item_1 1 10238",
+	x: 3.2d,
+	y: 3.2d,
+	description: "Use in some specific, but key recipes!",
+	text: [
+		"Now that we are oficially in MV, you'll need some Cobalt Brass in order to make the Next machine, make some!"
+	],
+	dependencies: [
+		"5f11264b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "291b3ef6",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustCobaltBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustCobaltBrass"
+				}
+			}
+		}],
+		count: 9L
+	},
+	{
+		uid: "901d6ca7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10238"
+		}]
+	}],
+	rewards: [{
+		uid: "d62bc73b",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

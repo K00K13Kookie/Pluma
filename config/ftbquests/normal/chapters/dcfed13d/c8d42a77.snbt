@@ -1,0 +1,19 @@
+{
+	title: "First Tier 10 Circuit",
+	x: 13.5d,
+	y: 16.5d,
+	description: "Optical Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"58af1eab"
+	],
+	tasks: [{
+		uid: "dfe3d3d8",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32504"
+		}]
+	}]
+}

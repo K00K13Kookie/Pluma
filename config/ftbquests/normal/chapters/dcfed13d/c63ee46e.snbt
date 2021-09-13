@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 1 Circuit",
+	x: 1.5d,
+	y: 3.0d,
+	description: "Electronic Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"14163dc8"
+	],
+	tasks: [{
+		uid: "f7fb4378",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32201"
+		}]
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Metal Bending...",
 	x: 20.0d,
-	y: -2.0d,
+	y: -3.5d,
 	shape: "square",
 	description: "Hey there Twinkle Toes!",
 	text: [
@@ -26,6 +26,6 @@
 	{
 		uid: "febed33d",
 		type: "item",
-		item: "immersiveengineering:material 1 27"
+		item: "gregtech:meta_item_2 1 32488"
 	}]
 }

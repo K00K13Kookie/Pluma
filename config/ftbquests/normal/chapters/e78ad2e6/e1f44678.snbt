@@ -298,7 +298,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "f27b5c0d",
@@ -445,7 +445,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "cb537190",

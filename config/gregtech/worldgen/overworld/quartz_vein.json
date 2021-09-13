@@ -1,21 +1,18 @@
 {
-  "weight": 140,
-  "density": 0.8,
-  "max_height": 80,
+  "weight": 70,
+  "density": 0.4,
   "min_height": 40,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_0",
-      "type": "aciphylla_g"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "quartzite"
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
-    "radius": [23, 27]
+    "radius": [13, 17]
   },
   "filler": {
     "type": "simple",
@@ -23,24 +20,24 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 30,
+          "weight": 40,
           "value": "ore:quartzite"
         },
         {
-          "weight": 10,
+          "weight": 25,
           "value": "ore:barite"
         },
-		    {
-          "weight": 25,
+        {
+          "weight": 30,
           "value": "ore_dict:oreCertusQuartz"
         },
-		    {
-          "weight": 20,
-          "value": "ore:nether_quartz" 
+        {
+          "weight": 10,
+          "value": "ore_dict:oreQuartzBlack"
         },
         {
-          "weight": 15,
-          "value": "ore_dict:oreQuartzBlack"
+          "weight": 25,
+          "value": "ore:tennantite"
         }
       ]
     }

@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 1 Circuit",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Refined Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"c63ee46e"
+	],
+	tasks: [{
+		uid: "ea6b830d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32204"
+		}]
+	}]
+}

@@ -232,7 +232,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "b7259704",
@@ -311,7 +311,8 @@
 					}]
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 2b
 	},
 	{
 		uid: "30ba0395",

@@ -1,7 +1,7 @@
 {
 	title: "Passive power out of Diferent Temperatures!",
-	x: 7.0d,
-	y: -1.5d,
+	x: 11.8d,
+	y: -2.8d,
 	shape: "circle",
 	text: [
 		"The Thermoelectric Generator is a viable generator for now! it does not generate absurd amounts of energy but can be very good since it only requires a Hot Source (Lava and other ones) in one side and on the oposite side a Coolant Source (Water and other ones) to generate RF!",

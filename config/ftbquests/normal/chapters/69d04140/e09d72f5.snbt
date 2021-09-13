@@ -25,5 +25,30 @@
 		uid: "62602923",
 		type: "ftbmoney:money",
 		ftb_money: 20L
+	},
+	{
+		uid: "8f863851",
+		type: "item",
+		item: {
+			id: "fluidtank:blocktank2",
+			Damage: 1s,
+			tag: {
+				BlockEntityTag: {
+					tank: {
+						FluidName: "water",
+						Amount: 32000,
+						capacity: 32000
+					},
+					tier: {
+						string: "Copper"
+					},
+					ForgeCaps: {
+						"nuclearcraft:capability_default_radiation_resistance": {
+							radiationResistance: 0.0d
+						}
+					}
+				}
+			}
+		}
 	}]
 }

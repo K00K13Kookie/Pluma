@@ -1,0 +1,39 @@
+{
+	title: "The Slurry Pond!",
+	x: 3.6d,
+	y: 0.1d,
+	description: "Lets convert some Cracked Coal into an Slurry!",
+	text: [
+		"The §3Slurry Pond§f is an unpowered device that §3produces fluid substances§f by the maceration of a solid ingredient in a fluid solvent. its speed and efficiency are defined by the concentration of the process, wich is §3controlled by a slider§f.",
+		"",
+		"> §6High Concentration§f (§agreen area§f)",
+		"",
+		"Dense smaller scale process.",
+		"Consumes less ingredients and yields less slurry, but outputs at a faster rate.",
+		"",
+		"> §6Low Concentration§f (§cred area§f)",
+		"",
+		"Diluted larger scale process.",
+		"Consumes more ingredients and yields more slurry, but requires more time to output."
+	],
+	dependencies: [
+		"71369181"
+	],
+	hide: true,
+	tasks: [{
+		uid: "349b054c",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "eb6fa188",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,7 +1,18 @@
 {
-	title: "Chapter 2: The Machinery Era",
+	title: "2. The Machinery Era",
 	icon: "immersiveengineering:metal_decoration0 1 5",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 5.6d,
+		y: -2.7d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/banner2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

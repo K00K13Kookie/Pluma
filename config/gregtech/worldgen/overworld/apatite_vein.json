@@ -1,18 +1,16 @@
 {
-  "weight": 120,
+  "weight": 60,
   "density": 0.3,
-  "max_height": 90,
-  "min_height": 40,
+  "min_height": 60,
+  "max_height": 75,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_1",
-      "type": "agapanthus_a"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "apatite"
   },
-	"dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
     "radius": [13, 13]
@@ -23,8 +21,12 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 60,
+          "weight": 40,
           "value": "ore:apatite"
+        },
+        {
+          "weight": 40,
+          "value": "ore:fluoroapatite"
         },
         {
           "weight": 40,

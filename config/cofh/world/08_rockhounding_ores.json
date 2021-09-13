@@ -1,0 +1,27 @@
+{
+	"dependencies": "rockhounding_chemistry",
+	"populate": {
+		"uninspectedmineral": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "rockhounding_chemistry:uninspected_mineral"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 2,
+			"max-height": 20,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [ 
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

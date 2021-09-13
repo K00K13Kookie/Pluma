@@ -1,8 +1,8 @@
 {
 	title: "Moar Power!",
 	icon: "immersiveengineering:wirecoil 1 1",
-	x: 8.5d,
-	y: -3.0d,
+	x: 10.5d,
+	y: -3.1d,
 	shape: "square",
 	description: "When LV isn't enough!",
 	text: [

@@ -14,7 +14,7 @@ recipes.addShaped(<chesttransporter:chesttransporter_iron> * 1, [[<ore:stickIron
 
 // Diamond Chest Transporter
 recipes.remove(<chesttransporter:chesttransporter_diamond>);
-recipes.addShaped(<chesttransporter:chesttransporter_diamond> * 1, [[<ore:stickSteel>, null, <ore:stickSteel>], [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],[null, <minecraft:diamond>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_diamond> * 1, [[<ore:stickDiamond>, null, <ore:stickDiamond>], [<ore:stickDiamond>, <ore:stickDiamond>, <ore:stickDiamond>],[null, <ore:stickDiamond>, null]]);
 
 // Obsidian Chest Transporter
 recipes.remove(<chesttransporter:chesttransporter_obsidian>);

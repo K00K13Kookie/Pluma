@@ -24,8 +24,9 @@
 		ftb_money: 2L
 	},
 	{
-		uid: "d991820b",
+		uid: "c079b37f",
 		type: "item",
-		item: "immersiveengineering:material 1 27"
+		item: "gregtech:meta_item_2 1 32487",
+		count: 2
 	}]
 }

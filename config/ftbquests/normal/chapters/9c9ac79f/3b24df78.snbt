@@ -1,8 +1,8 @@
 {
 	title: "Transfering all of that Power!",
 	icon: "immersiveengineering:wirecoil",
-	x: 8.5d,
-	y: -1.5d,
+	x: 10.5d,
+	y: -1.6d,
 	shape: "square",
 	text: [
 		"You're currently generating power in your dynamo, but how you're going to transfer that you may ask? well, lets use LV Connectors, Relays and Wires! and its also good to store all of it in a capacitor."

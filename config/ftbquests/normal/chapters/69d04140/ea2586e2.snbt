@@ -16,7 +16,7 @@
 		uid: "dcc69dd8",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:stone_decoration 1 1"
+			item: "gregtech:metal_casing 1 1"
 		}],
 		count: 27L
 	},
@@ -36,6 +36,13 @@
 					data: "ingotSteel"
 				}
 			}
+		}]
+	},
+	{
+		uid: "0ae6381a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 510"
 		}]
 	}],
 	rewards: [{

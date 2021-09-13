@@ -1,8 +1,8 @@
 {
 	title: "Getting into Thermal Utilities",
 	icon: "thermalexpansion:frame",
-	x: 38.51632653061223d,
-	y: -4.36785714285714d,
+	x: 33.0d,
+	y: -2.85d,
 	shape: "square",
 	description: "Lets make some Usefull Machines!",
 	text: [

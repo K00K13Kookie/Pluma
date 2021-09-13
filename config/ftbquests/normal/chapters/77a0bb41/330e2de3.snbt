@@ -1,8 +1,8 @@
 {
 	title: "Using all of that Coal Coke!",
 	icon: "gregtech:machine 1 522",
-	x: 7.662925170068043d,
-	y: 1.1937074829932328d,
+	x: 7.207142857142877d,
+	y: 3.2620748299319757d,
 	shape: "square",
 	description: "Time to make a Better Boiler!",
 	text: [
@@ -16,7 +16,7 @@
 		"04a3c58c"
 	],
 	hide: true,
-	size: 1.5d,
+	size: 1.2d,
 	tasks: [{
 		uid: "065ecce8",
 		type: "item",

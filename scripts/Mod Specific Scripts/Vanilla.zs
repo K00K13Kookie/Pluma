@@ -536,6 +536,8 @@ recipes.remove(<minecraft:lit_pumpkin>);
 recipes.addShapeless(<minecraft:lit_pumpkin>,
 [<minecraft:pumpkin>, <ore:torch>, <gregtech:meta_tool:17>]);
 
+/*
+
 // --- Iron Trapdoor
 recipes.remove(<minecraft:iron_trapdoor>);
 
@@ -654,6 +656,10 @@ recipes.addShaped(<quark:dark_oak_trapdoor> * 3, [
             [<ore:stickWood>, <ore:screwSteel>, <ore:stickWood>],
 [<minecraft:wooden_slab:5>, <ore:stickWood>, <minecraft:wooden_slab:5>]]);
 
+*/
+
+/*
+
 // --- Pressure Plate
 recipes.remove(<minecraft:stone_pressure_plate>);
 recipes.remove(<minecraft:heavy_weighted_pressure_plate>);
@@ -725,6 +731,8 @@ recipes.addShaped(<quark:dark_oak_pressure_plate> * 2, [
 [<ore:boltWood>, <gregtech:meta_tool:6>, <ore:boltWood>],
 [<minecraft:wooden_slab:5>, <ore:springIron>, <minecraft:wooden_slab:5>],
 [<ore:boltWood>, <gregtech:meta_tool:11>, <ore:boltWood>]]);
+
+*/
 
 // --- Glass ---
 
@@ -1602,7 +1610,7 @@ recipes.addShaped(<minecraft:bucket> * 4, [[null, null, null], [<ore:plateStainl
 ##### Metal Bender Recipes #####
 
 //Bucket
-MetalBender.findRecipe(8, [<thermalfoundation:material:32> * 12, <gregtech:meta_item_1:32766>.withTag({Configuration: 1})], null).remove();
+#MetalBender.findRecipe(8, [<gregtech:meta_item_1:12033> * 12, <gregtech:meta_item_1:32766>.withTag({Configuration: 1})], null).remove();
 MetalBender.findRecipe(8, [<gregtech:meta_item_1:12197> * 12, <gregtech:meta_item_1:32766>.withTag({Configuration: 1})], null).remove();
 
 MetalBender.recipeBuilder()
@@ -1642,6 +1650,15 @@ alloy.recipeBuilder()
 .buildAndRegister();
 
 ##### Assembler Recipes #####
+
+// Furnace
+assembler.recipeBuilder()     
+    .inputs([<ore:cobblestone> * 8, <ore:gearStone>])
+    .property("circuit", 8)
+    .outputs(<minecraft:furnace>)
+    .duration(500)
+    .EUt(32)
+    .buildAndRegister();
 
 // Cauldron
 assembler.recipeBuilder()     
@@ -1916,6 +1933,8 @@ assembler.recipeBuilder()
     .EUt(4)
     .buildAndRegister();
 
+/*
+
 // --- Wooden Pressure Plates
 
 //Oak
@@ -1974,7 +1993,7 @@ assembler.recipeBuilder()
     .EUt(8)
     .buildAndRegister();
 
-assembler.findRecipe(8, [<thermalfoundation:material:33> * 2, <gregtech:meta_item_1:32766>.withTag({Configuration: 2})], null).remove();
+assembler.findRecipe(8, [<gregtech:meta_item_1:12026> * 2, <gregtech:meta_item_1:32766>.withTag({Configuration: 2})], null).remove();
 assembler.recipeBuilder()
     .inputs([<ore:plateGold> * 2, <ore:springGold>,  <ore:screwGold> * 4])
     .outputs(<minecraft:light_weighted_pressure_plate> * 2)
@@ -1982,7 +2001,6 @@ assembler.recipeBuilder()
     .EUt(8)
     .buildAndRegister();
 
-assembler.findRecipe(8, [<thermalfoundation:material:32> * 2, <gregtech:meta_item_1:32766>.withTag({Configuration: 2})], null).remove();
 assembler.findRecipe(8, [<gregtech:meta_item_1:12197> * 2, <gregtech:meta_item_1:32766>.withTag({Configuration: 2})], null).remove();
 assembler.recipeBuilder()
     .inputs([<ore:plateIron> * 2, <ore:springIron>, <ore:screwIron> * 4])
@@ -1991,8 +2009,10 @@ assembler.recipeBuilder()
     .EUt(8)
     .buildAndRegister();
 
+*/
+
 // --- Hopper
-assembler.findRecipe(8, [<thermalfoundation:material:32> * 5, <minecraft:chest>], null).remove();
+assembler.findRecipe(8, [<gregtech:meta_item_1:12033> * 5, <minecraft:chest>], null).remove();
 assembler.findRecipe(8, [<gregtech:meta_item_1:12197> * 5, <minecraft:chest>], null).remove();
 
 assembler.recipeBuilder()
@@ -2271,7 +2291,6 @@ RecipeBuilder.get("tailor")
     [null, <ore:itemWheat>, <ore:itemWheat>, <ore:itemWheat>, null],
     [<ore:string>, <ore:itemWheat>, <ore:itemWheat>, <ore:itemWheat>, <ore:string>],
     [null, <ore:itemWheat>, <ore:itemWheat>, <ore:itemWheat>, null]])
-  .addTool(<ore:artisansNeedle>, 5)
   .addTool(<ore:artisansKnife>, 5)
   .addOutput(<minecraft:hay_block>)
   .create();
@@ -2284,8 +2303,7 @@ RecipeBuilder.get("mason")
     [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>],
     [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]])
   .setFluid(<liquid:liquid_clay> * 1000)
-  .addTool(<ore:artisansTSquare>, 2)
-  .addTool(<ore:artisansFile>, 2)
+  .addTool(<ore:artisansTrowel>, 3)
   .addOutput(<minecraft:brick_block>)
   .create();
 
@@ -2294,11 +2312,9 @@ recipes.remove(<minecraft:chest>);
 RecipeBuilder.get("carpenter")
   .setShaped([
     [<ore:logWood>, <ore:plateTreated>, <ore:logWood>],
-    [<ore:plateTreated>, <minecraft:stone_button>, <ore:plateTreated>],
+    [<ore:plateTreated>, <ore:ringIron>, <ore:plateTreated>],
     [<ore:logWood>, <ore:plateTreated>, <ore:logWood>]])
-  .addTool(<ore:artisansCarver>, 5)
   .addTool(<ore:artisansHandsaw>, 10)
-  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<minecraft:chest>)
   .create();
 
@@ -2307,11 +2323,9 @@ recipes.remove(<minecraft:crafting_table>);
 RecipeBuilder.get("carpenter")
   .setShaped([
     [<ore:boltTreated>, <ore:plateTreated>, <ore:boltTreated>],
-    [<ore:plateTreated>, <artisanworktables:workshop:5>, <ore:plateTreated>],
+    [<ore:plateTreated>, <artisanworktables:worktable:5>, <ore:plateTreated>],
     [<ore:boltTreated>, <ore:plateTreated>, <ore:boltTreated>]])
-  .addTool(<ore:artisansCarver>, 10)
   .addTool(<ore:artisansHandsaw>, 10)
-  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<minecraft:crafting_table>)
   .create();
 
@@ -2319,8 +2333,6 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("chemist")
   .setShapeless([<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:dustSulfur>, <ore:dustSaltpeter>])
   .setFluid(<liquid:water> * 1000)
-  .addTool(<ore:artisansBeaker>, 3)
-  .addTool(<ore:artisansLens>, 2)
   .addTool(<ore:artisansMortar>, 5)
   .addOutput(<minecraft:glowstone_dust> * 4)
   .create();
@@ -2329,8 +2341,6 @@ RecipeBuilder.get("chemist")
 RecipeBuilder.get("chemist")
   .setShapeless([<ore:dustElectrotine>, <ore:dustEnderPearl>, <ore:dustSulfur>, <ore:dustGlowstone>, <ore:dustUranium>])
   .setFluid(<liquid:refinedcanolaoil> * 100)
-  .addTool(<ore:artisansLens>, 2)
   .addTool(<ore:artisansMortar>, 5)
-  .addTool(<ore:artisansSifter>, 2)
   .addOutput(<minecraft:blaze_powder> * 4)
   .create();

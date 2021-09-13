@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 6 Circuit",
+	x: 9.0d,
+	y: 10.5d,
+	description: "Crystal Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"fbfa3f37"
+	],
+	tasks: [{
+		uid: "bb7e6e92",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32214"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 9 Circuit",
+	x: 16.5d,
+	y: 15.0d,
+	description: "Cosmic Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"ec704cf3"
+	],
+	tasks: [{
+		uid: "caa8ad18",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32336"
+		}]
+	}]
+}

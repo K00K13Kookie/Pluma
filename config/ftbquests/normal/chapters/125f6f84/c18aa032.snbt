@@ -1,0 +1,65 @@
+{
+	title: "Evaporating Water!",
+	icon: {
+		id: "rockhounding_chemistry:machines_a",
+		Damage: 12s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: -2.2d,
+	y: 3.6d,
+	description: "A Simple Method to Produce Salt Water!",
+	text: [
+		"Salt Water is a really good source of Chlorine, so Why not use Rockhound to our Advantage? You're going to use a bunch of Chlorine soon.",
+		"",
+		"The §6Evaporation Tank§f is a small container fillable with water, slowly evaporating to reveal a layer of Raw Salt. this layer can be manually harvested by using a shovel on top of the tank or extracted with any type of item transporation method.",
+		"Raw Salt must be processed in the §6Seasoning Rack§f to be refined into common Salt. The Evaporation process involves several enviromental occurencies:",
+		"",
+		"> Using a §3Wrench§f on the Tank will §3set the fluid§f that can be extracted with pipes.",
+		"",
+		"> This fellow can §3fill itself up when it Rains§f.",
+		"",
+		"> The §3Evaporation§f Advances §3during daytime§f, and it stops at night.",
+		"",
+		"> The Tank must §4§lALWAYS§r see the sky§f to evaporate.",
+		"",
+		"> The §3Hotter§f the Biome, §3faster§f it will §3evaporate§f. ",
+		"",
+		"> The §3altitude§f actually §3speed up§f the process aswell",
+		"",
+		"> And at last, §3if it rains§f at any stage of the evaporation, §3the salt will melt again into Water§f after a certain amount of time."
+	],
+	dependencies: [
+		"475aca82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56db9407",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 12s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "6c32365f",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:misc_blocks_a 1 2"
+		},
+		{
+			item: "rockhounding_chemistry:misc_blocks_a 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "0865d52b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

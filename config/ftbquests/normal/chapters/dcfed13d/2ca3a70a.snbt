@@ -1,7 +1,7 @@
 {
-	title: "IV Era",
-	x: 11.0d,
-	y: -1.0d,
+	title: "IV Era - 8192 EU",
+	x: 3.0d,
+	y: 7.5d,
 	description: "Insane Voltage",
 	text: [
 		""

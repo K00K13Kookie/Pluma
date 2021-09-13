@@ -1,0 +1,32 @@
+{
+	title: "An Special Assembler just for Circuits!",
+	x: 16.0251700680272d,
+	y: -1.9091836734693928d,
+	description: "Thats right! you're going to be making most of your Circuits here",
+	text: [
+		"This Special type of Assembler will make possible for you from now on to make Circuits! But always remember to check up for the Voltage and Material",
+		"Requirements for the Recipes."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"798e258b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1dfce2ba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2000"
+		}]
+	}],
+	rewards: [{
+		uid: "2ee9d96f",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32200"
+	},
+	{
+		uid: "36d04a91",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

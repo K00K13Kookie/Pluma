@@ -1,0 +1,34 @@
+{
+	title: "Annealing your Copper!",
+	icon: "gregtech:meta_item_1 1 10087",
+	x: 24.1d,
+	y: 0.5d,
+	description: "Lets start using our Oxygen!",
+	text: [
+		"Annealed Copper is a Special material that you're going to be using A LOT from now on, but now, it is specially used to make some wires and soon enough, more circuits!"
+	],
+	dependencies: [
+		"1497c9af"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c1fda57",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10087"
+		}]
+	},
+	{
+		uid: "d4ee44d4",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 87"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "429a3499",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -30,9 +30,6 @@ casingMold.register();
 var tubeMold = VanillaFactory.createItem("tubeMold");
 tubeMold.register();
 
-var rotorMold = VanillaFactory.createItem("rotorMold");
-rotorMold.register();
-
 //Leather Rework  ================================================================================
 
 var CowLeather = VanillaFactory.createItem("cowleather");
@@ -60,38 +57,6 @@ tannedHide.register();
 
 var parchment = VanillaFactory.createItem("parchment");
 parchment.register();
-
-//Rotors  ================================================================================
-
-var blacksteelRotor = VanillaFactory.createItem("blacksteelRotor");
-blacksteelRotor.register();
-
-//Research Crystals  ================================================================================
-
-var redCrystal = VanillaFactory.createItem("redCrystal");
-redCrystal.rarity = "rare";
-redCrystal.glowing = true;
-redCrystal.register();
-
-var greenCrystal = VanillaFactory.createItem("greenCrystal");
-greenCrystal.rarity = "rare";
-greenCrystal.glowing = true;
-greenCrystal.register();
-
-var blueCrystal = VanillaFactory.createItem("blueCrystal");
-blueCrystal.rarity = "rare";
-blueCrystal.glowing = true;
-blueCrystal.register();
-
-var yellowCrystal = VanillaFactory.createItem("yellowCrystal");
-yellowCrystal.rarity = "rare";
-yellowCrystal.glowing = true;
-yellowCrystal.register();
-
-var violetCrystal = VanillaFactory.createItem("violetCrystal");
-violetCrystal.rarity = "rare";
-violetCrystal.glowing = true;
-violetCrystal.register();
 
 //Menril  ================================================================================
 var menrilSheet = VanillaFactory.createItem("menrilSheet");
@@ -175,6 +140,109 @@ printedFluix.register();
 // Inscriber Parallel Press ================================================================================
 var inscriberParallelPress = VanillaFactory.createItem("inscriberParallelPress");
 inscriberParallelPress.register();
+
+##### MorePlates Ports ######
+
+// Enori Plate ================================================================================
+var enoriplate = VanillaFactory.createItem("enoriplate");
+enoriplate.register();
+
+// Restonia Plate ================================================================================
+var restoniaplate = VanillaFactory.createItem("restoniaplate");
+restoniaplate.register();
+
+// Diamatine Plate ================================================================================
+var diamatineplate = VanillaFactory.createItem("diamatineplate");
+diamatineplate.register();
+
+// Emeradic Plate ================================================================================
+var emeradicplate = VanillaFactory.createItem("emeradicplate");
+emeradicplate.register();
+
+// Void Plate ================================================================================
+var voidplate = VanillaFactory.createItem("voidplate");
+voidplate.register();
+
+// Palis Plate ================================================================================
+var palisplate = VanillaFactory.createItem("palisplate");
+palisplate.register();
+
+
+
+// Enori Gear ================================================================================
+var enorigear = VanillaFactory.createItem("enorigear");
+enorigear.register();
+
+// Restonia Gear ================================================================================
+var restoniagear = VanillaFactory.createItem("restoniagear");
+restoniagear.register();
+
+// Diamatine Gear ================================================================================
+var diamatinegear = VanillaFactory.createItem("diamatinegear");
+diamatinegear.register();
+
+// Emeradic Gear ================================================================================
+var emeradicgear = VanillaFactory.createItem("emeradicgear");
+emeradicgear.register();
+
+// Void Gear ================================================================================
+var voidgear = VanillaFactory.createItem("voidgear");
+voidgear.register();
+
+// Palis Gear ================================================================================
+var palisgear = VanillaFactory.createItem("palisgear");
+palisgear.register();
+
+
+
+// Raw Stainless Steel ================================================================================
+var rawStainlessSteel = VanillaFactory.createItem("rawStainlessSteel");
+rawStainlessSteel.register();
+
+// Propylene Sheet ================================================================================
+var PropyleneSheet = VanillaFactory.createItem("PropyleneSheet");
+PropyleneSheet.register();
+
+// Heavy Duty Alloy ================================================================================
+var heavydutyalloy = VanillaFactory.createItem("heavydutyalloy");
+heavydutyalloy.register();
+
+// Heavy Duty Plate ================================================================================
+var heavyduty = VanillaFactory.createItem("heavyduty");
+heavyduty.register();
+
+// Refined Cloth ================================================================================
+var refinedCloth = VanillaFactory.createItem("refinedcloth");
+refinedCloth.register();
+
+// Thermal Cloth ================================================================================
+var thermalCloth = VanillaFactory.createItem("thermalcloth");
+thermalCloth.register();
+
+// Layers for the Space Suit ================================================================================
+var layerPressure = VanillaFactory.createItem("layerpressure");
+layerPressure.register();
+
+var layerRadiation = VanillaFactory.createItem("layerradiation");
+layerRadiation.register();
+
+// Space Suit ================================================================================
+
+var unpreparedspaceHelmet = VanillaFactory.createItem("unpreparedspacehelmet");
+unpreparedspaceHelmet.register();
+
+var unpreparedspaceChestplate = VanillaFactory.createItem("unpreparedspacechestplate");
+unpreparedspaceChestplate.register();
+
+var unpreparedspaceLeggins = VanillaFactory.createItem("unpreparedspaceleggins");
+unpreparedspaceLeggins.register();
+
+var unpreparedspaceBoots = VanillaFactory.createItem("unpreparedspaceboots");
+unpreparedspaceBoots.register();
+
+// Red Alloy Wiring ================================================================================
+var etchedRedAlloyWiring = VanillaFactory.createItem("etchedredalloywiring");
+etchedRedAlloyWiring.register();
 
 print("--------------- Custom Resources End ------------------");
 

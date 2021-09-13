@@ -1,0 +1,24 @@
+{
+	title: "A \"Raw\" Plastic Circuit Board",
+	x: 4.9d,
+	y: 4.3d,
+	description: "Time to work towards better circuits!",
+	text: [
+		"You've already have an Polyethylene Production going, so, mix some Sheets with Copper Foils and Sulfuric Acid in order to obtain a Plastic Circuit Board! as it is a resource that you're going to be refining on the next quest!"
+	],
+	dependencies: [
+		"e95629f1"
+	],
+	tasks: [{
+		uid: "12adb834",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32448"
+		}]
+	}],
+	rewards: [{
+		uid: "6562f58e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

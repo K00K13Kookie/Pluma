@@ -1,0 +1,32 @@
+{
+	title: "The Third and Final Tier 0 Circuit!",
+	x: 22.041836734693874d,
+	y: -2.0443877551020364d,
+	description: "Automate this one ASAP",
+	text: [
+		"Finally with all of your recent automations, you've reached the Peak at LV! at least, the Peak of Circuits... So As Soon as Possible automate this Circuit! as it is the Best one that you can use at LV Recipes!"
+	],
+	dependencies: [
+		"b6e82289",
+		"038af185"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "d8864da6",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32203"
+		}]
+	}],
+	rewards: [{
+		uid: "d180eb7c",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "c9dd60ec",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

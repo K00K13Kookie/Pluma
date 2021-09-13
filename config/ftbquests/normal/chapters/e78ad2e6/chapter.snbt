@@ -1,5 +1,5 @@
 {
-	title: "Bee Happy",
+	title: "Happy to Beelive",
 	icon: {
 		id: "forestry:bee_queen_ge",
 		tag: {
@@ -144,5 +144,16 @@
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 4.4d,
+		y: -4.4d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/beebanner.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

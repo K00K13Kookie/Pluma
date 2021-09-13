@@ -15,7 +15,7 @@
 		"",
 		"- §6Automatic Farms§f will §6do§f all §6the job§f of planting §6for you§f if you provide the farm with everything it needs.",
 		"",
-		"- And Also, it is §c§lNOT COMPATIBLE WITH AGRICRAFT§r§f that means that the Farm will not collect crops from Crop Sticks, even if you plant them first."
+		"- And Also, it is §c§lCOMPATIBLE WITH AGRICRAFT§r§f that means that the Farm will collect crops from Crop Sticks, but you need to set up an Manual Orchard (Emerald Tubes) to Work."
 	],
 	dependencies: [
 		"ad036ebc"

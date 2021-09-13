@@ -1,0 +1,38 @@
+{
+	title: "Integrated Circuit Wafers!",
+	icon: "gregtech:meta_item_2 1 32477",
+	x: 2.3d,
+	y: 7.5d,
+	shape: "square",
+	description: "This type of Wafer sounds delicious...",
+	text: [
+		"And finally, now that you have both a MV Laser Engraver and a MV Cutting Machine, use both to craft some of these!",
+		"",
+		"> Please, now take a look at the Rockhounding Tab, since you've unlocked the Tier 2 Circuit Quest!"
+	],
+	dependencies: [
+		"b7884a24",
+		"d7fc9919"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7664c887",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32463"
+		}]
+	},
+	{
+		uid: "ae4b227c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32477"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "cd20ce32",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

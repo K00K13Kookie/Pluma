@@ -1,7 +1,7 @@
 {
 	title: "Point to Point Transportation",
 	icon: "appliedenergistics2:part 1 460",
-	x: 16.5d,
+	x: 17.25d,
 	y: 11.0d,
 	description: "A Powerfull way to move Channels and Other Stuff using AE!",
 	text: [

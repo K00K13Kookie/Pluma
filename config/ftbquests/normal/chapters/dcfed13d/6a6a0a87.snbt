@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 9 Circuit",
+	x: 13.5d,
+	y: 15.0d,
+	description: "Optical Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"4a3b65bc"
+	],
+	tasks: [{
+		uid: "b2345a3f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32503"
+		}]
+	}]
+}

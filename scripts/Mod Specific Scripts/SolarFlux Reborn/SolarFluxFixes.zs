@@ -63,8 +63,6 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:canolaoil> * 500)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<solarflux:solar_panel_1>)
   .create();
 
@@ -77,8 +75,6 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<solarflux:solar_panel_2>)
   .create();
 

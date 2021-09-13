@@ -1,7 +1,7 @@
 {
-	title: "LV Era",
-	x: 3.0d,
-	y: -1.0d,
+	title: "LV Era - 32 EU",
+	x: -1.5d,
+	y: 1.5d,
 	description: "Low Voltage",
 	text: [
 		"This is where the Fun times beggin :)"

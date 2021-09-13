@@ -41,7 +41,14 @@
 		}]
 	},
 	{
-		uid: "f8405832",
+		uid: "36a028db",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32029"
+		}]
+	},
+	{
+		uid: "cadc6aa5",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_2 1 32455"

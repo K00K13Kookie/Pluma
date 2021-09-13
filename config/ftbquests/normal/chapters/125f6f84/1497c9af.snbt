@@ -1,0 +1,32 @@
+{
+	title: "Congratulations!",
+	icon: {
+		id: "forestry:can",
+		Damage: 1s,
+		tag: {
+			Fluid: {
+				FluidName: "oxygen",
+				Amount: 1000
+			}
+		}
+	},
+	x: 24.1d,
+	y: 3.5d,
+	description: "Now you should have Infinite Oxygen and Nitrogen!",
+	text: [
+		"> Remember, Later on you'll unlock GT Air collectors, that are far more efficient and the air collected by them, don't need to be Refined!"
+	],
+	dependencies: [
+		"40b6a4b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "89fc1f83",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5b3ead43",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

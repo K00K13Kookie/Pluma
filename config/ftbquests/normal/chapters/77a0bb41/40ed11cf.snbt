@@ -27,14 +27,14 @@
 		uid: "84e939d9",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 5832"
+			item: "gregtech:cable 1 5646"
 		}]
 	},
 	{
 		uid: "2cafc30b",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 832"
+			item: "gregtech:cable 1 646"
 		}]
 	}],
 	rewards: [{

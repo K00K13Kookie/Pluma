@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 9 Circuit",
+	x: 15.0d,
+	y: 15.0d,
+	description: "Exotic Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a6a0a87"
+	],
+	tasks: [{
+		uid: "07a3c2b8",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32606"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "A Neat way to view Fluids and Gases!",
+	icon: {
+		id: "rockhounding_chemistry:machines_d",
+		Damage: 12s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: -2.2d,
+	y: -1.4d,
+	description: "Need some samples for filters?",
+	text: [
+		"The §6Fluidpedia§f is a Neat way for you to take a look at §3ALL FLUIDS AND GASES§f registered in the game, this could be specially used to set up §3filters for your Rockhound machines§f, or just to take some notes about fluid temperatures."
+	],
+	dependencies: [
+		"475aca82"
+	],
+	tasks: [{
+		uid: "599b63d6",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 12s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "dfce6c15",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:sampling_ampoule",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "53107b34",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

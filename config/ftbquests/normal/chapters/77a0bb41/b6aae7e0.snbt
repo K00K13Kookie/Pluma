@@ -5,31 +5,20 @@
 	shape: "square",
 	description: "There's a Simple way to convert RF to EU and Vice Versa!",
 	text: [
-		"As the Subtitle said, you can easily convert EU to RF and Vice Versa, Simply make a CEU or a CEF depending on your necessity.",
+		"As the Subtitle said, you can easily convert EU to RF and Vice Versa, Simply make a Converter depending on your necessity.",
 		"",
+		"But, theres a special thing, §6GregTech cables§f can by themselves supply and RF machine with RF! so in other words, you can use GT  Cables to §6directly convert EU to RF§f.",
 		"",
-		"- CEF's Convert RF to EU",
-		"",
-		"- CEU's Convert EU to RF"
+		"> Currently, the Converters for EU -> RF are disabled, since the cables are already capable of that and you can't directly connect a GregTech cable with a Conduit/Duct."
 	],
 	dependencies: [
 		"40ed11cf"
 	],
 	tasks: [{
-		uid: "e02c88ee",
+		uid: "116cf3f3",
 		type: "item",
-		title: "Any CEF",
 		items: [{
-			item: "gregtech:machine 1 10659"
-		},
-		{
-			item: "gregtech:machine 1 10661"
-		},
-		{
-			item: "gregtech:machine 1 10663"
-		},
-		{
-			item: "gregtech:machine 1 10665"
+			item: "gregtech:machine 1 2909"
 		}]
 	}],
 	rewards: [{

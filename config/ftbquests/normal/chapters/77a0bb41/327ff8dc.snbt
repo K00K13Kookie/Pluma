@@ -1,8 +1,8 @@
 {
 	title: "Getting Chemical!",
 	icon: "gregtech:machine 1 190",
-	x: 16.2d,
-	y: -0.8d,
+	x: 16.0d,
+	y: -0.75d,
 	shape: "square",
 	description: "Lets improve our Circuit Boards!",
 	text: [
@@ -26,6 +26,13 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_2 1 32447"
+		}]
+	},
+	{
+		uid: "160149a7",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32030"
 		}]
 	}],
 	rewards: [{

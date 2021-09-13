@@ -237,4 +237,25 @@ RollingMachine.addShaped(<immersiveengineering:sheetmetal:10> * 4, [
     [null, <ore:plateGold>, null], 
     [<ore:plateGold>, null, <ore:plateGold>], 
     [null, <ore:plateGold>, null]
-    ], 30);               
+    ], 30);
+
+//Nimonic
+RollingMachine.addShaped(<contenttweaker:sheetmetal_nimonic> * 4, [
+    [null, <ore:plateNimonic>, null], 
+    [<ore:plateNimonic>, null, <ore:plateNimonic>], 
+    [null, <ore:plateNimonic>, null]
+    ], 30);
+
+//Hastelloy
+RollingMachine.addShaped(<contenttweaker:sheetmetal_hastelloy> * 4, [
+    [null, <ore:plateHastelloy>, null], 
+    [<ore:plateHastelloy>, null, <ore:plateHastelloy>], 
+    [null, <ore:plateHastelloy>, null]
+    ], 30);
+
+//Hydronallium
+RollingMachine.addShaped(<contenttweaker:sheetmetal_hydronallium> * 4, [
+    [null, <ore:plateHydronalium>, null], 
+    [<ore:plateHydronalium>, null, <ore:plateHydronalium>], 
+    [null, <ore:plateHydronalium>, null]
+    ], 30);  

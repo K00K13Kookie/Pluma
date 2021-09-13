@@ -1,8 +1,8 @@
 {
 	title: "Getting Aluminium!",
-	icon: "thermalfoundation:material 1 132",
-	x: 11.58061224489795d,
-	y: 1.1695578231292743d,
+	icon: "gregtech:meta_item_1 1 10001",
+	x: 11.263945578231244d,
+	y: 3.2977891156462675d,
 	shape: "square",
 	description: "An Resource used to progress to MV!",
 	text: [
@@ -19,7 +19,7 @@
 		type: "item",
 		title: "Aluminium Ingot",
 		items: [{
-			item: "thermalfoundation:material 1 132"
+			item: "gregtech:meta_item_1 1 10001"
 		}]
 	}],
 	rewards: [{
@@ -32,5 +32,11 @@
 		type: "gamestage",
 		auto: "invisible",
 		stage: "EndDimensionUnlock"
+	},
+	{
+		uid: "6ed276af",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "AdvancedBeeManipulation"
 	}]
 }

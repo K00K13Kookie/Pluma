@@ -1,0 +1,84 @@
+{
+	title: "4. Rockhounding your path to HV",
+	icon: "rockhounding_chemistry:chemical_items 1 5",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.6d,
+		y: 1.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/mineralsizertip.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.4d,
+		y: 1.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/gasificationtip.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.8d,
+		y: 1.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/gaspurifiertip.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 14.7d,
+		y: 1.6d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/fixedbedreactortip.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 18.5d,
+		y: -1.1d,
+		width: 6.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/metalalloyertip.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 14.7d,
+		y: 5.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/heatexchangertip.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 20.1d,
+		y: 6.1d,
+		width: 6.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/screenshots/cryogenicdistillationtipss.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

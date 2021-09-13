@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 0 Circuit",
+	x: 3.0d,
+	y: 1.5d,
+	description: "Refined Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"b474569f"
+	],
+	tasks: [{
+		uid: "e286bb15",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32203"
+		}]
+	}]
+}

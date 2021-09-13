@@ -1,7 +1,7 @@
 {
 	title: "Even moar Power!",
 	icon: "immersiveengineering:wirecoil 1 2",
-	x: 8.5d,
+	x: 10.5d,
 	y: -4.5d,
 	shape: "square",
 	text: [

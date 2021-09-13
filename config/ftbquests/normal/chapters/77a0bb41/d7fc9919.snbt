@@ -1,0 +1,30 @@
+{
+	title: "The Advanced Cutting Machine",
+	x: 3.2d,
+	y: 5.9d,
+	description: "Lets cut this out of the way!",
+	text: [
+		"Now that you have Cobalt Brass, and oficially are in MV, why not make a Cutting Machine? (PS: it is very important to progression)"
+	],
+	dependencies: [
+		"ddd41e92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f437aa26",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 221"
+		}]
+	}],
+	rewards: [{
+		uid: "62cc1755",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "4e3d3383",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32201"
+	}]
+}

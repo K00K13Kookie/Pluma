@@ -230,7 +230,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "819766a3",
@@ -310,7 +310,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "909df7de",

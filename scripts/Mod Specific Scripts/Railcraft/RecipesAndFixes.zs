@@ -133,9 +133,7 @@ RecipeBuilder.get("carpenter")
     [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
     [<ore:plateBronze>, <actuallyadditions:block_misc:4>, <ore:plateBronze>],
     [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
-  .addTool(<ore:artisansCarver>, 5)
   .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<railcraft:tank_water> * 3)
   .create();
 
@@ -147,9 +145,7 @@ RecipeBuilder.get("engineer")
     [<immersiveengineering:material:9>, <railcraft:equipment>, <immersiveengineering:material:9>],
     [<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansSolderer>, 3)
-  .addTool(<ore:artisansDriver>, 6)
   .addOutput(<railcraft:equipment:1>)
   .create();
 
@@ -161,8 +157,6 @@ RecipeBuilder.get("engineer")
     [<ore:gearInvar>, <pyrotech:sawmill_blade_diamond>, <ore:gearInvar>],
     [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:canolaoil> * 1000)
-  .addTool(<ore:artisansSolderer>, 5)
   .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<railcraft:rock_crusher> * 6)
   .create();  

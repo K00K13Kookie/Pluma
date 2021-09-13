@@ -1,15 +1,15 @@
 {
 	title: "Making Wires!",
 	icon: "gregtech:machine 1 470",
-	x: 9.6d,
-	y: -0.8d,
+	x: 8.753741496598614d,
+	y: -0.8042517006802683d,
 	shape: "square",
 	description: "Easier Wires and now Fine Wires!",
 	text: [
 		"With a Wiremill you'll be making more Wires with less Materias!"
 	],
 	dependencies: [
-		"162527d7"
+		"c4eb9f26"
 	],
 	hide: true,
 	tasks: [{

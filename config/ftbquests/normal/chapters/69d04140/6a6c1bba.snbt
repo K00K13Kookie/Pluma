@@ -6,15 +6,12 @@
 	shape: "rsquare",
 	text: [
 		"- The Stash can store up to 640 items of a single type",
-		"",
 		"- The Shelf can store up to 1 stack per spot on its rows",
-		"",
 		"- The Crate can store up to 1 stack aswell per spot on it",
-		"",
 		"- And the Wood Rack can store 1 stack of ONLY Logs per \"mini log\" on it",
 		"",
 		"",
-		"~ And yes, you can't craft a chest right now, this is the Early game Afterall!"
+		"~ And yes, you can't craft a chest right now, this is the Early game Afterall! §c§lAlso, don't try to pick up a Chest naturally generated, you don't have the knowladge for them yet!"
 	],
 	dependencies: [
 		"924627e8"

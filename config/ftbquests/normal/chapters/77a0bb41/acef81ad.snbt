@@ -1,0 +1,36 @@
+{
+	title: "Mixing Aluminium with Brass!",
+	icon: "tconstruct:ingots 1 5",
+	x: 8.9d,
+	y: 8.0d,
+	description: "Tinker's is Coming!",
+	text: [
+		"Now that you finally have Aluminium, it is time to mix it with Brass in order to obtain Aluminium Brass! A Special resource that you're going to be using in order",
+		"to start in Tinker's.",
+		"",
+		"- Please note, that in order for you to make it, you'll need to obtain the Fluid first and them solidify it! Just like the Smeltery but without the Smeltery!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"321ee631"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f99d212d",
+		type: "item",
+		items: [{
+			item: "tconstruct:metal 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "5c6f006d",
+		type: "item",
+		item: "tconstruct:ingots 1 5",
+		count: 5
+	},
+	{
+		uid: "de8826da",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

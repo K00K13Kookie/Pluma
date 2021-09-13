@@ -1,0 +1,71 @@
+{
+	title: "Producing Salt Water!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "salt_water",
+			Amount: 1000
+		}
+	},
+	x: -2.2d,
+	y: 5.6d,
+	description: "Maybe a Tough choice?",
+	text: [
+		"Now that you probally have an Evaporation Setup, you have a Choice to make, first make an MV Centrifuge for that and them, decide which type of Brine are you going to use.",
+		"",
+		"> Saturated Brine is faster to obtain and process, but you'll get less Salt Water from it",
+		"",
+		"> Dense Brine is slower to obtain and process, but you'll get more Salt Water from it.",
+		"",
+		"At the end, it is a matter of pacience, since in the late game, you're going to have better centrifuges that will basically make this time difference, null."
+	],
+	dependencies: [
+		"c18aa032"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a8414c2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 151"
+		}]
+	},
+	{
+		uid: "d3f171dd",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dense_brine",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "salt_brine",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e53cfa4f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "salt_water",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8081e10",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

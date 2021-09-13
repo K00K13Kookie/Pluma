@@ -10,7 +10,7 @@ var BlackSteelColor = Color.fromHex("2F2834") as Color;
 
 var BlackSteel = MaterialSystem.getMaterialBuilder().setName("Black Steel").setColor(BlackSteelColor).build();
 
-BlackSteel.registerParts(["Gear", "Casing", "dense_plate"] as string[]);
+BlackSteel.registerParts(["Casing"] as string[]);
 
 
 

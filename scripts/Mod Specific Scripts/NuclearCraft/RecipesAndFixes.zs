@@ -41,18 +41,6 @@ chemreactor.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-##### Ore Tooltips #####
-
-var NCOres as IItemStack[] = [
-<nuclearcraft:ore:3>,
-<nuclearcraft:ore:6>,
-<nuclearcraft:ore:7>,
-<nuclearcraft:ore:5>
-];
-for i in NCOres {
-i.addTooltip(format.green("Can be found in a special vein dedicated to NuclearCraft"));
-}
-
 # Graphite ingot recipe ==================
 furnace.addRecipe(<nuclearcraft:ingot:8>, <minecraft:coal>);
 furnace.addRecipe(<nuclearcraft:ingot:8> * 2, <thermalfoundation:material:802>);
@@ -88,7 +76,7 @@ recipes.addShaped(<nuclearcraft:cobblestone_generator_compact> * 1, [[<nuclearcr
 
 // Dense Cobblestone Generator
 recipes.remove(<nuclearcraft:cobblestone_generator_dense>);
-recipes.addShaped(<nuclearcraft:cobblestone_generator_dense> * 1, [[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>], [<nuclearcraft:cobblestone_generator_compact>, <moreplates:emeradic_gear>, <nuclearcraft:cobblestone_generator_compact>],[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>]]);
+recipes.addShaped(<nuclearcraft:cobblestone_generator_dense> * 1, [[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>], [<nuclearcraft:cobblestone_generator_compact>, <ore:gearSigberium>, <nuclearcraft:cobblestone_generator_compact>],[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>]]);
 
 ##### NuclearCraft Coolers #####
 // Empty Cooler
@@ -336,7 +324,7 @@ assembler.recipeBuilder().inputs([<ore:plateTough> * 8]).notConsumable(<gregtech
 
 //HSLA Machine Casing
 recipes.remove(<nuclearcraft:part:12>);
-assembler.recipeBuilder().inputs([<ore:plateHSLASteel> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<nuclearcraft:part:12>]).duration(80).EUt(2048).buildAndRegister();
+assembler.recipeBuilder().inputs([<ore:plateHslasteel> * 8]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<nuclearcraft:part:12>]).duration(80).EUt(2048).buildAndRegister();
 
 //Fission Reactor Casing
 recipes.remove(<nuclearcraft:fission_block>);
@@ -465,23 +453,23 @@ recipes.addShapeless("EdgeToNormalCasing", <nuclearcraft:salt_fission_wall>, [<n
 
 // Molten Salt Reactor Vent
 recipes.remove(<nuclearcraft:salt_fission_vent>);
-recipes.addShaped(<nuclearcraft:salt_fission_vent> * 1, [[<ore:plateHSLASteel>, <ore:gearSmallHSLASteel>, <ore:plateHSLASteel>], [<ore:servo>, <nuclearcraft:part:12>, <ore:servo>],[<ore:plateHSLASteel>, <ore:gearSmallHSLASteel>, <ore:plateHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:salt_fission_vent> * 1, [[<ore:plateHslasteel>, <ore:gearSmallHslasteel>, <ore:plateHslasteel>], [<ore:servo>, <nuclearcraft:part:12>, <ore:servo>],[<ore:plateHslasteel>, <ore:gearSmallHslasteel>, <ore:plateHslasteel>]]);
 
 // Copper Heat Exchanger Tube
 recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.heat_exchanger_tube_copper");
-recipes.addShaped(<nuclearcraft:heat_exchanger_tube_copper> * 1, [[<ore:plateHSLASteel>, <ore:plateAnnealedCopper>, <ore:plateHSLASteel>], [<ore:plateAnnealedCopper>, <nuclearcraft:part:12>, <ore:plateAnnealedCopper>],[<ore:plateHSLASteel>, <ore:servo>, <ore:plateHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:heat_exchanger_tube_copper> * 1, [[<ore:plateHslasteel>, <ore:plateAnnealedCopper>, <ore:plateHslasteel>], [<ore:plateAnnealedCopper>, <nuclearcraft:part:12>, <ore:plateAnnealedCopper>],[<ore:plateHslasteel>, <ore:servo>, <ore:plateHslasteel>]]);
 
 // Hard Carbon Heat Exchanger Tube
 recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.heat_exchanger_tube_hard_carbon");
-recipes.addShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon> * 1, [[<ore:plateHSLASteel>, <ore:plateHardCarbon>, <ore:plateHSLASteel>], [<ore:plateHardCarbon>, <nuclearcraft:part:12>, <ore:plateHardCarbon>],[<ore:plateHSLASteel>, <ore:servo>, <ore:plateHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon> * 1, [[<ore:plateHslasteel>, <ore:plateHardCarbon>, <ore:plateHslasteel>], [<ore:plateHardCarbon>, <nuclearcraft:part:12>, <ore:plateHardCarbon>],[<ore:plateHslasteel>, <ore:servo>, <ore:plateHslasteel>]]);
 
 // Thermoconducting Heat Exchanger Tube
 recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.heat_exchanger_tube_thermoconducting");
-recipes.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting> * 1, [[<ore:plateHSLASteel>, <ore:plateThermoconducting>, <ore:plateHSLASteel>], [<ore:plateThermoconducting>, <nuclearcraft:part:12>, <ore:plateThermoconducting>],[<ore:plateHSLASteel>, <ore:servo>, <ore:plateHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting> * 1, [[<ore:plateHslasteel>, <ore:plateThermoconducting>, <ore:plateHslasteel>], [<ore:plateThermoconducting>, <nuclearcraft:part:12>, <ore:plateThermoconducting>],[<ore:plateHslasteel>, <ore:servo>, <ore:plateHslasteel>]]);
 
 // Turbine Controller
 recipes.remove(<nuclearcraft:turbine_controller>);
-recipes.addShaped(<nuclearcraft:turbine_controller> * 1, [[<ore:plateAdvanced>, <ore:plateZircaloy>, <ore:plateAdvanced>], [<ore:gearHSLASteel>, <nuclearcraft:part:12>, <ore:gearHSLASteel>],[<ore:plateAdvanced>, <ore:plateZircaloy>, <ore:plateAdvanced>]]);
+recipes.addShaped(<nuclearcraft:turbine_controller> * 1, [[<ore:plateAdvanced>, <ore:plateZircaloy>, <ore:plateAdvanced>], [<ore:gearHslasteel>, <nuclearcraft:part:12>, <ore:gearHslasteel>],[<ore:plateAdvanced>, <ore:plateZircaloy>, <ore:plateAdvanced>]]);
 
 //Turbine Casing
 recipes.remove(<nuclearcraft:turbine_wall>);
@@ -519,59 +507,59 @@ recipes.addShapeless("EdgeToNormalTurbineCasing", <nuclearcraft:turbine_wall>, [
 
 // Turbine Rotor Shaft
 recipes.remove(<nuclearcraft:turbine_rotor_shaft>);
-recipes.addShaped(<nuclearcraft:turbine_rotor_shaft> * 2, [[<ore:boltHSLASteel>, <ore:plateZircaloy>, <ore:boltHSLASteel>], [<ore:plateHSLASteel>, <ore:plateDenseZircaloy>, <ore:plateHSLASteel>],[<ore:boltHSLASteel>, <ore:plateZircaloy>, <ore:boltHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_rotor_shaft> * 2, [[<ore:boltHslasteel>, <ore:plateZircaloy>, <ore:boltHslasteel>], [<ore:plateHslasteel>, <ore:plateDenseZircaloy>, <ore:plateHslasteel>],[<ore:boltHslasteel>, <ore:plateZircaloy>, <ore:boltHslasteel>]]);
 
 // Steel Turbine Rotor Blade
 recipes.remove(<nuclearcraft:turbine_rotor_blade_steel>);
-recipes.addShaped(<nuclearcraft:turbine_rotor_blade_steel> * 4, [[<ore:screwHSLASteel>, <ore:plateSteel>, <ore:screwHSLASteel>], [<ore:plateSteel>, <ore:rotorSteelMagnetic>, <ore:plateSteel>],[<ore:screwHSLASteel>, <ore:plateSteel>, <ore:screwHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_rotor_blade_steel> * 4, [[<ore:screwHslasteel>, <ore:plateSteel>, <ore:screwHslasteel>], [<ore:plateSteel>, <ore:rotorSteelMagnetic>, <ore:plateSteel>],[<ore:screwHslasteel>, <ore:plateSteel>, <ore:screwHslasteel>]]);
 
 // Extreme Alloy Turbine Rotor Blade
 recipes.remove(<nuclearcraft:turbine_rotor_blade_extreme>);
-recipes.addShaped(<nuclearcraft:turbine_rotor_blade_extreme> * 4, [[<ore:screwHSLASteel>, <ore:plateExtreme>, <ore:screwHSLASteel>], [<ore:plateExtreme>, <ore:rotorExtreme>, <ore:plateExtreme>],[<ore:screwHSLASteel>, <ore:plateExtreme>, <ore:screwHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_rotor_blade_extreme> * 4, [[<ore:screwHslasteel>, <ore:plateExtreme>, <ore:screwHslasteel>], [<ore:plateExtreme>, <ore:rotorExtreme>, <ore:plateExtreme>],[<ore:screwHslasteel>, <ore:plateExtreme>, <ore:screwHslasteel>]]);
 
 // SiCSiCCMC Turbine Rotor Blade
 recipes.remove(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
-recipes.addShaped(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc> * 4, [[<ore:screwHSLASteel>, <ore:plateSicsiccmc>, <ore:screwHSLASteel>], [<ore:plateSicsiccmc>, <ore:rotorSicsiccmc>, <ore:plateSicsiccmc>],[<ore:screwHSLASteel>, <ore:plateSicsiccmc>, <ore:screwHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc> * 4, [[<ore:screwHslasteel>, <ore:plateSicsiccmc>, <ore:screwHslasteel>], [<ore:plateSicsiccmc>, <ore:rotorSicsiccmc>, <ore:plateSicsiccmc>],[<ore:screwHslasteel>, <ore:plateSicsiccmc>, <ore:screwHslasteel>]]);
 
 // Turbine Rotor Stator
 recipes.remove(<nuclearcraft:turbine_rotor_stator>);
-recipes.addShaped(<nuclearcraft:turbine_rotor_stator> * 4, [[<ore:screwHSLASteel>, <ore:plateZircaloy>, <ore:screwHSLASteel>], [<ore:plateZircaloy>, <ore:rotorExtreme>, <ore:plateZircaloy>],[<ore:screwHSLASteel>, <ore:plateZircaloy>, <ore:screwHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_rotor_stator> * 4, [[<ore:screwHslasteel>, <ore:plateZircaloy>, <ore:screwHslasteel>], [<ore:plateZircaloy>, <ore:rotorExtreme>, <ore:plateZircaloy>],[<ore:screwHslasteel>, <ore:plateZircaloy>, <ore:screwHslasteel>]]);
 
 // Turbine Rotor Bearing
 recipes.remove(<nuclearcraft:turbine_rotor_bearing>);
-recipes.addShaped(<nuclearcraft:turbine_rotor_bearing> * 1, [[<ore:foilHSLASteel>, <ore:plateGold>, <ore:foilHSLASteel>], [<ore:plateGold>, <nuclearcraft:part:12>, <ore:plateGold>],[<ore:foilHSLASteel>, <ore:plateGold>, <ore:foilHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_rotor_bearing> * 1, [[<ore:foilHslasteel>, <ore:plateGold>, <ore:foilHslasteel>], [<ore:plateGold>, <nuclearcraft:part:12>, <ore:plateGold>],[<ore:foilHslasteel>, <ore:plateGold>, <ore:foilHslasteel>]]);
 
 // Magnesium Turbine Dynamo Coil
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:0>);
-recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:0> * 1, [[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>], [<ore:stickZircaloy>, <ore:ringHSLASteel>, <ore:stickZircaloy>],[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>]]);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:0> * 1, [[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>], [<ore:stickZircaloy>, <ore:ringHslasteel>, <ore:stickZircaloy>],[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>]]);
 
 // Beryllium Turbine Dynamo Coil
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:1>);
-recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:1> * 1, [[<ore:plateBeryllium>, <ore:plateBeryllium>, <ore:plateBeryllium>], [<ore:stickZircaloy>, <ore:ringHSLASteel>, <ore:stickZircaloy>],[<ore:plateBeryllium>, <ore:plateBeryllium>, <ore:plateBeryllium>]]);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:1> * 1, [[<ore:plateBeryllium>, <ore:plateBeryllium>, <ore:plateBeryllium>], [<ore:stickZircaloy>, <ore:ringHslasteel>, <ore:stickZircaloy>],[<ore:plateBeryllium>, <ore:plateBeryllium>, <ore:plateBeryllium>]]);
 
 // Aluminium Turbine Dynamo Coil
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:2>);
-recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:2> * 1, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], [<ore:stickZircaloy>, <ore:ringHSLASteel>, <ore:stickZircaloy>],[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:2> * 1, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], [<ore:stickZircaloy>, <ore:ringHslasteel>, <ore:stickZircaloy>],[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 
 // Gold Turbine Dynamo Coil
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:3>);
-recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:3> * 1, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:stickZircaloy>, <ore:ringHSLASteel>, <ore:stickZircaloy>],[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:3> * 1, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:stickZircaloy>, <ore:ringHslasteel>, <ore:stickZircaloy>],[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 
 // Copper Turbine Dynamo Coil
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:4>);
-recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:4> * 1, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:stickZircaloy>, <ore:ringHSLASteel>, <ore:stickZircaloy>],[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:4> * 1, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:stickZircaloy>, <ore:ringHslasteel>, <ore:stickZircaloy>],[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 
 // Silver Turbine Dynamo Coil
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:5>);
-recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:5> * 1, [[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>], [<ore:stickZircaloy>, <ore:ringHSLASteel>, <ore:stickZircaloy>],[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:5> * 1, [[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>], [<ore:stickZircaloy>, <ore:ringHslasteel>, <ore:stickZircaloy>],[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
 
 // Turbine Fluid Inlet
 recipes.remove(<nuclearcraft:turbine_inlet>);
-recipes.addShaped(<nuclearcraft:turbine_inlet> * 1, [[<ore:plateHardCarbon>, <fluidtank:blocktank3:0>, <ore:plateHardCarbon>], [<ore:foilZircaloy>, <nuclearcraft:part:12>, <ore:foilZircaloy>],[<ore:plateHSLASteel>, <ore:servo>, <ore:plateHSLASteel>]]);
+recipes.addShaped(<nuclearcraft:turbine_inlet> * 1, [[<ore:plateHardCarbon>, <fluidtank:blocktank3:0>, <ore:plateHardCarbon>], [<ore:foilZircaloy>, <nuclearcraft:part:12>, <ore:foilZircaloy>],[<ore:plateHslasteel>, <ore:servo>, <ore:plateHslasteel>]]);
 
 // Turbine Fluid Outlet
 recipes.remove(<nuclearcraft:turbine_outlet>);
-recipes.addShaped(<nuclearcraft:turbine_outlet> * 1, [[<ore:plateHSLASteel>, <ore:servo>, <ore:plateHSLASteel>], [<ore:foilZircaloy>, <nuclearcraft:part:12>, <ore:foilZircaloy>],[<ore:plateHardCarbon>, <fluidtank:blocktank3:0>, <ore:plateHardCarbon>]]);
+recipes.addShaped(<nuclearcraft:turbine_outlet> * 1, [[<ore:plateHslasteel>, <ore:servo>, <ore:plateHslasteel>], [<ore:foilZircaloy>, <nuclearcraft:part:12>, <ore:foilZircaloy>],[<ore:plateHardCarbon>, <fluidtank:blocktank3:0>, <ore:plateHardCarbon>]]);
 
 // Superconducting Electromagnet
 recipes.remove(<nuclearcraft:accelerator_electromagnet_idle>);
@@ -614,8 +602,6 @@ RecipeBuilder.get("tailor")
     [<ore:blockWoolYellow>, <minecraft:leather_chestplate>, <ore:blockWoolYellow>],
     [<quark:quilted_wool:15>, <nuclearcraft:rad_shielding:2>, <quark:quilted_wool:15>]])
   .addTool(<ore:artisansNeedle>, 8)
-  .addTool(<ore:artisansShears>, 5)
-  .addTool(<ore:artisansDriver>, 3)
   .addOutput(<nuclearcraft:chest_hazmat>)
   .create();
 
@@ -627,8 +613,6 @@ RecipeBuilder.get("tailor")
     [<quark:quilted_wool:4>, <minecraft:leather_leggings>, <quark:quilted_wool:4>],
     [<quark:quilted_wool:4>, null, <quark:quilted_wool:4>]])
   .addTool(<ore:artisansNeedle>, 8)
-  .addTool(<ore:artisansShears>, 5)
-  .addTool(<ore:artisansDriver>, 3)
   .addOutput(<nuclearcraft:legs_hazmat>)
   .create();
 
@@ -639,8 +623,6 @@ RecipeBuilder.get("tailor")
     [<ore:bioplastic>, <nuclearcraft:rad_shielding:2>, <ore:bioplastic>],
     [<quark:quilted_wool:15>, <minecraft:leather_boots>, <quark:quilted_wool:15>]])
   .addTool(<ore:artisansNeedle>, 5)
-  .addTool(<ore:artisansShears>, 3)
-  .addTool(<ore:artisansDriver>, 2)
   .addOutput(<nuclearcraft:boots_hazmat>)
   .create();
 
@@ -651,8 +633,6 @@ RecipeBuilder.get("chemist")
     [<ore:dustEnergetic>, <ore:blockSheetmetalLead>, <ore:dustEnergetic>],
     [<ore:bioplastic>, <nuclearcraft:radaway>, <ore:bioplastic>],
     [<ore:bioplastic>, <ore:bioplastic>, <ore:bioplastic>]])
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansKnife>, 3)
   .addTool(<ore:artisansMortar>, 2)
   .addOutput(<nuclearcraft:rad_x>)
   .create();

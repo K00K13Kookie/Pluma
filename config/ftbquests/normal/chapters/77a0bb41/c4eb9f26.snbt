@@ -1,0 +1,32 @@
+{
+	title: "The Low Voltage Assembler!",
+	x: 7.2d,
+	y: -0.8d,
+	description: "One of the Most Important Machines!",
+	text: [
+		"Besides being needed for Progression, you'll find out that A BUNCH of recipes will require you to have an Assembler, Voltages may be change."
+	],
+	dependencies: [
+		"934f786b",
+		"531a56c4",
+		"a4223224"
+	],
+	tasks: [{
+		uid: "6f2eea03",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2000"
+		}]
+	}],
+	rewards: [{
+		uid: "9f5f0138",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "a402553b",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487",
+		count: 2
+	}]
+}

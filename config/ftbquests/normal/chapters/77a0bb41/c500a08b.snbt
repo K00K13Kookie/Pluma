@@ -1,0 +1,38 @@
+{
+	title: "But how can I Get the Parts?",
+	x: 7.8d,
+	y: 11.0d,
+	description: "Perhaps you already noticed in JEI, let me explain",
+	text: [
+		"All but Stone Parts where hidden from JEI, so how can I craft an Iron Pick for example? Well, you'll use an Extruder for that! simply press \"U\" in your Cast to see all recipes!",
+		"",
+		"",
+		"But also keep in Mind that some \"bigger\" tools require an HV Extruder, the Hammer and the Excavator are Examples of that."
+	],
+	dependencies: [
+		"a0e2874f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aa7b4cec",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 271"
+		}]
+	}],
+	rewards: [{
+		uid: "991d3d85",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "802e99f8",
+		type: "item",
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "alumite"
+			}
+		}
+	}]
+}

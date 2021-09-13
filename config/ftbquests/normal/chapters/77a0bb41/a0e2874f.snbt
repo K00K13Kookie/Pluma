@@ -1,0 +1,48 @@
+{
+	title: "Making your first Molds!",
+	icon: "tconstruct:cast_custom",
+	x: 8.9d,
+	y: 9.2d,
+	description: "Tinker's is Unique in this Pack!",
+	text: [
+		"Ok, now you have Aluminium Brass so what? Well, there's no Smeltery in this Pack so.... you'll need to use your Block of Aluminium Brass in order to obtain",
+		"your first mold! but don't worry, It can be chiseled into other ones!",
+		"",
+		"Keep in mind that you'll need an MV Forming Press for that Process."
+	],
+	dependencies: [
+		"acef81ad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9b8fd9ea",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 341"
+		}]
+	},
+	{
+		uid: "b5b16aba",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast"
+		}]
+	},
+	{
+		uid: "ed0b4ad3",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	}],
+	rewards: [{
+		uid: "242af4de",
+		type: "item",
+		item: "tconstruct:cast"
+	},
+	{
+		uid: "20772ed1",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

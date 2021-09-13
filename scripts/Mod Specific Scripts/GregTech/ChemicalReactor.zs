@@ -33,10 +33,10 @@ chemreactor.recipeBuilder()
 ##### Super Glue Recipe #####
 
 chemreactor.recipeBuilder()
-    .fluidInputs([<liquid:glue> * 2000]) 
-    .fluidInputs([<liquid:nitrogen_dioxide> * 1000])
-    .fluidInputs([<liquid:styrene> * 1000])
-    .fluidOutputs(<liquid:superglue> * 4000)
+    .fluidInputs([<liquid:refinedglue> * 200]) 
+    .fluidInputs([<liquid:nitrogen_dioxide> * 100])
+    .fluidInputs([<liquid:styrene> * 100])
+    .fluidOutputs(<liquid:superglue> * 400)
     .duration(600)
     .EUt(32)
     .buildAndRegister();
@@ -74,4 +74,76 @@ chemreactor.recipeBuilder()
     .outputs(<tconstruct:soil:5>)
     .duration(200)
     .EUt(10)
+    .buildAndRegister();
+
+
+//Salt Water with Ghast Tear
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:water> * 500])
+    .inputs(<minecraft:ghast_tear>) 
+    .fluidOutputs(<liquid:salt_water> * 500)
+    .duration(360)
+    .EUt(60)
+    .buildAndRegister();
+
+//More Sulfuric Acid by using a Bearing Compound
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:water> * 1000])
+    .fluidInputs([<liquid:sulfur_trioxide> * 1000])
+    .inputs(<ore:compoundSulfur> * 8) 
+    .fluidOutputs(<liquid:sulfuric_acid> * 4500)
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+
+//More Hydrochloric Acid by using a Bearing Compound
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:chlorine> * 1000])
+    .fluidInputs([<liquid:hydrogen> * 1000])
+    .inputs(<ore:compoundChloride> * 2) 
+    .fluidOutputs(<liquid:hydrochloric_acid> * 4000)
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+
+//More Hydrofluoric Acid by using a Bearing Compound
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:fluorine> * 1000])
+    .fluidInputs([<liquid:hydrogen> * 1000])
+    .inputs(<ore:compoundFluorite> * 2) 
+    .fluidOutputs(<liquid:hydrofluoric_acid> * 4000)
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+
+//More Amonnia using Rockhound Chemistry mechanic
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:hydrogen> * 3000])
+    .fluidInputs([<liquid:nitrogen> * 1000])
+    .inputs(<rockhounding_chemistry:chemical_items:20> * 16) 
+    .fluidOutputs(<liquid:ammonia> * 2500)
+    .duration(320)
+    .EUt(384)
+    .buildAndRegister();
+
+//More Sodium Cyanide using a Rockhound Chemistry compound
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:oxygen> * 1000])
+    .fluidInputs([<liquid:hydrogen_cyanide> * 2000])
+    .inputs(<ore:dustSodium> * 2)
+    .inputs(<ore:compoundChloride> * 4)  
+    .fluidOutputs(<liquid:sodium_cyanide> * 3000)
+    .fluidOutputs(<liquid:water> * 500)
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+//Polysiloxane Recipe
+chemreactor.recipeBuilder()
+    .fluidInputs([<liquid:chloromethane> * 500])
+    .fluidInputs([<liquid:water> * 1000])
+    .inputs(<ore:compoundSilicon> * 4) 
+    .fluidOutputs(<liquid:silicone> * 500)
+    .duration(320)
+    .EUt(384)
     .buildAndRegister();

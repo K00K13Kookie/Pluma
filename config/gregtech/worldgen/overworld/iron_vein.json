@@ -1,18 +1,16 @@
 {
-  "weight": 190,
-  "density": 0.6,
+  "weight": 80,
+  "density": 0.4,
   "max_height": 55,
   "min_height": 5,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_0",
-      "type": "acaena_s"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "iron"
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
     "radius": [13, 13]

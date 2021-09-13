@@ -11,74 +11,89 @@ import crafttweaker.oredict.IOreDictEntry;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 var toRemove = [
-<gregtech:machine:90>
-, <gregtech:machine:91>
-, <gregtech:machine:92>
-, <gregtech:machine:93>
-, <gregtech:machine:410>
-, <gregtech:machine:411>
-, <gregtech:machine:412>
-, <gregtech:machine:413>
-, <gregtech:machine:2175>
-, <gregtech:machine:2176>
-, <gregtech:machine:2177>
-, <gregtech:machine:2178>
-, <gregtech:machine:2183>
-, <gregtech:machine:2184>
-, <gregtech:machine:2185>
-, <gregtech:machine:2186>
-, <gregtech:machine:510>
-, <gregtech:machine:527>
-, <gregtech:machine:526>
-, <gregtech:machine:816>
-, <gregtech:machine:815>
-, <gregtech:machine:814>
-, <gregtech:machine:813>
-, <gregtech:machine:812>
-, <gregtech:machine:811>
-, <gregtech:machine:6>
-, <gregtech:machine:5>
-, <gregtech:machine:3>
-, <gregtech:machine:826>
-, <gregtech:machine:825>
+
+//Gregicality Stuff
+
+<gregtech:machine:2195>
+, <gregtech:machine:2196>
+, <gregtech:machine:2197>
+, <gregtech:machine:2198>
+, <gregtech:machine:2199>
+, <gregtech:machine:2200>
+, <gregtech:machine:2207>
+, <gregtech:machine:2208>
+, <gregtech:machine:2209>
+, <gregtech:machine:2212>
+, <gregtech:machine:2211>
+, <gregtech:machine:2210>
+, <gregtech:machine:2235>
+, <gregtech:machine:2232>
+, <gregtech:machine:4212> 
+
+// Aplifabricator
 , <gregtech:machine:80>
 , <gregtech:machine:81>
 , <gregtech:machine:82>
 , <gregtech:machine:83>
-, <gregtech:meta_item_2:32450>
-, <gregtech:meta_item_2:32507>
-, <gregtech:meta_item_2:32488>
-, <gregtech:meta_item_1:11229>
-, <gregtech:metal_casing:8>
-, <gtadditions:ga_meta_item:32032>
-, <gregtech:meta_item_2:32013>
-, <gregtech:meta_item_2:32012>
-, <gregtech:meta_item_1:10829>
-, <modularmachinery:itemmodularium>
-, <gregtech:metal_casing:1>
+
+//Old Blast Furnace
+, <gregtech:machine:511>
+
+//Old Pyrolyse
+, <gregtech:machine:514>
+
+//Old Multi-Smelter
+, <gregtech:machine:516>
+
+//Old Heat Proof Casing
+, <gregtech:metal_casing:2>
+
+// Arc Furnace
+, <gregtech:machine:80>
+, <gregtech:machine:81>
+, <gregtech:machine:82>
+, <gregtech:machine:83>
+, <gregtech:machine:410>
+, <gregtech:machine:411>
+, <gregtech:machine:412>
+, <gregtech:machine:413>
+, <gregtech:machine:90>
+, <gregtech:machine:91>
+, <gregtech:machine:92>
+, <gregtech:machine:93>
+
+// Microwave
 , <gregtech:machine:360>
 , <gregtech:machine:361>
 , <gregtech:machine:362>
 , <gregtech:machine:363>
-, <gregtech:meta_item_1:10069>
-, <gregtech:meta_block_compressed_4:5>
-, <gregtech:meta_item_1:10038>
-, <gregtech:meta_block_compressed_2:6>
-, <gregtech:meta_item_1:2038>
-, <gregtech:meta_item_1:2069>
-, <gregtech:meta_block_compressed_1:1>
-, <gregtech:meta_item_1:10017>
-, <gregtech:meta_item_1:12017>
-, <gregtech:meta_block_compressed_8:12>
-, <gregtech:meta_item_1:12140>
-, <gregtech:meta_item_1:10140>
-, <gregtech:meta_item_1:9140>
-, <gregtech:meta_block_compressed_3:1>
-, <gregtech:meta_item_1:2049>
-, <gregtech:meta_item_1:9049>
-, <gregtech:meta_item_1:10049>
-, <gregtech:meta_item_1:2218>
-, <gregtech:meta_item_1:12801>
+
+// Tanks
+, <gregtech:machine:811>
+, <gregtech:machine:812>
+, <gregtech:machine:813>
+, <gregtech:machine:814>
+, <gregtech:machine:815>
+, <gregtech:machine:816>
+
+// Crafting Station
+, <gregtech:machine:825>
+, <gregtech:machine:826>
+
+//Coke Oven Bricks
+, <gtadditions:ga_meta_item:32036>
+
+// Steam Generation
+, <gregtech:machine:3>
+, <gregtech:machine:5>
+, <gregtech:machine:6>
+
+//Air Collectors
+, <gregtech:machine:950>
+, <gregtech:machine:960>
+
+//Old Implosion Compressor
+, <gregtech:machine:513>
 
 //Flint Tools
 , <gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})
@@ -154,6 +169,11 @@ var toRemove = [
 , <gregtech:meta_item_2:803>
 , <gregtech:meta_item_2:832>
 , <gregtech:meta_item_2:972>
+, <gregtech:meta_item_2:646>
+, <gregtech:meta_item_2:647>
+, <gregtech:meta_item_2:859>
+, <gregtech:meta_item_2:963>
+, <gregtech:meta_item_2:993>
 
 //Picks
 , <gregtech:meta_item_1:32365>
@@ -220,7 +240,11 @@ var toRemove = [
 , <gregtech:meta_item_2:1972>
 , <gregtech:meta_item_2:1042>
 , <gregtech:meta_item_2:1043>
-
+, <gregtech:meta_item_2:1646>
+, <gregtech:meta_item_2:1647>
+, <gregtech:meta_item_2:1859>
+, <gregtech:meta_item_2:1963>
+, <gregtech:meta_item_2:1993>
 
 //Shovel
 , <gregtech:meta_item_1:32366>
@@ -287,6 +311,11 @@ var toRemove = [
 , <gregtech:meta_item_2:2803>
 , <gregtech:meta_item_2:2832>
 , <gregtech:meta_item_2:2972>
+, <gregtech:meta_item_2:2646>
+, <gregtech:meta_item_2:2647>
+, <gregtech:meta_item_2:2859>
+, <gregtech:meta_item_2:2963>
+, <gregtech:meta_item_2:2993>
 
 //Axes
 , <gregtech:meta_item_1:32367>
@@ -353,6 +382,11 @@ var toRemove = [
 , <gregtech:meta_item_2:3803>
 , <gregtech:meta_item_2:3832>
 , <gregtech:meta_item_2:3972>
+, <gregtech:meta_item_2:3646>
+, <gregtech:meta_item_2:3647>
+, <gregtech:meta_item_2:3859>
+, <gregtech:meta_item_2:3963>
+, <gregtech:meta_item_2:3993>
 
 //Hoe
 , <gregtech:meta_item_1:32368>
@@ -419,134 +453,11 @@ var toRemove = [
 , <gregtech:meta_item_2:4803>
 , <gregtech:meta_item_2:4832>
 , <gregtech:meta_item_2:4972>
-, <gregtech:meta_item_1:2220>
-, <gregtech:meta_block_compressed_2:7>
-, <gregtech:meta_item_1:2039>
-, <gregtech:meta_item_1:10039>
-, <gregtech:meta_item_1:10036>
-, <gregtech:meta_block_compressed_2:4>
-, <gregtech:meta_item_1:2036>
-, <gregtech:meta_block_compressed_0:7>
-, <gregtech:meta_item_1:2007>
-, <gregtech:meta_item_1:10007>
-, <gregtech:meta_item_1:14033>
-, <gregtech:meta_item_1:14184>
-, <gregtech:meta_item_2:26111> 
-
-//BlueSteel Stuff
-, <gregtech:meta_item_1:2828>
-, <gregtech:meta_item_1:9828>
-, <gregtech:meta_item_1:10828>
-, <gregtech:meta_item_1:828>
-, <gregtech:meta_item_1:1828>
-, <gregtech:meta_item_2:828>
-, <gregtech:meta_item_2:1828>
-, <gregtech:meta_item_2:2828>
-, <gregtech:meta_item_2:3828>
-, <gregtech:meta_item_2:4828>
-, <gregtech:meta_item_2:6828>
-, <gregtech:meta_item_2:5828>
-, <gregtech:meta_item_2:7828>
-, <gregtech:meta_item_2:8828>
-, <gregtech:meta_item_2:9828>
-, <gregtech:meta_item_2:10828>
-, <gregtech:meta_item_2:11828>
-, <gregtech:meta_item_2:12828>
-, <gregtech:meta_item_2:14828>
-, <gregtech:meta_item_2:15828>
-, <gregtech:meta_block_compressed_51:12>
-
-//Signalum Stuff
-, <gregtech:meta_item_1:2801>
-, <gregtech:meta_item_1:9801>
-, <gregtech:meta_item_1:10801>
-, <gregtech:meta_block_compressed_50:1>
-
-//Enderium Stuff
-, <gregtech:meta_item_1:2803>
-, <gregtech:meta_item_1:9803>
-, <gregtech:meta_item_1:10803>
-, <gregtech:meta_item_1:12803>
-, <gregtech:meta_block_compressed_50:3>
-
-//Lumium Stuff
-, <gregtech:meta_item_1:10811>
-, <gregtech:meta_item_1:12811>
-, <gregtech:meta_item_1:9811>
-, <gregtech:meta_item_1:2811>
-, <gregtech:meta_block_compressed_50:11>
-
-//Electrotine Stuff
-,  <gregtech:meta_block_compressed_52>
-,  <gregtech:meta_item_1:10832>
-,  <gregtech:meta_item_1:2832>
-,  <gregtech:meta_item_1:12832>
-,  <moreplates:electrotine_alloy_gear>
-
-//Certus Stuff
-,  <gregtech:meta_item_1:12202>
-,  <gregtech:meta_block_compressed_12:10>
-,  <gregtech:ore_certus_quartz_0>
-,  <gregtech:meta_item_1:8202>
-,  <gregtech:meta_item_1:2202>
-
-//Osram Stuff
-,  <gregtech:meta_item_1:9701>
-,  <gregtech:meta_item_1:10701>
-,  <gregtech:meta_item_1:2701>
-
-//Iox Stuff
-,  <gregtech:meta_item_1:10901>
-,  <gregtech:meta_item_1:2901>
-,  <gregtech:meta_item_1:9901>
-
-//Tough Stuff
-,  <gregtech:meta_item_1:10842>
-
-//HSLA Steel Stuff
-,  <gregtech:meta_item_1:10843>
-
-//Extreme Alloy Stuff
-,  <gregtech:meta_item_1:10844>
-
-//Thermoconducting Stuff
-,  <gregtech:meta_item_1:10845>
-
-//HardCarbon Stuff
-,  <gregtech:meta_item_1:10847>
-
-//SiC-SiC Stuff
-,  <gregtech:meta_item_1:10849>
-
-//Graphite Stuff
-,  <gregtech:meta_block_compressed_12:12>
-,  <gregtech:meta_item_1:10204>
-,  <gregtech:meta_item_1:2204>
-
-
-//Coal Coke Stuff
-,  <immersiveengineering:stone_decoration:3>
-,  <immersiveengineering:material:6>
-,  <railcraft:generic:6>
-,  <thermalfoundation:storage_resource:1>
-,  <thermalfoundation:material:802>
-,  <gregtech:meta_item_1:2357>
-
-//Ardite Stuff
-,  <gregtech:meta_item_1:12850>
-,  <gregtech:meta_item_2:26850>
-,  <gregtech:meta_item_1:10850>
-,  <gregtech:meta_item_1:9850>
-,  <gregtech:meta_block_compressed_53:2>
-
-//Manyullyn Stuff
-,  <gregtech:meta_item_1:12851>
-,  <gregtech:meta_item_1:10851>
-,  <gregtech:meta_block_compressed_53:3>
-,  <gregtech:meta_item_2:26851>
-,  <gregtech:meta_item_1:9851>
-
-,  <jaopca:item_platequartz>
+, <gregtech:meta_item_2:3646>
+, <gregtech:meta_item_2:3647>
+, <gregtech:meta_item_2:3859>
+, <gregtech:meta_item_2:3963>
+, <gregtech:meta_item_2:3993>
 
 ] as IItemStack[];
 

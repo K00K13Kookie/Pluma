@@ -1,7 +1,7 @@
 {
 	title: "Compressing...",
-	x: 22.0d,
-	y: -4.2d,
+	x: 20.0d,
+	y: -6.2d,
 	shape: "square",
 	description: "Plant Balls and some special Plates!",
 	text: [
@@ -21,7 +21,7 @@
 	rewards: [{
 		uid: "212210b3",
 		type: "item",
-		item: "immersiveengineering:material 1 27"
+		item: "gregtech:meta_item_2 1 32488"
 	},
 	{
 		uid: "cd239155",

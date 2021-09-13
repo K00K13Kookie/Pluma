@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 6 Processor",
+	x: 12.0d,
+	y: 10.5d,
+	description: "Bioware Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"bfdd150e"
+	],
+	tasks: [{
+		uid: "fff0bc30",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32401"
+		}]
+	}]
+}

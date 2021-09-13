@@ -114,22 +114,26 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 //Triberium
+furnace.remove(<gregtech:meta_item_1:10647>);
+
 mixer.recipeBuilder()
     .inputs(<taiga:dilithium_dust> * 2)
     .fluidInputs([<liquid:tiberium_fluid> * 720])
-    .fluidOutputs(<liquid:triberium_fluid> * 864)
+    .fluidOutputs(<liquid:triberium> * 864)
     .duration(240)
     .EUt(32)
     .buildAndRegister();
 
 blast_furnace.recipeBuilder()
-    .inputs(<taiga:triberium_dust>)
-    .outputs(<taiga:triberium_ingot>)
+    .inputs(<ore:dustTriberium>)
+    .outputs(<ore:ingotTriberium>.firstItem)
     .property("temperature", 1800)
     .duration(1500)
     .EUt(128)
     .buildAndRegister();
 
+
+/*
 macerator.recipeBuilder()
     .inputs([<taiga:triberium_ingot>])
     .outputs(<taiga:triberium_dust>)
@@ -143,32 +147,35 @@ macerator.recipeBuilder()
     .duration(60)
     .EUt(16)
     .buildAndRegister();
+*/
 
 ### Fluids of this Resource
 
+
+/*
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:triberium_block>)
-    .fluidOutputs(<liquid:triberium_fluid> * 1296)
+    .fluidOutputs(<liquid:triberium> * 1296)
     .duration(720)
     .EUt(32)
     .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:triberium_ingot>)
-    .fluidOutputs(<liquid:triberium_fluid> * 144)
+    .fluidOutputs(<liquid:triberium> * 144)
     .duration(80)
     .EUt(32)
     .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
     .inputs(<taiga:triberium_nugget>)
-    .fluidOutputs(<liquid:triberium_fluid> * 16)
+    .fluidOutputs(<liquid:triberium> * 16)
     .duration(8.8)
     .EUt(32)
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:triberium_fluid> * 1296)
+    .fluidInputs(<liquid:triberium> * 1296)
     .notConsumable(<gregtech:meta_item_1:32308>)
     .outputs(<taiga:triberium_block>)		
     .duration(56)
@@ -176,7 +183,7 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:triberium_fluid> * 144)
+    .fluidInputs(<liquid:triberium> * 144)
     .notConsumable(<gregtech:meta_item_1:32306>)
     .outputs(<taiga:triberium_ingot>)		
     .duration(20)
@@ -184,17 +191,18 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:triberium_fluid> * 16)
+    .fluidInputs(<liquid:triberium> * 16)
     .notConsumable(<gregtech:meta_item_1:32309>)	
     .outputs(<taiga:triberium_nugget>)	
     .duration(12.8)
     .EUt(4)
     .buildAndRegister();
+*/
 
 //Fractum
 mixer.recipeBuilder()
     .inputs(<taiga:abyssum_dust>)
-    .fluidInputs([<liquid:triberium_fluid> * 432])
+    .fluidInputs([<liquid:triberium> * 432])
     .fluidInputs([<liquid:obsidian> * 864])	
     .fluidOutputs(<liquid:fractum_fluid> * 864)
     .duration(240)
@@ -908,7 +916,7 @@ solidifier.recipeBuilder()
 //Seismum
 mixer.recipeBuilder()
     .inputs(<taiga:eezo_dust>)
-    .fluidInputs([<liquid:triberium_fluid> * 288])
+    .fluidInputs([<liquid:triberium> * 288])
     .fluidInputs([<liquid:obsidian> * 1152])	
     .fluidOutputs(<liquid:seismum_fluid> * 864)
     .duration(240)
@@ -1222,9 +1230,7 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 //Iox
-<ore:blockIox>.remove(<taiga:iox_block>);
-recipes.addShapeless("GTIoxToTaiga", <taiga:iox_block>, [<gregtech:meta_block_compressed_56:5>]);
-recipes.addShapeless("GTIoxToTaiga2", <gregtech:meta_block_compressed_56:5>, [<taiga:iox_block>]);
+furnace.remove(<gregtech:meta_item_1:10462>);
 
 mixer.recipeBuilder()
     .inputs(<taiga:abyssum_dust> * 2)
@@ -1237,8 +1243,8 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 blast_furnace.recipeBuilder()
-    .inputs(<taiga:iox_dust>)
-    .outputs(<taiga:iox_ingot>)
+    .inputs(<ore:dustIox>)
+    .outputs(<ore:ingotIox>.firstItem)
     .property("temperature", 1800)
     .duration(1500)
     .EUt(128)
@@ -1550,7 +1556,7 @@ mixer.recipeBuilder()
     .inputs(<taiga:fractum_dust>)
     .inputs(<taiga:osram_dust>)	
     .fluidInputs([<liquid:seismum_fluid> * 144])
-    .fluidInputs([<liquid:triberium_fluid> * 432])	
+    .fluidInputs([<liquid:triberium> * 432])	
     .fluidOutputs(<liquid:dyonite_fluid> * 576)
     .duration(240)
     .EUt(32)
@@ -2333,20 +2339,18 @@ solidifier.recipeBuilder()
     .buildAndRegister();
 
 //Osram
-<ore:blockOsram>.remove(<taiga:osram_block>);
-recipes.addShapeless("GTOsramToTaiga", <taiga:osram_block>, [<gregtech:meta_block_compressed_43:13>]);
-recipes.addShapeless("GTOsramToTaiga2", <gregtech:meta_block_compressed_43:13>, [<taiga:osram_block>]);
+furnace.remove(<gregtech:meta_item_1:10649>);
 
 macerator.recipeBuilder()
     .inputs([<taiga:osram_ore>])
-    .outputs(<taiga:osram_dust> * 2)
+    .outputs(<ore:dustOsram>.firstItem * 2)
     .duration(120)
     .EUt(80)
     .buildAndRegister();
 
 blast_furnace.recipeBuilder()
-    .inputs(<taiga:osram_dust>)
-    .outputs(<taiga:osram_ingot>)
+    .inputs(<ore:dustOsram>)
+    .outputs(<ore:ingotOsram>.firstItem)
     .property("temperature", 2100)
     .duration(1500)
     .EUt(128)
@@ -3030,6 +3034,7 @@ extruder.recipeBuilder()
 	.EUt(60)
 	.buildAndRegister();
 
+/*
 //Triberium
 extruder.recipeBuilder()
 	.inputs(<taiga:triberium_ingot> * 9)
@@ -3038,6 +3043,7 @@ extruder.recipeBuilder()
 	.duration(50)
 	.EUt(60)
 	.buildAndRegister();
+*/
 
 //Fractum
 extruder.recipeBuilder()

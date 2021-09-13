@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 10 Circuit",
+	x: 18.0d,
+	y: 16.5d,
+	description: "Supra-Causal Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"d622f3c8"
+	],
+	tasks: [{
+		uid: "7a7da53a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32546"
+		}]
+	}]
+}

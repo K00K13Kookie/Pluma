@@ -1,0 +1,50 @@
+{
+	title: "A Much Better Backpack!",
+	icon: "improvedbackpacks:backpack",
+	x: 21.5d,
+	y: -2.0d,
+	description: "This one can be improved over time!",
+	text: [
+		"This Backpack is a real improvement from those of ProjectRed:",
+		"",
+		"- It has an Expandable Internal Storage (Mix it with upgrades in the crafting grid).",
+		"",
+		"- Can be painted using dyes (again in the crafting grid)",
+		"",
+		"- Also, you can place it in your Baubles slot or In World!",
+		"",
+		"oh and one last tip, you can set a keybind for it! so you could  place it in your baubles and them use a keybind to open it!"
+	],
+	dependencies: [
+		"13615611"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63559256",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:tanned_leather"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3989b7be",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e02a735",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "6d06e7b6",
+		type: "item",
+		item: "actuallyadditions:item_food 1 11",
+		random_bonus: 2
+	}]
+}

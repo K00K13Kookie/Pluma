@@ -1,0 +1,26 @@
+{
+	title: "A Good Plastic Circuit Board!",
+	x: 4.9d,
+	y: 5.6d,
+	description: "Refinind a Plastic Board with Iron III Chloride!",
+	text: [
+		"That's Right! now that you've have Iron III Chloride and \"Raw Plastic Boards\" mix them together to obtain a Good Plastic Circuit Board!"
+	],
+	dependencies: [
+		"a9490ed8",
+		"0e67cb90"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "46bfd84d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32031"
+		}]
+	}],
+	rewards: [{
+		uid: "80aef77f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

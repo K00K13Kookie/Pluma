@@ -54,7 +54,7 @@ var ToolMaterials as IItemStack[string] = {
 	"slime" : <ore:slimecrystalGreen>.firstItem,
 	"endstone" : <minecraft:end_stone>,
 	"netherrack" : <minecraft:netherrack>,
-	"certus_quartz" : <ore:crystalCertusQuartz>.firstItem,
+	"certus_quartz" : <ore:gemCertusQuartz>.firstItem,
 	"stone" : <minecraft:stone>,
 	"sponge" : <minecraft:sponge>,
 	"blueslime" : <ore:slimecrystalBlue>.firstItem,
@@ -185,7 +185,7 @@ var ToolMaterialsII as IItemStack[string] = {
 	"slime" : <ore:slimecrystalGreen>.firstItem,
 	"endstone" : <minecraft:end_stone>,
 	"netherrack" : <minecraft:netherrack>,
-	"certus_quartz" : <ore:crystalCertusQuartz>.firstItem,
+	"certus_quartz" : <ore:gemCertusQuartz>.firstItem,
 	"stone" : <minecraft:stone>,
 	"sponge" : <minecraft:sponge>,
 	"blueslime" : <ore:slimecrystalBlue>.firstItem,
@@ -288,7 +288,7 @@ var ArcaneFocusMaterials as IItemStack[string] = {
 	"void_crystal" : <actuallyadditions:item_crystal:3>,
 	"emeraldic_crystal" : <actuallyadditions:item_crystal:4>,	
 	"enori_crystal" : <actuallyadditions:item_crystal:5>,
-	"certus_quartz" : <ore:crystalCertusQuartz>.firstItem,
+	"certus_quartz" : <ore:gemCertusQuartz>.firstItem,
 	"apatite" : <ore:gemApatite>.firstItem,
 	"flux_crystal" : <ore:gemCrystalFlux>.firstItem,
 	"platinum" : <ore:ingotPlatinum>.firstItem,
@@ -381,9 +381,7 @@ RecipeBuilder.get("tailor")
     [null, null, <ore:feather>],
     [null, <ore:feather>, null],
     [<ore:feather>, null, null]])
-  .addTool(<ore:artisansKnife>, 2)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:fletching>.withTag({Material: "feather"}))
   .create();
 
@@ -393,9 +391,7 @@ RecipeBuilder.get("tailor")
     [null, null, <minecraft:leaves>],
     [null, <minecraft:leaves>, null],
     [<minecraft:leaves>, null, null]])
-  .addTool(<ore:artisansKnife>, 2)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:fletching>.withTag({Material: "leaf"}))
   .create();
 
@@ -405,9 +401,7 @@ RecipeBuilder.get("tailor")
     [null, null, <tconstruct:slime_leaves>],
     [null, <tconstruct:slime_leaves>, null],
     [<tconstruct:slime_leaves>, null, null]])
-  .addTool(<ore:artisansKnife>, 2)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:fletching>.withTag({Material: "slimeleaf_blue"}))
   .create();
 
@@ -417,9 +411,7 @@ RecipeBuilder.get("tailor")
     [null, null, <tconstruct:slime_leaves:2>],
     [null, <tconstruct:slime_leaves:2>, null],
     [<tconstruct:slime_leaves:2>, null, null]])
-  .addTool(<ore:artisansKnife>, 2)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:fletching>.withTag({Material: "slimeleaf_orange"}))
   .create();
 
@@ -429,9 +421,7 @@ RecipeBuilder.get("tailor")
     [null, null, <tconstruct:slime_leaves:1>],
     [null, <tconstruct:slime_leaves:1>, null],
     [<tconstruct:slime_leaves:1>, null, null]])
-  .addTool(<ore:artisansKnife>, 2)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:fletching>.withTag({Material: "slimeleaf_purple"}))
   .create();
 
@@ -443,9 +433,7 @@ RecipeBuilder.get("tailor")
     [null, <ore:twine>, <ore:twine>],
     [<ore:twine>, <ore:twine>, null],
     [<ore:twine>, null, null]])
-  .addTool(<ore:artisansKnife>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:bow_string>.withTag({Material: "string"}))
   .create();
 
@@ -455,9 +443,7 @@ RecipeBuilder.get("tailor")
     [null, <ore:fiberHemp>, <ore:fiberHemp>],
     [<ore:fiberHemp>, <ore:fiberHemp>, null],
     [<ore:fiberHemp>, null, null]])
-  .addTool(<ore:artisansKnife>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:bow_string>.withTag({Material: "hemp"}))
   .create();
 
@@ -467,9 +453,7 @@ RecipeBuilder.get("tailor")
     [null, <minecraft:vine>, <minecraft:vine>],
     [<minecraft:vine>, <minecraft:vine>, null],
     [<minecraft:vine>, null, null]])
-  .addTool(<ore:artisansKnife>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:bow_string>.withTag({Material: "vine"}))
   .create();
 
@@ -479,9 +463,7 @@ RecipeBuilder.get("tailor")
     [null, <tconstruct:slime_vine_blue>, <tconstruct:slime_vine_blue>],
     [<tconstruct:slime_vine_blue>, <tconstruct:slime_vine_blue>, null],
     [<tconstruct:slime_vine_blue>, null, null]])
-  .addTool(<ore:artisansKnife>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:bow_string>.withTag({Material: "slimevine_blue"}))
   .create();
 
@@ -491,9 +473,7 @@ RecipeBuilder.get("tailor")
     [null, <tconstruct:slime_vine_purple>, <tconstruct:slime_vine_purple>],
     [<tconstruct:slime_vine_purple>, <tconstruct:slime_vine_purple>, null],
     [<tconstruct:slime_vine_purple>, null, null]])
-  .addTool(<ore:artisansKnife>, 4)
-  .addTool(<ore:artisansShears>, 2)
-  .addTool(<ore:artisansLens>, 2)
+  .addTool(<ore:artisansShears>, 5)
   .addOutput(<tconstruct:bow_string>.withTag({Material: "slimevine_purple"}))
   .create();
 

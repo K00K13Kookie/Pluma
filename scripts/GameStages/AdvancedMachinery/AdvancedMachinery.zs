@@ -48,18 +48,7 @@ var AdvancedMachinery as IItemStack[] = [
 <actuallyadditions:block_phantom_breaker>,
 <actuallyadditions:block_phantom_redstoneface>,
 <actuallyadditions:block_phantom_energyface>,
-<moreplates:empowered_diamatine_gear>,
-<moreplates:empowered_diamatine_plate>,
-<moreplates:empowered_emeradic_gear>,
-<moreplates:empowered_emeradic_plate>,
-<moreplates:empowered_enori_gear>,
-<moreplates:empowered_enori_plate>,
-<moreplates:empowered_palis_gear>,
-<moreplates:empowered_palis_plate>,
-<moreplates:empowered_restonia_gear>,
-<moreplates:empowered_void_plate>,
-<moreplates:empowered_void_gear>,
-<moreplates:empowered_restonia_plate>,
+
 
 //Thermal Stuff
 <thermalexpansion:machine:4>,
@@ -401,6 +390,29 @@ var AdvancedMachinery as IItemStack[] = [
 <appliedenergistics2:part:400>,
 <appliedenergistics2:part:380>,
 <appliedenergistics2:part:80>,
+<threng:machine:3>,
+<threng:machine:4>,
+<threng:big_assembler>,
+<threng:big_assembler:1>,
+<threng:big_assembler:2>,
+<threng:big_assembler:3>,
+<threng:big_assembler:4>,
+<threng:big_assembler:5>,
+<threng:material:1>,
+<threng:material:2>,
+<threng:material:3>,
+<threng:material:4>,
+<threng:material:5>,
+<threng:material:6>,
+<threng:material:7>,
+<threng:material:8>,
+<threng:material:9>,
+<threng:material:10>,
+<threng:material:11>,
+<threng:material:12>,
+<threng:material:13>,
+<threng:material:14>,
+<threng:material>,
 
 //SolarFlux
 <solarflux:solar_panel_3>,
@@ -415,6 +427,11 @@ var AdvancedMachinery as IItemStack[] = [
 <solarflux:photovoltaic_cell_4>,
 <solarflux:photovoltaic_cell_5>,
 <solarflux:photovoltaic_cell_6>,
+
+//Advanced Rocketry
+<advancedrocketry:vitrifiedsand>,
+<advancedrocketry:charcoallog>,
+<advancedrocketry:launchpad>,
 
 //Tconstruct
 <tconstruct:soil:1>,
@@ -436,7 +453,7 @@ var AdvancedMachinery as IItemStack[] = [
 <tconstruct:tooltables:4>,
 <tconstruct:tooltables:5>,
 <tconstruct:tooltables:3>,
-<tconstruct:toolforge>.withTag({textureBlock: {id: "thermalfoundation:storage", Count: 1 as byte, Damage: 7 as short}}),
+<tconstruct:toolforge>.withTag({textureBlock: {id: "gregtech:meta_block_compressed_2", Count: 1 as byte, Damage: 0 as short}}),
 <tconstruct:cast>,
 <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_shaft"}),
 <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}),
@@ -483,5 +500,4 @@ mods.ItemStages.addItemStage("AdvancedMachinery", i);
 //Staggin Whole Mods
 mods.ItemStages.stageModItems("AdvancedMachinery", "volumetricflask");
 mods.ItemStages.stageModItems("AdvancedMachinery", "redstonearsenal");
-
 mods.ItemStages.stageModItems("AdvancedMachinery", "computercraft");

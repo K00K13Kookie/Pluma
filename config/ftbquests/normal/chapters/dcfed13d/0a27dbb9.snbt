@@ -1,0 +1,19 @@
+{
+	title: "First Tier 8 Circuit",
+	x: 10.5d,
+	y: 13.5d,
+	description: "Wetware Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"74592840"
+	],
+	tasks: [{
+		uid: "6df29d3a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32501"
+		}]
+	}]
+}

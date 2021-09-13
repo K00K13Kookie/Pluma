@@ -148,3 +148,12 @@ recipes.addShapeless("Matchstick", <pyrotech:matchstick> * 4, [<ore:stickWood>, 
 
 <ore:foodSalt>.add(<railcraft:dust:2>);
 <ore:oreSalt>.add(<railcraft:ore:1>);
+
+#### Boats #####
+
+recipes.removeByRecipeName("pyrotech:boat_oak");
+recipes.removeByRecipeName("pyrotech:boat_spruce");
+recipes.removeByRecipeName("pyrotech:boat_birch");
+recipes.removeByRecipeName("pyrotech:boat_jungle");
+recipes.removeByRecipeName("pyrotech:boat_dark_oak");
+recipes.removeByRecipeName("pyrotech:boat_acacia");

@@ -1,18 +1,16 @@
 {
-  "weight": 180,
+  "weight": 50,
   "density": 0.5,
   "max_height": 50,
   "min_height": 20,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_5",
-      "type": "bachelors_button"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "lapis"
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
     "radius": [13, 15]

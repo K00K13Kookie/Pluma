@@ -73,7 +73,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "GraphiteOreSmelt",                // unique recipe name
-  <nuclearcraft:ingot:8>,          // recipe output
+  <gregtech:meta_item_1:10204>,          // recipe output
   <ore:oreGraphite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -151,7 +151,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "ChalcopyriteOreSmelt",                // unique recipe name
-  <thermalfoundation:material:128>,          // recipe output
+  <gregtech:meta_item_1:10018>,          // recipe output
   <ore:oreChalcopyrite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -159,7 +159,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "MalachiteOreSmelt",                // unique recipe name
-  <thermalfoundation:material:128>,          // recipe output
+  <gregtech:meta_item_1:10018>,          // recipe output
   <ore:oreMalachite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -167,7 +167,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "TetrahedriteOreSmelt",                // unique recipe name
-  <thermalfoundation:material:128>,          // recipe output
+  <gregtech:meta_item_1:10018>,          // recipe output
   <ore:oreTetrahedrite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -175,7 +175,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "CopperOreSmelt",                // unique recipe name
-  <thermalfoundation:material:128>,          // recipe output
+  <gregtech:meta_item_1:10018>,          // recipe output
   <ore:oreCopper>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -193,7 +193,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "TinOreSmelt",                // unique recipe name
-  <thermalfoundation:material:129>,          // recipe output
+  <gregtech:meta_item_1:10071>,          // recipe output
   <ore:oreTin>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -201,7 +201,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "CassiteriteOreSmelt",                // unique recipe name
-  <thermalfoundation:material:129> * 2,          // recipe output
+  <gregtech:meta_item_1:10071> * 2,          // recipe output
   <ore:oreCassiterite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -255,7 +255,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "CertuzQuartzOreSmelt",                // unique recipe name
-  <appliedenergistics2:material> * 2,          // recipe output
+  <gregtech:meta_item_1:8202> * 2,          // recipe output
   <ore:oreCertusQuartz>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -270,7 +270,7 @@ StoneKiln.addRecipe(
 );
 
 StoneKiln.addRecipe(
-  "BlackQuartzOreSmelt",                // unique recipe name
+  "BariteOreSmelt",                // unique recipe name
   <gregtech:meta_item_1:2286>,          // recipe output
   <ore:oreBarite>,          // recipe input
   800,          // recipe duration in ticks
@@ -278,8 +278,8 @@ StoneKiln.addRecipe(
 );
 
 StoneKiln.addRecipe(
-  "BariteOreSmelt",                // unique recipe name
-  <actuallyadditions:item_misc:5>,          // recipe output
+  "BlackQuartzOreSmelt",                // unique recipe name
+  <gregtech:meta_item_1:8475>,          // recipe output
   <ore:oreQuartzBlack>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -367,7 +367,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "NickelOreSmelt",                // unique recipe name
-  <thermalfoundation:material:133>,          // recipe output
+  <gregtech:meta_item_1:10044>,          // recipe output
   <ore:oreNickel>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -375,7 +375,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "GarnieriteOreSmelt",                // unique recipe name
-  <thermalfoundation:material:133>,          // recipe output
+  <gregtech:meta_item_1:10044>,          // recipe output
   <ore:oreGarnierite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -383,7 +383,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "PentlanditeOreSmelt",                // unique recipe name
-  <thermalfoundation:material:133>,          // recipe output
+  <gregtech:meta_item_1:10044>,          // recipe output
   <ore:orePentlandite>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -425,7 +425,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "SaltpeterOreSmelt",                // unique recipe name
-  <thermalfoundation:material:772> * 4,          // recipe output
+  <gregtech:meta_item_1:2156> * 4,          // recipe output
   <ore:oreSaltpeter>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -479,8 +479,24 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "MagnesiteOreSmelt",                // unique recipe name
-  <nuclearcraft:ingot:7>,          // recipe output
+  <gregtech:meta_item_1:10038>,          // recipe output
   <ore:oreMagnesite>,          // recipe input
+  800,          // recipe duration in ticks
+  true // true if the recipe should be inherited
+);
+
+StoneKiln.addRecipe(
+  "MagnesiumOreSmelt",                // unique recipe name
+  <gregtech:meta_item_1:10038>,          // recipe output
+  <ore:oreMagnesium>,          // recipe input
+  800,          // recipe duration in ticks
+  true // true if the recipe should be inherited
+);
+
+StoneKiln.addRecipe(
+  "BoronOreSmelt",                // unique recipe name
+  <gregtech:meta_item_1:10477>,          // recipe output
+  <ore:oreBoron>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
 );
@@ -547,7 +563,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "SilverOreSmelt",                // unique recipe name
-  <thermalfoundation:material:130>,          // recipe output
+  <gregtech:meta_item_1:10062>,          // recipe output
   <ore:oreSilver>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -555,7 +571,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "LeadOreSmelt",                // unique recipe name
-  <thermalfoundation:material:131>,          // recipe output
+  <gregtech:meta_item_1:10035>,          // recipe output
   <ore:oreLead>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -599,7 +615,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "Uranium238OreSmelt",                // unique recipe name
-  <immersiveengineering:metal:5>,          // recipe output
+  <gregtech:meta_item_1:10075>,          // recipe output
   <ore:oreUranium>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited
@@ -635,7 +651,7 @@ StoneKiln.addRecipe(
 
 StoneKiln.addRecipe(
   "PlatinumOreSmelt",                // unique recipe name
-  <thermalfoundation:material:134>,          // recipe output
+  <gregtech:meta_item_1:10051>,          // recipe output
   <ore:orePlatinum>,          // recipe input
   800,          // recipe duration in ticks
   true // true if the recipe should be inherited

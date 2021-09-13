@@ -1,0 +1,41 @@
+{
+	title: "Extracting Fluids...",
+	icon: "gregtech:machine 1 300",
+	x: 9.9d,
+	y: -1.8d,
+	description: "Time to Melt some Ingots!",
+	text: [
+		"You're going to be making an EBF (Electric Blast Furnace) soon, but for that you'll need the Coils, and they're a Tricky block to obtain.",
+		"",
+		"- Make a Fluid Extractor and be ready to make some Molten Tin for the Coils!"
+	],
+	dependencies: [
+		"ded7328b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e73ee032",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 300"
+		}]
+	},
+	{
+		uid: "f8bb9acb",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotTin"
+				}
+			}
+		}]
+	}]
+}

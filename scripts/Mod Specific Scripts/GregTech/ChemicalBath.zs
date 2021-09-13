@@ -60,4 +60,40 @@ chemical_bath.recipeBuilder()
     .outputs(<tconstruct:materials:15>)
     .duration(120)
     .EUt(16)
-    .buildAndRegister();    
+    .buildAndRegister(); 
+
+//Durable Twine
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:creosote> * 100])
+    .inputs(<ore:string>)
+    .outputs(<pyrotech:material:26>)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+//Tarred Planks
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:creosote> * 1000])
+    .inputs(<pyrotech:log_pile>)
+    .outputs(<pyrotech:planks_tarred> * 4)
+    .duration(110)
+    .EUt(18)
+    .buildAndRegister();
+
+//Tarred Wool
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:creosote> * 100])
+    .inputs(<ore:wool>)
+    .outputs(<pyrotech:wool_tarred>)
+    .duration(110)
+    .EUt(18)
+    .buildAndRegister();
+
+//Tarred Kindling
+chemical_bath.recipeBuilder()
+    .fluidInputs([<liquid:creosote> * 100])
+    .inputs(<pyrotech:material:29>)
+    .outputs(<pyrotech:material:30>)
+    .duration(110)
+    .EUt(18)
+    .buildAndRegister();

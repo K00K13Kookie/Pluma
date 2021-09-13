@@ -1,7 +1,18 @@
 {
-	title: "Chapter 1: The Start of a Journey!",
+	title: "1. The Start of a Journey!",
 	icon: "minecraft:grass",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -6.2d,
+		y: -1.6d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/banner1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

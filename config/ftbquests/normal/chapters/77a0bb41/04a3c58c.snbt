@@ -1,8 +1,8 @@
 {
 	title: "Improving our Coal Coke Production!",
-	icon: "gregtech:machine 1 514",
-	x: 9.6d,
-	y: 1.2d,
+	icon: "gregtech:machine 1 3233",
+	x: 8.794557823129217d,
+	y: 3.2977891156462675d,
 	shape: "square",
 	description: "More Coal Coke = More Steam and subsequentially = More Energy!",
 	text: [
@@ -10,7 +10,8 @@
 		"a Second LV Energy Input on it! in that way you'll be probally able to make it run with LV."
 	],
 	dependencies: [
-		"ded7328b"
+		"798e258b",
+		"321ee631"
 	],
 	hide: true,
 	size: 1.5d,
@@ -63,15 +64,17 @@
 		uid: "9af876aa",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 514"
+			item: "gregtech:machine 1 3233"
+		}]
+	},
+	{
+		uid: "6c914780",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
 		}]
 	}],
 	rewards: [{
-		uid: "492a3c11",
-		type: "item",
-		item: "gregtech:machine 1 10659"
-	},
-	{
 		uid: "a8de7bf4",
 		type: "ftbmoney:money",
 		ftb_money: 10L

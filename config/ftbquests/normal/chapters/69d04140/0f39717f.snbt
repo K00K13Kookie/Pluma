@@ -1,0 +1,32 @@
+{
+	title: "What are those Numbers in my Screen?",
+	icon: "minecraft:writable_book",
+	x: -9.39149659863945d,
+	y: 0.9842687074829968d,
+	description: "Short Answer, Usefull Information!",
+	text: [
+		"You've probally already noticed that there are some information on your screen, about the §6day, year and hour§f and even about the §abiome that you're in and its humidity§f!",
+		"",
+		"- All of this Info will become more usefull as you progress in the Pack, but keep in mind for some ocasional and important info:",
+		"",
+		"",
+		"- Whenever is §3Raining§f or §3Thundering§f or even §3Snowing§f, you'll be alarmed in your screen. (usefull cause some machines don't like rain)",
+		"",
+		"- Whenever you pass trough an §a§nOre Vein§r§f, you'll also be alarmed in your screen that your current chunk has a Vein!",
+		"",
+		"",
+		"- But if you wish to hide this information, you can always use the command §6\"/igi disable\" to hide it§f, and §6\"/igi enable\" to show it again§f."
+	],
+	dependencies: [
+		"b6398f5b"
+	],
+	tasks: [{
+		uid: "4000c062",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d424e04e",
+		type: "item",
+		item: "minecraft:bread"
+	}]
+}

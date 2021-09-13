@@ -1,0 +1,118 @@
+{
+	title: "The Fixed Bed Reactor!",
+	icon: {
+		id: "rockhounding_chemistry:machines_f",
+		Damage: 4s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 14.6d,
+	y: 0.1d,
+	description: "Lets make Propylene!",
+	text: [
+		"The FBR (Fixed Bed Reactor) produces a gas compound by the interaction of gases with catalysts. up to 8 can be used, multiplying the handled quantities. Output vessel is on the side, the purge one is at the back and at the input it's suggested to use holders.",
+		"",
+		"Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 3 Machines > Fixed Bed Reactor.§r",
+		"",
+		"- This Machine uses Both sources in the Power Station.",
+		"",
+		"- Also, Use only 2 Catalysts, if you use more, the recipe will not continue!"
+	],
+	dependencies: [
+		"efda0399"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1f0e764",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_f",
+			Damage: 4s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "b3443c8e",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_f",
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "000de0eb",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_f",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "31537df9",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:misc_blocks_a 1 14"
+		}]
+	},
+	{
+		uid: "8477b14f",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 9s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		},
+		{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		count: 6L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ac634af",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "d65ad7fe",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:au_catalyst"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27b7772c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

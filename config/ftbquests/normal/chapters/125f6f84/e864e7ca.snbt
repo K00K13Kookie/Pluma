@@ -1,0 +1,107 @@
+{
+	title: "The Metal Alloyer!",
+	icon: {
+		id: "rockhounding_chemistry:machines_d",
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 17.5d,
+	y: -2.7d,
+	description: "A Crazy type of Alloy Smelter",
+	text: [
+		"The Metal Alloyer casts Alloys by combining different elements in a different quantity.",
+		"",
+		"And in our case, it is the guy that will help you obtain your first batch of Stainless Steels!",
+		"",
+		"Remember also that each 100 ppc is equal to 1 dust.",
+		"",
+		"Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 2 Machines > Metal Alloyer.§r",
+		"",
+		"- This Machine uses Fuel sources in the Power Station.",
+		"",
+		"> Also, DON'T FORGET to use Graduated Cylinder's inside of the Cabinets."
+	],
+	dependencies: [
+		"7f4c5bc8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ece32f5e",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_d",
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "d2e7c03b",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "a3396e3c",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_c",
+			Damage: 9s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "e3d3b409",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "8b79a49c",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:ingot_pattern"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d296a37",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rawstainlesssteel"
+		}]
+	},
+	{
+		uid: "95be6e69",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:graduated_cylinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08cec3a7",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

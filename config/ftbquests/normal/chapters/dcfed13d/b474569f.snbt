@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 0 Circuit",
+	x: 1.5d,
+	y: 1.5d,
+	description: "Basic Electronic Circuit",
+	text: [
+		""
+	],
+	dependencies: [
+		"00d2808e"
+	],
+	tasks: [{
+		uid: "1e9bab44",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32488"
+		}]
+	}]
+}

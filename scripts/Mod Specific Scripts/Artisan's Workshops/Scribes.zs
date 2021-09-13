@@ -7,9 +7,7 @@ RecipeBuilder.get("scribe")
     [<contenttweaker:parchment>, <contenttweaker:bronzemechanicalcomponent>, <contenttweaker:parchment>],
     [<ore:plateLapis>, <contenttweaker:parchment>, <ore:plateLapis>]])
   .setFluid(<liquid:water> * 500)
-  .addTool(<ore:artisansTSquare>, 5)
   .addTool(<ore:artisansPencil>, 10)
-  .addTool(<ore:artisansLens>, 5)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
   .create();
 
@@ -21,9 +19,7 @@ RecipeBuilder.get("scribe")
     [<contenttweaker:parchment>, <immersiveengineering:material:9>, <contenttweaker:parchment>],
     [<ore:plateLapis>, <contenttweaker:parchment>, <ore:plateLapis>]])
   .setFluid(<liquid:water> * 500)
-  .addTool(<ore:artisansTSquare>, 5)
   .addTool(<ore:artisansPencil>, 10)
-  .addTool(<ore:artisansLens>, 5)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
   .create();
 
@@ -35,9 +31,7 @@ RecipeBuilder.get("scribe")
     [<ore:plateEmeradic>, <minecraft:book>, <ore:plateEmeradic>],
     [<ore:artisansGrimoire>, <ore:platePalis>, <ore:artisansGrimoire>]])
   .setFluid(<liquid:water> * 5000)
-  .addTool(<ore:artisansTSquare>, 5)
   .addTool(<ore:artisansPencil>, 10)
-  .addTool(<ore:artisansLens>, 5)
   .addOutput(<thermalfoundation:tome_experience>)
   .create();
 
@@ -47,8 +41,6 @@ RecipeBuilder.get("scribe")
     [<immersiveengineering:material:4>, <projectred-core:resource_item:501>, <immersiveengineering:material:4>],
     [<ore:dustGraphite>, <ore:paper>, <ore:dustGraphite>],
     [<projectred-core:resource_item:420>, <projectred-core:resource_item:420>, <projectred-core:resource_item:420>]])
-  .addTool(<ore:artisansLens>, 5)
-  .addTool(<ore:artisansCompass>, 5)
   .addTool(<ore:artisansQuill>, 5)
   .addOutput(<modularmachinery:itemblueprint>)
   .create();

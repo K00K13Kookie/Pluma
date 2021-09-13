@@ -11,96 +11,113 @@ import mods.immersiveengineering.AlloySmelter;
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseCopper>])
     .outputs(<immersiveengineering:sheetmetal> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister(); 
 
 //Aluminium
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseAluminium>])
     .outputs(<immersiveengineering:sheetmetal:1> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Lead
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseLead>])
     .outputs(<immersiveengineering:sheetmetal:2> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Silver
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseSilver>])
     .outputs(<immersiveengineering:sheetmetal:3> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Nickel
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseNickel>])
     .outputs(<immersiveengineering:sheetmetal:4> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Uranium
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseUranium>])
     .outputs(<immersiveengineering:sheetmetal:5> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Constantan
 lathe.recipeBuilder()
     .inputs([<ore:plateConstantan> * 9])
     .outputs(<immersiveengineering:sheetmetal:6> * 9)
-    .duration(95)
-    .EUt(32)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Electrum
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseElectrum>])
-    .outputs(<immersiveengineering:sheetmetal:7>)
-    .duration(95)
-    .EUt(32)
+    .outputs(<immersiveengineering:sheetmetal:7> * 9)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Steel
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseSteel>])
-    .outputs(<immersiveengineering:sheetmetal:8>)
-    .duration(95)
-    .EUt(32)
+    .outputs(<immersiveengineering:sheetmetal:8> * 9)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Iron
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseIron>])
-    .outputs(<immersiveengineering:sheetmetal:9>)
-    .duration(95)
-    .EUt(32)
+    .outputs(<immersiveengineering:sheetmetal:9> * 9)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
 //Gold
 lathe.recipeBuilder()
     .inputs([<ore:plateDenseGold>])
-    .outputs(<immersiveengineering:sheetmetal:10>)
-    .duration(95)
-    .EUt(32)
+    .outputs(<immersiveengineering:sheetmetal:10> * 9)
+    .duration(300)
+    .EUt(16)
     .buildAndRegister();
 
-##### Constantan #####
-mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
-mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2, <ore:ingotBrass> * 2, <ore:ingotCopper>, 1000);
+//Nimonic
+lathe.recipeBuilder()
+    .inputs([<ore:plateNimonic> * 9])
+    .outputs(<contenttweaker:sheetmetal_nimonic> * 9)
+    .duration(300)
+    .EUt(16)
+    .buildAndRegister();
 
-//Renaming Uranium Ingot to Uranium 238 Ingot
-<immersiveengineering:metal:5>.displayName = "Uranium 238 Ingot";
+//Hastelloy
+lathe.recipeBuilder()
+    .inputs([<ore:plateHastelloy>])
+    .outputs(<contenttweaker:sheetmetal_hastelloy> * 9)
+    .duration(300)
+    .EUt(16)
+    .buildAndRegister();
+
+//Hydronallium
+lathe.recipeBuilder()
+    .inputs([<ore:plateHydronalium> * 9])
+    .outputs(<contenttweaker:sheetmetal_hydronallium> * 9)
+    .duration(300)
+    .EUt(16)
+    .buildAndRegister();        
 
 ### Arc Furnace Rod Overhaul ###
 
@@ -165,12 +182,6 @@ recipes.addShapeless("CopperWireImmersive", <immersiveengineering:material:20>, 
 recipes.remove(<immersiveengineering:material:21>);
 recipes.addShapeless("ElectrumWireImmersive", <immersiveengineering:material:21>, [<ore:plateElectrum>, <immersiveengineering:tool:1>]);
 
-//Aluminum Wire
-recipes.remove(<immersiveengineering:material:22>);
-recipes.addShapeless("AluminumWireImmersive", <immersiveengineering:material:22>, [<ore:plateAluminium>, <immersiveengineering:tool:1>]);
-mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
-mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotAluminium>, <immersiveengineering:mold:4>, 80);
-
 //Steel Wire
 recipes.remove(<immersiveengineering:material:23>);
 recipes.addShapeless("SteelWireImmersive", <immersiveengineering:material:23>, [<ore:plateSteel>, <immersiveengineering:tool:1>]);
@@ -228,10 +239,6 @@ mods.immersiveengineering.Blueprint.addRecipe("molds", <contenttweaker:casingmol
 
 //Tube Mold
 mods.immersiveengineering.Blueprint.addRecipe("molds", <contenttweaker:tubemold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:artisansCutters>]);
-
-//Rotor Mold
-mods.immersiveengineering.Blueprint.addRecipe("molds", <contenttweaker:rotormold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:artisansCutters>]);
-
 
 # LV Related Recipes ======================================
 
@@ -336,21 +343,44 @@ recipes.addShaped(<immersiveengineering:metal_ladder> * 4, [
 [<ore:string>, <ore:screwSteel>, <ore:string>],
 [<ore:stickSteel>, <gregtech:meta_tool:7>, <ore:stickSteel>]]);
 
+##### Pharaday's Armor and Toolbox #####
+
+// Faraday Helmet
+recipes.remove(<immersiveengineering:faraday_suit_head>);
+recipes.addShaped(<immersiveengineering:faraday_suit_head> * 1, [[<ore:plateBlackSteel>, <ore:plateDenseBlackSteel>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:gtceHardHammers>, <ore:plateBlackSteel>],[null, null, null]]);
+
+// Faraday Chestplate
+recipes.remove(<immersiveengineering:faraday_suit_chest>);
+recipes.addShaped(<immersiveengineering:faraday_suit_chest> * 1, [[<ore:plateBlackSteel>, <ore:gtceHardHammers>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:plateDenseBlackSteel>, <ore:plateBlackSteel>],[<ore:plateBlackSteel>, <ore:plateBlackSteel>, <ore:plateBlackSteel>]]);
+
+// Faraday Leggings
+recipes.remove(<immersiveengineering:faraday_suit_legs>);
+recipes.addShaped(<immersiveengineering:faraday_suit_legs> * 1, [[<ore:plateBlackSteel>, <ore:plateDenseBlackSteel>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:gtceHardHammers>, <ore:plateBlackSteel>],[<ore:plateBlackSteel>, null, <ore:plateBlackSteel>]]);
+
+// Faraday Boots
+recipes.remove(<immersiveengineering:faraday_suit_feet>);
+recipes.addShaped(<immersiveengineering:faraday_suit_feet> * 1, [[<ore:screwBlackSteel>, null, <ore:screwBlackSteel>], [<ore:plateBlackSteel>, <ore:gtceHardHammers>, <ore:plateBlackSteel>],[<ore:plateBlackSteel>, null, <ore:plateBlackSteel>]]);
+
+// Engineer's Toolbox
+recipes.remove(<immersiveengineering:toolbox>);
+recipes.addShaped(<immersiveengineering:toolbox> * 1, [[null, null, null], [<ore:plateBismuthBronze>, <ore:ringBlackSteel>, <ore:plateBismuthBronze>],[<ore:plateTreated>, <immersiveengineering:wooden_device0:0>, <ore:plateTreated>]]);
+
+
+##### Rework to change Aluminium Wire to Zinc Wire #####
+
+<immersiveengineering:material:22>.displayName = "Zinc Wire";
+
+<ore:wireAluminum>.remove(<immersiveengineering:material:22>);
+<ore:wireZinc>.add(<immersiveengineering:material:22>);
+
+//Zinc Wire
+recipes.remove(<immersiveengineering:material:22>);
+recipes.addShapeless("ZincWireImmersive", <immersiveengineering:material:22>, [<ore:plateZinc>, <immersiveengineering:tool:1>]);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotZinc>, <immersiveengineering:mold:4>, 80);
 
 ##### Artisan's Recipes #####
 
-//CokeBricks
-recipes.remove(<immersiveengineering:stone_decoration>);
-RecipeBuilder.get("mason")
-  .setShaped([
-    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>],
-    [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]])
-  .setFluid(<liquid:liquid_clay> * 500)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansFile>, 5)
-  .addTool(<ore:artisansPunch>, 5)
-  .addOutput(<immersiveengineering:stone_decoration> * 3)
-  .create();
 
 //Kiln Bricks
 recipes.remove(<immersiveengineering:stone_decoration:10>);
@@ -360,24 +390,8 @@ RecipeBuilder.get("mason")
     [<pyrotech:material:5>, <minecraft:brick_block>, <pyrotech:material:5>],
     [<ore:sand>, <pyrotech:material:5>, <ore:sand>]])
   .setFluid(<liquid:creosote> * 1000)
-  .addTool(<ore:artisansBurner>, 5)
-  .addTool(<ore:artisansFile>, 4)
   .addTool(<ore:artisansPunch>, 5)
   .addOutput(<immersiveengineering:stone_decoration:10> * 2)
-  .create();
-
-//Blast Bricks
-recipes.remove(<immersiveengineering:stone_decoration:1>);
-RecipeBuilder.get("mason")
-  .setShaped([
-    [<ore:plateBronze>, <pyrotech:material:5>, <ore:plateBronze>],
-    [<pyrotech:material:5>, <ore:dustFireclay>, <pyrotech:material:5>],
-    [<ore:plateBronze>, <pyrotech:material:5>, <ore:plateBronze>]])
-  .setFluid(<liquid:liquid_clay> * 1000)
-  .addTool(<ore:artisansFile>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansBurner>, 1)
-  .addOutput(<immersiveengineering:stone_decoration:1> * 4)
   .create();
 
 //Thermoelectric Generator
@@ -388,9 +402,7 @@ RecipeBuilder.get("engineer")
     [<projectred-core:resource_item:410>, <actuallyadditions:block_misc:7>, <projectred-core:resource_item:410>],
     [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 2)
+  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<immersiveengineering:metal_device1:3>)
   .create();
 
@@ -401,9 +413,7 @@ RecipeBuilder.get("engineer")
     [<ore:boltIron>, <ore:plateIron>, <ore:boltIron>],
     [<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0>, <immersiveengineering:material:9>],
     [<ore:boltIron>, <ore:plateIron>, <ore:boltIron>]])
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<immersiveengineering:metal_device1:2>)
   .create();
 
@@ -415,8 +425,6 @@ RecipeBuilder.get("engineer")
     [<ore:casingIron>, <ore:gearIron>, <ore:casingIron>],
     [<ore:boltIron>, <ore:casingIron>, <ore:boltIron>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<immersiveengineering:material:8>)
   .create();
 
@@ -428,8 +436,6 @@ RecipeBuilder.get("engineer")
     [<ore:casingBronze>, <ore:gearBronze>, <ore:casingBronze>],
     [<ore:boltBronze>, <ore:casingBronze>, <ore:boltBronze>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<contenttweaker:bronzemechanicalcomponent>)
   .create();
 
@@ -440,8 +446,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateSilver>, <ore:gearSilver>, <ore:plateSilver>],
     [<ore:boltSilver>, <ore:plateSilver>, <ore:boltSilver>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<contenttweaker:silvermechanicalcomponent>)
   .create();
 
@@ -453,8 +457,6 @@ RecipeBuilder.get("engineer")
     [<ore:casingSteel>, <ore:gearSteel>, <ore:casingSteel>],
     [<ore:boltSteel>, <ore:casingSteel>, <ore:boltSteel>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<immersiveengineering:material:9>)
   .create();
 
@@ -467,8 +469,6 @@ RecipeBuilder.get("carpenter")
     [<ore:plateTreated>, <ore:stickTreatedWood>, <ore:plateTreated>]])
   .setFluid(<liquid:creosote> * 250)
   .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansTSquare>, 3)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<immersiveengineering:material:10>)
   .create();  
 
@@ -481,8 +481,6 @@ RecipeBuilder.get("carpenter")
     [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:boltBronze>]])
   .setFluid(<liquid:creosote> * 125)
   .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansTSquare>, 3)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<immersiveengineering:material:11>)
   .create();
 
@@ -493,8 +491,6 @@ RecipeBuilder.get("carpenter")
     [<ore:plateTreated>, <ore:plateTreated>, <ore:plateTreated>],
     [<ore:blockSheetmetalSteel>, <railcraft:equipment:1>, <ore:fenceTreatedWood>]])
   .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<immersiveengineering:wooden_device0:2>)
   .create();
 
@@ -506,9 +502,7 @@ RecipeBuilder.get("carpenter")
     [<immersiveengineering:material:11>, <immersiveengineering:material:8>, <immersiveengineering:material:11>],
     [<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>]])
   .setFluid(<liquid:creosote> * 1000)
-  .addTool(<ore:artisansHammer>, 4)
   .addTool(<ore:artisansHandsaw>, 6)
-  .addTool(<ore:artisansDriver>, 4)
   .addOutput(<immersiveengineering:wooden_device1:1>)
   .create();
 
@@ -520,8 +514,6 @@ RecipeBuilder.get("carpenter")
     [<immersiveengineering:material:10>, <immersiveengineering:material:9>, <immersiveengineering:material:10>],
     [null, <immersiveengineering:material:10>, null]])
   .setFluid(<liquid:creosote> * 1000)
-  .addTool(<ore:artisansHammer>, 4)
   .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansDriver>, 4)
   .addOutput(<immersiveengineering:wooden_device1>)
   .create();

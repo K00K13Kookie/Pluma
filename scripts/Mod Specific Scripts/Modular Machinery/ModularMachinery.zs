@@ -8,19 +8,8 @@ import crafttweaker.item.IItemStack;
 mods.ItemStages.stageModItems("ModularMachineryUnlock", "modularmachinery");
 
 //Modularium
-recipes.remove(<gregtech:meta_item_1:10830>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10830> * 3, <ore:ingotNickel>, null, 80, 1000, [<ore:ingotLead>, <ore:ingotSilver>], "Alloying");
-
-//Modularium Bolt
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:16830> * 4, <ore:stickModularium>, <contenttweaker:boltmold>, 20);
-//Modularium Dense Plate
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:13830>, <ore:plateModularium>, <immersiveengineering:mold>, 160, 9);
-//Modularium Gear
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_2:26830>, <gregtech:meta_item_1:10830>, <immersiveengineering:mold:1>, 80, 4);
-//Modularium-Plate
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:12830>, <gregtech:meta_item_1:10830>, <immersiveengineering:mold>, 80);
-//Modularium-Rod
-mods.immersiveengineering.MetalPress.addRecipe(<gregtech:meta_item_1:14830> * 2, <gregtech:meta_item_1:10830>, <immersiveengineering:mold:2>, 80);
+recipes.remove(<modularmachinery:itemmodularium>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_item_1:10652> * 3, <ore:ingotNickel>, null, 80, 1000, [<ore:ingotLead>, <ore:ingotSilver>], "Alloying");
 
 #################### Block Craftings ####################
 
@@ -31,9 +20,7 @@ RecipeBuilder.get("engineer")
     [<ore:screwModularium>, <ore:plateDiamond>, <ore:screwModularium>],
     [<ore:plateDiamond>, <modularmachinery:blockcasing>, <ore:plateDiamond>],
     [<ore:screwModularium>, <ore:circuitBasic>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<modularmachinery:blockcontroller>)
   .create();
 
@@ -44,8 +31,6 @@ RecipeBuilder.get("engineer")
     [<ore:boltBlackBronze>, <ore:circuitBasic>, <ore:boltBlackBronze>],
     [<ore:circuitBasic>, <modularmachinery:blockcasing:4>, <ore:circuitBasic>],
     [<ore:boltBlackBronze>, <ore:circuitBasic>, <ore:boltBlackBronze>]])
-  .addTool(<ore:artisansSpanner>, 2)
-  .addTool(<ore:artisansLens>, 2)
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<modularmachinery:blockcasing:5>)
   .create();
@@ -59,8 +44,6 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateModularium>, <ore:plateSapphire>, <ore:plateModularium>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansDriver>, 4)
-  .addTool(<ore:artisansBurner>, 6)
   .addOutput(<modularmachinery:blockcasing> * 3)
   .create();
 
@@ -71,9 +54,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <ore:gearInvar>, <ore:screwModularium>],
     [<ore:gearInvar>, <modularmachinery:blockcasing>, <ore:gearInvar>],
     [<ore:screwModularium>, <ore:gearInvar>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<modularmachinery:blockcasing:3>)
   .create();
 
@@ -84,9 +65,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <minecraft:flint>, <ore:screwModularium>],
     [<ore:plateRedstone>, <modularmachinery:blockcasing>, <ore:plateRedstone>],
     [<ore:screwModularium>, <ore:plateRuby>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSolderer>, 4)
   .addOutput(<modularmachinery:blockcasing:2>)
   .create();
 
@@ -97,8 +76,6 @@ recipes.remove(<modularmachinery:blockcasing:1>);
     [<ore:screwModularium>, <ore:plateModularium>, <ore:screwModularium>],
     [<ore:plateModularium>, <ore:rotorSteel>, <ore:plateModularium>],
     [<ore:screwModularium>, <ore:plateModularium>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSolderer>, 4)
   .addOutput(<modularmachinery:blockcasing:1>)
   .create();
@@ -111,8 +88,6 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateBlackSteel>, <modularmachinery:blockcasing>, <ore:plateBlackSteel>],
     [<ore:plateDenseModularium>, <ore:plateBlackSteel>, <ore:plateDenseModularium>]])
   .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansBurner>, 10)
-  .addTool(<ore:artisansSolderer>, 10)
   .addOutput(<modularmachinery:blockcasing:4>)
   .create();
 
@@ -125,9 +100,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:hopper>],
     [<modularmachinery:blockcasing>],
     [<immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus>)
   .create();
 
@@ -138,9 +111,7 @@ RecipeBuilder.get("blacksmith")
     [null, <minecraft:hopper>, null],
     [<ore:plateModularium>, <modularmachinery:blockinputbus>, <ore:plateModularium>],
     [<immersiveengineering:wooden_device0>, <ore:plateModularium>, <immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus:1>)
   .create();
 
@@ -150,9 +121,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateModularium>, <modularmachinery:blockinputbus:1>, <ore:plateModularium>],
     [<immersiveengineering:wooden_device0>, <ore:plateModularium>, <immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus:2>)
   .create();
 
@@ -162,9 +131,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:2>, <ore:plateDenseModularium>],
     [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus:3>)
   .create();
 
@@ -174,9 +141,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:3>, <ore:plateDenseModularium>],
     [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus:4>)
   .create();
 
@@ -186,9 +151,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:4>, <ore:plateDenseModularium>],
     [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus:5>)
   .create();
 
@@ -198,9 +161,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockinputbus:5>, <ore:plateDenseModularium>],
     [<immersiveengineering:wooden_device0>, <ore:plateDenseModularium>, <immersiveengineering:wooden_device0>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockinputbus:6>)
   .create();
 
@@ -217,9 +178,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:hopper>],
     [<modularmachinery:blockcasing>],
     [<minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();
 
@@ -229,9 +188,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch>, <ore:plateModularium>],
     [<minecraft:bucket>, <ore:plateModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:1>)
   .create();  
 
@@ -241,9 +198,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:1>, <ore:plateModularium>],
     [<minecraft:bucket>, <ore:plateModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:2>)
   .create();
 
@@ -253,9 +208,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:2>, <ore:plateDenseModularium>],
     [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:3>)
   .create();
 
@@ -265,9 +218,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateDenseModularium>],
     [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:4>)
   .create();  
 
@@ -277,9 +228,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:4>, <ore:plateDenseModularium>],
     [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:5>)
   .create();
 
@@ -289,9 +238,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:5>, <ore:plateDenseModularium>],
     [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:6>)
   .create();
 
@@ -301,9 +248,7 @@ RecipeBuilder.get("blacksmith")
     [null, <ore:hopper>, null],
     [<ore:plateDenseModularium>, <modularmachinery:blockfluidinputhatch:6>, <ore:plateDenseModularium>],
     [<minecraft:bucket>, <ore:plateDenseModularium>, <minecraft:bucket>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<modularmachinery:blockfluidinputhatch:7>)
   .create();
 
@@ -317,36 +262,30 @@ recipes.remove(<modularmachinery:blockenergyinputhatch:1>);
 //Tiny Energy In
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltElectrum>, <ore:plateElectrotineAlloy>, <ore:boltElectrum>],
-    [<ore:plateElectrotineAlloy>, <modularmachinery:blockcasing>, <ore:plateElectrotineAlloy>],
+    [<ore:boltElectrum>, <ore:plateElectrotine>, <ore:boltElectrum>],
+    [<ore:plateElectrotine>, <modularmachinery:blockcasing>, <ore:plateElectrotine>],
     [<minecraft:repeater>, <ore:blockElectrotine>, <minecraft:repeater>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch>)
   .create();
 
 //Small Energy In 
  RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltElectrum>, <ore:plateElectrotineAlloy>, <ore:boltElectrum>],
-    [<ore:plateElectrotineAlloy>, <modularmachinery:blockenergyinputhatch>, <ore:plateElectrotineAlloy>],
-    [<ore:boltElectrum>, <ore:plateElectrotineAlloy>, <ore:boltElectrum>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+    [<ore:boltElectrum>, <ore:plateElectrotine>, <ore:boltElectrum>],
+    [<ore:plateElectrotine>, <modularmachinery:blockenergyinputhatch>, <ore:plateElectrotine>],
+    [<ore:boltElectrum>, <ore:plateElectrotine>, <ore:boltElectrum>]])
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:1>)
   .create(); 
 
 //Normal Energy In
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:boltElectrum>, <ore:plateElectrotineAlloy>, <ore:boltElectrum>],
-    [<ore:plateElectrotineAlloy>, <modularmachinery:blockenergyinputhatch:1>, <ore:plateElectrotineAlloy>],
-    [<ore:boltElectrum>, <ore:plateElectrotineAlloy>, <ore:boltElectrum>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+    [<ore:boltElectrum>, <ore:plateElectrotine>, <ore:boltElectrum>],
+    [<ore:plateElectrotine>, <modularmachinery:blockenergyinputhatch:1>, <ore:plateElectrotine>],
+    [<ore:boltElectrum>, <ore:plateElectrotine>, <ore:boltElectrum>]])
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:2>)
   .create();
 
@@ -356,9 +295,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:2>, <ore:plateDenseElectrum>],
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:3>)
   .create();
 
@@ -368,9 +305,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:3>, <ore:plateDenseElectrum>],
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:4>)
   .create();
 
@@ -380,9 +315,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:4>, <ore:plateDenseElectrum>],
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:5>)
   .create();
 
@@ -392,9 +325,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:5>, <ore:plateDenseElectrum>],
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:6>)
   .create();
 
@@ -404,9 +335,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>],
     [<ore:plateDenseElectrum>, <modularmachinery:blockenergyinputhatch:6>, <ore:plateDenseElectrum>],
     [<ore:screwModularium>, <ore:plateDenseElectrum>, <ore:screwModularium>]])
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addTool(<ore:artisansCutters>, 2)
+  .addTool(<ore:artisansCutters>, 5)
   .addOutput(<modularmachinery:blockenergyinputhatch:7>)
   .create();
 

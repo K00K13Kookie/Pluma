@@ -1,7 +1,7 @@
 {
 	title: "Sulfuric Acid!",
-	x: 16.2d,
-	y: 3.8d,
+	x: 16.0d,
+	y: 4.75d,
 	shape: "square",
 	description: "Be Careful, do not touch it with your bare hands!",
 	text: [

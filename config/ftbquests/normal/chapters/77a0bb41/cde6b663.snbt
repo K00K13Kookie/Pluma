@@ -1,0 +1,47 @@
+{
+	title: "Lets make an MV Assembler II",
+	icon: "gregtech:machine 1 101",
+	x: 11.261904761904745d,
+	y: 11.0d,
+	description: "Assembling at a Medium Pace!",
+	text: [
+		"Finally! You'll be able to Assemble Stuff at MV Voltage!"
+	],
+	dependencies: [
+		"f4a63d52"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "81a91971",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32651"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a8e515a3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32631"
+		}],
+		count: 2L
+	},
+	{
+		uid: "71bd9f29",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 101"
+		}]
+	}],
+	rewards: [{
+		uid: "9612867f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6767fde8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32651"
+	}]
+}

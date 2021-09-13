@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 7 Circuit",
+	x: 10.5d,
+	y: 12.0d,
+	description: "Wetware Supercomputer",
+	text: [
+		""
+	],
+	dependencies: [
+		"f656f0ea"
+	],
+	tasks: [{
+		uid: "7a14489e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32500"
+		}]
+	}]
+}

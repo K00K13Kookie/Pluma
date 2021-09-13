@@ -74,7 +74,7 @@ recipes.addShaped(<actuallyadditions:block_misc:9>, [[<immersiveengineering:shee
 recipes.addShaped(<actuallyadditions:block_misc:7>, [[<immersiveengineering:sheetmetal:8>, <ore:casingSteel>, <immersiveengineering:sheetmetal:8>], [<immersiveengineering:material:9>, <ore:gearSteel>, <immersiveengineering:material:9>],[<immersiveengineering:sheetmetal:8>, <ore:casingSteel>, <immersiveengineering:sheetmetal:8>]]);
 
 // Ender Casing
-recipes.addShaped(<actuallyadditions:block_misc:8> * 1, [[<ore:plateEnderPearl>, <ore:plateDiamatineEmpowered>, <ore:plateEnderPearl>], [<forestry:thermionic_tubes:5>, <ore:blockQuartzBlack>, <forestry:thermionic_tubes:5>],[<ore:plateEnderPearl>, <ore:plateDiamatineEmpowered>, <ore:plateEnderPearl>]]);
+recipes.addShaped(<actuallyadditions:block_misc:8> * 1, [[<ore:plateEnderPearl>, <ore:plateDiamatine>, <ore:plateEnderPearl>], [<forestry:thermionic_tubes:5>, <ore:blockQuartzBlack>, <forestry:thermionic_tubes:5>],[<ore:plateEnderPearl>, <ore:plateDiamatine>, <ore:plateEnderPearl>]]);
 
 //Black Quartz Dust recipe Early Game
 recipes.addShapeless("EarlyBlackQuartzDust", <actuallyadditions:item_dust:7>, [<actuallyadditions:item_misc:5>, <gregtech:meta_tool:12>]);
@@ -139,8 +139,6 @@ RecipeBuilder.get("engineer")
     [<ore:boltBlackBronze>, <ore:plateRedAlloy>, <ore:boltBlackBronze>]])
   .setFluid(<liquid:resin> * 500)
   .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansHammer>, 4)
-  .addTool(<ore:artisansDriver>, 2)
   .addOutput(<actuallyadditions:block_atomic_reconstructor>)
   .create();
 
@@ -151,9 +149,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>],
     [<ore:plateInvar>, <actuallyadditions:item_misc:7>, <ore:plateVoid>],
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>]])
-  .addTool(<ore:artisansSolderer>, 2)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<actuallyadditions:block_breaker>)
   .create();
 
@@ -164,9 +160,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>],
     [<ore:plateInvar>, <actuallyadditions:item_misc:7>, <ore:platePalis>],
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>]])
-  .addTool(<ore:artisansSolderer>, 2)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<actuallyadditions:block_placer>)
   .create();
 
@@ -177,9 +171,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>],
     [<ore:plateInvar>, <actuallyadditions:item_misc:8>, <ore:plateVoid>],
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBlackBronze>]])
-  .addTool(<ore:artisansSolderer>, 2)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<actuallyadditions:block_fluid_collector>)
   .create();  
 
@@ -190,9 +182,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>],
     [<ore:plateInvar>, <actuallyadditions:item_misc:8>, <ore:platePalis>],
     [<ore:plateInvar>, <ore:plateInvar>, <ore:casingBismuthBronze>]])
-  .addTool(<ore:artisansSolderer>, 2)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<actuallyadditions:block_fluid_placer>)
   .create();
 
@@ -203,8 +193,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateDenseSteel>, <ore:platePalis>, <ore:plateDenseSteel>],
     [<ore:plateUranium>, <minecraft:dropper>, <actuallyadditions:item_misc:8>],
     [<ore:plateDenseSteel>, <ore:platePalis>, <ore:plateDenseSteel>]])
-  .addTool(<ore:artisansSolderer>, 4)
-  .addTool(<ore:artisansHammer>, 10)
   .addTool(<ore:artisansSpanner>, 4)
   .addOutput(<actuallyadditions:block_dropper>)
   .create();
@@ -216,9 +204,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateCupronickel>, <ore:plateDiamatine>, <ore:plateCupronickel>],
     [<ore:enderpearl>, <ore:hopper>, <ore:enderpearl>],
     [<ore:plateCupronickel>, <actuallyadditions:block_misc:7>, <ore:plateCupronickel>]])
-  .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansBurner>, 2)
+  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<actuallyadditions:block_ranged_collector>)
   .create();  
 
@@ -237,9 +223,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateRestonia>, <ore:plateRuby>, <ore:plateRestonia>],
     [<actuallyadditions:item_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:item_misc:8>],
     [<ore:plateRestonia>, <ore:plateRuby>, <ore:plateRestonia>]])
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansBurner>, 2)
   .addOutput(<actuallyadditions:block_energizer>)
   .create();
 
@@ -251,8 +235,6 @@ RecipeBuilder.get("engineer")
     [<actuallyadditions:item_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:item_misc:8>],
     [<ore:plateRestonia>, <ore:plateSapphire>, <ore:plateRestonia>]])
   .addTool(<ore:artisansHammer>, 6)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansBurner>, 2)
   .addOutput(<actuallyadditions:block_enervator>)
   .create();
 
@@ -264,9 +246,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateVoid>, <actuallyadditions:block_misc:7>, <ore:plateVoid>],
     [<ore:plateBlackSteel>, <ore:circuitBasic>, <ore:plateBlackSteel>]])
   .setFluid(<liquid:resin> * 500)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<actuallyadditions:block_farmer>)
   .create();
 
@@ -286,8 +266,6 @@ RecipeBuilder.get("blacksmith")
     [<actuallyadditions:item_misc:7>, <ore:gearVoid>, <actuallyadditions:item_misc:7>]])
   .setFluid(<liquid:resin> * 500)
   .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<actuallyadditions:block_coffee_machine>)
   .create();
 
@@ -298,9 +276,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateTreated>, <ore:boltElectrum>, <ore:plateTreated>],
     [<actuallyadditions:item_misc:7>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_misc:7>],
     [<ore:plateTreated>, <ore:boltElectrum>, <ore:plateTreated>]])
-  .addTool(<ore:artisansSolderer>, 2)
   .addTool(<ore:artisansHammer>, 6)
-  .addTool(<ore:artisansBurner>, 2)
   .addOutput(<actuallyadditions:block_feeder>)
   .create();
 
@@ -311,8 +287,6 @@ RecipeBuilder.get("carpenter")
     [<ore:blockSheetmetalSteel>, <ore:plateTreated>, <ore:blockSheetmetalSteel>],
     [<ore:plateTreated>, <ore:chestWood>, <ore:plateTreated>],
     [<ore:blockSheetmetalSteel>, <ore:plateTreated>, <ore:blockSheetmetalSteel>]])
-  .addTool(<ore:artisansHandsaw>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
   .addOutput(<actuallyadditions:block_item_viewer>)
   .create();
@@ -339,8 +313,6 @@ RecipeBuilder.get("jeweler")
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>]])
   .setFluid(<liquid:water> * 500)
   .addTool(<ore:artisansGemCutter>, 5)
-  .addTool(<ore:artisansLens>, 5)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<actuallyadditions:item_misc:6>)
   .create();
 
@@ -352,8 +324,6 @@ RecipeBuilder.get("mage")
     [<ore:plateRestonia>, <ore:plateEnori>, <ore:plateLapis>],
     [<ore:plateEnori>, <actuallyadditions:item_misc:6>, <ore:plateEnori>],
     [<ore:plateLapis>, <ore:plateEnori>, <ore:plateRestonia>]])
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansQuill>, 2)
   .addTool(<ore:artisansGrimoire>, 6)
   .addOutput(<actuallyadditions:magnet_ring_bauble>)
   .create();
@@ -366,8 +336,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<ore:dustSugar>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:dustSugar>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansGemCutter>, 2)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring>)
   .create();
@@ -380,8 +348,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<minecraft:comparator>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:comparator>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansGemCutter>, 5)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring:1>)
   .create();
@@ -394,8 +360,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<ore:dustBlaze>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:dustBlaze>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansGemCutter>, 3)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring:2>)
   .create();
@@ -408,8 +372,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<ore:craftingPiston>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:craftingPiston>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 2)
-  .addTool(<ore:artisansGemCutter>, 2)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring:3>)
   .create();
@@ -422,8 +384,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<minecraft:ghast_tear>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansGemCutter>, 2)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring:4>)
   .create();
@@ -436,8 +396,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<minecraft:shield>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:shield>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansGemCutter>, 5)
   .addTool(<ore:artisansGrimoire>, 2)
   .addOutput(<actuallyadditions:item_potion_ring:5>)
   .create();
@@ -450,8 +408,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<minecraft:magma_cream>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:magma_cream>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 5)
-  .addTool(<ore:artisansGemCutter>, 2)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring:6>)
   .create();
@@ -464,8 +420,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<ore:fish>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:fish>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 2)
-  .addTool(<ore:artisansGemCutter>, 3)
   .addTool(<ore:artisansGrimoire>, 6)
   .addOutput(<actuallyadditions:item_potion_ring:7>)
   .create();
@@ -478,8 +432,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<minecraft:golden_carrot>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:golden_carrot>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 2)
-  .addTool(<ore:artisansGemCutter>, 3)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_potion_ring:9>)
   .create();
@@ -492,8 +444,6 @@ RecipeBuilder.get("mage")
     [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<ore:listAllseed>, <actuallyadditions:block_crystal_empowered:5>, <ore:listAllseed>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 2)
-  .addTool(<ore:artisansGemCutter>, 3)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_growth_ring>)
   .create();
@@ -503,11 +453,9 @@ recipes.remove(<actuallyadditions:item_water_removal_ring>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<ore:listAllwater>, <minecraft:sponge>, <ore:listAllwater>],
-    [<ore:plateDiamatineEmpowered>, <actuallyadditions:item_misc:6>, <ore:plateDiamatineEmpowered>],
+    [<ore:plateDiamatine>, <actuallyadditions:item_misc:6>, <ore:plateDiamatine>],
     [<ore:listAllwater>, <actuallyadditions:block_crystal:2>, <ore:listAllwater>]])
   .setFluid(<liquid:vinteum> * 576)
-  .addTool(<ore:artisansAthame>, 2)
-  .addTool(<ore:artisansGemCutter>, 3)
   .addTool(<ore:artisansGrimoire>, 5)
   .addOutput(<actuallyadditions:item_water_removal_ring>)
   .create();
@@ -519,9 +467,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <ore:screwIron>, <ore:screwIron>],
     [<ore:plateSteel>, <ore:craftingPiston>, <ore:plateEnori>],
     [<ore:plateSteel>, <actuallyadditions:item_misc:7>, <ore:plateEnori>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 2)
-  .addTool(<ore:artisansSolderer>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<actuallyadditions:item_leaf_blower>)
   .create();
 
@@ -532,9 +478,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateBlackSteel>, <ore:screwBlackSteel>, <ore:screwBlackSteel>],
     [<ore:plateBlackSteel>, <ore:craftingPiston>, <ore:plateDiamatine>],
     [<ore:plateBlackSteel>, <actuallyadditions:item_misc:8>, <ore:plateDiamatine>]])
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansSpanner>, 2)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<actuallyadditions:item_leaf_blower_advanced>)
   .create();
 
@@ -558,7 +502,7 @@ recipes.addShaped(<actuallyadditions:battery_quadruple_bauble> * 1, [[<ore:screw
 
 // Quintuple Battery
 recipes.remove(<actuallyadditions:item_battery_quintuple>);
-recipes.addShaped(<actuallyadditions:battery_quintuple_bauble:0> * 1, [[<ore:screwBatteryAlloy>, <ore:plateDiamatineEmpowered>, <ore:screwBatteryAlloy>], [<ore:plateDiamatineEmpowered>, <actuallyadditions:battery_quadruple_bauble:0>, <ore:plateDiamatineEmpowered>],[<ore:plateDiamatineEmpowered>, <ore:gearOlivine>, <ore:plateDiamatineEmpowered>]]);
+recipes.addShaped(<actuallyadditions:battery_quintuple_bauble:0> * 1, [[<ore:screwBatteryAlloy>, <ore:plateDiamatine>, <ore:screwBatteryAlloy>], [<ore:plateDiamatine>, <actuallyadditions:battery_quadruple_bauble:0>, <ore:plateDiamatine>],[<ore:plateDiamatine>, <ore:gearOlivine>, <ore:plateDiamatine>]]);
 
 //Battery Box
 recipes.remove(<actuallyadditions:block_battery_box>);
@@ -566,8 +510,6 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateSteel>, <actuallyadditions:block_energizer>, <ore:plateSteel>],
     [<ore:plateDenseSteel>, <actuallyadditions:block_enervator>, <ore:plateDenseSteel>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSpanner>, 2)
   .addTool(<ore:artisansSolderer>, 5)    
   .addOutput(<actuallyadditions:block_battery_box>)
   .create();
@@ -580,9 +522,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateAluminium>, <ore:circuitAdvanced>, <ore:plateAluminium>],
     [<ore:plateAluminium>, <gregtech:machine:502>, <ore:plateAluminium>]])
   .setFluid(<liquid:superglue> * 250)
-  .addTool(<ore:artisansSpanner>, 5)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<actuallyadditions:block_empowerer>)
   .create();
 
@@ -594,15 +534,13 @@ RecipeBuilder.get("engineer")
     [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:battery_double_bauble>, <actuallyadditions:block_testifi_bucks_green_wall>],
     [<actuallyadditions:block_testifi_bucks_white_wall>, <gregtech:machine:501>, <actuallyadditions:block_testifi_bucks_white_wall>]])
   .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<actuallyadditions:block_display_stand>)
   .create();
 
 //Player Interface
 recipes.remove(<actuallyadditions:block_player_interface>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 2, <ore:plateEnderBiotite> * 4])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 2, <ore:plateEnderBiotite> * 4])
     .fluidInputs([<liquid:ender> * 500])    
     .outputs(<actuallyadditions:block_player_interface>)
     .duration(120)
@@ -617,8 +555,6 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateTreated>, <actuallyadditions:block_misc:9>, <ore:plateTreated>],
     [<ore:plateEnori>, <ore:plateEnori>, <ore:plateEnori>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 5)
-  .addTool(<ore:artisansSolderer>, 2)
   .addOutput(<actuallyadditions:block_firework_box>)
   .create();
 
@@ -633,16 +569,14 @@ RecipeBuilder.get("blacksmith")
     [<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:plateSteel>],
     [<ore:plateDenseSteel>, <actuallyadditions:block_misc:7>, <ore:gearRestonia>],
     [<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:plateSteel>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 3)
-  .addTool(<ore:artisansSolderer>, 3)
+  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<actuallyadditions:block_lamp_powerer>)
   .create();
 
 //Item Repairer
 recipes.remove(<actuallyadditions:block_item_repairer>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <ore:gearEnoriEmpowered> * 2, <ore:circuitAdvanced>])    
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <ore:gearEnoriEmpowered> * 2, <ore:circuitAdvanced>])    
     .outputs(<actuallyadditions:block_item_repairer>)
     .duration(127)
     .EUt(67)
@@ -685,15 +619,13 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateVoidEmpowered>, <actuallyadditions:item_misc:8>, <ore:plateVoidEmpowered>]])
   .setFluid(<liquid:canolaoil> * 750)
   .addTool(<ore:artisansHammer>, 8)
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<actuallyadditions:block_shock_suppressor>)
   .create();
 
 //Phantom Face
 recipes.remove(<actuallyadditions:block_phantomface>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <forestry:thermionic_tubes:5> * 2, <immersiveengineering:wooden_device0:5>])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <forestry:thermionic_tubes:5> * 2, <immersiveengineering:wooden_device0:5>])
     .fluidInputs([<liquid:cupronickel> * 288])        
     .outputs(<actuallyadditions:block_phantomface>)
     .duration(140)
@@ -703,7 +635,7 @@ assembler.recipeBuilder()
 //Phantom Energy Face
 recipes.remove(<actuallyadditions:block_phantom_energyface>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <forestry:thermionic_tubes:5> * 2, <actuallyadditions:battery_triple_bauble>])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <forestry:thermionic_tubes:5> * 2, <actuallyadditions:battery_triple_bauble>])
     .fluidInputs([<liquid:cupronickel> * 288])        
     .outputs(<actuallyadditions:block_phantom_energyface>)
     .duration(140)
@@ -713,7 +645,7 @@ assembler.recipeBuilder()
 //Phantom Liquid Face
 recipes.remove(<actuallyadditions:block_phantom_liquiface>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <forestry:thermionic_tubes:5> * 2, <fluidtank:blocktank3>])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <forestry:thermionic_tubes:5> * 2, <fluidtank:blocktank3>])
     .fluidInputs([<liquid:cupronickel> * 288])        
     .outputs(<actuallyadditions:block_phantom_liquiface>)
     .duration(140)
@@ -723,7 +655,7 @@ assembler.recipeBuilder()
 //Phantom Redstone Face
 recipes.remove(<actuallyadditions:block_phantom_redstoneface>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <forestry:thermionic_tubes:5> * 2, <thermalfoundation:material:512> * 4])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <forestry:thermionic_tubes:5> * 2, <thermalfoundation:material:512> * 4])
     .fluidInputs([<liquid:cupronickel> * 288])        
     .outputs(<actuallyadditions:block_phantom_redstoneface>)
     .duration(140)
@@ -733,7 +665,7 @@ assembler.recipeBuilder()
 //Phantom Placer
 recipes.remove(<actuallyadditions:block_phantom_placer>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <forestry:thermionic_tubes:5> * 2, <actuallyadditions:block_placer>])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <forestry:thermionic_tubes:5> * 2, <actuallyadditions:block_placer>])
     .fluidInputs([<liquid:cupronickel> * 288])        
     .outputs(<actuallyadditions:block_phantom_placer>)
     .duration(140)
@@ -743,7 +675,7 @@ assembler.recipeBuilder()
 //Phantom Breaker
 recipes.remove(<actuallyadditions:block_phantom_breaker>);
 assembler.recipeBuilder()
-    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatineEmpowered> * 4, <forestry:thermionic_tubes:5> * 2, <actuallyadditions:block_breaker>])
+    .inputs([<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8> * 2, <ore:plateDiamatine> * 4, <forestry:thermionic_tubes:5> * 2, <actuallyadditions:block_breaker>])
     .fluidInputs([<liquid:cupronickel> * 288])        
     .outputs(<actuallyadditions:block_phantom_breaker>)
     .duration(140)

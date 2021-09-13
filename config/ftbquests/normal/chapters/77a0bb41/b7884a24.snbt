@@ -1,0 +1,31 @@
+{
+	title: "Time to Improve our Engraver!",
+	x: 1.5d,
+	y: 5.9d,
+	description: "Engraving Circuits since [Insert the Date that you're playing].",
+	text: [
+		"This Laser Engraver will be used to make some special types of Wafers, time to engrave!"
+	],
+	dependencies: [
+		"d7fc9919"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7a661f15",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 431"
+		}]
+	}],
+	rewards: [{
+		uid: "900ff748",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "eea63af1",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32201",
+		count: 2
+	}]
+}

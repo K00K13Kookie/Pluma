@@ -1,5 +1,33 @@
 import mods.dropt.Dropt;
 
+Dropt.list("MinecraftGrass")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:tallgrass:1"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+          .items([<pyrotech:material:12> * 2])
+      )
+  );
+
+Dropt.list("MinecraftGrass1")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:double_plant:2"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+          .items([<pyrotech:material:12> * 4])
+      )
+  );
+
 Dropt.list("BiomesOPlentyGrass")
 
   .add(Dropt.rule()

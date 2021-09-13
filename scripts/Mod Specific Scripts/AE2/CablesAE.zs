@@ -93,9 +93,9 @@ var AE2Cable as IItemStack[] = [
 <appliedenergistics2:part:1>,
 <appliedenergistics2:part>
 ];
-
 for i in AE2Cable {  
-mods.chisel.Carving.addVariation("AE2Cable", i);
+#mods.chisel.Carving.addVariation("AE2Cable", i);
+chemical_bath.recipeBuilder().fluidInputs([<liquid:water> * 250]).inputs(i).outputs(<appliedenergistics2:part:16>).duration(100).EUt(8).buildAndRegister();
 }
 
 var AE2CoveredCable as IItemStack[] = [
@@ -117,9 +117,9 @@ var AE2CoveredCable as IItemStack[] = [
 <appliedenergistics2:part:21>,
 <appliedenergistics2:part:20>
 ];
-
 for i in AE2CoveredCable {  
-mods.chisel.Carving.addVariation("AE2CoveredCable", i);
+#mods.chisel.Carving.addVariation("AE2CoveredCable", i);
+chemical_bath.recipeBuilder().fluidInputs([<liquid:water> * 250]).inputs(i).outputs(<appliedenergistics2:part:36>).duration(100).EUt(8).buildAndRegister();
 }
 
 var AE2DenseCoveredCable as IItemStack[] = [
@@ -141,9 +141,9 @@ var AE2DenseCoveredCable as IItemStack[] = [
 <appliedenergistics2:part:501>,
 <appliedenergistics2:part:500>
 ];
-
 for i in AE2DenseCoveredCable {  
-mods.chisel.Carving.addVariation("AE2DenseCoveredCable", i);
+#mods.chisel.Carving.addVariation("AE2DenseCoveredCable", i);
+chemical_bath.recipeBuilder().fluidInputs([<liquid:water> * 250]).inputs(i).outputs(<appliedenergistics2:part:516>).duration(100).EUt(8).buildAndRegister();
 }
 
 var AE2DenseSmartCable as IItemStack[] = [
@@ -165,9 +165,9 @@ var AE2DenseSmartCable as IItemStack[] = [
 <appliedenergistics2:part:61>,
 <appliedenergistics2:part:60>
 ];
-
 for i in AE2DenseSmartCable {  
-mods.chisel.Carving.addVariation("AE2DenseSmartCable", i);
+#mods.chisel.Carving.addVariation("AE2DenseSmartCable", i);
+chemical_bath.recipeBuilder().fluidInputs([<liquid:water> * 250]).inputs(i).outputs(<appliedenergistics2:part:76>).duration(100).EUt(8).buildAndRegister();
 }
 
 var AE2SmartCable as IItemStack[] = [
@@ -189,7 +189,7 @@ var AE2SmartCable as IItemStack[] = [
 <appliedenergistics2:part:41>,
 <appliedenergistics2:part:40>
 ];
-
 for i in AE2SmartCable {  
-mods.chisel.Carving.addVariation("AE2SmartCable", i);
+#mods.chisel.Carving.addVariation("AE2SmartCable", i);
+chemical_bath.recipeBuilder().fluidInputs([<liquid:water> * 250]).inputs(i).outputs(<appliedenergistics2:part:56>).duration(100).EUt(8).buildAndRegister();
 }

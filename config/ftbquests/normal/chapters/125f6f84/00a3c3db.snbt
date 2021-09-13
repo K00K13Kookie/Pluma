@@ -1,0 +1,106 @@
+{
+	title: "Lets make an Heat Exchanger!",
+	icon: {
+		id: "rockhounding_chemistry:machines_b",
+		Damage: 11s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 14.6d,
+	y: 3.6d,
+	description: "Kinda tricky to set up, but lets go!",
+	text: [
+		"The §6Heat Exchanger§f processeses gases by cooling them trough a coolant liquid system.",
+		"",
+		"Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 1 Machines > Heat Exchanger.§r",
+		"",
+		"And it has some important info, let me explain:",
+		"",
+		"> §3Fill the Coolant Tank on top, making sure that the fluid temperature isn't higher than the input one! §nThe lower is the coolant temperature, less energy and coolant are consumed in the process§r§f.",
+		"",
+		"> A Good tip is also to use and §6Fluidpedia§f in order to see those info about fluid temperatures. (Water is 300 k for example).",
+		"",
+		"- This Machine uses RF Sources in the Power Station."
+	],
+	dependencies: [
+		"c44ca55f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "303104fe",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 11s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "713f19af",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 1s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "431f1d00",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "9b78088d",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 9s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		},
+		{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d2d4f70e",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 14s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "63e5eec0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

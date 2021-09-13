@@ -24,17 +24,9 @@
 		uid: "2b3b0cf0",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:stone_decoration"
+			item: "gregtech:metal_casing 1 8"
 		}],
 		count: 27L
-	},
-	{
-		uid: "af67ae45",
-		type: "item",
-		items: [{
-			item: "immersiveengineering:tool"
-		}],
-		ignore_nbt: 1b
 	},
 	{
 		uid: "6c0b733a",
@@ -53,10 +45,22 @@
 				}
 			}
 		}]
+	},
+	{
+		uid: "db910041",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 526"
+		}]
 	}],
 	rewards: [{
 		uid: "af9460c3",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "842a51af",
+		type: "item",
+		item: "ironchest:wood_iron_chest_upgrade"
 	}]
 }

@@ -1,21 +1,19 @@
 {
-  "weight": 140,
+  "weight": 60,
   "density": 0.3,
   "max_height": 40,
   "min_height": 10,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_1",
-      "type": "allium_c"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "almandine"
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
-    "radius": [20, 20]
+    "radius": [16, 17]
   },
   "filler": {
     "type": "simple",
@@ -23,11 +21,11 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 25,
+          "weight": 30,
           "value": "ore:almandine"
         },
         {
-          "weight": 20,
+          "weight": 30,
           "value": "ore:pyrope"
         },
 		{
@@ -35,12 +33,8 @@
           "value": "ore:sapphire"
         },
 		{
-          "weight": 15,
-          "value": "ore:green_sapphire"
-        },
-        {
           "weight": 10,
-          "value": "ore:vinteum"
+          "value": "ore:green_sapphire"
         }
       ]
     }

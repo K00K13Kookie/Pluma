@@ -79,7 +79,7 @@ autoclave.recipeBuilder()
 
 //Fluix
 autoclave.recipeBuilder()
-    .inputs(<ore:gemFluix>)
+    .inputs(<ore:crystalFluix>)
     .fluidInputs([<liquid:distilled_water> * 200])
     .outputs(<appliedenergistics2:material:12>)
     .duration(600)
@@ -136,7 +136,7 @@ engraver.recipeBuilder()
 # AE Processors =================================
 
 //Engineering Processor
-assembler.recipeBuilder()
+circuit_assembler.recipeBuilder()
     .inputs([<appliedenergistics2:material:17>, <appliedenergistics2:material:20>, <ore:wireFineRedAlloy>])
     .fluidInputs([<liquid:soldering_alloy> * 72])
     .outputs(<appliedenergistics2:material:24>)
@@ -145,7 +145,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 //Calculation Processor
-assembler.recipeBuilder()
+circuit_assembler.recipeBuilder()
     .inputs([<appliedenergistics2:material:16>, <appliedenergistics2:material:20>, <ore:wireFineRedAlloy>])
     .fluidInputs([<liquid:soldering_alloy> * 72])
     .outputs(<appliedenergistics2:material:23>)
@@ -154,7 +154,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 //Logic Processor
-assembler.recipeBuilder()
+circuit_assembler.recipeBuilder()
     .inputs([<appliedenergistics2:material:18>, <appliedenergistics2:material:20>, <ore:wireFineRedAlloy>])
     .fluidInputs([<liquid:soldering_alloy> * 72])
     .outputs(<appliedenergistics2:material:22>)
@@ -163,7 +163,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 //Parallel Processor
-assembler.recipeBuilder()
+circuit_assembler.recipeBuilder()
     .inputs([<contenttweaker:printedfluix>, <appliedenergistics2:material:20>, <ore:wireFineRedAlloy>])
     .fluidInputs([<liquid:soldering_alloy> * 72])
     .outputs(<threng:material:6>)
@@ -179,7 +179,7 @@ recipes.addShaped(<appliedenergistics2:sky_compass> * 1, [[<ore:screwSteel>, <or
 
 //Fluix Logic Unit
 recipes.remove(<threng:material:4>);
-assembler.recipeBuilder()
+circuit_assembler.recipeBuilder()
     .inputs([<threng:material:6>, <gregtech:meta_item_2:32455> * 2, <gregtech:meta_item_2:32461> * 2, <gregtech:meta_item_2:32448>])
     .fluidInputs([<liquid:soldering_alloy> * 72])
     .outputs(<threng:material:4>)
@@ -187,7 +187,7 @@ assembler.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 
-assembler.recipeBuilder()
+circuit_assembler.recipeBuilder()
     .inputs([<threng:material:6>, <gregtech:meta_item_2:32460> * 2, <gregtech:meta_item_2:32459> * 2, <gregtech:meta_item_2:32448>])
     .fluidInputs([<liquid:soldering_alloy> * 72])
     .outputs(<threng:material:4>)
@@ -199,7 +199,7 @@ assembler.recipeBuilder()
 //ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 assembler.recipeBuilder()
-    .inputs([<threng:material:4>, <appliedenergistics2:smooth_sky_stone_block> * 4, <ore:crystalPureFluix> * 4, <ore:screwTitanium> * 4, <ore:circuitAdvanced> * 2])
+    .inputs([<threng:material:4>, <appliedenergistics2:smooth_sky_stone_block> * 4, <ore:crystalPureFluix> * 4, <ore:screwTriberium> * 4, <ore:circuitGood> * 2])
     .fluidInputs([<liquid:superglue> * 250])
     .outputs(<appliedenergistics2:controller>)
     .duration(140)

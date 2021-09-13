@@ -1,7 +1,7 @@
 {
 	title: "Time to Stockpile some Resources!",
 	x: 31.0d,
-	y: -1.2d,
+	y: -0.3d,
 	description: "The Nether has some important resources for later on!",
 	text: [
 		"Now that you have acess to the Nether, you'll pretty much have acess to a bunch of important resources, some of them you'll not be able to use right now, but other such as glowstone and soulsand, can be quite handy.",

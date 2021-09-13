@@ -1,0 +1,70 @@
+{
+	title: "Making Blast Furnace Coils!",
+	icon: "gregtech:wire_coil",
+	x: 9.9d,
+	y: -0.8d,
+	description: "A Tricky and Very Important Block to Obtain!",
+	text: [
+		"First of all, you're going to need an Assembler with some Molten Tin! (theres a quest right above this one for that)",
+		"",
+		"Second, you'll need some Cupronickel! a lot of it.",
+		"",
+		"and the final step is to decide what are you going to use to Insulate the Coils, Mica or Alumino Silicate? You can choose whatever you want, but keep",
+		"in Mind that the Alumino could be easier to make, but expenside aswell."
+	],
+	dependencies: [
+		"ded7328b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3eb1676b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10109"
+		}],
+		count: 64L
+	},
+	{
+		uid: "1b79032d",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 1109"
+		}],
+		count: 128L
+	},
+	{
+		uid: "c1add5cf",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32028"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2961"
+		}]
+	},
+	{
+		uid: "5c781018",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "458941ef",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10109",
+		count: 16
+	},
+	{
+		uid: "d61de673",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6a0c4ab8",
+		type: "item",
+		item: "harvestcraft:meatloafsandwichitem",
+		count: 2
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Automating Sand!",
-	x: 18.2d,
-	y: -0.6d,
+	x: 20.0d,
+	y: -0.75d,
 	shape: "square",
 	description: "Macerator + Cobble Generator = Infinite Sand!",
 	text: [

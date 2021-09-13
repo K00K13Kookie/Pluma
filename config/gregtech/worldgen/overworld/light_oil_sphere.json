@@ -1,21 +1,27 @@
 {
-  "weight": 80,
-  "density": 0.9,
-  "max_height": 60,
+  "weight": 25,
+  "density": 1.0,
+  "max_height": 40,
   "min_height": 10,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
+  "priority": -100,
+  "count_as_vein": false,
+  "generation_predicate": "any",
+
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_2",
-      "type": "argocoffeeopsis_l"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "fluid_spring",
+    "chance": 0.40
   },
-  "dimension_filter": ["name:*(overworld|lostcities)"],
+  "biome_modifier": {
+    "type": "biome_dictionary",
+    "sandy": 5
+  },
   "generator": {
     "type": "sphere",
-    "radius": [7, 9]
+    "radius": [10, 15]
   },
   "filler": {
     "type": "ignore_bedrock",
@@ -24,7 +30,7 @@
       "values": [
         {
           "weight": 100,
-          "value": "block:gregtech:fluid.oil_light"
+          "value": "fluid:oil_light"
         }
       ]
     }

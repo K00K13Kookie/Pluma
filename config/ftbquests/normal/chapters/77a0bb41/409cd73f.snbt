@@ -1,8 +1,8 @@
 {
 	title: "The Blast Furnace!",
-	icon: "gregtech:machine 1 511",
-	x: 11.6d,
-	y: -0.8d,
+	icon: "gregtech:machine 1 2534",
+	x: 11.257823129251712d,
+	y: -0.8078231292516875d,
 	shape: "square",
 	description: "Anyway, I Started Blasting!",
 	text: [
@@ -12,7 +12,8 @@
 		"And an Important tip when using the Blast furnace is to take a look at JEI for some info about the Heat Required! Better Coils = More Heat."
 	],
 	dependencies: [
-		"ded7328b"
+		"05937b7f",
+		"4402c3e5"
 	],
 	hide: true,
 	size: 1.5d,
@@ -20,7 +21,7 @@
 		uid: "1f3992db",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 511"
+			item: "gregtech:machine 1 2534"
 		}]
 	},
 	{
@@ -38,14 +39,6 @@
 		}]
 	},
 	{
-		uid: "556fcc71",
-		type: "item",
-		items: [{
-			item: "gregtech:wire_coil"
-		}],
-		count: 16L
-	},
-	{
 		uid: "34096337",
 		type: "item",
 		items: [{
@@ -60,6 +53,20 @@
 			item: "gregtech:machine 1 714"
 		}],
 		count: 2L
+	},
+	{
+		uid: "268076ba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "cf0ff15e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4216"
+		}]
 	}],
 	rewards: [{
 		uid: "3acb8390",

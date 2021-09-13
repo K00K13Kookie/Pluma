@@ -1,0 +1,24 @@
+{
+	title: "Diodes!",
+	x: 8.75d,
+	y: 0.25d,
+	description: "A Circuit Component to reach MV!",
+	text: [
+		"Thats right! you'll be using some Diodes in order to craft your first MV Circuit!"
+	],
+	dependencies: [
+		"ded7328b"
+	],
+	tasks: [{
+		uid: "3f8de577",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32451"
+		}]
+	}],
+	rewards: [{
+		uid: "ae5610ef",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

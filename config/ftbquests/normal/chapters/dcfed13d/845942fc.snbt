@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 4 Circuit",
+	x: 6.0d,
+	y: 7.5d,
+	description: "Nano Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"6d7545aa"
+	],
+	tasks: [{
+		uid: "0f6fa7b1",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32211"
+		}]
+	}]
+}

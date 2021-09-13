@@ -2,7 +2,7 @@
 	title: "Ore Doubling! Finally!",
 	icon: "immersiveengineering:metal_multiblock 1 1",
 	x: 38.5d,
-	y: 0.5d,
+	y: 1.2d,
 	shape: "square",
 	description: "The Crusher is usefull for other task too tho",
 	text: [

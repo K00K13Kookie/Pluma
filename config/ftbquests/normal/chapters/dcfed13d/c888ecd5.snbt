@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 11 Circuit",
+	x: 18.0d,
+	y: 18.0d,
+	description: "Supra-Causal Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"578bcbb0"
+	],
+	tasks: [{
+		uid: "bc2c72f5",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32547"
+		}]
+	}]
+}

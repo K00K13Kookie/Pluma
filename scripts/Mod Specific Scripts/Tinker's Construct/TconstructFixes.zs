@@ -10,7 +10,7 @@ import mods.pyrotech.SoakingPot as SoakingPot;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Toolforge Tooltip
-<tconstruct:toolforge>.withTag({textureBlock: {id: "thermalfoundation:storage", Count: 1 as byte, Damage: 7 as short}}).addTooltip(format.green("Can be made with any Metal Block."));
+<tconstruct:toolforge>.withTag({textureBlock: {id: "gregtech:meta_block_compressed_2", Count: 1 as byte, Damage: 0 as short}}).addTooltip(format.green("Can be made with any Metal Block."));
 
 //Clear Glass Recipe
 furnace.addRecipe(<tconstruct:clear_glass>, <ore:blockGlassColorless>);
@@ -24,6 +24,38 @@ for i in Mud {
 mods.chisel.Carving.addVariation("Mud", i);
 }
 
+##### Table Recipes #####
+
+//Tool Station
+recipes.remove(<tconstruct:tooltables:3>);
+assembler.recipeBuilder()
+    .inputs([<forestry:worktable>, <ore:pattern>, <ore:screwAluminium> * 4, <forestry:oak_stick> * 4])
+    .property("circuit", 20)
+    .outputs(<tconstruct:tooltables:3>)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+//Part Chest
+recipes.remove(<tconstruct:tooltables:5>);
+assembler.recipeBuilder()
+    .inputs([<actuallyadditions:block_misc:4>, <ore:chestWood>, <ore:screwBlackSteel> * 4, <forestry:oak_stick> * 4])
+    .property("circuit", 20)
+    .outputs(<tconstruct:tooltables:5>)
+    .duration(200)
+    .EUt(32)
+    .buildAndRegister();
+
+//Parttern Chest
+recipes.remove(<tconstruct:tooltables:4>);
+assembler.recipeBuilder()
+    .inputs([<actuallyadditions:block_misc:4>, <ore:pattern>, <ore:screwBlackSteel> * 4, <forestry:oak_stick> * 4])
+    .property("circuit", 20)
+    .outputs(<tconstruct:tooltables:4>)
+    .duration(200)
+    .EUt(32)
+    .buildAndRegister();
+
 ##### Slimesling and Gadgetery #####
 
 //Green Slimesling
@@ -34,9 +66,7 @@ RecipeBuilder.get("blacksmith")
     [<tconstruct:slime_congealed>, <ore:plateConstantan>, <tconstruct:slime_congealed>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansCutters>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<tconstruct:slimesling>)
   .create();
 
@@ -48,9 +78,7 @@ RecipeBuilder.get("blacksmith")
     [<tconstruct:slime_congealed:1>, <ore:plateConstantan>, <tconstruct:slime_congealed:1>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:1>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansCutters>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<tconstruct:slimesling:1>)
   .create();
 
@@ -62,9 +90,7 @@ RecipeBuilder.get("blacksmith")
     [<tconstruct:slime_congealed:2>, <ore:plateConstantan>, <tconstruct:slime_congealed:2>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:2>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansCutters>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<tconstruct:slimesling:2>)
   .create();  
 
@@ -76,9 +102,7 @@ RecipeBuilder.get("blacksmith")
     [<tconstruct:slime_congealed:3>, <ore:plateConstantan>, <tconstruct:slime_congealed:3>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:3>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansCutters>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<tconstruct:slimesling:3>)
   .create();  
 
@@ -90,9 +114,7 @@ RecipeBuilder.get("blacksmith")
     [<tconstruct:slime_congealed:4>, <ore:plateConstantan>, <tconstruct:slime_congealed:4>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:4>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansCutters>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<tconstruct:slimesling:4>)
   .create();
 
@@ -100,12 +122,11 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<tconstruct:slime_boots>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [null, <tconstruct:slime_congealed>, null, <tconstruct:slime_congealed>, null],
-    [<ore:screwElectrotine>, <tconstruct:slime_congealed>, null, <tconstruct:slime_congealed>, <ore:screwElectrotine>],
-    [<tconstruct:slime_congealed>, <ore:plateDenseIron>, null, <ore:plateDenseIron>, <tconstruct:slime_congealed>]])
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansHammer>, 8)
+    [<ore:screwElectrotine>, null, <ore:screwElectrotine>],
+    [<tconstruct:slime_congealed>, null, <tconstruct:slime_congealed>],
+    [<ore:plateDenseSteel>, null, <ore:plateDenseSteel>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<tconstruct:slime_boots>)
   .create();
 
@@ -113,25 +134,11 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<tconstruct:slime_boots:1>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [null, <tconstruct:slime_congealed:1>, null, <tconstruct:slime_congealed:1>, null],
-    [<ore:screwElectrotine>, <tconstruct:slime_congealed:1>, null, <tconstruct:slime_congealed:1>, <ore:screwElectrotine>],
-    [<tconstruct:slime_congealed:1>, <ore:plateDenseIron>, null, <ore:plateDenseIron>, <tconstruct:slime_congealed:1>]])
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansHammer>, 8)
-  .addOutput(<tconstruct:slime_boots:1>)
-  .create();
-
-//Blue SlimeBoots
-recipes.remove(<tconstruct:slime_boots:1>);
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [null, <tconstruct:slime_congealed:1>, null, <tconstruct:slime_congealed:1>, null],
-    [<ore:screwElectrotine>, <tconstruct:slime_congealed:1>, null, <tconstruct:slime_congealed:1>, <ore:screwElectrotine>],
-    [<tconstruct:slime_congealed:1>, <ore:plateDenseIron>, null, <ore:plateDenseIron>, <tconstruct:slime_congealed:1>]])
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansHammer>, 8)
+    [<ore:screwElectrotine>, null, <ore:screwElectrotine>],
+    [<tconstruct:slime_congealed:1>, null, <tconstruct:slime_congealed:1>],
+    [<ore:plateDenseSteel>, null, <ore:plateDenseSteel>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<tconstruct:slime_boots:1>)
   .create();
 
@@ -139,12 +146,11 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<tconstruct:slime_boots:2>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [null, <tconstruct:slime_congealed:2>, null, <tconstruct:slime_congealed:2>, null],
-    [<ore:screwElectrotine>, <tconstruct:slime_congealed:2>, null, <tconstruct:slime_congealed:2>, <ore:screwElectrotine>],
-    [<tconstruct:slime_congealed:2>, <ore:plateDenseIron>, null, <ore:plateDenseIron>, <tconstruct:slime_congealed:2>]])
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansHammer>, 8)
+    [<ore:screwElectrotine>, null, <ore:screwElectrotine>],
+    [<tconstruct:slime_congealed:2>, null, <tconstruct:slime_congealed:2>],
+    [<ore:plateDenseSteel>, null, <ore:plateDenseSteel>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<tconstruct:slime_boots:2>)
   .create();
 
@@ -152,12 +158,11 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<tconstruct:slime_boots:3>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [null, <tconstruct:slime_congealed:3>, null, <tconstruct:slime_congealed:3>, null],
-    [<ore:screwElectrotine>, <tconstruct:slime_congealed:3>, null, <tconstruct:slime_congealed:3>, <ore:screwElectrotine>],
-    [<tconstruct:slime_congealed:3>, <ore:plateDenseIron>, null, <ore:plateDenseIron>, <tconstruct:slime_congealed:3>]])
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansHammer>, 8)
+    [<ore:screwElectrotine>, null, <ore:screwElectrotine>],
+    [<tconstruct:slime_congealed:3>, null, <tconstruct:slime_congealed:3>],
+    [<ore:plateDenseSteel>, null, <ore:plateDenseSteel>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<tconstruct:slime_boots:3>)
   .create();
 
@@ -165,12 +170,11 @@ RecipeBuilder.get("blacksmith")
 recipes.remove(<tconstruct:slime_boots:4>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [null, <tconstruct:slime_congealed:4>, null, <tconstruct:slime_congealed:4>, null],
-    [<ore:screwElectrotine>, <tconstruct:slime_congealed:4>, null, <tconstruct:slime_congealed:4>, <ore:screwElectrotine>],
-    [<tconstruct:slime_congealed:4>, <ore:plateDenseIron>, null, <ore:plateDenseIron>, <tconstruct:slime_congealed:4>]])
-  .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 10)
-  .addTool(<ore:artisansHammer>, 8)
+    [<ore:screwElectrotine>, null, <ore:screwElectrotine>],
+    [<tconstruct:slime_congealed:4>, null, <tconstruct:slime_congealed:4>],
+    [<ore:plateDenseSteel>, null, <ore:plateDenseSteel>]])
+  .setFluid(<liquid:creosote> * 500)
+  .addTool(<ore:artisansFramingHammer>, 5)
   .addOutput(<tconstruct:slime_boots:4>)
   .create();
 
@@ -183,8 +187,6 @@ RecipeBuilder.get("carpenter")
     [<ore:plateTreated>, <ore:plankTreatedWood>, <ore:plateTreated>]])
   .setFluid(<liquid:oliveoil> * 250)
   .addTool(<ore:artisansHandsaw>, 10)
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<tconstruct:piggybackpack>)
   .create();
 
@@ -351,9 +353,7 @@ RecipeBuilder.get("mason")
     [<ore:plateBronze>, <ore:ingotBrickSeared>, <ore:plateBronze>],
     [<ore:ingotBrickSeared>, <immersiveengineering:stone_decoration:2>, <ore:ingotBrickSeared>],
     [<ore:plateBronze>, <ore:ingotBrickSeared>, <ore:plateBronze>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansChisel>, 5)
+  .addTool(<ore:artisansTrowel>, 5)
   .addOutput(<tconstruct:seared_furnace_controller>)
   .create();
 
@@ -365,8 +365,6 @@ RecipeBuilder.get("mason")
     [<ore:ingotBrickSeared>, <pyrotech:refractory_glass>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <pyrotech:refractory_glass>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansTSquare>, 5)
-  .addTool(<ore:artisansChisel>, 5)
+  .addTool(<ore:artisansTrowel>, 5)
   .addOutput(<tconstruct:seared_tank>)
   .create();

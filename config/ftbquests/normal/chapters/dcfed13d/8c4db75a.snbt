@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 7 Circuit",
+	x: 12.0d,
+	y: 12.0d,
+	description: "Bioware Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c7ad8d7"
+	],
+	tasks: [{
+		uid: "d92f3c7c",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32402"
+		}]
+	}]
+}

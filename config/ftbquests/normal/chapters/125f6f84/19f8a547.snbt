@@ -1,0 +1,45 @@
+{
+	title: "But how do I move Gases?",
+	x: 7.3d,
+	y: -1.2d,
+	description: "Quite simple actually",
+	text: [
+		"For you to be able to move thoses Gases that you're producing around, you'll need some Gas pipelines, the §3Pump can be used to extract Gases§f and the duct acts simply as an way for it to travel to the desired destination.",
+		"",
+		"- Keep in mind for that you'll need to §3Shift + Right Click§f the Pump for it to \"activate\" and start extracting."
+	],
+	dependencies: [
+		"7abbfcce"
+	],
+	tasks: [{
+		uid: "60f4288d",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:gasline_pump"
+		}]
+	},
+	{
+		uid: "a52ac1b5",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:gasline_duct"
+		}]
+	}],
+	rewards: [{
+		uid: "b661b7c8",
+		type: "item",
+		item: "rockhounding_chemistry:gasline_duct",
+		random_bonus: 7
+	},
+	{
+		uid: "9c097ad7",
+		type: "item",
+		item: "rockhounding_chemistry:gasline_pump",
+		random_bonus: 3
+	},
+	{
+		uid: "901eabde",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

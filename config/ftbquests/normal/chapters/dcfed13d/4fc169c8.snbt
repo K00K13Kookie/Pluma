@@ -1,0 +1,19 @@
+{
+	title: "Final Tier 4 Circuit",
+	x: 9.0d,
+	y: 7.5d,
+	description: "Crystal Processor",
+	text: [
+		""
+	],
+	dependencies: [
+		"75670998"
+	],
+	tasks: [{
+		uid: "2af74a7e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32213"
+		}]
+	}]
+}

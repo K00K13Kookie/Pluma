@@ -1,0 +1,24 @@
+{
+	title: "Woah, it is really smoky right there!",
+	x: 12.8d,
+	y: -1.9d,
+	description: "Don't Worry, There's no Polution §mCurrently§r",
+	text: [
+		"The Muffler hatch that you've needed to use in your Blast Furnace is basically a source of Ashes! every time that you complete a recipe, theres a Chance based on the tier of hatch that you've used, for you to obtain ashes!"
+	],
+	dependencies: [
+		"409cd73f"
+	],
+	tasks: [{
+		uid: "909c7985",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4216"
+		}]
+	}],
+	rewards: [{
+		uid: "b84e6411",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

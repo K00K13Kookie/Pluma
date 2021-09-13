@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 8 Circuit",
+	x: 12.0d,
+	y: 13.5d,
+	description: "Bioware Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"0a27dbb9"
+	],
+	tasks: [{
+		uid: "2838134d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32403"
+		}]
+	}]
+}

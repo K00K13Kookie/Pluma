@@ -1,0 +1,27 @@
+{
+	title: "Obtaining Refined Air!",
+	icon: "rockhounding_chemistry:fluid.refined_air",
+	x: 10.1d,
+	y: 3.6d,
+	description: "Lets Refine Compressed Air!",
+	text: [
+		"To do This process, you'll need and Gas Purifier, want information about it? follow up the Main Rockhound Questline right above this one! it will have information about it.",
+		"",
+		"Also, you could just use the Info Panel right above this quest.",
+		"",
+		"And due to Technical Limitations (Refined Air is a Gas, so you couldn't store it in a Bucket) I can't specificy the correct requirement on this quest! §c§lonly checkmark it if you've done it!§f§r"
+	],
+	dependencies: [
+		"4641c04d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15f74c0f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "deb6f200",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

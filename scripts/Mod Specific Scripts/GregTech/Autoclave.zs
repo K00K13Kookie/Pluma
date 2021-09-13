@@ -1,4 +1,5 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.gtadditions.recipe.Utils as Utils;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -51,4 +52,25 @@ autoclave.recipeBuilder()
     .outputs(<tconstruct:materials:11> * 4)
     .duration(400)
     .EUt(24)
+    .buildAndRegister();    
+
+//Making the Nuclearcraft Rhodochrosite be a "True Gem" /////////////////////////////
+
+val compressor = RecipeMap.getByName("compressor");
+Utils.removeRecipeByOutput(compressor, [<nuclearcraft:gem>], [], false);
+
+autoclave.recipeBuilder()
+    .inputs(<nuclearcraft:gem_dust:1>)
+    .fluidInputs([<liquid:water> * 200])
+    .outputs(<nuclearcraft:gem>)
+    .duration(1600)
+    .EUt(32)
+    .buildAndRegister();
+
+autoclave.recipeBuilder()
+    .inputs(<nuclearcraft:gem_dust:1>)
+    .fluidInputs([<liquid:distilled_water> * 200])
+    .outputs(<nuclearcraft:gem>)
+    .duration(1600)
+    .EUt(32)
     .buildAndRegister();    

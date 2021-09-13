@@ -1,0 +1,19 @@
+{
+	title: "Final and Last Circuit of the whole Modpack",
+	x: 18.0d,
+	y: 21.0d,
+	description: "Supra-Causal Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"9bdf2386"
+	],
+	tasks: [{
+		uid: "949d9c65",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32549"
+		}]
+	}]
+}

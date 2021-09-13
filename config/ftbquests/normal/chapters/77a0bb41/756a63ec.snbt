@@ -1,0 +1,28 @@
+{
+	title: "Lets make Transistors!",
+	x: 7.2d,
+	y: 1.5d,
+	description: "A Key component to craft the Next Circuit!",
+	text: [
+		"Also, this is a good time to check your Circuit Progression Tab, as it can be very usefull for you to keep track of your Circuits.",
+		"",
+		"Also, remember that until you reach the \"Best\" Circuit of each Voltage, Is not worth it to make complex automations for these circuits."
+	],
+	dependencies: [
+		"798e258b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b0ebe27",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32461"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ebed19ed",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -41,6 +41,8 @@ val JungleTempleDispenser = LootTables.getTable("minecraft:chests/jungle_temple_
 //Jungle Temple ===============================================================================================================================
 val JungleTemple = LootTables.getTable("minecraft:chests/jungle_temple");
 
+val JungleTempleMain = JungleTemple.getPool("main");
+JungleTempleMain.removeEntry("#gregtech:loot_1xitem.meta_item@32599");
 
 //Nether Bridge ===============================================================================================================================
 val NetherBridge = LootTables.getTable("minecraft:chests/nether_bridge");

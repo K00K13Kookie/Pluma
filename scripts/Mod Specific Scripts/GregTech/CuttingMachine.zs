@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
+import mods.gtadditions.recipe.Utils;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -7,13 +8,12 @@ import mods.gregtech.recipe.RecipeMap;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Removing Integrated Circuit Wafer Cutting recipe and Readding for the LV Age
-saw.findRecipe(128, [<gregtech:meta_item_2:32463>], [<liquid:water> * 90]).remove();
+//Removing CPU Wafer Cutting recipe and Readding for the LV Age
+Utils.removeRecipeByOutput(saw, [<gregtech:meta_item_2:32478>], [], false);
 
 saw.recipeBuilder()
-    .inputs([<gregtech:meta_item_2:32463>])
-    .fluidInputs(<liquid:water> * 90)
-    .outputs(<gregtech:meta_item_2:32477> * 8)
+    .inputs([<gregtech:meta_item_2:32464>])
+    .outputs(<gregtech:meta_item_2:32478> * 8)
     .duration(1200)
     .EUt(32)
     .buildAndRegister();

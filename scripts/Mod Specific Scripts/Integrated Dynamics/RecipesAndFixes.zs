@@ -60,9 +60,7 @@ RecipeBuilder.get("engineer")
     [<ore:screwIron>, <contenttweaker:menrilsheet>, <ore:screwIron>],
     [<ore:casingIron>, <minecraft:piston>, <ore:casingIron>],
     [<ore:screwIron>, <contenttweaker:menrilsheet>, <ore:screwIron>]])
-  .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSolderer>, 4)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<integrateddynamics:variable_transformer> * 4)
   .create();
 
@@ -81,9 +79,7 @@ RecipeBuilder.get("engineer")
     [<ore:screwIron>, <ore:casingIron>, <ore:screwIron>],
     [<contenttweaker:menrilsheet>, <minecraft:sticky_piston>, <contenttweaker:menrilsheet>],
     [<ore:screwIron>, <ore:casingIron>, <ore:screwIron>]])
-  .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansSolderer>, 4)
-  .addTool(<ore:artisansSpanner>, 2)
   .addOutput(<integrateddynamics:variable_transformer:1> * 4)
   .create();
 
@@ -121,9 +117,7 @@ RecipeBuilder.get("engineer")
     [<contenttweaker:menrilsheet>, <ore:stickSilver>, <contenttweaker:menrilsheet>],
     [<contenttweaker:menrilsheet>, <ore:plateRedstone>, <contenttweaker:menrilsheet>],
     [<contenttweaker:menrilsheet>, <ore:stickSilver>, <contenttweaker:menrilsheet>]])
-  .addTool(<ore:artisansHammer>, 2)
   .addTool(<ore:artisansCutters>, 5)
-  .addTool(<ore:artisansDriver>, 2)
   .addOutput(<integrateddynamics:cable> * 6)
   .create();  
 
@@ -134,8 +128,6 @@ RecipeBuilder.get("engineer")
     [<ore:boltBismuthBronze>, <contenttweaker:menrilsheet>, <ore:boltBismuthBronze>],
     [<contenttweaker:menrilsheet>, <ore:plateDenseBlackSteel>, <contenttweaker:menrilsheet>],
     [<ore:boltBismuthBronze>, <contenttweaker:menrilsheet>, <ore:boltBismuthBronze>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansCutters>, 5)
   .addTool(<ore:artisansDriver>, 2)
   .addOutput(<integrateddynamics:part_display_panel_item>)
   .create();
@@ -146,8 +138,6 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<contenttweaker:menrilsheet>, <immersiveengineering:wooden_device0:5>, <contenttweaker:menrilsheet>],
     [<contenttweaker:menrilsheet>, <ore:plateDiamatine>, <contenttweaker:menrilsheet>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansCutters>, 2)
   .addTool(<ore:artisansDriver>, 3)
   .addOutput(<integratedtunnels:part_interface_item_item> * 4)
   .create();

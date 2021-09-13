@@ -1,7 +1,7 @@
 {
-	title: "MV Era",
-	x: 5.0d,
-	y: -1.0d,
+	title: "MV Era - 128 EU",
+	x: -1.5d,
+	y: 3.0d,
 	description: "Medium Voltage",
 	text: [
 		""

@@ -1,0 +1,36 @@
+{
+	title: "Your First Tier 2 Circuit!",
+	x: 24.0908163265306d,
+	y: -2.7115646258503396d,
+	description: "HV is at your hands now, FINALLY!",
+	text: [
+		"With all the Work you've done so far, you've finally reached HV! Congratulations! but it isn't the End yet...",
+		"",
+		"",
+		"Also, if please make sure that you've also completed the Quests in the Chapter 3 related to the Wafers required for this Circuit."
+	],
+	dependencies: [
+		"98b560ad",
+		"e7f8615e",
+		"164155ee"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "49360b72",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32202"
+		}]
+	}],
+	rewards: [{
+		uid: "60a3bd89",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "b128a061",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

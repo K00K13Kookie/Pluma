@@ -9,16 +9,16 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 
 //Genetics Processor =====================================
-assembler.recipeBuilder()
-.inputs(<ore:circuitGood>, <ore:plateDiamond> * 4, <gregtech:meta_item_2:32447>, <ore:foilRedAlloy> * 4)
+circuit_assembler.recipeBuilder()
+.inputs(<ore:circuitGood>, <ore:plateDiamond> * 4, <gtadditions:ga_meta_item:32030>, <ore:foilOsram> * 4)
 .fluidInputs(<liquid:tin> * 144)
 .outputs(<gendustry:genetics_processor>)
 .duration(250)
 .EUt(32)
 .buildAndRegister();
 
-assembler.recipeBuilder()
-.inputs(<ore:circuitGood>, <ore:plateDiamond> * 4, <gregtech:meta_item_2:32447>, <ore:foilRedAlloy> * 4)
+circuit_assembler.recipeBuilder()
+.inputs(<ore:circuitGood>, <ore:plateDiamond> * 4, <gtadditions:ga_meta_item:32030>, <ore:foilOsram> * 4)
 .fluidInputs(<liquid:soldering_alloy> * 72)
 .outputs(<gendustry:genetics_processor>)
 .duration(250)
@@ -26,16 +26,16 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 //Enviromental Processor =====================================
-assembler.recipeBuilder()
-.inputs(<ore:circuitGood>, <ore:plateLapis> * 4, <gregtech:meta_item_2:32447>, <ore:foilRoseGold> * 4)
+circuit_assembler.recipeBuilder()
+.inputs(<ore:circuitGood>, <ore:plateLapis> * 4, <gtadditions:ga_meta_item:32030>, <gtadditions:ga_meta_item:32028> * 4)
 .fluidInputs(<liquid:tin> * 144)
 .outputs(<gendustry:env_processor>)
 .duration(300)
 .EUt(32)
 .buildAndRegister();
 
-assembler.recipeBuilder()
-.inputs(<ore:circuitGood>, <ore:plateLapis> * 4, <gregtech:meta_item_2:32447>, <ore:foilRoseGold> * 4)
+circuit_assembler.recipeBuilder()
+.inputs(<ore:circuitGood>, <ore:plateLapis> * 4, <gtadditions:ga_meta_item:32030>, <gtadditions:ga_meta_item:32028> * 4)
 .fluidInputs(<liquid:soldering_alloy> * 72)
 .outputs(<gendustry:env_processor>)
 .duration(300)
@@ -78,13 +78,13 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 //Genetics Labware =====================================
-assembler.recipeBuilder()
-.inputs(<ore:casingIron> * 4, <ore:screwIron> * 4, <ore:gemFlawedDiamond>)
-.fluidInputs(<liquid:glass> * 576)
-.outputs(<gendustry:labware> * 16)
-.duration(250)
-.EUt(18)
-.buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs(<ore:stickSterlingSilver>)
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs(<gendustry:labware>)
+    .duration(160)
+    .EUt(24)
+    .buildAndRegister();
 
 //Mutagen Tank =====================================
 recipes.remove(<gendustry:mutagen_tank>);

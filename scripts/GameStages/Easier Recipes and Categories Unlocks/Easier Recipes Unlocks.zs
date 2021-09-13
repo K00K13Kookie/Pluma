@@ -18,19 +18,21 @@ mods.recipestages.Recipes.addShapeless("EasierCraftingTable", "EasierCraftingTab
 mods.recipestages.Recipes.addShapeless("EasierBricks", <minecraft:brick_block>, [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]);
 
 //Unlocking a easier alternative of Coke Bricks by using Refractory Bricks
-mods.recipestages.Recipes.addShapeless("EasierCokeBricks", <immersiveengineering:stone_decoration> * 3, [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]);
+mods.recipestages.Recipes.addShapeless("EasierCokeBricks", <gregtech:metal_casing:8> * 3, [<pyrotech:material:5>, <ore:ingotBrick>, <ore:ingotBrick>, <pyrotech:material:5>]);
 
 //Unlocking a easier alternative of Blast Bricks by using Fireclay Bricks
-mods.recipestages.Recipes.addShapeless("EasierBlastBricks", <immersiveengineering:stone_decoration:1> * 3, [<gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>]);
+mods.recipestages.Recipes.addShapeless("EasierBlastBricks", <gregtech:metal_casing:1> * 3, [<gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>]);
 
 //Unlocking a easier alternative of Basic Workshop by using a Crafting Station and an Artisan's Hammer
-mods.recipestages.Recipes.addShapeless("EasierBasicWorkshop", <artisanworktables:workshop:5>, [<ore:craftingTableWood>, <ore:artisansHammer>.reuse().transformDamage(5), <ore:artisansHandsaw>.reuse().transformDamage(5)]);
+mods.recipestages.Recipes.addShapeless("EasierBasicWorkshop", <artisanworktables:worktable:5>, [<ore:craftingTableWood>, <ore:artisansHammer>.reuse().transformDamage(5), <ore:artisansHandsaw>.reuse().transformDamage(5)]);
 
 #######################################################
 ##			         								 ##
 ##	ProjectRed Recipe Unlocks                        ##
 ##			         								 ##
 #######################################################
+
+/*
 
 // Conductive Plate
 mods.recipestages.Recipes.addShapeless("EasierProjectRed", <projectred-core:resource_item:1> * 2, [<projectred-core:resource_item>, <ore:dustRedstone>]);
@@ -60,6 +62,8 @@ mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resourc
 // Motor
 mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resource_item:410> * 1, [[null, <ore:gearInvar>, null], [<ore:plateBlackSteel>, <projectred-core:resource_item:400>, <ore:plateBlackSteel>],[<ore:plateRedAlloy>, <projectred-core:resource_item:400>, <ore:plateRedAlloy>]]);
 
+*/
+
 #######################################################
 ##			         								 ##
 ##	Storage Recipe Unlocks                           ##
@@ -67,10 +71,10 @@ mods.recipestages.Recipes.addShaped("EasierProjectRed", <projectred-core:resourc
 #######################################################
 
 // Cache (Basic)
-mods.recipestages.Recipes.addShaped("EasierStorage", <thermalexpansion:cache:0> * 1, [[<ore:boltTin>, <ore:plateDenseTin>, <ore:boltTin>], [<ore:plateBismuth>, <immersiveengineering:wooden_device0:0>, <ore:plateBismuth>],[<ore:boltTin>, <thermalfoundation:material:512>, <ore:boltTin>]]);
+mods.recipestages.Recipes.addShaped("EasierStorage", <thermalexpansion:cache:0> * 1, [[<ore:plateSteel>, <ore:plateDenseSteel>, <ore:plateSteel>], [<ore:plateBismuthBronze>, <ironchest:iron_chest>, <ore:plateBismuthBronze>],[<ore:plateSteel>, <thermalfoundation:material:512>, <ore:plateSteel>]]);
 
 // Chest
-mods.recipestages.Recipes.addShaped("EasierStorage", <minecraft:chest> * 1, [[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>], [<ore:plankTreatedWood>, <minecraft:stone_button>, <ore:plankTreatedWood>],[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>]]);
+mods.recipestages.Recipes.addShaped("EasierStorage", <minecraft:chest> * 1, [[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>], [<ore:plankTreatedWood>, <ore:ringIron>, <ore:plankTreatedWood>],[<ore:plateWood>, <ore:plankTreatedWood>, <ore:plateWood>]]);
 
 #####################################################################################
 ##			         								                               ##

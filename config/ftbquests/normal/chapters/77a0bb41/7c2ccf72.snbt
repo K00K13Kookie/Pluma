@@ -1,7 +1,7 @@
 {
 	title: "Making Sulfur Trioxide!",
-	x: 16.2d,
-	y: 1.8d,
+	x: 16.0d,
+	y: 3.5d,
 	shape: "square",
 	description: "Sulfur dust can be tricky to get currently",
 	text: [
@@ -10,7 +10,6 @@
 		"There's a Plenty of ways to get Sulfur dust, look at JEI, you can get it from its ore and even from electrolyzing/processing other dusts."
 	],
 	dependencies: [
-		"327ff8dc",
 		"d2af1900"
 	],
 	hide: true,

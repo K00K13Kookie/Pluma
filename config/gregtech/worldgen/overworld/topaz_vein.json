@@ -1,21 +1,19 @@
 {
-  "weight": 120,
-  "density": 0.5,
-  "max_height": 120,
+  "weight": 40,
+  "density": 0.3,
+  "max_height": 90,
   "min_height": 40,
+  "dimension_filter":
+[
+  "dimension_id:0"
+],
   "vein_populator": {
-    "type": "surface_block",
-    "block": {
-      "block": "plants2:cosmetic_3",
-      "type": "chrysanthemum_m"
-    },
-    "min_amount": 1,
-    "max_amount": 3
+    "type": "surface_rock",
+    "material": "topaz"
   },
-    "dimension_filter": ["name:*(overworld|lostcities)"],
   "generator": {
     "type": "ellipsoid",
-    "radius": [26, 30]
+    "radius": [10, 10]
   },
   "filler": {
     "type": "simple",
@@ -23,16 +21,16 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 25,
-          "value": "ore:blue_topaz"
-        },
-        {
-          "weight": 50,
+          "weight": 40,
           "value": "ore:topaz"
         },
         {
-          "weight": 25,
-          "value": "ore:amethyst"
+          "weight": 20,
+          "value": "ore:vinteum"
+        },
+        {
+          "weight": 40,
+          "value": "ore:blue_topaz"
         }
       ]
     }

@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 10 Circuit",
+	x: 16.5d,
+	y: 16.5d,
+	description: "Cosmic Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"dda62d0c"
+	],
+	tasks: [{
+		uid: "fb4dfeac",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32337"
+		}]
+	}]
+}

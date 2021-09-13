@@ -1,0 +1,100 @@
+{
+	title: "The Gas Condenser",
+	icon: {
+		id: "rockhounding_chemistry:machines_c",
+		Damage: 1s,
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 14.6d,
+	y: -1.3d,
+	description: "Lets Condense Gases into Liquids!",
+	text: [
+		"Its is a Basic machine that compresses gases into their liquid state. following the Expansion Ratio 1/N. it works in opposition to the Expansion Chamber, sharing the same recipes with inverted Inputs/Outputs.Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 3 Machines > Fixed Bed Reactor.§r",
+		"",
+		"Assemble these as shown in the guide book you've got, under §6Structures and Machines > Tier 1 Machines > Gas Condenser.§r",
+		"",
+		"- This Machine uses Fuel sources in the Power Station."
+	],
+	dependencies: [
+		"3670be9c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efedbe15",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_c",
+			Damage: 1s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "660ce331",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_b",
+			Damage: 9s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		},
+		{
+			id: "rockhounding_chemistry:machines_d",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9508a18",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_e",
+			Damage: 6s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "9a9c0fa5",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "3e1bfa57",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidpropylene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41f2582d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

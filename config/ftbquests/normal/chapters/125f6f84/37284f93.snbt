@@ -1,0 +1,27 @@
+{
+	title: "Upgrading your Pumps",
+	x: 7.3d,
+	y: -2.4d,
+	shape: "rsquare",
+	description: "Make them 10x Better!",
+	text: [
+		"The 10x Better Subtitle is not a joke, but right clicking with an compressing unit in a Gas Pump, you'll increse its pump rate from 1 to 10!"
+	],
+	dependencies: [
+		"19f8a547"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9c452923",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:misc_items 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42ee9978",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

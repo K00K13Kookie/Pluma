@@ -10,6 +10,7 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
+    "advancedrocketry:alienwood:0": "advancedrocketry:planks:0",
     "biomesoplenty:log_0:4": "biomesoplenty:planks_0:0",
     "biomesoplenty:log_0:5": "biomesoplenty:planks_0:1",
     "biomesoplenty:log_0:6": "biomesoplenty:planks_0:2",
@@ -187,8 +188,6 @@
     "minecraft:planks:5": "minecraft:wooden_slab:5",
     "plants2:crystal_log:0": "plants2:crystal_planks:0",
     "plants2:crystal_log:1": "plants2:crystal_planks:1",
-    "plants2:crystal_planks:0": "plants2:crystal_slab:0",
-    "plants2:crystal_planks:1": "plants2:dark_crystal_slab:0",
     "plants2:log_0:0": "plants2:planks:2",
     "plants2:log_0:1": "plants2:planks:3",
     "plants2:log_0:2": "plants2:planks:4",

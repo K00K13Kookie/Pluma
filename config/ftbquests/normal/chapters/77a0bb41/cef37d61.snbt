@@ -1,7 +1,7 @@
 {
 	title: "Autocrafting!",
-	x: 13.5d,
-	y: 11.0d,
+	x: 16.0d,
+	y: 12.75d,
 	description: "The Interface is probally the Most used AE2 Block...",
 	text: [
 		"With and Interface and an Adjacent Molecular Assembler, you can pretty much autocraft all Crafting Table Recipes!",

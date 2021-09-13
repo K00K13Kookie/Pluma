@@ -35,7 +35,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
     [<ore:stone>, <ore:stone>, <ore:stone>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<rftools:machine_base> * 2)
   .create();
 
@@ -55,8 +54,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateNetherQuartz>, <pyrotech:crate_stone>, <ore:plateNetherQuartz>]])
   .setFluid(<liquid:glue> * 250)  
   .addTool(<ore:artisansHammer>, 2)
-  .addTool(<ore:artisansSolderer>, 3)
-  .addTool(<ore:artisansBurner>, 2)
   .addOutput(<rftools:storage_module>)
   .create();
 
@@ -69,8 +66,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateQuartzite>, <ore:gearCinnabar>, <ore:plateQuartzite>]])
   .setFluid(<liquid:glue> * 250)  
   .addTool(<ore:artisansHammer>, 4)
-  .addTool(<ore:artisansSolderer>, 6)
-  .addTool(<ore:artisansBurner>, 4)
   .addOutput(<rftools:storage_module:1>)
   .create();
 
@@ -79,12 +74,10 @@ recipes.remove(<rftools:storage_module:2>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateGreenSapphire>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>],
-    [<ore:plateDenseGreenSapphire>, <rftools:storage_module:1>, <ore:plateDenseGreenSapphire>],
+    [<ore:plateGreenSapphire>, <rftools:storage_module:1>, <ore:plateGreenSapphire>],
     [<ore:plateDenseQuartzBlack>, <ore:gearAlmandine>, <ore:plateDenseQuartzBlack>]])
   .setFluid(<liquid:glue> * 250)  
   .addTool(<ore:artisansHammer>, 6)
-  .addTool(<ore:artisansSolderer>, 8)
-  .addTool(<ore:artisansBurner>, 6)
   .addOutput(<rftools:storage_module:2>)
   .create();
 
@@ -96,9 +89,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateQuartzite>, <gregtech:machine:501>, <ore:plateQuartzite>],
     [<ore:plateRedstone>, <ore:plateQuartzite>, <ore:plateRedstone>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)  
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<rftools:modular_storage>)
   .create();
 
@@ -110,8 +101,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateQuartzBlack>, <gregtech:machine:501>, <ore:plateQuartzBlack>],
     [<ore:plateEnderPearl>, <ore:plateQuartzBlack>, <ore:plateEnderPearl>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<rftools:remote_storage>)
   .create();
@@ -125,8 +114,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateRedSteel>, <ore:plateEnderEye>, <ore:plateRedSteel>]])
   .setFluid(<liquid:refinedcanolaoil> * 750)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<rftools:storage_scanner>)
   .create();
 
@@ -142,9 +129,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:circuitBasic>, <ore:plateSteel>]])
   .setFluid(<liquid:refinedcanolaoil> * 250)
-  .addTool(<ore:artisansHammer>, 3)
-  .addTool(<ore:artisansDriver>, 2)
-  .addTool(<ore:artisansSpanner>, 3)
+  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<rftools:storage_module_tablet>)
   .create();
 
@@ -156,9 +141,7 @@ RecipeBuilder.get("engineer")
     [<ore:craftingTableWood>, <gregtech:machine:501>, <ore:craftingTableWood>],
     [<ore:screwBlackSteel>, <ore:plateRedstone>, <ore:screwBlackSteel>]])
   .setFluid(<liquid:refinedcanolaoil> * 250)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<rftools:crafter1>)
   .create();
 
@@ -178,9 +161,7 @@ RecipeBuilder.get("engineer")
     [<ore:craftingTableWood>, <rftools:crafter1>, <ore:craftingTableWood>],
     [<ore:screwBlackSteel>, <ore:plateRedstone>, <ore:screwBlackSteel>]])
   .setFluid(<liquid:refinedcanolaoil> * 250)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<rftools:crafter2>)
   .create();
 
@@ -199,9 +180,7 @@ RecipeBuilder.get("engineer")
     [<ore:craftingTableWood>, <rftools:crafter2>, <ore:craftingTableWood>],
     [<ore:screwBlackSteel>, <ore:plateRedstone>, <ore:screwBlackSteel>]])
   .setFluid(<liquid:refinedcanolaoil> * 500)
-  .addTool(<ore:artisansHammer>, 5)
   .addTool(<ore:artisansDriver>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addOutput(<rftools:crafter3>)
   .create();
  
@@ -220,8 +199,6 @@ RecipeBuilder.get("engineer")
     [<ore:strengthenedGlass>, <gregtech:machine:501>, <ore:strengthenedGlass>],
     [<ore:plateRedAlloy>, <ore:strengthenedGlass>, <ore:plateRedAlloy>]])
   .setFluid(<liquid:refinedcanolaoil> * 250)
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansDriver>, 5)
   .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<rftools:screen_controller>)
   .create();
@@ -238,12 +215,10 @@ recipes.remove(<rftools:storage_module:6>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:stickEmerald>, null, <ore:stickEmerald>],
-    [<forestry:thermionic_tubes:12>, <ore:plateDenseGreenSapphire>, <forestry:thermionic_tubes:12>],
+    [<forestry:thermionic_tubes:12>, <ore:plateGreenSapphire>, <forestry:thermionic_tubes:12>],
     [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]])
   .setFluid(<liquid:glue> * 250)
   .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansLens>, 2)
-  .addTool(<ore:artisansBurner>, 5)
   .addOutput(<rftools:storage_module:6>)
   .create();
 
@@ -292,9 +267,7 @@ RecipeBuilder.get("engineer")
     [<railcraft:brick_pearlized>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), <railcraft:brick_pearlized>],
     [<ore:plateRedstone>, <gregtech:machine:502>, <ore:plateRedstone>],
     [<railcraft:brick_pearlized>, <ore:circuitGood>, <railcraft:brick_pearlized>]])
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansBurner>, 4)
   .addOutput(<rftools:builder>)
   .create();
 

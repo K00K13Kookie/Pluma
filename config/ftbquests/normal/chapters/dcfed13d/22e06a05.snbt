@@ -1,0 +1,26 @@
+{
+	title: "Circuit Manufacturing",
+	icon: "ftbquests:book",
+	x: 0.0d,
+	y: 0.5d,
+	description: "Information about how Circuit Manufacturing will Scale up with Time",
+	text: [
+		"The first technological tier of circuits, primitive circuits, is crafted by hand. The following tiers are fabricated in Circuit Assemblers, or the Assembly Line for high-end assemblies, computers and mainframes. Circuits at the Quantum tier or higher require the Large Circuit Assembly Line, craftable using LuV circuits (the first of which is the Nano Mainframe.)",
+		"",
+		"Higher technological tiers demand more complex processing chains for their respective components, but generally follow similar patterns in terms of what components they require (SMDs, circuit boards, metal frames for mainframes, etc.) Technological advancement will also allow you to make previous circuits more efficiently (e.g. using SoCs to craft Refined Processors without through-hole/SMD components.)"
+	],
+	dependencies: [
+		"e98087f8"
+	],
+	tasks: [{
+		uid: "9a12bb9e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d452aac9",
+		type: "item",
+		title: "Thank You for Reading <3",
+		item: "harvestcraft:supremepizzaitem",
+		random_bonus: 1
+	}]
+}

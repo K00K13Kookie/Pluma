@@ -1,0 +1,95 @@
+{
+	title: "Your First Rockhounding Setup!",
+	icon: {
+		id: "rockhounding_chemistry:machines_a",
+		tag: {
+			Fuel: 0,
+			Energy: 0
+		}
+	},
+	x: 1.0d,
+	y: 0.1d,
+	description: "The Mineral Sizer!",
+	text: [
+		"This Machine can handle Simple ore doubling, as well as the start of 8x ore processing! but for now, we will be using it to process some needed materials!",
+		"",
+		"Assemble these as shown in the guide book you got in the previous quest, under §6Structures and Machines > Tier 2 Machines > Mineral Sizer.§r",
+		"",
+		"Each Machine you assemble will need a §4Power Station§r, with Fuel and/or RF. Looking at which icons are blue on the top of the power station GUI will tell you which is needed. Fuel can be either §6Lava§r, §7Syngas§r, or any burnable item. §c(This one needs fuel)§r",
+		"",
+		"",
+		"Place 8 of any type §bCrushing Gears§r in the tanks, then crush your ore at the correct level in the Sizer Controller. You will need to remove the result from the Gangue Collecter before you can start the next batch. ",
+		"",
+		"The §f§eServer§r is optional in any multiblock that includes one, so we can ignore it for now.",
+		"",
+		"",
+		"§cOne thing to note is that some of these machines do not perform well on a server, so it is recomended to use Compact Machines for your processing chain."
+	],
+	dependencies: [
+		"475aca82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "410ac823",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "a3ec1efa",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 2s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "abf6ba55",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 3s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "75cf55eb",
+		type: "item",
+		items: [{
+			id: "rockhounding_chemistry:machines_a",
+			Damage: 1s,
+			tag: {
+				Fuel: 0,
+				Energy: 0
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "6550b69d",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:crushing_gear"
+		}],
+		count: 8L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "338eefa0",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

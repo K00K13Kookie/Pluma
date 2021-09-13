@@ -1,0 +1,19 @@
+{
+	title: "Second Tier 10 Circuit",
+	x: 15.0d,
+	y: 16.5d,
+	description: "Exotic Computer",
+	text: [
+		""
+	],
+	dependencies: [
+		"c8d42a77"
+	],
+	tasks: [{
+		uid: "cfbbc8e6",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32607"
+		}]
+	}]
+}

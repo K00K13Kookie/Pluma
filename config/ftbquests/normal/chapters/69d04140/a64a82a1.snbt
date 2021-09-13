@@ -4,10 +4,13 @@
 	x: -1.3037414965986684d,
 	y: 1.9882653061224644d,
 	shape: "square",
+	description: "Your first Crafting Table!",
 	text: [
 		"Crafting Tables are Expensive, in the Start of the Pack you'll be crafting your Items using this Special Table! in order to craft something on it, simply place the desired items on it (right clicking on the correct squares) and them smashing it with a hammer to make the progress bar go up!",
 		"",
-		"Now you know why i've asked you to make a Crude Hammer :)"
+		"Now you know why i've asked you to make a Crude Hammer :)",
+		"",
+		"§c§lAlso, don't try to pick up a Crafting Table naturally generated, you don't have the knowladge for them yet!"
 	],
 	dependencies: [
 		"924627e8"

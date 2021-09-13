@@ -1,0 +1,19 @@
+{
+	title: "Third Tier 6 Circuit",
+	x: 10.5d,
+	y: 10.5d,
+	description: "Wetware Assembly",
+	text: [
+		""
+	],
+	dependencies: [
+		"30a37b3a"
+	],
+	tasks: [{
+		uid: "9c8987ba",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32499"
+		}]
+	}]
+}

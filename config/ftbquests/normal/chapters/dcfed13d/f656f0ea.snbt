@@ -1,0 +1,19 @@
+{
+	title: "First Tier 7 Circuit",
+	x: 9.0d,
+	y: 12.0d,
+	description: "Crystal Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"7be650c6"
+	],
+	tasks: [{
+		uid: "95b2e63c",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32215"
+		}]
+	}]
+}

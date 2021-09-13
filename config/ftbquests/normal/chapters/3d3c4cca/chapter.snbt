@@ -3,5 +3,16 @@
 	icon: "chisel:futura 1 3",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: "rsquare"
+	default_quest_shape: "rsquare",
+	images: [{
+		x: -5.9d,
+		y: -5.4d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/buildbanner.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

@@ -9,6 +9,32 @@ import mods.artisanworktables.builder.RecipeBuilder;
 //Beewax by hand Recipe
 recipes.addShapeless("EarlyBeeWax", <forestry:beeswax>, [<ore:beeComb>, <gregtech:meta_tool:12>]);
 
+
+### HoneComb Fixes ###
+
+<ore:ingotHoneycomb>.add(<careerbees:ingredients:10>);
+
+// Bee Armor Chestplate
+recipes.remove(<careerbees:bee.armor.chest>);
+recipes.addShaped(<careerbees:bee.armor.chest> * 1, [[<ore:plateHoneycomb>, <gregtech:meta_tool:8>, <ore:plateHoneycomb>], [<ore:plateHoneycomb>, <ore:plateHoneycomb>, <ore:plateHoneycomb>],[<ore:plateHoneycomb>, <ore:plateHoneycomb>, <ore:plateHoneycomb>]]);
+
+// Bee Armor Helmet
+recipes.remove(<careerbees:bee.armor.head>);
+recipes.addShaped(<careerbees:bee.armor.head> * 1, [[<ore:boltSteel>, null, <ore:boltSteel>], [<ore:plateHoneycomb>, <ore:plateHoneycomb>, <ore:plateHoneycomb>],[<ore:plateHoneycomb>, <gregtech:meta_tool:8>, <ore:plateHoneycomb>]]);
+
+// Bee Armor Leggings
+recipes.remove(<careerbees:bee.armor.legs>);
+recipes.addShaped(<careerbees:bee.armor.legs> * 1, [[<ore:plateHoneycomb>, <ore:plateHoneycomb>, <ore:plateHoneycomb>], [<ore:plateHoneycomb>, <gregtech:meta_tool:8>, <ore:plateHoneycomb>],[<ore:plateHoneycomb>, null, <ore:plateHoneycomb>]]);
+
+// Bee Armor Boots
+recipes.remove(<careerbees:bee.armor.feet>);
+recipes.addShaped(<careerbees:bee.armor.feet> * 1, [[<ore:screwHoneycomb>, null, <ore:screwHoneycomb>], [<ore:plateHoneycomb>, <gregtech:meta_tool:8>, <ore:plateHoneycomb>],[<ore:plateHoneycomb>, null, <ore:plateHoneycomb>]]);
+
+// Bee-Bee Gun
+recipes.remove(<careerbees:beegun>);
+recipes.addShaped(<careerbees:beegun> * 1, [[<ore:screwHoneycomb>, <gregtech:meta_tool:11>, <ore:screwHoneycomb>], [<careerbees:ingredients:10>, <ore:gearHoneycomb>, <ore:plateHoneycomb>],[<careerbees:ingredients:10>, <gregtech:meta_tool:8>, <gregtech:meta_tool:6>]]);
+
+
 var ItensRemovidosAteDoCarpenter as IItemStack[] = [
 <forestry:kit_shovel>,
 <forestry:kit_pickaxe>,
@@ -280,9 +306,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateTin>, <ore:strengthenedGlass>, <ore:plateTin>],
     [<ore:plateTin>, <forestry:sturdy_machine>, <ore:plateTin>],
     [<ore:plateTin>, <ore:strengthenedGlass>, <ore:plateTin>]])
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<forestry:squeezer>)
   .create();
 
@@ -294,8 +318,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateBronze>, <forestry:sturdy_machine>, <ore:plateBronze>],
     [<ore:plateBronze>, <ore:strengthenedGlass>, <ore:plateBronze>]])
   .addTool(<ore:artisansSolderer>, 4)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 3)
   .addOutput(<forestry:carpenter>)
   .create();
 
@@ -306,9 +328,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateCopper>, <ore:strengthenedGlass>, <ore:plateCopper>],
     [<ore:casingCopper>, <forestry:sturdy_machine>, <ore:casingCopper>],
     [<ore:plateCopper>, <ore:strengthenedGlass>, <ore:plateCopper>]])
-  .addTool(<ore:artisansSolderer>, 4)
   .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 3)
   .addOutput(<forestry:centrifuge>)
   .create();
 
@@ -320,8 +340,6 @@ recipes.remove(<forestry:fabricator>);
     [<ore:strengthenedGlass>, <ore:gearElectrum>, <ore:strengthenedGlass>],
     [<ore:plateGold>, <forestry:hardened_machine>, <ore:plateGold>]])
   .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
-  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<forestry:fabricator>)
   .create(); 
 
@@ -332,8 +350,6 @@ RecipeBuilder.get("engineer")
     [<ore:plateRedstone>, <ore:plateDenseBismuthBronze>, <ore:plateRedstone>],
     [<ore:boltBismuthBronze>, <ore:gearBismuthBronze>, <ore:boltBismuthBronze>],
     [<ore:plateRedstone>, <forestry:hardened_machine>, <ore:plateRedstone>]])
-  .addTool(<ore:artisansSolderer>, 5)
-  .addTool(<ore:artisansSpanner>, 5)
   .addTool(<ore:artisansHammer>, 4)
   .addOutput(<forestry:still>)
   .create();

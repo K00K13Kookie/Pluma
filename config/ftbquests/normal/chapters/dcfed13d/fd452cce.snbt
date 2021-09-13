@@ -1,7 +1,7 @@
 {
-	title: "HV Era",
-	x: 7.0d,
-	y: -1.0d,
+	title: "HV Era - 512 EU",
+	x: 0.0d,
+	y: 4.5d,
 	description: "High Voltage",
 	text: [
 		""

@@ -1,0 +1,30 @@
+{
+	title: "Your Third Tier 1 Circuit!",
+	x: 5.0078231292516975d,
+	y: 6.126190476190487d,
+	description: "Improving your MV Infrastructure!",
+	text: [
+		"By using your Best LV Circuits and some Stainless Steel, you'll be able to make this Circuit! The Third at the MV Level! you should make some as it will be used later on to make the Second Tier 2 Circuit."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"98b560ad",
+		"b6e82289",
+		"5f11264b",
+		"48b1379c"
+	],
+	hide: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "41f9256d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32204"
+		}]
+	}],
+	rewards: [{
+		uid: "a5904526",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

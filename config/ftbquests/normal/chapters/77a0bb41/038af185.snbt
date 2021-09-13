@@ -1,23 +1,27 @@
 {
-	title: "Tier 1 Circuits!",
-	x: 18.2d,
-	y: -2.0d,
+	title: "Second Tier 0 Circuits!",
+	x: 18.22397959183673d,
+	y: -2.0102040816326294d,
 	shape: "square",
 	description: "More Machines are now Acessible!",
 	text: [
-		"Now that you're able to make at least Tier 1 Circuits, you'll be able to make more and more Machines!"
+		"Now that you're able to make at least the Second Tier 0 Circuits, you'll be able to make more and more Machines!",
+		"",
+		"(You Could Technically still use your \"Primitive Circuits\" in all LV Machines, but, it is better to make an easier Circuit First, right?)"
 	],
 	dependencies: [
 		"59c81253",
-		"327ff8dc"
+		"327ff8dc",
+		"148b0894",
+		"85103c97"
 	],
 	hide: true,
 	size: 1.5d,
 	tasks: [{
-		uid: "4180ef28",
+		uid: "6cb3e25b",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:material 1 27"
+			item: "gregtech:meta_item_2 1 32488"
 		}]
 	}],
 	rewards: [{

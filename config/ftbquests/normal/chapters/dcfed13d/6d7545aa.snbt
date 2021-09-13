@@ -1,0 +1,19 @@
+{
+	title: "First Tier 4 Circuit",
+	x: 4.5d,
+	y: 7.5d,
+	description: "Micro Mainframe",
+	text: [
+		""
+	],
+	dependencies: [
+		"2ca3a70a"
+	],
+	tasks: [{
+		uid: "a8fc6499",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32208"
+		}]
+	}]
+}

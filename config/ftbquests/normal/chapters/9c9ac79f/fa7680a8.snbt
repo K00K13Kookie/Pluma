@@ -1,8 +1,8 @@
 {
 	title: "Want to learn more? Check out the Wiki!",
 	icon: "forestry:gear_bronze",
-	x: 47.0d,
-	y: -7.0d,
+	x: 47.7d,
+	y: -6.5d,
 	shape: "gear",
 	description: "Click here to be redirected to the Wiki!",
 	text: [

@@ -1,0 +1,26 @@
+{
+	title: "Your First Tier 1 Circuit!",
+	x: 8.75d,
+	y: 1.5d,
+	description: "Expensive, but usefull to reach Early MV!",
+	text: [
+		"With your brand new Diodes, it is time to make your first MV Circuit! don't worry, you'll unlock better options for Circuits in MV.",
+		"",
+		"The reason why I'am asking to get your First MV Circuit now, its for you to improve some of your productions so you can advance to MV Easily."
+	],
+	dependencies: [
+		"44529302"
+	],
+	tasks: [{
+		uid: "018452b8",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32200"
+		}]
+	}],
+	rewards: [{
+		uid: "371c55ee",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

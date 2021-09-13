@@ -1,0 +1,20 @@
+{
+	title: "High Voltage, Lets Go!",
+	x: 20.7d,
+	y: -2.7d,
+	description: "High Voltage Machines Awaits you!",
+	text: [
+		"Now that you've obtained your first Batch of Stainless Steel, it is time to make some Hulls, you can't make HV Machines yet, but, you're one step closer!"
+	],
+	dependencies: [
+		"e864e7ca"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "09a9ce9c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 503"
+		}]
+	}]
+}
