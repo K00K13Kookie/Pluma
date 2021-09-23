@@ -72,7 +72,31 @@ implosion.recipeBuilder()
 recipes.remove(<advancedrocketry:rocketbuilder>);
 assembler.recipeBuilder()
     .inputs([<libvulpes:structuremachine>, <advancedrocketry:misc>, <advancedrocketry:ic:3> * 2, <ore:springStainlessSteel> * 2, <ore:gearStainlessSteel> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 288]) 
     .outputs(<advancedrocketry:rocketbuilder>)
     .duration(300)
     .EUt(500)
     .buildAndRegister();
+
+// Precision Assembler ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Control Circuit Board
+recipes.remove(<advancedrocketry:ic:3>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
+
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:3>*1, 160, 2048, <gtadditions:ga_meta_item:32033>, <gregtech:meta_item_2:32458>*4, <gregtech:meta_item_2:32460>*4, <contenttweaker:etchedtriberiumwiring>*4);
+
+//Item IO Circuit Board
+recipes.remove(<advancedrocketry:ic:4>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
+
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:4>*1, 160, 2048, <gtadditions:ga_meta_item:32032>, <gregtech:meta_item_2:32458>*4, <gregtech:meta_item_2:32460>*4, <contenttweaker:etchedtriberiumwiring>*4, <ore:foilRoseGold>*4);
+
+//Fluid IO Circuit Board
+recipes.remove(<advancedrocketry:ic:5>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
+
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:5>*1, 160, 2048, <gtadditions:ga_meta_item:32032>, <gregtech:meta_item_2:32458>*4, <gregtech:meta_item_2:32460>*4, <contenttweaker:etchedtriberiumwiring>*4, <ore:foilInvar>*4);

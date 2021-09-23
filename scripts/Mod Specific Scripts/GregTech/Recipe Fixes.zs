@@ -493,9 +493,6 @@ RecipeBuilder.get("mason")
   .addOutput(<gregtech:machine:527>)
   .create();
 
-
-##### Steel Fixes #####
-
 ##### Spring Recipes #####
 
 // Gold Spring
@@ -518,30 +515,16 @@ recipes.addShaped(<gregtech:meta_item_2:21183> * 1, [[null, <gregtech:meta_tool:
 recipes.remove(<gregtech:meta_item_2:21184>);
 recipes.addShaped(<gregtech:meta_item_2:21184> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongSteel>, <gregtech:meta_tool:13>],[null, <ore:stickLongSteel>, null]]);
 
-##### Small Spring Recipes #####
-
-// Steel Small Spring
-recipes.remove(<gregtech:meta_item_2:20184>);
-recipes.addShaped(<gregtech:meta_item_2:20184> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickSteel>, <gregtech:meta_tool:13>],[null, null, null]]);
+// Ovium Spring
+recipes.remove(<gregtech:meta_item_2:21478>);
+recipes.addShaped(<gregtech:meta_item_2:21478> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickLongOsmium>, <gregtech:meta_tool:13>],[null, <ore:stickLongOsmium>, null]]);
 
 MetalBender.recipeBuilder()
-    .inputs(<ore:stickSteel>)
+    .inputs(<ore:stickLongOsmium>)
     .property("circuit", 1)
-    .outputs(<gregtech:meta_item_2:20184> * 2)
+    .outputs(<ore:springOvium>.firstItem)
     .duration(100)
-    .EUt(7)
-.buildAndRegister();
-
-// Stainless Steel Small Spring
-recipes.remove(<gregtech:meta_item_2:20183>);
-recipes.addShaped(<gregtech:meta_item_2:20183> * 1, [[null, <gregtech:meta_tool:5>, null], [<gregtech:meta_tool:9>, <ore:stickStainlessSteel>, <gregtech:meta_tool:13>],[null, null, null]]);
-
-MetalBender.recipeBuilder()
-    .inputs(<ore:stickStainlessSteel>)
-    .property("circuit", 1)
-    .outputs(<gregtech:meta_item_2:20183> * 2)
-    .duration(100)
-    .EUt(7)
+    .EUt(16)
 .buildAndRegister();
 
 ### Quartz Fix ####

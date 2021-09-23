@@ -244,5 +244,9 @@ unpreparedspaceBoots.register();
 var etchedRedAlloyWiring = VanillaFactory.createItem("etchedredalloywiring");
 etchedRedAlloyWiring.register();
 
+// Triberium Wiring ================================================================================
+var etchedTriberiumWiring = VanillaFactory.createItem("etchedtriberiumwiring");
+etchedTriberiumWiring.register();
+
 print("--------------- Custom Resources End ------------------");
 

@@ -123,6 +123,11 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<projectred-exploration:stone:6>
 	],
 
+	#blockOvium
+	<ore:blockOvium> : [
+		<taiga:ovium_block>
+	],
+
 	#blockCopper
 	<ore:blockCopper> : [
 		<thermalfoundation:storage>,
@@ -136,6 +141,11 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockQuartzBlack
 	<ore:blockQuartzBlack> : [
 		<gregtech:meta_block_compressed_29:11>
+	],
+
+	#blockRosegold
+	<ore:blockRosegold> : [
+		<rockhounding_chemistry:alloy_blocks_deco:1>
 	],
 
 	#blockCharcoal
@@ -377,6 +387,16 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustDilithium
 	<ore:dustDilithium> : [
 		<libvulpes:productdust>
+	],
+
+	#dustOvium
+	<ore:dustOvium> : [
+		<taiga:ovium_dust>
+	],
+
+	#dustRosegold
+	<ore:dustRosegold> : [
+		<rockhounding_chemistry:alloy_items_deco:3>
 	],
 
 	#dustCopper
@@ -764,9 +784,19 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<taiga:triberium_ingot>
 	],
 
+	#ingotOvium
+	<ore:ingotOvium> : [
+		<taiga:ovium_ingot>
+	],
+
 	#ingotCupronickel
 	<ore:ingotCupronickel> : [
 		<rockhounding_chemistry:alloy_items_tech:13>
+	],
+
+	#ingotRosegold
+	<ore:ingotRosegold> : [
+		<rockhounding_chemistry:alloy_items_deco:4>
 	],
 
 	#ingotCopper
@@ -1099,6 +1129,16 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	# nuggetTriberium
 	<ore:nuggetTriberium> : [
         <taiga:triberium_nugget>
+	],
+
+	# nuggetOvium
+	<ore:nuggetOvium> : [
+        <taiga:ovium_nugget>
+	],
+
+	# nuggetRosegold
+	<ore:nuggetRosegold> : [
+        <rockhounding_chemistry:alloy_items_deco:5>
 	],
 
     # nuggetCopper
@@ -1453,6 +1493,11 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
         <immersiveengineering:metal:37>
 	],
 
+	#plateRosegold
+	<ore:plateRosegold> : [
+		<rockhounding_chemistry:alloy_parts:52>
+	],
+
 	#plateGold
 	<ore:plateGold> : [
 		<libvulpes:productplate:2>,
@@ -1587,6 +1632,11 @@ var gearsDisabled as IItemStack[][IOreDictEntry] = {
 	#gearEnderium
 	<ore:gearEnderium> : [
 		<gregtech:meta_item_2:26963>
+	],
+
+	#gearRosegold
+	<ore:gearRosegold> : [
+		<rockhounding_chemistry:alloy_parts:51>
 	],
 
 	#gearCopper

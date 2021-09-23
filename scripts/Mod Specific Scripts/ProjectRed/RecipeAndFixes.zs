@@ -12,6 +12,11 @@ recipes.addShapeless("RedAlloyWireCompatI", <gregtech:cable:237>, [<projectred-t
 
 ## //// ###
 
+
+##### Lang fixes ######
+
+<projectred-exploration:stone:11>.displayName = "Block of Electrotine Dust";
+
 /// Circuit Plate ///
 furnace.remove(<projectred-core:resource_item>);
 forming.recipeBuilder()

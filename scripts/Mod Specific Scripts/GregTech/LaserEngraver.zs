@@ -28,3 +28,13 @@ engraver.recipeBuilder()
     .duration(400)
     .EUt(32)
 .buildAndRegister();
+
+/// Etched Triberium Wiring
+
+engraver.recipeBuilder()
+    .inputs(<ore:foilTriberium>)
+    .notConsumable(<ore:craftingLensGreen>)
+    .outputs(<contenttweaker:etchedtriberiumwiring> * 2)
+    .duration(400)
+    .EUt(128)
+.buildAndRegister();

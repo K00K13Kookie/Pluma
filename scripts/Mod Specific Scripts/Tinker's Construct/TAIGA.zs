@@ -37,7 +37,7 @@ import crafttweaker.item.IItemStack;
 //Terrax
 mixer.recipeBuilder()
     .inputs(<taiga:karmesine_dust>)
-    .fluidInputs([<liquid:ovium_fluid> * 144])
+    .fluidInputs([<liquid:ovium> * 144])
     .fluidInputs([<liquid:jauxum_fluid> * 144])	
     .fluidOutputs(<liquid:terrax_fluid> * 432)
     .duration(240)
@@ -1805,78 +1805,19 @@ solidifier.recipeBuilder()
 //Ovium
 macerator.recipeBuilder()
     .inputs([<taiga:ovium_ore>])
-    .outputs(<taiga:ovium_dust> * 2)
+    .outputs(<ore:dustOvium>.firstItem * 2)
     .duration(120)
     .EUt(80)
     .buildAndRegister();
 
+
+furnace.remove(<gregtech:meta_item_1:10478>);
 blast_furnace.recipeBuilder()
-    .inputs(<taiga:ovium_dust>)
-    .outputs(<taiga:ovium_ingot>)
+    .inputs(<ore:dustOvium>)
+    .outputs(<ore:ingotOvium>.firstItem)
     .property("temperature", 1800)
     .duration(1500)
     .EUt(128)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs([<taiga:ovium_ingot>])
-    .outputs(<taiga:ovium_dust>)
-    .duration(30)
-    .EUt(8)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs([<taiga:ovium_block>])
-    .outputs(<taiga:ovium_dust> * 9)
-    .duration(60)
-    .EUt(16)
-    .buildAndRegister();
-
-### Fluids of this Resource
-
-fluid_extractor.recipeBuilder()
-    .inputs(<taiga:ovium_block>)
-    .fluidOutputs(<liquid:ovium_fluid> * 1296)
-    .duration(720)
-    .EUt(32)
-    .buildAndRegister();
-
-fluid_extractor.recipeBuilder()
-    .inputs(<taiga:ovium_ingot>)
-    .fluidOutputs(<liquid:ovium_fluid> * 144)
-    .duration(80)
-    .EUt(32)
-    .buildAndRegister();
-
-fluid_extractor.recipeBuilder()
-    .inputs(<taiga:ovium_nugget>)
-    .fluidOutputs(<liquid:ovium_fluid> * 16)
-    .duration(8.8)
-    .EUt(32)
-    .buildAndRegister();
-
-solidifier.recipeBuilder()
-    .fluidInputs(<liquid:ovium_fluid> * 1296)
-    .notConsumable(<gregtech:meta_item_1:32308>)
-    .outputs(<taiga:ovium_block>)		
-    .duration(56)
-    .EUt(8)
-    .buildAndRegister();
-
-solidifier.recipeBuilder()
-    .fluidInputs(<liquid:ovium_fluid> * 144)
-    .notConsumable(<gregtech:meta_item_1:32306>)
-    .outputs(<taiga:ovium_ingot>)		
-    .duration(20)
-    .EUt(8)
-    .buildAndRegister();
-
-solidifier.recipeBuilder()
-    .fluidInputs(<liquid:ovium_fluid> * 16)
-    .notConsumable(<gregtech:meta_item_1:32309>)	
-    .outputs(<taiga:ovium_nugget>)	
-    .duration(12.8)
-    .EUt(4)
     .buildAndRegister();
 
 //Jauxum
